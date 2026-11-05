@@ -130,7 +130,16 @@ const stripNote = (t: string) => t.replace(/\s*\([^()]*\)\s*$/, "").trim();
 
 /** A target-language sentence (`es`, named as in LessonExample) with its
  * translation into the learner's language (`en`), when usable. */
-export type Sentence = { es: string; en?: string; /** The lesson it came from. */ lesson?: string };
+export type Sentence = {
+  es: string;
+  en?: string;
+  /** The lesson it came from. */
+  lesson?: string;
+  /** The author's parenthetical note on the example (why it works), when there is one. */
+  note?: string;
+};
+
+const noteOf = (t: string | undefined) => /\(([^()]{12,})\)\s*$/.exec(t ?? "")?.[1].trim().replace(/[.;:]+$/, "");
 
 const ENGLISH_PROSE = /\b(the|and|is|are|you|of|with|this|that|it|which)\b/i;
 
@@ -160,7 +169,7 @@ function unitSentences(
       const en = ex.en === undefined ? undefined : stripNote(ex.en);
       if (!usableEs(es, 140) || seen.has(es.toLowerCase())) continue;
       seen.add(es.toLowerCase());
-      out.push({ es, en: glossOk(en, es) ? en : undefined, lesson: ex.lesson });
+      out.push({ es, en: glossOk(en, es) ? en : undefined, lesson: ex.lesson, note: noteOf(ex.en) });
     }
     return out;
   };
@@ -287,12 +296,20 @@ const ES_UNIT_FOCUS: Record<string, string> = {
     "Escucha, habla y escribe con lo que has aprendido en esta unidad de repaso del nivel Intermedio y los mandatos de vosotros",
   "Sequence of tenses in practice":
     "Escucha, habla y escribe con lo que has aprendido en «La secuencia de tiempos en la práctica»",
+  "The imperfect subjunctive":
+    "Escucha, habla y escribe con lo que has aprendido en «El imperfecto de subjuntivo»",
   "Hypothetical si-clauses":
     "Escucha, habla y escribe con lo que has aprendido en «Cláusulas hipotéticas con si»",
   "Si tuviera… in practice":
     "Escucha, habla y escribe con lo que has aprendido en «Si tuviera… en la práctica»",
   "Would have: past hypotheticals":
     "Escucha, habla y escribe con lo que has aprendido en «Habría + participio: hipótesis sobre el pasado»",
+  "Proverbs & sayings":
+    "Escucha, habla y escribe con los refranes y los adjetivos de carácter C2 de esta unidad",
+  "Idioms":
+    "Escucha, habla y escribe con los modismos y los verbos y colocaciones C2 de esta unidad",
+  "Medical Spanish":
+    "Escucha, habla y escribe con el español médico y el vocabulario C2 de verbos precisos de esta unidad",
   "Psychology & complex emotions":
     "Repasa el vocabulario de la unidad (alivio, desazón, ambivalencia) junto con verbos de cambio y léxico coloquial de lecciones recientes, escuchando frases, hablando y escribiendo un texto sobre emociones contradictorias",
   "Art, film & literary criticism":
@@ -364,7 +381,7 @@ const ES_COPY: Copy = {
     "Un texto breve con la gramática y el vocabulario de esta unidad. Si la corrección automática está disponible, recibirás comentarios; si no, compara tu texto con el modelo y la lista de puntos.",
   ],
   meaningQ: "¿Qué significa?",
-  meaningExpl: (s) => `«${quoted(s.es)}» significa "${quoted(s.en!)}".`,
+  meaningExpl: (s) => `«${quoted(s.es)}» significa "${quoted(s.en!)}".${s.note ? ` Clave: ${quoted(s.note)}.` : ""}`,
   dictExpl: (s) => `Has oído: «${quoted(s.es)}»${s.en ? ` ("${quoted(s.en)}")` : ""}.`,
   readExpl: (s) => `«${quoted(s.es)}»${s.en ? ` ("${quoted(s.en)}")` : ""}. Escucha otra vez el modelo e imita su ritmo.`,
   respondPrompt: (en) => `Dilo en español: "${en}"`,

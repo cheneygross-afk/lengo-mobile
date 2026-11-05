@@ -12,7 +12,7 @@ const { fe, sec } = authoring("es");
 export const LEVEL_TEST_C2: LevelTest = {
   title: "Prueba de nivel Profesional y Académico: examen de dominio",
   summary:
-    "La prueba final del nivel Profesional y Académico: comprensión de lectura y auditiva, léxico, registro y expresiones idiomáticas, y una reseña crítica. 46 preguntas sobre lo que se enseña en el nivel Profesional y Académico; se aprueba con un 70 %.",
+    "La prueba final del nivel Profesional y Académico, en dos partes: comprensión de lectura y auditiva y una reseña crítica (parte 1), y léxico, registro y expresiones idiomáticas (parte 2). 46 preguntas en total sobre lo que se enseña en el nivel Profesional y Académico; se aprueba con un 70 %.",
   duration: "60 min",
   sections: [
     readingSection(
@@ -152,10 +152,10 @@ export const LEVEL_TEST_C2: LevelTest = {
       [],
       [
         fe("Los responsables tendrán que ___ cuentas ante los ciudadanos.", "rendir", "Those responsible will have to [render] an account of their actions to the citizens.", "Rendir cuentas: responder de los propios actos.", ["dar"]),
-        fe("El juez ___ sentencia la semana próxima.", "dictará", "The judge [will hand down] sentence next week.", "Colocación jurídica: dictar sentencia.", ["emitirá"]),
+        fe("El juez ___ sentencia la semana próxima.", "dictará", "The judge [will hand down] sentence next week.", "Colocación jurídica: dictar sentencia.", ["emitirá", "pronunciará"]),
         fe("El acusado fue ___ por falta de pruebas.", "absuelto", "The defendant was [acquitted] for lack of evidence.", "Absolver → absuelto (participio irregular)."),
         fe("El paciente debe acudir en ___ a la extracción de sangre.", "ayunas", "The patient must come to the blood test [on an empty stomach].", "Estar o venir en ayunas: sin haber comido."),
-        fe("Firme el ___ informado antes de la operación.", "consentimiento", "Sign the informed [consent] before the operation.", "El consentimiento informado."),
+        fe("Firme el ___ informado antes de la operación.", "consentimiento", "Sign the informed [consent] before the operation.", "El «consentimiento informado» es el documento por el que el paciente acepta un tratamiento tras recibir información sobre sus riesgos."),
         fe(
           "Apenas ___ el sol, emprendieron la marcha.",
           "hubo salido",
@@ -163,7 +163,7 @@ export const LEVEL_TEST_C2: LevelTest = {
           "En registro literario, el pretérito anterior: apenas hubo salido. Hoy también se dice apenas salió.",
           ["salió", "había salido"]
         ),
-        fe("La propuesta fue aprobada por ___.", "unanimidad", "The proposal was approved [unanimously].", "Por unanimidad."),
+        fe("La propuesta fue aprobada por ___.", "unanimidad", "The proposal was approved [unanimously].", "«Por unanimidad» es la locución fija para una decisión tomada sin ningún voto en contra."),
         fe("La negociación ha llegado a un ___ muerto.", "punto", "The negotiation has reached a [deadlock].", "Llegar a un punto muerto: no avanzar."),
         fe("Hay que ___ las cartas sobre la mesa.", "poner", "We need to [put] our cards on the table.", "Poner las cartas sobre la mesa: hablar con total claridad."),
         fe("Su discurso estuvo plagado de ___ comunes.", "lugares", "His speech was full of [clichés].", "Un lugar común es un tópico, una idea muy repetida."),
@@ -172,7 +172,7 @@ export const LEVEL_TEST_C2: LevelTest = {
           "afirmó",
           "As Ortega y Gasset [stated], 'I am I and my circumstance'.",
           "Verbos de cita: afirmó, escribió, sostuvo, señaló…",
-          ["afirma", "afirmaba", "escribió", "dijo", "sostiene", "sostuvo", "señala", "señaló"]
+          ["afirma", "afirmaba", "escribió", "dijo", "sostiene", "sostuvo", "señala", "señaló", "decía", "dice", "escribe", "declaró"]
         ),
         fe("Ese argumento es una ___ de autoridad.", "falacia", "That argument is a [fallacy] of authority.", "Falacia de autoridad (ad verecundiam): algo es verdad porque lo dice alguien prestigioso."),
         fe("La empresa registró ___ por valor de dos millones.", "pérdidas", "The company posted [losses] worth two million.", "Registrar pérdidas (o beneficios)."),

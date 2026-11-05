@@ -47,7 +47,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   ),
   "figurative-language-1": t(
     "Describe una ciudad de noche en un texto literario breve que contenga al menos una metáfora, una metonimia, una personificación y una hipérbole.",
-    ["Una metáfora", "Una metonimia (p. ej., la ciudad duerme por sus habitantes)", "Una personificación", "Una hipérbole"],
+    ["Una metáfora", "Una metonimia (p. ej., todo Madrid duerme por sus habitantes)", "Una personificación", "Una hipérbole"],
     "La ciudad apaga sus mil ojos amarillos a medianoche. Las calles, cansadas de pisadas, bostezan bajo las farolas. Solo algunas ventanas siguen despiertas: allí trabaja alguien que no puede permitirse dormir. Una ambulancia cruza la avenida a mil por hora, rumbo al hospital. Todo Madrid duerme, salvo los barrenderos y los poetas, que recogen lo que el día ha dejado caer. Al amanecer, el río de coches volverá a correr por sus venas de asfalto.",
     "Metáfora: los mil ojos amarillos (las ventanas), el río de coches. Personificación: las calles bostezan. Metonimia: todo Madrid duerme (sus habitantes). Hipérbole: cruzar la avenida a mil por hora."
   ),
@@ -55,7 +55,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Eres responsable de recursos humanos. Escribe un correo para comunicar a un empleado que su contrato no será renovado, con tacto y lenguaje indirecto.",
     ["Eufemismos profesionales (no renovación, reestructuración…)", "Atenuación (lamentamos, nos vemos en la necesidad de…)", "Reconocimiento del trabajo del empleado", "Información clara pese al tono indirecto"],
     "Estimado Rafael: Tras un periodo de reflexión sobre la reorganización del departamento, nos vemos en la necesidad de comunicarte que no será posible prorrogar tu contrato más allá del 30 de junio. Queremos subrayar que esta decisión no responde en absoluto a tu desempeño, que ha sido excelente, sino a un ajuste de la plantilla motivado por la situación económica. Lamentamos sinceramente no poder contar contigo en esta nueva etapa. Nos ofrecemos a redactarte una carta de recomendación y a facilitarte el contacto con empresas de nuestro sector. Un cordial saludo, Elena Ruiz, Recursos Humanos",
-    "El eufemismo profesional suaviza sin ocultar: no será posible prorrogar (= te despedimos), ajuste de la plantilla (= recortes). La información clave (la fecha) debe quedar clara."
+    "El eufemismo profesional suaviza sin ocultar: no será posible prorrogar (= no te renovamos el contrato), ajuste de la plantilla (= recortes). La información clave (la fecha) debe quedar clara."
   ),
   "exclamations-emphasis-1": t(
     "Escribe un mensaje a un amigo contándole una boda a la que fuiste. Usa exclamaciones, diminutivos y aumentativos para expresar emoción, cariño o ironía.",

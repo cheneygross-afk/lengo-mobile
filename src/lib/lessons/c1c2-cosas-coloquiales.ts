@@ -132,7 +132,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "heading": "Semana Santa: fe, procesión y comunidad",
         "body": [
           "En España, gran parte de Latinoamérica y Filipinas, la Semana Santa transforma las calles en escenario: los pasos (imágenes religiosas sobre plataformas) salen en procesión cargados a hombros por costaleros o cucuruchos, seguidos por bandas, nazarenos y una multitud que puede guardar un silencio absoluto o romper en aplausos, según la ciudad y la tradición local.",
-          "Lo que unifica estas celebraciones, más allá de la religión formal, es el peso social del acto comunitario: participar en una procesión, aunque sea como espectador, conecta a quien lo vive con generaciones anteriores que hicieron exactamente lo mismo en la misma calle. Por eso, cuando algo se hace con extremo cuidado y solemnidad, se compara coloquialmente con una procesión."
+          "Lo que unifica estas celebraciones, más allá de la religión formal, es el peso social del acto comunitario: participar en una procesión, aunque sea como espectador, conecta a quien lo vive con generaciones anteriores que hicieron exactamente lo mismo en la misma calle. Por eso se dice que «la procesión va por dentro» de quien siente algo intenso y no lo muestra."
         ],
         "examples": [
           {
@@ -845,18 +845,18 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multi-select",
-        "question": "¿Cuáles de las siguientes expresiones están relacionadas con la identidad y el apoyo hacia un equipo, más que con el desarrollo del juego en sí?",
+        "question": "¿Cuáles de las siguientes expresiones están relacionadas con los aficionados y su apoyo a un equipo?",
         "options": [
           "la hinchada",
           "ser hincha de",
-          "remontar",
-          "un partido de infarto"
+          "meterle un gol a alguien",
+          "pasar la pelota"
         ],
         "correctIndexes": [
           0,
           1
         ],
-        "explanation": "La hinchada y ser hincha de se refieren a la identidad y devoción hacia un equipo; remontar y un partido de infarto describen el desarrollo o la tensión del juego mismo."
+        "explanation": "La hinchada y ser hincha de se refieren a la identidad y devoción hacia un equipo; meterle un gol a alguien y pasar la pelota son metáforas de la vida diaria, no expresiones sobre la afición."
       }
     ]
   },
@@ -1140,7 +1140,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "el arrabal"
         ],
         "correctIndex": 0,
-        "explanation": "«Bailar pegado» es bailar muy cerca de la pareja, típico del bolero o la salsa. «No tener oído» es una carencia musical, «tanguear» es bailar tango y «el arrabal» es el barrio periférico donde nació el tango."
+        "explanation": "«Bailar pegado» es bailar muy cerca de la pareja, típico del bolero o la bachata. «No tener oído» es una carencia musical, «tanguear» es bailar tango y «el arrabal» es el barrio periférico donde nació el tango."
       },
       {
         "type": "fill-blank",
@@ -1155,14 +1155,14 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "options": [
           "el lunfardo",
           "el arrabal",
-          "el perreo",
-          "prender la fiesta"
+          "tener sabor",
+          "no tener oído"
         ],
         "correctIndexes": [
           0,
           1
         ],
-        "explanation": "El lunfardo y el arrabal están asociados históricamente al origen del tango en Buenos Aires y Montevideo; el perreo y prender la fiesta están relacionados con otros géneros y con el ambiente festivo en general."
+        "explanation": "El lunfardo y el arrabal están asociados históricamente al origen del tango en Buenos Aires y Montevideo; tener sabor y no tener oído son expresiones generales sobre bailar y la música, no sobre el origen del tango."
       }
     ]
   },
@@ -1418,8 +1418,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "atravesar un período sostenido de buena suerte (también: tener una buena / mala racha)"
           },
           {
-            "es": "cambiar la suerte",
-            "en": "modificar, mediante un gesto o ritual, el curso de una racha de fortuna"
+            "es": "cruzar los dedos",
+            "en": "hacer ese gesto para desear buena suerte en algo incierto"
           }
         ],
         "checkpoint": [
@@ -1462,7 +1462,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuáles de las siguientes expresiones nombran un gesto o ritual para proteger o mejorar la suerte?",
         "options": [
           "tocar madera",
-          "cambiar la suerte",
+          "cruzar los dedos",
           "ser gafe",
           "traer mala suerte"
         ],
@@ -1470,7 +1470,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "Tocar madera protege lo bueno para que no se malogre, y cambiar la suerte es modificar una racha con un gesto o ritual; ser gafe y traer mala suerte se refieren, en cambio, a provocar mala suerte."
+        "explanation": "Tocar madera protege lo bueno para que no se malogre, y cruzar los dedos es un gesto para desear buena suerte; ser gafe y traer mala suerte se refieren, en cambio, a provocar mala suerte."
       }
     ]
   },
@@ -1572,8 +1572,8 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "en": "atravesar un período sostenido de buena suerte (también: tener una buena / mala racha)"
           },
           {
-            "es": "cambiar la suerte",
-            "en": "modificar el curso de una racha de fortuna"
+            "es": "traer buena suerte",
+            "en": "favorecer, según la creencia popular, la buena fortuna"
           },
           {
             "es": "el mal de ojo",
@@ -1644,7 +1644,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "cuidado."
         ],
         "translation": "Today is Tuesday the 13th, so be careful.",
-        "explanation": "El orden correcto es «Hoy es martes trece, así que ten cuidado». En el mundo hispano el día de mala suerte es el martes 13, no el viernes 13 de la tradición anglosajona, así que la traducción conserva el martes."
+        "explanation": "El orden correcto es «Hoy es martes trece, así que ten cuidado». En España y en buena parte de Sudamérica el día de mala suerte es el martes 13, no el viernes 13 de la tradición anglosajona, así que la traducción conserva el martes."
       },
       {
         "type": "translate",
@@ -1784,13 +1784,14 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
-        "source": "You're a sweetheart, you always help me without my asking.",
-        "answer": "Eres un sol, siempre me ayudas sin que te lo pida.",
+        "source": "Our neighbour is a sweetheart, she always helps us without our asking.",
+        "answer": "Mi vecina es un sol, siempre nos ayuda sin que se lo pidamos.",
         "altAnswers": [
-          "Eres un sol: siempre me ayudas sin que te lo pida.",
-          "Eres un sol, siempre me ayudas sin que yo te lo pida."
+          "Mi vecina es un sol: siempre nos ayuda sin que se lo pidamos.",
+          "Mi vecina es un sol, siempre nos ayuda sin que nosotros se lo pidamos.",
+          "Nuestra vecina es un sol, siempre nos ayuda sin que se lo pidamos."
         ],
-        "explanation": "«Eres un sol» es un piropo cotidiano que significa 'eres una persona encantadora'; «sin que» lleva subjuntivo: «sin que te lo pida»."
+        "explanation": "«Es un sol» es un piropo cotidiano que significa 'es una persona encantadora'; «sin que» lleva subjuntivo: «sin que se lo pidamos»."
       }
     ]
   },
@@ -1878,7 +1879,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la expresión de modestia ante un cumplido.",
-        "sentence": "Ay, no, ___ va, cualquiera lo hace.",
+        "sentence": "—¡Qué bien has explicado el tema! —Ay, no, ___ va, si es lo mínimo.",
         "answer": "qué",
         "explanation": "\"Qué va\" es una expresión de modestia o negación suave ante un halago."
       },
@@ -1926,4 +1927,4 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
 // right after the lesson each one reinforces, and the whole level is
 // renumbered -- see weave.ts. Everything above this line is the original
 // lesson data.
-export const COSAS_COLOQUIALES_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT), COSAS_COLOQUIALES_WRITING_TASKS));
+export const COSAS_COLOQUIALES_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT), COSAS_COLOQUIALES_WRITING_TASKS), { spanish: true });

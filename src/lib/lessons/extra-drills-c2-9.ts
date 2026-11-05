@@ -367,7 +367,7 @@ export const DRILLS_C2_9: Record<string, Exercise[]> = {
       "Tal ___ afirma el director, el festival no se cancelará.",
       "como",
       "[As] the director states, the festival will not be cancelled.",
-      "La fórmula completa es «tal como afirma»; con «tal» siempre se necesita «como».",
+      "La fórmula completa es «tal como afirma»; «tal» va seguido de «como» (también «tal y como»).",
     ),
     toEs(
       "In accordance with the new regulations, the museum will close earlier.",
@@ -2066,10 +2066,10 @@ export const DRILLS_C2_9: Record<string, Exercise[]> = {
       ["Esa monja pertenece a una orden religiosa."],
     ),
     fe(
-      "El sargento exigió ___ en la fila.",
-      "orden",
-      "The sergeant demanded [order] in the line.",
-      "Aquí «orden» es la disposición ordenada de las cosas y se dice «el orden»; sin artículo, el sentido sale del contexto.",
+      "El sargento exigió mantener ___ orden en la fila.",
+      "el",
+      "The sergeant insisted on keeping [the] order in the line.",
+      "Aquí «orden» es la disposición ordenada de las cosas y se dice «el orden» (masculino): mantener el orden es conservar las cosas bien dispuestas.",
     ),
     toEs(
       "The soldiers lined up in perfect order.",
@@ -2171,10 +2171,11 @@ export const DRILLS_C2_9: Record<string, Exercise[]> = {
       ["cree"],
     ),
     toEs(
-      "How was she supposed to understand a letter written in code?",
+      "¿Cómo iba a entendió ella una carta escrita en clave?",
       "¿Cómo iba a entender ella una carta escrita en clave?",
-      "«¿Cómo iba a…?» expresa que era imposible: es una negación disfrazada de pregunta.",
+      "«¿Cómo iba a…?» expresa que era imposible: es una negación disfrazada de pregunta. Tras «ir a» va siempre el infinitivo (entender), nunca un verbo conjugado (entendió).",
       ["¿Cómo iba ella a entender una carta escrita en clave?", "¿Cómo iba a entender una carta escrita en clave?"],
+      "Corrige la frase.",
     ),
     toEs(
       "Who wouldn't be afraid in her place?",

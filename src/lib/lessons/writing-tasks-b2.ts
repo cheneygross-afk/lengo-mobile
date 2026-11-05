@@ -88,7 +88,7 @@ export const B2_WRITING_TASKS: UnitWriting = {
   "b2d-pares-aunque": [
     {
       "type": "write",
-      "prompt": "Eres el capitán o la capitana de tu equipo y mañana jugáis la final. Escribe un breve discurso para animar a tus compañeros, usando aunque con indicativo y con subjuntivo.",
+      "prompt": "Eres el capitán o la capitana de tu equipo y mañana jugáis la final. Escribe un breve discurso para animar a tus compañeros, usando aunque con indicativo y con subjuntivo, y también para que y cuando + subjuntivo.",
       "minWords": 60,
       "maxWords": 120,
       "rubric": [
@@ -104,7 +104,7 @@ export const B2_WRITING_TASKS: UnitWriting = {
   "b2d-cuento-debate-ley": [
     {
       "type": "write",
-      "prompt": "El Gobierno prepara una nueva ley de vivienda. Escribe una carta al director de un periódico explicando para qué debería servir la ley y qué esperas que ocurra cuando entre en vigor.",
+      "prompt": "El Gobierno prepara una nueva ley de vivienda. Escribe una carta al director de un periódico explicando para qué debería servir la ley y qué esperas que ocurra cuando entre en vigor y por qué conviene aprobarla antes de que sea tarde.",
       "minWords": 60,
       "maxWords": 120,
       "rubric": [
@@ -301,12 +301,12 @@ export const B2_WRITING_TASKS: UnitWriting = {
       "maxWords": 100,
       "rubric": [
         "Podrías / deberías haber + participio",
-        "Habría preferido que + pluscuamperfecto de subjuntivo",
+        "Yo habría + participio para decir qué habrías hecho tú",
         "Si me hubieras…, habría…",
         "Un cierre conciliador"
       ],
-      "modelAnswer": "Oye, Dani, ¿qué pasó ayer? Te estuve esperando cuarenta minutos en la puerta del cine. Podrías haberme mandado un mensaje, aunque fuera de dos palabras. Si me hubieras avisado, me habría quedado en casa o habría quedado con otra persona. Habría preferido que me hubieras dicho la verdad, aunque fuera que no te apetecía. Además, las entradas las pagué yo. En fin, espero que estés bien. Ya me contarás, y la próxima vez invitas tú, ¿vale?",
-      "explanation": "Para reprochar algo del pasado: podrías haber + participio, habría preferido que + pluscuamperfecto de subjuntivo y si me hubieras avisado, me habría quedado."
+      "modelAnswer": "Oye, Dani, ¿qué pasó ayer? Te estuve esperando cuarenta minutos en la puerta del cine. Podrías haberme mandado un mensaje, aunque fuera de dos palabras. Si me hubieras avisado, me habría quedado en casa o habría quedado con otra persona. Yo, en tu lugar, te habría llamado, aunque fuera para decirme que no te apetecía. Además, las entradas las pagué yo. En fin, espero que estés bien. Ya me contarás, y la próxima vez invitas tú, ¿vale?",
+      "explanation": "Para reprochar algo del pasado: podrías haber + participio, yo habría + participio (lo que habrías hecho tú) y si me hubieras avisado, me habría quedado."
     }
   ],
   "b2r-error-hunt-type-three": [
@@ -496,8 +496,8 @@ export const B2_WRITING_TASKS: UnitWriting = {
         "Un contraste entre antes y ahora (antes…; en cambio, ahora…)",
         "Registro de correo informal"
       ],
-      "modelAnswer": "¡Hola, Amaru! Llevo dos semanas en Valencia y todo me parece extraño. Voy a la oficina como si fuera un turista en mi propia vida. Antes me ponía nervioso por cualquier tontería; en cambio, ahora me he vuelto mucho más paciente. Mis amigos dicen que me he hecho más serio, y quizá tienen razón. Ayer, en el supermercado, me quedé mirando las estanterías durante diez minutos: hay demasiadas cosas. Echo de menos las mañanas en la escuela y vuestras risas. ¿Cómo están los niños? Escríbeme pronto.",
-      "explanation": "Ponerse para reacciones pasajeras (me ponía nervioso), volverse y hacerse para cambios de carácter más duraderos (me he vuelto más paciente). Como si + imperfecto de subjuntivo compara con algo irreal."
+      "modelAnswer": "¡Hola, Amaru! Llevo dos semanas en Valencia y todo me parece extraño. Voy a la oficina como si fuera un turista en mi propia vida. Antes me ponía nervioso por cualquier tontería; en cambio, ahora me he vuelto mucho más paciente. Hasta me he hecho socio de una cooperativa de consumo; mis amigos dicen que me he vuelto más serio, y quizá tienen razón. Ayer, en el supermercado, me quedé mirando las estanterías durante diez minutos: hay demasiadas cosas. Echo de menos las mañanas en la escuela y vuestras risas. ¿Cómo están los niños? Escríbeme pronto.",
+      "explanation": "Ponerse para reacciones pasajeras (me ponía nervioso), volverse para cambios de carácter más duraderos (me he vuelto más paciente) y hacerse para cambios elegidos (me he hecho socio). Como si + imperfecto de subjuntivo compara con algo irreal."
     }
   ],
   "b2r-transform-adjective-to-change": [
@@ -784,7 +784,7 @@ export const B2_WRITING_TASKS: UnitWriting = {
         "Conjunciones temporales (en cuanto, hasta que)",
         "Un consejo final para los lectores"
       ],
-      "modelAnswer": "Hace dos años me propuse una meta sencilla: correr veinte minutos tres veces por semana. Al principio me costaba muchísimo; me ahogaba en cuanto subía una cuesta. Sin embargo, no me rendí hasta que correr se convirtió en un hábito. Poco a poco me volví más constante también en otras cosas: dejé de fumar y empecé a dormir mejor. Mis amigos dicen que me he hecho otra persona. Mi consejo es este: no busquéis un cambio enorme. Elegid algo pequeño y repetidlo hasta que ya no os cueste.",
+      "modelAnswer": "Hace dos años me propuse una meta sencilla: correr veinte minutos tres veces por semana. Al principio me costaba muchísimo; me ahogaba en cuanto subía una cuesta. Sin embargo, no me rendí hasta que correr se convirtió en un hábito. Poco a poco me volví más constante también en otras cosas: dejé de fumar y empecé a dormir mejor. Mis amigos dicen que me he convertido en otra persona. Mi consejo es este: no busquéis un cambio enorme. Elegid algo pequeño y repetidlo hasta que ya no os cueste.",
       "explanation": "Convertirse en y volverse narran cambios duraderos (se convirtió en un hábito, me volví más constante). Hasta que lleva indicativo para el pasado (hasta que se convirtió) y subjuntivo para el futuro (hasta que no os cueste)."
     }
   ],

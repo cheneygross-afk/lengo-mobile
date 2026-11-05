@@ -39,7 +39,7 @@ function translateBlank(e: Exercise, prompt: string): Exercise {
     answer: e.answer,
     ...(altAnswers.length ? { altAnswers } : {}),
     en: fix?.en ?? en,
-    explanation: `${note.replace(/\.$/, "")}. ${e.explanation}`,
+    explanation: note ? `${note.replace(/\.$/, "")}. ${e.explanation}` : e.explanation,
   };
 }
 

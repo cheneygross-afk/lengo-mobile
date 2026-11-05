@@ -35,7 +35,7 @@ export const C1_SKILLS: Record<string, Exercise[]> = {
       0,
       "«Estará en el metro» es futuro de conjetura: supone algo sobre el presente. No habla del futuro real, no es una orden y no es seguro (lo deduce de su costumbre)."
     ),
-    spk("¿Dónde se habrá metido Lucía? Habrá perdido el tren.", "Dos conjeturas sobre el pasado: «ha-BRÁ».", "Futuro compuesto de conjetura: suposición sobre algo ya ocurrido."),
+    spk("¿Dónde estará Lucía? Estará todavía en el metro.", "Dos conjeturas sobre el presente: «es-ta-DRÁ».", "Futuro simple de conjetura: suposición sobre algo que ocurre ahora."),
     spk("Serían las tres cuando sonó el teléfono.", "«Serían» con acento en la í: se-RÍ-an.", "Condicional de conjetura sobre el pasado: más o menos las tres."),
   ],
   "c1r-dialogue-lab-invitation-to-tutear": [
@@ -70,7 +70,7 @@ export const C1_SKILLS: Record<string, Exercise[]> = {
       "Escucha. ¿De dónde es probablemente quien habla?",
       ["De Argentina o Uruguay", "De España", "De México", "De Colombia"],
       0,
-      "El voseo (pasás), heladera (nevera) y «arriba de» por «encima de» son rasgos rioplatenses. En España diría móvil y nevera; en México, celular y refrigerador, con tú."
+      "El voseo (pasás) y heladera (nevera) son rasgos rioplatenses; «arriba de» por «encima de» se oye en toda América y no sirve de pista. En España diría móvil y nevera; en México, celular y refrigerador, con tú."
     ),
     lc(
       "¡Qué chévere! Mañana vamos a la playa con mis parceros.",

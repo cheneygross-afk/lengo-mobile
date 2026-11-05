@@ -326,7 +326,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         wrong: "Creo que sea verdad.",
         right: "Creo que es verdad.",
-        why: "Creer que expresses belief, not doubt, so it takes the indicative. No creo que sea verdad does take the subjunctive.",
+        why: "Creo que states a belief, not a doubt, so it takes the indicative. No creo que sea verdad does take the subjunctive.",
       },
       {
         wrong: "Cuando llego, te llamo.",

@@ -92,7 +92,7 @@ export const DRILLS_B2_5: Record<string, Exercise[]> = {
     fe("«Sé conducir.» → Dijo que ___ conducir.", "sabía", "She said she [knew how to] drive.", "Sé → sabía: presente → imperfecto, no «supo»."),
     wo("Dijo que nunca había estado en México", "«Nunca he estado» → nunca había estado; «nunca» va antes del auxiliar.", "He said he had never been to Mexico"),
     wo("Dijeron que harían todo lo posible", "«Haremos» → harían: condicional irregular de hacer.", "They said they would do everything possible"),
-    mc("«Puse la mesa.» → Dijo que ___ la mesa.", ["puso", "había puesto", "pondría", "ponía"], 1, "Para marcar que poner la mesa es anterior al momento de decirlo, el indefinido pasa a pluscuamperfecto con el participio irregular «puesto»; «puso» se oye, pero no marca esa anterioridad."),
+    mc("«Puse la mesa.» → Dijo que ___ la mesa.", ["pusiera", "había puesto", "pondría", "ponía"], 1, "Para marcar que poner la mesa es anterior al momento de decirlo, el indefinido pasa a pluscuamperfecto con el participio irregular «puesto»; «pusiera» es subjuntivo y no cabe detrás de un hecho que se cuenta."),
     mc("«Tendremos cuidado.» → Dijeron que ___ cuidado.", ["tenían", "tendrán", "tendrían", "tuvieran"], 2, "Futuro → condicional: tendremos → tendrían; «tuvieran» sería un mandato."),
   ],
   "b2d-circuito-marcadores-tiempo": [
@@ -407,7 +407,7 @@ export const DRILLS_B2_5: Record<string, Exercise[]> = {
     fe("Dijo que la semana ___ tendría más tiempo.", "siguiente", "She said she would have more time [the following] week.", "La semana que viene → la semana siguiente."),
     wo("Me contó que su hijo había empezado la universidad", "«Mi hijo ha empezado» → su hijo había empezado.", "She told me her son had started university"),
     wo("Me preguntó qué pensaba hacer aquel verano", "Qué con tilde; «este verano» → aquel verano.", "He asked me what I planned to do that summer"),
-    mc("Hace un mes te dijo: «Te esperaré en la puerta». ¿Qué falla en «Me dijo que me esperará en la puerta»?", ["Futuro → condicional: esperaría.", "Falta la tilde en «qué».", "Debe ser «esperaba».", "Nada."], 0, "El futuro retrocede al condicional: me esperaría."),
+    mc("Hace un mes te dijo: «Te esperaré en la puerta». ¿Qué falla en «Me dijo que me esperará en la puerta»?", ["Futuro → condicional: esperaría.", "Sobra la tilde en «esperará».", "Debe ser «esperaba».", "Nada."], 0, "El futuro retrocede al condicional: me esperaría."),
     mc("Lo preguntó la semana pasada. ¿Qué falla en «Me preguntó si quería ir allí mañana»?", ["«mañana» debe ser «al día siguiente».", "«si» debe ser «que».", "«quería» debe ser «quiero».", "Nada."], 0, "La referencia temporal también cambia: mañana → al día siguiente."),
   ],
   "b2d-rep-si-dictado": [
@@ -415,7 +415,7 @@ export const DRILLS_B2_5: Record<string, Exercise[]> = {
     toEs("If I lived by the sea, I would swim every morning.", "Si viviera junto al mar, nadaría todas las mañanas.", "Irreal de presente: si + imperfecto de subjuntivo + condicional.", ["Si viviera cerca del mar, nadaría todas las mañanas.", "Si viviera junto al mar, nadaría cada mañana.", "Si viviera cerca del mar, nadaría cada mañana."]),
     toEs("If she had seen the sign, she would have stopped.", "Si hubiera visto la señal, se habría detenido.", "Irreal de pasado: hubiera + participio, habría + participio.", ["Si hubiera visto la señal, habría parado.", "Si hubiera visto la señal, se habría parado."]),
     toEs("Si nevará mañana, cerrarán las escuelas.", "Si nieva mañana, cerrarán las escuelas.", "Condición real: tras si va el presente, aunque hable del futuro. El futuro solo va en la consecuencia (cerrarán).", ["Si mañana nieva, cerrarán las escuelas.", "Si nieva mañana, las escuelas cerrarán."], "Corrige la frase."),
-    toEs("Si tenemos más espacio, adoptaremos otro perro.", "Si tuviéramos más espacio, adoptaríamos otro perro.", "De real a irreal de presente: tenemos → tuviéramos (con tilde) y adoptaremos → adoptaríamos.", ["Si tuviésemos más espacio, adoptaríamos otro perro."], "Cambia a irreal de presente: el piso es pequeño y no vais a mudaros."),
+    toEs("Si tenemos más espacio, adoptaremos otro perro.", "Si tuviéramos más espacio, adoptaríamos otro perro.", "De real a irreal de presente: tenemos → tuviéramos (con tilde) y adoptaremos → adoptaríamos.", ["Si tuviésemos más espacio, adoptaríamos otro perro."], "Cambia a irreal de presente: el piso es pequeño y no vamos a mudarnos."),
     toEs("Si me habrías avisado, habría venido antes.", "Si me hubieras avisado, habría venido antes.", "Tras si nunca va el condicional: la condición irreal de pasado va en pluscuamperfecto de subjuntivo, hubieras avisado. El condicional compuesto (habría venido) va solo en la consecuencia.", ["Si me hubieses avisado, habría venido antes."], "Corrige la frase."),
     toEs("If you need help (usted), call this number.", "Si necesita ayuda, llame a este número.", "Condición real + imperativo formal.", []),
     toEs("If the train were faster, I wouldn't need a car.", "Si el tren fuera más rápido, no necesitaría coche.", "Irreal de presente con ser: fuera.", ["Si el tren fuera más rápido, no necesitaría un coche.", "Si el tren fuera más rápido, no necesitaría carro.", "Si el tren fuera más rápido, no necesitaría auto."]),

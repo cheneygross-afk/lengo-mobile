@@ -481,7 +481,7 @@ export const LEVEL_QUESTIONS: Record<PlacementLevel, PlacementQuestion[]> = {
       "se volvió",
       "Over the years, my grandfather [became] very distrustful.",
       "Volverse expresa un cambio de carácter profundo, a menudo involuntario: se volvió desconfiado.",
-      ["se ha vuelto", "se fue volviendo"]
+      ["se ha vuelto", "se fue volviendo", "se hizo"]
     ),
   ],
   C1: [

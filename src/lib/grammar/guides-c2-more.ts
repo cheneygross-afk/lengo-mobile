@@ -21,7 +21,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Verbs with two meanings",
         body: [
-          "Some verbs mean one thing with the indicative and another with the subjunctive. Decir reports information (indicative) or gives an order (subjunctive). Sentir means to perceive (indicative) or to regret (subjunctive). Comprender and entender mean to realize (indicative) or to sympathize with (subjunctive).",
+          "Some verbs mean one thing with the indicative and another with the subjunctive. Decir reports information (indicative) or gives an order (subjunctive). Sentir means to perceive (indicative) or to regret (subjunctive). Comprender and entender mean to realize (indicative) or to accept as understandable (subjunctive).",
         ],
         table: {
           headers: ["Verb", "+ indicative", "+ subjunctive"],
@@ -133,7 +133,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
           rows: [
             ["hacer un informe", "elaborar / redactar un informe"],
             ["hacer una pregunta", "plantear / formular una pregunta"],
-            ["poner una multa", "imponer una sanción"],
+            ["poner una multa", "imponer una multa"],
             ["tener un problema", "presentar / afrontar un problema"],
             ["decir que no", "rechazar / denegar"],
             ["hay muchas causas", "existen / concurren numerosas causas"],

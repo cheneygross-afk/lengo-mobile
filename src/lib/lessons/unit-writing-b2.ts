@@ -23,7 +23,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Antecedente conocido: indicativo (una profesora que contaba). Antecedente buscado, ideal o negado: subjuntivo (alguien que hable, no hay ningún método que funcione)."
   ),
   "subjunctive-adverbial-clauses-1": t(
-    "Escribe un correo a un amigo que va a mudarse a tu ciudad. Cuéntale qué haréis cuando llegue, qué le prestarás para que esté cómodo y qué hará aunque no le guste.",
+    "Escribe un correo a un amigo que va a mudarse a tu ciudad. Cuéntale qué haréis cuando llegue, qué le prestarás para que esté cómodo y qué hará aunque no le guste. Usa también antes de que o hasta que.",
     ["Cuando + subjuntivo para el futuro", "Para que + subjuntivo", "Aunque + subjuntivo o indicativo con sentido claro", "Antes de que / hasta que + subjuntivo"],
     "¡Hola, Iker! Qué ganas tengo de que llegues. Cuando bajes del tren, te recogeré en la estación y te llevaré a cenar. Te dejaré mi bici para que puedas moverte por la ciudad sin gastar. Puedes quedarte en mi casa hasta que encuentres piso. Eso sí, aunque no te guste madrugar, tendrás que levantarte pronto para hacer los trámites antes de que cierren las oficinas. ¡Nos vemos pronto!",
     "Cuando, hasta que y antes de que llevan subjuntivo si hablan del futuro (cuando bajes). Para que siempre (para que puedas). Aunque + subjuntivo: no importa si es verdad."
@@ -173,7 +173,7 @@ export const B2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Te aconsejaría que + imperfecto de subjuntivo (concordancia con el condicional). Si hubieras ahorrado, habrías viajado: hipótesis sobre el pasado."
   ),
   "b2r-challenge-subjunctive-gauntlet": t(
-    "Escribe un correo a un estudiante de B2 para contarle cómo superaste las dificultades del nivel. Incluye subjuntivo, condicionales y estilo indirecto.",
+    "Escribe un correo a un estudiante del nivel Avanzado para contarle cómo superaste las dificultades del nivel. Incluye subjuntivo, condicionales y estilo indirecto.",
     ["Subjuntivo (te recomiendo que, aunque, cuando…)", "Una oración condicional irreal", "Estilo indirecto (mi profesora me dijo que…)", "Registro informal y bien organizado"],
     "Hola, Leo: Me preguntaste cómo superé el nivel Avanzado y te cuento. Lo más difícil para mí fueron las oraciones condicionales. Mi profesora me dijo que leyera mucho y que escribiera un diario en español, y funcionó. Si no lo hubiera hecho, seguiría confundiendo tuviera y tendría. Te recomiendo que escuches pódcast cuando vayas en el transporte y que no te desanimes aunque cometas errores. ¡Ánimo, que lo vas a conseguir!",
     "Estilo indirecto con petición: me dijo que leyera. Condicional mixta: si no lo hubiera hecho, seguiría. Cuando y aunque + subjuntivo para lo futuro o no comprobado."

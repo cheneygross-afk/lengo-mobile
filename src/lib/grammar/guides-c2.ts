@@ -123,7 +123,7 @@ export const C2_GUIDES: GrammarGuide[] = [
       {
         heading: "How it's formed",
         body: [
-          "Take the imperfect subjunctive -ra form and change the final -a to -e: hablara → hablare, fuera → fuere, tuviera → tuviere. The compound form uses hubiere + participle.",
+          "Take the imperfect subjunctive -ra form and replace -ra with -re in every person (hablaras → hablares, habláramos → habláremos): hablara → hablare, fuera → fuere, tuviera → tuviere. The compound form uses hubiere + participle.",
         ],
         table: {
           headers: ["", "hablar", "ser / ir", "haber"],

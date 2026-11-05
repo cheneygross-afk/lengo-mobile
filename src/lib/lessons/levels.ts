@@ -76,7 +76,15 @@ const EXIT_SLUGS = new Set<string>(Object.values(LEVEL_EXIT_SLUGS));
  * already in them. */
 export function nextLessonInPath(lessons: Lesson[], index: number): Lesson | null {
   const lesson = lessons[index];
-  if (!lesson || EXIT_SLUGS.has(lesson.slug)) return null;
+  if (!lesson) return null;
+  // The exit lesson ends the level, but when it is long enough to be split
+  // into parts (questionCap.ts) only its last part does: the earlier parts
+  // lead on to the next one.
+  const exit = lesson.continues ?? lesson.slug;
+  if (EXIT_SLUGS.has(exit)) {
+    const following = lessons[index + 1];
+    return following && following.continues === exit ? following : null;
+  }
   return lessons.slice(index + 1).find((l) => lesson.optional || !l.optional) ?? null;
 }
 

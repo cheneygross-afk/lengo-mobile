@@ -156,7 +156,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
         "Lea el siguiente texto, del que se han extraído seis fragmentos. A continuación, lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (17-22) hay que colocar cada uno. Hay dos fragmentos que no tiene que elegir.",
       texts: [
         {
-          title: "¿Demasiado donde elegir?",
+          title: "¿Demasiadas opciones?",
           body:
             "Durante décadas, la economía partió de una idea aparentemente indiscutible: cuantas más opciones tenga una persona, más libre y más feliz será. (17) Pero ¿qué ocurre cuando las alternativas se cuentan por cientos?\n\n" +
             "En 1995, dos investigadores de las universidades de Columbia y Stanford montaron un puesto de mermeladas en un supermercado de California. Un día ofrecían veinticuatro sabores para probar; otro día, solo seis. El puesto grande atrajo a más curiosos, como era de esperar. (18) Entre quienes se habían acercado al puesto pequeño, en cambio, un 30 % acabó comprando.\n\n" +
@@ -201,7 +201,7 @@ export const DELE_B2_LECTURA: ExamPaper = {
         { n: 29, question: "", options: ["por", "para", "con"], answer: 0, explanation: "Sustituir algo por otra cosa." },
         { n: 30, question: "", options: ["más", "menos", "tantas"], answer: 1, explanation: "Si la jornada continua sustituye a la partida, cada vez hay menos empresas que dejan tiempo." },
         { n: 31, question: "", options: ["sino", "pero", "así que"], answer: 1, explanation: "Es verdad que…, pero…: se admite un hecho y se le opone otro. \"Sino\" necesita una negación antes." },
-        { n: 32, question: "", options: ["piensen", "piensa", "pensara"], answer: 1, explanation: "Quien es singular, así que el verbo va en singular: «piensen» no concuerda. Con \"hay quien\" también es posible el subjuntivo singular («hay quien piense»), pero no está entre las opciones, y «pensara» no encaja con el presente del texto." },
+        { n: 32, question: "", options: ["piensen", "piensa", "pensara"], answer: 1, explanation: "Quien es singular, así que el verbo va en singular: «piensen» no concuerda. «Pensara» no encaja con el presente del texto; tras «hay quien», «piensa que» lleva indicativo porque se habla de personas que existen." },
         { n: 33, question: "", options: ["hacemos", "hiciéramos", "hubiéramos hecho"], answer: 1, explanation: "Condicional hipotética de presente: si + imperfecto de subjuntivo, condicional (seríamos)." },
         { n: 34, question: "", options: ["donde", "cuando", "que"], answer: 0, explanation: "Relativo de lugar referido a Japón." },
         { n: 35, question: "", options: ["durmieran", "duerman", "dormirán"], answer: 1, explanation: "Aunque + subjuntivo presenta un hecho ya sabido (solo uno de cada cinco españoles duerme la siesta a diario) que no impide lo que se afirma después." },

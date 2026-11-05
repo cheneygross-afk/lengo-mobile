@@ -5,10 +5,10 @@ import type { ExamPaper } from "./types";
 // lengua. 90 minutes, 5 tasks, 40 items, as in the real exam.
 const T2_FRAGMENTS = [
   "A. Paralelamente, el ayuntamiento aprobó una ordenanza que prohibía expresamente dar de comer a los animales en la vía pública.",
-  "B. La paradoja es que, cuanto más se esfuerza una ciudad por eliminar a las palomas, más atractiva resulta para ellas.",
+  "B. La paradoja es que, cuanto más se esfuerza una ciudad por eliminar a las palomas, más rápido se recupera su población.",
   "C. No siempre fue así: durante siglos, la paloma fue un animal apreciado, criado en palomares por su carne y por su estiércol, excelente abono.",
   "D. Lo que antes era un recurso valioso se convirtió, en pocas décadas, en un simple estorbo.",
-  "E. De hecho, las colonias urbanas se regulan casi exclusivamente en función del alimento disponible.",
+  "E. Cada resto de comida abandonado en la calle equivale, de hecho, a una invitación para las palomas.",
   "F. El método, sin embargo, tiene un inconveniente evidente: requiere constancia y personal durante años.",
   "G. Los resultados fueron inmediatos: en pocas semanas no quedaba ni una paloma en el centro de la ciudad.",
 ];
@@ -29,7 +29,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
           title: "Reglamento del programa de residencias artísticas «Casa del Faro» (extracto)",
           body:
             "Artículo 1. Objeto. La Fundación Casa del Faro convoca seis residencias artísticas de tres meses de duración, destinadas a creadores de cualquier disciplina que deseen desarrollar un proyecto vinculado al paisaje, la memoria o las comunidades de la costa atlántica.\n\n" +
-            "Artículo 2. Requisitos. Podrán concurrir personas mayores de edad, de cualquier nacionalidad, que acrediten una trayectoria profesional mínima de tres años. No se admitirán proyectos que hayan recibido financiación pública para la misma fase de ejecución. Quedan excluidos quienes hayan disfrutado de esta residencia en las dos convocatorias anteriores.\n\n" +
+            "Artículo 2. Requisitos. Podrán concurrir personas mayores de edad, de cualquier nacionalidad, que acrediten una trayectoria profesional mínima de tres años. No se admitirán proyectos que hayan recibido financiación pública para la misma fase de ejecución. Quedan excluidos quienes hayan disfrutado de esta residencia en alguna de las dos convocatorias anteriores.\n\n" +
             "Artículo 3. Dotación. Cada residente dispondrá de alojamiento individual, estudio de trabajo y una asignación mensual de 1.200 euros, sujeta a las retenciones fiscales que correspondan. Los gastos de desplazamiento hasta la sede serán reembolsados previa presentación de los justificantes, hasta un máximo de 400 euros. La Fundación no se hará cargo de los gastos de material, que deberán estar contemplados en el presupuesto del proyecto.\n\n" +
             "Artículo 4. Obligaciones. Los residentes se comprometen a residir en la sede durante al menos el 80 % del periodo, a participar en una jornada de puertas abiertas y a impartir un taller gratuito dirigido a la población local. Asimismo, deberán entregar, en el plazo de un mes desde la finalización de la estancia, una memoria de las actividades realizadas.\n\n" +
             "Artículo 5. Propiedad de las obras. Las obras resultantes serán propiedad de sus autores. No obstante, estos cederán a la Fundación, con carácter no exclusivo y por un periodo de cinco años, los derechos de reproducción con fines de difusión, siempre que se mencione la autoría.\n\n" +
@@ -46,7 +46,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
             "haya obtenido algún tipo de beca en el pasado.",
           ],
           answer: 0,
-          explanation: "Quedan excluidos quienes hayan disfrutado de la residencia en las dos convocatorias anteriores. La exclusión por financiación pública solo afecta a la misma fase del proyecto.",
+          explanation: "Quedan excluidos quienes hayan disfrutado de la residencia en alguna de las dos convocatorias anteriores. La exclusión por financiación pública solo afecta a la misma fase del proyecto.",
         },
         {
           n: 2,
@@ -124,7 +124,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
         { n: 9, question: "", options: T2_FRAGMENTS, answer: 1, explanation: "B formula la paradoja que se deriva del principio biológico: eliminar palomas favorece su reproducción." },
         { n: 10, question: "", options: T2_FRAGMENTS, answer: 0, explanation: "A completa la campaña de Basilea con la prohibición de alimentar a los animales, antes de exponer el resultado." },
         { n: 11, question: "", options: T2_FRAGMENTS, answer: 5, explanation: "F explica la desigualdad de resultados: el método exige constancia, como confirma la frase siguiente." },
-        { n: 12, question: "", options: T2_FRAGMENTS, answer: 4, explanation: "E: las colonias dependen del alimento disponible, lo que apoya la conclusión. G no encaja en ningún hueco: contradice que la colonia disminuyera \"de forma sostenida\"." },
+        { n: 12, question: "", options: T2_FRAGMENTS, answer: 4, explanation: "E: la comida abandonada atrae a las palomas, lo que apoya la conclusión. G no encaja en ningún hueco: contradice que la colonia disminuyera \"de forma sostenida\"." },
       ],
     },
     {
