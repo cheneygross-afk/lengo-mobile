@@ -13,6 +13,16 @@ export const PRONUNCIATION_VOICES = [
 
 export type PronunciationVoice = (typeof PRONUNCIATION_VOICES)[number]["value"];
 
+// The two extra voices ("female2", "male2") need the account database to
+// accept them (supabase/schema_pronunciation_voice_hd.sql in the website
+// repo); until then Settings only offers the first female and male voice.
+const EXTRA_VOICES_LIVE = false;
+
+/** The choices Settings shows. */
+export const PICKABLE_VOICES = PRONUNCIATION_VOICES.filter(
+  (v) => EXTRA_VOICES_LIVE || v.value === "female" || v.value === "male"
+);
+
 export const DEFAULT_PRONUNCIATION_VOICE: PronunciationVoice = "female";
 
 export function isPronunciationVoice(value: unknown): value is PronunciationVoice {

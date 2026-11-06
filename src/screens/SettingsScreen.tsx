@@ -8,7 +8,7 @@ import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
 import {
-  PRONUNCIATION_VOICES,
+  PICKABLE_VOICES,
   DEFAULT_PRONUNCIATION_VOICE,
   DEFAULT_PRONUNCIATION_ENABLED,
   isPronunciationVoice,
@@ -485,7 +485,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
           Pick the voice used. Tap one to hear it. The same voice reads every language and lesson, here and on the website.
         </Text>
         <View style={s.voiceRow}>
-          {PRONUNCIATION_VOICES.map((v) => {
+          {PICKABLE_VOICES.map((v) => {
             const active = pronunciationVoice === v.value;
             return (
               <Pressable
