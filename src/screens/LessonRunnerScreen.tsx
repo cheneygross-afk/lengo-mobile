@@ -615,9 +615,15 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       <NotepadSheet
         visible={notepadOpen}
         onClose={() => setNotepadOpen(false)}
-        onOpenAll={() => {
+        onOpenAll={async () => {
+          await notepad.flush();
           setNotepadOpen(false);
-          navigation.navigate("Notes", { course });
+          // Pushed on top: this lesson stays as it is underneath, so going
+          // back lands on the same step with the same answers.
+          navigation.navigate("Notes", {
+            course,
+            fromLesson: lesson ? { slug: lesson.slug, levelPath } : undefined,
+          });
         }}
         lessonTitle={shownTitle}
         accent={accent}

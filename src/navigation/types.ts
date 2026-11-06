@@ -116,8 +116,9 @@ export type AppStackParamList = {
   ChinesePlacement: undefined;
   Settings: undefined;
   // Every lesson notepad, by course (lib/lessonNotepad.ts); course opens
-  // with that course selected.
-  Notes: { course?: string } | undefined;
+  // with that course selected. fromLesson: opened from that lesson's
+  // notepad, which stays open underneath -- "Back to lesson" returns to it.
+  Notes: { course?: string; fromLesson?: { slug: string; levelPath: string } } | undefined;
   // First-run setup (starting level + daily goal) -- opened by Home when
   // the account hasn't done it here or on the website.
   Onboarding: undefined;
