@@ -78,7 +78,16 @@ export function useLessonNotepad({
     return () => clearTimeout(t);
   }, [body, loaded, levelPath, lessonSlug, lessonTitle, levelLabel]);
 
-  return { body, setBody, loaded, status, hasText: body.trim().length > 0 };
+  // Save now (e.g. before showing the Notes list) instead of waiting for the
+  // autosave pause.
+  async function flush() {
+    if (!loaded || body === lastSaved.current) return;
+    lastSaved.current = body;
+    const ok = await saveNotepad(userId.current, { levelPath, lessonSlug, lessonTitle, levelLabel, body });
+    setStatus(ok && userId.current ? "saved" : "local");
+  }
+
+  return { body, setBody, loaded, status, flush, hasText: body.trim().length > 0 };
 }
 
 export function NotepadChip({ onPress, hasText, accent }: { onPress: () => void; hasText: boolean; accent: string }) {

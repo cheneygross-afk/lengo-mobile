@@ -32,7 +32,10 @@ function when(ms: number): string {
   return new Date(ms).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 }
 
-export default function NotesScreen({ navigation }: Props) {
+export default function NotesScreen({ navigation, route }: Props) {
+  const fromLesson = route.params?.fromLesson;
+  const isFrom = (n: LessonNotepad) =>
+    !!fromLesson && n.lessonSlug === fromLesson.slug && n.levelPath === fromLesson.levelPath;
   const [loading, setLoading] = useState(true);
   const [userId, setUserId] = useState<string | null>(null);
   const [notes, setNotes] = useState<LessonNotepad[]>([]);
@@ -74,6 +77,16 @@ export default function NotesScreen({ navigation }: Props) {
 
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.content}>
+      {fromLesson && (
+        <Pressable
+          onPress={() => navigation.goBack()}
+          accessibilityRole="button"
+          style={s.backBtn}
+          hitSlop={6}
+        >
+          <Text style={s.backText}>← Back to lesson</Text>
+        </Pressable>
+      )}
       <Text style={s.intro}>
         Everything you&apos;ve written in a lesson&apos;s notepad. In any lesson, tap 📝 Notes at the top to add more.
       </Text>
@@ -95,7 +108,13 @@ export default function NotesScreen({ navigation }: Props) {
               </Text>
               {list.map((n) => {
                 const key = notepadKey(n.levelPath, n.lessonSlug);
-                const open = () => navigation.navigate("LessonRunner", { slug: n.lessonSlug, levelPath: n.levelPath });
+                // The lesson this was opened from is still open underneath:
+                // go back to it rather than starting it again.
+                const here = isFrom(n);
+                const open = () =>
+                  here
+                    ? navigation.goBack()
+                    : navigation.navigate("LessonRunner", { slug: n.lessonSlug, levelPath: n.levelPath });
                 return (
                   <View key={key} style={s.card}>
                     <Pressable onPress={open} accessibilityRole="link">
@@ -109,7 +128,7 @@ export default function NotesScreen({ navigation }: Props) {
                     </Text>
                     <View style={s.actions}>
                       <Pressable hitSlop={8} onPress={open} accessibilityRole="link">
-                        <Text style={s.openLink}>Open lesson →</Text>
+                        <Text style={s.openLink}>{here ? "Back to lesson →" : "Open lesson →"}</Text>
                       </Pressable>
                       {confirming === key ? (
                         <View style={{ flexDirection: "row", gap: 14 }}>
@@ -138,6 +157,17 @@ export default function NotesScreen({ navigation }: Props) {
 }
 
 const s = StyleSheet.create({
+  backBtn: {
+    alignSelf: "flex-start",
+    borderWidth: 1,
+    borderColor: "#2A151322",
+    backgroundColor: colors.card,
+    borderRadius: 999,
+    paddingHorizontal: 16,
+    paddingVertical: 9,
+    marginBottom: 14,
+  },
+  backText: { fontSize: 15, fontWeight: "700", color: colors.ink },
   screen: { flex: 1, backgroundColor: colors.background },
   content: { padding: 18, paddingBottom: 48 },
   center: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: colors.background },
