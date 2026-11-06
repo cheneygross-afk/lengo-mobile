@@ -8,12 +8,13 @@ import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
 import { HIGHLIGHT_COLORS, DEFAULT_HIGHLIGHT_COLOR, type HighlightColor } from "@/lib/highlightColors";
 import {
-  PRONUNCIATION_VOICES,
+  PICKABLE_VOICES,
   DEFAULT_PRONUNCIATION_VOICE,
   DEFAULT_PRONUNCIATION_ENABLED,
+  isPronunciationVoice,
   type PronunciationVoice,
 } from "@/lib/pronunciationVoice";
-import { setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
+import { previewVoice, setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
 import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
 import { syncPrefs, updatePrefs } from "@/lib/learnerPrefs";
 import { openPremium as openWebsitePlans } from "@/lib/premium";
@@ -124,7 +125,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
         if (data.highlight_color) setHighlightColor(data.highlight_color as HighlightColor);
         setEmail(data.email ?? session?.user?.email ?? "");
         setFullName(data.full_name ?? "");
-        if (data.pronunciation_voice) setPronunciationVoice(data.pronunciation_voice as PronunciationVoice);
+        if (isPronunciationVoice(data.pronunciation_voice)) setPronunciationVoice(data.pronunciation_voice);
         if (typeof data.pronunciation_enabled === "boolean") setPronunciationEnabledValue(data.pronunciation_enabled);
       });
     return () => {
@@ -207,7 +208,10 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
     }
   }
 
+  // Choosing a voice also plays a short sample of it; tapping the chosen
+  // one again replays it.
   async function pickPronunciationVoice(next: PronunciationVoice) {
+    previewVoice(next);
     if (!userId || next === pronunciationVoice || savingVoice) return;
     setSavingVoice(next);
     const { error } = await supabase.from("profiles").update({ pronunciation_voice: next }).eq("id", userId);
@@ -478,10 +482,10 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
           />
         </View>
         <Text style={s.sectionSub}>
-          Pick the voice used -- synced with your account on the website too.
+          Pick the voice used. Tap one to hear it. The same voice reads every language and lesson, here and on the website.
         </Text>
         <View style={s.voiceRow}>
-          {PRONUNCIATION_VOICES.map((v) => {
+          {PICKABLE_VOICES.map((v) => {
             const active = pronunciationVoice === v.value;
             return (
               <Pressable
@@ -588,7 +592,7 @@ const s = StyleSheet.create({
   },
   enabledRowText: { flex: 1 },
   enabledLabel: { fontSize: 14, fontWeight: "600", color: "#2A1513", marginBottom: 2 },
-  voiceRow: { flexDirection: "row", gap: 10, marginTop: 14 },
+  voiceRow: { flexDirection: "row", flexWrap: "wrap", gap: 10, marginTop: 14 },
   pillWrap: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 14 },
   voicePill: {
     borderWidth: 1,

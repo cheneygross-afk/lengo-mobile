@@ -6,6 +6,7 @@ import { Fraunces_600SemiBold, Fraunces_700Bold } from "@expo-google-fonts/fraun
 import { AuthProvider } from "@/lib/auth/AuthContext";
 import RootNavigator from "@/navigation/RootNavigator";
 import UpdateGate from "@/components/UpdateGate";
+import SpeechStatusToast from "@/components/SpeechStatusToast";
 
 export default function App() {
   // The wordmark font (Pacifico, as in the web app's header) and the
@@ -21,6 +22,7 @@ export default function App() {
     <SafeAreaProvider>
       <AuthProvider>
         <RootNavigator />
+        <SpeechStatusToast />
         <UpdateGate />
         <StatusBar style="auto" />
       </AuthProvider>
