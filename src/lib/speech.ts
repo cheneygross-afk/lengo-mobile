@@ -16,6 +16,8 @@ import { supabase } from "@/lib/supabase/client";
 import {
   DEFAULT_PRONUNCIATION_VOICE,
   DEFAULT_PRONUNCIATION_ENABLED,
+  VOICE_PREVIEW_TEXT,
+  isPronunciationVoice,
   type PronunciationVoice,
 } from "@/lib/pronunciationVoice";
 import { getSpanishVariety, loadSpanishVariety, spanishSpeechLang } from "@/lib/spanishVariety";
@@ -191,7 +193,7 @@ function loadPronunciationPrefs(): Promise<void> {
         .eq("id", user.id)
         .single();
       const v = data?.pronunciation_voice;
-      if (v === "male" || v === "female") preferredVoice = v;
+      if (isPronunciationVoice(v)) preferredVoice = v;
       if (typeof data?.pronunciation_enabled === "boolean") pronunciationEnabled = data.pronunciation_enabled;
     } catch {
       // Network hiccup or logged out -- stick with the defaults rather
@@ -415,7 +417,7 @@ function speechText(text: string, lang: SpeechLang): string {
   return stripForSpeech(text);
 }
 
-export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
+export function speak(text: string, requestedLang: SpeechLang, rate = 1, voiceOverride?: PronunciationVoice) {
   const clean = speechText(text, requestedLang);
   if (!clean) return;
 
@@ -427,24 +429,35 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1) {
   const current = () => run === readAloudRun;
 
   void (async () => {
-    // Never waits on the account's settings: until they arrive, the
-    // defaults speak.
-    if (!pronunciationEnabled) return;
+    // Waits for the account's saved voice (loaded once, at app start), so
+    // the voice never changes partway through a lesson.
+    await Promise.all([loadPronunciationPrefs(), loadSpanishVariety()]);
+    if (!current() || !pronunciationEnabled) return;
     const lang = voiceLang(requestedLang);
     if (currentStatus().state === "failed") setStatus({ state: "idle" });
     const cancelLoading = startLoading(current);
-    const ok = await playCloud(clean, lang, rate, current);
+    const ok = await playCloud(clean, lang, voiceOverride ?? preferredVoice, rate, current);
     cancelLoading();
     if (!current()) return;
-    setStatus(ok ? { state: "idle" } : { state: "failed", retry: () => speak(text, requestedLang, rate) });
+    setStatus(ok ? { state: "idle" } : { state: "failed", retry: () => speak(text, requestedLang, rate, voiceOverride) });
   })();
+}
+
+/** Plays a short English sample in `voice`, for the Settings voice picker. */
+export function previewVoice(voice: PronunciationVoice): void {
+  speak(VOICE_PREVIEW_TEXT, ENGLISH_LANG, 1, voice);
 }
 
 /** Plays the HD clip, recording it first if nobody has asked for this text
  * before. True when it played (or a newer tap took over). */
-async function playCloud(clean: string, lang: SpeechLang, rate: number, current: () => boolean): Promise<boolean> {
+async function playCloud(
+  clean: string,
+  lang: SpeechLang,
+  voice: PronunciationVoice,
+  rate: number,
+  current: () => boolean
+): Promise<boolean> {
   await ensureAudioMode();
-  const voice = preferredVoice;
   const cachedUrl = audioUrl(clean, lang, voice);
   if (!current()) return true;
   if (replayKept(cachedUrl, rate)) return true;
