@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "d73a1aaa931d4ad0c6d0f1c4b87f6a382cab0474",
+  "commit": "bb74725cee8747fd3d7dfad5787d29c420e6a125",
   "files": {
     "src/lib/lessons/a1-additions.ts": "aa502ae0a7915653459334e5d1f3c7d665a105d15ae77a380e8e87f266cbd43d",
     "src/lib/lessons/a1-core.ts": "09d9c01a671d34fdb43c8512649527f14a5959a39277a333dbd37a0249076cd0",
@@ -18,7 +18,7 @@
     "src/lib/lessons/b1-drills.ts": "8e5b7813bf328e6d72a8cfb33b10ede4071f03698791498fa1a981073773406c",
     "src/lib/lessons/b1-gaps.ts": "6701075181c4a9c4eb74a1fd75bc50dacf98d7a31f73ab872f4343449b124742",
     "src/lib/lessons/b1-reinforcement.ts": "8d79ff33d91efeb0fa20ad5e226c4a5d5d246c6e223f52d6d6bceb37daa1dfc2",
-    "src/lib/lessons/b1.ts": "ce50b2e964b6905d24c5baedcb8bfe170cb5fdf354a70e254673df981ff16870",
+    "src/lib/lessons/b1.ts": "0855c934fc928b8b01a9b8b90c59d4a2df6964b5d9827235211d2031eb52f07d",
     "src/lib/lessons/b2-drills.ts": "9086f61fde914c1d1ee769dea570e67ec26762358a80250746835a90e72a2793",
     "src/lib/lessons/b2-reinforcement.ts": "ea081fe1cd46c977a38aadeddba7b8afe33e94e118d019a72c4d897563030211",
     "src/lib/lessons/b2.ts": "22b1dfad43052f748ab9e32f520afc624c590e843a3978ede807e45fbfe3bcd9",
@@ -2023,7 +2023,7 @@
     "src/lib/lessons/survival-a2.ts": "9e689c5d0d149409bc76eb2825f128a534e36be9af1e9cf0481fc01ba78bffab",
     "src/lib/lessons/survival-b1.ts": "3b534548b4eae6fcfa3028acb29f3ceb68d49efb2447826973978b8195d4d3ee",
     "src/lib/lessons/targetTask.ts": "3dce42536123925ac5365b2486a85a1571560773ecc89249355e1004363f9b80",
-    "src/lib/lessons/translate-blanks.ts": "54f6cf5aad5ef7801953f602537e2c2d896442abde6b0719231931fb6e9ccc4a",
+    "src/lib/lessons/translate-blanks.ts": "7226458e52d7176f797f3cc5061c440e0a70884fce202d9166c17146beb264b7",
     "src/lib/lessons/types.ts": "0c467c32793d55fb9d9992307bab76e141fda27d7773faa50ccb4da5c385dab1",
     "src/lib/lessons/unit-defs.ts": "c72ec9c379518014e1ee46e0f151123139043e0c47bff49601f75aee2c4e0078",
     "src/lib/lessons/unit-reviews.ts": "3ee88aa75ee6d16c859f7ae6531774eb7a13cde84fef5949ba36e605970f37c4",

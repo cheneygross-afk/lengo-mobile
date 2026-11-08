@@ -26,7 +26,12 @@ function translateBlank(e: Exercise, prompt: string): Exercise {
   const key = fillBlankKey(e.sentence, e.answer);
   const fix = FILL_BLANK_FIXES[key];
   // Source alts and fix alts often overlap: keep each accepted answer once.
-  const altAnswers = [...new Set([...(e.altAnswers ?? []), ...(fix?.alts ?? [])].map((a) => a.trim()).filter(Boolean))];
+  // Grading ignores case, so "Gire" and "gire" (or an alt that is the answer
+  // in lower case) are one answer, not three.
+  const seen = new Set([e.answer.trim().toLowerCase()]);
+  const altAnswers = [...(e.altAnswers ?? []), ...(fix?.alts ?? [])]
+    .map((a) => a.trim())
+    .filter((a) => a && !seen.has(a.toLowerCase()) && seen.add(a.toLowerCase()));
   const withAlts = altAnswers.length ? { ...e, altAnswers } : e;
   if (e.en) return fix?.en ? { ...withAlts, en: fix.en } : withAlts;
   const entry = FILL_BLANK_ENGLISH[key];
