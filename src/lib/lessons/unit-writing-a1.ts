@@ -53,13 +53,13 @@ export const A1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Dates are el + number + de + month (el doce de abril), with no capital on the month. Question words carry an accent: ¿cuándo?, ¿cuántos?"
   ),
   "gustar-1": t(
-    "Describe your favourite season. Say what the weather is like, what you like and don't like doing then, and what you usually have to do or go to.",
+    "Describe your favorite season. Say what the weather is like, what you like and don't like doing then, and what you usually have to do or go to.",
     ["Weather with hace / hay / llueve / nieva", "Me gusta + infinitive or noun, and me gustan + plural noun", "No me gusta…", "Tener, ir or hacer at least once"],
     "Mi estación favorita es el invierno. Hace frío y a veces nieva. Me gusta mucho esquiar y me gustan las montañas. No me gusta el viento. En diciembre voy a casa de mis abuelos y tengo vacaciones.",
     "Gustar agrees with the thing liked: me gusta esquiar, me gustan las montañas. Weather uses hacer (hace frío) or its own verbs (nieva, llueve)."
   ),
   "a1r-word-web-house": t(
-    "You're in a clothes shop with a friend. Write what you say about three items using este, ese and aquel, with their colours and prices.",
+    "You're in a clothes shop with a friend. Write what you say about three items using este, ese and aquel, with their colors and prices.",
     ["Este / esta for something near you", "Ese / esa for something near your friend", "Aquel / aquella for something far away", "Colours that agree, and a price (cuesta… euros)"],
     "Mira, esta camisa azul es muy bonita y cuesta veinte euros. Esa chaqueta negra es elegante, pero es cara. ¿Y aquellos zapatos rojos? Me encantan. Voy a preguntar cuánto cuestan.",
     "Este (near me), ese (near you), aquel (over there); all agree with the noun: esta camisa, aquellos zapatos. Colours agree too: camisa azul, zapatos rojos."

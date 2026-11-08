@@ -313,7 +313,7 @@ export const A1_IRREGULARS: AnchoredLesson[] = [
       sec(
         "The idea: vowel + -cer → -zco",
         [
-          "Verbs that end in a vowel + -cer change that ending to -zco in the yo form: conocer → conozco, parecer → parezco. It's another \"odd yo\" verb: every other form is regular (conoces, conoce, conocemos, conocen).",
+          "Most verbs that end in a vowel + -cer (not hacer, cocer or mecer) change that ending to -zco in the yo form: conocer → conozco, parecer → parezco. It's another \"odd yo\" verb: every other form is regular (conoces, conoce, conocemos, conocen).",
           "Because it's a pattern and not a one-off, it works for verbs you haven't met yet: ofrecer (to offer) → ofrezco, agradecer (to be grateful for) → agradezco.",
           "Conocer means to know a person or to be familiar with a place. Parecer means to seem, to look. ¿Qué te parece? (What do you think of it?) is one of its most useful phrases.",
         ],

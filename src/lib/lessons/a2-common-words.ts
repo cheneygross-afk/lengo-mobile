@@ -427,7 +427,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         "Love and the heart",
         [
           "Amor = love; mi amor is a very common term of endearment. De corazón = from the heart, sincerely.",
-          "Con + tú becomes contigo (and con + yo becomes conmigo). Why? Spanish fused con with mí and ti into one word centuries ago, and only these two (plus consigo) do it. Every other person stays separate: con él, con ella, con nosotros, con ustedes. Matrimonio means marriage, and also a married couple.",
+          "Con + ti becomes contigo (and con + mí becomes conmigo). Why? Spanish fused con with mí and ti into one word centuries ago, and only these two (plus consigo) do it. Every other person stays separate: con él, con ella, con nosotros, con ustedes. Matrimonio means marriage, and also a married couple.",
         ],
         [
           ["Ella es el amor de mi vida.", "She's the love of my life."],
@@ -532,7 +532,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
         ],
         "Five everyday words about people and relationships."
       ),
-      fb("Complete with \"with you\" (tú).", "Me gusta mucho hablar ___, Pablo.", "contigo", "Con + tú becomes contigo, one word."),
+      fb("Complete with \"with you\" (tú).", "Me gusta mucho hablar ___, Pablo.", "contigo", "Con + ti becomes contigo, one word."),
       toEs("I have a good relationship with my sister.", "Tengo una buena relación con mi hermana.", "Relación = relationship; don't forget the accent.", []),
       toEn("¿Qué tipo de libros lees?", "What kind of books do you read?", "¿Qué tipo de...? = What kind of...?", ["What type of books do you read?", "What kind of books do you like to read?"]),
       toEn("Esos tipos son amigos de mi hermano.", "Those guys are my brother's friends.", "Tipos is informal for guys, and amigos de mi hermano = my brother's friends.", ["Those guys are friends of my brother's.", "Those guys are friends of my brother."]),
@@ -1121,7 +1121,7 @@ export const A2_COMMON_WORDS: AnchoredLesson[] = [
       ),
       { ...fb("How do you say the bold words in Spanish?", "Ganó la medalla de ___ en los Juegos Olímpicos.", "oro", "La medalla de oro = the gold medal."), en: "She won the [gold] medal at the Olympic Games." },
       { ...fb("How do you say the bold words in Spanish?", "Mi prima monta a ___ todos los sábados.", "caballo", "Montar a caballo = to ride a horse."), en: "My cousin rides a [horse] every Saturday." },
-      toEs("Merry Christmas!", "¡Feliz Navidad!", "Navidad is written with a capital N.", ["Feliz Navidad", "Feliz Navidad!"]),
+      toEs("Merry Christmas!", "¡Feliz Navidad!", "Navidad is written with a capital N.", ["Feliz Navidad"]),
       toEs("This chair hurts my back.", "Esta silla me hace daño en la espalda.", "Hacer daño works like gustar: la silla is the subject (hace), me is the person, and the body part goes with en la, not mi.", ["Esta silla me lastima la espalda."]),
       toEn("No tengo fuerza para correr más.", "I don't have the strength to run anymore.", "La fuerza means strength; tener fuerza para + infinitive = to have the strength to.", ["I don't have the strength to run any more.", "I have no strength to run anymore.", "I don't have the strength to run more."]),
       wo("Jugamos a las cartas para matar el tiempo.", "Para + infinitive gives the purpose: para matar el tiempo = to kill time.", "We play cards to kill time."),

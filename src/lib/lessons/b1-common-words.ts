@@ -324,7 +324,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       toEs("The search lasted all night.", "La búsqueda duró toda la noche.", "Buscar → la búsqueda (search), con tilde en la «u». Fíjate en el cambio c → qu delante de e.", []),
       toEs("El agente secreto aceptó la misión.", "La agente secreta aceptó la misión.", "Agente termina en -e: es igual para los dos géneros y solo cambia el artículo (la agente). El adjetivo sí concuerda: secreta.", [], "Cambia a femenino."),
       toEs("La fiscala pidió quince años de cárcel.", "La fiscal pidió quince años de cárcel.", "Fiscal termina en -al y no tiene forma femenina: el fiscal, la fiscal. Solo cambia el artículo.", ["La fiscal pidió quince años de prisión."], "Corrige la frase."),
-      wo("La policía descifró el código del mensaje secreto.", "Descifrar un código = to crack a code.", "The police cracked the code of the secret message."),
+      wo("La policía encontró el código del mensaje secreto.", "Encontrar = to find; el código = the code.", "The police found the code of the secret message."),
       wo("Queremos justicia para todas las víctimas.", "Pedir / querer justicia = to demand justice.", "We want justice for all the victims."),
     ]
   ),
@@ -355,7 +355,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
             "Aplica la regla a un nombre nuevo: ¿cómo se dice «Saint Francis»?",
             ["San Francisco", "Santo Francisco", "Santa Francisco", "Sante Francisco"],
             0,
-            "Santo se acorta a «san» delante de casi todos los nombres de hombre: San Francisco, como San Pedro. Solo Tomás, Domingo, Toribio y Tomé conservan «Santo»; «Santa» es para mujeres."
+            "Santo se acorta a «san» delante de casi todos los nombres de hombre: San Francisco, como San Pedro. Solo Tomás, Domingo y Toribio conservan «Santo»; «Santa» es para mujeres."
           ),
           mc(
             "¿Cuál es correcto?",
@@ -393,7 +393,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         "Fantasmas, monstruos, magia y belleza",
         [
           "«Fantasma» termina en -a, pero es masculino: el fantasma, un fantasma. Es una palabra de origen griego en -ma, como el problema, el tema o el sistema, y todas son masculinas. También es un adjetivo: un pueblo fantasma (ghost town). El monstruo es de los cuentos y de las pesadillas de los niños.",
-          "La magia es lo que hace un mago; «como por arte de magia» = as if by magic. Y en los cuentos siempre hay belleza: La Bella y la Bestia, ¡qué belleza de paisaje! Belleza sale del adjetivo bello + -eza, un sufijo que forma nombres femeninos de cualidad: triste → la tristeza, pobre → la pobreza.",
+          "La magia es lo que hace un mago: «como por arte de magia» = as if by magic. La belleza (beauty) sale de bello + -eza, como triste → la tristeza.",
         ],
         [
           ["Dicen que en el castillo vive un fantasma.", "They say a ghost lives in the castle."],
@@ -774,7 +774,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       sec(
         "Dos avisos: el género y los falsos parecidos",
         [
-          "Dos avisos. Primero, el género lo da la terminación: -dad, -tad, -ción e -ía son femeninas (la cantidad, la teoría). Segundo, el parecido no garantiza el uso: el aspecto es también la apariencia (tener buen aspecto = to look well) y una obra puede ser una obra de teatro o unas obras en la calle.",
+          "Dos avisos. Primero, el género lo da la terminación: -dad, -tad, -ción e -ía suelen ser femeninas (la cantidad, la teoría; excepción: el día). Segundo, el parecido no garantiza el uso: el aspecto es también la apariencia (tener buen aspecto = to look well) y una obra puede ser una obra de teatro o unas obras en la calle.",
         ],
         [
           ["Tu padre tiene buen aspecto.", "Your father looks well. (aspecto = apariencia, no solo aspect)"],
@@ -1277,7 +1277,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Apuestas, órdenes y opiniones",
+        "Apostar, detenerse y otras palabras útiles",
         [
           "«Te apuesto que…» = I bet you that… (de apostar, o → ue). «¡Detente!» es el imperativo de detenerse para tú: Stop!",
           "«Ridículo» = absurdo; «hacer el ridículo» = hacer algo que da vergüenza en público. «Brillante» = que brilla, o muy inteligente: una idea brillante. «El acto» es una acción o una ceremonia; «en el acto» = inmediatamente.",
@@ -1312,7 +1312,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
           ["Estoy dando clases de guitarra.", "I'm giving guitar lessons."],
         ],
         [
-          { ...fb("Completa la frase.", "¿Qué ___ ayer en la reunión? Nadie me cuenta nada.", "ocurrió", "Ocurrir → ocurrió (pretérito): what happened."), altAnswers: ["pasó"] },
+          { ...fb("Completa la frase.", "Ayer Pedro no vino a clase; ___ de estar enfermo.", "debió", "Suposición sobre el pasado: debió de + infinitivo = must have been. «Debí» es la forma de yo y «debió» la de él."), altAnswers: ["debía"] },
         ]
       ),
     ],

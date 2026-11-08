@@ -189,7 +189,7 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("___ con agua fría.", "Me ducho", "[I shower] with cold water.", "Me ducho = I shower (myself).", ["me ducho"]),
       fe("___ a casa a las siete.", "Regreso", "[I come back] home at seven.", "regresar → regreso, with no me: you don't do it to yourself. Volver means the same: vuelvo.", ["Vuelvo"]),
       fe("Leo ___ el desayuno.", "durante", "I read [during] breakfast.", "Durante = during, followed by a noun (el desayuno)."),
-      fe("Me ducho y ___ salgo de casa.", "luego", "I shower and [then] I leave home.", "Luego (or entonces) = then.", ["entonces"]),
+      fe("Me ducho y ___ salgo de casa.", "luego", "I shower and [then] I leave home.", "Luego (or entonces, después) = then.", ["entonces", "después"]),
       mt(
         "Put each phrase with its meaning.",
         [
@@ -303,23 +303,32 @@ export const A1_CORE: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "How sure, how much",
+        "How sure: doubt and certainty",
         [
-          "Quizás and probablemente show doubt; realmente and simplemente add weight; por supuesto means of course.",
-          "Amount words (bastante, suficiente, demasiado, tanto) agree like adjectives when they come before a noun: suficientes sillas, demasiada comida, tantos libros. After a verb they describe the action and never change: trabajas demasiado, trabajas tanto.",
+          "Quizás and probablemente show doubt; por supuesto means of course. Realmente (really) and simplemente (simply) add weight to what follows.",
         ],
         [
           ["Quizás llueve mañana.", "Maybe it'll rain tomorrow. (doubt)"],
           ["Probablemente es su hermano.", "He's probably her brother. (doubt)"],
           ["¿Puedo pasar? —¡Por supuesto!", "Can I come in? — Of course!"],
           ["Realmente no entiendo el problema.", "I really don't understand the problem."],
-          ["Hay bastante comida para todos.", "There's quite enough food for everyone. (before a noun: agrees with comida)"],
-          ["No tengo suficiente dinero.", "I don't have enough money."],
-          ["¡Trabajas tanto!", "You work so much! (after a verb: no change)"],
           ["Hoy estoy mal; simplemente necesito dormir.", "I feel bad today; I simply need to sleep."],
         ],
         [
           fe("¿Me ayudas? —¡___!", "Por supuesto", "Will you help me? — [Of course]!", "Por supuesto = of course. Claro means the same.", ["por supuesto", "Claro"]),
+        ]
+      ),
+      sec(
+        "How much: amount words",
+        [
+          "Amount words (bastante, suficiente, demasiado, tanto) agree like adjectives when they come before a noun: suficientes sillas, demasiada comida, tantos libros. After a verb they describe the action and never change: trabajas demasiado, trabajas tanto.",
+        ],
+        [
+          ["Hay bastante comida para todos.", "There's quite enough food for everyone. (before a noun: agrees with comida)"],
+          ["No tengo suficiente dinero.", "I don't have enough money."],
+          ["¡Trabajas tanto!", "You work so much! (after a verb: no change)"],
+        ],
+        [
           fe("Hay ___ gente en el metro.", "demasiada", "There are [too many] people on the metro.", "Before a noun, demasiado agrees with it: gente is feminine singular, so demasiada gente."),
         ]
       ),
@@ -415,7 +424,7 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("Puedes llamar a ___ hora.", "cualquier", "You can call at [any] time.", "Cualquier before a noun, masculine or feminine; cualquiera only when it stands alone."),
       toEs("Do you want another beer?", "¿Quieres otra cerveza?", "Otra agrees with cerveza, with no una in front.", ["¿Quiere otra cerveza?", "¿Quiere usted otra cerveza?", "¿Tú quieres otra cerveza?"]),
       toEs("She's my only sister.", "Es mi única hermana.", "Único → única with hermana, before the noun because it means 'only'.", ["Ella es mi única hermana."]),
-      toEs("I want to go with you.", "Quiero ir contigo.", "Ir = to go; con + ti → contigo; con + mí → conmigo.", ["Yo quiero ir contigo.", "Quiero ir con usted."]),
+      toEs("We need another table.", "Necesitamos otra mesa.", "Otra agrees with mesa (feminine), and there is no una before it: otro already means \"another\".", ["Nosotros necesitamos otra mesa."]),
       toEs("Next year I want my own apartment.", "El próximo año quiero mi propio apartamento.", "Propio goes before the noun; próximo usually does too, though el año próximo is also correct.", ["El año próximo quiero mi propio apartamento.", "El próximo año quiero mi propio piso.", "El año que viene quiero mi propio apartamento.", "El año que viene quiero mi propio piso."]),
       mc("¿Es cierto? No tengo ninguna noticia. What does the speaker mean?", ["Is it true? I haven't heard any news.", "It's certain: I have some news.", "Is it true? I have only one piece of news.", "It's close. I have no idea."], 0, "Cierto = true, and no + ninguna = not any: \"I don't have any news.\" Ninguna is feminine because noticia is."),
       ms(
@@ -502,7 +511,7 @@ export const A1_CORE: AnchoredLesson[] = [
       fe("Mi abuelo tiene un problema del ___.", "corazón", "My grandfather has a [heart] problem.", "El corazón = the heart."),
       toEs("My knees hurt. (la rodilla = the knee)", "Me duelen las rodillas.", "A new word, the same rule: several knees → duelen, with las, not mis."),
       toEs("Does your head hurt?", "¿Te duele la cabeza?", "Te duele + la cabeza: te already says 'your'.", ["¿Le duele la cabeza?"]),
-      toEs("It's nothing serious.", "No es nada serio.", "No… nada = nothing; serio agrees with nada (masculine).", ["No es nada grave."]),
+      toEs("It's nothing serious.", "No es nada serio.", "No… nada = nothing; serio stays in its masculine form after nada.", ["No es nada grave."]),
       toEs("I have an earache and my eyes hurt.", "Tengo dolor de oído y me duelen los ojos.", "Dolor de oído; los ojos → duelen.", ["Me duele el oído y me duelen los ojos."]),
       mc("A sign says: \"¡Ten cuidado! El suelo está mojado.\" What does it tell you?", ["Be careful: the floor is wet.", "Take care of the floor: clean it.", "Hurry: the floor is closed.", "Careful: the floor is dirty."], 0, "Ten cuidado = be careful, and mojado = wet. Estar describes the floor's state right now."),
       mc(

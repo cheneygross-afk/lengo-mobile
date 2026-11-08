@@ -9,12 +9,12 @@ import { dict, lc, spk, wr } from "./skills-authoring";
 // comprehension, not word-matching.
 export const B1_SKILLS: Record<string, Exercise[]> = {
   "b1d-habla-de-ti-alguna-vez": [
-    spk("¿Alguna vez has comido pulpo? Sí, varias veces.", "Une has y comido sin pausa: «has-co-MI-do». La voz sube al final de la pregunta.", "«¿Alguna vez has comido pulpo?» pregunta por experiencias: pretérito perfecto."),
-    spk("Nunca he estado en Asia.", "Sinalefa: «he estado» suena casi «hes-TA-do», y «en Asia» se une: «e-NA-sia».", "Nunca + pretérito perfecto para una experiencia que no has tenido."),
+    { ...spk("¿Alguna vez has comido pulpo? Sí, varias veces.", "Une has y comido sin pausa: «has-co-MI-do». La voz sube al final de la pregunta.", "«¿Alguna vez has comido pulpo?» pregunta por experiencias: pretérito perfecto."), prompt: "Pregunta a un amigo si ha comido pulpo alguna vez y responde que sí, varias veces." },
+    { ...spk("Nunca he estado en Asia.", "Sinalefa: «he estado» suena casi «hes-TA-do», y «en Asia» se une: «e-NA-sia».", "Nunca + pretérito perfecto para una experiencia que no has tenido."), prompt: "Di que nunca has estado en Asia." },
   ],
   "b1d-habla-de-ti-reacciones": [
-    spk("¡Qué bien que tengas vacaciones!", "Exclamación: empieza alto y baja al final. La v de vacaciones es una b suave.", "¡Qué bien que + subjuntivo! para alegrarse por otra persona."),
-    spk("Me alegro mucho de que te hayan dado el trabajo.", "En «alegro», la r va tras g: un solo toque, como en «tres». «Hayan» se dice con la y de «yo».", "Me alegro de que + subjuntivo (aquí, perfecto de subjuntivo: hayan dado)."),
+    { ...spk("¡Qué bien que tengas vacaciones!", "Exclamación: empieza alto y baja al final. La v de vacaciones es una b suave.", "¡Qué bien que + subjuntivo! para alegrarse por otra persona."), prompt: "Alégrate por un amigo que tiene vacaciones." },
+    { ...spk("Me alegro mucho de que tengas el trabajo.", "En «alegro», la r va tras g: un solo toque, como en «tres». «Tengas» lleva la fuerza en la primera sílaba: TEN-gas.", "Me alegro de que + subjuntivo (tengas, de tengo)."), prompt: "Dile a un amigo que te alegras mucho de que tenga trabajo nuevo." },
   ],
   "b1d-habla-de-ti-ojala": [
     spk("Ojalá encuentre un piso cerca del trabajo.", "Ojalá lleva el acento en la última: o-ja-LÁ. Une «ojalá encuentre»: sin pausa.", "Ojalá + presente de subjuntivo para un deseo posible."),
@@ -74,20 +74,20 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
     spk("Mi jefa quiere que termine el informe hoy.", "Informe: in-FOR-me, la r antes de m es una vibrante simple.", "Querer que + subjuntivo: termine."),
   ],
   "b1d-habla-de-ti-dudas": [
-    spk("No creo que el tráfico mejore pronto.", "Tráfico es esdrújula: TRÁ-fi-co.", "No creo que + subjuntivo (mejore): expresa duda."),
-    spk("Me parece que el tráfico va a empeorar.", "Une «va a empeorar»: «va-em-pe-o-RAR».", "Me parece que + indicativo: una opinión afirmativa."),
+    { ...spk("No creo que el tráfico mejore pronto.", "Tráfico es esdrújula: TRÁ-fi-co.", "No creo que + subjuntivo (mejore): expresa duda."), prompt: "Di que dudas que el tráfico de tu ciudad mejore pronto." },
+    { ...spk("Me parece que el tráfico va a empeorar.", "Une «va a empeorar»: «va-em-pe-o-RAR».", "Me parece que + indicativo: una opinión afirmativa."), prompt: "Da tu opinión: crees que el tráfico va a ser peor en el futuro." },
   ],
   "b1d-habla-de-ti-normas-casa": [
-    spk("Quítate los zapatos en la entrada, por favor.", "QUÍ-ta-te: la u de «qui» no suena.", "Mandato afirmativo de tú con pronombre: quítate."),
+    { ...spk("Quítate los zapatos en la entrada, por favor.", "QUÍ-ta-te: la u de «qui» no suena.", "Mandato afirmativo de tú con pronombre: quítate."), prompt: "Pide a un amigo (tú) que se quite los zapatos en la entrada de tu casa." },
   ],
   "b1d-habla-de-ti-logros": [
-    spk("Este año he conseguido correr diez kilómetros.", "Correr: dos erres fuertes; la r final, simple.", "Pretérito perfecto (he conseguido) con «este año»: un periodo que no ha terminado."),
+    { ...spk("Este año he conseguido correr diez kilómetros.", "Correr: dos erres fuertes; la r final, simple.", "Pretérito perfecto (he conseguido) con «este año»: un periodo que no ha terminado."), prompt: "Di que este año has conseguido correr diez kilómetros." },
   ],
   "b1d-habla-de-ti-objetos": [
-    spk("La caja en la que guardo mis cartas es de madera.", "Guardo: la u se pronuncia, «GWAR-do».", "Preposición + artículo + que: en la que."),
+    { ...spk("La caja en la que guardo mis cartas es de madera.", "Guardo: la u se pronuncia, «GWAR-do».", "Preposición + artículo + que: en la que."), prompt: "Di que la caja en la que guardas tus cartas es de madera." },
   ],
   "b1d-habla-de-ti-receta-se": [
-    spk("Primero se lavan las verduras y luego se calienta el aceite.", "Aceite: a-CEI-te, «ei» en una sola sílaba.", "Se pasiva: se lavan (plural, las verduras), se calienta (singular, el aceite)."),
+    { ...spk("Primero se lavan las verduras y luego se calienta el aceite.", "Aceite: a-CEI-te, «ei» en una sola sílaba.", "Se pasiva: se lavan (plural, las verduras), se calienta (singular, el aceite)."), prompt: "Explica la receta: primero se lavan las verduras y luego se calienta el aceite." },
   ],
   "b1r-dialogue-have-you-ever": [
     lc(
@@ -97,7 +97,7 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
       0,
       "Fue a México en 2019, pero «nunca he estado en Cancún». No es que no haya ido a México, no se habla de dos visitas a Cancún, y el viaje con su hermana ya pasó: no es un plan."
     ),
-    spk("He estado en Perú. Fui en 2019 con mi hermana.", "Cambia de tiempo con la frase: «he estado» (experiencia) y «fui» (el detalle con fecha).", "La experiencia va en pretérito perfecto; los detalles con fecha, en indefinido."),
+    { ...spk("He estado en Perú. Fui en 2019 con mi hermana.", "Cambia de tiempo con la frase: «he estado» (experiencia) y «fui» (el detalle con fecha).", "La experiencia va en pretérito perfecto; los detalles con fecha, en indefinido."), prompt: "Di que has estado en Perú y que fuiste en 2019 con tu hermana." },
   ],
   "b1r-dialogue-advice-column": [
     lc(
@@ -107,7 +107,7 @@ export const B1_SKILLS: Record<string, Exercise[]> = {
       0,
       "Recomienda «que hables con él con calma» y «que hagáis una lista de tareas»: hablar tranquilamente y repartir el trabajo. No propone mudarse, ni limpiar sola, ni escribir una carta."
     ),
-    spk("Te recomiendo que hables con él con calma.", "Une «con él con calma» en un solo grupo: «co-nél-con-CAL-ma».", "Recomendar que + subjuntivo (hables)."),
+    { ...spk("Te recomiendo que hables con él con calma.", "Une «con él con calma» en un solo grupo: «co-nél-con-CAL-ma».", "Recomendar que + subjuntivo (hables)."), prompt: "Recomienda a un amigo (tú) que hable con su compañero con calma." },
   ],
   "b1r-dialogue-polite-requests": [
     lc(

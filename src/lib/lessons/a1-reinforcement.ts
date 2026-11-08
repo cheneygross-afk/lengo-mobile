@@ -121,7 +121,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Complete the introduction.",
         "Hola, yo ___ Marta y soy de Madrid.",
         "soy",
-        "Yo takes soy, the ser form (I am). This exercise practises ser."
+        "Yo takes soy, the ser form (I am). This exercise practices ser."
       ),
       mc(
         "You're introducing two friends to your teacher. How do you say \"They are from Mexico\"?",
@@ -5044,9 +5044,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "\"My brother is an engineer.\"",
-            ["Mi hermano es ingeniero.", "Mi hermano es un ingeniero.", "Mi hermano está ingeniero.", "Mi hermano es ingeniera."],
+            ["Mi hermano es ingeniero.", "Mi hermano es un ingeniero.", "Mi hermano ingeniero.", "Mi hermano es ingeniera."],
             0,
-            "Ser + profession, with no article: es ingeniero. \"Es un ingeniero\" adds an article Spanish leaves out, \"está\" is estar, and \"ingeniera\" is feminine but hermano is male."
+            "Ser + profession, with no article: es ingeniero. \"Es un ingeniero\" adds an article Spanish leaves out, \"Mi hermano ingeniero\" has no verb, and \"ingeniera\" is feminine but hermano is male."
           ),
           toEs(
             "Mi madre es una dentista.",
@@ -5083,9 +5083,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       ms(
         "Which sentences are correct?",
-        ["Ella es artista.", "Él es un doctor muy bueno.", "Soy una estudiante.", "Mi padre está profesor."],
+        ["Ella es artista.", "Él es un doctor muy bueno.", "Soy una estudiante.", "Mi padre profesor."],
         [0, 1],
-        "No article without an adjective: es artista, soy estudiante (so \"Soy una estudiante\" is wrong). With an adjective the article returns: un doctor muy bueno. A job takes ser, never estar, so \"está profesor\" is wrong."
+        "No article without an adjective: es artista, soy estudiante (so \"Soy una estudiante\" is wrong). With an adjective the article returns: un doctor muy bueno. A job needs ser, so \"Mi padre profesor\" without a verb is wrong."
       ),
       fb(
         "Complete with a job word built from panadería (bakery).",
@@ -5143,9 +5143,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Correct the sentence."
       ),
       toEs(
-        "Mi padre está abogado.",
+        "Mi padre es un abogado.",
         "Mi padre es abogado.",
-        "A profession says who someone is, so it takes ser: es abogado. Estar is for states and places.",
+        "A profession with no adjective takes no article: es abogado, not es un abogado.",
         [],
         "Correct the sentence."
       ),
@@ -6023,21 +6023,39 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
             "explanation": "One melon, so cuesta; aquel points to something over there."
           }
         ]
+      },
+      {
+        "heading": "Conversation 4: Goodbye",
+        "body": [
+          "Say goodbye with adiós, or with hasta + when you will meet again: hasta mañana, hasta el lunes. Wish someone well with buen fin de semana. De nada is the reply to gracias, not a goodbye."
+        ],
+        "examples": [
+          {
+            "es": "—Adiós, hasta el lunes.",
+            "en": "Bye, see you Monday."
+          },
+          {
+            "es": "—Gracias. —De nada. ¡Buen fin de semana!",
+            "en": "Thanks. You're welcome. Have a good weekend!"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Conversation 4: Goodbye. Which is the most natural way to say \"See you tomorrow\"?",
+            "options": [
+              "Hasta mañana.",
+              "Buenos días.",
+              "Mucho gusto.",
+              "De nada."
+            ],
+            "correctIndex": 0,
+            "explanation": "Hasta mañana = until tomorrow. Buenos días is a greeting, mucho gusto is for meeting someone, and de nada answers gracias."
+          }
+        ]
       }
     ],
     [
-      {
-        "type": "multiple-choice",
-        "question": "Conversation 4: Goodbye. Which is the most natural way to say \"See you tomorrow\"?",
-        "options": [
-          "Hasta mañana.",
-          "Buenos días.",
-          "Mucho gusto.",
-          "De nada."
-        ],
-        "correctIndex": 0,
-        "explanation": "Hasta mañana = until tomorrow. Buenos días is a greeting, mucho gusto is for meeting someone, and de nada answers gracias."
-      },
       {
         "type": "matching",
         "instructions": "Match each line to its best reply.",
@@ -7598,11 +7616,11 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Change to Lucas (él).",
-        "source": "Estudio historia en la universidad.",
-        "answer": "Estudia historia en la universidad.",
+        "source": "Estudio arte en la universidad.",
+        "answer": "Estudia arte en la universidad.",
         "altAnswers": [
-          "Lucas estudia historia en la universidad.",
-          "Él estudia historia en la universidad."
+          "Lucas estudia arte en la universidad.",
+          "Él estudia arte en la universidad."
         ],
         "explanation": "Él takes the -a ending for -ar verbs: estudia."
       },

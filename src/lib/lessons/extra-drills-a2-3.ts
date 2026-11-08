@@ -476,7 +476,7 @@ export const DRILLS_A2_3: Record<string, Exercise[]> = {
   ],
   "future-tense-2": [
     toEs("Next year I'll apply for a new job.", "El año que viene solicitaré un nuevo trabajo.", "Solicitar + -é.", ["El próximo año solicitaré un nuevo trabajo.", "El año que viene solicitaré un trabajo nuevo.", "El próximo año solicitaré un trabajo nuevo."]),
-    toEs("La empresa contratará diez personas.", "La empresa contratará a diez personas.", "People as a direct object need the personal a: contratará a diez personas.", [], "Correct the sentence."),
+    toEs("La empresa contratará Marta.", "La empresa contratará a Marta.", "A specific person as a direct object needs the personal a: contratará a Marta.", [], "Correct the sentence."),
     toEs("Mi padre se jubila dentro de dos años.", "Mi padre se jubilará dentro de dos años.", "Jubilarse in the future: se stays before the verb, and jubilar + -á = jubilará.", ["Mi padre se jubilará en dos años."], "Change it to the simple future."),
     toEs("She'll quit her job.", "Renunciará a su trabajo.", "Renunciar a + noun.", ["Ella renunciará a su trabajo."]),
     toEs("I'll work from home on Fridays.", "Trabajaré desde casa los viernes.", "Trabajar desde casa = to work from home.", ["Los viernes trabajaré desde casa."]),
@@ -490,7 +490,7 @@ export const DRILLS_A2_3: Record<string, Exercise[]> = {
     mc("'The salary will be better.'", ["El sueldo será mejor.", "El sueldo serrá mejor.", "El sueldo sería mejor.", "El sueldo es mejor."], 0, "Ser is regular in the future: será. Sería is the conditional (would be)."),
   ],
   "a2r-mission-predictions": [
-    toEs("This year you'll find love. (informal)", "Este año encontrarás el amor.", "Encontrar + -ás; Spanish uses el with amor."),
+    toEs("This year you'll find love. (informal)", "Este año encontrarás el amor.", "Encontrar + -ás; Spanish uses el with amor.", ["Este año encontrarás amor."]),
     toEs("Tenerás mucho dinero.", "Tendrás mucho dinero.", "Tener has the short stem tendr- in the future: tendrás.", [], "Correct the horoscope."),
     toEs("Te ayudo.", "Te prometo que te ayudaré.", "Promises take te prometo que + future: ayudaré.", ["Prometo que te ayudaré."], "Turn it into a promise with te prometo que."),
     toEs("I will never lie to you again. (informal)", "No te mentiré nunca más.", "A promise takes the future: mentir + -é.", ["Nunca más te mentiré.", "No te volveré a mentir."]),
@@ -511,7 +511,7 @@ export const DRILLS_A2_3: Record<string, Exercise[]> = {
     toEs("Last year we traveled to Chile, and next year we will travel to Peru.", "El año pasado viajamos a Chile, y el año que viene viajaremos a Perú.", "Preterite for last year, future for next year.", ["El año pasado viajamos a Chile y el próximo año viajaremos a Perú."]),
     toEs("Before, she lived alone; now she lives with her sister.", "Antes vivía sola; ahora vive con su hermana.", "Antes → imperfect; ahora → present."),
     toEs("Mañana fui al dentista.", "Mañana iré al dentista.", "Mañana points to the future, so the verb must be future: iré (or voy a ir), not the preterite fui.", ["Mañana voy a ir al dentista.", "Mañana voy al dentista."], "Correct the sentence."),
-    toEs("De niña, viví en un pueblo pequeño.", "De niña, vivía en un pueblo pequeño.", "De niña describes a stage of life (background), so the imperfect vivía, not the one-off preterite viví.", ["De niño, vivía en un pueblo pequeño.", "De niña vivía en un pueblo pequeño."], "Correct the sentence."),
+    toEs("De niña, vivo en un pueblo pequeño.", "De niña, vivía en un pueblo pequeño.", "De niña describes a stage of life (background), so the imperfect vivía, not the present vivo.", ["De niño, vivía en un pueblo pequeño.", "De niña vivía en un pueblo pequeño."], "Correct the sentence."),
     toEs("Ayer trabajé en casa.", "Mañana trabajaré en casa.", "Swap the time word and the tense together: mañana → future, trabajar + -é.", ["Mañana voy a trabajar en casa."], "Change ayer to mañana."),
     fe("Ayer ___ a mi abuela en el hospital.", "visité", "Yesterday I [visited] my grandmother in the hospital.", "Ayer → preterite: visité."),
     fe("Dentro de dos años ___ la carrera.", "terminaré", "In two years I [will finish] my degree.", "Dentro de → future.", ["acabaré"]),

@@ -688,7 +688,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
   L(
     "sounds-ll-y-c-z-s",
     "Sounds of Spanish: LL and Y, C, Z and S",
-    "Why calle and cayó rhyme, how Buenos Aires says yo, and the two standard ways to say cinco and gracias.",
+    "Why calle and playa share one sound, how Buenos Aires says yo, and the two standard ways to say cinco and gracias.",
     "10 min",
     [
       sec(
@@ -785,7 +785,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       sec(
         "S is always a hiss, and some words sound alike",
         [
-          "Spanish s is always the hissing s of \"sun\", even between vowels. English often buzzes it (\"rose\", \"president\"); Spanish doesn't: casa, rosa, presidente.",
+          "Spanish s is normally the hissing s of \"sun\", even between vowels. English often buzzes it (\"rose\", \"president\"); Spanish doesn't: casa, rosa, presidente.",
           "With seseo, some pairs sound identical: casa (house) and caza (hunt), ves (you see) and vez (time, occasion). In Spain they're different. In Latin America, context tells you which word it is -- and spelling has to be learned.",
         ],
         [

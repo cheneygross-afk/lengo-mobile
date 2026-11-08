@@ -350,8 +350,8 @@ export const B1_GAPS: AnchoredLesson[] = [
           "La idea: una perífrasis es un verbo conjugado + (preposición) + infinitivo, donde el primer verbo pierde parte de su significado y solo dice CÓMO está la acción: a punto de empezar, recién terminada, repetida, interrumpida. El primer verbo lleva el tiempo y la persona; el infinitivo, la acción. Y cada una tiene su preposición fija, que no se puede quitar.",
         ],
         [
-          ["Voy a salir. / Acabo de salir.", "I'm going to go out. / I've just gone out. (same infinitive; the first verb says how the action stands)"],
-          ["Dejé de correr.", "I stopped running. (dejar + de: the preposition is fixed)"],
+          ["Voy a salir. / Acabo de salir.", "I'm going to go out. / I've just gone out. (mismo infinitivo; el primer verbo dice cómo está la acción)"],
+          ["Dejé de correr.", "I stopped running. (dejar + de: la preposición es fija)"],
         ],
         [
           mc(
@@ -405,7 +405,7 @@ export const B1_GAPS: AnchoredLesson[] = [
         [
           "Volver a + infinitivo = hacer algo otra vez: Volvió a llamar (he called again). Es muy frecuente y natural; «llamó otra vez» también es correcto.",
           "Dejar de + infinitivo = parar, abandonar una costumbre: Dejé de fumar hace dos años. En negativo, no dejar de = seguir, no olvidar: No dejes de visitar el museo (make sure you visit).",
-          "Volver a también expresa promesas: No volverá a pasar = It won't happen again.",
+          "Volver a también aparece en promesas: No volverá a pasar = It won't happen again.",
         ],
         [
           ["¿Puedes volver a explicarlo?", "Can you explain it again?"],
@@ -558,10 +558,10 @@ export const B1_GAPS: AnchoredLesson[] = [
         ],
         [
           fe(
-            "Han pasado diez años y ___ en contacto con mis compañeros del colegio.",
+            "Han pasado diez años y ___ hablando con mis compañeros del colegio.",
             "sigo",
-            "Ten years have passed and I'm [still] in touch with my school friends.",
-            "Seguir + estado o lugar (seguir en contacto) también expresa continuidad. Yo sigo: e → i."
+            "Ten years have passed and I'm [still] talking to my school friends.",
+            "Seguir + gerundio expresa que la acción continúa (sigo hablando). Yo sigo: e → i."
           ),
         ]
       ),

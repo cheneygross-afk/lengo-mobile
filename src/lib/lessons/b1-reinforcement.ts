@@ -511,7 +511,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "subjunctive-impersonal-ojala-2",
     "b1r-mission-ojala-wishes",
     "Misión real: deseos para todos",
-    "Escribe mensajes de despedida, de cumpleaños y de ánimo — con ojalá, que + subjuntivo y expresiones impersonales.",
+    "Escribe mensajes de despedida, de cumpleaños y de ánimo — con ojalá y que + subjuntivo (y un repaso de es importante / es necesario que).",
     "7 min",
     [
       sec(
@@ -769,7 +769,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Los verbos también cambian",
-        "Con tú, además, cambia el verbo: el negativo usa el subjuntivo (desde la forma yo): ven → no vengas; sal → no salgas; ten → no tengas. Con usted, ustedes y nosotros el verbo no cambia: solo se mueve el pronombre (siéntese → no se siente).",
+        "Con tú, además, cambia el verbo: el negativo usa el subjuntivo (desde la forma yo): ven → no vengas; sal → no salgas; ten → no tengas. Con usted, ustedes y nosotros el verbo casi no cambia: solo se mueve el pronombre (siéntese → no se siente); la excepción es ir (vámonos → no nos vayamos).",
         [
           ["Ven aquí. → No vengas aquí.", "Come here. → Don't come here."],
           ["Hazlo ahora. → No lo hagas ahora.", "Do it now. → Don't do it now."],
@@ -1189,7 +1189,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Responde a Pablo.", "Si tengo tiempo, te ___ la leche. (comprar, futuro)", "compraré", "La condición va en presente (tengo) y el resultado en futuro: compraré."),
       fb("Responde a Pablo.", "Yo que tú, no ___ una tarta tan grande. (hacer)", "haría", "Consejo con «yo que tú» → condicional en primera persona; hacer → har-: haría."),
-      fb("Responde a Pablo.", "Espero que tu madre ___ bien el viaje. (pasar)", "pase", "Esperar que + otra persona → subjuntivo: pase, no «pasa»."),
+      fb("Responde a Pablo.", "Espero que tu madre ___ un buen viaje. (tener)", "tenga", "Esperar que + otra persona → subjuntivo: tenga, no «tiene»."),
       mc(
         "«Tell her (usted) that I'm arriving late.»",
         ["Dígale que llego tarde.", "Dile que llego tarde a usted.", "Le diga que llego tarde.", "Dígala que llego tarde."],
@@ -1703,24 +1703,24 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Me regalaron un reloj. Llevo el reloj siempre. → Llevo siempre el reloj que me regalaron.", "I always wear the watch they gave me. (que = objeto de regalaron)"],
         ],
         [
-          fb("Reescribe en una sola frase.", "Esta es la casa. Mi abuelo construyó la casa. → Esta es la casa ___ construyó mi abuelo.", "que", "«Que» sustituye a «la casa», objeto de construyó, sin preposición."),
+          fb("Reescribe en una sola frase.", "Es el libro. Mi madre escribió el libro. → Es el libro ___ escribió mi madre.", "que", "«Que» sustituye a «el libro», objeto de escribió, sin preposición."),
         ]
       ),
       sec(
-        "Con preposición: quien, el que, donde",
-        "Si el sustantivo llevaba preposición en la segunda frase, la preposición viaja delante del relativo: hablé con una chica → la chica con quien hablé. Para personas, quien o el/la que; para cosas, el/la que (concordando); para lugares, también donde (= en el que).",
+        "Con preposición (quien, el que, donde) y lo que",
+        "Si el sustantivo llevaba preposición en la segunda frase, la preposición viaja delante del relativo: hablé con una chica → la chica con quien hablé. Para personas, quien o el/la que; para cosas, el/la que (concordando); para lugares, también donde (= en el que). Si no hay sustantivo (algo, todo), se usa lo que: Dime lo que piensas.",
         [
           ["Hablé con una chica. La chica es de Cuba. → La chica con quien hablé es de Cuba.", "The girl I spoke with is from Cuba."],
           ["Es el pueblo. Nací en el pueblo. → Es el pueblo donde nací.", "It's the town where I was born."],
         ],
         [
           { ...fb("Reescribe en una sola frase.", "Es mi profesora. Aprendí mucho con ella. → Es la profesora con ___ aprendí mucho.", "quien", "Aprender con alguien: la preposición con va delante y, para una persona, quien (o la que, concordando con profesora)."), altAnswers: ["la que", "la cual"] },
+          fb("Reescribe en una sola frase.", "No entendí algo. Dijo algo. → No entendí ___ dijo.", "lo que", "Algo no tiene un sustantivo concreto que repetir: se recoge con lo que (what he said)."),
         ]
       ),
     ],
     [
       { ...fb("Reescribe en una sola frase.", "Visitamos un museo. En el museo hay obras de Goya. → Visitamos un museo ___ hay obras de Goya.", "donde", "En el museo hay obras: con un lugar y la preposición en, donde (o en el que)."), altAnswers: ["en el que", "en el cual"] },
-      fb("Reescribe en una sola frase.", "No entendí algo. Dijo algo. → No entendí ___ dijo.", "lo que", "Algo no tiene un sustantivo concreto que repetir: se recoge con lo que (what he said)."),
       fb("Reescribe en una sola frase.", "Son los amigos. Viajé con ellos a Perú. → Son los amigos con los ___ viajé a Perú.", "que", "Viajar con ellos: la preposición va delante y el artículo concuerda con amigos: con los que."),
       wo("La película que vimos anoche fue muy aburrida.", "La oración con que (que vimos anoche) va justo detrás de la película, y luego el verbo principal (fue).", "The movie we saw last night was very boring."),
       wo("El hotel en el que nos quedamos tenía piscina.", "Quedarse en un hotel: preposición + el que (en el que), concordando con hotel.", "The hotel we stayed at had a pool."),
@@ -1768,7 +1768,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Que vs. lo que",
-        "Que necesita un sustantivo antes. Lo que se refiere a una idea completa o a algo no nombrado (what, which). Detrás de todo, siempre lo que: todo lo que, nunca «todo que».",
+        "Que necesita un sustantivo antes. Lo que se refiere a una idea completa o a algo no nombrado (what, which). Detrás de todo (sin sustantivo), se usa lo que: todo lo que, nunca «todo que».",
         [
           ["✗ No sé que quieres. → ✓ No sé lo que quieres. / No sé qué quieres.", "I don't know what you want."],
           ["Llegó tarde, lo que me molestó.", "He arrived late, which annoyed me."],
@@ -1780,7 +1780,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       { ...fb("Corrige.", "El chico ___ te presenté ayer es mi primo. (el alumno escribió: quien)", "que", "Sin preposición → que. Quien solo es posible con la a personal delante: a quien te presenté."), altAnswers: ["a quien", "al que"] },
-      fb("Corrige.", "Perdió el tren, ___ significa que llegará tarde. (el alumno escribió: que)", "lo que", "Lo que recoge toda la idea anterior (perdió el tren), no un sustantivo: lo que (o lo cual)."),
+      { ...fb("Corrige.", "Perdió el tren, ___ significa que llegará tarde. (el alumno escribió: que)", "lo que", "Lo que recoge toda la idea anterior (perdió el tren), no un sustantivo: lo que (o lo cual)."), altAnswers: ["lo cual"] },
       { ...fb("Corrige.", "La empresa para ___ trabajo es alemana. (el alumno escribió: que)", "la que", "Tras preposición, el relativo lleva artículo que concuerda con empresa: para la que. «Para que» significa «so that»."), altAnswers: ["la cual"] },
       ms(
         "¿Qué frases son correctas?",
@@ -2275,16 +2275,16 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Es mío.", "It's mine."],
           ["Es el mío.", "It's mine (the one that's mine, among others)."],
-          ["Un amigo mío.", "A friend of mine."],
-          ["Lo mío es la música.", "My thing is music."],
+          ["La mía es azul.", "Mine is blue."],
+          ["Son nuestras.", "They are ours."],
         ],
-        "El posesivo sin artículo después de ser, con artículo para identificar, detrás del nombre y con lo neutro."
+        "El posesivo sin artículo después de ser, con artículo para identificar, y solo (sin nombre) cuando ya se sabe de qué cosa hablamos."
       ),
       ms(
         "¿Qué frases son correctas?",
-        ["La tuya es más grande.", "Estos zapatos son míos.", "Es un primo tuyo.", "Mía mochila es verde."],
+        ["La tuya es más grande.", "Estos zapatos son míos.", "Estas llaves son nuestras.", "Mía mochila es verde."],
         [0, 1, 2],
-        "«Mía mochila» es incorrecta: delante del sustantivo se usa la forma corta, mi mochila. Las otras usan bien el posesivo tónico con artículo, tras ser y detrás del sustantivo."
+        "«Mía mochila» es incorrecta: delante del sustantivo se usa la forma corta, mi mochila. Las otras usan bien el posesivo tónico: con artículo (la tuya) y tras ser (son míos, son nuestras)."
       ),
       toEs("Your (tú) suitcase is here, but mine is lost.", "Tu maleta está aquí, pero la mía está perdida.", "Adjetivo (tu) delante; pronombre (la mía) solo.", ["Tu maleta está aquí, pero la mía se ha perdido."]),
       wo("Perdona, creo que ese asiento es el nuestro.", "«Es el nuestro» identifica cuál de los asientos es nuestro (uno entre varios); para decir solo de quién es, basta «es nuestro».", "Excuse me, I think that seat is the one that's ours."),
@@ -2386,7 +2386,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["Venid pronto.", "No vengáis pronto."],
           ["Poneos el abrigo.", "No os pongáis el abrigo."],
-          ["Decídselo.", "No se lo digáis."],
+          ["Decidlo.", "No lo digáis."],
           ["Idos ya.", "No os vayáis todavía."],
         ],
         "El negativo usa el subjuntivo y pone los pronombres delante."
@@ -2398,7 +2398,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "«No fumad en el balcón» es incorrecta: el negativo de vosotros usa el subjuntivo, no fuméis. «Respetad», «Lavaos» y «No traigáis» están bien formados."
       ),
       toEs("Kids, don't touch that and sit down! (vosotros)", "Niños, ¡no toquéis eso y sentaos!", "Negativo: no toquéis. Afirmativo reflexivo: sentaos.", ["¡Niños, no toquéis eso y sentaos!", "Niños, no toquéis eso y sentaos."]),
-      wo("Por favor, cerrad la puerta con llave al salir.", "Mandato de vosotros afirmativo.", "Please lock the door when you leave."),
+      wo("Por favor, cerrad la puerta con llave al salir.", "Mandato de vosotros afirmativo.", "Please lock the door when you leave. (vosotros)"),
     ]
   ),
   L(
@@ -2480,7 +2480,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           "2) ¿Es una orden? Afirmativo de tú = forma de «él» (llama, escribe) con el pronombre pegado (llámanos); negativo = no + subjuntivo (no gastes). 3) ¿Es una situación imaginada, un consejo o una petición cortés? Condicional: yo que tú, aprendería; ¿podrías ayudarme?",
         ],
         [
-          ["Ojalá que tengas suerte.", "I hope you're lucky. (deseo → subjuntivo)"],
+          ["Ojalá que tengas suerte.", "I hope you have good luck. (deseo → subjuntivo)"],
           ["Creo que es una buena idea, pero no creo que sea barata.", "I think it's a good idea, but I don't think it's cheap. (creer: indicativo; no creer: subjuntivo)"],
           ["Escríbenos, pero no nos llames de madrugada.", "Write to us, but don't call us at dawn. (pronombre detrás en el sí, delante en el no)"],
           ["Yo en tu lugar, pediría una beca.", "In your place, I'd apply for a grant. (consejo → condicional)"],
@@ -2902,7 +2902,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "«She's afraid of being alone.»",
         ["Tiene miedo de estar sola.", "Tiene miedo de que esté sola.", "Tiene miedo que está sola.", "Tiene miedo estar sola."],
         0,
-        "Ella tiene miedo y ella estaría sola: mismo sujeto → de + infinitivo: tiene miedo de estar sola. «De que esté» sería otro sujeto, «que está» usa indicativo y «miedo estar» omite el «de»."
+        "Ella tiene miedo y ella está sola: mismo sujeto → de + infinitivo: tiene miedo de estar sola. «De que esté» sería otro sujeto, «que está» usa indicativo y «miedo estar» omite el «de»."
       ),
       mc(
         "«She's afraid that her son is alone.»",
@@ -2975,7 +2975,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "subjunctive-impersonal-ojala-drill-3",
     "b1r-mission-letter-city-council",
     "Misión real: carta al ayuntamiento",
-    "Escribe una carta formal a tu ayuntamiento con propuestas para el barrio — es necesario que, es urgente que, es fundamental que…",
+    "Practica el lenguaje de una carta formal al ayuntamiento con propuestas para el barrio — es necesario que, es urgente que, es fundamental que…",
     "8 min",
     [
       sec(
@@ -3084,14 +3084,14 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       mt(
         "Relaciona el principio con el final correcto.",
         [
-          ["Es verdad que", "estudia mucho."],
-          ["Es bueno que", "estudie mucho."],
-          ["Ojalá", "que apruebe."],
-          ["Es importante", "estudiar cada día."],
+          ["Es verdad que", "trabaja mucho."],
+          ["Es bueno que", "los niños duerman bien."],
+          ["Ojalá", "que mañana haga sol."],
+          ["Es importante", "dormir ocho horas."],
         ],
         "Solo la certeza afirmativa («Es verdad que») lleva indicativo; «Es bueno que» pide subjuntivo; «Ojalá» admite «que» + subjuntivo; y «Es importante» sin «que» va con infinitivo porque no hay sujeto concreto."
       ),
-      wo("Es una suerte que hayamos encontrado sitio.", "Es una suerte que + perfecto de subjuntivo.", "It's lucky that we found a spot."),
+      wo("Es una suerte que tengamos sitio.", "Es una suerte que + subjuntivo: tengamos.", "It's lucky that we have a spot."),
       toEs("«Ojalá que mis padres me dejan ir al concierto.»", "Ojalá que mis padres me dejen ir al concierto.", "Ojalá siempre lleva subjuntivo: dejen.", ["Ojalá mis padres me dejen ir al concierto."], "Corrige la frase."),
       toEs("«Está claro de que el equipo juegue mejor este año.»", "Está claro que el equipo juega mejor este año.", "Dos errores: está claro que no lleva de, y expresa certeza, así que va con indicativo (juega).", [], "Corrige la frase."),
       toEs("Es verdad que el museo está cerrado.", "Es una pena que el museo esté cerrado.", "Al pasar de certeza a valoración, el verbo cambia a subjuntivo: está → esté.", ["Es una lástima que el museo esté cerrado."], "Cambia «Es verdad que» por «Es una pena que»."),
@@ -3218,7 +3218,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       sec(
         "Recuerda la regla: cuanto más lejos del mandato, más cortés",
         [
-          "Recuerda la regla: el mandato impone (Cierra la puerta). Cada paso que te alejas de él deja más libertad al otro y suena más cortés: una pregunta en presente deja decidir (¿Cierras la puerta?), «poder» pregunta si puede (¿Puedes cerrar…?), el condicional añade distancia hipotética (¿Podrías cerrar…?) y «¿Te importaría…?» pide permiso para molestar.",
+          "Recuerda la regla: el mandato impone (Cierra la puerta). Cada paso que te alejas de él deja más libertad al otro y suena más cortés: una pregunta en presente deja decidir (¿Cierras la puerta?), «poder» pregunta si puede (¿Puedes cerrar…?), el condicional (lo estudiarás más adelante; aquí aprendes estas fórmulas de cortesía) añade distancia hipotética (¿Podrías cerrar…?) y «¿Te importaría…?» pide permiso para molestar.",
           "La forma depende de la relación y de la situación: con familia y amigos, el mandato o la pregunta en presente son normales; con un desconocido o en un servicio, usted + condicional. Demasiada cortesía con tu madre suena fría o irónica.",
         ],
         [
@@ -4519,7 +4519,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["No sales la carne todavía.", "Don't salt the meat yet. (negativo de tú = subjuntivo)"],
         ],
         [
-          fb("Completa la receta (tú).", "___ la mantequilla en una sartén. (derretir)", "Derrite", "Imperativo de tú de derretir: derrite (como la 3.ª persona del presente, sin cambio de raíz)."),
+          fb("Completa la receta (tú).", "___ la mantequilla en una sartén. (derretir)", "Derrite", "Imperativo de tú de derretir: derrite (como la 3.ª persona del presente; derretir cambia e → i: derrito, derrites, derrite)."),
         ]
       ),
     ],
@@ -4570,7 +4570,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "b1-vocabulary-practice-10",
     "b1r-word-web-money",
     "Red de palabras: el dinero y las finanzas",
-    "Ahorrar, gastar, pedir un préstamo — el vocabulario del dinero con el condicional y el subjuntivo.",
+    "Ahorrar, gastar, pedir un préstamo : distingue quién da y quién recibe el dinero, forma sustantivos (el ahorro, el gasto, el préstamo) y repasa el condicional y el subjuntivo en frases sobre dinero.",
     "8 min",
     [
       sec(
@@ -4666,7 +4666,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "La idea: en la escuela hay muchos falsos amigos",
         [
           "Las palabras de estudios se parecen al inglés pero muchas no significan lo mismo. el colegio = school (no college), la carrera = degree course (estudiar una carrera), la asignatura = school subject (no «sujeto»), la nota = grade, el título = degree / diploma, la facultad = university faculty.",
-          "Y los verbos van sin preposición: aprobar un examen (to pass), suspender un examen (to fail; en América también reprobar), sacar una nota (to get a grade). No digas «pasar el examen» ni «fallar el examen».",
+          "Y los verbos van sin preposición: aprobar un examen (to pass), suspender un examen (to fail; en América también reprobar), sacar una nota (to get a grade). «Pasar un examen» se oye, pero lo normal es aprobar; «fallar el examen» es un calco del inglés.",
         ],
         [
           ["Mi hija va al colegio en autobús.", "My daughter goes to school by bus. (colegio = school, no college)"],
@@ -4732,7 +4732,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         [],
         "Transforma el mandato en un consejo con «Te recomiendo que...»."
       ),
-      toEs("«Mi hermano ha pasado el examen de conducir y ha fallado el de historia.»", "Mi hermano ha aprobado el examen de conducir y ha suspendido el de historia.", "Con exámenes se dice aprobar (to pass) y suspender (to fail). «Pasar» y «fallar» son calcos del inglés.", ["Mi hermano ha aprobado el examen de conducir y ha reprobado el de historia."], "Corrige la frase."),
+      toEs("«Mi hermano ha pasado el examen de conducir y ha fallado el de historia.»", "Mi hermano ha aprobado el examen de conducir y ha suspendido el de historia.", "Con exámenes se dice aprobar (to pass) y suspender (to fail). «Fallar» es un calco del inglés (suspender = to fail); «pasar» se oye, pero lo normal es aprobar.", ["Mi hermano ha aprobado el examen de conducir y ha reprobado el de historia."], "Corrige la frase."),
       toEs("«En el colegio de mi ciudad estudio la carrera de Medicina.»", "En la universidad de mi ciudad estudio la carrera de Medicina.", "El colegio es la escuela de niños. Una carrera se estudia en la universidad (o en una facultad).", ["En la facultad de mi ciudad estudio la carrera de Medicina."], "Corrige la frase."),
       ms(
         "¿Qué frases son correctas?",
@@ -4855,10 +4855,10 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Titular: «___ dos ciclistas en un accidente en la autopista.»",
+            "Titular: «___ dos ciclistas (un hombre y una mujer) en un accidente en la autopista.»",
             ["Heridos", "Herido", "Herida", "Heridas"],
             0,
-            "El participio del titular concuerda con «dos ciclistas»: masculino plural, heridos (si fueran dos mujeres, heridas). «Herido» solo vale para uno."
+            "El participio concuerda con el grupo mixto (un hombre y una mujer): masculino plural, heridos (si fueran dos mujeres, heridas). «Herido» solo vale para uno."
           ),
           fb("Completa con el participio de «cerrar».", "La autopista fue ___ por la nieve.", "cerrada", "Pasiva con ser: el participio concuerda con la autopista (femenino singular): cerrada."),
         ]
@@ -4970,7 +4970,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
               ["la rotonda", "roundabout"],
               ["las afueras", "outskirts"],
             ],
-            "Las afueras siempre va en plural; la rotonda se llama también glorieta; en México la acera es la banqueta."
+            "«Afueras» siempre va en plural; la rotonda se llama también glorieta; en México la acera es la banqueta."
           ),
         ]
       ),
@@ -5068,9 +5068,9 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       mc("¿Cuál no encaja?", ["el contrato", "la factura", "el presupuesto", "el paraguas"], 3, "El contrato, la factura y el presupuesto son documentos de negocios. El paraguas es un objeto para la lluvia."),
       mc(
         "¿Qué sustantivo sale de «despedir» (to fire)?",
-        ["el despido", "la despedición", "el despedimiento", "la despida"],
+        ["el despido", "la despedición", "el despedido", "la despida"],
         0,
-        "Despedir → el despido (raíz + -o, como contratar → el contrato). Las otras formas no existen. Ojo: la despedida es decir adiós."
+        "Despedir → el despido (raíz + -o, como contratar → el contrato). «El despedido» es la persona a la que despiden, y las otras formas no existen. Ojo: la despedida es decir adiós."
       ),
       fb("Completa.", "La reunión fue ___ para el jueves. (aplazar)", "aplazada", "Pasiva con ser: el participio concuerda con la reunión (femenino): aplazada."),
       fb("Completa.", "Trabajo a jornada ___: ocho horas al día.", "completa", "«Jornada completa» = full-time (frente a media jornada o jornada parcial)."),
@@ -5172,7 +5172,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Escena 1: la entrevista",
         [
           "Recuerda la regla: en cada escena, la situación decide la forma. En una entrevista, la experiencia se pregunta y se cuenta en pretérito perfecto (¿ha trabajado alguna vez?) y lo que harías en una situación imaginada, en condicional (¿qué haría…?). En una queja, las emociones y las peticiones a otros van en subjuntivo; en un consejo, «yo que tú» + condicional; en una despedida, los deseos con que / ojalá + subjuntivo.",
-          "En el maratón no traduces las frases del diálogo: respondes, eliges la réplica adecuada y corriges lo que otro dice mal.",
+          "En el maratón respondes, eliges la réplica adecuada, corriges lo que otro dice mal y traduces algunas réplicas.",
         ],
         [
           ["—¿Ha trabajado alguna vez en atención al cliente? —Sí, he trabajado tres años en una tienda.", "Have you ever worked in customer service? — Yes, I've worked three years in a store."],
@@ -5308,7 +5308,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Recuerda la regla: hecho o no hecho",
+        "La regla del hecho y del no hecho",
         [
           "El indicativo presenta algo como un hecho: lo que sabes, crees o ves que pasa (sé que vienes, creo que llueve, siempre que llueve…). El subjuntivo aparece cuando la segunda frase no se afirma como hecho, sino que se desea, se duda, se valora o todavía no ha ocurrido: quiero que vengas, no creo que llueva, me alegra que estés, cuando llegues.",
           "Por eso «creo que» va con indicativo y «no creo que» con subjuntivo, y «cuando» va con indicativo para hábitos o el pasado, pero con subjuntivo para el futuro.",
@@ -5346,7 +5346,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Recuerda la regla: desde dónde miras y cómo ves la acción",
+        "Elige el pasado según desde dónde miras y cómo ves la acción",
         [
           "Dos preguntas bastan. ¿Desde dónde se mira? Desde ahora, con un periodo abierto (hoy, esta semana, alguna vez) → pretérito perfecto; desde otro momento pasado, para algo anterior → pluscuamperfecto. Si no, ¿cómo se ve la acción? Cerrada, como un hecho con principio y fin → pretérito; abierta, como escena o costumbre → imperfecto.",
         ],
@@ -5386,7 +5386,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "8 min",
     [
       sec(
-        "Recuerda la regla: cada pronombre mira a algo distinto",
+        "Cada pronombre mira a algo distinto",
         [
           "Los tres tipos de pronombre sustituyen algo ya conocido, pero cada uno concuerda con una cosa diferente. Los dobles (me lo, se la) sustituyen a la persona y a la cosa: primero la persona, y le/les se convierte en se delante de lo/la. Los relativos (que, quien, el que, lo que, donde) dependen del antecedente y de la preposición que pide el verbo. Los posesivos (el mío, la tuya) concuerdan con la cosa poseída y llevan artículo cuando la sustituyen.",
         ],
@@ -5416,7 +5416,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Mandato de tú con le → se + lo pegados (dáselo) y relativo que sin preposición. «Dálelo» no cambia le a se, «quien» y «lo que» no encajan, y «Se lo da» no es una orden."
       ),
-      wo("¿Es tuya esta chaqueta o es la de Pedro?", "Tras «ser», el tónico va sin artículo (tuya); con un dueño nombrado se usa «la de» + persona, concordando con «chaqueta».", "Is this jacket yours or is it Pedro's?"),
+      wo("¿Es tuya esta chaqueta o es la de Pedro?", "Tras «ser», el tónico va sin artículo (tuya); con un dueño nombrado se usa «la de» + persona, concordando con «chaqueta».", "Is this jacket yours or is it Pedro's? (tú)"),
     ]
   ),
   L(
@@ -5447,7 +5447,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["—Esta es Carmen, la que lleva los clientes internacionales. Y ese es Luis, con quien vas a compartir despacho.", "This is Carmen, who handles international clients. And that's Luis, whom you'll share an office with."],
         ],
         [
-          fb("Completa.", "El proyecto en el ___ trabajarás empieza la semana que viene.", "que", "Se trabaja EN un proyecto: la preposición y el artículo van delante del relativo, en el que."),
+          { ...fb("Completa.", "El proyecto en el ___ trabajarás empieza la semana que viene.", "que", "Se trabaja EN un proyecto: la preposición y el artículo van delante del relativo, en el que (o en el cual)."), altAnswers: ["cual"] },
         ]
       ),
       sec(
@@ -5791,7 +5791,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Recuerda la regla: tres herramientas del jurado",
         [
           "Recuerda las reglas que usa un jurado. Para opinar: creo que + indicativo (lo afirmas), no creo que / no me parece que + subjuntivo (lo niegas). Para aconsejar con suavidad: yo en tu lugar + condicional (pondría, haría). Para anunciar resultados: la pasiva, con ser + participio si dices quién decide (fue elegido por el público) o con se si no (se entregaron los premios).",
-          "¿Por qué el condicional en los consejos? Porque habla de lo que harías en una situación imaginada (si fuera tú), y eso suena menos directo que un mandato.",
+          "¿Por qué el condicional en los consejos? Porque habla de lo que harías en una situación imaginada (si yo fuera tú), y eso suena menos directo que un mandato.",
         ],
         [
           ["Creo que tu plato tiene mucha personalidad.", "I think your dish has a lot of personality. (creo que → indicativo)"],
@@ -5931,7 +5931,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "¿El dinero? El cliente ya ___ lo ha pagado. (a mí)", "me", "A mí → me, y va antes de lo: me lo ha pagado."),
-      fb("Completa.", "Es necesario que ___ puntual con los clientes. (ser, tú)", "seas", "Es necesario que + subjuntivo."),
+      fb("Completa.", "Si ___ puntual con los clientes, confiarán en ti. (ser, tú)", "eres", "Condición real: si + presente de indicativo (eres), y el resultado en futuro (confiarán). No «si seas»."),
       mc(
         "«I've earned more money this month than last month.»",
         ["Este mes he ganado más dinero que el mes pasado.", "Este mes gané más dinero de el mes pasado.", "Este mes había ganado más dinero que el mes pasado.", "Este mes he ganado más dinero como el mes pasado."],
@@ -6265,7 +6265,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Cuando llegué, mi abuela ya ___ la comida. (preparar, pluscuamperfecto)", "había preparado", "La comida estaba hecha antes de que yo llegara: lo anterior a otro pasado va en pluscuamperfecto (había preparado). «Preparó» diría que cocinó después de que yo llegué."),
       fb("Completa.", "De niños, mi hermano y yo ___ mucho. (pelearse)", "nos peleábamos", "«De niños» marca una costumbre del pasado → imperfecto: nos peleábamos. El indefinido «nos peleamos» contaría una sola pelea."),
-      fb("Completa.", "Siento que no ___ hablado antes. (haber, nosotros)", "hayamos", "«Siento que» expresa una emoción → subjuntivo. Como lo que lamentas ya ha pasado, va en perfecto de subjuntivo: hayamos hablado."),
+      fb("Completa.", "Siento que no ___ más a menudo. (hablar, nosotros)", "hablemos", "«Siento que» expresa una emoción → subjuntivo, incluso si el hecho es real: hablar → hablemos (no «hablamos»)."),
       mt(
         "Relaciona cada familiar con su definición.",
         [
@@ -6274,7 +6274,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["mi sobrina", "la hija de mi hermano"],
           ["mi bisabuelo", "el padre de mi abuelo"],
         ],
-        "Cuñado/a = la pareja de tu hermano/a; suegro/a = los padres de tu pareja; sobrino/a = los hijos de tus hermanos; bisabuelo/a = los padres de tus abuelos."
+        "Cuñado/a = la pareja de tu hermano/a o el hermano/a de tu pareja; suegro/a = los padres de tu pareja; sobrino/a = los hijos de tus hermanos; bisabuelo/a = los padres de tus abuelos."
       ),
       toEs("I hope you (vosotros) stay a few more days.", "Espero que os quedéis unos días más.", "«Esperar que» expresa un deseo sobre otras personas → subjuntivo. Para vosotros: os quedéis (con ustedes: se queden).", ["Ojalá que os quedéis unos días más.", "Espero que se queden unos días más."]),
       wo("Nos abrazamos y nos prometimos no esperar tanto otra vez.", "Dos acciones puntuales del reencuentro → indefinido recíproco (nos abrazamos, nos prometimos); después de «prometer» va el infinitivo.", "We hugged and promised each other not to wait so long again."),
@@ -6342,16 +6342,25 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
         "Valorar o constatar: ¿subjuntivo o indicativo?",
         [
           "Recuerda la regla: las expresiones que valoran o exigen (es inaceptable que, es urgente que, exigimos que) llevan subjuntivo, porque juzgan o piden algo; no lo informan. Las que constatan un hecho (está claro que, es evidente que) llevan indicativo.",
-          "Para llamar a la acción a un grupo se usa el mandato de ustedes, que tiene la forma del subjuntivo: firmen, vengan, no se queden. En positivo, el pronombre va pegado (compártanla); en negativo, delante (no la compartan).",
         ],
         [
           ["Es inaceptable que quieran destruir el jardín.", "It's unacceptable that they want to destroy the garden. (valoración: subjuntivo)"],
           ["Está claro que el barrio necesita zonas verdes.", "It's clear the neighbourhood needs green spaces. (hecho: indicativo)"],
+        ],
+        [
+          fb("Completa el cartel.", "Es urgente que el ayuntamiento nos ___. (escuchar)", "escuche", "«Es urgente que» exige algo, no lo informa: subjuntivo, escuche."),
+        ]
+      ),
+      sec(
+        "Llamar a la acción: el mandato de ustedes",
+        [
+          "Para llamar a la acción a un grupo se usa el mandato de ustedes, que tiene la forma del subjuntivo: firmen, vengan, no se queden. En positivo, el pronombre va pegado (compártanla); en negativo, delante (no la compartan).",
+        ],
+        [
           ["Firmen la petición y compártanla.", "Sign the petition and share it. (ustedes: forma de subjuntivo)"],
         ],
         [
           fb("Completa el cartel.", "¡___ a la reunión del jueves! (venir, ustedes)", "Vengan", "Mandato de ustedes = subjuntivo, que sale de la forma yo (vengo): vengan."),
-          fb("Completa el cartel.", "Es urgente que el ayuntamiento nos ___. (escuchar)", "escuche", "«Es urgente que» exige algo, no lo informa: subjuntivo, escuche."),
         ]
       ),
       sec(
@@ -6515,7 +6524,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Completa.", "Yo en tu lugar ___ al puesto. (presentarse)", "me presentaría", "Consejo con «yo en tu lugar» → condicional; el verbo es reflexivo (presentarse a un puesto), así que el pronombre va delante: me presentaría."),
+      fb("Compara.", "Marta tiene ___ clientes que Pablo. (más)", "más", "Superioridad con sustantivo: más + clientes + que. «Más» nunca cambia de forma, a diferencia de «tantos», que sí concuerda."),
       fb("Completa.", "No creo que la amistad ___ por esto. (cambiar)", "cambie", "«No creo que» expresa duda → subjuntivo: cambie. Con «creo que» (afirmativo) iría indicativo."),
       fb("Completa.", "La decisión ___ tomada por el comité. (ser, pretérito)", "fue", "Pasiva con ser: ser + participio concordando con el sujeto (la decisión → tomada) + por + quien lo hace. Es un hecho cerrado: fue."),
       mc(
@@ -6869,7 +6878,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
     ],
     [
-      { ...fb("Completa.", "Al principio, ___ el móvil cada cinco minutos sin darme cuenta. (agarrar, yo)", "agarraba", "agarrar → agarraba: imperfecto, yo. «Would reach for» = hábito repetido en el pasado → imperfecto: «agarraba» (o «cogía»); «buscaba» sería «looked for»."), altAnswers: ["cogía", "tomaba", "buscaba"] },
+      { ...fb("Completa.", "Al principio, ___ el móvil cada cinco minutos sin darme cuenta. (agarrar, yo)", "agarraba", "agarrar → agarraba: imperfecto, yo. «Would reach for» = hábito repetido en el pasado → imperfecto: «agarraba» (o «cogía»); «buscaba» sería «looked for»."), altAnswers: ["cogía", "tomaba"] },
       fb("Completa.", "Nunca ___ lo dependiente que era. (imaginar, pluscuamperfecto)", "había imaginado", "Algo anterior a otro pasado (era): pluscuamperfecto, había + participio."),
       fb("Completa.", "Me sorprende que el día ___ tan largo sin pantallas. (parecer)", "parezca", "Sorprender que + subjuntivo: parecer → parezca (c → zc, como «conozca»)."),
       mc(
@@ -7009,7 +7018,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Recuerda la regla: certeza → indicativo, duda → subjuntivo",
+        "Certeza → indicativo, duda → subjuntivo",
         [
           "Recuerda la regla: cuando presentas algo como seguro (es verdad que, está claro que, es evidente que, está comprobado que), el verbo va en indicativo, porque afirmas un hecho. Cuando lo pones en duda o lo ves solo como posible (dudo que, no creo que, no es verdad que, es posible que), va en subjuntivo, porque no lo afirmas. Al negar una certeza cambias de modo: es verdad que son caros → no es verdad que sean caros.",
           "Las predicciones van en futuro (en diez años usaremos…). Y la pasiva con ser concuerda con lo que recibe la acción: los paneles fueron instalados, la central fue construida.",
@@ -7302,7 +7311,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Recuerda la regla: ¿existe ya esa persona?",
+        "¿Existe ya esa persona?",
         [
           "Recuerda la regla: en una oración de relativo (un batería que…), el modo depende de lo que sabes de la persona o la cosa. Si existe y la conoces, describes un hecho: indicativo (tenemos una cantante que compone). Si todavía no sabes quién es, o niegas que exista, solo describes el perfil que buscas: subjuntivo (buscamos un batería que tenga experiencia, no hay nadie que toque el violín).",
           "Por eso el mismo verbo cambia según la situación: «busco a alguien que sabe tocar» se refiere a una persona concreta que ya conoces; «busco a alguien que sepa tocar» vale para cualquiera que cumpla el requisito.",
@@ -7485,7 +7494,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Ojalá que no llueva.", "I hope it doesn't rain."],
         ],
         [
-          fb("Completa el llamamiento.", "___ a vuestros amigos. (traer, vosotros)", "Traed", "Mandato afirmativo de vosotros: infinitivo sin -r + d, «traed»."),
+          fb("Completa el llamamiento.", "___ a sus amigos. (traer, ustedes)", "Traigan", "Mandato afirmativo de ustedes: sale de «traigo», como en «traigan guantes» (subjuntivo): «traigan»."),
           fb("Completa el llamamiento.", "Es importante que nadie ___ solo cerca de las rocas. (trabajar)", "trabaje", "«Es importante que» expresa necesidad: subjuntivo, «trabaje»."),
         ]
       ),
@@ -7632,7 +7641,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("«He cerrado el taller.»", "Mi tío me contó que había cerrado el taller.", "El perfecto (he cerrado) da un paso atrás y pasa a pluscuamperfecto: «había cerrado».", ["Mi tío me dijo que había cerrado el taller."], "Pasa la frase al estilo indirecto empezando con «Mi tío me contó que…»."),
       toEs("«Vivo con mis hermanos.»", "Mi abuela decía que vivía con sus hermanos.", "Presente (vivo) → imperfecto (vivía); y como ya no habla ella, «mis hermanos» pasa a «sus hermanos».", [], "Pasa la frase al estilo indirecto empezando con «Mi abuela decía que…»."),
       toEs("Mi padre me dijo que ha trabajado en Alemania de joven.", "Mi padre me dijo que había trabajado en Alemania de joven.", "Tras «me dijo que», lo que ya había pasado va en pluscuamperfecto: «había trabajado». El perfecto «ha trabajado» se queda en el presente.", ["Mi padre me dijo que trabajó en Alemania de joven."], "Corrige la frase."),
-      toEs("Me prometió que vendrá a mi graduación.", "Me prometió que vendría a mi graduación.", "Una promesa hecha en el pasado mira a un futuro desde el pasado: condicional, «vendría».", [], "Corrige la frase."),
+      toEs("Me prometió que vendrá a mi graduación.", "Me prometió que vendría a mi graduación.", "Una promesa hecha en el pasado mira a un futuro desde el pasado: lo normal es el condicional, «vendría» (el futuro «vendrá» solo se oye si la promesa sigue pendiente).", [], "Corrige la frase."),
       toEs("Cuando era niño, mi abuelo me contó un cuento cada noche.", "Cuando era niño, mi abuelo me contaba un cuento cada noche.", "«Cada noche» indica costumbre: imperfecto, «me contaba». El indefinido es para hechos puntuales.", [], "Corrige la frase."),
       toEs("I've done this trip for him.", "He hecho este viaje por él.", "«Por» = en su honor, por él. «Para él» significaría que el viaje es un regalo para él.", ["Hice este viaje por él."]),
       wo("Cada kilómetro me recordaba las historias que me contaba.", "Imperfecto para lo repetido (cada kilómetro) y para las historias que él contaba siempre.", "Every kilometer reminded me of the stories he used to tell me."),
@@ -7701,7 +7710,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "7 min",
     [
       sec(
-        "Recuerda la regla: instrucciones y deseos en clase",
+        "Instrucciones y deseos en clase",
         [
           "Recuerda la regla: para dar instrucciones a un grupo, en España se usa vosotros (abrid, escribid; negativo: no copiéis) y en América ustedes, que es la forma del subjuntivo (abran, escriban; no copien). Los dos negativos usan el subjuntivo.",
           "Para expresar lo que quieres que hagan los alumnos: quiero que / espero que + subjuntivo, porque hay dos sujetos (yo quiero, ellos leen). Si el sujeto es el mismo, infinitivo: quiero enseñar, espero aprender.",
@@ -7748,7 +7757,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "el-fotografo-accidental",
     "b1r-tema-talento-oculto",
     "Repaso temático: un talento inesperado",
-    "Repaso B1: reacciona con sorpresa (me sorprende que + subjuntivo), expresa certeza con indicativo y cuenta lo anterior con el pluscuamperfecto y la pasiva con ser.",
+    "Repaso B1: reacciona con sorpresa (me sorprende que + subjuntivo), expresa certeza con indicativo y cuenta lo anterior con el pluscuamperfecto; repasa también la pasiva con ser.",
     "8 min",
     [
       sec(
@@ -7780,7 +7789,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["revelar", "to develop (photos)"],
           ["la galería", "gallery"],
         ],
-        "Vocabulario de fotografía: la exposición es donde se muestran las obras (falso amigo de «exposure» en otros contextos); el encuadre sale de cuadro."
+        "Vocabulario de fotografía: la exposición es donde se muestran las obras (en fotografía, «exposición» también significa «exposure»); el encuadre sale de cuadro."
       ),
       ms(
         "¿Qué frases son correctas?",

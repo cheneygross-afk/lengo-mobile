@@ -712,17 +712,17 @@ export const B1_WRITING_TASKS: UnitWriting = {
   "b1d-patron-pegados-infinitivo": [
     {
       "type": "write",
-      "prompt": "Has comprado con tu hermano un regalo sorpresa para el cumpleaños de vuestra madre. Escríbele un mensaje para organizar cuándo y cómo dárselo. Usa pronombres pegados al infinitivo y al gerundio.",
+      "prompt": "Has comprado con tu hermano un regalo sorpresa para el cumpleaños de vuestra madre. Escríbele un mensaje para organizar cuándo y cómo dárselo. Usa pronombres pegados al infinitivo.",
       "minWords": 40,
       "maxWords": 80,
       "rubric": [
         "Al menos tres infinitivos con dos pronombres pegados (dárselo, enseñártelo…)",
         "Tilde correcta en los infinitivos con dos pronombres",
-        "Una frase con gerundio + pronombre (estoy envolviéndolo…)",
+        "Una frase negativa con el pronombre pegado al infinitivo (no vayas a contárselo…)",
         "Un plan con día u hora"
       ],
-      "modelAnswer": "¡Hola, Pablo! Ya tengo el collar para mamá. Quiero enseñártelo antes del domingo: ¿puedo llevártelo esta noche? Ahora mismo estoy envolviéndolo con un papel muy bonito. Creo que deberíamos dárselo a la hora del postre, cuando esté toda la familia. Y, por favor, no vayas a contárselo a la tía Marisa: ¡siempre se lo cuenta todo a mamá! ¿Te parece bien?",
-      "explanation": "Con infinitivo, los dos pronombres se pegan al final y el verbo lleva tilde: enseñártelo, llevártelo, dárselo, contárselo. Con gerundio pasa lo mismo: envolviéndolo."
+      "modelAnswer": "¡Hola, Pablo! Ya tengo el collar para mamá. Quiero enseñártelo antes del domingo: ¿puedo llevártelo esta noche? Voy a envolverlo con un papel muy bonito. Creo que deberíamos dárselo a la hora del postre, cuando esté toda la familia. Y, por favor, no vayas a contárselo a la tía Marisa: ¡siempre se lo cuenta todo a mamá! ¿Te parece bien?",
+      "explanation": "Con infinitivo, los dos pronombres se pegan al final y el verbo lleva tilde: enseñártelo, llevártelo, dárselo, contárselo."
     }
   ],
   "b1r-tema-teletrabajo": [

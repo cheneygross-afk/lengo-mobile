@@ -88,11 +88,11 @@ export const DRILLS_B1_4: Record<string, Exercise[]> = {
   ],
 
   "b1d-pares-futuro-condicional": [
-    toEs("Tomorrow I will buy the tickets.", "Mañana compraré las entradas.", "Plan seguro → futuro: compraré (-é), no el condicional «compraría».", ["Compraré las entradas mañana.", "Mañana compraré los boletos.", "Compraré los boletos mañana."]),
+    toEs("Tomorrow I will buy the tickets.", "Mañana compraré las entradas.", "Plan seguro → futuro: compraré (-é), no el condicional «compraría».", ["Mañana voy a comprar las entradas.", "Compraré las entradas mañana.", "Mañana compraré los boletos.", "Compraré los boletos mañana."]),
     toEs("In your (tú) place, I would buy the tickets now.", "En tu lugar, yo compraría las entradas ahora.", "Consejo → condicional: compraría (-ía), no «compraré».", ["Yo en tu lugar compraría las entradas ahora.", "En tu lugar, compraría las entradas ahora.", "Yo que tú, compraría las entradas ahora.", "En tu lugar, yo compraría los boletos ahora.", "Yo en tu lugar compraría los boletos ahora.", "Yo que tú, compraría los boletos ahora."]),
     toEs("El verano que viene iremos a Portugal.", "Con más vacaciones, iríamos a Portugal.", "Un plan real va en futuro (iremos); con una condición imaginada («con más vacaciones») pasa a condicional: iríamos.", ["Con más vacaciones, nosotros iríamos a Portugal."], "Cambia el plan en hipótesis: empieza por «Con más vacaciones,»."),
     toEs("With a bigger house, we would invite more friends.", "Con una casa más grande, invitaríamos a más amigos.", "Hipótesis → condicional: invitaríamos (-íamos), no «invitaremos».", ["Con una casa más grande, invitaríamos a más amigas."]),
-    toEs("Will you (tú) come to my party on Friday?", "¿Vendrás a mi fiesta el viernes?", "Pregunta sobre un hecho futuro → futuro: vendrás (vendr- + -ás).", ["¿Vendrás el viernes a mi fiesta?"]),
+    toEs("Will you (tú) come to my party on Friday?", "¿Vendrás a mi fiesta el viernes?", "Pregunta sobre un hecho futuro → futuro: vendrás (vendr- + -ás).", ["¿Vas a venir a mi fiesta el viernes?", "¿Vendrás el viernes a mi fiesta?"]),
     toEs("Would you (tú) come with me to the doctor?", "¿Vendrías conmigo al médico?", "Petición cortés → condicional: vendrías (vendr- + -ías).", ["¿Irías conmigo al médico?"]),
     toEs("They will have the results on Monday.", "Tendrán los resultados el lunes.", "Hecho futuro → futuro: tendrán (-án), no «tendrían».", ["El lunes tendrán los resultados.", "Ellos tendrán los resultados el lunes."]),
     toEs("Sin hijos, tendrán más tiempo.", "Sin hijos, tendrían más tiempo.", "«Sin hijos» describe una situación imaginada (los tienen): condicional, tendrían. «Tendrán» presentaría el resultado como un hecho seguro.", ["Sin hijos, ellos tendrían más tiempo."], "Corrige la frase (es una hipótesis: tienen hijos)."),
@@ -199,12 +199,12 @@ export const DRILLS_B1_4: Record<string, Exercise[]> = {
   ],
 
   "b1r-contrast-future-conditional": [
-    toEs("This weekend I'll visit my grandparents.", "Este fin de semana visitaré a mis abuelos.", "Plan → futuro: visitaré (-é).", ["Visitaré a mis abuelos este fin de semana."]),
+    toEs("This weekend I'll visit my grandparents.", "Este fin de semana visitaré a mis abuelos.", "Plan → futuro: visitaré (-é).", ["Este fin de semana voy a visitar a mis abuelos.", "Visitaré a mis abuelos este fin de semana."]),
     toEs("I'd love to visit them more often, but I live far away.", "Me encantaría visitarlos más a menudo, pero vivo lejos.", "Deseo que no se cumple → condicional: me encantaría.", ["Me encantaría visitarlos con más frecuencia, pero vivo lejos.", "Me encantaría visitarlos más, pero vivo lejos."]),
     toEs("Según el pronóstico, mañana haría frío.", "Según el pronóstico, mañana hará frío.", "Una predicción del tiempo para mañana va en futuro: hará. «Haría» la volvería hipotética, como si dependiera de una condición.", ["Según el pronóstico, mañana va a hacer frío."], "Corrige la frase."),
     toEs("With a fireplace, the house would be warmer.", "Con una chimenea, la casa sería más cálida.", "Hipótesis → condicional: sería (o estaría).", ["Con una chimenea, la casa estaría más caliente.", "Con chimenea, la casa sería más cálida."]),
     toEs("Would you (usted) give me your phone number?", "¿Me daría su número de teléfono?", "Petición cortés → condicional: daría.", ["¿Podría darme su número de teléfono?", "¿Me podría dar su número de teléfono?"]),
-    toEs("They'll get married in September.", "Se casarán en septiembre.", "Plan → futuro: se casarán (-án).", ["Se casarán en setiembre.", "En septiembre se casarán."]),
+    toEs("They'll get married in September.", "Se casarán en septiembre.", "Plan → futuro: se casarán (-án).", ["Se van a casar en septiembre.", "Van a casarse en septiembre.", "Se casarán en setiembre.", "En septiembre se casarán."]),
     toEs("I would never get married in winter.", "Yo nunca me casaría en invierno.", "Algo imaginado → condicional: me casaría (-ía).", ["No me casaría nunca en invierno."]),
     toEs("Saldremos más, pero no tenemos tiempo.", "Saldríamos más, pero no tenemos tiempo.", "«Pero no tenemos tiempo» dice que no va a pasar: es algo imaginado → condicional, saldríamos. El futuro «saldremos» sería un plan real.", ["Nosotros saldríamos más, pero no tenemos tiempo."], "Corrige la frase."),
     toEs("Llegaré tarde.", "Dijo que llegaría tarde.", "Futuro del pasado: lo que era futuro desde «dijo» pasa al condicional (llegaré → llegaría).", ["Dijo que él llegaría tarde.", "Dijo que ella llegaría tarde."], "Cambia al estilo indirecto: empieza por «Dijo que»."),
@@ -357,7 +357,7 @@ export const DRILLS_B1_4: Record<string, Exercise[]> = {
     wo("Sirve la sopa caliente con un poco de pimienta", "Servir cambia e → i: sirve.", "Serve the soup hot with a little pepper (tú)"),
     mc("¿Qué palabra significa «to strain»?", ["colar", "pelar", "rallar"], 0, "Colar = to strain; pelar = to peel; rallar = to grate."),
     mc("¿Qué necesitas para cortar las verduras?", ["la olla y la cuchara", "el cuchillo y la tabla de cortar", "el horno y la estufa"], 1, "Para cortar se usan el cuchillo y la tabla de cortar; la olla y la cuchara sirven para cocer y remover, y el horno y la estufa para calentar."),
-    mc("Si «el horno» da «hornear», ¿qué significa probablemente «tostar el pan en la tostadora»?", ["hacer pan tostado en el aparato para tostar", "cortar el pan con un cuchillo", "guardar el pan en una bolsa"], 0, "La familia tostar → tostado → la tostadora sigue el patrón: el verbo es la acción, el participio describe el resultado (pan tostado) y -dora nombra el aparato que lo hace."),
+    mc("Si «el horno» da «hornear» (usar el horno), ¿qué crees que significa «tostar el pan»?", ["calentar el pan hasta que quede dorado", "cortar el pan con un cuchillo", "guardar el pan en una bolsa"], 0, "Tostar es calentar el pan hasta que quede dorado: el participio tostado describe el resultado (pan tostado). Cortar y guardar no cambian el pan al calor."),
   ],
 
   "b1d-rep-emocion-me-alegra": [

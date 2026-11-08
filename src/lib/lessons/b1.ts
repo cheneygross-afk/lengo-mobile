@@ -836,7 +836,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Ordena las palabras.",
         "words": [
           "Me",
-          "alegra",
+          "alegro",
+          "de",
           "que",
           "te",
           "sientas",
@@ -846,7 +847,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "trabajo."
         ],
         "translation": "I'm glad you feel proud of your work.",
-        "explanation": "Me alegra que + subjuntivo expresa una emoción; sentirse → te sientas (e → ie). Sentirse orgulloso = to feel proud."
+        "explanation": "Me alegro de que + subjuntivo expresa una emoción; sentirse → te sientas (e → ie). Sentirse orgulloso = to feel proud."
       },
       {
         "type": "multiple-choice",
@@ -858,7 +859,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           "o"
         ],
         "correctIndex": 1,
-        "explanation": "El subjuntivo casi siempre aparece en una cláusula subordinada introducida por «que»: Quiero que vengas. «Y», «pero» y «o» unen oraciones independientes, que van en indicativo."
+        "explanation": "El subjuntivo casi siempre aparece en una cláusula subordinada introducida por «que»: Quiero que vengas. «Y», «pero» y «o» no introducen una cláusula subordinada; solo «que» lo hace."
       },
       {
         "type": "translate",
@@ -958,8 +959,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "I'm afraid my dog will get scared by the fireworks.",
         "answer": "Temo que mi perro se asuste con los fuegos artificiales.",
         "altAnswers": [
-          "Tengo miedo de que mi perro se asuste con los fuegos artificiales.",
-          "Me temo que mi perro se asuste con los fuegos artificiales."
+          "Tengo miedo de que mi perro se asuste con los fuegos artificiales."
         ],
         "explanation": "Temer que + subjuntivo; asustarse → se asuste. El «se» indica que el perro se pone asustado."
       },
@@ -2308,7 +2308,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 6,
     "title": "Subjunctive with Impersonal Expressions & Ojalá, Part 1 of 2",
-    "summary": "Use the subjunctive after impersonal expressions (es importante que, es mejor que…) and after ojalá to express hopes and wishes.",
+    "summary": "Usa el subjuntivo después de expresiones impersonales (es importante que, es mejor que…) y de ojalá para expresar deseos y esperanzas.",
     "duration": "5 min",
     "sections": [
       {
@@ -2530,7 +2530,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 7,
     "title": "Subjunctive with Impersonal Expressions & Ojalá, Part 2 of 2",
-    "summary": "Learn 50 words about nature and the environment, perfect for expressing hopes and needs with ojalá and es necesario que.",
+    "summary": "Aprende 50 palabras sobre la naturaleza y el medio ambiente para expresar esperanzas y necesidades con ojalá y es necesario que.",
     "duration": "7 min",
     "sections": [
       {
@@ -2885,7 +2885,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 8,
     "title": "Commands: Tú, Usted, Nosotros & Negatives, Part 1 of 2",
-    "summary": "Learn the imperative: commands for tú, usted/ustedes and nosotros, affirmative and negative, to give instructions and make requests.",
+    "summary": "Aprende el imperativo: mandatos de tú, usted/ustedes y nosotros, afirmativos y negativos, para dar instrucciones y hacer peticiones.",
     "duration": "6 min",
     "sections": [
       {
@@ -3110,7 +3110,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 9,
     "title": "Commands: Tú, Usted, Nosotros & Negatives, Part 2 of 2",
-    "summary": "Learn 50 cooking words and use them in recipe-style commands.",
+    "summary": "Aprende 50 palabras de cocina y úsalas en mandatos de receta.",
     "duration": "6 min",
     "sections": [
       {
@@ -3466,7 +3466,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 10,
     "title": "The Conditional Tense, Part 1 of 2",
-    "summary": "Say what you would do — for polite requests, hypotheticals, and softened advice.",
+    "summary": "Di lo que harías: para peticiones corteses, situaciones hipotéticas y consejos suaves.",
     "duration": "6 min",
     "sections": [
       {
@@ -3482,7 +3482,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "Yo viajaría a Japón si tuviera dinero.",
-            "en": "I would travel to Japan if I had money. (viajar + -ía)"
+            "en": "I would travel to Japan if I had money. (viajar + -ía; «si tuviera» = if I had, un bloque que se explica más adelante)"
           },
           {
             "es": "Mis abuelos vivirían en el campo.",
@@ -3708,7 +3708,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 11,
     "title": "The Conditional Tense, Part 2 of 2",
-    "summary": "Learn 50 words about money and finance and use them to say what you would do.",
+    "summary": "Aprende 50 palabras sobre el dinero y las finanzas y úsalas para decir lo que harías.",
     "duration": "7 min",
     "sections": [
       {
@@ -4123,7 +4123,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 12,
     "title": "Simple If-Clauses: Si + Presente, Part 1 of 2",
-    "summary": "Talk about real, likely conditions — if this happens, then that happens.",
+    "summary": "Habla de condiciones reales y probables: si pasa esto, pasa aquello.",
     "duration": "6 min",
     "sections": [
       {
@@ -4385,7 +4385,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 13,
     "title": "Simple If-Clauses: Si + Presente, Part 2 of 2",
-    "summary": "Learn 50 words about school and university life to use in real conditions with si + present.",
+    "summary": "Aprende 50 palabras de la vida escolar y universitaria para usarlas en condiciones reales con si + presente.",
     "duration": "6 min",
     "sections": [
       {
@@ -5884,7 +5884,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 16,
     "title": "Past Perfect: Pluscuamperfecto, Part 1 of 2",
-    "summary": "Describe what had already happened before another moment in the past.",
+    "summary": "Describe lo que ya había pasado antes de otro momento del pasado.",
     "duration": "6 min",
     "sections": [
       {
@@ -6159,7 +6159,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 17,
     "title": "Past Perfect: Pluscuamperfecto, Part 2 of 2",
-    "summary": "Learn 50 words for news and events to narrate sequences with the pluperfect.",
+    "summary": "Aprende 50 palabras de noticias y sucesos para narrar secuencias con el pluscuamperfecto.",
     "duration": "7 min",
     "sections": [
       {
@@ -6583,7 +6583,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 18,
     "title": "Relative Pronouns: Que, Quien, El Que, Lo Que, Part 1 of 2",
-    "summary": "Combine two ideas into one elegant sentence with que, quien, el que/la que, and lo que.",
+    "summary": "Une dos ideas en una sola frase con que, quien, el que/la que y lo que.",
     "duration": "7 min",
     "sections": [
       {
@@ -6819,7 +6819,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 19,
     "title": "Relative Pronouns: Que, Quien, El Que, Lo Que, Part 2 of 2",
-    "summary": "Learn 50 words for describing a city and giving directions, and use them with que, quien, el que and lo que.",
+    "summary": "Aprende 50 palabras para describir una ciudad y dar indicaciones, y úsalas con que, quien, el que y lo que.",
     "duration": "7 min",
     "sections": [
       {
@@ -7217,7 +7217,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 20,
     "title": "Mastery Check: Relative Pronouns",
-    "summary": "A focused review test on choosing between que, quien, el que/la que, and lo que in context.",
+    "summary": "Un test de repaso para elegir entre que, quien, el que/la que y lo que según el contexto.",
     "duration": "10 min",
     "sections": [],
     "exercises": [
@@ -7451,7 +7451,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "options": [
           "No entiendo lo que quieres decir.",
           "El hombre lo que conocí ayer es mi tío.",
-          "Los que trabajan duro merecen éxito.",
+          "Los que trabajan duro merecen tener éxito.",
           "La mujer que conocí ayer es mi tía."
         ],
         "correctIndexes": [
@@ -7480,7 +7480,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 21,
     "title": "Passive Voice & Impersonal Se, Part 1 of 2",
-    "summary": "Describe actions without naming who did them — the way signs, news, and reports usually do.",
+    "summary": "Describe acciones sin nombrar a quien las hizo, como en carteles, noticias e informes.",
     "duration": "6 min",
     "sections": [
       {
@@ -7691,7 +7691,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 22,
     "title": "Passive Voice & Impersonal Se, Part 2 of 2",
-    "summary": "Learn 50 business words and use them with passive se, impersonal se and ser + participle in ads and reports.",
+    "summary": "Aprende 50 palabras de negocios y úsalas con el se pasivo, el se impersonal y ser + participio en anuncios e informes.",
     "duration": "8 min",
     "sections": [
       {
@@ -8073,7 +8073,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "options": [
           "la contratación",
           "el contratamiento",
-          "la contratura",
+          "la contractura",
           "el contratismo"
         ],
         "correctIndex": 0,
@@ -8285,7 +8285,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Aclara con «a + persona»",
         "body": [
-          "Ojo: esta «se» no tiene relación con los verbos reflexivos ni con el «se» impersonal. Como puede significar a él, a ella, a usted, a ellos o a ustedes, si hay duda se añade «a + persona»: se lo di a ella."
+          "Ojo: este «se» no tiene relación con los verbos reflexivos ni con el «se» impersonal. Como puede significar a él, a ella, a usted, a ellos o a ustedes, si hay duda se añade «a + persona»: se lo di a ella."
         ],
         "examples": [
           {
@@ -8340,7 +8340,9 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "I already told it to them (the secret).",
         "answer": "Ya se lo dije.",
         "altAnswers": [
-          "Se lo dije ya."
+          "Se lo dije ya.",
+          "Ya se lo he dicho.",
+          "Ya se lo había dicho."
         ],
         "explanation": "'Les' (a ellos) se convierte en 'se' antes de 'lo'. Con un verbo conjugado, el orden es objeto indirecto + objeto directo + verbo."
       },
@@ -8570,7 +8572,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Concuerda con la cosa, no con la persona",
         "body": [
-          "El pronombre posesivo concuerda en género y número con lo que se posee, no con la persona que posee. Si un hombre habla de 'su' bicicleta (femenina), el pronombre correcto es 'la suya', no 'el suyo'.",
+          "El pronombre posesivo concuerda en género y número con lo que se posee, no con la persona que posee. Si un hombre habla de la bicicleta (femenina) de su amigo, el pronombre correcto es 'la suya', no 'el suyo'; y si habla de su propia bicicleta, es 'la mía'.",
           "¿Por qué? Porque el pronombre ocupa el lugar del sustantivo que ya no dices: «la mía» es «mi bicicleta» sin repetir «bicicleta», así que toma su artículo y su terminación. Para elegir la forma, pregúntate siempre «¿qué cosa?», no «¿de quién?»."
         ],
         "examples": [
@@ -9254,7 +9256,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Cambios ortográficos",
         "body": [
-          "Recuerda: al poner la e del subjuntivo, los verbos en -car, -gar y -zar cambian la letra para conservar el sonido de la forma yo: c → qu (busco → busque), g → gu (llego → llegue), z → c (empiezo → empiece). El sonido no cambia; solo la ortografía."
+          "Recuerda: al poner la e del subjuntivo, los verbos en -car, -gar y -zar cambian la letra para conservar el sonido de la forma yo: c → qu (busco → busque), g → gu (llego → llegue), z → c (cruzo → cruce). El sonido no cambia; solo la ortografía."
         ],
         "examples": [
           {
@@ -9266,8 +9268,8 @@ const B1_BASE_LESSONS: Lesson[] = [
             "en": "to arrive → (that) I/you/he/we/you all/they arrive"
           },
           {
-            "es": "empezar → empiece, empieces, empiece, empecemos, empecéis, empiecen",
-            "en": "to begin → (that) I/you/he/we/you all/they begin"
+            "es": "cruzar → cruce, cruces, cruce, crucemos, crucéis, crucen",
+            "en": "to cross → (that) I/you/he/we/you all/they cross"
           }
         ],
         "checkpoint": [
@@ -9342,21 +9344,21 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa la oración con la forma correcta.",
-        "sentence": "Es raro que él ___ (pensar) eso.",
-        "answer": "piense",
-        "explanation": "Pensar cambia e→ie excepto en nosotros/vosotros: piense, pienses, piense..."
+        "sentence": "Es raro que él ___ (estudiar) eso.",
+        "answer": "estudie",
+        "explanation": "Estudiar es regular: estudio → estudie, estudies, estudie..."
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál es la forma correcta de \"volver\" para \"nosotros\" en subjuntivo?",
+        "question": "¿Cuál es la forma correcta de \"vivir\" para \"nosotros\" en subjuntivo?",
         "options": [
-          "volvamos",
-          "vuelvan",
-          "volváis",
-          "vuelva"
+          "vivamos",
+          "vivimos",
+          "viváis",
+          "vivan"
         ],
         "correctIndex": 0,
-        "explanation": "Volver cambia o→ue excepto en nosotros y vosotros: volvamos. «Vuelvan» y «vuelva» son de ellos y de yo/él, y «volváis» es de vosotros."
+        "explanation": "Vivir es regular: toma la raíz de vivo y las terminaciones -a: vivamos. «Vivimos» es indicativo, «viváis» es de vosotros y «vivan» es de ellos."
       },
       {
         "type": "translate",
@@ -9400,12 +9402,12 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Corrige la frase.",
-        "source": "«Quiero que ustedes empiezen hoy.»",
-        "answer": "Quiero que ustedes empiecen hoy.",
+        "source": "«Quiero que ustedes cruzen hoy.»",
+        "answer": "Quiero que ustedes crucen hoy.",
         "altAnswers": [
-          "Quiero que empiecen hoy."
+          "Quiero que crucen hoy."
         ],
-        "explanation": "Empezar tiene dos cambios: e → ie (empiez-) y z → c delante de e: empiecen."
+        "explanation": "Cruzar cambia z → c delante de e para conservar el sonido: crucen, no «cruzen»."
       }
     ]
   },
@@ -9474,7 +9476,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Verbos -ir con cambio de raíz",
         "body": [
-          "Recuerda: los verbos -ir con cambio de raíz cambian en casi todas las formas, y además tienen un cambio adicional (e→i o o→u) en nosotros y vosotros."
+          "Recuerda: los verbos -ir con cambio de raíz de tipo sentir y dormir cambian en casi todas las formas y tienen además un cambio (e→i, o→u) en nosotros y vosotros; pedir cambia e→i en todas."
         ],
         "examples": [
           {
@@ -9515,7 +9517,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Los seis verbos irregulares",
         "body": [
-          "Recuerda: ser, estar, ir, saber, dar y haber no forman el subjuntivo a partir de la forma yo y hay que memorizarlos (dar y estar solo añaden tilde: dé, esté).",
+          "Recuerda: ser, estar, ir, saber, dar y haber no forman el subjuntivo a partir de la forma yo y hay que memorizarlos (dar y estar llevan las terminaciones de -ar, con tilde en algunas formas: dé, esté, estés, estén).",
           "¿Por qué estos? Porque su forma yo no termina en -o (soy, estoy, voy, sé, doy, he), así que no hay una -o que quitar."
         ],
         "examples": [
@@ -10493,10 +10495,10 @@ const B1_BASE_LESSONS: Lesson[] = [
           "merecemos",
           "merece",
           "merecer",
-          "mereció"
+          "merecen"
         ],
         "correctIndex": 1,
-        "explanation": "«No dudar que» expresa certeza, por eso lo normal es el indicativo: merece. «Merecemos» no concuerda con «ella», «merecer» es infinitivo y «mereció» cambia el tiempo a pasado."
+        "explanation": "«No dudar que» expresa certeza, por eso lo normal es el indicativo: merece. «Merecemos» y «merecen» no concuerdan con «ella» y «merecer» es infinitivo."
       },
       {
         "type": "translate",
@@ -11451,14 +11453,13 @@ const B1_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar un mandato de nosotros.",
         "words": [
-          "Vamos",
-          "a",
-          "empezar",
+          "Empecemos",
           "la",
           "reunión"
         ],
+        "altOrders": [["Vamos", "a", "empezar", "la", "reunión"]],
         "translation": "Let's start the meeting.",
-        "explanation": "«Vamos a» + infinitivo es una forma muy común de proponer algo a nosotros (let's); el mandato de nosotros, con subjuntivo, sería «empecemos la reunión»."
+        "explanation": "El mandato de nosotros sale del subjuntivo: empecemos (empezar: z → c). También se dice «vamos a empezar la reunión»."
       },
       {
         "type": "fill-blank",
@@ -11887,7 +11888,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Conjuga el verbo en condicional.",
-            "sentence": "Nosotros ___ (comer) en ese restaurante si tuviéramos dinero.",
+            "sentence": "Nosotros ___ (comer) en ese restaurante, pero está cerrado.",
             "answer": "comeríamos",
             "explanation": "Comer es regular: infinitivo entero + -íamos, comeríamos. «Comíamos» sería imperfecto: le falta la -r- del infinitivo.",
             "hint": "infinitivo + íamos"
@@ -11996,26 +11997,28 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Cuál oración usa correctamente el condicional para una situación hipotética?",
+        "question": "Imaginas lo que harías con más tiempo libre: «Yo ___ más.» ¿Qué forma de «viajar» usas?",
         "options": [
-          "Si tengo tiempo, viajo más.",
-          "Si tendría tiempo, viajaría más.",
-          "Si tuviera tiempo, viajaría más.",
-          "Si tuviera tiempo, viajo más."
+          "viajaría",
+          "viajaba",
+          "viajé",
+          "viajo"
         ],
-        "correctIndex": 2,
-        "explanation": "La hipótesis poco probable combina imperfecto de subjuntivo tras «si» y condicional en el resultado: si tuviera tiempo, viajaría. «Si tendría» es incorrecta (nunca condicional tras «si»), y «si tengo… viajo» es una condición real, no hipotética."
+        "correctIndex": 0,
+        "explanation": "Una situación imaginada pide condicional: viajaría (viajar- + -ía). «Viajaba» es imperfecto (le falta la -r-), «viajé» es pretérito y «viajo» es presente."
       },
       {
         "type": "translate",
         "direction": "es-en",
         "prompt": "Traduce la oración al inglés.",
-        "source": "Si fuera rico, no trabajaría tanto.",
-        "answer": "If I were rich, I wouldn't work so much.",
+        "source": "No trabajaría tanto.",
+        "answer": "I wouldn't work so much.",
         "altAnswers": [
-          "If I were rich, I would not work so much."
+          "I would not work so much.",
+          "I wouldn't work that much.",
+          "I would not work that much."
         ],
-        "explanation": "«Fuera» es imperfecto de subjuntivo de ser, y «trabajaría» es el condicional que expresa el resultado hipotético."
+        "explanation": "«Trabajaría» es el condicional de trabajar (trabajar- + -ía) y expresa lo que harías en una situación imaginada."
       }
     ]
   },
@@ -12388,7 +12391,7 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Recuerda la regla: si + presente, + presente",
         "body": [
-          "Recuerda la regla: después del si de condición real va siempre el presente de indicativo, nunca el futuro ni el presente de subjuntivo (✗ si lloverá, ✗ si llueva). Lo que cambia es la segunda parte, según lo que quieras decir.",
+          "Recuerda la regla: después del si de condición real va normalmente el presente de indicativo (aunque hables del futuro), nunca el futuro ni el presente de subjuntivo (✗ si lloverá, ✗ si llueva). Lo que cambia es la segunda parte, según lo que quieras decir.",
           "Si las dos partes van en presente, hablas de algo que pasa siempre que se cumple la condición: verdades generales, hábitos o reacciones automáticas. No es un evento concreto del futuro, sino una regla de tu vida o del mundo."
         ],
         "examples": [
@@ -13613,15 +13616,15 @@ const B1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "'Los vecinos, ___ perro ladra toda la noche, se mudan pronto.'",
+        "question": "'Los vecinos, a ___ conocí ayer, se mudan pronto.'",
         "options": [
           "que",
           "quienes",
           "cuyo",
           "cuyos"
         ],
-        "correctIndex": 2,
-        "explanation": "«Cuyo» concuerda con lo poseído, no con el poseedor: «perro» es masculino singular, así que corresponde «cuyo», aunque «vecinos» sea plural. «Cuyos» concordaría con los vecinos, y «que» o «quienes» no expresan posesión."
+        "correctIndex": 1,
+        "explanation": "Tras la preposición «a», con personas en plural y entre comas, se usa «quienes»: a quienes conocí ayer. «Que» sin artículo no sirve después de «a» con personas, y «cuyo/cuyos» expresan posesión, que aquí no hay."
       },
       {
         "type": "multi-select",
@@ -13669,7 +13672,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 51,
     "title": "Los Pronombres Relativos: Práctica Extra, Part 2 of 3",
-    "summary": "Practica el que / la que para distinguir, lo que para ideas, donde para lugares y cuyo para posesión.",
+    "summary": "Practica el que / la que para distinguir, lo que para ideas y donde para lugares.",
     "duration": "8 min",
     "sections": [
       {
@@ -14694,7 +14697,7 @@ const B1_BASE_LESSONS: Lesson[] = [
                 "right": "relief"
               }
             ],
-            "explanation": "Palabras 11-20: los sustantivos de emoción. Muchos tienen un verbo de la misma familia: la alegría / alegrarse, la sorpresa / sorprender, el enojo / enojarse. Los celos va siempre en plural."
+            "explanation": "Palabras 11-20: los sustantivos de emoción. Muchos tienen un verbo de la misma familia: la alegría / alegrarse, la sorpresa / sorprender, el enojo / enojarse. Los celos van siempre en plural."
           },
           {
             "type": "matching",
@@ -15169,7 +15172,7 @@ const B1_BASE_LESSONS: Lesson[] = [
               "imlógico"
             ],
             "correctIndex": 0,
-            "explanation": "El prefijo de negación in- se convierte en i- delante de l y r: lógico → ilógico, legal → ilegal, real → irreal. Im- solo va delante de p y b (imposible, improbable)."
+            "explanation": "El prefijo de negación in- se convierte en il- delante de l e ir- delante de r (la consonante doble se escribe simple): lógico → ilógico, legal → ilegal, real → irreal. Im- solo va delante de p y b (imposible, improbable)."
           }
         ]
       },
@@ -15464,7 +15467,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 58,
     "title": "B1 Vocabulary Practice, Part 3 of 10",
-    "summary": "Review the 50 nature and environment words from the B1 vocabulary lists.",
+    "summary": "Repasa las 50 palabras de naturaleza y medio ambiente de las listas de vocabulario B1.",
     "duration": "8 min",
     "sections": [
       {
@@ -15795,7 +15798,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 59,
     "title": "B1 Vocabulary Practice, Part 4 of 10",
-    "summary": "Review the 50 cooking words from the B1 vocabulary lists.",
+    "summary": "Repasa las 50 palabras de cocina de las listas de vocabulario B1.",
     "duration": "7 min",
     "sections": [
       {
@@ -16159,14 +16162,14 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 60,
     "title": "B1 Vocabulary Practice, Part 5 of 10",
-    "summary": "Review the 50 money and finance words from the B1 vocabulary lists.",
+    "summary": "Repasa las 50 palabras de dinero y finanzas de las listas de vocabulario B1.",
     "duration": "8 min",
     "sections": [
       {
         "heading": "La idea: cada verbo del dinero tiene su sustantivo",
         "body": [
           "No aprendas las palabras del dinero sueltas: casi todas vienen en pareja verbo + sustantivo, y conocer el patrón te da la otra mitad gratis.",
-          "Patrón 1: muchos verbos en -ar forman un sustantivo masculino en -o: gastar → el gasto, ahorrar → el ahorro, pagar → el pago, cobrar → el cobro, prestar → el préstamo. Por eso se dice «los gastos», nunca «las gastas»."
+          "Patrón 1: muchos verbos en -ar forman un sustantivo masculino en -o: gastar → el gasto, ahorrar → el ahorro, pagar → el pago, cobrar → el cobro. Por eso se dice «los gastos», nunca «las gastas»."
         ],
         "examples": [
           {
@@ -16536,7 +16539,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 61,
     "title": "B1 Vocabulary Practice, Part 6 of 10",
-    "summary": "Test yourself on the 50 education words from B1 vocabulary list 6 (la beca, matricularse, el plagio…).",
+    "summary": "Ponte a prueba con las 50 palabras de educación de la lista 6 de vocabulario B1 (la beca, matricularse, el plagio…).",
     "duration": "8 min",
     "sections": [
       {
@@ -16862,7 +16865,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 62,
     "title": "B1 Vocabulary Practice, Part 7 of 10",
-    "summary": "Test yourself on the 50 life-experience words from B1 vocabulary list 7 (el logro, atreverse a, el hito…).",
+    "summary": "Practica las 50 palabras de experiencias de vida de la lista de vocabulario B1 n.º 7 (el logro, atreverse a, el hito…).",
     "duration": "8 min",
     "sections": [
       {
@@ -17201,7 +17204,7 @@ const B1_BASE_LESSONS: Lesson[] = [
         "prompt": "Corrige la frase.",
         "source": "Siempre aprovecho de las ofertas.",
         "answer": "Siempre aprovecho las ofertas.",
-        "explanation": "Aprovechar es transitivo: el complemento va directo, sin «de», aunque en inglés se diga take advantage of. «Aprovecharse de» existe, pero significa abusar de alguien."
+        "explanation": "Aprovechar es transitivo: el complemento va directo, sin «de», aunque en inglés se diga take advantage of. «Aprovecharse de» existe, pero suele significar abusar de alguien o de una situación."
       }
     ]
   },
@@ -17210,7 +17213,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 63,
     "title": "B1 Vocabulary Practice, Part 8 of 10",
-    "summary": "Test yourself on the 50 news-and-events words from B1 vocabulary list 8 (el titular, la polémica, el veredicto…).",
+    "summary": "Pon a prueba las 50 palabras de noticias y sucesos de la lista de vocabulario B1 n.º 8 (el titular, la polémica, el veredicto…).",
     "duration": "8 min",
     "sections": [
       {
@@ -17520,10 +17523,10 @@ const B1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Qué palabras se relacionan con la justicia y los sucesos? (Elige todas las correctas)",
+        "question": "¿Qué sustantivos siguen el patrón -ar → -ación? (Elige todas las correctas)",
         "options": [
-          "el veredicto",
-          "el testigo",
+          "la donación",
+          "la evacuación",
           "la beca",
           "matricularse"
         ],
@@ -17531,7 +17534,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           0,
           1
         ],
-        "explanation": "El veredicto y el testigo son vocabulario de la justicia y los sucesos; la beca y matricularse pertenecen a la educación."
+        "explanation": "Donar → la donación y evacuar → la evacuación siguen el patrón -ar → -ación. «La beca» es un sustantivo que no viene de un verbo en -ar, y «matricularse» es un verbo, no un sustantivo."
       },
       {
         "type": "translate",
@@ -17830,7 +17833,8 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "-miento y el imperativo de las direcciones",
         "body": [
-          "2) El sufijo -miento convierte un verbo en el nombre de la acción o de su resultado: estacionar → el estacionamiento, embotellar → el embotellamiento. Siempre es masculino. 3) Para dar direcciones se usa el imperativo con artículo: dobla (o gira) a la izquierda, sigue derecho (o recto), cruza la calle."
+          "2) El sufijo -miento convierte un verbo en el nombre de la acción o de su resultado: estacionar → el estacionamiento, embotellar → el embotellamiento. Siempre es masculino.",
+          "3) Para dar direcciones se usa el imperativo, y las direcciones llevan artículo: dobla (o gira) a la izquierda, sigue derecho (o recto), cruza la calle."
         ],
         "examples": [
           {
@@ -18312,7 +18316,8 @@ const B1_BASE_LESSONS: Lesson[] = [
         "source": "Los socios han aprobado el acuerdo.",
         "answer": "Los socios han rechazado el acuerdo.",
         "altAnswers": [
-          "Los socios rechazaron el acuerdo."
+          "Los socios rechazaron el acuerdo.",
+          "Los socios no han aprobado el acuerdo."
         ],
         "explanation": "Lo contrario de aprobar (una propuesta, un acuerdo) es rechazar: «han rechazado»."
       },
@@ -18360,23 +18365,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 66,
     "title": "B1 Comprehensive Review, Part 1 of 3",
-    "summary": "Recap the present subjunctive (wishes, doubt, emotion, impersonal expressions, ojalá), then check it in a mixed set that also revisits commands, the conditional and si-clauses.",
+    "summary": "Repasa el presente de subjuntivo (deseo, duda, emoción, expresiones impersonales, ojalá) y compruébalo en un conjunto mixto que también repasa mandatos, condicional y oraciones con si.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Present Subjunctive: Formation",
+        "heading": "Presente de subjuntivo: formación",
         "body": [
           "El subjuntivo expresa deseos, dudas y emociones, casi siempre después de \"que\". Regulares: quita la -o de yo, agrega terminaciones opuestas. Seis verbos no siguen la regla de la forma yo: sea, esté, vaya, sepa, dé, haya."
         ]
       },
       {
-        "heading": "Subjunctive with Wishes, Doubt & Emotion",
+        "heading": "Subjuntivo con deseo, duda y emoción",
         "body": [
           "Verbos de deseo (querer que), duda (dudar que) y emoción (alegrarse de que) requieren subjuntivo en la cláusula siguiente (deseo y emoción cuando cambia el sujeto; con dudar que, siempre)."
         ]
       },
       {
-        "heading": "Subjunctive with Impersonal Expressions & Ojalá",
+        "heading": "Subjuntivo con expresiones impersonales y ojalá",
         "body": [
           "Es importante que, es necesario que, y ojalá (que) requieren subjuntivo. Es verdad que y es obvio que llevan indicativo, porque expresan certeza."
         ]
@@ -18492,29 +18497,29 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 67,
     "title": "B1 Comprehensive Review, Part 2 of 3",
-    "summary": "Recap commands, the conditional, si + present and the present perfect, then practise si-clauses, the perfect and pluperfect, relatives and the passive in a mixed set.",
+    "summary": "Repasa mandatos, condicional, si + presente y pretérito perfecto, y practica oraciones con si, perfecto y pluscuamperfecto, relativos y pasiva en un conjunto mixto.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Commands: Tú, Usted, Nosotros & Negatives",
+        "heading": "Mandatos: tú, usted, nosotros y negativos",
         "body": [
           "Mandatos afirmativos de tú suelen ser como la forma él/ella, con ocho irregulares. Usted/ustedes usan el subjuntivo. Todos los negativos usan el subjuntivo con no."
         ]
       },
       {
-        "heading": "The Conditional Tense",
+        "heading": "El condicional",
         "body": [
           "El condicional añade -ía, -ías, -ía, -íamos, -íais, -ían al infinitivo. Usa las mismas raíces irregulares que el futuro. Sirve para peticiones corteses y consejos suaves."
         ]
       },
       {
-        "heading": "Simple If-Clauses: Si + Presente",
+        "heading": "Oraciones con si: si + presente",
         "body": [
           "Si + presente indicativo, + presente/futuro/mandato describe condiciones reales o probables. No lleva subjuntivo."
         ]
       },
       {
-        "heading": "Present Perfect: Pretérito Perfecto",
+        "heading": "Pretérito perfecto",
         "body": [
           "Haber (he, has, ha, hemos, habéis, han) + participio pasado. Conecta el pasado con el presente. Participios irregulares: hecho, dicho, escrito, visto, puesto, vuelto, roto, abierto, muerto, cubierto."
         ]
@@ -18623,23 +18628,23 @@ const B1_BASE_LESSONS: Lesson[] = [
     "level": "B1",
     "number": 68,
     "title": "B1 Comprehensive Review, Part 3 of 3",
-    "summary": "Recap the pluperfect, relative pronouns and the passive and impersonal se, then check them in a mixed set that also revisits the subjunctive and si-clauses.",
+    "summary": "Repasa el pluscuamperfecto, los pronombres relativos y la pasiva y el se impersonal, y compruébalos en un conjunto mixto que también repasa el subjuntivo y las oraciones con si.",
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Past Perfect: Pluscuamperfecto",
+        "heading": "Pluscuamperfecto",
         "body": [
           "Había, habías, había, habíamos, habíais, habían + participio. Describe una acción anterior a otra acción pasada — el \"pasado del pasado\"."
         ]
       },
       {
-        "heading": "Relative Pronouns",
+        "heading": "Pronombres relativos",
         "body": [
           "Que se refiere a personas o cosas. Quien/quienes solo a personas. El que/la que concuerdan en género y número. Lo que se refiere a ideas abstractas."
         ]
       },
       {
-        "heading": "Passive Voice & Impersonal Se",
+        "heading": "Voz pasiva y se impersonal",
         "body": [
           "Ser + participio + por forma la voz pasiva formal. Se + verbo en tercera persona forma el se pasivo (concuerda con el sustantivo) o el se impersonal (siempre singular, sin sustantivo)."
         ]
@@ -18703,19 +18708,19 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Translate this sentence to English.",
+        "prompt": "Traduce esta frase al inglés.",
         "source": "Cuando llegamos a casa, ya habían apagado las luces.",
         "answer": "When we got home, they had already turned off the lights.",
-        "explanation": "Habían apagado is the past perfect — an action completed before another past action."
+        "explanation": "«Habían apagado» es pluscuamperfecto: una acción terminada antes de otra acción pasada."
       },
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Translate this sentence to Spanish.",
+        "prompt": "Traduce esta frase al español.",
         "source": "I hope you can come to the party.",
         "answer": "Ojalá que puedas venir a la fiesta.",
         "altAnswers": ["Ojalá puedas venir a la fiesta.", "Espero que puedas venir a la fiesta."],
-        "explanation": "Ojalá always triggers the subjunctive: puedas. Espero que + subjunctive works too."
+        "explanation": "«Ojalá» siempre lleva subjuntivo: puedas. «Espero que» + subjuntivo también vale."
       },
       {
         "type": "fill-blank",

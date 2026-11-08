@@ -350,7 +350,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "Remember the rule, then hunt",
         [
           "Remember the rule: irregular verbs don't take regular preterite endings on their infinitive stem. They swap in a new stem (tuv-, hic-, pus-, estuv-, dij-, traj-...) and take -e, -iste, -o, -imos, -isteis, -ieron, with no accents. After j, ellos is -eron.",
-          "So the typical learner mistake is a \"regularized\" irregular: ✗ tení → tuve, ✗ hací → hice, ✗ poní → puse, ✗ esté → estuve, ✗ decieron → dijeron, ✗ trajieron → trajeron. Here is the diary to fix: «El sábado tení una fiesta. Hací una tarta y mis amigos trajieron bebidas. Todos decieron que la tarta estaba rica.»",
+          "So the typical learner mistake is a \"regularized\" irregular: ✗ tení → tuve, ✗ hací → hice, ✗ poní → puse, ✗ esté → estuve, ✗ decieron → dijeron, ✗ trajieron → trajeron. Here is the diary to fix: «El sábado tení una fiesta. Hací una tarta y mis amigos trajieron bebidas. Todos decieron que la tarta estuvo rica.»",
         ],
         [
           ["✗ Hací una tarta. → ✓ Hice una tarta.","I made a cake. (hic- + -e)"],
@@ -364,7 +364,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     ],
     [
       fb("Fix it.", "___ una tarta de chocolate. (the diary says: Hací)", "Hice", "Hacer has the stem hic- and an unaccented -e: hice, not hací."),
-      fb("Fix it.", "Todos ___ que la tarta estaba rica. (the diary says: decieron)", "dijeron", "Decir has the stem dij-, and after j the ending is -eron: dijeron, not decieron."),
+      fb("Fix it.", "Todos ___ que la tarta estuvo rica. (the diary says: decieron)", "dijeron", "Decir has the stem dij-, and after j the ending is -eron: dijeron, not decieron."),
       fb("Fix it.", "Yo ___ la mesa en el jardín. (the diary says: poní)", "puse", "Poner has the stem pus- and an unaccented -e: puse, not poní."),
       fb("Fix it.", "Mis primos no ___ venir. (the diary says: podieron)", "pudieron", "Poder has the stem pud-: pudieron, not podieron."),
       fb("Fix it.", "Mi abuela ___ en el hospital una semana. (the diary says: estó)", "estuvo", "Estar has the stem estuv- and an unaccented -o: estuvo, not estó."),
@@ -1188,7 +1188,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       toEs("Dormí cuando llegaste.", "Dormía cuando llegaste.", "The sleeping was in progress when you arrived → imperfect: dormía.", ["Estaba durmiendo cuando llegaste."], "Correct the sentence."),
       toEs("Cuando llegaba, todos bailaron.", "Cuando llegué, todos bailaban.", "The arrival is the event (llegué); the dancing was already going on (bailaban). The tenses were swapped.", ["Cuando llegué, todos estaban bailando."], "Correct the sentence."),
       toEs("Trabajaba cuando mi jefe me llamaba.", "Trabajaba cuando mi jefe me llamó.", "The call is a single event that interrupts: llamó.", ["Estaba trabajando cuando mi jefe me llamó."], "Correct the sentence."),
-      toEs("We were watching TV when my father arrived.", "Veíamos la tele cuando llegó mi padre.", "The action in progress is imperfect (veíamos), and the interruption is preterite (llegó).", ["Estábamos viendo la tele cuando llegó mi padre.","Veíamos la televisión cuando llegó mi padre."]),
+      toEs("We were watching TV when my father arrived.", "Veíamos la tele cuando llegó mi padre.", "The action in progress is imperfect (veíamos), and the interruption is preterite (llegó).", ["Estábamos viendo la tele cuando llegó mi padre.","Veíamos la televisión cuando llegó mi padre.","Mirábamos la tele cuando llegó mi padre."]),
       toEn("Cuando entré, todos hablaban a la vez.", "When I came in, everyone was talking at once.", "Entré is the event (preterite), and hablaban is what was going on (imperfect).", ["When I walked in, everybody was talking at the same time.","When I entered, everyone was talking at once."]),
       toEs("She was cooking when her son came in.", "Cocinaba cuando entró su hijo.", "Imperfect for the background action, preterite for the interruption.", ["Cocinaba cuando su hijo entró.","Estaba cocinando cuando entró su hijo.","Estaba cocinando cuando su hijo entró."]),
       toEs("We were watching a movie when my sister called.", "Veíamos una película cuando llamó mi hermana.", "Veíamos in progress; llamó interrupts.", ["Estábamos viendo una película cuando llamó mi hermana.","Veíamos una película cuando mi hermana llamó.","Mirábamos una película cuando llamó mi hermana."]),
@@ -1238,7 +1238,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       toEs("Mi hermano y yo miramos por la ventana.", "Mi hermano y yo miramos por la ventana esa mañana.", "Miramos is the same form in present and preterite; adding esa mañana shows it's one completed past action.", ["Esa mañana mi hermano y yo miramos por la ventana."], "Turn it into a past event by adding \"that morning\"."),
       toEs("Mi padre toma café en la cocina.", "Mi padre tomaba café en la cocina.", "What someone was doing in the background → imperfect.", ["Mi padre bebía café en la cocina.","Mi padre estaba tomando café en la cocina."], "Change it to the past (tell the story)."),
       toEs("Me pongo el abrigo y salgo.", "Me puse el abrigo y salí.", "Two actions in sequence → preterite: me puse (poner: pus-) and salí.", undefined, "Change it to the past (tell the story)."),
-      toEs("Hubo mucha nieve en el jardín.", "Había mucha nieve en el jardín.", "Había describes what the scene looked like: imperfect, not hubo.", undefined, "Correct the sentence."),
+      toEs("Cuando salimos al jardín, hubo mucha nieve.", "Cuando salimos al jardín, había mucha nieve.", "Había describes what the scene looked like when they went out: imperfect, not hubo.", undefined, "Correct the sentence."),
       toEs("Mi hermana llevó un gorro rojo.", "Mi hermana llevaba un gorro rojo.", "The clothes someone had on are description: imperfect llevaba.", undefined, "Correct the sentence."),
       toEs("Construíamos el muñeco de nieve en dos horas.", "Construimos el muñeco de nieve en dos horas.", "A completed action with a measured time (en dos horas) → preterite: construimos.", undefined, "Correct the sentence."),
       toEs("It was snowing and the streets were empty.", "Nevaba y las calles estaban vacías.", "Two background descriptions, so both imperfect: nevaba, estaban vacías.", ["Estaba nevando y las calles estaban vacías."]),
@@ -1262,7 +1262,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "Remember the rule: the tense changes the meaning",
         [
           "Remember the rule: the imperfect describes a state as it was going on; the preterite reports a complete event. With a few verbs, that difference is big enough that English uses a different word.",
-          "Conocer: conocía (I knew someone already, a state) / conocí (I met them, the moment the knowing began). Saber: sabía (I knew) / supe (I found out). Querer: quería (I wanted) / no quise (I refused: the not-wanting became an act). Tener: tenía (I had) / tuve (I got, received; I had at one moment).",
+          "Conocer: conocía (I knew someone) / conocí (I met them). Saber: sabía (I knew) / supe (I found out). Querer: quería (I wanted) / no quise (I refused). Tener: tenía (I had) / tuve (I got). Poder: podía (I was able) / pude (I managed to); no pude (I tried and failed).",
         ],
         [
           ["Conocí a mi mujer en 2010.","I met my wife in 2010. (the moment it started)"],
@@ -3158,7 +3158,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       fb("Complete.", "Mientras desayuno, ___ las noticias. (leer)", "leo", "Not reflexive."),
       fb("Complete.", "Mi pareja ___ más tarde que yo. (levantarse)", "se levanta", "Él/ella → se."),
       wo("A las ocho me pongo el abrigo y me voy al trabajo.", "Ponerse + irse.", "At eight I put on my coat and leave for work."),
-      toEn("Los fines de semana no me pongo el despertador.", "On weekends I don't set the alarm.", "Ponerse el despertador means to set the alarm for yourself.", ["At the weekend I don't set my alarm.", "On weekends I don't set an alarm."]),
+      toEn("Los fines de semana no pongo el despertador.", "On weekends I don't set the alarm.", "Poner el despertador means to set the alarm.", ["At the weekend I don't set my alarm.", "On weekends I don't set an alarm."]),
     ]
   ),
   L(
@@ -3481,7 +3481,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         "«Es el edificio más alto ___ mundo.»",
         ["del", "en el", "que el", "de el"],
         0,
-        "The superlative group takes de, and de + el contracts: del mundo. \"En el\" is not standard here, \"que el\" is for comparisons, and \"de el\" must contract."
+        "The superlative group takes de, and de + el contracts: del mundo. \"En el\" is less usual here, \"que el\" is for comparisons, and \"de el\" must contract."
       ),
       toEs("It's the most beautiful beach on the island.", "Es la playa más bonita de la isla.", "The superlative group takes de: la playa más bonita de la isla (not en).", ["Es la playa más hermosa de la isla.", "Es la playa más linda de la isla."]),
       wo("Esta es la mejor paella de toda la ciudad.", "Superlative.", "This is the best paella in the whole city."),
@@ -4705,7 +4705,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
             "The assistant asks: «¿Por qué lo devuelve?» Which answer is right?",
             ["Porque está roto.", "Por está roto.", "Para está roto.", "Porque roto."],
             0,
-            "¿Por qué? (why?) is answered with porque + a full sentence: Porque está roto. Por can only take a noun (por el color), and para answers ¿para qué?, not why."
+            "¿Por qué? (why?) is answered with porque + a full sentence: Porque está roto. Por can also take a noun or an infinitive (por el color, por ser joven), and para answers ¿para qué?, not why."
           ),
         ]
       ),
@@ -5827,7 +5827,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
     "a2-comprehensive-review-2",
     "a2d-build-up-postcard",
     "Build-Up: Write a Postcard",
-    "Build a holiday postcard in six sentences: greeting, place, weather, what you did, a comparison and a plan.",
+    "Build a holiday postcard in seven short sentences: greeting, place, weather, what you did, a comparison, a plan and a sign-off.",
     "7 min",
     [
       sec(
@@ -6014,7 +6014,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
       ),
     ],
     [
-      fb("Complete.", "La farmacia está ___ de la panadería. (opposite)", "enfrente", "Opposite = enfrente de (location, so estar). De + el would contract to del."),
+      fb("Complete.", "La farmacia está ___ de la panadería. (opposite)", "enfrente", "Opposite = enfrente de (location, so estar). Here de is followed by la panadería, so no contraction (with el it would be del)."),
       fb("Complete.", "¿Me ___ probar estos pantalones? (poder, yo)", "puedo", "Poder is o → ue in the present: puedo. Me goes before it because probarse is reflexive (or attach it: ¿puedo probarme…?)."),
       fb("Complete.", "¿Los pantalones? Me gustan; ___ compro.", "los", "Los pantalones is masculine plural, so los, before compro. In a shop, lo / los compro means 'I'll take it / them'."),
       fb("Complete.", "Le llamo ___ lo de la cita de mañana.", "por", "Por lo de means about or regarding: le llamo por lo de la cita."),

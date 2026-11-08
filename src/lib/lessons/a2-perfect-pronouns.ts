@@ -107,7 +107,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       toEs("He cenado con mis amigos.", "Hemos cenado con mis amigos.", "Only haber changes for the person: he → hemos. The participle stays cenado.", ["Hemos cenado con nuestros amigos."], "Change it to nosotros."),
       toEs("Ella ha bebido mucha agua.", "Ellas han bebido mucha agua.", "Haber changes (ha → han), but the participle doesn't take a plural: bebido.", undefined, "Make the subject plural (ellas)."),
       toEs("¿Has tú comido?", "¿Has comido tú?", "Nothing goes between haber and the participle: move tú after it (or before has).", ["¿Tú has comido?","¿Has comido?"], "Correct the sentence."),
-      toEs("Tengo terminado el trabajo.", "He terminado el trabajo.", "The helper for the present perfect is haber (he), not tener.", ["Yo he terminado el trabajo.","Ya he terminado el trabajo."], "Correct the sentence."),
+      toEs("Hoy tengo trabajado mucho.", "Hoy he trabajado mucho.", "The helper for the present perfect is haber (he), not tener: tener + participle is a different construction.", ["Yo he trabajado mucho hoy.","He trabajado mucho hoy."], "Correct the sentence."),
       toEs("Nosotros habemos llegado.", "Nosotros hemos llegado.", "The nosotros form of haber is hemos; habemos is not standard.", ["Hemos llegado."], "Correct the sentence."),
       toEs("Today I've eaten too much.", "Hoy he comido demasiado.", "Hoy is a time that isn't over → present perfect: he comido.", ["He comido demasiado hoy.","Hoy comí demasiado."]),
       toEs("Have you slept well?", "¿Has dormido bien?", "has + dormido; nothing between them.", ["¿Ha dormido bien?","¿Dormiste bien?"]),
@@ -796,7 +796,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
           ["¿Las fotos? Te las mando esta noche.", "The photos? I'll send them to you tonight."],
         ],
         [
-          fe("¿El dinero? Mañana ___ devuelvo.", "te lo", "The money? I'll give [it back to you] tomorrow.", "Te (to you) + lo (el dinero): person first."),
+          fe("¿El dinero? Mañana ___ devuelvo.", "te lo", "The money? I'll give [it back to you] tomorrow. (tú)", "Te (to you) + lo (el dinero): person first."),
         ]
       ),
       sec(
@@ -818,7 +818,7 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿La sal? Ahora ___ paso.", "te la", "The salt? I'll pass [it to you] now.", "te + la (la sal)."),
+      fe("¿La sal? Ahora ___ paso.", "te la", "The salt? I'll pass [it to you] now. (tú)", "te + la (la sal)."),
       fe("¿El informe? Ya ___ he enviado al jefe.", "se lo", "The report? I've already sent [it to] the boss.", "le + lo → se lo."),
       fe("¿Los billetes? Mi hermana ___ compra.", "nos los", "The tickets? My sister buys [them for us].", "nos + los (los billetes)."),
       fe("¿Las flores? ___ regalo a mi madre.", "Se las", "The flowers? I'm giving [them to] my mother.", "le + las → se las."),
@@ -848,11 +848,11 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
         ],
         [
           ["Te lo quiero explicar. = Quiero explicártelo.", "I want to explain it to you."],
-          ["Se lo estoy diciendo. = Estoy diciéndoselo.", "I'm telling him / her."],
+          ["Se lo estoy diciendo. = Estoy diciéndoselo.", "I'm telling it to him / her."],
           ["Me la vas a prestar, ¿no? = Vas a prestármela, ¿no?", "You're going to lend it to me, right?"],
         ],
         [
-          fe("Quiero ___ antes de la reunión.", "dártelo", "I want to [give it to you] before the meeting.", "dar + te + lo joined, with an accent: dártelo."),
+          fe("Quiero ___ antes de la reunión.", "dártelo", "I want to [give it to you] before the meeting. (tú)", "dar + te + lo joined, with an accent: dártelo."),
         ]
       ),
       sec(
@@ -874,8 +874,8 @@ export const A2_PERFECT_PRONOUNS: AnchoredLesson[] = [
       ),
     ],
     [
-      fe("¿La foto? Voy a ___ ahora.", "mandártela", "The photo? I'm going to [send it to you] now.", "mandar + te + la, joined with an accent."),
-      fe("¿El café? Estoy ___.", "preparándotelo", "The coffee? I'm [making it for you].", "preparando + te + lo, accent on the á."),
+      fe("¿La foto? Voy a ___ ahora.", "mandártela", "The photo? I'm going to [send it to you] now. (tú)", "mandar + te + la, joined with an accent."),
+      fe("¿El café? Estoy ___.", "preparándotelo", "The coffee? I'm [making it for you]. (tú)", "preparando + te + lo, accent on the á."),
       fe("¿Las llaves? ___, por favor.", "Dámelas", "The keys? [Give them to me], please.", "A yes command: da + me + las."),
       toEs("I can't tell you (it).", "No te lo puedo decir.", "te + lo before puedo, or joined: no puedo decírtelo.", ["No puedo decírtelo.", "No se lo puedo decir.", "No puedo decírselo."]),
       toEs("Give it to me, please.", "Dámelo, por favor.", "A yes command joins the pair: dámelo.", ["Dámela, por favor.", "Démelo, por favor."]),
