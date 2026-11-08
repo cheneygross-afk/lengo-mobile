@@ -69,7 +69,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
   ],
 
   "b1d-rep-se-cartel-normas": [
-    fe("En la biblioteca se ___ hablar en voz baja.", "debe", "In the library you [must] speak quietly.", "Con infinitivo («hablar»), el verbo con «se» va en singular: «se debe», no «se deben»."),
+    fe("En la biblioteca se ___ hablar en voz baja.", "debe", "In the library you [must] speak quietly.", "Con un infinitivo solo («hablar»), el verbo con «se» va en singular: «se debe»; si detrás hay un sustantivo plural (se deben respetar las normas), el verbo suele concordar con él."),
     fe("Se ___ las entradas solo en la taquilla.", "venden", "Tickets [are sold] only at the ticket office.", "El sustantivo plural «las entradas» exige verbo en plural: «se venden», no «se vende»."),
     toEs("Se prohíbe fumar en la estación.", "Se prohíben los cigarrillos electrónicos en la estación.", "Ahora lo prohibido es un sustantivo plural (los cigarrillos electrónicos), así que el verbo pasa a plural: se prohíben.", ["En la estación se prohíben los cigarrillos electrónicos."], "Cambia «fumar» por «los cigarrillos electrónicos»."),
     toEs("Mobile phones are not allowed in the exam.", "No se permiten móviles en el examen.", "«Móviles» es plural, así que el verbo también: «se permiten».", ["No se permiten teléfonos móviles en el examen.", "No se permiten celulares en el examen.", "No se admiten móviles en el examen.", "No se admiten celulares en el examen.", "En el examen no se permiten móviles.", "En el examen no se permiten celulares."]),
@@ -515,7 +515,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
     toEs("Chicos, beban agua durante el partido.", "Chicos, bebed agua durante el partido.", "De ustedes (beban, forma de subjuntivo) a vosotros: infinitivo sin -r + d, bebed.", [], "Cambia el mandato de ustedes a vosotros."),
     toEs("Corrige: «Hazed los ejercicios de la página diez.»", "Haced los ejercicios de la página diez.", "La forma de vosotros sale del infinitivo (hacer → haced), no del mandato irregular de tú (haz).", ["Haced los ejercicios de la página 10."], "Corrige la frase."),
     mc("¿Cuál es el mandato afirmativo de vosotros para «ir»?", ["id", "ir", "vayáis", "ved"], 0, "Ir sin -r + d = id; «vayáis» es la forma negativa."),
-    toEs("Tell me what happened, kids. (vosotros)", "Decidme qué pasó, niños.", "Decir → decid, y el pronombre «me» se pega al final.", ["Decidme lo que pasó, niños.", "Decidme qué ha pasado, niños.", "Decidme lo que ha pasado, niños.", "Contadme qué pasó, niños.", "Contadme lo que pasó, niños.", "Contadme qué ha pasado, niños.", "Contadme lo que ha pasado, niños."]),
+    toEs("Tell the truth, kids. (vosotros)", "Decid la verdad, niños.", "Decir → decid: el mandato de vosotros es regular (no «dec»).", ["Decid la verdad, chicos.", "Decid la verdad, chicas."]),
     toEs("Write a postcard to your grandmother. (vosotros)", "Escribid una postal a vuestra abuela.", "Escribir → escribid; con vosotros, el posesivo es «vuestra».", ["Escribidle una postal a vuestra abuela."]),
     fe("___ buenos con vuestra hermana.", "Sed", "[Be] good to your sister (vosotros).", "Ser → sed, aunque el de tú sea «sé»."),
     wo("Traed algo de comer a la fiesta", "Traer → traed; el verbo va al principio.", "Bring something to eat to the party (vosotros)"),
@@ -526,7 +526,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
     mc("Tus amigos llegan a tu casa en Madrid. ¿Qué les dices?", ["¡Pasad!", "¡Pasa!", "¡Pasáis!", "¡Pasan!"], 0, "Para un grupo de amigos en España: pasar → pasad."),
     toEs("Study for the exam and sleep well tonight. (vosotros)", "Estudiad para el examen y dormid bien esta noche.", "Estudiar → estudiad; dormir → dormid, sin cambio de vocal."),
     wo("Subid las maletas al tercer piso", "Subir → subid.", "Take the suitcases up to the third floor (vosotros)"),
-    toEs("Call your mother when you arrive. (vosotros)", "Llamad a vuestra madre cuando lleguéis.", "Llamar → llamad; «cuando» + subjuntivo para el futuro.", ["Llamad a vuestra madre al llegar."]),
+    toEs("Call your mother when you arrive. (vosotros)", "Llamad a vuestra madre al llegar.", "Llamar → llamad; «al llegar» (al + infinitivo) evita el subjuntivo.", ["Llamad a vuestra madre cuando lleguéis."]),
     toEs("Turn off the lights and close the windows before leaving. (vosotros)", "Apagad las luces y cerrad las ventanas antes de salir.", "Apagar → apagad; cerrar → cerrad (sin diptongo en esta forma).", ["Apagad la luz y cerrad las ventanas antes de salir."]),
   ],
 
@@ -540,7 +540,7 @@ export const DRILLS_B1_9: Record<string, Exercise[]> = {
     toEs("Corrige: «¡Elijid una película para esta noche!»", "¡Elegid una película para esta noche!", "Vosotros sale del infinitivo «elegir» sin cambios: elegid. Ni e → i ni g → j.", ["¡Escoged una película para esta noche!"], "Corrige la frase."),
     fe("¡___ a la tienda antes de que cierre!", "Id", "[Go] to the shop before it closes! (vosotros)", "Ir → id: solo queda la «i»."),
     wo("Pedid lo que queráis, invito yo", "Pedir → pedid, sin cambio de vocal.", "Order whatever you want, it's on me (vosotros)"),
-    toEs("Wait for me at the door! (vosotros)", "¡Esperadme en la puerta!", "Esperar → esperad, con el pronombre «me» pegado al final."),
+    toEs("Wait at the door! (vosotros)", "¡Esperad en la puerta!", "Esperar → esperad: infinitivo sin -r + -d.", ["¡Esperad en la entrada!"]),
     toEs("¡Repitan la frase después de mí!", "¡Repetid la frase después de mí!", "De ustedes (repitan, con e → i del subjuntivo) a vosotros: infinitivo sin -r + d, repetid, sin cambio de vocal.", [], "Cambia el mandato de ustedes a vosotros."),
     mc("Tú: sal. Vosotros:", ["salid", "salís", "salad", "sald"], 0, "Salir sin -r + d = salid."),
     fe("¡___ la basura al bajar!", "Sacad", "[Take out] the rubbish on your way down! (vosotros)", "Sacar → sacad."),

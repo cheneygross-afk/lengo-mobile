@@ -8,20 +8,20 @@ import { dict, lc, spk, wr } from "./skills-authoring";
 // shadowing of the kind of sentence they practise.
 export const A2_SKILLS: Record<string, Exercise[]> = {
   "a2d-say-it-yourself-last-year": [
-    spk("El año pasado estudiaba por las noches y trabajaba de día.", "Stress the -a- of the imperfect endings: es-tu-di-A-ba, tra-ba-JA-ba.", "\"Last year I studied at night and worked during the day.\" The imperfect for habits."),
-    spk("En octubre empecé a correr con una amiga.", "Em-pe-CÉ, stress on the end: that's the preterite \"I started\", not empiezo (\"I start\").", "\"In October I started running with a friend.\" The preterite for one event with a date."),
+    { ...spk("El año pasado estudiaba por las noches y trabajaba de día.", "Stress the -a- of the imperfect endings: es-tu-di-A-ba, tra-ba-JA-ba.", "\"Last year I studied at night and worked during the day.\" The imperfect for habits."), prompt: "Say it in Spanish: Last year I used to study at night and work during the day." },
+    { ...spk("En octubre empecé a correr con una amiga.", "Em-pe-CÉ, stress on the end: that's the preterite \"I started\", not empiezo (\"I start\").", "\"In October I started running with a friend.\" The preterite for one event with a date."), prompt: "Say it in Spanish: In October I started running with a friend." },
   ],
   "a2d-say-it-yourself-last-trip": [
-    spk("En mayo fui a México con dos amigas.", "México: the x is the j sound, MÉ-xi-co.", "\"In May I went to Mexico with two friends.\" Fui is the preterite of ir."),
-    spk("Pasamos diez días allí y fue genial.", "Genial: the g before e sounds like j, ge-NIAL.", "\"We spent ten days there and it was great.\" Fue sums up the finished trip."),
+    { ...spk("En mayo fui a México con dos amigas.", "México: the x is the j sound, MÉ-xi-co.", "\"In May I went to Mexico with two friends.\" Fui is the preterite of ir."), prompt: "Say it in Spanish: In May I went to Mexico with two friends." },
+    { ...spk("Pasamos diez días allí y fue genial.", "Genial: the g before e sounds like j, ge-NIAL.", "\"We spent ten days there and it was great.\" Fue sums up the finished trip."), prompt: "Say it in Spanish: We spent ten days there and it was great." },
   ],
   "a2d-childhood-say-it": [
-    spk("Cuando era niña, nadaba en el río con mis primas.", "Soft b in nadaba (between vowels): lips barely touch.", "\"When I was a girl, I used to swim in the river with my cousins.\" Imperfect for childhood habits."),
-    spk("De pequeño me encantaban los cómics.", "Pe-QUE-ño: silent u in que, and ñ as \"ny\".", "\"As a little boy I loved comics.\" Encantaban agrees with the plural los cómics; a woman says pequeña."),
+    { ...spk("Cuando era niña, nadaba en el río con mis primas.", "Soft b in nadaba (between vowels): lips barely touch.", "\"When I was a girl, I used to swim in the river with my cousins.\" Imperfect for childhood habits."), prompt: "Say it in Spanish: When I was a girl, I used to swim in the river with my cousins." },
+    { ...spk("De pequeño me encantaban los cómics.", "Pe-QUE-ño: silent u in que, and ñ as \"ny\".", "\"As a little boy I loved comics.\" Encantaban agrees with the plural los cómics; a woman says pequeña."), prompt: "Say it in Spanish: As a little boy I loved comics." },
   ],
   "a2d-say-it-yourself-memory": [
-    spk("Tenía doce años y hacía un calor horrible.", "The h of hacía is silent, and the í is stressed: a-CÍ-a.", "\"I was twelve and it was terribly hot.\" Imperfect to set the scene."),
-    spk("Al final fue un viaje inolvidable.", "Link fue un into one beat, almost \"fwe-un\", and stress in-ol-VI-da-ble.", "\"In the end it was an unforgettable trip.\" Fue (preterite) sums up the trip as a whole."),
+    { ...spk("Tenía doce años y hacía un calor horrible.", "The h of hacía is silent, and the í is stressed: a-CÍ-a.", "\"I was twelve and it was terribly hot.\" Imperfect to set the scene."), prompt: "Say it in Spanish: I was twelve and it was terribly hot." },
+    { ...spk("Al final fue un viaje inolvidable.", "Link fue un into one beat, almost \"fwe-un\", and stress in-ol-VI-da-ble.", "\"In the end it was an unforgettable trip.\" Fue (preterite) sums up the trip as a whole."), prompt: "Say it in Spanish: In the end it was an unforgettable trip." },
   ],
   "a2d-say-it-yourself-birthday-gifts": [
     spk("A mi abuela le encantaron las flores.", "Stress en-can-TA-ron on the third syllable, and link a mi abuela smoothly: a-mia-BUE-la.", "\"My grandmother loved the flowers.\" Encantaron agrees with las flores."),

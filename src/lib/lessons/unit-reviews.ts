@@ -636,9 +636,25 @@ const SPANISH_REVIEW_SUMMARIES: Record<string, string> = {
   "por-para-precision-1": "Repasa por y para en contextos profesionales (sustitución, causa, finalidad, plazo y expresiones fijas) escuchando, hablando y escribiendo.",
 };
 
+// Spanish unit names for B1 reviews whose title and summary would otherwise
+// quote the English unit name; keyed by the unit's first lesson.
+const ES_UNIT_TITLES: Record<string, string> = {
+  "b1r-contrast-future-conditional": "El condicional en la práctica",
+  "si-clauses-simple-1": "Cláusulas con si + presente",
+  "b1r-spiral-commands-conditional-si": "Condiciones, mandatos y repaso",
+  "past-perfect-1": "El pluscuamperfecto",
+  "b1d-cuento-boda-tarde": "Los tiempos del pasado en contexto",
+  "b1r-challenge-subjunctive-gauntlet": "Desafíos intermedios y prueba final",
+};
+
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
   const review = buildUnitReview(spanishProfile(level, start), { number, title, lessons }, writing)!;
   const summary = ES_UNIT_SUMMARIES[start] ?? SPANISH_REVIEW_SUMMARIES[start];
+  const es = ES_UNIT_TITLES[start];
+  if (es) {
+    const t = review.title.split(title).join(es);
+    return { ...review, title: t, summary: summary ?? review.summary.split(title).join(es) };
+  }
   return summary ? { ...review, summary } : review;
 }
 

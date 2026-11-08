@@ -1155,7 +1155,7 @@ export const A1_STORIES: Story[] = [
           "The text says \"El calcetín cae encima de una flor\" (The sock falls onto a flower).",
       },
       {
-        question: "Where does papá find a towel?",
+        question: "Where is one of the towels stuck?",
         options: ["In the garden", "On the garage roof", "In the car", "Under a chair"],
         correctIndex: 1,
         explanation:

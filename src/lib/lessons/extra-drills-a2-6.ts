@@ -29,7 +29,7 @@ export const DRILLS_A2_6: Record<string, Exercise[]> = {
     toEs("Cuando llegamos a la playa, hizo sol.", "Cuando llegamos a la playa, hacía sol.", "The sunshine is the background to the arrival, so the imperfect: hacía sol.", [], "Correct the sentence."),
   ],
   "a2d-story-cloze-blackout-wedding": [
-    fe("La iglesia ___ muy bonita.", "era", "The church [was] very pretty.", "Describing a place in the past takes the imperfect: era (estaba also works if you mean it looked pretty that day). Fue would present it as an event.", ["estaba"]),
+    fe("La casa ___ muy bonita.", "era", "The house [was] very pretty.", "Describing a place in the past takes the imperfect: era (estaba also works if you mean it looked pretty that day). Fue would present it as an event.", ["estaba"]),
     fe("Los invitados ___ en el jardín.", "estaban", "The guests [were] in the garden.", "Location as background takes estar in the imperfect: estaban."),
     toEs("The bride was very nervous.", "La novia estaba muy nerviosa.", "A feeling in the background of the story: estar in the imperfect.", []),
     fe("De repente, ___ la luz.", "se fue", "Suddenly, the power [went out].", "A sudden event takes the preterite: se fue. Irse la luz is the everyday way to say the power went out.", ["se apagó", "se cortó"]),
@@ -65,7 +65,7 @@ export const DRILLS_A2_6: Record<string, Exercise[]> = {
     toEs("The streets were narrow and very old.", "Las calles eran estrechas y muy antiguas.", "Description of a place: imperfect eran.", ["Las calles eran estrechas y muy viejas."]),
     toEs("Correct: «Yo poní las maletas en el taxi.»", "Yo puse las maletas en el taxi.", "Poner is irregular in the preterite: stem pus-, so puse, not poní.", []),
     fe("Por la noche ___ comida típica en la plaza.", "comimos", "In the evening we [ate] traditional food in the square.", "One completed meal: preterite.", ["cenamos"]),
-    mc("Which diary sentence is correct?", ["La habitación era pequeña, pero dormimos muy bien.", "La habitación fue pequeña, pero dormíamos muy bien.", "La habitación era pequeña, pero dormíamos muy bien anoche.", "La habitación fue pequeña, pero dormimos muy bien."], 0, "Era describes the room; dormimos is last night's completed sleep."),
+    mc("Which diary sentence is correct?", ["La habitación era pequeña, pero dormimos muy bien.", "La habitación fue pequeña, pero dormíamos muy bien.", "La habitación era pequeña, pero dormíamos muy bien anoche.", "La habitación fue pequeña, pero durmimos muy bien."], 0, "Era describes the room; dormimos is last night's completed sleep. Durmimos is not a Spanish form: nosotros keeps the o."),
     toEs("Correct: «Los niños estuvieron cansados y no querían caminar más.»", "Los niños estaban cansados y no querían caminar más.", "A background state (tired) goes in the imperfect: estaban.", []),
     wo("Mientras esperábamos el tren, conocimos a una pareja chilena", "Waiting is ongoing (imperfect); meeting them is an event (preterite).", "While we were waiting for the train, we met a Chilean couple"),
     toEs("Correct: «Fuimos al museo y vimos que fue cerrado.»", "Fuimos al museo y vimos que estaba cerrado.", "Closed is a state: estar, and in background description the imperfect estaba.", []),
@@ -226,7 +226,7 @@ export const DRILLS_A2_6: Record<string, Exercise[]> = {
     toEs("¿El mensaje? Lo se mandé a Elena.", "¿El mensaje? Se lo mandé a Elena.", "Person first, thing second: se lo, never lo se.", [], "Correct the sentence."),
   ],
   "a2-double-pronouns-infinitive-command": [
-    fe("¿El libro? Quiero ___ hoy.", "devolvértelo", "The book? I want to [give it back to you] today.", "Both pronouns attach to the infinitive as one word, with an accent on the stressed vowel: devolvértelo."),
+    fe("¿El libro? Quiero ___ hoy.", "devolvértelo", "The book? I want to [give it back to you] today. (tú)", "Both pronouns attach to the infinitive as one word, with an accent on the stressed vowel: devolvértelo."),
     toEs("The address? Write it down for me (informal).", "¿La dirección? Escríbemela.", "A yes command takes the pair on the end: escribe + me + la, with an accent to keep the stress on crí: escríbemela.", ["¿La dirección? Apúntamela."]),
     toEs("The bag? Give it to her (informal command).", "¿La bolsa? Dásela.", "Le + la → se la, attached to the command: dásela.", ["¿La bolsa? Dásela a ella."]),
     fe("¿La sopa? ___ ahora mismo.", "Tráemela", "The soup? [Bring it to me] right now. (tú)", "Yes command: trae + me + la, with an accent: tráemela."),

@@ -256,7 +256,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Yo fui al supermercado.", "Mis hermanos fueron al supermercado.", "Ellos: fueron. Al supermercado is a destination, so it's ir.", ["Fueron al supermercado."], "Change the subject to mis hermanos."),
       toEs("El concierto es increíble.", "El concierto fue increíble.", "Evaluation of a finished event: ser, fue.", undefined, "Change it to the past."),
       toEs("Ayer yo fue al supermercado con mi hermana.", "Ayer yo fui al supermercado con mi hermana.", "Yo takes fui; fue is for él/ella/usted.", ["Ayer fui al supermercado con mi hermana."], "Correct the sentence."),
-      toEs("La película estuvo a las ocho y fue aburrida.", "La película fue a las ocho y fue aburrida.", "An event taking place at a certain time uses ser, not estar: la película fue a las ocho. Fue aburrida is ser too.", ["La película fue a las ocho y estuvo aburrida."], "Correct the sentence."),
+      toEs("Ayer fuimos al cine y las entradas fue caras.", "Ayer fuimos al cine y las entradas fueron caras.", "Las entradas is plural, so fueron (ser, a description), not fue. Fuimos al cine is ir.", ["Ayer fuimos al cine y las entradas fueron caras."], "Correct the sentence."),
       toEs("¿Quién fué a la tienda?", "¿Quién fue a la tienda?", "Fue is one syllable and never takes a written accent. (Quién keeps its accent: it's a question word.)", undefined, "Correct the sentence."),
       toEn("La película fue aburrida, así que fuimos a un bar.", "The movie was boring, so we went to a bar.", "First fue = ser (a description); fuimos + a = ir.", ["The film was boring, so we went to a bar."]),
       toEn("¿Quién fue el primer presidente?", "Who was the first president?", "Fue here is ser (identity: who someone was), not ir."),
@@ -324,7 +324,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Cuando fui niña, ayudaba a mi madre.", "Cuando era niña, ayudaba a mi madre.", "A stage of life is background: era, not fue.", undefined, "Correct the sentence."),
       toEs("Mis padres trabajaron mucho, así que yo ayudaba en casa.", "Mis padres trabajaban mucho, así que yo ayudaba en casa.", "Their work was an ongoing situation throughout her childhood, like her helping: trabajaban.", ["Mis padres trabajaban mucho, así que ayudaba en casa."], "Correct the sentence."),
       toEs("When I was a child, I lived in the country.", "Cuando era niño, vivía en el campo.", "Stage of life and ongoing situation → imperfect.", ["Cuando era niña, vivía en el campo.","Cuando yo era niño, vivía en el campo.","Cuando era pequeño, vivía en el campo.","Cuando era pequeña, vivía en el campo."]),
-      toEs("Did you (tú) use to watch TV?", "¿Veías la televisión?", "Ver imperfect tú: veías.", ["¿Veías la tele?"]),
+      toEs("Did you (tú) use to watch TV?", "¿Veías la televisión?", "Ver imperfect tú: veías.", ["¿Veías la tele?","¿Mirabas la televisión?","¿Mirabas la tele?"]),
       toEs("There were no cars, so we walked everywhere.", "No había coches, así que caminábamos a todas partes.", "Había for existence, caminábamos for a habit.", ["No había carros, así que caminábamos a todas partes.","No había autos, así que caminábamos a todas partes.","No había coches, así que íbamos a pie a todas partes."]),
       toEs("My grandmother told me that she used to sing in a choir.", "Mi abuela me dijo que cantaba en un coro.", "Dijo for the one-time telling; cantaba for her old habit."),
       wo("Mi abuela siempre nos contaba historias antes de dormir.", "Siempre + imperfect for a repeated past action.", "My grandmother always told us stories before bed."),
@@ -432,7 +432,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     [
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "El chico ___ unos quince años y llevaba una gorra roja.", answer: "tenía", en: "The boy [was] about fifteen [years old] and was wearing a red cap.", explanation: "A description of a person (age) → imperfect." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Al día siguiente, Tomás ___ al chico en el parque.", answer: "encontró", en: "The next day, Tomás [found] the boy in the park.", explanation: "A single event that moves the plot → preterite." },
-      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "El chico le ___ la verdad: solo quería dar un paseo.", answer: "dijo", en: "The boy [told] him the truth: he only wanted to go for a walk.", explanation: "A single completed action → preterite of decir: dijo. (Quería is his state of mind: imperfect.)" },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "El chico le ___ la verdad: solo quería dar un paseo.", answer: "dijo", en: "The boy [told] him the truth: he only wanted to go for a ride.", explanation: "A single completed action → preterite of decir: dijo. (Quería is his state of mind: imperfect.)" },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "En el parque había un chico que ___ con un perro.", answer: "jugaba", en: "In the park there was a boy who [was playing] with a dog.", altAnswers: ["estaba jugando"], explanation: "An action in progress that describes the scene takes the imperfect." },
       mc("\"Cuando Tomás ___ al parque, el chico ___ con su perro.\"", ["llegó / jugaba","llegaba / jugó","llegó / jugó","llegaba / jugaba"], 0, "The arrival is a single event (preterite llegó), and the playing was already happening (imperfect jugaba). The wrong pairs make the arrival ongoing or the playing a completed event."),
       ms("Which of these sentences are background?", ["Hacía frío.","Tomás abrió la puerta.","El perro era pequeño y negro.","El chico devolvió la bici."], [0,2], "Hacía frío (weather) and era pequeño (description) are background, so imperfect. \"Abrió\" and \"devolvió\" are events that move the story, so preterite."),
@@ -501,7 +501,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "El sábado pasado ___ a mis abuelos. (learner wrote: visitaba)", answer: "visité", en: "Last Saturday I [visited] my grandparents.", explanation: "One visit on a finished day: preterite, not imperfect." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Cuando ___ pequeño, mi padre trabajaba en un banco. (learner wrote: fui)", answer: "era", en: "When I [was] little, my father worked in a bank.", explanation: "Age/life stage is background: era, not fui." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Mientras ___, mi hermano entró en la habitación. (learner wrote: me duché)", answer: "me duchaba", en: "While I [was showering], my brother came into the room.", altAnswers: ["me estaba duchando","estaba duchándome"], explanation: "The ongoing action interrupted by entró needs the imperfect." },
-      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "___ las cuatro cuando terminé el examen. (learner wrote: Fueron)", answer: "Eran", en: "It [was] four o'clock when I finished the exam.", explanation: "Clock time in the past is always imperfect: eran." },
+      { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "___ las cuatro cuando terminé el examen. (learner wrote: Fueron)", answer: "Eran", en: "It [was] four o'clock when I finished the exam.", explanation: "Clock time in the past is normally imperfect: eran." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Mi abuelo ___ en esa fábrica durante treinta años. (learner wrote: trabajaba)", answer: "trabajó", en: "My grandfather [worked] in that factory for thirty years.", explanation: "A closed, measured period takes the preterite." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Todos los domingos ___ paella en casa. (learner wrote: comimos)", answer: "comíamos", en: "Every Sunday we [ate] paella at home.", explanation: "Todos los domingos = past habit: imperfect comíamos." },
       { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "De repente, el perro ___ a correr. (learner wrote: empezaba)", answer: "empezó", en: "Suddenly, the dog [started] to run.", explanation: "De repente + sudden single event: preterite." },
@@ -792,7 +792,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Te (to you) in the question → me in your answer, and the verb stays regalaron (they, your parents). \"Les regalé\" means you gave them something, and \"me regalé\" means you treated yourself."
       ),
-      wo("A mi hermana le encanta cuando le cocino pasta.", "Two indirect objects: le encanta (gustar-type) and le cocino (for her).", "My sister loves it when I cook pasta for her."),
+      wo("Siempre le cocino pasta a mi hermana.", "Le doubles a mi hermana and goes right before the conjugated verb: le cocino.", "I always cook pasta for my sister."),
     ]
   ),
   L(
@@ -1561,7 +1561,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Describing nouns vs. describing actions",
         [
           "Adjectives describe nouns and agree with them (una respuesta clara). Adverbs describe verbs and never change (habla claramente).",
-          "The test: ask what the word describes. A thing or a person (after ser, or next to a noun)? Adjective, and it agrees. How an action is done? Adverb, one fixed form. English sometimes blurs this ('drive safe'), Spanish doesn't.",
+          "The test: ask what the word describes. A thing or a person (after ser, or next to a noun)? Adjective, and it agrees. How an action is done? Adverb, one fixed form. English sometimes blurs this ('drive safe'); Spanish is stricter, though a few adjectives work as adverbs in speech (habla claro).",
         ],
         [
           ["Es una conductora cuidadosa. / Conduce cuidadosamente.", "She's a careful driver. / She drives carefully."],
@@ -1578,7 +1578,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Bueno vs. bien, malo vs. mal",
-        "Bueno/malo are adjectives (a good book). Bien/mal are adverbs (she writes well). With estar, use bien/mal for how someone is. These two adverbs are irregular: you can't say 'buenamente' for 'well', so bien and mal do the job of -mente here.",
+        "Bueno/malo are adjectives (a good book). Bien/mal are adverbs (she writes well). With estar, use bien/mal for how someone is. These two adverbs are irregular: 'buenamente' doesn't mean 'well', so bien and mal do the job of -mente here.",
         [
           ["Es un buen cocinero. / Cocina bien.", "He's a good cook. / He cooks well."],
           ["¿Cómo estás? —Estoy bien.", "How are you? — I'm fine."],
@@ -1891,7 +1891,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Antes de / después de + infinitive",
-        "After any preposition (antes de, después de, para, sin) Spanish uses the infinitive, never a conjugated verb, even in a past story: the preposition already links the two actions, and the main verb carries the tense. English uses -ing here (after arriving); Spanish uses the -r form (después de llegar). Reflexive verbs keep their pronoun on the end: antes de acostarme.",
+        "After a preposition such as antes de, después de, para or sin, Spanish normally uses the infinitive rather than a conjugated verb, even in a past story: the preposition already links the two actions, and the main verb carries the tense. English uses -ing here (after arriving); Spanish uses the -r form (después de llegar). Reflexive verbs keep their pronoun on the end: antes de acostarme.",
         [
           ["Después de llegar, llamé a mi madre.", "After arriving, I called my mom."],
         ],
@@ -2916,7 +2916,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Core Elementary travel vocabulary."
       ),
       { ...fb("How do you say the bold words in Spanish?", "Antes de viajar al extranjero, necesitas un ___ válido.", "pasaporte", "To travel abroad you need a valid passport: un pasaporte válido."), en: "Before traveling abroad, you need a valid [passport]." },
-      fb("Complete the sentence.", "Al llegar al hotel, ___ la maleta y dormimos. (deshacer, nosotros, preterite)", "deshicimos", "Deshacer follows hacer: deshicimos."),
+      { ...fb("Complete the sentence.", "Al llegar al hotel, ___ la maleta y dormimos. (deshacer, nosotros, preterite)", "deshicimos", "Deshacer follows hacer: deshicimos."), altAnswers: ["desempacamos"] },
       toEs("We missed the flight and slept at the airport.", "Perdimos el vuelo y dormimos en el aeropuerto.", "Perder = to miss (a flight, a train).", []),
       toEn("¿Me puede decir a qué hora sale el próximo tren?", "Can you tell me what time the next train leaves?", "Polite usted question; próximo = next.", ["Could you tell me what time the next train leaves?"]),
       wo("El vuelo de vuelta fue mucho más tranquilo que el de ida.", "Comparative with el de ida (the one going there).", "The return flight was much calmer than the outbound one."),
@@ -2933,7 +2933,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Describing symptoms",
         [
           "The pattern: the word you want decides the verb. A body part that hurts takes doler, which works like gustar: the body part is the subject (me duele la cabeza, me duelen los pies). A symptom noun takes tener (tener fiebre, tener tos, tener gripe). An injury is a reflexive verb + the body part (me corté el dedo, me torcí el tobillo).",
-          "In all three, the body part takes el / la, never mi: the pronoun me already says whose it is.",
+          "With doler and with injuries, the body part takes el / la, not mi: the pronoun me already says whose it is.",
         ],
         [
           ["Me duele la garganta y tengo fiebre.", "My throat hurts and I have a fever."],
@@ -3126,7 +3126,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Future goals",
-        "Talk about career goals with the future: add -é, -ás, -á, -emos, -éis, -án to the whole infinitive (ganaré, trabajarás, seremos). A few common verbs shorten the stem: tener → tendré, hacer → haré, poder → podré. Querer / esperar + infinitive work too: espero ganar más.",
+        "Talk about career goals with the future: add -é, -ás, -á, -emos, -éis, -án to the whole infinitive (ganaré, trabajarás, seremos). A few common verbs change the stem: tener → tendré, hacer → haré, poder → podré. Querer / esperar + infinitive work too: espero ganar más.",
         [
           ["En cinco años seré jefa de mi departamento.", "In five years I'll be head of my department."],
           ["Espero ganar más dinero.", "I hope to earn more money."],
@@ -3220,7 +3220,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
       sec(
         "The Elementary checklist",
         [
-          "Remember the rules, as a checklist to run on every sentence. Preterite for single finished events, imperfect for background and habits. Irregular stems (hic-, tuv-, dij-; future saldr-, dir-, tendr-). Lo / la for the thing or person acted on, le for the one who receives; pronouns before a conjugated verb. Reflexive pronoun matches the subject. Mayor / mejor without más. Por for cause and exchange, para for purpose and recipient. Personal a before a specific person. A negative word after the verb needs no before it.",
+          "Remember the rules, as a checklist to run on every sentence. Preterite for single finished events, imperfect for background and habits. Irregular stems (hic-, tuv-, dij-; future saldr-, dir-, tendr-, habr-). Lo / la for the thing or person acted on, le for the one who receives; pronouns before a conjugated verb. Reflexive pronoun matches the subject. Mayor / mejor without más. Por for cause and exchange, para for purpose and recipient. Personal a before a specific person. A negative word after the verb needs no before it.",
           "Each sentence has exactly one error. Find which rule it breaks, then fix only that.",
         ],
         [
@@ -3252,7 +3252,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Which sentences are correct?",
         ["Cuando era pequeño, tenía un gato.", "Las compré ayer.", "Hablaba tranquilamente y clara.", "Habrá mucha gente."],
         [0, 1, 3],
-        "In a series of adverbs, the first ones can drop -mente, but the last must keep it: tranquila y claramente, so \"tranquilamente y clara\" is wrong. The other three are correct."
+        "\"Hablaba tranquilamente y clara\" is wrong: clara is an adjective, but an adverb is needed (tranquila y claramente: with two adverbs in a row only the last keeps -mente). The other three are correct."
       ),
       mc(
         "Which sentence has NO error?",
@@ -3313,14 +3313,24 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           fb("Complete the answer.", "En el hotel, yo ___ con clientes de todo el mundo. (hablar, habit)", "hablaba", "Talking to clients was a repeated activity in that job, so the imperfect: hablaba."),
         ]
       ),
+      sec(
+        "Scene 4: A reunion",
+        "Two phrases for meeting someone after years: ¡Cuánto tiempo! means it's been ages. After a negative verb, nada means at all: no has cambiado nada = you haven't changed at all.",
+        [
+          ["¡Cuánto tiempo sin verte!", "Long time no see!"],
+          ["Esta calle no ha cambiado nada.", "This street hasn't changed at all."],
+        ],
+        [
+          mc(
+            "A friend you haven't seen for years says: \"¡Cuánto tiempo! No has cambiado nada.\" What does it mean?",
+            ["Long time no see! You haven't changed at all.", "How much time do you have? Nothing changed.", "What time is it? Change nothing.", "It's been a while; you changed everything."],
+            0,
+            "¡Cuánto tiempo! means it's been ages (long time no see), and no has cambiado nada means you haven't changed at all. It doesn't ask about time, and nada means not at all, not everything."
+          ),
+        ]
+      ),
     ],
     [
-      mc(
-        "Scene 4: A reunion. \"¡Cuánto tiempo! No has cambiado nada.\" What does it mean?",
-        ["Long time no see! You haven't changed at all.", "How much time do you have? Nothing changed.", "What time is it? Change nothing.", "It's been a while; you changed everything."],
-        0,
-        "¡Cuánto tiempo! means it's been ages (long time no see), and no has cambiado nada means you haven't changed at all. It doesn't ask about time, and nada means not at all, not everything."
-      ),
       fb("Complete the reunion.", "La última vez que te ___ fue en 2015. (ver, yo)", "vi", "La última vez is one single occasion, so the preterite: vi (no accent)."),
       fb("Complete the reunion.", "¡Ahora estás ___ que tu madre!", "más alta", "An unequal comparison is más + adjective + que: más alta que tu madre."),
       mt(
@@ -3393,7 +3403,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       wo("Le regalé a mi madre las flores que compré en el mercado.", "Indirect object doubled (le … a mi madre) + relative clause.", "I gave my mother the flowers I bought at the market."),
-      wo("Nunca he visto tanta gente en la plaza.", "Nunca + present perfect (he visto) + tanta agreeing with gente.", "I have never seen so many people in the square."),
+      wo("Nunca vi tanta gente en la plaza.", "Nunca + preterite (vi) + tanta agreeing with gente.", "I never saw so many people in the square."),
       wo("Este verano iremos a la costa para descansar un poco.", "Future + destination + para + infinitive.", "This summer we'll go to the coast to rest a bit."),
       wo("Mi abuela cocina mejor que nadie en la familia.", "Mejor que nadie = better than anyone.", "My grandmother cooks better than anyone in the family."),
       wo("¿Por qué no me dijiste que te ibas a mudar?", "Preterite dijiste + imperfect of ir a for a past plan.", "Why didn't you tell me you were going to move?"),
@@ -3581,7 +3591,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
         "Marco danced much worse than the teacher (\"Yo, no tanto\"), so \"Marco bailó tan bien como la profesora\" is false."
       ),
       toEs("The city is bigger and noisier than my city.", "La ciudad es más grande y más ruidosa que mi ciudad.", "Más + adjective + que for each comparison; the adjectives agree with ciudad (feminine): grande, ruidosa.", ["La ciudad es más grande y ruidosa que mi ciudad."]),
-      wo("Nunca he comido una carne tan rica como aquí.", "Tan + adjective + como; nunca he comido = I have never eaten (present perfect).", "I have never eaten meat as good as here."),
+      wo("Esta carne es tan rica como la de mi país.", "Tan + adjective + como; la de = the one of (la carne de).", "This meat is as good as in my country."),
     ]
   ),
   L(
@@ -3603,7 +3613,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
           ["—Si alguien la encuentra, se la mandaremos al hotel.", "If someone finds it, we'll send it to you at the hotel."],
         ],
         [
-          fb("Complete the report.", "Estaba ___ cuando la perdí: el colectivo iba lleno. (distraído)", "distraído", "Being distracted is a temporary state, so estar; the adjective agrees with Marco (masculine singular)."),
+          fb("Complete the report.", "Ayer ___ mis llaves en el colectivo. (perder, yo)", "perdí", "Losing the keys is one finished event, so the preterite: perdí (no accent change from the infinitive stem)."),
         ]
       ),
       sec(
@@ -3693,7 +3703,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     "a2-comprehensive-review-3",
     "a2r-challenge-past-gauntlet",
     "Elementary Challenge: The Past-Tense Gauntlet",
-    "Ten rapid decisions: preterite or imperfect, regular or irregular.",
+    "Rapid decisions: preterite or imperfect, regular or irregular.",
     "8 min",
     [
       sec(
@@ -3713,7 +3723,7 @@ export const A2_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Preterite or imperfect?", "Mi abuelo siempre ___ historias de la guerra. (contar)", "contaba", "Siempre marks a repeated habit: imperfect contaba. Contó would be one telling."),
-      fb("Preterite or imperfect?", "Ayer no ___ venir porque estaba enferma. (poder, yo)", "pude", "Ayer no pude = I couldn't (and didn't) come on that occasion: preterite pude. No podía would only describe ability as background."),
+      { ...fb("Preterite or imperfect?", "Ayer no ___ venir porque estaba enferma. (poder, yo)", "pude", "Ayer no pude = I couldn't (and didn't) come on that occasion: preterite pude. No podía is also heard and just describes the background situation."), altAnswers: ["podía"] },
       fb("Preterite or imperfect?", "¿Qué ___ tú cuando te llamé? (hacer)", "hacías", "The question is what was in progress when the call (te llamé) interrupted: imperfect hacías."),
       fb("Preterite or imperfect?", "Los niños ___ los regalos a toda velocidad. (abrir)", "abrieron", "Opening the presents is a completed action in the story: preterite abrieron."),
       fb("Preterite or imperfect?", "En aquella época no ___ teléfonos móviles. (haber)", "había", "En aquella época describes what that time was like: imperfect había, never plural habían."),

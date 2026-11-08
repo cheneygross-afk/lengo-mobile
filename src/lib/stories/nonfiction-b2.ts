@@ -349,7 +349,7 @@ export const B2_NONFICTION: Story[] = [
       },
       {
         question: "Who does the writer say they do NOT blame?",
-        options: ["Investors", "Tourists, and not every owner", "The city council", "His neighbors"],
+        options: ["Investors", "Tourists, and not every owner", "The city council", "Their neighbors"],
         correctIndex: 1,
         explanation:
           "\"No escribo esto contra los turistas... Tampoco culpo a todos los propietarios.\"",

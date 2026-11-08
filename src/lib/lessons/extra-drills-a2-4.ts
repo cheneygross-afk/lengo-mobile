@@ -81,7 +81,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
   ],
   "a2d-para-four-uses": [
     toEs("Este suéter es para tú.", "Este suéter es para ti.", "After a preposition, tú becomes ti (no accent). Recipient → para.", ["Este jersey es para ti."], "Correct the sentence."),
-    fe("El autobús ___ Toledo sale a las nueve.", "para", "The bus [to] Toledo leaves at nine.", "Destination → para (a also works in everyday Spanish, but this drill wants para)."),
+    fe("El autobús ___ Toledo sale a las nueve.", "para", "The bus [to] Toledo leaves at nine.", "Destination → para (a also works in everyday Spanish, but this drill wants para).", ["a"]),
     toEs("I need the report by Thursday.", "Necesito el informe para el jueves.", "Deadline → para."),
     fe("Corro todos los días ___ estar sano.", "para", "I run every day [in order to] be healthy.", "Purpose + infinitive → para."),
     toEs("Estos zapatos son para mi hija.", "Estos zapatos son para mis hijas.", "Recipient → para stays the same; only the person changes: mis hijas.", [], "Change the recipient to plural."),
@@ -91,7 +91,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
     mc("«Necesito el vestido para el sábado.» Use of para:", ["recipient", "deadline", "destination", "duration"], 1, "Para + day = by that day, a deadline."),
     toEs("Este dinero es por ella, no por mí.", "Este dinero es para ella, no para mí.", "The money will be given to her: recipient → para in both parts. Por ella would mean because of her or on her behalf.", [], "Correct the sentence."),
     fe("Tienes que leer el libro ___ la próxima semana.", "para", "You have to read the book [by] next week.", "Deadline → para."),
-    toEs("I'm going to the store to buy milk.", "Voy a la tienda para comprar leche.", "Purpose + infinitive → para. (After ir, a + infinitive also works in real Spanish, but this drill wants para.)"),
+    toEs("I'm going to the store to buy milk.", "Voy a la tienda para comprar leche.", "Purpose + infinitive → para. (After ir, a + infinitive also works in real Spanish, but this drill wants para.)", ["Voy a la tienda a comprar leche."]),
     wo("Estos documentos son para el director", "Recipient: para + person.", "These documents are for the director"),
     toEs("Mi padre cree que el dinero no es importante.", "Para mi padre, el dinero no es importante.", "Para + person at the start gives that person's opinion: para mi padre = in my father's view.", ["Para mi papá, el dinero no es importante."], "Rewrite it starting with para."),
     mc("«Ella estudia para ser abogada.» Use of para:", ["purpose", "recipient", "deadline", "destination"], 0, "Para + infinitive = in order to."),
@@ -120,7 +120,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
   "por-vs-para-2": [
     toEs("I have a fever because of the flu.", "Tengo fiebre por la gripe.", "The flu is the reason behind the fever, so por + noun. Para la gripe would mean 'meant to treat the flu', like a medicine."),
     fe("Necesito un jarabe ___ la tos.", "para", "I need a syrup [for] the cough.", "The syrup is aimed at the cough (it's meant to stop it): a purpose, so para. Por la tos would say the cough is why you need it, which sounds like an excuse rather than a remedy."),
-    toEs("I'm going to the pharmacy to buy pills.", "Voy a la farmacia para comprar pastillas.", "Para + infinitive gives the purpose of going: para comprar. (After ir, a + infinitive also works in real Spanish, but this lesson wants para.)"),
+    toEs("I'm going to the pharmacy to buy pills.", "Voy a la farmacia para comprar pastillas.", "Para + infinitive gives the purpose of going: para comprar. (After ir, a + infinitive also works in real Spanish, but this lesson wants para.)", ["Voy a la farmacia a comprar pastillas."]),
     fe("Tome la medicina ___ la noche.", "por", "Take the medicine [at] night. (usted)", "Parts of the day take por: por la mañana, por la tarde, por la noche (en la noche is common in Latin America). Para la noche would mean 'by tonight', a deadline.", ["en"]),
     toEs("I have an appointment with the doctor for Tuesday.", "Tengo una cita con el médico para el martes.", "The appointment is aimed at a date: a target date takes para. Por el martes would mean 'around Tuesday' or 'because of Tuesday'.", ["Tengo una cita con la doctora para el martes.", "Tengo una cita con el doctor para el martes.", "Tengo una cita con la médica para el martes."]),
     toEs("She can't breathe well because of the allergy.", "No puede respirar bien por la alergia.", "The allergy is the cause behind the problem: por + noun.", ["Ella no puede respirar bien por la alergia."]),
@@ -545,7 +545,7 @@ export const DRILLS_A2_4: Record<string, Exercise[]> = {
     toEs("Mi hermana maquilla antes de salir.", "Mi hermana se maquilla antes de salir.", "Maquillarse is something you do to yourself, so it needs se. Without se, she'd be putting makeup on someone else.", [], "Correct the sentence."),
     toEs("Does this belt go with my shoes?", "¿Este cinturón combina con mis zapatos?", "Combinar con = to match, go with.", ["¿Combina este cinturón con mis zapatos?"]),
     toEs("I'm wearing a coat because it's cold.", "Llevo un abrigo porque hace frío.", "Llevar = to wear (be dressed in); ponerse = to put on. El abrigo = coat.", ["Llevo abrigo porque hace frío."]),
-    toEs("Me duele la pierna y el pie.", "Me duelen la pierna y el pie.", "Doler works like gustar: two body parts make a plural subject, so duelen.", [], "Correct the sentence."),
+    toEs("Me duele los pies.", "Me duelen los pies.", "Doler works like gustar: los pies is plural, so duelen.", [], "Correct the sentence."),
     toEs("Me lavo la cara.", "Lavo el coche.", "When the action is done to something else, the reflexive pronoun goes: lavo el coche (but me lavo la cara).", ["Lavo el carro."], "Change it so you wash the car."),
   ],
   "a2-common-words-happen": [

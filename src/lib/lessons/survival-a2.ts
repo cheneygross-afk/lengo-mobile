@@ -1597,7 +1597,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
       toEs(
         "I've lost my passport.",
         "He perdido el pasaporte.",
-        "Spanish usually says el pasaporte, not mi pasaporte. Perdí el pasaporte is common in Latin America.",
+        "Both el pasaporte and mi pasaporte are fine. Perdí el pasaporte is common in Latin America.",
         ["Perdí el pasaporte.", "He perdido mi pasaporte.", "Perdí mi pasaporte.", "Se me ha perdido el pasaporte.", "Se me perdió el pasaporte."]
       ),
       toEs(

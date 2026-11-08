@@ -222,7 +222,7 @@ export const DRILLS_B1_17: Record<string, Exercise[]> = {
 
   "b1r-challenge-seville-1": [
     toEs("Don't leave the windows open when you go out. (tú)", "No dejes las ventanas abiertas cuando salgas.", "Mandato negativo en subjuntivo («no dejes») y «cuando» futuro también con subjuntivo («salgas»).", []),
-    fe("Es necesario que ___ el alquiler antes del día cinco.", "pagues", "It's necessary that you [pay] the rent before the fifth. (tú)", "«Es necesario que» + subjuntivo; «pagar» toma «u»: «pagues»."),
+    fe("Es necesario que ___ el alquiler antes del día cinco.", "pagues", "It's necessary that you [pay] the rent before the fifth. (tú)", "«Es necesario que» + subjuntivo; «pagar» cambia g → gu: «pagues»."),
     toEs("Water the plants on the balcony, please. (tú)", "Riega las plantas del balcón, por favor.", "Imperativo de tú de «regar», con cambio e → ie: «riega».", []),
     toEs("If the washing machine breaks, tell me. (tú)", "Si se rompe la lavadora, dímelo.", "Si + presente y luego imperativo con el pronombre pegado: «dímelo».", ["Si la lavadora se rompe, dímelo.", "Si se rompe la lavadora, avísame.", "Si la lavadora se rompe, avísame."]),
     wo("Prefiero que no fumes dentro del piso", "«Preferir que» con otro sujeto → subjuntivo «fumes».", "I prefer that you don't smoke inside the flat (tú)"),
@@ -242,7 +242,7 @@ export const DRILLS_B1_17: Record<string, Exercise[]> = {
     toEs("¿Quieres tomar algo después del trabajo?", "¿Te gustaría tomar algo después del trabajo?", "El condicional (te gustaría) suaviza la invitación y la hace más cortés que el presente (quieres).", ["¿Te apetecería tomar algo después del trabajo?"], "Cambia la invitación para que suene más cortés con el condicional."),
     toEs("Ojalá que mi jefe me da las vacaciones en agosto.", "Ojalá que mi jefe me dé las vacaciones en agosto.", "«Ojalá» siempre pide subjuntivo: dé, con tilde para distinguirlo de la preposición «de».", ["Ojalá mi jefe me dé las vacaciones en agosto."], "Corrige el diario de Emma."),
     toEs("Carmen es la compañera quien me ayuda con los informes.", "Carmen es la compañera que me ayuda con los informes.", "Sin preposición y sin comas, el relativo es «que», también para personas; «quien» necesita una preposición delante o ir entre comas.", [], "Corrige el diario de Emma."),
-    toEs("Los vecinos me han invitado a cenar y les he dicho: «¡Me encanta!».", "Los vecinos me han invitado a cenar y les he dicho: «¡Me encantaría!».", "Para aceptar una invitación con cortesía se usa el condicional: me encantaría. «Me encanta» describe un gusto, no responde a la invitación.", [], "Corrige el diario de Emma."),
+    toEs("Los vecinos me han invitado a cenar y les he dicho: «¡Me encanta!».", "Los vecinos me han invitado a cenar y les he dicho: «¡Me encantaría!».", "Para aceptar una invitación con cortesía se usa el condicional: me encantaría. «Me encanta» describe un gusto general y suena menos cortés como respuesta a una invitación.", [], "Corrige el diario de Emma."),
     mc("La casera le dice: «Si se rompe algo, avísame». ¿Qué responde Emma?", ["Perfecto, te aviso enseguida si pasa algo.", "Perfecto, te avisé enseguida.", "Perfecto, te avisaría ayer.", "Perfecto, avísame tú."], 0, "Emma acepta la norma y promete: presente con valor de futuro (te aviso). «Te avisé» es pasado, «te avisaría ayer» mezcla condicional y pasado, y «avísame tú» le devuelve la orden."),
   ],
 

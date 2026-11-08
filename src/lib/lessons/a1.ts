@@ -479,13 +479,13 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 2,
     "title": "Greetings, Subject Pronouns & Ser, Part 2 of 2",
-    "summary": "Practise a first-meeting dialogue and learn twenty words for people and jobs to use with ser.",
+    "summary": "Practice a first-meeting dialogue and learn twenty words for people and jobs to use with ser.",
     "duration": "5 min",
     "sections": [
       {
         "heading": "The idea: a word for a person changes to match the person",
         "body": [
-          "Words for people follow a pattern you can apply to words you've never seen. Ending in -o? Change it to -a for a woman: abogado → abogada. Ending in a consonant? Add -a: profesor → profesora, doctor → doctora. Ending in -e or -ista? It stays the same, and only el/la shows who you mean: el estudiante, la estudiante, el artista, la artista.",
+          "Words for people follow a pattern you can apply to words you've never seen. Ending in -o? Change it to -a for a woman: abogado → abogada. Ending in a consonant? Add -a: profesor → profesora, doctor → doctora. Ending in -e or -ista? It usually stays the same, and only el/la shows who you mean: el estudiante, la estudiante, el artista, la artista.",
           "Plurals work like every noun: -s after a vowel, -es after a consonant (profesores). A mixed group of men and women takes the masculine: Diego y Sofía son músicos.",
           "Remember from Part 1: after ser, a job has no un/una. Soy enfermera, not soy una enfermera."
         ],
@@ -2032,7 +2032,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "The idea: the adjective copies the noun",
         "body": [
           "An adjective takes the gender and number of the noun it describes, so you can always see what it belongs to. Adjectives in -o have four forms: rojo, roja, rojos, rojas.",
-          "Adjectives ending in -e or in most consonants have only two forms, singular and plural: grande / grandes, azul / azules, feliz / felices. Two groups do add -a for the feminine: nationalities (español → española) and words in -dor (trabajador → trabajadora)."
+          "Adjectives ending in -e or in most consonants have only two forms, singular and plural: grande / grandes, azul / azules, feliz / felices. Two groups do add -a for the feminine: nationalities ending in a consonant (español → española) and words in -dor (trabajador → trabajadora)."
         ],
         "examples": [
           {
@@ -3417,7 +3417,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 9,
     "title": "Present Tense: Regular -ER and -IR Verbs, Part 2 of 2",
-    "summary": "Practise -er and -ir verbs in a short dialogue and learn twenty more regular -er and -ir verbs.",
+    "summary": "Practice -er and -ir verbs in a short dialogue and learn twenty more regular -er and -ir verbs.",
     "duration": "5 min",
     "sections": [
       {
@@ -4529,7 +4529,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 12,
     "title": "Ser vs. Estar, Part 2 of 2",
-    "summary": "Practise ser vs. estar in a short dialogue and learn twenty words for feelings and states.",
+    "summary": "Practice ser vs. estar in a short dialogue and learn twenty words for feelings and states.",
     "duration": "5 min",
     "sections": [
       {
@@ -5672,7 +5672,10 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "fill-blank",
         "prompt": "Fill in the possessive adjective for \"my\".",
         "sentence": "___ perro es pequeño.",
-        "answer": "mi",
+        "answer": "Mi",
+        "altAnswers": [
+          "mi"
+        ],
         "explanation": "Perro is singular, so it takes mi; with several dogs it would be mis: mis perros."
       },
       {
@@ -8259,7 +8262,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 23,
     "title": "\"Gustar\" and Expressing Likes, Part 2 of 2",
-    "summary": "Practise gusta vs. gustan in a short dialogue and learn twenty food and hobby words to talk about what you like.",
+    "summary": "Practice gusta vs. gustan in a short dialogue and learn twenty food and hobby words to talk about what you like.",
     "duration": "6 min",
     "sections": [
       {
@@ -10181,7 +10184,7 @@ const A1_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "Está malo.",
-                "right": "He is sick / tastes bad."
+                "right": "He is sick / it tastes bad."
               },
               {
                 "left": "Es rico.",
@@ -10909,7 +10912,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           "de",
           "semana?"
         ],
-        "translation": "Do you all work on weekends?",
+        "translation": "Do you all (Spain) work on weekends?",
         "explanation": "Vosotros takes the -áis ending of the regular -ar verb trabajar: trabajáis."
       },
       {
@@ -13312,16 +13315,16 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "multi-select",
         "question": "Which sentences are grammatically correct?",
         "options": [
-          "Me interesan los libros.",
-          "Me interesa los libros.",
-          "Nos importa la salud.",
-          "Nos importan la salud."
+          "Me gustan los libros.",
+          "Me gusta los libros.",
+          "Nos gusta la música.",
+          "Nos gustan la música."
         ],
         "correctIndexes": [
           0,
           2
         ],
-        "explanation": "Los libros is plural → interesan; la salud is singular → importa."
+        "explanation": "Los libros is plural → gustan; la música is singular → gusta."
       },
       {
         "type": "word-order",
@@ -14084,15 +14087,15 @@ const A1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "What does \"Tengo razón\" mean?",
+        "question": "What does \"Tengo prisa\" mean?",
         "options": [
           "I am right.",
           "I am in a hurry.",
           "I am afraid.",
           "I am cold."
         ],
-        "correctIndex": 0,
-        "explanation": "Tener razón (to have reason) means to be right. In a hurry is tener prisa, afraid is tener miedo and cold is tener frío."
+        "correctIndex": 1,
+        "explanation": "Tener prisa (to have haste) means to be in a hurry. Afraid is tener miedo and cold is tener frío; being right is a different phrase, tener razón."
       },
       {
         "type": "multi-select",
@@ -15075,7 +15078,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 50,
     "title": "Numbers & Time: Extra Practice, Part 1 of 3",
-    "summary": "Drill numbers 0 to 1,000,000+: the fused 16-29, y in 31-99, cien/ciento, and un/una and the hundreds agreeing with the noun.",
+    "summary": "Drill numbers up to mil (1,000): the fused 16-29, y in 31-99, cien/ciento, and un/una and the hundreds agreeing with the noun.",
     "duration": "8 min",
     "sections": [
       {
@@ -15627,14 +15630,15 @@ const A1_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "es-en",
         "prompt": "Translate to English.",
-        "source": "En esta ciudad viven un millón de personas.",
-        "answer": "A million people live in this city.",
+        "source": "En esta ciudad viven mil quinientas personas.",
+        "answer": "1,500 people live in this city.",
         "altAnswers": [
-          "One million people live in this city.",
-          "In this city live a million people.",
-          "A million people live in this town."
+          "One thousand five hundred people live in this city.",
+          "Fifteen hundred people live in this city.",
+          "1,500 people live in this town.",
+          "In this city live 1,500 people."
         ],
-        "explanation": "Millón is a noun, so it takes un and de before the noun: un millón de personas."
+        "explanation": "Mil is 1,000 and never changes; quinientas agrees with personas: mil quinientas personas = 1,500 people."
       },
       {
         "type": "multiple-choice",
@@ -16165,7 +16169,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "heading": "People & occupations",
         "body": [
           "Test yourself on these 20 words from the 'Greetings, Subject Pronouns & Ser' lesson, then use the pattern behind them.",
-          "The pattern: a word for a person usually has a man's form and a woman's form. Words in -o swap to -a (amigo → amiga, abogado → abogada). Words in -or add -a (profesor → profesora, escritor → escritora). Words in -ista or -e don't change at all (el artista, la artista; el estudiante, la estudiante): only the article tells you who you mean."
+          "The pattern: a word for a person usually has a man's form and a woman's form. Words in -o swap to -a (amigo → amiga, abogado → abogada). Words in -or add -a (profesor → profesora, escritor → escritora). Words in -ista, and most words in -e, don't change at all (el artista, la artista; el estudiante, la estudiante): only the article tells you who you mean."
         ],
         "checkpoint": [
           {
@@ -18424,10 +18428,9 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Possessives and prepositions",
+        "heading": "Possessives",
         "body": [
-          "A possessive agrees with the thing owned, not with the owner: nuestra casa (casa is feminine), sus padres (padres is plural). Su / sus can mean his, her, their or your (usted), so context decides.",
-          "Small prepositions do a lot: con (with), sin (without), para (for), de (of / from). A + el and de + el always fuse: al, del."
+          "A possessive agrees with the thing owned, not with the owner: nuestra casa (casa is feminine), sus padres (padres is plural). Su / sus can mean his, her, their or your (usted), so context decides."
         ],
         "examples": [
           {
@@ -18437,14 +18440,6 @@ const A1_BASE_LESSONS: Lesson[] = [
           {
             "es": "sus padres",
             "en": "his / her / their parents (plural padres: sus)"
-          },
-          {
-            "es": "sin dinero",
-            "en": "without money"
-          },
-          {
-            "es": "el coche del profesor",
-            "en": "the teacher's car (de + el = del)"
           }
         ],
         "checkpoint": [
@@ -18459,6 +18454,36 @@ const A1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "The possessive agrees with the thing owned: one house, so su, even though \"they\" are several. Sus would need casas, and suya doesn't go before a noun."
+          }
+        ]
+      },
+      {
+        "heading": "Prepositions",
+        "body": [
+          "Small prepositions do a lot: con (with), sin (without), para (for), de (of / from). A + el and de + el always fuse: al, del."
+        ],
+        "examples": [
+          {
+            "es": "sin dinero",
+            "en": "without money"
+          },
+          {
+            "es": "el coche del profesor",
+            "en": "the teacher's car (de + el = del)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which preposition means \"without\"?",
+            "options": [
+              "con",
+              "sin",
+              "para",
+              "de"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sin = without. Con is with, para is for, and de is of or from."
           }
         ]
       }
@@ -18553,18 +18578,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "answer": "Mi",
         "en": "[My] dog is small.",
         "explanation": "One dog, so mi; mis would be for several."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Which preposition means \"without\"?",
-        "options": [
-          "con",
-          "sin",
-          "para",
-          "de"
-        ],
-        "correctIndex": 1,
-        "explanation": "Sin = without. Con is with, para is for, and de is of or from."
       },
       {
         "type": "word-order",

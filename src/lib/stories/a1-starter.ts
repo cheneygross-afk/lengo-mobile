@@ -291,7 +291,7 @@ export const A1_STARTER_STORIES: Story[] = [
   {
     slug: "starter-en-el-medico",
     level: "A1",
-    title: "En el médico",
+    title: "En la consulta",
     subtitle: "Raúl has a headache and goes to the doctor.",
     paragraphs: [
       "Raúl no está bien. Tiene dolor de cabeza y está muy cansado. Hoy no va a trabajar. Va al médico.",

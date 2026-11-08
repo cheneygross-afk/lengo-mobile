@@ -941,7 +941,6 @@ export const B2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "inmobiliario", en: "real estate", forms: ["inmobiliario"] },
     { es: "oler", en: "to smell", forms: ["olió"] },
     { es: "el paño", en: "cloth", forms: ["paños"] },
-    { es: "el párroco", en: "parish priest", forms: ["párroco"] },
     { es: "el pecho", en: "chest", forms: ["pecho"] },
   ],
   "el-luthier-de-paracho": [

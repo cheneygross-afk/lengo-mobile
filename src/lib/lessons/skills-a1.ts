@@ -58,7 +58,7 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
       0,
       "A mí sí disagrees with a negative sentence: \"I do (like it)\". Agreeing would be a mí tampoco, and nobody mentions heat (el calor)."
     ),
-    spk("—Me encanta el fútbol. —¡A mí también!", "Say a mí as one flow: \"a-mí\", with the stress on mí.", "\"I love football. -- Me too!\" After gustar and encantar, \"me too\" is a mí también, not yo también."),
+    spk("—Me encanta el fútbol. —¡A mí también!", "Say a mí as one flow: \"a-mí\", with the stress on mí.", "\"I love soccer. -- Me too!\" After gustar and encantar, \"me too\" is a mí también, not yo también."),
     spk("—No me gusta cocinar. —A mí tampoco.", "Tampoco: tam-PO-co, stressed in the middle.", "\"I don't like cooking. -- Me neither.\""),
     spk("Me gustan los perros, pero no me gustan los gatos.", "Tap for pero, trill for perros: make the difference clear.", "\"I like dogs, but I don't like cats.\" Gustan because los perros is plural."),
   ],
@@ -110,9 +110,9 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
     lc(
       "Voy a jugar al fútbol. Hace buen tiempo.",
       "Listen. What is the person going to do?",
-      ["Play football", "Go to the cinema", "Watch football on TV", "Stay home because of the weather"],
+      ["Play soccer", "Go to the movies", "Watch soccer on TV", "Stay home because of the weather"],
       0,
-      "Voy a jugar al fútbol -- \"I'm going to play football\" -- and hace buen tiempo, \"the weather's nice\". The cinema would be ir al cine, and watching would be ver."
+      "Voy a jugar al fútbol -- \"I'm going to play soccer\" -- and hace buen tiempo, \"the weather's nice\". Going to the movies would be ir al cine, and watching would be ver."
     ),
     wr(
       "Text a friend about your plans for Saturday: say what you're going to do, what the weather is like, and invite them to come.",

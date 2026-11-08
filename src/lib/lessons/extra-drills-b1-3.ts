@@ -112,7 +112,7 @@ export const DRILLS_B1_3: Record<string, Exercise[]> = {
   ],
 
   "b1d-rep-duda-quizas-tal-vez": [
-    toEs("I might go to the gym later.", "Puede que vaya al gimnasio más tarde.", "Puede que + subjuntivo: vaya, no «voy».", ["Es posible que vaya al gimnasio más tarde.", "Puede que vaya al gimnasio luego.", "Es posible que vaya al gimnasio luego."]),
+    toEs("I might go to the gym later.", "Puede que vaya al gimnasio más tarde.", "Puede que + subjuntivo: vaya, no «voy».", ["A lo mejor voy al gimnasio más tarde.", "Quizás vaya al gimnasio más tarde.", "Es posible que vaya al gimnasio más tarde.", "Puede que vaya al gimnasio luego.", "Es posible que vaya al gimnasio luego."]),
     toEs("It's likely that my sister will call tonight.", "Es probable que mi hermana llame esta noche.", "Es probable que + subjuntivo presente, no futuro: llame.", []),
     toEs("Dudo que la tienda abre el domingo.", "Dudo que la tienda abra el domingo.", "Dudar no afirma nada → subjuntivo: abra (-ir → -a).", [], "Corrige la frase."),
     toEs("Seguro que el tren llega tarde otra vez.", "Puede que el tren llegue tarde otra vez.", "Seguro que afirma → indicativo (llega); puede que solo plantea la posibilidad → subjuntivo (llegue, con u para mantener /g/).", ["Puede que el tren llegue tarde de nuevo."], "Cambia «Seguro que» por «Puede que»."),

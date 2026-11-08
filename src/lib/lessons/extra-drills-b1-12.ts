@@ -75,7 +75,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
     wo("Si no te matriculas antes del lunes, perderás la plaza", "Si + presente y futuro en la consecuencia.", "If you don't enroll before Monday, you'll lose your place"),
     fe("Mis padres quieren que ___ el título antes de buscar trabajo.", "termine", "My parents want me [to finish] my degree before looking for work.", "Querer que + otra persona: subjuntivo «termine».", ["acabe", "saque"]),
     toEs("If they don't give me the scholarship, I won't be able to study in Germany.", "Si no me dan la beca, no podré estudiar en Alemania.", "«La beca» = scholarship; condición real con si + presente y futuro.", ["Si no me dan la beca, no voy a poder estudiar en Alemania."]),
-    mc("«Lo siento, has ___ el examen; tienes que repetirlo en septiembre.»", ["aprobado", "suspendido", "matriculado", "sacado"], 1, "Si hay que repetirlo, no lo has pasado: «suspendido»."),
+    mc("«Lo siento, has ___ el examen; tienes que repetirlo en septiembre.»", ["aprobado", "suspendido", "matriculado", "sacado"], 1, "Si hay que repetirlo, no lo has aprobado: «suspendido»."),
     toEs("Which subject do you like the most? (tú)", "¿Qué asignatura te gusta más?", "«Asignatura» = school subject; «sujeto» es un falso amigo.", ["¿Cuál es la asignatura que más te gusta?", "¿Qué materia te gusta más?", "¿Cuál es la materia que más te gusta?"]),
   ],
 
@@ -279,7 +279,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
     mc("¿Cuál es la forma correcta de «tocar» para «ella» en subjuntivo?", ["toca", "toque", "toce", "tocque"], 1, "-car → -que: «toque»; «toca» es indicativo."),
     fe("Es mejor que ___ el paraguas por si llueve.", "lleves", "It's better that you [take] the umbrella in case it rains. (tú)", "-ar regular: llevo → «lleves».", ["cojas", "tomes", "traigas"]),
     toEs("I want the children to arrive before eight.", "Quiero que los niños lleguen antes de las ocho.", "-gar añade u: «lleguen», no «llegen».", []),
-    fe("Es necesario que el profesor ___ la clase a las nueve.", "comience", "It's necessary that the teacher [begin] the class at nine.", "«Comenzar» tiene dos cambios: e → ie y z → c: «comience».", ["empiece"]),
+    fe("Es necesario que el profesor ___ la clase a las nueve.", "termine", "It's necessary that the teacher [finishes] the class at nine.", "-ar regular: termino → «termine».", ["acabe"]),
     wo("Ojalá que nuestro equipo gane el partido", "-ar regular: gano → «gane».", "I hope our team wins the match"),
     toEs("It's important that you pay the bill today. (usted)", "Es importante que pague la factura hoy.", "-gar → -gue: «pague», no «page».", ["Es importante que usted pague la factura hoy.", "Es importante que pague la cuenta hoy."]),
     toEs("I don't want you to touch my computer. (tú)", "No quiero que toques mi ordenador.", "-car → -que: «toques».", ["No quiero que toques mi computadora.", "No quiero que toques mi computador."]),

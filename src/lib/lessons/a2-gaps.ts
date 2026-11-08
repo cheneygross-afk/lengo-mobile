@@ -97,15 +97,26 @@ export const A2_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Rule 2: other endings, and Rule 3: third-from-last",
+        "Rule 2: other endings (stressed on the last syllable)",
         [
           "Words ending in any other consonant (-l, -r, -z, -d...) are normally stressed on the LAST syllable: hablar, papel, feliz, ciudad. No accent needed.",
           "When one of these is stressed on the second-to-last syllable instead (a llana word), write the accent: árbol, fácil, lápiz, césped, azúcar.",
+        ],
+        [
+          ["árbol, fácil, lápiz, difícil","tree, easy, pencil, difficult"],
+          ["papel, feliz, ciudad","paper, happy, city (no accent: stressed last)"],
+        ],
+        [
+      mc("Why does \"lápiz\" have a written accent?", ["It ends in -z and is stressed on the second-to-last syllable.","It ends in -z and is stressed on the last syllable.","Every word ending in -z has an accent.","It's stressed on the third-from-last syllable."], 0, "Words ending in a consonant other than -n or -s are normally stressed on the last syllable (feliz, capaz). Lápiz is stressed on LA instead, so it needs the accent. Plenty of words in -z have none: feliz, arroz, luz."),
+        ]
+      ),
+      sec(
+        "Rule 3: third-from-last always has an accent",
+        [
           "Rule 3 is the easiest: when the stress falls on the third-from-last syllable (an esdrújula word), there is ALWAYS a written accent: música, teléfono, rápido, sábado, miércoles.",
           "Plurals keep the stress on the same syllable, so the accent can appear or disappear: canción → canciones, joven → jóvenes, examen → exámenes.",
         ],
         [
-          ["árbol, fácil, lápiz, difícil","tree, easy, pencil, difficult"],
           ["música, médico, página, sábado","music, doctor, page, Saturday"],
           ["el joven / los jóvenes","the young man / young people"],
           ["la canción / las canciones","the song / the songs"],
@@ -143,7 +154,6 @@ export const A2_GAPS: AnchoredLesson[] = [
       mc("Which sentence is written correctly?", ["Hablo inglés y un poco de francés.","Hablo Inglés y un poco de Francés.","Hablo ingles y un poco de frances.","Hablo Ingles y un poco de frances."], 0, "Languages are lower case in Spanish. Inglés and francés end in -s and are stressed on the last syllable, so both take an accent."),
       toEn("¡Qué rápido habla tu médico!", "Your doctor talks so fast!", "¡Qué + adjective/adverb! is an exclamation: how fast! Rápido and médico are both stressed third from last, so both carry an accent.", ["How fast your doctor talks!","Your doctor speaks so fast!","How fast your doctor speaks!","Your doctor talks really fast!"]),
       wo("Oye, ¿qué día es hoy?", "The question starts at ¿qué, after Oye and the comma. Día takes an accent because its i is stressed and said apart from the a.", "Hey, what day is it today?"),
-      mc("Why does \"lápiz\" have a written accent?", ["It ends in -z and is stressed on the second-to-last syllable.","It ends in -z and is stressed on the last syllable.","Every word ending in -z has an accent.","It's stressed on the third-from-last syllable."], 0, "Words ending in a consonant other than -n or -s are normally stressed on the last syllable (feliz, capaz). Lápiz is stressed on LA instead, so it needs the accent. Plenty of words in -z have none: feliz, arroz, luz."),
       toEs("La canción", "Las canciones", "The stress stays on CIO. In canciones it is second-to-last in a word ending in -s, the normal pattern, so the accent disappears.", undefined, "Make it plural."),
       toEs("El joven", "Los jóvenes", "Joven is stressed on JO. In jóvenes JO is third from last, and those words always carry a written accent.", undefined, "Make it plural."),
       toEs("Hablo con Marta.", "Habló con Marta.", "Change the person and time with the stress: ha-BLÓ ends in a vowel and is stressed last, so it needs the accent.", ["Él habló con Marta.","Ella habló con Marta."], "Change it to \"he spoke\"."),
@@ -201,21 +211,31 @@ export const A2_GAPS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "sí/si, sé/se, té/te, más/mas",
+        "sí/si and sé/se",
         [
           "Sí = yes (and \"himself/herself\" after a preposition). Si = if.",
           "Sé = I know (from saber), and also \"be!\" (the tú command of ser). Se = the pronoun: se llama, se lo doy.",
-          "Té = tea. Te = you/yourself (object pronoun): te quiero, ¿te gusta?",
-          "Más = more. Mas without an accent is an old literary word for \"but\"; you'll almost never need it, so write más.",
         ],
         [
           ["Si puedes, ven. —¡Sí, claro!","If you can, come. —Yes, of course!"],
           ["No sé cómo se llama.","I don't know what he's called."],
+        ],
+        [
+          mc("\"I don't know if he's coming.\"", ["No sé si viene.","No se si viene.","No sé sí viene.","No se sí viene."], 0, "Sé with an accent is \"I know\" (saber); se without one is a pronoun. Si without an accent is \"if\"; sí with one is \"yes\"."),
+        ]
+      ),
+      sec(
+        "té/te and más/mas",
+        [
+          "Té = tea. Te = you/yourself (object pronoun): te quiero, ¿te gusta?",
+          "Más = more. Mas without an accent is an old literary word for \"but\"; you'll almost never need it, so write más.",
+        ],
+        [
           ["¿Te preparo un té?","Shall I make you a tea?"],
           ["Quiero más pan, por favor.","I want more bread, please."],
         ],
         [
-          mc("\"I don't know if he's coming.\"", ["No sé si viene.","No se si viene.","No sé sí viene.","No se sí viene."], 0, "Sé with an accent is \"I know\" (saber); se without one is a pronoun. Si without an accent is \"if\"; sí with one is \"yes\"."),
+      toEs("Do you (tú) want more tea?", "¿Quieres más té?", "Más (more) and té (tea) carry accents; mas and te are different words."),
         ]
       ),
       sec(
@@ -258,7 +278,6 @@ export const A2_GAPS: AnchoredLesson[] = [
       fe("¿Me ayudas ___ con la maleta?", "tú", "Will [you] help me with the suitcase?", "Tú (you) is the pronoun, with an accent; tu (your) goes before a noun."),
       mc("Complete: '___ quieres, te preparo un ___.' (If you want, I'll make you a tea.)", ["Si / té","Sí / te","Si / te","Sí / té"], 0, "Si = if (no accent); té = tea (accent). Sí means 'yes' and te is the object pronoun."),
       toEs("This book is for me, not for him.", "Este libro es para mí, no para él.", "Mí after a preposition and él (him) both take accents; mi and el go before nouns."),
-      toEs("Do you (tú) want more tea?", "¿Quieres más té?", "Más (more) and té (tea) carry accents; mas and te are different words."),
       toEs("I don't know what your sister wants.", "No sé qué quiere tu hermana.", "Sé (I know) and qué in an indirect question take accents; tu before a noun doesn't."),
     ]
   ),
@@ -267,7 +286,7 @@ export const A2_GAPS: AnchoredLesson[] = [
     "asking-giving-directions-2",
     "a2g-tu-commands-regular",
     "Telling a Friend What to Do: Regular Tú Commands",
-    "Habla, come, escribe: the affirmative tú command is the él form of the present. Plus where object and reflexive pronouns go: dímelo, siéntate.",
+    "Habla, come, escribe: the affirmative tú command is the él form of the present. Plus where object and reflexive pronouns go: dámelo, siéntate.",
     "10 min",
     [
       sec(
@@ -303,7 +322,7 @@ export const A2_GAPS: AnchoredLesson[] = [
       sec(
         "Pronouns go on the end",
         [
-          "With an affirmative command, object pronouns attach to the end of the verb, making one word: cómpralo (buy it), llámame (call me), dile (tell him).",
+          "With an affirmative command, object pronouns attach to the end of the verb, making one word: cómpralo (buy it), llámame (call me), dale (give him).",
           "Reflexive verbs work the same way with te: levantarse → levántate, sentarse → siéntate, ducharse → dúchate.",
           "Adding a syllable leaves the stress where it was, now third from last, so the stressed vowel needs a written accent: compra → cómpralo, llama → llámame, escucha → escúchame.",
           "Two pronouns go in the order indirect + direct: dámelo (give it to me), explícamelo (explain it to me).",
@@ -367,10 +386,10 @@ export const A2_GAPS: AnchoredLesson[] = [
         "Escuchar → él escucha → ¡Escucha! No pronoun here, so no accent is needed."
       ),
       fe(
-        "¿Tienes frío? ___ la chaqueta.",
-        "Ponte",
-        "Are you cold? [Put on] your jacket.",
-        "Ponerse (to put on) is reflexive: pon + te = ponte. Pon is one of the irregular commands you'll see in the next lesson; one syllable + te needs no accent."
+        "¿Tienes calor? ___ la chaqueta.",
+        "Quítate",
+        "Are you hot? [Take off] your jacket.",
+        "Quitarse (to take off) is reflexive: quita + te = quítate. The accent keeps the stress on QUI now that the word is longer."
       ),
       fe(
         "Es tarde. ___, que perdemos el tren.",
@@ -415,9 +434,9 @@ export const A2_GAPS: AnchoredLesson[] = [
       ),
       ms(
         "Which commands are written correctly?",
-        ["Dímelo", "Escuchame", "Siéntate", "Llama me"],
+        ["Dámelo", "Escuchame", "Siéntate", "Llama me"],
         [0, 2],
-        "Pronouns attach to form one word, and the stressed vowel gets an accent when the word grows: dímelo, siéntate, escúchame, llámame. \"Escuchame\" misses the accent and \"Llama me\" splits the word."
+        "Pronouns attach to form one word, and the stressed vowel gets an accent when the word grows: dámelo, siéntate, escúchame, llámame. \"Escuchame\" misses the accent and \"Llama me\" splits the word."
       ),
     ]
   ),
@@ -980,7 +999,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "With comparatives (mejor, peor, más, menos, and mayor/menor when comparing), use mucho, not muy: mucho mejor (much better), mucho más barato (much cheaper), mucho menos. (Muy mayor on its own is fine: it means very old, elderly.)",
           "Muchísimo is \"really a lot\": Te quiero muchísimo. Muy can become -ísimo on the adjective: muy caro → carísimo.",
-          "A common mistake is \"muy mucho\". Spanish never puts them together: say muchísimo instead.",
+          "A common mistake is \"muy mucho\". Standard Spanish doesn't put them together: say muchísimo instead.",
         ],
         [
           ["Este hotel es mucho mejor.", "This hotel is much better."],

@@ -667,7 +667,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
       ),
       toEs("¿Puedo ver el piso mañana?", "¿Podría ver el piso mañana?", "El condicional «podría» suaviza la pregunta: suena más educado con alguien que no conoces.", ["¿Podría verlo mañana?", "¿Podría ver el departamento mañana?"], "Cambia al condicional para sonar más educado."),
       toEs("El casero paga la comunidad.", "La comunidad la paga el casero.", "Si pones el objeto delante para destacarlo, hay que repetirlo con un pronombre: «la comunidad la paga…».", ["La comunidad la paga el propietario."], "Transforma la frase poniendo «la comunidad» al principio."),
-      toEs("¿El piso está luminoso?", "¿El piso es luminoso?", "Ser luminoso es una característica permanente del piso: va con «ser». Con «estar» hablas de un estado (está limpio, está libre).", [], "Corrige la frase."),
+      toEs("¿El piso es libre desde el lunes?", "¿El piso está libre desde el lunes?", "Libre (que se puede alquilar ahora) es un estado pasajero: va con «estar». Luminoso describe una característica del piso, así que lo normal es «ser» (es luminoso).", [], "Corrige la frase."),
       toEs("¿Se permite perros en el edificio?", "¿Se permiten perros en el edificio?", "En la pasiva con se el verbo concuerda con lo permitido: «perros» es plural → «se permiten».", ["¿Se admiten perros en el edificio?"], "Corrige la frase."),
       toEs("¿Los muebles están incluido en el alquiler?", "¿Los muebles están incluidos en el alquiler?", "El participio concuerda con «los muebles» (masculino plural): «incluidos».", [], "Corrige la frase."),
       mc(
@@ -1018,7 +1018,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
       toEs("Espero mi café desde hace cuarenta minutos.", "Llevo cuarenta minutos esperando mi café.", "Llevar + tiempo + gerundio cuenta cuánto dura algo que todavía continúa; es la forma más natural en una queja.", ["Llevo cuarenta minutos esperando el café."], "Transforma la frase con «llevar + tiempo + gerundio»."),
       toEs("Llevamos veinte minutos esperado al camarero.", "Llevamos veinte minutos esperando al camarero.", "Con «llevar + tiempo» va el gerundio (-ando, -iendo), no el participio: «esperando».", [], "Corrige la frase."),
       toEs("El portátil llegó rompido.", "El portátil llegó roto.", "Romper tiene participio irregular: «roto». «Rompido» no existe.", ["El portátil llegó estropeado."], "Corrige la frase."),
-      toEs("Entiendo que no sea culpa suya, pero necesito el pedido el viernes.", "Entiendo que no es culpa suya, pero necesito el pedido el viernes.", "Aquí «entiendo que» significa «me doy cuenta de que» y afirma un hecho: indicativo, «es».", [], "Corrige la frase."),
+      toEs("Me gustaría que me devuelvo el dinero.", "Me gustaría que me devolvieran el dinero.", "La petición cortés se aprende como bloque: «me gustaría que me devolvieran…». «Me devuelvo» no concuerda con el bloque y además cambiaría el sentido.", ["Me gustaría que me devolvieran el dinero, por favor."], "Corrige la frase."),
       mc(
         "En un restaurante te cobran un postre que no has pedido. ¿Qué dices?",
         ["Perdone, creo que nos han cobrado un postre que no hemos pedido. ¿Podría revisarlo?", "¡Esto es un robo!", "No pienso pagar nada.", "Quería comentarle que el postre estaba muy bueno."],
@@ -1340,7 +1340,7 @@ export const B1_SURVIVAL: AnchoredLesson[] = [
       wo(
         "¿Podrías avisar a un fontanero, por favor?",
         "Condicional de cortesía + avisar a alguien (to call someone out, to let someone know).",
-        "Could you get a plumber, please?"
+        "Could you get a plumber, please? (tú)"
       ),
       ms(
         "¿Qué datos conviene dar al llamar a un técnico?",
