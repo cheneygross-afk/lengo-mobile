@@ -11457,7 +11457,6 @@ const B1_BASE_LESSONS: Lesson[] = [
           "la",
           "reunión"
         ],
-        "altOrders": [["Vamos", "a", "empezar", "la", "reunión"]],
         "translation": "Let's start the meeting.",
         "explanation": "El mandato de nosotros sale del subjuntivo: empecemos (empezar: z → c). También se dice «vamos a empezar la reunión»."
       },
