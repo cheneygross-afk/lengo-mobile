@@ -38,6 +38,11 @@ function loadLists(): Promise<void> {
   return loading;
 }
 
+/** Loads the word lists (resolves at once when they're in). */
+export function loadSpanishVoiceLists(): Promise<void> {
+  return lists ? Promise.resolve() : loadLists();
+}
+
 /** Starts loading the word lists and says whether they are in, so a
  * component that decides voices while rendering redoes it once they are
  * (put the result in the memo's dependencies). */

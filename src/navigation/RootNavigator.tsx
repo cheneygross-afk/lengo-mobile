@@ -1,6 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { View, ActivityIndicator } from "react-native";
+import { useEffect } from "react";
+import { View, ActivityIndicator, AppState } from "react-native";
+import { stopAllAudio } from "@/lib/speech";
 import { planCovers, useAuth } from "@/lib/auth/AuthContext";
 import type { AppStackParamList, AuthStackParamList } from "@/navigation/types";
 import LoginScreen from "@/screens/LoginScreen";
@@ -217,6 +219,15 @@ export default function RootNavigator() {
   // brand red, matching the app icon) covers the cold launch instead.
   const { session, loading } = useAuth();
 
+  // Nothing from one screen may be heard on the next, or once the app is
+  // put away.
+  useEffect(() => {
+    const sub = AppState.addEventListener("change", (state) => {
+      if (state !== "active") stopAllAudio();
+    });
+    return () => sub.remove();
+  }, []);
+
   if (loading) {
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: "#FAF7F2" }}>
@@ -226,6 +237,12 @@ export default function RootNavigator() {
   }
 
   return (
-    <NavigationContainer>{session ? <AppNavigator /> : <AuthNavigator />}</NavigationContainer>
+    <NavigationContainer
+      // A new screen stops every sound (a screen that plays a question as
+      // it opens has just started its own, which is left playing).
+      onStateChange={() => stopAllAudio(300)}
+    >
+      {session ? <AppNavigator /> : <AuthNavigator />}
+    </NavigationContainer>
   );
 }

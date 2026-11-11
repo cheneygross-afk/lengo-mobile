@@ -261,6 +261,43 @@ function stopPlayback(): void {
   currentPlayer = null;
   currentTap?.pause();
   currentTap = null;
+  try {
+    otherPlayer?.pause();
+  } catch {}
+  otherPlayer = null;
+}
+
+// A player that isn't a pronunciation clip (the learner's own recording),
+// played through the same single channel: see playOtherAudio.
+let otherPlayer: AudioPlayer | null = null;
+// When the latest sound was asked for (0 once stopped); see stopAllAudio.
+let lastStartedAt = 0;
+
+/**
+ * Plays a player that isn't a pronunciation clip (the learner's own
+ * recording): whatever else is playing stops, and any later tap, step
+ * change or screen change stops it.
+ */
+export function playOtherAudio(player: AudioPlayer): void {
+  stopReadAloud();
+  stopPlayback();
+  otherPlayer = player;
+  lastStartedAt = Date.now();
+  player.play();
+}
+
+/**
+ * Stops every sound the app is making. Called when the lesson step or the
+ * screen changes, so nothing from the last screen is heard on the next.
+ * With `spareNewerThanMs`, a sound the new screen itself started in the
+ * last few milliseconds (a listening question playing as it appears) is
+ * left playing.
+ */
+export function stopAllAudio(spareNewerThanMs = 0): void {
+  if (spareNewerThanMs > 0 && lastStartedAt > 0 && Date.now() - lastStartedAt < spareNewerThanMs) return;
+  lastStartedAt = 0;
+  stopReadAloud();
+  stopPlayback();
 }
 
 // iOS mutes app audio while the ring/silent switch is on silent unless the
@@ -423,6 +460,7 @@ export function speak(text: string, requestedLang: SpeechLang, rate = 1, voiceOv
 
   stopReadAloud();
   stopPlayback();
+  lastStartedAt = Date.now();
   // stopReadAloud() just bumped this; a later tap bumps it again, so a
   // tap still waiting on the network can tell it's been superseded.
   const run = readAloudRun;
@@ -641,7 +679,11 @@ async function playChunk(text: string, lang: SpeechLang, run: number, voice: Pro
   if (run !== readAloudRun) return "stopped";
   let result: ClipResult = cached ? await playClipToEnd(cachedUrl) : "failed";
   if (result !== "failed") return result;
+  if (run !== readAloudRun) return "stopped";
   const generatedUrl = await requestGeneration(text, lang, voice);
+  // Stopped (a new screen, a new tap) while the clip was being recorded:
+  // it must not start playing now, over whatever came next.
+  if (run !== readAloudRun) return "stopped";
   if (generatedUrl) {
     result = await playClipToEnd(generatedUrl);
     if (result !== "failed") return result;
@@ -666,6 +708,7 @@ export function readAloud(
 ): void {
   stopReadAloud();
   stopPlayback();
+  lastStartedAt = Date.now();
   const run = readAloudRun;
   void (async () => {
     await Promise.all([loadPronunciationPrefs(), loadSpanishVariety()]);
@@ -699,4 +742,66 @@ export function readAloud(
     }
     onChunk(null);
   })();
+}
+
+// ---- Getting a lesson's audio ready before it starts ----------------
+
+export type SpeechItem = { text: string; lang: SpeechLang };
+
+/**
+ * Makes sure every clip in `items` exists (recording the ones nobody has
+ * asked for yet), so no tap inside the lesson waits on a recording. Calls
+ * onProgress(done, total) as it goes; stops early when `cancelled()` turns
+ * true. warmSpeech() then loads the clips of the step on screen.
+ */
+export async function preloadSpeech(
+  items: SpeechItem[],
+  onProgress?: (done: number, total: number) => void,
+  cancelled: () => boolean = () => false
+): Promise<void> {
+  await Promise.all([loadPronunciationPrefs(), loadSpanishVariety()]);
+  if (!pronunciationEnabled) {
+    onProgress?.(0, 0);
+    return;
+  }
+  const voice = preferredVoice;
+  const jobs = new Map<string, { clean: string; lang: SpeechLang }>();
+  for (const item of items) {
+    const clean = speechText(item.text, item.lang);
+    if (!clean || clean.length > 200 || !HAS_LETTER.test(clean)) continue;
+    const lang = voiceLang(item.lang);
+    const url = audioUrl(clean, lang, voice);
+    if (!knownClips.has(url)) jobs.set(url, { clean, lang });
+  }
+  const queue = [...jobs.entries()];
+  const total = queue.length;
+  let done = 0;
+  onProgress?.(0, total);
+  const worker = async () => {
+    for (let job = queue.shift(); job; job = queue.shift()) {
+      if (cancelled()) return;
+      const [url, { clean, lang }] = job;
+      if (await clipExists(url)) knownClips.add(url);
+      else if (!cancelled() && (await generate(clean, lang, voice, url))) knownClips.add(url);
+      if (knownClips.has(url)) prefetchMissing.delete(url);
+      done++;
+      onProgress?.(done, total);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(8, total) }, worker));
+}
+
+const HAS_LETTER = /[A-Za-z\u00C0-\u024F\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]/;
+
+/** Loads the clips for `items` into players (the step on screen and the
+ * next one), so their taps play at once. */
+export function warmSpeech(items: SpeechItem[]): void {
+  const seen = new Set<string>();
+  for (const item of items) {
+    const key = `${item.lang}|${item.text}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    if (seen.size > 40) break;
+    prefetchSpeech(item.text, item.lang);
+  }
 }
