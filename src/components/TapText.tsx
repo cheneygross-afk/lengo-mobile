@@ -141,6 +141,14 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
   return out;
 }
 
+/** What tapping each word of `text` would say (lib/lessonAudio.ts loads
+ * these before a lesson starts), by the same rules as the rendered text. */
+export function spokenPieces(text: string, lang: SpeechLang, mode: Mode = "mixed"): { text: string; lang: SpeechLang }[] {
+  return pieces(text, lang, mode, true)
+    .filter((p) => p.lang)
+    .map((p) => ({ text: p.text, lang: p.lang as SpeechLang }));
+}
+
 /** For mixed text (English framing around target-language words): a
  * test for whether the word at [start, end) is in the target language,
  * by the same rule TapText's "mixed" mode uses. */

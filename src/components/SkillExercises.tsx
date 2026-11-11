@@ -13,7 +13,7 @@ import {
   type AudioPlayer,
 } from "expo-audio";
 import type { DictationExercise, ListenChooseExercise, SpeakExercise, WriteExercise } from "@/lib/lessons/types";
-import { englishTaughtName, setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
+import { englishTaughtName, playOtherAudio, setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
 import { AnswerCompare } from "@/components/AnswerCompare";
 import TapText, { isTargetText } from "@/components/TapText";
 import { dictationAnswer, gradeDictation, optionOrder } from "@/lib/grading";
@@ -250,12 +250,14 @@ export function Speak({
 
   function playMine() {
     if (!recordingUri) return;
-    stopSpeaking();
-    playerRef.current?.remove();
+    try {
+      playerRef.current?.remove();
+    } catch {}
     try {
       const player = createAudioPlayer(recordingUri);
       playerRef.current = player;
-      player.play();
+      // Through the same single channel as every other sound.
+      playOtherAudio(player);
     } catch {
       // Nothing to play.
     }

@@ -27,8 +27,17 @@ import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
-import { isSpanishText } from "@/lib/spanishVoice";
-import { langForLevel, langForLevelPath, ENGLISH_LANG } from "@/lib/speech";
+import { isSpanishText, loadSpanishVoiceLists } from "@/lib/spanishVoice";
+import {
+  langForLevel,
+  langForLevelPath,
+  preloadSpeech,
+  stopAllAudio,
+  warmSpeech,
+  ENGLISH_LANG,
+  type SpeechItem,
+} from "@/lib/speech";
+import { exerciseSpeech, textSpeech } from "@/lib/lessonAudio";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import { creditStudy } from "@/lib/studyDays";
 import { loadPrefsLocal } from "@/lib/learnerPrefs";
@@ -73,6 +82,10 @@ type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 const LEVEL_TEST_SLUGS = new Set<string>(Object.values(LEVEL_EXIT_SLUGS));
 
 const MIN_DRILL_QUESTIONS = 15;
+// The up-front audio wait (see audioReady): "Start now" after a few
+// seconds, and never longer than this in all.
+const AUDIO_SKIP_AFTER_MS = 5_000;
+const AUDIO_MAX_WAIT_MS = 20_000;
 
 // Crawl, walk, run (lessonFlow.ts), as on the website.
 const STAGE_LABELS: Record<Stage | "try", string> = {
@@ -474,6 +487,70 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 
   const currentStep = steps[stepIndex];
 
+  // Every sound a step can make (lib/lessonAudio.ts).
+  const stepSpeech = (step: Step | undefined): SpeechItem[] => {
+    if (!lesson || !step) return [];
+    if (step.kind === "exercise") {
+      return [...(step.passage ?? []).flatMap((p) => textSpeech(p, lang)), ...exerciseSpeech(step.exercise, lang)];
+    }
+    if (step.kind !== "teach") return [];
+    const out: SpeechItem[] = [...textSpeech(shownTitle, lang)];
+    if (step.first) {
+      out.push(...textSpeech(lesson.title, lang));
+      if (lesson.summary) out.push(...textSpeech(lesson.summary, lang));
+    }
+    if (step.sectionIndex === null) return out;
+    const section = lesson.sections[step.sectionIndex];
+    if (!section) return out;
+    out.push(...textSpeech(section.heading, lang));
+    const body = step.card ? step.card.body.map((b) => b.text) : section.body;
+    for (const text of body) out.push(...textSpeech(text, lang));
+    section.examples?.forEach((ex, ei) => {
+      if (step.card && !step.card.examples.includes(ei)) return;
+      out.push(...textSpeech(ex.es, lang, true));
+      if (ex.en && isSpanishText(ex.en)) out.push(...textSpeech(ex.en, lang));
+    });
+    return out;
+  };
+
+  // Every clip the lesson needs is made ready before it starts (a short
+  // "Getting the audio ready" wait, at most AUDIO_MAX_WAIT_MS), so no tap
+  // inside the lesson waits on a recording or a download.
+  const [audioReady, setAudioReady] = useState(false);
+  const [audioProgress, setAudioProgress] = useState({ done: 0, total: 0 });
+  const [audioSkip, setAudioSkip] = useState(false);
+  const audioKey = lesson && steps.length > 0 ? `${levelPath}/${lesson.slug}/${variety}` : null;
+  useEffect(() => {
+    if (!audioKey) return;
+    let live = true;
+    setAudioReady(false);
+    setAudioSkip(false);
+    setAudioProgress({ done: 0, total: 0 });
+    const skip = setTimeout(() => live && setAudioSkip(true), AUDIO_SKIP_AFTER_MS);
+    const giveUp = setTimeout(() => live && setAudioReady(true), AUDIO_MAX_WAIT_MS);
+    void (async () => {
+      if (lang === "es-ES" || lang === "es-US") await loadSpanishVoiceLists().catch(() => {});
+      if (!live) return;
+      const items = steps.flatMap((st) => stepSpeech(st));
+      await preloadSpeech(items, (done, total) => live && setAudioProgress({ done, total }), () => !live);
+      if (live) setAudioReady(true);
+    })();
+    return () => {
+      live = false;
+      clearTimeout(skip);
+      clearTimeout(giveUp);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [audioKey]);
+
+  // The step on screen and the next one are loaded into players, so their
+  // taps play at once.
+  useEffect(() => {
+    if (!audioReady) return;
+    warmSpeech([...stepSpeech(steps[stepIndex]), ...stepSpeech(steps[stepIndex + 1])]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [audioReady, stepIndex, steps]);
+
   useEffect(() => {
     if (currentStep?.kind === "complete" && !finishedRef.current && lesson) {
       finishedRef.current = true;
@@ -548,11 +625,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   }
 
   function goNext() {
+    // Nothing from this step may be heard on the next one.
+    stopAllAudio();
     setFeedback(null);
     setStepIndex((i) => Math.min(i + 1, steps.length - 1));
   }
 
   function handleRedo() {
+    stopAllAudio();
     finishedRef.current = false;
     setCorrectCount(0);
     setInARow(0);
@@ -675,7 +755,35 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         keyboardShouldPersistTaps="handled"
         automaticallyAdjustKeyboardInsets
       >
-        {currentStep?.kind === "teach" && (
+        {!audioReady && (
+          <View style={s.audioCard} accessibilityLiveRegion="polite">
+            <Text style={s.audioIcon}>🎧</Text>
+            <Text style={s.audioTitle}>Getting the audio ready…</Text>
+            <Text style={s.audioSub}>So every word plays instantly once you're in the lesson.</Text>
+            <View style={s.audioTrack}>
+              <View
+                style={[
+                  s.audioFill,
+                  {
+                    backgroundColor: accent,
+                    width: `${audioProgress.total > 0 ? Math.round((audioProgress.done / audioProgress.total) * 100) : 0}%`,
+                  },
+                ]}
+              />
+            </View>
+            {audioProgress.total > 0 ? (
+              <Text style={s.audioCount}>
+                {audioProgress.done} / {audioProgress.total}
+              </Text>
+            ) : null}
+            {audioSkip ? (
+              <Pressable hitSlop={10} onPress={() => setAudioReady(true)}>
+                <Text style={s.audioSkip}>Start now</Text>
+              </Pressable>
+            ) : null}
+          </View>
+        )}
+        {audioReady && currentStep?.kind === "teach" && (
           <TeachStep
             accent={accent}
             glyph={COURSE_GLYPHS[course][2]}
@@ -696,7 +804,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           />
         )}
 
-        {currentStep?.kind === "exercise" && (
+        {audioReady && currentStep?.kind === "exercise" && (
           <View>
             <Text style={s.badge}>
               {currentStep.stage ? `${STAGE_LABELS[currentStep.stage]} · ` : ""}Question {currentStep.number} of {questionCount}
@@ -765,7 +873,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           </View>
         )}
 
-        {currentStep?.kind === "complete" && (
+        {audioReady && currentStep?.kind === "complete" && (
           <CompleteStep
             lessonTitle={shownTitle}
             correctCount={correctCount}
@@ -1159,6 +1267,29 @@ function shortLevel(level: string): string {
 }
 
 const s = StyleSheet.create({
+  audioCard: {
+    marginTop: 24,
+    padding: 24,
+    borderRadius: 24,
+    backgroundColor: "rgba(255,255,255,0.92)",
+    borderWidth: 1,
+    borderColor: "rgba(42,21,19,0.08)",
+    alignItems: "center",
+  },
+  audioIcon: { fontSize: 30 },
+  audioTitle: { marginTop: 8, fontSize: 20, color: "#2A1513", fontFamily: fonts.display, textAlign: "center" },
+  audioSub: { marginTop: 4, fontSize: 14, color: "rgba(42,21,19,0.65)", textAlign: "center" },
+  audioTrack: {
+    marginTop: 18,
+    height: 8,
+    width: "80%",
+    borderRadius: 4,
+    overflow: "hidden",
+    backgroundColor: "rgba(42,21,19,0.12)",
+  },
+  audioFill: { height: "100%", borderRadius: 4 },
+  audioCount: { marginTop: 8, fontSize: 12, color: "rgba(42,21,19,0.5)", fontVariant: ["tabular-nums"] },
+  audioSkip: { marginTop: 14, fontSize: 14, color: "rgba(42,21,19,0.6)", textDecorationLine: "underline" },
   passage: { borderWidth: 1, borderColor: "#2A151318", borderRadius: 10, padding: 12, backgroundColor: "#fff", marginBottom: 14, gap: 8 },
   passageText: { fontSize: 15, lineHeight: 22, color: "#2A1513dd" },
   screen: { flex: 1, backgroundColor: "#FAF7F2", overflow: "hidden" },
