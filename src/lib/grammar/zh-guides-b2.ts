@@ -590,7 +590,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         a: "An object usually goes between the two parts of a compound directional complement: 说出 + 话 + 来, 下起 + 雨 + 来. With a place object it must (走进教室来, never 走进来教室); with an ordinary object the split is the usual spoken form, though 拿出来一本书 also occurs.",
       },
       {
-        q: "Can I use 着 once instead of 着着?",
+        q: "Can I use 着 once instead of V着V着?",
         a: "One 着 describes an ongoing state (他看着书). The doubled form specifically sets up a sudden change during the activity.",
       },
     ],
@@ -801,13 +801,13 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         ],
         examples: [
           { zh: "消息传开后，网友纷纷留言。", pinyin: "Xiāoxi chuánkāi hòu, wǎngyǒu fēnfēn liúyán.", en: "Once the news spread, people online flocked to comment." },
-          { zh: "同学们陆续走进了教室。", pinyin: "Tóngxuémen lùxù zǒujìnle jiàoshì.", en: "The students came into the classroom one after another." },
+          { zh: "同学们陆续走进了教室。", pinyin: "Tóngxuémen lùxù zǒujinle jiàoshì.", en: "The students came into the classroom one after another." },
         ],
       },
       {
         heading: "倍, 分之, exact comparisons and location",
         body: [
-          "倍 (bèi) means 'times': 是…的两倍 (twice as much as). With a change verb, 了 means 'by' and 到 means 'to': 增加了一倍 (grew by one times) and 增加到两倍 (grew to twice the size) both mean 'doubled', so strictly 增加了两倍 means it is now three times as much. Everyday speech blurs this, but reports and exams keep it.",
+          "倍 (bèi) means 'times': 是…的两倍 (twice as much as). With a change verb, 了 means 'by' and 到 means 'to': 增加了一倍 (grew by 100%) and 增加到两倍 (grew to twice the size) both mean 'doubled', so strictly 增加了两倍 means it is now three times as much. Everyday speech blurs this, but reports and exams keep it.",
           "Fractions put the whole first: 三分之一 (sān fēn zhī yī, one third), 百分之二十 (twenty per cent).",
           "With 比, the exact difference goes after the adjective: 他比我高五厘米 (he's five centimetres taller than me), 贵一倍 (twice the price).",
           "位于 (wèiyú, be located at) and 距离 (jùlí, distance from) are written words for describing places: 学校位于市中心，距离火车站两公里.",

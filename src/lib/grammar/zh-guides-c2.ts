@@ -687,7 +687,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         wrong: "综上所述，我先谈谈第一个原因。",
         right: "首先，我想谈谈第一个原因。",
-        rightPinyin: "Shǒuxiān, wǒ xiǎng tántan dì yī ge yuányīn.",
+        rightPinyin: "Shǒuxiān, wǒ xiǎng tántan dì-yī ge yuányīn.",
         why: "综上所述 means 'to sum up the above' and belongs at the end. Use 首先 to start.",
       },
       {
