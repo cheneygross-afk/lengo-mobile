@@ -557,7 +557,7 @@ export const ZH_STORIES: ZhStory[] = [
     paragraphs: [
       {
         zh: "每 年 春节 前后 ， 中国 都 会 出现 世界 上 规模 最 大 的 人口 流动 ， 这 就是 “ 春运 ” 。 几 亿 人 从 工作 的 城市 回到 自己 的 家乡 。",
-        pinyin: "měi nián Chūnjié qiánhòu ， Zhōngguó dōu huì chūxiàn shìjiè shàng guīmó zuì dà de rénkǒu liúdòng ， zhè jiùshì “ chūnyùn ” 。 jǐ yì rén cóng gōngzuò de chéngshì huídào zìjǐ de jiāxiāng 。",
+        pinyin: "měi nián Chūnjié qiánhòu ， Zhōngguó dōu huì chūxiàn shìjiè shang guīmó zuì dà de rénkǒu liúdòng ， zhè jiùshì “ chūnyùn ” 。 jǐ yì rén cóng gōngzuò de chéngshì huídào zìjǐ de jiāxiāng 。",
         en: "Every year around the Spring Festival, China sees the largest human migration in the world: chunyun, the Spring Festival travel rush. Hundreds of millions of people go from the cities where they work back to their home towns.",
       },
       {
@@ -567,7 +567,7 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "另外 ， 不少 在 城市 打工 的 年轻人 ， 父母 和 孩子 都 留 在 老家 。 对 他们 来说 ， 春节 可能 是 一 年 里 唯一 能 跟 家人 见面 的 机会 。",
-        pinyin: "lìngwài ， bùshǎo zài chéngshì dǎgōng de niánqīngrén ， fùmǔ hé háizi dōu liú zài lǎojiā 。 duì tāmen láishuō ， Chūnjié kěnéng shì yì nián lǐ wéiyī néng gēn jiārén jiànmiàn de jīhuì 。",
+        pinyin: "lìngwài ， bùshǎo zài chéngshì dǎgōng de niánqīngrén ， fùmǔ hé háizi dōu liú zài lǎojiā 。 duì tāmen láishuō ， Chūnjié kěnéng shì yì nián li wéiyī néng gēn jiārén jiànmiàn de jīhuì 。",
         en: "Besides, many young people who work in the cities have left their parents and children in their home towns. For them, the Spring Festival may be the only chance all year to see their family.",
       },
       {
@@ -638,7 +638,7 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "此外 ， 同事 之间 的 交流 也 受到 影响 。 许多 好 的 想法 恰恰 来自 茶水间 里 的 随意 聊天 ， 而 这 是 视频 会议 难以 替代 的 。",
-        pinyin: "cǐwài ， tóngshì zhījiān de jiāoliú yě shòudào yǐngxiǎng 。 xǔduō hǎo de xiǎngfǎ qiàqià láizì cháshuǐjiān lǐ de suíyì liáotiān ， ér zhè shì shìpín huìyì nányǐ tìdài de 。",
+        pinyin: "cǐwài ， tóngshì zhījiān de jiāoliú yě shòudào yǐngxiǎng 。 xǔduō hǎo de xiǎngfǎ qiàqià láizì cháshuǐjiān li de suíyì liáotiān ， ér zhè shì shìpín huìyì nányǐ tìdài de 。",
         en: "On top of that, communication between colleagues suffers. Many good ideas come precisely from casual chat in the office kitchen, and that's something video meetings can hardly replace.",
       },
       {
@@ -698,7 +698,7 @@ export const ZH_STORIES: ZhStory[] = [
     paragraphs: [
       {
         zh: "学校 后门 那 条 巷子 里 ， 有 一 家 开 了 三十 年 的 旧 书店 。 店面 不 大 ， 书 却 堆 得 满满当当 ， 从 地板 一直 到 天花板 。",
-        pinyin: "xuéxiào hòumén nà tiáo xiàngzi lǐ ， yǒu yì jiā kāi le sānshí nián de jiù shūdiàn 。 diànmiàn bú dà ， shū què duī de mǎnmǎndāngdāng ， cóng dìbǎn yìzhí dào tiānhuābǎn 。",
+        pinyin: "xuéxiào hòumén nà tiáo xiàngzi li ， yǒu yì jiā kāi le sānshí nián de jiù shūdiàn 。 diànmiàn bú dà ， shū què duī de mǎnmǎndāngdāng ， cóng dìbǎn yìzhí dào tiānhuābǎn 。",
         en: "In the lane by the university's back gate there is a second-hand bookshop that has been open for thirty years. The shop is small, but the books are piled up to bursting, from the floor all the way to the ceiling.",
       },
       {
@@ -713,7 +713,7 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "去年 冬天 ， 书店 门口 贴 出 一 张 告示 ： 房租 上涨 ， 本 店 将 于 月底 停业 。 消息 传开 后 ， 许多 已经 毕业 多年 的 学生 专程 赶 回来 ， 有 的 买 书 ， 有 的 只是 想 再 看 一 眼 。",
-        pinyin: "qùnián dōngtiān ， shūdiàn ménkǒu tiē chū yì zhāng gàoshì ： fángzū shàngzhǎng ， běn diàn jiāng yú yuèdǐ tíngyè 。 xiāoxi chuánkāi hòu ， xǔduō yǐjīng bìyè duōnián de xuésheng zhuānchéng gǎn huílai ， yǒu de mǎi shū ， yǒu de zhǐshì xiǎng zài kàn yì yǎn 。",
+        pinyin: "qùnián dōngtiān ， shūdiàn ménkǒu tiē chu yì zhāng gàoshì ： fángzū shàngzhǎng ， běn diàn jiāng yú yuèdǐ tíngyè 。 xiāoxi chuánkāi hòu ， xǔduō yǐjīng bìyè duōnián de xuésheng zhuānchéng gǎn huílai ， yǒu de mǎi shū ， yǒu de zhǐshì xiǎng zài kàn yì yǎn 。",
         en: "Last winter a notice went up on the door: the rent is going up, and the shop will close at the end of the month. Once the news got around, many students who had graduated years before came back specially, some to buy books, some just to take one more look.",
       },
       {
@@ -844,7 +844,7 @@ export const ZH_STORIES: ZhStory[] = [
     paragraphs: [
       {
         zh: "《 韩非子 》 里 有 一 则 寓言 ： “ 宋 人 有 耕 者 ， 田 中 有 株 ， 兔 走 触 株 ， 折 颈 而 死 。 因 释 其 耒 而 守 株 ， 冀 复 得 兔 。 ” 这 就是 成语 “ 守株待兔 ” 的 出处 。",
-        pinyin: "《 Hánfēizǐ 》 lǐ yǒu yì zé yùyán ： “ Sòng rén yǒu gēng zhě ， tián zhōng yǒu zhū ， tù zǒu chù zhū ， zhé jǐng ér sǐ 。 yīn shì qí lěi ér shǒu zhū ， jì fù dé tù 。 ” zhè jiùshì chéngyǔ “ shǒuzhūdàitù ” de chūchù 。",
+        pinyin: "《 Hánfēizǐ 》 li yǒu yì zé yùyán ： “ Sòng rén yǒu gēng zhě ， tián zhōng yǒu zhū ， tù zǒu chù zhū ， zhé jǐng ér sǐ 。 yīn shì qí lěi ér shǒu zhū ， jì fù dé tù 。 ” zhè jiùshì chéngyǔ “ shǒuzhūdàitù ” de chūchù 。",
         en: "Han Feizi tells a fable: \"A man of Song was ploughing his field. In the field was a tree stump. A hare ran into the stump, broke its neck and died. So the man put down his plough and kept watch by the stump, hoping to get another hare.\" That is where the idiom shou zhu dai tu, \"waiting by the stump for a hare\", comes from.",
       },
       {
@@ -854,18 +854,18 @@ export const ZH_STORIES: ZhStory[] = [
       },
       {
         zh: "新 故事 里 的 农夫 捡到 兔子 后 ， 并 没有 坐 在 树桩 旁 傻等 。 他 拍 了 一 段 视频 发 到 网上 ， 标题 是 《 我 家 的 树桩 会 抓 兔子 》 。 没想到 ， 视频 一夜之间 火 了 。",
-        pinyin: "xīn gùshì lǐ de nóngfū jiǎndào tùzi hòu ， bìng méiyǒu zuò zài shùzhuāng páng shǎděng 。 tā pāi le yí duàn shìpín fā dào wǎngshàng ， biāotí shì 《 wǒ jiā de shùzhuāng huì zhuā tùzi 》 。 méixiǎngdào ， shìpín yí_yè_zhī_jiān huǒ le 。",
+        pinyin: "xīn gùshì li de nóngfū jiǎndào tùzi hòu ， bìng méiyǒu zuò zài shùzhuāng páng shǎděng 。 tā pāi le yí duàn shìpín fā dào wǎngshàng ， biāotí shì 《 wǒ jiā de shùzhuāng huì zhuā tùzi 》 。 méixiǎngdào ， shìpín yí_yè_zhī_jiān huǒ le 。",
         en: "In the new story, after the farmer picks up the hare he doesn't sit by the stump waiting like a fool. He films a video and posts it online, titled \"The Tree Stump at My Place Catches Hares\". To his surprise, it goes viral overnight.",
       },
       {
         zh: "第二 天 ， 成百上千 的 游客 涌进 村子 ， 争着 跟 那 截 树桩 合影 。 农夫 干脆 在 田边 摆 起 了 小摊 ， 卖 茶水 、 卖 纪念品 ， 一个 月 赚 的 钱 比 种 一 年 地 还 多 。",
-        pinyin: "dì-èr tiān ， chéngbǎishàngqiān de yóukè yǒngjìn cūnzi ， zhēngzhe gēn nà jié shùzhuāng héyǐng 。 nóngfū gāncuì zài tiánbiān bǎi qǐ le xiǎotān ， mài cháshuǐ 、 mài jìniànpǐn ， yí_ge yuè zhuàn de qián bǐ zhòng yì nián dì hái duō 。",
+        pinyin: "dì-èr tiān ， chéngbǎishàngqiān de yóukè yǒngjin cūnzi ， zhēngzhe gēn nà jié shùzhuāng héyǐng 。 nóngfū gāncuì zài tiánbiān bǎi qi le xiǎotān ， mài cháshuǐ 、 mài jìniànpǐn ， yí_ge yuè zhuàn de qián bǐ zhòng yì nián dì hái duō 。",
         en: "The next day, hundreds of tourists pour into the village, jostling to take photos with the stump. The farmer simply sets up a stall by the field selling tea and souvenirs, and in one month he makes more than a whole year of farming would bring.",
       },
       {
         zh: "然而 好景不长 。 新鲜感 一 过 ， 游客 便 散 了 ， 田 也 荒 了 。 农夫 守 着 冷冷清清 的 小摊 ， 这 才 明白 ： 他 守 的 依然 是 那 截 树桩 ， 只不过 换 了 个 名字 ， 叫 “ 流量 ” 罢了 。",
         pinyin: "rán'ér hǎojǐngbùcháng 。 xīnxiāngǎn yí guò ， yóukè biàn sàn le ， tián yě huāng le 。 nóngfū shǒu zhe lěnglěngqīngqīng de xiǎotān ， zhè cái míngbai ： tā shǒu de yīrán shì nà jié shùzhuāng ， zhǐbúguò huàn le ge míngzi ， jiào “ liúliàng ” bàle 。",
-        en: "But the good times don't last. Once the novelty wears off, the tourists disperse, and the field has gone to ruin. Keeping watch over his deserted stall, the farmer finally understands: he is still guarding that same stump. It just has a new name now: \"traffic\".",
+        en: "But the good times don't last. Once the novelty wears off, the tourists drift away, and the field lies neglected. Keeping watch over his deserted stall, the farmer finally understands: he is still guarding that same stump. It just has a new name now: \"traffic\".",
       },
     ],
     keyWords: [

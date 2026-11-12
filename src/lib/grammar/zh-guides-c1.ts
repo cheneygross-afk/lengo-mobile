@@ -243,7 +243,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
         ],
         examples: [
           { zh: "你可别忘了！", pinyin: "Nǐ kě bié wàng le!", en: "Whatever you do, don't forget!" },
-          { zh: "他说的倒是有道理。", pinyin: "Tā shuō de dàoshì yǒu dàolǐ.", en: "He does have a point, actually." },
+          { zh: "他说的倒是有道理。", pinyin: "Tā shuō de dàoshì yǒu dàoli.", en: "He does have a point, actually." },
         ],
       },
       {
@@ -406,7 +406,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
         ],
         examples: [
           { zh: "本来想给她一个惊喜，不料她早就知道了。", pinyin: "Běnlái xiǎng gěi tā yí ge jīngxǐ, búliào tā zǎo jiù zhīdao le.", en: "I meant to surprise her, but it turned out she'd known all along." },
-          { zh: "我越不让他碰，他偏偏要碰。", pinyin: "Wǒ yuè bú ràng tā pèng, tā piānpiān yào pèng.", en: "The more I tell him not to touch it, the more he insists on touching it." },
+          { zh: "我不让他碰，他偏偏要碰。", pinyin: "Wǒ bú ràng tā pèng, tā piānpiān yào pèng.", en: "I tell him not to touch it, and he insists on touching it anyway." },
         ],
       },
       {
@@ -427,7 +427,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
           "未免 (wèimiǎn) is a polite criticism: 'rather too, a bit much'. 你这样说未免太过分了 (saying that is going a bit too far).",
         ],
         examples: [
-          { zh: "第一次上台，紧张是难免的。", pinyin: "Dì yī cì shàng tái, jǐnzhāng shì nánmiǎn de.", en: "The first time on stage, it's only natural to be nervous." },
+          { zh: "第一次上台，紧张是难免的。", pinyin: "Dì-yī cì shàng tái, jǐnzhāng shì nánmiǎn de.", en: "The first time on stage, it's only natural to be nervous." },
           { zh: "这个价格未免太高了吧。", pinyin: "Zhège jiàgé wèimiǎn tài gāo le ba.", en: "This price is rather on the high side, isn't it?" },
         ],
       },
@@ -480,7 +480,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
       {
         heading: "Figurative directional and fixed potential complements",
         body: [
-          "Directional complements often have abstract meanings. 起来 (qǐlai): start, or recall (想起来). 下去 (xiaqu): continue (坚持下去). 出来 (chūlai): identify, emerge (看出来, 听出来). 下来 (xialai): settle into a lasting state (安静下来, 记下来).",
+          "Directional complements often have abstract meanings. 起来 (qǐlai): start, or recall (想起来). 下去 (xiàqu): continue (坚持下去). 出来 (chūlai): identify, emerge (看出来, 听出来). 下来 (xiàlai): settle into a lasting state (安静下来, 记下来).",
           "Some potential forms are fixed expressions: 舍不得 (shěbude, can't bear to part with), 看不惯 (kàn bu guàn, can't stand the sight of), 合得来 (hé de lái, get on) and 合不来 (hé bu lái, not get on), 处得来 (chǔ de lái, get along).",
         ],
         table: {
@@ -899,7 +899,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
         why: "The standard pattern is 非…不可. (Colloquially 非 + verb alone can mean 'insist on', but it's best to use the full frame.)",
       },
       {
-        wrong: "我们尽力完成任务尽快。",
+        wrong: "我们会完成任务尽快。",
         right: "我们会尽快完成任务。",
         rightPinyin: "Wǒmen huì jǐnkuài wánchéng rènwu.",
         why: "尽快 is an adverb before the verb, not after it like English 'as soon as possible'.",
@@ -1027,7 +1027,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
           "With durations, the position of 了 matters: 我病了三天 (I was ill for three days, now over); 我病了三天了 (I've been ill for three days, still ill).",
         ],
         examples: [
-          { zh: "他推开门，走进房间，在窗边坐了下来。", pinyin: "Tā tuīkāi mén, zǒujìn fángjiān, zài chuāng biān zuòle xialai.", en: "He pushed the door open, walked into the room and sat down by the window." },
+          { zh: "他推开门，走进房间，在窗边坐了下来。", pinyin: "Tā tuīkāi mén, zǒujin fángjiān, zài chuāng biān zuòle xialai.", en: "He pushed the door open, walked into the room and sat down by the window." },
           { zh: "我已经发烧三天了，还没好。", pinyin: "Wǒ yǐjīng fā shāo sān tiān le, hái méi hǎo.", en: "I've had a fever for three days now and I'm still not better." },
         ],
       },
@@ -1048,7 +1048,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
           "时而 A 时而 B (shí'ér … shí'ér) means 'sometimes A, sometimes B' in quick alternation, in writing. 要么 A 要么 B (yàome … yàome) means 'either A or B' (choose one).",
         ],
         examples: [
-          { zh: "看到这张老照片，她不禁流下了眼泪。", pinyin: "Kàndào zhè zhāng lǎo zhàopiàn, tā bùjīn liúxiàle yǎnlèi.", en: "Seeing the old photo, she couldn't hold back her tears." },
+          { zh: "看到这张老照片，她不禁流下了眼泪。", pinyin: "Kàndào zhè zhāng lǎo zhàopiàn, tā bùjīn liúxiale yǎnlèi.", en: "Seeing the old photo, she couldn't hold back her tears." },
           { zh: "音乐时而轻快，时而低沉。", pinyin: "Yīnyuè shí'ér qīngkuài, shí'ér dīchén.", en: "The music was light one moment and sombre the next." },
           { zh: "要么现在走，要么就别去了。", pinyin: "Yàome xiànzài zǒu, yàome jiù bié qù le.", en: "Either we leave now or we don't go at all." },
         ],
