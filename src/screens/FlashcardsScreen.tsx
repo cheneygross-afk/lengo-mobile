@@ -11,7 +11,10 @@ import { creditStudy } from "@/lib/studyDays";
 import { FLASHCARD_MINUTES, STREAK_MIN_FLASHCARDS } from "@/lib/studyCredit";
 import { ENGLISH_LANG, SPANISH_LANG, langForLevelPath, speak, stopSpeaking } from "@/lib/speech";
 import { deckExample } from "@/lib/decks";
-import TapText from "@/components/TapText";
+import TapText, { spokenPieces } from "@/components/TapText";
+import AudioGate from "@/components/AudioGate";
+import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
+import type { SpeechItem } from "@/lib/speech";
 import { courseOfLevelPath } from "@/lib/courses";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Flashcards">;
@@ -81,6 +84,18 @@ export default function FlashcardsScreen({ route, navigation }: Props) {
 
   const card = due[index];
 
+  // Every due card's word (played as the card shows, and tap by tap) is
+  // made ready before the first card, so none of them waits on a download.
+  const cardSpeech = (c: FlashcardEntry | undefined): SpeechItem[] => {
+    if (!c) return [];
+    const l = langForLevelPath(c.levelPath);
+    return [{ text: c.es, lang: l }, ...spokenPieces(c.es, l, "target")];
+  };
+  const audio = useAudioPreload(loading || due.length === 0 ? null : `cards/${lang}/${due.map((c) => c.id).join("|")}`, () =>
+    due.flatMap(cardSpeech)
+  );
+  useWarmSpeech(audio.ready, () => [...cardSpeech(due[index]), ...cardSpeech(due[index + 1])], [due, index]);
+
   // Every card gets pronounced as soon as it's shown -- both the front
   // (target-language) side, and, when the learner reveals it, the same
   // word again isn't re-spoken (revealing shows the English side, which
@@ -93,10 +108,11 @@ export default function FlashcardsScreen({ route, navigation }: Props) {
   // checks (rather than conditionally skipping the hook itself) is what
   // keeps that invariant, and is guarded internally instead.
   useEffect(() => {
-    if (loading || !card) return;
+    if (loading || !card || !audio.ready) return;
     speak(card.es, langForLevelPath(card.levelPath));
     return () => stopSpeaking();
-  }, [loading, card?.id]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, card?.id, audio.ready]);
 
   // Cards added from a frequency deck show the deck's example sentence
   // once revealed (it lives in the deck data, not on the card).
@@ -123,6 +139,14 @@ export default function FlashcardsScreen({ route, navigation }: Props) {
     return (
       <View style={s.center}>
         <Text>Loading…</Text>
+      </View>
+    );
+  }
+
+  if (card && !audio.ready) {
+    return (
+      <View style={{ flex: 1 }}>
+        <AudioGate {...audio} />
       </View>
     );
   }

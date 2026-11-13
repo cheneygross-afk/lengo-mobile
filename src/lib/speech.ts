@@ -535,7 +535,12 @@ export function prefetchSpeech(text: string, requestedLang: SpeechLang): void {
   const clean = speechText(text, requestedLang);
   const lang = voiceLang(requestedLang);
   if (!clean) return;
-  const url = audioUrl(clean, lang, preferredVoice);
+  loadPlayer(audioUrl(clean, lang, preferredVoice));
+}
+
+/** Loads the clip at `url` into a kept player (see keepPlayer), so playing
+ * it later starts at once. */
+function loadPlayer(url: string): void {
   if (tapPlayers.has(url) || prefetching.has(url) || prefetchMissing.has(url)) return;
   prefetching.add(url);
   try {
@@ -624,7 +629,40 @@ export function stopReadAloud(): void {
   if (currentStatus().state === "loading") setStatus({ state: "idle" });
 }
 
+/** Plays a kept, already-loaded player to its end (no download). */
+function playKeptToEnd(player: AudioPlayer): Promise<ClipResult> {
+  return new Promise((resolve) => {
+    let settled = false;
+    const finish = (result: ClipResult) => {
+      if (settled) return;
+      settled = true;
+      sub.remove();
+      if (stopCurrentClip === stop) stopCurrentClip = null;
+      if (currentTap === player) currentTap = null;
+      resolve(result);
+    };
+    const stop = () => {
+      try {
+        player.pause();
+      } catch {}
+      finish("stopped");
+    };
+    const sub = player.addListener("playbackStatusUpdate", (status: AudioStatus) => {
+      if (status.error) finish("failed");
+      else if (status.didJustFinish) finish("ended");
+    });
+    stopCurrentClip = stop;
+    currentTap = player;
+    player.setPlaybackRate(1, "high");
+    void player.seekTo(0).then(() => {
+      if (!settled) player.play();
+    });
+  });
+}
+
 function playClipToEnd(url: string): Promise<ClipResult> {
+  const kept = tapPlayers.get(url);
+  if (kept) return playKeptToEnd(kept);
   return new Promise((resolve) => {
     let settled = false;
     let started = false;
@@ -667,15 +705,27 @@ function playClipToEnd(url: string): Promise<ClipResult> {
 // current one plays, so there's no pause between sentences on a story
 // nobody has listened to before.
 function warmClip(text: string, lang: SpeechLang, voice: PronunciationVoice): void {
-  void fetch(audioUrl(text, lang, voice), { method: "HEAD" })
-    .then((res) => (res.ok ? null : requestGeneration(text, lang, voice)))
+  const url = audioUrl(text, lang, voice);
+  if (knownClips.has(url)) {
+    loadPlayer(url);
+    return;
+  }
+  void fetch(url, { method: "HEAD" })
+    .then((res) => {
+      if (res.ok) {
+        knownClips.add(url);
+        loadPlayer(url);
+        return null;
+      }
+      return requestGeneration(text, lang, voice);
+    })
     .catch(() => null);
 }
 
 async function playChunk(text: string, lang: SpeechLang, run: number, voice: PronunciationVoice = preferredVoice): Promise<ClipResult> {
   await ensureAudioMode();
   const cachedUrl = audioUrl(text, lang, voice);
-  const cached = await clipExists(cachedUrl);
+  const cached = knownClips.has(cachedUrl) || (await clipExists(cachedUrl));
   if (run !== readAloudRun) return "stopped";
   let result: ClipResult = cached ? await playClipToEnd(cachedUrl) : "failed";
   if (result !== "failed") return result;
@@ -746,7 +796,9 @@ export function readAloud(
 
 // ---- Getting a lesson's audio ready before it starts ----------------
 
-export type SpeechItem = { text: string; lang: SpeechLang };
+/** `raw`: a sentence readAloud() plays as given (no punctuation
+ * stripped), so it is cached under its own text. */
+export type SpeechItem = { text: string; lang: SpeechLang; raw?: boolean };
 
 /**
  * Makes sure every clip in `items` exists (recording the ones nobody has
@@ -767,7 +819,7 @@ export async function preloadSpeech(
   const voice = preferredVoice;
   const jobs = new Map<string, { clean: string; lang: SpeechLang }>();
   for (const item of items) {
-    const clean = speechText(item.text, item.lang);
+    const clean = item.raw ? item.text : speechText(item.text, item.lang);
     if (!clean || clean.length > 200 || !HAS_LETTER.test(clean)) continue;
     const lang = voiceLang(item.lang);
     const url = audioUrl(clean, lang, voice);
@@ -802,6 +854,8 @@ export function warmSpeech(items: SpeechItem[]): void {
     if (seen.has(key)) continue;
     seen.add(key);
     if (seen.size > 40) break;
-    prefetchSpeech(item.text, item.lang);
+    if (item.raw) {
+      if (pronunciationEnabled) loadPlayer(audioUrl(item.text, voiceLang(item.lang), preferredVoice));
+    } else prefetchSpeech(item.text, item.lang);
   }
 }

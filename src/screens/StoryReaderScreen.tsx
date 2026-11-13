@@ -5,10 +5,13 @@ import type { AppStackParamList } from "@/navigation/types";
 import { findStory } from "@/lib/stories/registry";
 import { storyKind, toExercises } from "@/lib/stories/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
-import HighlightableText from "@/components/HighlightableText";
+import HighlightableText, { tappableWords } from "@/components/HighlightableText";
+import AudioGate from "@/components/AudioGate";
+import { exerciseSpeech } from "@/lib/lessonAudio";
+import { useAudioPreload } from "@/lib/useAudioPreload";
 import { langForLevelPath, readAloud, speechChunks, stopReadAloud } from "@/lib/speech";
 import { glossKey, glossLookup, storyGlosses, storyKeyWords } from "@/lib/stories/glosses";
-import TapText, { OLD_HANGUL } from "@/components/TapText";
+import TapText, { OLD_HANGUL, spokenPieces } from "@/components/TapText";
 import type { StoryGloss } from "@/lib/stories/types";
 import { useAuth } from "@/lib/auth/AuthContext";
 import { supabase } from "@/lib/supabase/client";
@@ -139,6 +142,22 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       listenFrom(0);
     }
   }
+
+  // Everything the story can say (Listen's sentences, every tappable word,
+  // the key words and the questions) is made ready before it opens, so
+  // nothing on the page waits on a recording or a download.
+  const audio = useAudioPreload(story ? `story/${story.slug}` : null, () => {
+    if (!story) return [];
+    const lang = langForLevelPath(levelPath);
+    const words = story.paragraphs.flatMap(tappableWords).filter((w) => !(korean && OLD_HANGUL.test(w)));
+    return [
+      ...chunks.map((c) => ({ text: c.text, lang, raw: true })),
+      ...(courseConfig ? [...spokenPieces(story.title, lang, "target"), ...spokenPieces(story.subtitle, lang, "mixed")] : []),
+      ...keyWords.flatMap((g) => spokenPieces(g.es, lang, "target")),
+      ...words.map((w) => ({ text: w, lang })),
+      ...exercises.flatMap((e) => exerciseSpeech(e, lang)),
+    ];
+  });
 
   const [answered, setAnswered] = useState<Record<number, boolean>>({});
   const answeredCount = Object.keys(answered).length;
@@ -307,6 +326,14 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
     return (
       <View style={s.center}>
         <Text>Story not found.</Text>
+      </View>
+    );
+  }
+
+  if (!audio.ready) {
+    return (
+      <View style={s.container}>
+        <AudioGate {...audio} />
       </View>
     );
   }

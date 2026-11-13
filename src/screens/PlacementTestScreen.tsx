@@ -8,6 +8,8 @@ import {
   PLACEMENT_PROGRESS_KEY,
   PLACEMENT_TOTAL,
   ROUTER_QUESTIONS,
+  LEVEL_QUESTIONS,
+  PLACEMENT_LEVELS,
   getMissedQuestions,
   nextPlacementQuestion,
   normalizePlacementProgress,
@@ -17,6 +19,8 @@ import {
   type PlacementLevel,
 } from "@/lib/placementTest";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import { exerciseSpeech } from "@/lib/lessonAudio";
+import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import TapText from "@/components/TapText";
 import { SPANISH_LANG } from "@/lib/speech";
 import { updatePrefs } from "@/lib/learnerPrefs";
@@ -77,6 +81,25 @@ export default function PlacementTestScreen({ navigation }: Props) {
     const withoutPending = pendingId ? Object.fromEntries(Object.entries(answers).filter(([id]) => id !== pendingId)) : answers;
     return nextPlacementQuestion(withoutPending);
   }, [answers, pendingId]);
+
+  // Every question's audio is made ready behind the page from the moment
+  // it opens (first questions first), and the question on screen and the
+  // ones that can follow it are loaded into players.
+  useAudioPreload(
+    "placement",
+    () => [...ROUTER_QUESTIONS, ...PLACEMENT_LEVELS.flatMap((l) => LEVEL_QUESTIONS[l])].flatMap((q) => exerciseSpeech(q, SPANISH_LANG)),
+    { background: true }
+  );
+  useWarmSpeech(
+    started,
+    () => {
+      if (!current) return [];
+      const after = nextPlacementQuestion({ ...answers, [current.question.id]: true });
+      const afterMiss = nextPlacementQuestion({ ...answers, [current.question.id]: false });
+      return [current.question, after?.question, afterMiss?.question].flatMap((q) => (q ? exerciseSpeech(q, SPANISH_LANG) : []));
+    },
+    [current, started]
+  );
 
   function scrollTop() {
     scrollRef.current?.scrollTo({ y: 0, animated: false });

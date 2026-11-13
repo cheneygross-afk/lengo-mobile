@@ -2,8 +2,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { View, Text, TextInput, Pressable, ScrollView, StyleSheet, Keyboard } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
-import TapText from "@/components/TapText";
-import { SPANISH_LANG, speak } from "@/lib/speech";
+import TapText, { spokenPieces } from "@/components/TapText";
+import AudioGate from "@/components/AudioGate";
+import { SPANISH_LANG, speak, type SpeechItem } from "@/lib/speech";
+import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import { conjugate, specFor } from "@/lib/conjugation/conjugate";
 import { describeHit, searchVerbs, warmUpLookup } from "@/lib/conjugation/lookup";
 import { VERB_SPECS } from "@/lib/conjugation/verbs";
@@ -158,9 +160,29 @@ function TenseCard({ verb, tense }: { verb: NonNullable<ReturnType<typeof conjug
   );
 }
 
+// Every word the verb's tables can say, most-used tenses first.
+function tableSpeech(verb: NonNullable<ReturnType<typeof conjugate>>): SpeechItem[] {
+  const out: SpeechItem[] = [...spokenPieces(verb.infinitive, SPANISH_LANG, "target")];
+  for (const form of [verb.gerund, verb.participle]) if (form) out.push(...spokenPieces(form, SPANISH_LANG, "target"));
+  for (const tense of [...GROUPS.flatMap((g) => g.tenses), ...RARE]) {
+    for (const p of personsOf(tense)) {
+      const form = verb.tenses[tense][p];
+      if (form) out.push(...spokenPieces(form, SPANISH_LANG, "target"));
+      out.push(...spokenPieces(personLabel(p, tense), SPANISH_LANG, "target"));
+    }
+    out.push(...spokenPieces(TENSES.find((t) => t.id === tense)!.es, SPANISH_LANG, "target"));
+  }
+  if (verb.en) out.push(...spokenPieces(verb.en, SPANISH_LANG, "english"));
+  for (const n of verb.notes) out.push(...spokenPieces(n, SPANISH_LANG, "mixed"));
+  return out;
+}
+
 function VerbTables({ infinitive, onPick }: { infinitive: string; onPick: (inf: string) => void }) {
   const [showRare, setShowRare] = useState(false);
-  const verb = conjugate(infinitive);
+  const verb = useMemo(() => conjugate(infinitive), [infinitive]);
+  // The verb's whole table is made ready behind the page as it opens, so
+  // every form plays at once when tapped.
+  useAudioPreload(verb ? verb.infinitive : null, () => (verb ? tableSpeech(verb) : []), { background: true });
   if (!verb) return <Text style={s.muted}>That doesn't look like a Spanish infinitive.</Text>;
   const canToggle = specFor(verb.base)?.prn === "also";
   return (
@@ -231,6 +253,19 @@ function VerbTables({ infinitive, onPick }: { infinitive: string; onPick: (inf: 
 
 // ---- Drill -------------------------------------------------------------
 
+// What a drill question can say: its words when tapped, and the answer
+// read out on Check (whole, as speak() plays it, and word by word).
+function questionSpeech(q: DrillQuestion): SpeechItem[] {
+  const shown = q.answers.slice(0, q.tense === "impNeg" ? 1 : 2).join(" / ");
+  return [
+    { text: q.answers[0], lang: SPANISH_LANG },
+    ...spokenPieces(q.infinitive, SPANISH_LANG, "target"),
+    ...spokenPieces(q.subject + (q.tense === "impNeg" ? " (no…)" : ""), SPANISH_LANG, "target"),
+    ...spokenPieces(shown, SPANISH_LANG, "target"),
+    ...(q.en ? spokenPieces(q.en, SPANISH_LANG, "english") : []),
+  ];
+}
+
 type SetChoice = VerbSetId | `level:${string}`;
 type Result = { q: DrillQuestion; typed: string; correct: boolean; note?: string };
 const COUNTS = [10, 20, 30, 50];
@@ -260,12 +295,23 @@ function Drill() {
   const [checked, setChecked] = useState<Result | null>(null);
   const [empty, setEmpty] = useState(false);
 
+  const [drillId, setDrillId] = useState(0);
+
   const verbs = set.startsWith("level:") ? LEVEL_VERBS[set.slice(6)] ?? [] : verbsInSet(set as VerbSetId);
+
+  // Every clip the drill can play (the question words and the answer
+  // read out on Check) is made ready before the first question shows.
+  const audio = useAudioPreload(questions ? `drill-${drillId}` : null, () => (questions ?? []).flatMap(questionSpeech));
+  useWarmSpeech(audio.ready, () => [questions?.[index], questions?.[index + 1]].flatMap((q) => (q ? questionSpeech(q) : [])), [
+    questions,
+    index,
+  ]);
 
   function start() {
     const qs = makeDrill({ tenses, persons, verbs, count, seed: Date.now() });
     setEmpty(qs.length === 0);
     if (qs.length === 0) return;
+    setDrillId((n) => n + 1);
     setQuestions(qs);
     setIndex(0);
     setResults([]);
@@ -287,6 +333,14 @@ function Drill() {
     setChecked(null);
     setTyped("");
     setIndex((i) => i + 1);
+  }
+
+  if (questions && index < questions.length && !audio.ready) {
+    return (
+      <ScrollView style={s.flex} contentContainerStyle={s.content}>
+        <AudioGate {...audio} accent={BRAND} style={{ margin: 0 }} />
+      </ScrollView>
+    );
   }
 
   if (questions && index < questions.length) {

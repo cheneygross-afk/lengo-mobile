@@ -14,6 +14,9 @@ import { authoredQuestions } from "@/lib/lessons/drill";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import type { Exercise } from "@/lib/lessons/types";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import AudioGate from "@/components/AudioGate";
+import { exerciseSpeech } from "@/lib/lessonAudio";
+import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import StudyCreditNote from "@/components/StudyCreditNote";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
 import { requiresVosotros } from "@/lib/vosotros";
@@ -195,6 +198,7 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
   const [credit, setCredit] = useState<CreditResult | null>(null);
   const mixLeftRef = useRef<Record<string, { left: number; allCorrect: boolean }>>({});
   const answeredRef = useRef(0);
+  const [session, setSession] = useState(0);
 
   const sheetAnim = useRef(new Animated.Value(0)).current;
   useEffect(() => {
@@ -259,6 +263,7 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
       await finish();
       return;
     }
+    setSession((n) => n + 1);
     setPhase("drilling");
   }
 
@@ -334,6 +339,16 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
   }
 
   const current = queue[0];
+  const itemLang = (item: Item) =>
+    item.kind === "concept" ? langForLevelPath(item.levelPath) : french ? FRENCH_LANG : german ? GERMAN_LANG : portuguese ? PORTUGUESE_LANG : korean ? KOREAN_LANG : italian ? ITALIAN_LANG : LANG;
+  // Every question's audio is made ready before the first one shows.
+  const audio = useAudioPreload(phase === "drilling" ? `today-${session}` : null, () =>
+    queue.flatMap((q) => exerciseSpeech(q.exercise, itemLang(q)))
+  );
+  useWarmSpeech(audio.ready && phase === "drilling", () => queue.slice(0, 2).flatMap((q) => exerciseSpeech(q.exercise, itemLang(q))), [
+    queue,
+    phase,
+  ]);
   const sheetTranslateY = sheetAnim.interpolate({ inputRange: [0, 1], outputRange: [260, 0] });
   const questionCount = counts ? counts.missed + counts.mix : 0;
 
@@ -393,7 +408,9 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
           </View>
         )}
 
-        {phase === "drilling" && current && (
+        {phase === "drilling" && current && !audio.ready && <AudioGate {...audio} style={{ margin: 0 }} />}
+
+        {phase === "drilling" && current && audio.ready && (
           <View>
             <Text style={s.badge}>
               {queue.length} left · {current.kind === "missed" ? "missed question" : "earlier lesson"}
@@ -405,7 +422,7 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
-              lang={current.kind === "concept" ? langForLevelPath(current.levelPath) : french ? FRENCH_LANG : german ? GERMAN_LANG : portuguese ? PORTUGUESE_LANG : korean ? KOREAN_LANG : italian ? ITALIAN_LANG : LANG}
+              lang={itemLang(current)}
               onChecked={(correct, explanation) => handleChecked(current, correct, explanation)}
             />
           </View>
