@@ -11,6 +11,9 @@ import {
 } from "@/lib/lessons/missedQuestions";
 import { markReviewBatchDone } from "@/lib/lessons/reviewCadence";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import AudioGate from "@/components/AudioGate";
+import { exerciseSpeech } from "@/lib/lessonAudio";
+import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import { creditStudy } from "@/lib/studyDays";
 import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit";
 import { langForLevelPath } from "@/lib/speech";
@@ -151,6 +154,16 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
   }, [phase, queue.length, feedback]);
 
   const current = queue[0];
+  const lang = langForLevelPath(levelPath);
+  // The review's audio is made ready from the intro on, so it is usually
+  // done before Start; if not, a short "Getting the audio ready" wait.
+  const audio = useAudioPreload(phase === "loading" ? null : `${levelPath}/${batch}`, () =>
+    queue.flatMap((q) => exerciseSpeech(q.exercise, lang))
+  );
+  useWarmSpeech(audio.ready && phase === "drilling", () => queue.slice(0, 2).flatMap((q) => exerciseSpeech(q.exercise, lang)), [
+    queue,
+    phase,
+  ]);
   const sheetTranslateY = sheetAnim.interpolate({ inputRange: [0, 1], outputRange: [260, 0] });
 
   if (phase === "loading") return <View style={s.screen} />;
@@ -177,7 +190,9 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
           </View>
         )}
 
-        {phase === "drilling" && current && (
+        {phase === "drilling" && current && !audio.ready && <AudioGate {...audio} style={{ margin: 0 }} />}
+
+        {phase === "drilling" && current && audio.ready && (
           <View>
             <Text style={s.badge}>{queue.length} left · from Lesson {current.lessonNumber}</Text>
             <ExerciseBlock
@@ -186,7 +201,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
               index={0}
               hideIndexLabel
               showInlineFeedback={false}
-              lang={langForLevelPath(levelPath)}
+              lang={lang}
               onChecked={(correct, explanation) => handleChecked(current, correct, explanation)}
             />
           </View>

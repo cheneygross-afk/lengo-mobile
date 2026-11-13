@@ -78,6 +78,14 @@ type Props = {
 // so offsets computed from these tokens line up exactly with the plain-
 // text offsets the website's selection-based offsets would produce for
 // the same substring.
+/** The words tapping `text` can say (one clip per whitespace-separated
+ * word), for getting their audio ready ahead (useAudioPreload). */
+export function tappableWords(text: string): string[] {
+  return tokenize(text)
+    .filter((t) => t.isWord)
+    .map((t) => t.value);
+}
+
 function tokenize(text: string): Token[] {
   const tokens: Token[] = [];
   const re = /\S+|\s+/g;

@@ -11,6 +11,9 @@ import {
 } from "@/lib/lessons/levels";
 import { markLessonCompleted } from "@/lib/lessons/completion";
 import ExerciseBlock from "@/components/ExerciseBlock";
+import AudioGate from "@/components/AudioGate";
+import { exerciseSpeech } from "@/lib/lessonAudio";
+import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import { langForLevelPath } from "@/lib/speech";
 import { LESSON_SOURCES, type LessonModuleKey } from "@/lib/lessons/registry";
 import { curriculumFor } from "@/lib/lessons/curricula";
@@ -73,6 +76,17 @@ export default function UnitTestScreen({ route, navigation }: Props) {
   const [correctCount, setCorrectCount] = useState(0);
   const correctRef = useRef(0);
 
+  // The questions' audio is made ready from the intro on, so it is usually
+  // done before Start; if not, a short "Getting the audio ready" wait.
+  const audio = useAudioPreload(questions.length > 0 ? `${levelPath}/${unitId}/${attempt}` : null, () =>
+    questions.flatMap((q) => exerciseSpeech(q.exercise, lang))
+  );
+  useWarmSpeech(
+    audio.ready && phase === "testing",
+    () => [questions[index], questions[index + 1]].flatMap((q) => (q ? exerciseSpeech(q.exercise, lang) : [])),
+    [questions, index, phase]
+  );
+
   if (!unit) {
     return (
       <View style={s.screen}>
@@ -131,7 +145,9 @@ export default function UnitTestScreen({ route, navigation }: Props) {
           </View>
         )}
 
-        {phase === "testing" && current && (
+        {phase === "testing" && current && !audio.ready && <AudioGate {...audio} style={{ margin: 0 }} />}
+
+        {phase === "testing" && current && audio.ready && (
           <View>
             <Text style={s.badge}>
               Question {index + 1} of {total}
