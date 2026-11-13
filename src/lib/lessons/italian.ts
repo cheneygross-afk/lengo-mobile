@@ -135,37 +135,14 @@ export type ItalianLevelData = {
   units: ModuleUnit[];
 };
 
-async function importLevel(key: ItalianLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
-  switch (key) {
-    case "a1": {
-      const m = await import("./it-a1");
-      return { lessons: m.IT_A1_LESSONS, units: m.IT_A1_UNITS };
-    }
-    case "a2": {
-      const m = await import("./it-a2");
-      return { lessons: m.IT_A2_LESSONS, units: m.IT_A2_UNITS };
-    }
-    case "b1": {
-      const m = await import("./it-b1");
-      return { lessons: m.IT_B1_LESSONS, units: m.IT_B1_UNITS };
-    }
-    case "b2": {
-      const m = await import("./it-b2");
-      return { lessons: m.IT_B2_LESSONS, units: m.IT_B2_UNITS };
-    }
-    case "c1": {
-      const m = await import("./it-c1");
-      return { lessons: m.IT_C1_LESSONS, units: m.IT_C1_UNITS };
-    }
-    case "c2": {
-      const m = await import("./it-c2");
-      return { lessons: m.IT_C2_LESSONS, units: m.IT_C2_UNITS };
-    }
-    case "culture": {
-      const m = await import("./it-culture");
-      return { lessons: m.IT_CULTURE_LESSONS, units: m.IT_CULTURE_UNITS };
-    }
-  }
+// The app is Spanish-only for now (APP_LANGUAGES in HomeScreen), so the
+// Italian lesson files are left out of the app: with every course built in,
+// the app's JavaScript passed 200 MB, too big to ship as an over-the-air
+// update. Every Italian level loads empty. To bring the course back, restore
+// this function's dynamic imports from git history (before lengo-mobile
+// #151) and add the course to APP_LANGUAGES.
+async function importLevel(_key: ItalianLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
+  return { lessons: [], units: [] };
 }
 
 const loaded = new Map<ItalianLevelKey, ItalianLevelData>();

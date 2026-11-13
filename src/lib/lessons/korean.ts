@@ -144,41 +144,14 @@ export type KoreanLevelData = {
   units: ModuleUnit[];
 };
 
-async function importLevel(key: KoreanLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
-  switch (key) {
-    case "hangul": {
-      const m = await import("./ko-hangul");
-      return { lessons: m.KO_HANGUL_LESSONS, units: [] };
-    }
-    case "a1": {
-      const m = await import("./ko-a1");
-      return { lessons: m.KO_A1_LESSONS, units: m.KO_A1_UNITS };
-    }
-    case "a2": {
-      const m = await import("./ko-a2");
-      return { lessons: m.KO_A2_LESSONS, units: m.KO_A2_UNITS };
-    }
-    case "b1": {
-      const m = await import("./ko-b1");
-      return { lessons: m.KO_B1_LESSONS, units: m.KO_B1_UNITS };
-    }
-    case "b2": {
-      const m = await import("./ko-b2");
-      return { lessons: m.KO_B2_LESSONS, units: m.KO_B2_UNITS };
-    }
-    case "c1": {
-      const m = await import("./ko-c1");
-      return { lessons: m.KO_C1_LESSONS, units: m.KO_C1_UNITS };
-    }
-    case "c2": {
-      const m = await import("./ko-c2");
-      return { lessons: m.KO_C2_LESSONS, units: m.KO_C2_UNITS };
-    }
-    case "culture": {
-      const m = await import("./ko-culture");
-      return { lessons: m.KO_CULTURE_LESSONS, units: m.KO_CULTURE_UNITS };
-    }
-  }
+// The app is Spanish-only for now (APP_LANGUAGES in HomeScreen), so the
+// Korean lesson files are left out of the app: with every course built in,
+// the app's JavaScript passed 200 MB, too big to ship as an over-the-air
+// update. Every Korean level loads empty. To bring the course back, restore
+// this function's dynamic imports from git history (before lengo-mobile
+// #151) and add the course to APP_LANGUAGES.
+async function importLevel(_key: KoreanLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
+  return { lessons: [], units: [] };
 }
 
 const loaded = new Map<KoreanLevelKey, KoreanLevelData>();

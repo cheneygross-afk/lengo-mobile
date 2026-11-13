@@ -123,33 +123,14 @@ export type PortugueseLevelData = {
   units: ModuleUnit[];
 };
 
-async function importLevel(key: PortugueseLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
-  switch (key) {
-    case "a1": {
-      const m = await import("./pt-a1");
-      return { lessons: m.PT_A1_LESSONS, units: m.PT_A1_UNITS };
-    }
-    case "a2": {
-      const m = await import("./pt-a2");
-      return { lessons: m.PT_A2_LESSONS, units: m.PT_A2_UNITS };
-    }
-    case "b1": {
-      const m = await import("./pt-b1");
-      return { lessons: m.PT_B1_LESSONS, units: m.PT_B1_UNITS };
-    }
-    case "b2": {
-      const m = await import("./pt-b2");
-      return { lessons: m.PT_B2_LESSONS, units: m.PT_B2_UNITS };
-    }
-    case "c1": {
-      const m = await import("./pt-c1");
-      return { lessons: m.PT_C1_LESSONS, units: m.PT_C1_UNITS };
-    }
-    case "c2": {
-      const m = await import("./pt-c2");
-      return { lessons: m.PT_C2_LESSONS, units: m.PT_C2_UNITS };
-    }
-  }
+// The app is Spanish-only for now (APP_LANGUAGES in HomeScreen), so the
+// Portuguese lesson files are left out of the app: with every course built in,
+// the app's JavaScript passed 200 MB, too big to ship as an over-the-air
+// update. Every Portuguese level loads empty. To bring the course back, restore
+// this function's dynamic imports from git history (before lengo-mobile
+// #151) and add the course to APP_LANGUAGES.
+async function importLevel(_key: PortugueseLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
+  return { lessons: [], units: [] };
 }
 
 const loaded = new Map<PortugueseLevelKey, PortugueseLevelData>();
