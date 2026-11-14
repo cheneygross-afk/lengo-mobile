@@ -12,7 +12,15 @@ export default function App() {
   // The wordmark font (Pacifico, as in the web app's header) and the
   // Fraunces heading face the website uses. Block on them loading so no
   // screen ever flashes a fallback system font first.
-  const [fontsLoaded] = useFonts({ Pacifico_400Regular, Fraunces_600SemiBold, Fraunces_700Bold });
+  const [fontsLoaded] = useFonts({
+    Pacifico_400Regular,
+    Fraunces_600SemiBold,
+    Fraunces_700Bold,
+    // The motto, "Jump in." (user, 2026-11-14). Bundled as a plain asset
+    // (OFL, assets/fonts/LilitaOne-OFL.txt) rather than a new package, so
+    // the app's native fingerprint doesn't change and it ships by EAS Update.
+    LilitaOne_400Regular: require("./assets/fonts/LilitaOne_400Regular.ttf"),
+  });
 
   if (!fontsLoaded) {
     return <View style={{ flex: 1, backgroundColor: "#FAF7F2" }} />;

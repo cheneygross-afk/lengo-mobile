@@ -2,7 +2,7 @@
 // paper background, deep red, saffron and sea accents, Fraunces for
 // headings and Pacifico for the wordmark. Screens pull from here so the
 // app and the site read as one product.
-import { Platform, type ViewStyle } from "react-native";
+import { Platform, type TextStyle, type ViewStyle } from "react-native";
 
 export const colors = {
   background: "#FAF7F2",
@@ -31,7 +31,19 @@ export function levelColor(index: number): string {
 export const fonts = {
   display: "Fraunces_600SemiBold",
   displayBold: "Fraunces_700Bold",
+  // The motto, "Jump in.", set like the QR sticker (user, 2026-11-14):
+  // Lilita One with a forward slant (see mottoStyle).
+  motto: "LilitaOne_400Regular",
   logo: "Pacifico_400Regular",
+};
+
+// The motto, "Jump in.", as on the QR sticker: Lilita One leaning forward
+// about 9 degrees (it has no italic, so the slant is a skew).
+export const mottoStyle: TextStyle = {
+  fontFamily: "LilitaOne_400Regular",
+  fontSize: 26,
+  color: "#8B0000",
+  transform: [{ skewX: "-9deg" }],
 };
 
 // The soft lift the website's white cards have.
