@@ -42,6 +42,7 @@ export default function LoginScreen({ navigation }: Props) {
       <View style={styles.container}>
         <View style={styles.brand}>
           <Text style={styles.wordmark}>Deep End</Text>
+          <Text style={styles.motto}>Jump in.</Text>
           <Text style={styles.tagline}>Log in to keep going.</Text>
         </View>
 
@@ -127,6 +128,8 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
     color: "#8B0000",
   },
+  // The Deep End motto, in Fraunces bold italic like the QR sticker.
+  motto: { fontFamily: "Fraunces_700Bold_Italic", fontSize: 22, color: "#2A1513", marginTop: -6 },
   tagline: { fontSize: 14, color: "#2A151399", marginTop: 6 },
   form: { gap: 14 },
   input: {

@@ -31,6 +31,8 @@ export function levelColor(index: number): string {
 export const fonts = {
   display: "Fraunces_600SemiBold",
   displayBold: "Fraunces_700Bold",
+  // The motto, "Jump in.", set like the QR sticker (user, 2026-11-14).
+  motto: "Fraunces_700Bold_Italic",
   logo: "Pacifico_400Regular",
 };
 
