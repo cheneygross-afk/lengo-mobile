@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AuthStackParamList } from "@/navigation/types";
+import { trackEvent } from "@/lib/analytics";
 import { supabase } from "@/lib/supabase/client";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Signup">;
@@ -58,6 +59,7 @@ export default function SignupScreen({ navigation }: Props) {
     }
     // Fire-and-forget: never hold up signup on it. Without a session
     // (email confirmation on) the website's hourly run sends it instead.
+    if (!error) trackEvent("signup_completed", { emailConfirmationRequired: !data.session });
     if (data.session) {
       fetch(WELCOME_EMAIL_API_URL, {
         method: "POST",

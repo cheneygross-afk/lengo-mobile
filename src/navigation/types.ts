@@ -212,4 +212,6 @@ export type AppStackParamList = {
 export type AuthStackParamList = {
   Login: undefined;
   Signup: undefined;
+  // A free lesson before making an account (LoginScreen's "Try a lesson first").
+  TryLesson: { slug: string };
 };
