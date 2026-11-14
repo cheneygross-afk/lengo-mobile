@@ -1,4 +1,4 @@
-// Settings > Emails: the daily study reminder and first-week tips
+// Settings > Emails: the "been away" reminders and the tips / check-ins
 // toggles (both on by default), the same profiles columns as the
 // website's Settings. Reads and saves on its own, and hides itself until
 // those columns exist (supabase/schema_retention.sql in the website repo).
@@ -9,8 +9,8 @@ import { supabase } from "@/lib/supabase/client";
 type Column = "study_reminder_emails" | "tips_emails";
 
 const ROWS: { column: Column; label: string; body: string }[] = [
-  { column: "study_reminder_emails", label: "Daily study reminder", body: "One email in the evening, only on days you haven't studied yet." },
-  { column: "tips_emails", label: "Tips for getting started", body: "A few emails in your first week about what to try next." },
+  { column: "study_reminder_emails", label: "Reminders when you've been away", body: "A friendly nudge or two if you haven't studied in a few days." },
+  { column: "tips_emails", label: "Tips and check-ins", body: "A couple of tips in your first week, then an occasional note from Cheney." },
 ];
 
 export default function EmailPrefs() {
