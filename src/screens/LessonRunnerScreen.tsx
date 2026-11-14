@@ -22,7 +22,9 @@ import { displayTitle } from "@/lib/lessons/levels";
 import { unitOf } from "@/lib/lessons/units";
 import { LEVEL_EXIT_SLUGS } from "@/lib/lessons/sequencing";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
-import { lessonFlow, type BodyPiece, type Stage } from "@/lib/lessons/lessonFlow";
+import { lessonFlow, stageOf, type BodyPiece, type Stage } from "@/lib/lessons/lessonFlow";
+import { capLesson, coreQuestions, practiceRound } from "@/lib/lessons/practiceCap";
+import { trackEvent } from "@/lib/analytics";
 import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import LessonVideoLink from "@/components/LessonVideoLink";
@@ -129,7 +131,12 @@ type Step =
       // Where it sits on crawl, walk, run (lessonFlow.ts); "try" = straight
       // after the card it tests.
       stage?: Stage | "try";
+      // A keep-practicing question after the lesson's last one
+      // (practiceCap.ts): practice on top, not part of the score.
+      extra?: boolean;
     }
+  // After the last question (at most 20): keep practicing or move on.
+  | { kind: "choice" }
   | { kind: "complete" };
 
 export default function LessonRunnerScreen({ route, navigation }: Props) {
@@ -220,8 +227,14 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     () => (variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) ? requiresVosotros : () => false),
     [variety, lesson]
   );
-  const steps = useMemo<Step[]>(() => {
-    if (!lesson || dueMissed === null || variety === null) return [];
+  // At most 20 questions (practiceCap.ts, shared with the website); the
+  // rest wait as keep-practicing questions. Same question objects as the
+  // full lesson, so ids still follow its authoredQuestions() order.
+  const capped = useMemo(() => (lesson ? capLesson(lesson) : null), [lesson]);
+  const baseSteps = useMemo<Step[]>(() => {
+    if (!lesson || !capped || dueMissed === null || variety === null) return [];
+    const core = capped.core;
+    const idOf = new Map(authoredQuestions(lesson).map((e, i) => [e, i] as const));
     const own: QuestionSource = { slug: lesson.slug, number: lesson.number, title: lesson.title };
     const out: Step[] = [];
     // q numbers the questions shown; authored counts every question in
@@ -230,7 +243,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     let q = 0;
     let authored = 0;
     const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean, at?: number, stage?: Stage | "try") => {
-      const index = at ?? authored++;
+      const index = at ?? idOf.get(exercise) ?? authored;
+      authored++;
       if (skipExercise(exercise)) return;
       out.push({
         kind: "exercise",
@@ -248,9 +262,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // Level tests keep their reading screens; every other lesson goes in
     // short portions, each tried straight away, then practice from
     // warm-up to on your own (lessonFlow.ts, shared with the website).
-    if (LEVEL_TEST_SLUGS.has(lesson.slug) || lesson.sections.length === 0) {
-      if (lesson.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
-      lesson.sections.forEach((section, si) => {
+    if (LEVEL_TEST_SLUGS.has(lesson.slug) || core.sections.length === 0) {
+      if (core.sections.length === 0) out.push({ kind: "teach", sectionIndex: null, first: true });
+      core.sections.forEach((section, si) => {
         out.push({ kind: "teach", sectionIndex: si, first: si === 0 });
         // Level tests (level-tests.ts): a reading text's questions show the text.
         const passage =
@@ -259,19 +273,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             : undefined;
         section.checkpoint?.forEach((e) => pushOwn(e, passage));
       });
-      lesson.exercises.forEach((e) => pushOwn(e, undefined, lesson.unitReview));
+      core.exercises.forEach((e) => pushOwn(e, undefined, lesson.unitReview));
     } else {
-      // Question ids follow authoredQuestions() order: every checkpoint in
-      // section order, then the exercises.
-      const before: number[] = [];
-      let n = 0;
-      lesson.sections.forEach((sec) => {
-        before.push(n);
-        n += sec.checkpoint?.length ?? 0;
-      });
-      for (const st of lessonFlow(lesson)) {
+      // Question ids follow the full lesson's authoredQuestions() order
+      // (idOf), whichever of its questions the cap keeps.
+      for (const st of lessonFlow(core)) {
         if (st.kind === "learn") {
-          const all = lesson.sections[st.section].examples ?? [];
+          const all = core.sections[st.section].examples ?? [];
           out.push({
             kind: "teach",
             sectionIndex: st.section,
@@ -279,8 +287,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             card: { part: st.part, parts: st.parts, body: st.body, examples: st.examples.map((e) => all.indexOf(e)) },
           });
         } else {
-          const at = st.ref.section === null ? n + st.ref.index : before[st.ref.section] + st.ref.index;
-          pushOwn(st.exercise, undefined, lesson.unitReview, at, st.stage);
+          pushOwn(st.exercise, undefined, lesson.unitReview, idOf.get(st.exercise), st.stage);
         }
       }
     }
@@ -288,7 +295,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       lesson,
       trackLessons,
       dueMissed,
-      MIN_DRILL_QUESTIONS - authoredQuestions(lesson).filter((ex) => !skipExercise(ex)).length,
+      MIN_DRILL_QUESTIONS - authoredQuestions(core).filter((ex) => !skipExercise(ex)).length,
       skipExercise
     );
     review.forEach((r, i) => {
@@ -303,14 +310,21 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       });
       q++;
     });
-    out.push({ kind: "complete" });
     return out;
-  }, [lesson, trackLessons, dueMissed, variety, skipExercise]);
+  }, [lesson, capped, trackLessons, dueMissed, variety, skipExercise]);
+  // Keep-practicing rounds the learner chose, inserted before the choice.
+  const [extraSteps, setExtraSteps] = useState<Step[]>([]);
+  const practiced = useRef(new Set<Exercise>());
+  const missedRef = useRef(new Set<Exercise>());
+  const steps = useMemo<Step[]>(
+    () => (baseSteps.length ? [...baseSteps, ...extraSteps, { kind: "choice" }, { kind: "complete" }] : []),
+    [baseSteps, extraSteps]
+  );
   const lessonNote =
     variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) && isVosotrosFocused(lesson)
       ? vosotrosNote(lesson.level)
       : null;
-  const questionCount = steps.filter((st) => st.kind === "exercise").length;
+  const questionCount = steps.filter((st) => st.kind === "exercise" && !st.extra).length;
   // The lesson after this one in its track, for "continue anyway" when
   // the learner didn't reach the pass mark.
   const nextLesson = useMemo(() => {
@@ -323,6 +337,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const poolResultsRef = useRef<Map<string, boolean>>(new Map());
 
   const [stepIndex, setStepIndex] = useState(0);
+  const nextRound = useMemo(
+    () => (capped ? practiceRound(capped.extras, coreQuestions(capped.core), missedRef.current, practiced.current) : []),
+    // practiced/missed change with each round and answer.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [capped, extraSteps, stepIndex]
+  );
   const [feedback, setFeedback] = useState<{ correct: boolean; explanation: string; title?: string } | null>(null);
   // Listen-first mode (Spanish only): questions play their Spanish instead
   // of showing it until answered. Remembered on this device.
@@ -545,6 +565,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
 
   // The step on screen and the next one are loaded into players, so their
   // taps play at once.
+  const startedTracked = useRef<string | null>(null);
+  useEffect(() => {
+    if (!audioReady || !lesson || startedTracked.current === lesson.slug) return;
+    startedTracked.current = lesson.slug;
+    trackEvent("lesson_started", { level: levelPath, lesson_slug: lesson.slug }, `/lessons/${levelPath}/${lesson.slug}`);
+  }, [audioReady, lesson, levelPath]);
+
   useEffect(() => {
     if (!audioReady) return;
     warmSpeech([...stepSpeech(steps[stepIndex]), ...stepSpeech(steps[stepIndex + 1])]);
@@ -552,7 +579,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   }, [audioReady, stepIndex, steps]);
 
   useEffect(() => {
-    if (currentStep?.kind === "complete" && !finishedRef.current && lesson) {
+    // The lesson counts as done at the choice after its last question;
+    // keep-practicing rounds are on top.
+    if ((currentStep?.kind === "choice" || currentStep?.kind === "complete") && !finishedRef.current && lesson) {
       finishedRef.current = true;
       void finish();
     }
@@ -604,6 +633,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       setFinishing(false);
       return;
     }
+    trackEvent("lesson_completed", { level: levelPath, lesson_slug: lesson.slug }, `/lessons/${levelPath}/${lesson.slug}`);
     const { wasAlreadyDone } = await markLessonCompleted(levelPath, lesson.slug, lesson.number);
     await recordLessonPass(levelPath, lesson);
     // Into the daily review mix, so this lesson's grammar comes back in a
@@ -631,9 +661,37 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     setStepIndex((i) => Math.min(i + 1, steps.length - 1));
   }
 
+  // Keep practicing: a round of 4-6 questions (practiceCap.ts) slotted in
+  // where the choice is now, so the next screen is its first question.
+  function keepPracticing() {
+    if (!nextRound.length) return;
+    stopAllAudio();
+    for (const e of nextRound) practiced.current.add(e);
+    const roundNo = extraSteps.filter((st) => st.kind === "exercise" && st.number === 1).length + 1;
+    const round: Step[] = nextRound.map((exercise, i) => ({
+      kind: "exercise",
+      exercise,
+      id: `${lesson?.slug}#extra`,
+      key: `extra-${roundNo}-${i}`,
+      number: i + 1,
+      source: { slug: lesson?.slug ?? "", number: lesson?.number ?? 0, title: lesson?.title ?? "" },
+      stage: stageOf(exercise),
+      extra: true,
+    }));
+    setExtraSteps((prev) => [...prev, ...round]);
+  }
+  function moveOn() {
+    stopAllAudio();
+    setFeedback(null);
+    setStepIndex(steps.length - 1);
+  }
+
   function handleRedo() {
     stopAllAudio();
     finishedRef.current = false;
+    setExtraSteps([]);
+    practiced.current = new Set();
+    missedRef.current = new Set();
     setCorrectCount(0);
     setInARow(0);
     setToday(null);
@@ -676,7 +734,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   }
 
   function handleExit() {
-    if (stepIndex === 0 || currentStep?.kind === "complete") {
+    if (stepIndex === 0 || currentStep?.kind === "complete" || currentStep?.kind === "choice" || finishedRef.current) {
       navigation.goBack();
       return;
     }
@@ -807,7 +865,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         {audioReady && currentStep?.kind === "exercise" && (
           <View>
             <Text style={s.badge}>
-              {currentStep.stage ? `${STAGE_LABELS[currentStep.stage]} · ` : ""}Question {currentStep.number} of {questionCount}
+              {currentStep.extra
+                ? `🔁 Extra practice · ${currentStep.number} of ${nextRoundSize(extraSteps)}`
+                : `${currentStep.stage ? `${STAGE_LABELS[currentStep.stage]} · ` : ""}Question ${currentStep.number} of ${questionCount}`}
               {currentStep.review ? ` · Review from lesson ${currentStep.source.number}` : ""}
               {currentStep.unitQuiz ? " · Unit quiz" : ""}
             </Text>
@@ -828,6 +888,16 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               level={lesson.level}
               listenFirst={listenFirstPref && isSpanishLessonLevel(lesson.level)}
               onChecked={(correct, explanation, title) => {
+                if (currentStep.extra) {
+                  if (correct) missedRef.current.delete(currentStep.exercise);
+                  else missedRef.current.add(currentStep.exercise);
+                  setInARow((n) => (correct ? n + 1 : 0));
+                  const from = lesson;
+                  if (from) void recordLessonAttempt(lazyPath ? levelPath : LESSON_SOURCES[moduleKeyForLesson(from)].levelPath, from, currentStep.exercise, correct);
+                  setFeedback({ correct, explanation, title });
+                  return;
+                }
+                if (!correct && currentStep.source.slug === lesson?.slug) missedRef.current.add(currentStep.exercise);
                 if (correct) setCorrectCount((c) => c + 1);
                 setInARow((n) => (correct ? n + 1 : 0));
                 if (questionCount >= 6) {
@@ -860,6 +930,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
                 setFeedback({ correct, explanation, title });
               }}
             />
+            {!currentStep.extra && (
             <Pressable
               style={s.flagBtn}
               hitSlop={8}
@@ -869,6 +940,29 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               <Text style={s.flagBtnText}>
                 {flaggedIds.has(currentStep.id) ? "🚩 Sent to review" : "🏳 Send to review"}
               </Text>
+            </Pressable>
+            )}
+          </View>
+        )}
+
+        {audioReady && currentStep?.kind === "choice" && (
+          <PracticeChoice
+            accent={accent}
+            moreCount={nextRound.length}
+            afterRound={extraSteps.length > 0}
+            onKeepPracticing={keepPracticing}
+            onMoveOn={moveOn}
+          />
+        )}
+
+        {audioReady && currentStep?.kind === "complete" && !loggedIn && (
+          // Tried a lesson before making an account (Login's "Try a lesson
+          // first"): the account is what saves it and opens the next one.
+          <View style={s.choiceCard}>
+            <Text style={s.choiceTitle}>Save your progress</Text>
+            <Text style={s.choiceBody}>Create your free account to keep this lesson and go on to the next one.</Text>
+            <Pressable style={[s.choicePrimary, { backgroundColor: accent }]} onPress={() => navigation.navigate("Signup" as never)}>
+              <Text style={s.choicePrimaryText}>Create my free account →</Text>
             </Pressable>
           </View>
         )}
@@ -1261,6 +1355,50 @@ function CompleteStep({
   );
 }
 
+// How many questions the latest keep-practicing round has.
+function nextRoundSize(extra: Step[]): number {
+  for (let i = extra.length - 1; i >= 0; i--) {
+    const st = extra[i];
+    if (st.kind === "exercise" && st.number === 1) return extra.length - i;
+  }
+  return extra.length;
+}
+
+// After the lesson's last question: keep practicing the idea (a round of
+// 4-6 more) or move on to the end of the lesson.
+function PracticeChoice({
+  accent,
+  moreCount,
+  afterRound,
+  onKeepPracticing,
+  onMoveOn,
+}: {
+  accent: string;
+  moreCount: number;
+  afterRound: boolean;
+  onKeepPracticing: () => void;
+  onMoveOn: () => void;
+}) {
+  return (
+    <View style={s.choiceCard}>
+      <Text style={s.choiceTitle}>{afterRound ? "Nice work. More practice?" : "Want more practice on this?"}</Text>
+      <Text style={s.choiceBody}>
+        {moreCount > 0
+          ? `Do ${moreCount} more questions on the same idea, or move on when you feel ready.`
+          : "That's all the practice this lesson has. On to the next one!"}
+      </Text>
+      {moreCount > 0 && (
+        <Pressable style={[s.choiceSecondary, { borderColor: accent }]} onPress={onKeepPracticing}>
+          <Text style={[s.choiceSecondaryText, { color: accent }]}>🔁 Keep practicing ({moreCount} more)</Text>
+        </Pressable>
+      )}
+      <Pressable style={[s.choicePrimary, { backgroundColor: accent }]} onPress={onMoveOn}>
+        <Text style={s.choicePrimaryText}>I&apos;m ready to move on →</Text>
+      </Pressable>
+    </View>
+  );
+}
+
 // The level as the learner knows it: "A1" for "FR-A1", "Pinyin" for "ZH-Pinyin".
 function shortLevel(level: string): string {
   return level.replace(/^[A-Z]{2}-/, "");
@@ -1364,6 +1502,13 @@ const s = StyleSheet.create({
   exampleEnBlock: { marginTop: 2 },
 
   badge: { fontSize: 12, color: "#2A151366", textTransform: "uppercase", marginBottom: 4, fontWeight: "600" },
+  choiceCard: { backgroundColor: "#fff", borderRadius: 20, borderWidth: 1, borderColor: "#2A15131A", padding: 20, marginTop: 12 },
+  choiceTitle: { fontFamily: fonts.display, fontSize: 24, color: "#2A1513", marginBottom: 6 },
+  choiceBody: { fontSize: 15, lineHeight: 22, color: "#2A1513B3", marginBottom: 6 },
+  choicePrimary: { borderRadius: 999, paddingVertical: 15, alignItems: "center", marginTop: 12 },
+  choicePrimaryText: { color: "#fff", fontWeight: "700", fontSize: 16 },
+  choiceSecondary: { borderRadius: 999, borderWidth: 2, paddingVertical: 13, alignItems: "center", marginTop: 12 },
+  choiceSecondaryText: { fontWeight: "700", fontSize: 16 },
   flagBtn: { alignSelf: "flex-start", marginTop: 22, paddingVertical: 6, paddingHorizontal: 4 },
   flagBtnText: { fontSize: 12.5, color: "#2A151366", fontWeight: "600" },
 

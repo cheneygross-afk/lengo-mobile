@@ -11,6 +11,8 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AuthStackParamList } from "@/navigation/types";
+import { requiredLessons } from "@/lib/lessons/levels";
+import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { supabase } from "@/lib/supabase/client";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Login">;
@@ -84,12 +86,33 @@ export default function LoginScreen({ navigation }: Props) {
         <Pressable onPress={() => navigation.navigate("Signup")}>
           <Text style={styles.footer}>Don't have an account? Sign up</Text>
         </Pressable>
+        {/* New here: the first lesson right away, account after (TryLesson). */}
+        <Pressable
+          style={({ pressed }) => [styles.tryButton, pressed && styles.buttonPressed]}
+          onPress={() => navigation.navigate("TryLesson", { slug: FIRST_LESSON_SLUG })}
+        >
+          <Text style={styles.tryText}>New to Spanish? Try your first lesson free →</Text>
+          <Text style={styles.trySub}>About 5 minutes, no account needed.</Text>
+        </Pressable>
       </View>
     </KeyboardAvoidingView>
   );
 }
 
+const FIRST_LESSON_SLUG = requiredLessons(LESSON_SOURCES.a1.lessons)[0]?.slug ?? "greetings-pronouns-ser-1";
+
 const styles = StyleSheet.create({
+  tryButton: {
+    marginTop: 28,
+    borderWidth: 2,
+    borderColor: "#8B0000",
+    borderRadius: 16,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    alignItems: "center",
+  },
+  tryText: { color: "#8B0000", fontWeight: "700", fontSize: 16, textAlign: "center" },
+  trySub: { color: "#2A151399", fontSize: 13, marginTop: 4 },
   flex: { flex: 1, backgroundColor: "#FAF7F2" },
   container: { flex: 1, justifyContent: "center", paddingHorizontal: 28 },
   brand: { alignItems: "center", marginBottom: 40 },

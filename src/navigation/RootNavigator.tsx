@@ -90,6 +90,26 @@ function UnitTestPaid(props: NativeStackScreenProps<AppStackParamList, "UnitTest
 }
 
 const AuthStack = createNativeStackNavigator<AuthStackParamList>();
+
+// The lesson player before sign-in: any move to another screen (next
+// lesson, notes, a story) goes to sign-up instead, since those need an
+// account to save to.
+function TryLessonScreen({ navigation, route }: NativeStackScreenProps<AuthStackParamList, "TryLesson">) {
+  const nav = {
+    ...navigation,
+    navigate: (name: string) => navigation.navigate(name === "Login" ? "Login" : "Signup"),
+    replace: () => navigation.navigate("Signup"),
+    push: () => navigation.navigate("Signup"),
+  };
+  return (
+    <LessonRunnerScreen
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      navigation={nav as any}
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      route={{ ...route, name: "LessonRunner", params: { slug: route.params.slug } } as any}
+    />
+  );
+}
 const AppStack = createNativeStackNavigator<AppStackParamList>();
 
 function AuthNavigator() {
@@ -97,6 +117,7 @@ function AuthNavigator() {
     <AuthStack.Navigator screenOptions={{ headerShown: false }}>
       <AuthStack.Screen name="Login" component={LoginScreen} />
       <AuthStack.Screen name="Signup" component={SignupScreen} />
+      <AuthStack.Screen name="TryLesson" component={TryLessonScreen} options={{ headerShown: true, title: "", headerBackTitle: "Back" }} />
     </AuthStack.Navigator>
   );
 }

@@ -5,7 +5,10 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { SPANISH_LEVELS, requiredLessons, type SpanishLevelPath } from "@/lib/lessons/levels";
 import { LESSON_SOURCES } from "@/lib/lessons/registry";
-import { markLessonsCompletedBulk } from "@/lib/lessons/completion";
+import { getCompletedMap, markLessonsCompletedBulk } from "@/lib/lessons/completion";
+import ExerciseBlock from "@/components/ExerciseBlock";
+import { PLACEMENT_LEVELS, ROUTER_QUESTIONS } from "@/lib/placementTest";
+import { trackEvent } from "@/lib/analytics";
 import { syncPrefs, updatePrefs } from "@/lib/learnerPrefs";
 import {
   DAILY_GOAL_LABELS,
@@ -17,12 +20,31 @@ import {
 
 type Props = NativeStackScreenProps<AppStackParamList, "Onboarding">;
 
-// First-run setup, opened from Home: a starting level (optionally marking
-// the earlier levels as known) and a daily goal. Saved to the learner
-// prefs, which the website's own setup (/welcome) shares through the
-// account -- someone who set up on the website never sees this.
+// First-run setup, opened from Home, as on the website's /welcome: "Have
+// you learned any Spanish before?" Brand new goes straight into A1 lesson
+// 1; "some" answers a quick level check (one question per level, stopping
+// at the first miss) and starts at that level; DELE takers go to the mock
+// exams. Picking a level and a daily goal by hand is still there. Saved to
+// the learner prefs, which the website shares through the account.
+
+// One router question per level, easiest first (placementTest.ts).
+const LADDER = PLACEMENT_LEVELS.map((lv) => ROUTER_QUESTIONS.find((q) => q.level === lv)).filter(
+  (q): q is (typeof ROUTER_QUESTIONS)[number] => !!q
+);
+
+// The first lesson of a level not done yet (lesson 1 for a new learner).
+async function firstLessonSlug(levelPath: SpanishLevelPath): Promise<string | null> {
+  const lessons = requiredLessons(LESSON_SOURCES[levelPath].lessons);
+  const done = await getCompletedMap(levelPath).catch(() => ({}) as Record<string, boolean>);
+  return (lessons.find((l) => !done[l.slug]) ?? lessons[0])?.slug ?? null;
+}
+
 export default function OnboardingScreen({ navigation }: Props) {
-  const [step, setStep] = useState<"level" | "goal">("level");
+  const [step, setStep] = useState<"start" | "check" | "level" | "goal">("start");
+  // Quick check: question index, the answer to it, and the level found.
+  const [checkAt, setCheckAt] = useState(0);
+  const [checkAnswer, setCheckAnswer] = useState<boolean | null>(null);
+  const [found, setFound] = useState<{ level: SpanishLevelPath; right: number; asked: number } | null>(null);
   const [level, setLevel] = useState<SpanishLevelPath | null>(null);
   const [markKnown, setMarkKnown] = useState(false);
   const [goal, setGoal] = useState<DailyGoalMinutes>(DEFAULT_DAILY_GOAL);
@@ -76,7 +98,128 @@ export default function OnboardingScreen({ navigation }: Props) {
       }
     }
     setSaving(false);
-    navigation.goBack();
+    if (skip || !level) return navigation.goBack();
+    const slug = await firstLessonSlug(level);
+    if (slug) navigation.replace("LessonRunner", { slug });
+    else navigation.goBack();
+  }
+
+  // Straight into the first lesson at a level (daily goal stays default).
+  async function startAt(levelPath: SpanishLevelPath, how: string) {
+    if (saving) return;
+    setSaving(true);
+    trackEvent("onboarding_choice", { choice: how, level: levelPath });
+    await updatePrefs({ startLevel: levelPath, onboardedAt: Date.now() });
+    const slug = await firstLessonSlug(levelPath);
+    setSaving(false);
+    if (slug) navigation.replace("LessonRunner", { slug });
+    else navigation.goBack();
+  }
+
+  async function startExams() {
+    if (saving) return;
+    setSaving(true);
+    trackEvent("onboarding_choice", { choice: "exam" });
+    await updatePrefs({ onboardedAt: Date.now() });
+    setSaving(false);
+    navigation.replace("Exams");
+  }
+
+  function nextCheck() {
+    const q = LADDER[checkAt];
+    if (!q || checkAnswer === null) return;
+    const right = checkAnswer ? checkAt + 1 : checkAt;
+    if (!checkAnswer || checkAt === LADDER.length - 1) {
+      const code = checkAnswer ? "C2" : q.level;
+      trackEvent("quick_check_completed", { level: code, right, asked: checkAt + 1 });
+      setFound({ level: code.toLowerCase() as SpanishLevelPath, right, asked: checkAt + 1 });
+      return;
+    }
+    setCheckAnswer(null);
+    setCheckAt((i) => i + 1);
+  }
+
+  if (step === "start" || step === "check") {
+    const q = LADDER[checkAt];
+    return (
+      <ScrollView style={s.container} contentContainerStyle={s.content}>
+        {step === "start" ? (
+          <>
+            <Text style={s.title}>Have you learned any Spanish before?</Text>
+            <Text style={s.sub}>Your first lesson starts right after this. You can change your level any time.</Text>
+            <View style={s.list}>
+              <Pressable style={[s.option, s.optionActive]} disabled={saving} onPress={() => startAt("a1", "new")}>
+                <Text style={[s.optionTitle, s.optionTitleActive]}>No, I&apos;m brand new</Text>
+                <Text style={[s.optionBody, s.optionBodyActive]}>
+                  Start lesson 1 now: you&apos;ll introduce yourself in Spanish within a few minutes.
+                </Text>
+              </Pressable>
+              <Pressable style={s.option} disabled={saving} onPress={() => setStep("check")}>
+                <Text style={s.optionTitle}>Yes, some</Text>
+                <Text style={s.optionBody}>Answer up to 6 quick questions (about 2 minutes) and start at your level.</Text>
+              </Pressable>
+              <Pressable style={s.option} disabled={saving} onPress={startExams}>
+                <Text style={s.optionTitle}>I&apos;m preparing for a DELE exam</Text>
+                <Text style={s.optionBody}>Go straight to the full mock exams, with lessons to back them up.</Text>
+              </Pressable>
+            </View>
+            <View style={s.footer}>
+              <Pressable onPress={() => finish(true)} disabled={saving} hitSlop={8}>
+                <Text style={s.skip}>Skip setup</Text>
+              </Pressable>
+              <Pressable onPress={() => setStep("level")} disabled={saving} hitSlop={8}>
+                <Text style={s.skip}>I&apos;ll pick my level</Text>
+              </Pressable>
+            </View>
+            {saving && <ActivityIndicator style={{ marginTop: 16 }} />}
+          </>
+        ) : found ? (
+          <>
+            <Text style={s.title}>Start at {SPANISH_LEVELS.find((l) => l.levelPath === found.level)?.label ?? found.level.toUpperCase()}</Text>
+            <Text style={s.sub}>
+              {found.right > 0 ? `You got ${found.right} of ${found.asked} right, so this` : "This"} is where the course should feel
+              challenging but doable. You can switch levels any time.
+            </Text>
+            <Pressable style={[s.primary, saving && s.disabled]} disabled={saving} onPress={() => startAt(found.level, "quick-check")}>
+              {saving ? <ActivityIndicator color="#fff" /> : <Text style={s.primaryText}>Start my first lesson</Text>}
+            </Pressable>
+            <Pressable
+              style={{ marginTop: 16, alignSelf: "center" }}
+              hitSlop={8}
+              onPress={() => {
+                setLevel(found.level);
+                setStep("level");
+              }}
+            >
+              <Text style={s.skip}>Pick a different level</Text>
+            </Pressable>
+          </>
+        ) : q ? (
+          <>
+            <Text style={s.title}>Quick level check</Text>
+            <Text style={s.sub}>
+              Question {checkAt + 1} of up to {LADDER.length}. It gets harder as you go, so a miss just means we found your level.
+            </Text>
+            <ExerciseBlock
+              key={q.id}
+              exercise={q}
+              index={checkAt}
+              hideIndexLabel
+              level={q.level}
+              onChecked={(correct) => setCheckAnswer(correct)}
+            />
+            <View style={s.footer}>
+              <Pressable onPress={() => setStep("start")} hitSlop={8}>
+                <Text style={s.skip}>Back</Text>
+              </Pressable>
+              <Pressable style={[s.primary, checkAnswer === null && s.disabled]} onPress={nextCheck} disabled={checkAnswer === null}>
+                <Text style={s.primaryText}>Continue</Text>
+              </Pressable>
+            </View>
+          </>
+        ) : null}
+      </ScrollView>
+    );
   }
 
   return (
@@ -87,7 +230,7 @@ export default function OnboardingScreen({ navigation }: Props) {
         <>
           <Text style={s.title}>Where should you start?</Text>
           <Text style={s.sub}>
-            Pick a starting level. You can take the placement test on the website any time, and change this later.
+            Pick a starting level. You can change it later.
           </Text>
           <View style={s.list}>
             {SPANISH_LEVELS.map((l) => {
@@ -121,8 +264,8 @@ export default function OnboardingScreen({ navigation }: Props) {
           )}
 
           <View style={s.footer}>
-            <Pressable onPress={() => finish(true)} disabled={saving} hitSlop={8}>
-              <Text style={s.skip}>Skip setup</Text>
+            <Pressable onPress={() => setStep("start")} disabled={saving} hitSlop={8}>
+              <Text style={s.skip}>Back</Text>
             </Pressable>
             <Pressable style={[s.primary, !level && s.disabled]} onPress={continueFromLevel} disabled={!level}>
               <Text style={s.primaryText}>Continue</Text>

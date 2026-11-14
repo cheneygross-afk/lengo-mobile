@@ -1,12 +1,12 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "4b74f0183d18c0b80f7600ded5f338ced3571145",
+  "commit": "ef1f5a354cf647a072c8817137123fd0dbe54975",
   "files": {
     "src/lib/lessons/a1-additions.ts": "aa502ae0a7915653459334e5d1f3c7d665a105d15ae77a380e8e87f266cbd43d",
     "src/lib/lessons/a1-core.ts": "09d9c01a671d34fdb43c8512649527f14a5959a39277a333dbd37a0249076cd0",
     "src/lib/lessons/a1-irregulars.ts": "1e1c1935c0c4e7a0799afa96ac59228797fd5c0e759388be54656fd5bacfab5b",
     "src/lib/lessons/a1-reinforcement.ts": "a572abf4cbe5cd99031b31f75e3fe4b2e79046f07ae0e201102a5b3bc6f37b5e",
-    "src/lib/lessons/a1.ts": "41ac1d8d7bf3938f107650a8f78a300a643d210ddf4cab72887ac07061e6c654",
+    "src/lib/lessons/a1.ts": "c3ec3528a21d82fb7145ddf97847dea9f9ccdb089e9f915f25aa5d495384549e",
     "src/lib/lessons/a2-common-words.ts": "931a497c73d0851967b56a3077ad9f06091720565db00a88dd2759f359142881",
     "src/lib/lessons/a2-drills.ts": "3edfb16eda356f53c29902d59577b14ba5a04a98a6b7c80dd29aae298cc238e7",
     "src/lib/lessons/a2-gaps.ts": "c1f35c328ccf951a5ebc46875fe593254770d43fce553782aae3a98085bb5000",
@@ -1690,6 +1690,7 @@
     "src/lib/lessons/levels.ts": "017f5316fd44f6dd4883a8bcc1725de7668f90abd5a4ea965cc7a0f62422d748",
     "src/lib/lessons/listLessons.ts": "75ee1e698f1cd9a1467abbcd5b143073eb8b8cacea6967331ecc20aad3f25baa",
     "src/lib/lessons/practice.ts": "2a84bdd91f2e34b2242603de442ef06cfea054f68269fd1fdce64014d41846e4",
+    "src/lib/lessons/practiceCap.ts": "2346721648c44734c2e9b2c8c4866f9f8882e3cb3e48c0dc907ad76a119d3ec1",
     "src/lib/lessons/pt-a1-u01-extra.ts": "f811509e0b3f0e23afbc664ea44656cf0b3797e4d709c4554408249059868744",
     "src/lib/lessons/pt-a1-u01.ts": "07b4ec42090c7917f28a2c5a840039f2554f29625a2d08faa7da8fea7eaba82c",
     "src/lib/lessons/pt-a1-u02-extra.ts": "96fbdd190f664e11ce5e09e1b9141c8540570c0bd1cc410b683575e40bf1dcf5",

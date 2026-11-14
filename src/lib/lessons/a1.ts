@@ -28,6 +28,51 @@ const A1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
+        "heading": "Your first Spanish: introduce yourself",
+        "body": [
+          "Three short pieces are enough to introduce yourself: Hola (hello), Me llamo... (my name is..., literally \"I call myself\") and Soy de... (I'm from...). Put them together and you have a full introduction: Hola, me llamo Sam. Soy de Canadá. Swap in your own name and country and it's yours."
+        ],
+        "examples": [
+          {
+            "es": "Hola, me llamo Ana.",
+            "en": "Hello, my name is Ana."
+          },
+          {
+            "es": "Soy de México.",
+            "en": "I'm from Mexico."
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which one means \"My name is Carlos\"?",
+            "options": [
+              "Me llamo Carlos.",
+              "Soy de Carlos.",
+              "Hola, Carlos.",
+              "Mucho gusto, Carlos."
+            ],
+            "correctIndex": 0,
+            "explanation": "Me llamo... is how you give your name. Soy de... says where you're from, Hola is hello, and Mucho gusto means \"nice to meet you\"."
+          },
+          {
+            "type": "word-order",
+            "prompt": "Put the words in order: \"Hi, my name is Lucía. I'm from Peru.\"",
+            "words": [
+              "Hola,",
+              "me",
+              "llamo",
+              "Lucía.",
+              "Soy",
+              "de",
+              "Perú."
+            ],
+            "translation": "Hi, my name is Lucía. I'm from Peru.",
+            "explanation": "Hola first, then Me llamo + your name, then Soy de + your country. That's a whole introduction in Spanish."
+          }
+        ]
+      },
+      {
         "heading": "The idea: the verb already says who",
         "body": [
           "Ser (to be) has a different form for each person: soy, eres, es, somos, sois, son. Because the form already tells you who you mean, Spanish usually drops the pronoun: Soy de Chile is a full sentence, \"I'm from Chile\". Use yo, tú, ella... only to be clear or for emphasis."
@@ -431,30 +476,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         "explanation": "Mucho gusto = nice to meet you; origin is ser + de: soy de."
       },
       {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Translate to Spanish.",
-        "source": "Good evening! What's your name? (informal)",
-        "answer": "¡Buenas noches! ¿Cómo te llamas?",
-        "altAnswers": [
-          "Buenas noches, ¿cómo te llamas?"
-        ],
-        "explanation": "Buenas noches is also a greeting after dark. To a friend, ¿Cómo te llamas? (te goes with tú)."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Translate to Spanish.",
-        "source": "Good afternoon, sir. What's your name?",
-        "answer": "Buenas tardes, señor. ¿Cómo se llama usted?",
-        "altAnswers": [
-          "Buenas tardes, señor. ¿Cómo se llama?",
-          "Buenas tardes, señor, ¿cómo se llama usted?",
-          "Buenas tardes, señor, ¿cómo se llama?"
-        ],
-        "explanation": "A man you call sir gets usted, so the question uses se: ¿Cómo se llama usted? (usted can be left out)."
-      },
-      {
         "type": "word-order",
         "prompt": "Put the words in order.",
         "words": [
@@ -716,6 +737,30 @@ const A1_BASE_LESSONS: Lesson[] = [
       }
     ],
     "exercises": [
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Good evening! What's your name? (informal)",
+        "answer": "¡Buenas noches! ¿Cómo te llamas?",
+        "altAnswers": [
+          "Buenas noches, ¿cómo te llamas?"
+        ],
+        "explanation": "Buenas noches is also a greeting after dark. To a friend, ¿Cómo te llamas? (te goes with tú)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "Good afternoon, sir. What's your name?",
+        "answer": "Buenas tardes, señor. ¿Cómo se llama usted?",
+        "altAnswers": [
+          "Buenas tardes, señor. ¿Cómo se llama?",
+          "Buenas tardes, señor, ¿cómo se llama usted?",
+          "Buenas tardes, señor, ¿cómo se llama?"
+        ],
+        "explanation": "A man you call sir gets usted, so the question uses se: ¿Cómo se llama usted? (usted can be left out)."
+      },
       {
         "type": "multiple-choice",
         "question": "\"Buenas noches\" is typically used...",
