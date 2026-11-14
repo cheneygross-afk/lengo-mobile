@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AuthStackParamList } from "@/navigation/types";
+import { mottoStyle } from "@/ui/theme";
 import { requiredLessons } from "@/lib/lessons/levels";
 import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { supabase } from "@/lib/supabase/client";
@@ -128,8 +129,8 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
     color: "#8B0000",
   },
-  // The Deep End motto, in Fraunces bold italic like the QR sticker.
-  motto: { fontFamily: "Fraunces_700Bold_Italic", fontSize: 22, color: "#2A1513", marginTop: -6 },
+  // The Deep End motto, set like the QR sticker (theme.ts mottoStyle).
+  motto: { ...mottoStyle, marginTop: -6 },
   tagline: { fontSize: 14, color: "#2A151399", marginTop: 6 },
   form: { gap: 14 },
   input: {
