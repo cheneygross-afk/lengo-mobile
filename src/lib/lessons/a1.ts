@@ -119,8 +119,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Tú or usted: two ways to say \"you\"",
         "body": [
-          "Spanish has two ways to say \"you\". Tú is for friends, family and children; usted is for strangers, older people and anyone you'd address as sir or madam. Usted began as a polite title (\"your grace\"), so it takes the same verb form as él and ella: usted es, never usted eres.",
-          "For \"you all\", Spain uses vosotros/vosotras (sois) with friends and ustedes with strangers. Latin America uses ustedes (son) for every group."
+          "Spanish has two ways to say \"you\". Tú is for friends, family and children; usted is for strangers, older people and anyone you'd address as sir or madam. Usted began as a polite title (\"your grace\"), so it takes the same verb form as él and ella: usted es, never usted eres."
         ],
         "examples": [
           {
@@ -161,6 +160,42 @@ const A1_BASE_LESSONS: Lesson[] = [
             ],
             "correctIndex": 0,
             "explanation": "An older person you've just met gets usted, and usted takes es. Tú eres is for friends; usted eres mixes the formal pronoun with the tú form; ustedes son is for a group."
+          }
+        ]
+      },
+      {
+        "heading": "Why only Spain says vosotros",
+        "body": [
+          "Spanish is the main language of Spain and 18 countries in the Americas. Speakers all understand each other: like British and American English, they differ in sound and some words, not the basics.",
+          "The big grammar difference is \"you all\". Spain says vosotros (sois) to friends and ustedes (son) to strangers. In the Americas, ustedes became the plural for everyone, so vosotros is heard almost only in Spain.",
+          "Ustedes works everywhere; learn vosotros to understand Spaniards. Argentina, Uruguay and much of Central America also say vos for tú: vos sos = tú eres."
+        ],
+        "examples": [
+          {
+            "es": "¿De dónde sois vosotros?",
+            "en": "Where are you all from? (Spain, to friends)"
+          },
+          {
+            "es": "¿De dónde son ustedes?",
+            "en": "Where are you all from? (Latin America to anyone, Spain to strangers)"
+          },
+          {
+            "es": "Vos sos de Buenos Aires.",
+            "en": "You're from Buenos Aires. (Argentina: vos sos = tú eres)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "In most of Latin America, how do you say \"you all\" to a group of friends?",
+            "options": [
+              "vosotros",
+              "ustedes",
+              "nosotros",
+              "ellos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Latin America uses ustedes for every \"you all\", friends or strangers. Vosotros is the informal plural of Spain; nosotros is \"we\" and ellos is \"they\"."
           }
         ]
       },
@@ -285,18 +320,6 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "correctIndex": 2,
         "explanation": "Somos is the nosotros (we) form of ser. Yo takes soy, tú takes eres, and ellos takes son."
-      },
-      {
-        "type": "multiple-choice",
-        "question": "In most of Latin America, how do you say \"you all\" to a group of friends?",
-        "options": [
-          "vosotros",
-          "ustedes",
-          "nosotros",
-          "ellos"
-        ],
-        "correctIndex": 1,
-        "explanation": "Latin America uses ustedes for every \"you all\", friends or strangers. Vosotros is the informal plural of Spain; nosotros is \"we\" and ellos is \"they\"."
       },
       {
         "type": "multiple-choice",
@@ -503,6 +526,46 @@ const A1_BASE_LESSONS: Lesson[] = [
     "summary": "Practice a first-meeting dialogue and learn twenty words for people and jobs to use with ser.",
     "duration": "5 min",
     "sections": [
+      {
+        "heading": "Rewire your brain: Spanish isn't English in code",
+        "body": [
+          "Don't build Spanish word by word from English: the order is often different. Describing words usually come after the noun: la casa blanca, \"the house white\". No goes right before the verb: No soy de aquí.",
+          "Questions need no \"do\" and no swap: ¿Eres de aquí? is the plain sentence with a rising voice. Since the verb already says who, the order can move: ¿Ana es de Chile? and ¿Es Ana de Chile? both work.",
+          "The good news: Spanish is more literal and regular than English. Words sound the way they're spelled, and most verbs follow fixed patterns. The irregular verbs, like ser, are the main things to memorize."
+        ],
+        "examples": [
+          {
+            "es": "la casa blanca",
+            "en": "the white house (literally: the house white)"
+          },
+          {
+            "es": "No soy de aquí.",
+            "en": "I'm not from here. (no right before the verb)"
+          },
+          {
+            "es": "¿Eres estudiante?",
+            "en": "Are you a student? (no \"do\", no swap: just a rising voice)"
+          },
+          {
+            "es": "Me llamo Ana.",
+            "en": "My name is Ana. (literally: myself I call Ana)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "How do you say \"a red car\"? (car = coche, red = rojo)",
+            "options": [
+              "un coche rojo",
+              "un rojo coche",
+              "rojo un coche",
+              "coche un rojo"
+            ],
+            "correctIndex": 0,
+            "explanation": "The article comes first, as in English, but the describing word follows the noun: un coche rojo, literally \"a car red\". Putting rojo first is the English habit to unlearn."
+          }
+        ]
+      },
       {
         "heading": "The idea: a word for a person changes to match the person",
         "body": [
@@ -1123,6 +1186,98 @@ const A1_BASE_LESSONS: Lesson[] = [
             "source": "el profesor",
             "answer": "los profesores",
             "explanation": "Profesor ends in a consonant, so it adds -es, and el becomes los."
+          }
+        ]
+      },
+      {
+        "heading": "Groups: all girls, all boys, or mixed",
+        "body": [
+          "For a group of people, look at who's in it. All girls or women: feminine, so las chicas, las amigas, ellas. All boys or men: masculine, so los chicos, los amigos, ellos. A mix takes the masculine, even nine girls and one boy: los chicos, ellos.",
+          "So las chicas always means only girls, but los chicos can be only boys or boys and girls together. Speaking for your own group, say nosotras only if everyone in it is female."
+        ],
+        "examples": [
+          {
+            "es": "Ana y Marta son amigas.",
+            "en": "Ana and Marta are friends. (all women: amigas)"
+          },
+          {
+            "es": "Ana, Marta y Luis son amigos.",
+            "en": "Ana, Marta and Luis are friends. (one man makes the group masculine)"
+          },
+          {
+            "es": "las chicas · los chicos",
+            "en": "the girls · the boys, or the boys and girls"
+          },
+          {
+            "es": "ellas · ellos",
+            "en": "they (only women) · they (only men, or a mixed group)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Your group is Sofía, Elena, Lucía and Tomás. How do you say \"We're friends\"?",
+            "options": [
+              "Somos amigos.",
+              "Somos amigas.",
+              "Son amigos.",
+              "Somos amiga."
+            ],
+            "correctIndex": 0,
+            "explanation": "Tomás is in the group, so it takes the masculine: amigos (and nosotros, not nosotras). Amigas would mean only women, son means \"they are\", and a group needs the plural."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Translate to Spanish.",
+            "source": "They are teachers. (three women)",
+            "answer": "Ellas son profesoras.",
+            "altAnswers": [
+              "Son profesoras."
+            ],
+            "explanation": "Only women, so everything goes feminine: ellas and profesoras. With even one man in the group it would be ellos son profesores."
+          }
+        ]
+      },
+      {
+        "heading": "Gender spreads through the whole sentence",
+        "body": [
+          "A noun's gender isn't just a label: the words around it copy it. With a feminine noun, the article and the describing word go feminine too: la puerta es bonita. Swap in a masculine noun and they all switch: el coche es bonito.",
+          "So a wrong gender is never just one wrong word: it spreads to the article, the describing words and the plural. That's why you learn la mesa and el libro, never just mesa and libro. You'll practice this with adjectives later in this unit."
+        ],
+        "examples": [
+          {
+            "es": "La puerta nueva es bonita.",
+            "en": "The new door is pretty. (feminine all the way)"
+          },
+          {
+            "es": "El coche nuevo es bonito.",
+            "en": "The new car is pretty. (masculine all the way)"
+          },
+          {
+            "es": "Las puertas nuevas son bonitas.",
+            "en": "The new doors are pretty. (feminine plural)"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Mesa (table) is feminine. Which sentence agrees all the way through? (white = blanco / blanca)",
+            "options": [
+              "La mesa es blanca.",
+              "La mesa es blanco.",
+              "El mesa es blanca.",
+              "El mesa es blanco."
+            ],
+            "correctIndex": 0,
+            "explanation": "A feminine noun makes the whole sentence feminine: la for the article and blanca for the describing word. Each wrong option breaks the chain somewhere."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with bonito or bonita.",
+            "sentence": "El sombrero es ___. (The hat is pretty.)",
+            "answer": "bonito",
+            "explanation": "Sombrero (hat) ends in -o, so it's masculine: el sombrero, and the describing word copies it: bonito."
           }
         ]
       }

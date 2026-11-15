@@ -105,6 +105,29 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ),
         ]
       ),
+      sec(
+        "Scene 4: One language, many accents",
+        "Spanish sounds different from place to place, like English in London and Texas, and every accent is correct. In most of Spain, z, and c before e or i, sound like the th in \"think\": gracias sounds like \"grathias\". In Latin America they sound like s. In Buenos Aires, ll and y sound like \"sh\": me llamo sounds like \"me shamo\". In the Caribbean and southern Spain, an s at the end of a syllable often fades to a soft h. You'll practice all of these in the sounds lessons.",
+        [
+          ["—Hola, me llamo Carmen y soy de Zaragoza. ¡Gracias por venir!", "Hi, my name is Carmen and I'm from Zaragoza. Thanks for coming! (Spain: \"Tharagotha\", \"grathias\")"],
+          ["—Yo me llamo Mateo y soy de Buenos Aires.", "My name is Mateo and I'm from Buenos Aires. (Buenos Aires: \"me shamo\")"],
+          ["—Y yo soy Diego, de México. Mucho gusto.", "And I'm Diego, from Mexico. Nice to meet you. (Mexico: \"me yamo\", \"grasias\")"],
+        ],
+        [
+          mc(
+            "Carmen, from Spain, says gracias with a th sound: \"grathias\". What does that tell you?",
+            ["It's the normal way to say c before i in most of Spain.", "She has a lisp.", "She's saying a different word.", "She's being very formal."],
+            0,
+            "In most of Spain, z and c before e or i sound like th, while s stays s, so it isn't a lisp. Latin America says the same letters like s. Both are correct, and gracias means the same everywhere."
+          ),
+          mc(
+            "Diego, from Mexico, says me llamo like \"me yamo\". How does Mateo from Buenos Aires say it?",
+            ["\"me shamo\"", "\"me lamo\"", "\"me thamo\"", "\"me hamo\""],
+            0,
+            "In Argentina and Uruguay, ll and y sound like sh: me shamo, and yo sounds like \"sho\". Most other speakers say an English y sound: me yamo."
+          ),
+        ]
+      ),
     ],
     [
       mt(
