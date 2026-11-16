@@ -13,16 +13,22 @@ import { PORTUGUESE_LEVEL_PATHS } from "@/lib/lessons/portuguese";
 import { KOREAN_LEVEL_PATHS } from "@/lib/lessons/korean";
 import { ITALIAN_LEVEL_PATHS } from "@/lib/lessons/italian";
 import { loadLazyLevel } from "@/lib/lessons/lazyLevels";
+import { REMOTE_COURSE_LEVELS } from "@/lib/lessons/remoteCourses";
 
 type Saved = { lesson: Lesson; levelPath: string };
 
+// Courses whose levels load on demand; their lessons open by levelPath.
+const LAZY_LANGS = new Set(["fr", "de", "pt", "ko", "it", "ja", "zh", "en"]);
+
 /** A course's saved lessons, with the levelPath each was saved under. */
 async function loadSaved(lang: string): Promise<Saved[]> {
-  if (lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" || lang === "it") {
+  if (LAZY_LANGS.has(lang)) {
     // French, German, Portuguese, Korean and Italian slugs can repeat a Spanish one, so each
     // is looked up in its own level (loaded only when something there was saved).
     const levelPaths: string[] =
-      lang === "fr"
+      lang === "ja" || lang === "zh" || lang === "en"
+        ? REMOTE_COURSE_LEVELS[lang].map((l) => l.levelPath)
+        : lang === "fr"
         ? FRENCH_LEVEL_PATHS
         : lang === "de"
           ? GERMAN_LEVEL_PATHS
@@ -109,7 +115,7 @@ export default function ReviewListScreen({ navigation, route }: Props) {
               onPress={() =>
                 navigation.navigate(
                   "LessonRunner",
-                  lang === "fr" || lang === "de" || lang === "pt" || lang === "ko" || lang === "it" ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
+                  LAZY_LANGS.has(lang) ? { slug: item.lesson.slug, levelPath: item.levelPath } : { slug: item.lesson.slug }
                 )
               }
             >

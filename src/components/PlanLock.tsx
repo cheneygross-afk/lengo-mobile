@@ -3,6 +3,7 @@ import { View, Text, Pressable, StyleSheet } from "react-native";
 import { openPremium } from "@/lib/premium";
 import { courseName } from "@/lib/courses";
 import type { CourseId } from "@/lib/courses";
+import { APP_WEBSITE, IS_LANGUAGES_APP } from "@/lib/appVariant";
 
 // Shown in place of a lesson or study tool the learner's plan doesn't
 // open: what it is, that it's part of the paid plans, and a button out to
@@ -24,7 +25,11 @@ export default function PlanLock({
       <Text style={s.lock}>🔒</Text>
       {title ? <Text style={s.title}>{title}</Text> : null}
       <Text style={s.body}>
-        {kind === "lesson"
+        {IS_LANGUAGES_APP
+          ? kind === "lesson"
+            ? `This lesson is part of the ${language} plan.`
+            : `This study tool comes with the ${language} plan.`
+          : kind === "lesson"
           ? `This lesson is part of Focused Lessons for ${language} (or All Access, for every language).`
           : `This study tool comes with Focused Lessons for ${language} (or All Access, for every language).`}
       </Text>
@@ -39,7 +44,7 @@ export default function PlanLock({
       >
         <Text style={s.btnText}>{opening ? "Opening…" : "See plans"}</Text>
       </Pressable>
-      <Text style={s.note}>Opens deependspanish.com in your browser, already signed in.</Text>
+      <Text style={s.note}>Opens {APP_WEBSITE.replace("https://", "")} in your browser, already signed in.</Text>
     </View>
   );
 }

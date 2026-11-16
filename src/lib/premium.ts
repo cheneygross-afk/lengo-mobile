@@ -1,12 +1,14 @@
 import { Linking } from "react-native";
 import { supabase } from "@/lib/supabase/client";
+import { APP_WEBSITE } from "@/lib/appVariant";
 
 // Plans are bought on the website (Stripe Checkout lives there), never in
 // the app, so the app stays clear of Apple's and Google's in-app-purchase
 // rules. This opens the website's pricing page in the browser, already
 // signed in through a one-time handoff link when it can get one.
-const PREMIUM_URL = "https://deependspanish.com/pricing";
-const HANDOFF_URL = "https://deependspanish.com/api/mobile/handoff";
+// Each app opens its own website (lib/appVariant.ts).
+const PREMIUM_URL = `${APP_WEBSITE}/pricing`;
+const HANDOFF_URL = `${APP_WEBSITE}/api/mobile/handoff`;
 
 export async function openPremium(): Promise<void> {
   try {

@@ -16,6 +16,13 @@ import {
 import { listenFirstAudio } from "@/lib/listenFirst";
 import { Dictation, ListenButtons, ListenChoose, Speak, Write } from "@/components/SkillExercises";
 import { AnswerCompare } from "@/components/AnswerCompare";
+import { RubyLabel } from "@/components/JaRuby";
+import { plainJa } from "@/lib/japanese";
+
+// Word tiles make a sentence: with spaces, except in Japanese.
+function joinTiles(words: string[], lang: string): string {
+  return words.join(lang.startsWith("ja") ? "" : " ");
+}
 
 // Mobile port of the web app's ExerciseBlock -- same grading and option
 // shuffling (src/lib/grading.ts, identical in both repos), same "check
@@ -261,7 +268,7 @@ function MultipleChoice({
                 checked && i === exercise.correctIndex && s.optionCorrect,
               ]}
             >
-              <Text style={s.optionText}>{opt}</Text>
+              <RubyLabel text={opt} style={s.optionText} />
             </Pressable>
           );
         })}
@@ -314,7 +321,7 @@ function MultiSelect({
                 checked && isSelected && !shouldBeSelected && s.optionWrong,
               ]}
             >
-              <Text style={s.optionText}>{opt}</Text>
+              <RubyLabel text={opt} style={s.optionText} />
             </Pressable>
           );
         })}
@@ -369,12 +376,11 @@ function FillBlank({
       )}
       <View style={s.blankRow}>
         {hidden ? null : checked ? (
-          <Text
+          <RubyLabel
+            text={before}
             style={[s.blankText, s.speakableSpan]}
             onPress={() => speak(`${before}${exercise.answer}${after}`, lang)}
-          >
-            {before}
-          </Text>
+          />
         ) : (
           <TapText text={before} lang={lang} mode="target" style={s.blankText} />
         )}
@@ -390,12 +396,11 @@ function FillBlank({
           placeholder="..."
         />
         {hidden ? null : checked ? (
-          <Text
+          <RubyLabel
+            text={after}
             style={[s.blankText, s.speakableSpan]}
             onPress={() => speak(`${before}${exercise.answer}${after}`, lang)}
-          >
-            {after}
-          </Text>
+          />
         ) : (
           <TapText text={after} lang={lang} mode="target" style={s.blankText} />
         )}
@@ -452,12 +457,7 @@ function Translate({
       <SpeakableText text={exercise.prompt} lang={lang} style={s.question} />
       <View style={[s.sourceRow, hidden && s.hiddenRow]}>
         {sourceIsTarget ? (
-          <Text
-            style={[s.sourceText, s.speakableSpan]}
-            onPress={() => speak(exercise.source, lang)}
-          >
-            {exercise.source}
-          </Text>
+          <TapText text={exercise.source} lang={lang} mode="target" style={[s.sourceText, s.speakableSpan]} />
         ) : sourceIsTargetTask ? (
           <TapText text={exercise.source} lang={lang} mode="target" style={s.sourceText} />
         ) : sourceIsSpanishTask ? (
@@ -521,7 +521,7 @@ function WordOrder({
   );
   const [used, setUsed] = useState<number[]>([]); // indexes into `shuffled`, in tap order
   const built = used.map((i) => shuffled[i]);
-  const correctSentence = exercise.words.join(" ");
+  const correctSentence = joinTiles(exercise.words, lang);
 
   // Each scrambled chip is already a real, fully-visible target-language
   // word -- hearing one doesn't give away where it goes, so tap-to-hear
@@ -548,9 +548,7 @@ function WordOrder({
         {built.length === 0 && <Text style={s.hint}>Tap the words below in order.</Text>}
         {built.map((w, i) => (
           <View key={i} style={s.chipBuilt}>
-            <Text style={s.chipText} onPress={() => speak(w, lang)}>
-              {w}
-            </Text>
+            <RubyLabel text={w} style={s.chipText} onPress={() => speak(w, lang)} />
           </View>
         ))}
       </View>
@@ -567,7 +565,7 @@ function WordOrder({
               }}
               style={[s.chip, isUsed && s.chipUsed]}
             >
-              <Text style={s.chipText}>{w}</Text>
+              <RubyLabel text={w} style={s.chipText} />
             </Pressable>
           );
         })}
@@ -578,7 +576,7 @@ function WordOrder({
         </Pressable>
       )}
       {checked && (
-        <AnswerCompare given={built.join(" ")} expected={correctSentence} correct={correct} lang={lang} alwaysShowCorrect />
+        <AnswerCompare given={joinTiles(built, lang)} expected={correctSentence} correct={correct} lang={lang} alwaysShowCorrect />
       )}
       {!checked && (
         <SubmitButton
@@ -652,10 +650,13 @@ function Matching({
                     // re-trigger the now-disabled parent Pressable).
                     e.stopPropagation();
                     speak(pair.left, lang);
+                    // The word fills most of the row, so a tap on it picks
+                    // the row as well as saying it.
+                    if (!checked) setActiveLeft(i);
                   }}
                 >
-                  {pair.left}
-                  {chosen ? ` → ${chosen}` : ""}
+                  {plainJa(pair.left)}
+                  {chosen ? ` → ${plainJa(chosen)}` : ""}
                 </Text>
                 {(isCorrect || isWrong) && (
                   <View style={[s.matchMark, { backgroundColor: isCorrect ? "#16a34a" : "#dc2626" }]}>
@@ -663,7 +664,7 @@ function Matching({
                   </View>
                 )}
                 {/* A wrong match shows the right one under the learner's pick. */}
-                {isWrong && <Text style={s.matchCorrect}>Correct answer: {pair.right}</Text>}
+                {isWrong && <Text style={s.matchCorrect}>Correct answer: {plainJa(pair.right)}</Text>}
               </Pressable>
             );
           })}
@@ -679,7 +680,7 @@ function Matching({
               }}
               style={[s.matchPill, usedTiles.has(i) && s.chipUsed]}
             >
-              <Text style={[s.optionText, s.shrinkText]}>{right}</Text>
+              <Text style={[s.optionText, s.shrinkText]}>{plainJa(right)}</Text>
             </Pressable>
           ))}
         </View>

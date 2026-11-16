@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Linking, Modal, Platform, Pressable, Text, View } from "react-native";
 import * as Application from "expo-application";
+import { IS_LANGUAGES_APP, LANGUAGES_APP_ID } from "@/lib/appVariant";
 
 // Asks people on an old store build to update. The website publishes
 // https://deependspanish.com/app-version.json, e.g.
@@ -9,8 +10,11 @@ import * as Application from "expo-application";
 // minBuild, a full-screen notice with an Update button is shown. Any network
 // or parsing problem means no prompt, so the app never gets stuck.
 const VERSION_URL = "https://deependspanish.com/app-version.json";
-const ANDROID_STORE = "market://details?id=com.deependspanish.app";
-const ANDROID_STORE_WEB = "https://play.google.com/store/apps/details?id=com.deependspanish.app";
+// The Deep End Languages app has its own rules, under "languages" in the
+// same file: { "languages": { "ios": { "minBuild": 2, "url": "..." } } }.
+const APP_ID = IS_LANGUAGES_APP ? LANGUAGES_APP_ID : "com.deependspanish.app";
+const ANDROID_STORE = `market://details?id=${APP_ID}`;
+const ANDROID_STORE_WEB = `https://play.google.com/store/apps/details?id=${APP_ID}`;
 
 type Rule = { minBuild?: number; url?: string };
 
@@ -25,7 +29,7 @@ export default function UpdateGate() {
     fetch(VERSION_URL, { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
-        const rule: Rule | undefined = data?.[Platform.OS];
+        const rule: Rule | undefined = (IS_LANGUAGES_APP ? data?.languages : data)?.[Platform.OS];
         if (cancelled || !rule || typeof rule.minBuild !== "number") return;
         if (build >= rule.minBuild) return;
         const url = rule.url ?? (Platform.OS === "android" ? ANDROID_STORE_WEB : null);

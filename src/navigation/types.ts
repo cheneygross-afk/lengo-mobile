@@ -22,7 +22,7 @@ type ItalianStoryLevelPath = ItalianStoryLevel["path"];
 // "pt" is the Brazilian Portuguese course, open to every account; "ko" the
 // Korean course, open to every account too; "it" the Italian course, open
 // to every account as well.
-export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko" | "it";
+export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt" | "ko" | "it" | "en";
 // The courses with stories, Today's review and Study Tools of their own.
 export type ToolsLang = "es" | "fr" | "de" | "pt";
 // The same, with the Korean course.
@@ -64,6 +64,8 @@ export type AppStackParamList = {
         portugueseLevel?: PortugueseLevelKey;
         koreanLevel?: KoreanLevelKey;
         italianLevel?: ItalianLevelKey;
+        /** A Japanese, Chinese or English level ("ja/a1", "zh/pinyin", "en/b1"). */
+        levelPath?: string;
       }
     | undefined;
   // levelPath is passed for French, German, Portuguese, Korean and Italian lessons ("fr/a1", "de/a1", "ko/hangul", "it/a1" ...):
@@ -105,6 +107,8 @@ export type AppStackParamList = {
   // Japanese beta's level picker (Alphabets/A1/A2/B1) -- see
   // JapaneseLevelsScreen. Only reachable from Home when the signed-in
   // account has japanese_beta_access.
+  /** The level picker of the Japanese, Chinese or English course. */
+  CourseLevels: { course: "ja" | "zh" | "en" };
   JapaneseLevels: undefined;
   // The Chinese beta's level picker -- see ChineseLevelsScreen. Shown to
   // the same beta testers as Japanese.

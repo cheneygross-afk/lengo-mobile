@@ -15,6 +15,7 @@ import {
   type ItalianLevelKey,
   type ItalianLevelPath,
 } from "@/lib/lessons/italian";
+import { loadCourseIndex } from "@/lib/lessons/remoteLevels";
 import type { Lesson } from "@/lib/lessons/types";
 import TapText from "@/components/TapText";
 import { ITALIAN_TOOLS, italianToolsSummary } from "@/lib/italianTools";
@@ -50,6 +51,19 @@ export default function ItalianLevelsScreen({ navigation }: Props) {
         const byPath = Object.fromEntries(AVAILABLE.map((l, i) => [l.levelPath, maps[i]])) as Partial<
           Record<ItalianLevelPath, Record<string, boolean>>
         >;
+        // Counts come from the course's small index (remoteLevels.ts), not
+        // from the levels themselves, so opening this screen doesn't
+        // download every level.
+        const index = await loadCourseIndex("it");
+        if (cancelled) return;
+        if (index) {
+          const entries = AVAILABLE.map((level) => {
+            const required = index[level.key]?.required ?? [];
+            const done = required.filter((slug) => byPath[level.levelPath]?.[slug]).length;
+            return [level.key, { done, total: required.length }] as const;
+          });
+          setCounts(Object.fromEntries(entries));
+        }
         const found = await nextItalianLesson(byPath);
         if (cancelled) return;
         if (found) {
@@ -63,18 +77,15 @@ export default function ItalianLevelsScreen({ navigation }: Props) {
             unitLabel: found.unit?.label,
           });
         } else setNext(null);
-        // One level at a time, so the first counts show up quickly.
-        for (const level of AVAILABLE) {
-          const data = await loadItalianLevel(level.key);
-          if (cancelled) return;
-          const required = requiredLessons(data.lessons);
-          const done = required.filter((l) => byPath[level.levelPath]?.[l.slug]).length;
-          setCounts((prev) => ({ ...prev, [level.key]: { done, total: required.length } }));
-        }
       };
       // Local first, then again once completions from the website (or
       // another device) are merged in, as the other courses do.
-      void load(getCompletedMap).then(() => load(syncCompletedMapFromCloud));
+      // (A level that can't be downloaded right now just leaves its card
+      // without a "Continue"; the lesson list says what to do.)
+      void load(getCompletedMap)
+        .catch(() => {})
+        .then(() => load(syncCompletedMapFromCloud))
+        .catch(() => {});
       return () => {
         cancelled = true;
       };

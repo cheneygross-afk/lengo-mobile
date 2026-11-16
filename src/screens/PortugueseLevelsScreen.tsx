@@ -14,6 +14,7 @@ import {
   type PortugueseLevelKey,
   type PortugueseLevelPath,
 } from "@/lib/lessons/portuguese";
+import { loadCourseIndex } from "@/lib/lessons/remoteLevels";
 import type { Lesson } from "@/lib/lessons/types";
 import TapText from "@/components/TapText";
 import { PORTUGUESE_LANG } from "@/lib/speech";
@@ -43,6 +44,19 @@ export default function PortugueseLevelsScreen({ navigation }: Props) {
           PortugueseLevelPath,
           Record<string, boolean>
         >;
+        // Counts come from the course's small index (remoteLevels.ts), not
+        // from the levels themselves, so opening this screen doesn't
+        // download every level.
+        const index = await loadCourseIndex("pt");
+        if (cancelled) return;
+        if (index) {
+          const entries = PORTUGUESE_LEVELS.map((level) => {
+            const required = index[level.key]?.required ?? [];
+            const done = required.filter((slug) => byPath[level.levelPath]?.[slug]).length;
+            return [level.key, { done, total: required.length }] as const;
+          });
+          setCounts(Object.fromEntries(entries));
+        }
         const found = await nextPortugueseLesson(byPath);
         if (cancelled) return;
         if (found) {
@@ -56,18 +70,15 @@ export default function PortugueseLevelsScreen({ navigation }: Props) {
             unitLabel: found.unit?.label,
           });
         } else setNext(null);
-        // One level at a time, so the first counts show up quickly.
-        for (const level of PORTUGUESE_LEVELS) {
-          const data = await loadPortugueseLevel(level.key);
-          if (cancelled) return;
-          const required = requiredLessons(data.lessons);
-          const done = required.filter((l) => byPath[level.levelPath][l.slug]).length;
-          setCounts((prev) => ({ ...prev, [level.key]: { done, total: required.length } }));
-        }
       };
       // Local first, then again once completions from the website (or
       // another device) are merged in, as the Spanish levels do.
-      void load(getCompletedMap).then(() => load(syncCompletedMapFromCloud));
+      // (A level that can't be downloaded right now just leaves its card
+      // without a "Continue"; the lesson list says what to do.)
+      void load(getCompletedMap)
+        .catch(() => {})
+        .then(() => load(syncCompletedMapFromCloud))
+        .catch(() => {});
       return () => {
         cancelled = true;
       };

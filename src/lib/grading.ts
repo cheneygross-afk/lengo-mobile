@@ -9,17 +9,18 @@
 // explicit ranges below.
 import type { DictationExercise, FillBlankExercise, TranslateExercise, WordOrderExercise } from "./lessons/types";
 import { SPANISH_WORDS } from "./spanishWords";
+import { matchesJaAnswer } from "./japanese";
 import { gradeChineseAnswer } from "./lessons/zh/pinyin";
 
 export type GradeResult = { correct: boolean; note?: string };
 
 // Which language the typed answer is in. "es" turns on the Spanish rules
 // (accent/real-word checks, subject pronouns, -ra/-se); "en" turns on
-// English contractions; "other" (Japanese) gets the plain rules only.
-// "zh" (the Chinese beta) takes characters or pinyin -- see
+// English contractions; "zh" (Chinese) takes characters or pinyin -- see
 // lessons/zh/pinyin.ts; "fr" (French) gets the plain rules plus a
-// forgotten hyphen as a slip ("est ce que"); "de" (German) takes ss for ß,
-// and ae/oe/ue or a missing umlaut as a slip with a note.
+// forgotten hyphen as a slip ("est ce que"); "other" (Japanese) takes
+// kanji, kana or romaji; "de" (German) takes ss for ß, and ae/oe/ue or a
+// missing umlaut as a slip with a note.
 // "pt" (Brazilian Portuguese) gets the plain rules: a missing accent or
 // tilde is a slip with a note.
 // "ko" (Korean) is compared in Hangul ignoring spaces and punctuation: a
@@ -251,6 +252,72 @@ export function contractEnglish(cleaned: string): string {
   return s;
 }
 
+// English number words and digits count as the same answer: "eight" and
+// "8", "twenty-five" and "25", "third" and "3rd". Applied to both sides.
+const EN_UNITS = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
+const EN_TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+const EN_ORDINALS = "_ first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth thirteenth fourteenth fifteenth sixteenth seventeenth eighteenth nineteenth".split(" ");
+const EN_TENS_ORDINALS = "_ _ twentieth thirtieth".split(" ");
+const EN_NUMBERS: Record<string, string> = {};
+function ordinalSuffix(n: number): string {
+  if (n % 100 >= 11 && n % 100 <= 13) return "th";
+  return ["th", "st", "nd", "rd"][n % 10] ?? "th";
+}
+EN_UNITS.forEach((w, n) => (EN_NUMBERS[w] = String(n)));
+EN_ORDINALS.forEach((w, n) => n > 0 && (EN_NUMBERS[w] = `${n}${ordinalSuffix(n)}`));
+for (let t = 2; t <= 9; t++) {
+  EN_NUMBERS[EN_TENS[t]] = String(t * 10);
+  if (EN_TENS_ORDINALS[t]) EN_NUMBERS[EN_TENS_ORDINALS[t]] = `${t * 10}th`;
+  for (let u = 1; u <= 9; u++) {
+    EN_NUMBERS[`${EN_TENS[t]}-${EN_UNITS[u]}`] = String(t * 10 + u);
+    EN_NUMBERS[`${EN_TENS[t]}-${EN_ORDINALS[u]}`] = `${t * 10 + u}${ordinalSuffix(t * 10 + u)}`;
+  }
+}
+
+// British and American spellings count as the same answer ("colour" and
+// "color", "realise" and "realize", "cancelled" and "canceled").
+const UK_STEMS_OUR = "colour favour flavour behaviour neighbour honour humour labour harbour rumour vapour odour".split(" ");
+const UK_STEMS_ISE = "realis organis recognis apologis criticis prioritis specialis memoris emphasis summaris minimis maximis analys paralys finalis modernis categoris characteris civilis utilis visualis".split(" ");
+const UK_LL = "cancell travell label(l) model(l) fuel(l) quarrell signall dial(l) marvell".split(" ").map((w) => w.replace(/\(l\)/, "l"));
+const UK_WORDS: Record<string, string> = {
+  centre: "center", centres: "centers", theatre: "theater", theatres: "theaters", metre: "meter", metres: "meters",
+  litre: "liter", litres: "liters", fibre: "fiber", programme: "program", programmes: "programs", grey: "gray",
+  tyre: "tire", tyres: "tires", licence: "license", defence: "defense", offence: "offense", practise: "practice",
+  practised: "practiced", practising: "practicing", catalogue: "catalog", dialogue: "dialog", jewellery: "jewelry",
+  pyjamas: "pajamas", aluminium: "aluminum", plough: "plow", sceptical: "skeptical", mould: "mold", moustache: "mustache",
+};
+
+function americanSpelling(word: string): string {
+  if (UK_WORDS[word]) return UK_WORDS[word];
+  for (const stem of UK_STEMS_OUR) if (word.startsWith(stem)) return stem.replace(/our$/, "or") + word.slice(stem.length);
+  for (const stem of UK_STEMS_ISE) {
+    if (word.startsWith(stem) && /^(e|es|ed|ing|ation|ations)$/.test(word.slice(stem.length)))
+      return stem.replace(/s$/, "z") + word.slice(stem.length);
+  }
+  for (const stem of UK_LL) {
+    if (word.startsWith(stem) && /^(ed|ing|er|ers)$/.test(word.slice(stem.length))) return stem.slice(0, -1) + word.slice(stem.length);
+  }
+  return word;
+}
+
+export function normalizeEnglishSpelling(cleaned: string): string {
+  return cleaned.split(" ").map(americanSpelling).join(" ");
+}
+
+export function normalizeEnglishNumbers(cleaned: string): string {
+  const words = cleaned.split(" ");
+  const out: string[] = [];
+  for (let i = 0; i < words.length; i++) {
+    const joined = `${words[i]}-${words[i + 1]}`;
+    if (i + 1 < words.length && EN_TENS.includes(words[i]) && EN_NUMBERS[joined]) {
+      out.push(EN_NUMBERS[joined]);
+      i++;
+    } else out.push(EN_NUMBERS[words[i]] ?? words[i]);
+  }
+  // "5%", "5 %", "5 per cent" and "5 percent" are the same answer.
+  return out.join(" ").replace(/\bper cent\b/g, "percent").replace(/(\d) ?%/g, "$1 percent");
+}
+
 // ---- Free-text grading -----------------------------------------------
 
 type Match = { rank: number; note?: string }; // 3 exact, 2 accent slip, 1 typo, 0 wrong
@@ -405,11 +472,13 @@ function withOptionalTopicI(model: string): string[] {
  * else is wrong.
  */
 export function gradeFreeText(value: string, answers: string[], opts: GradeOptions): GradeResult {
+  // Japanese: right in kanji, kana, a mix or romaji (lib/japanese.ts).
+  if (opts.lang === "other") return { correct: answers.some((a) => matchesJaAnswer(value, a)) };
   if (opts.lang === "zh") return gradeChineseAnswer(value, answers);
   if (opts.lang === "ko") return gradeKoreanAnswer(value, answers);
   const prep = (s: string) =>
     opts.lang === "en"
-      ? contractEnglish(cleanAnswer(s))
+      ? normalizeEnglishSpelling(normalizeEnglishNumbers(contractEnglish(cleanAnswer(s))))
       : opts.lang === "fr"
         ? cleanAnswer(s).replace(/-/g, " ").replace(/\s+/g, " ")
         : opts.lang === "de"
@@ -428,7 +497,9 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
   return best.rank > 0 ? { correct: true, note: best.note } : { correct: false };
 }
 
-/** "es-ES" -> "es", "zh-CN" -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", "pt-BR" -> "pt", "ko-KR" -> "ko", "it-IT" -> "it", anything else (Japanese) -> "other". */
+/** "es-ES" -> "es", "en-US" (the English for Spanish speakers beta) ->
+ * "en", "zh-CN" (the Chinese beta) -> "zh", "fr-FR" -> "fr", "de-DE" -> "de", "pt-BR" -> "pt", "ko-KR" -> "ko", "it-IT" -> "it", anything else (Japanese) ->
+ * "other". */
 export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("zh")) return "zh";
   if (speechLang.startsWith("fr")) return "fr";
@@ -436,7 +507,7 @@ export function answerLanguageFor(speechLang: string): AnswerLanguage {
   if (speechLang.startsWith("pt")) return "pt";
   if (speechLang.startsWith("ko")) return "ko";
   if (speechLang.startsWith("it")) return "it";
-  return speechLang.startsWith("es") ? "es" : "other";
+  return speechLang.startsWith("es") ? "es" : speechLang.startsWith("en") ? "en" : "other";
 }
 
 // Splits a fill-blank sentence on its blank (a run of 3+ underscores).
@@ -475,9 +546,12 @@ export function gradeTranslate(value: string, exercise: TranslateExercise, speec
     };
     return { correct: answers.some((a) => strict(a) === strict(value)) };
   }
+  // Directions name the languages literally, so "en-es" always means a
+  // Spanish answer -- in the English beta too, where Spanish is the
+  // learner's own language.
   const toEnglish = exercise.direction === "es-en";
   return gradeFreeText(value, [exercise.answer, ...(exercise.altAnswers ?? [])], {
-    lang: toEnglish ? "en" : answerLanguageFor(speechLang),
+    lang: toEnglish ? "en" : speechLang.startsWith("en") ? "es" : answerLanguageFor(speechLang),
     pronouns: !toEnglish,
   });
 }

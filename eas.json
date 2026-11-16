@@ -36,10 +36,58 @@
         "EXPO_PUBLIC_SUPABASE_URL": "https://vqxlqgvxxloqfdstvrkx.supabase.co",
         "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZxeGxxZ3Z4eGxvcWZkc3R2cmt4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxMDgwODQsImV4cCI6MjEwMzY4NDA4NH0._6HgqaJeieGR91prDneg22WNMpnAhZU3E8FaCXXtqLo"
       }
+    },
+    "languages": {
+      "autoIncrement": true,
+      "channel": "languages",
+      "environment": "production",
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://vqxlqgvxxloqfdstvrkx.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZxeGxxZ3Z4eGxvcWZkc3R2cmt4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxMDgwODQsImV4cCI6MjEwMzY4NDA4NH0._6HgqaJeieGR91prDneg22WNMpnAhZU3E8FaCXXtqLo",
+        "APP_VARIANT": "languages",
+        "EXPO_PUBLIC_APP_VARIANT": "languages"
+      }
+    },
+    "languages-preview": {
+      "distribution": "internal",
+      "channel": "languages-preview",
+      "environment": "preview",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://vqxlqgvxxloqfdstvrkx.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZxeGxxZ3Z4eGxvcWZkc3R2cmt4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxMDgwODQsImV4cCI6MjEwMzY4NDA4NH0._6HgqaJeieGR91prDneg22WNMpnAhZU3E8FaCXXtqLo",
+        "APP_VARIANT": "languages",
+        "EXPO_PUBLIC_APP_VARIANT": "languages"
+      }
+    },
+    "languages-simulator": {
+      "distribution": "internal",
+      "channel": "languages-preview",
+      "environment": "preview",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://vqxlqgvxxloqfdstvrkx.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZxeGxxZ3Z4eGxvcWZkc3R2cmt4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgxMDgwODQsImV4cCI6MjEwMzY4NDA4NH0._6HgqaJeieGR91prDneg22WNMpnAhZU3E8FaCXXtqLo",
+        "APP_VARIANT": "languages",
+        "EXPO_PUBLIC_APP_VARIANT": "languages"
+      },
+      "ios": {
+        "simulator": true
+      }
     }
   },
   "submit": {
     "production": {
+      "ios": {}
+    },
+    "languages": {
       "ios": {}
     }
   }

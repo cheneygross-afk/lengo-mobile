@@ -34,19 +34,47 @@ import { PORTUGUESE_LEVELS, loadPortugueseLevel, nextPortugueseLesson } from "@/
 import { KOREAN_PATH_LEVELS, loadKoreanLevel, nextKoreanLesson } from "@/lib/lessons/korean";
 import { ITALIAN_PATH_LEVELS, loadItalianLevel, nextItalianLesson } from "@/lib/lessons/italian";
 import { ITALIAN_TOOLS, italianToolsSummary } from "@/lib/italianTools";
+import {
+  REMOTE_COURSE_LEVELS,
+  loadRemoteCourseLevel,
+  nextRemoteCourseLesson,
+  type RemoteCourseId,
+} from "@/lib/lessons/remoteCourses";
+
+import { APP_COURSES, APP_NAME, IS_LANGUAGES_APP } from "@/lib/appVariant";
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it";
+type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it" | "en";
 
 // French's, German's and Portuguese's "Continue" card: the next lesson on
 // its path, worked out only while that course is selected (its lessons
 // load on demand, lessons/french.ts, lessons/german.ts, lessons/portuguese.ts).
 type CourseNext = { slug: string; levelPath: string; label: string; number: number; title: string } | null;
 
-type LazyCourse = "fr" | "de" | "pt" | "ko" | "it";
+type LazyCourse = "fr" | "de" | "pt" | "ko" | "it" | "ja" | "zh" | "en";
+
+const isRemoteCourse = (course: LazyCourse): course is RemoteCourseId => course === "ja" || course === "zh" || course === "en";
+const isLazyCourse = (language: Language): language is LazyCourse => language !== "es";
 
 async function loadCourseNext(course: LazyCourse, fromCloud: boolean): Promise<CourseNext> {
+  // Japanese, Chinese and English share one implementation (lessons/remoteCourses.ts).
+  if (isRemoteCourse(course)) {
+    const levels = REMOTE_COURSE_LEVELS[course];
+    const maps = await Promise.all(
+      levels.map((l) => (fromCloud ? syncCompletedMapFromCloud(l.levelPath) : getCompletedMap(l.levelPath)))
+    );
+    const found = await nextRemoteCourseLesson(course, Object.fromEntries(levels.map((l, i) => [l.levelPath, maps[i]])));
+    if (!found) return null;
+    const data = await loadRemoteCourseLevel(found.level.levelPath);
+    return {
+      slug: found.lesson.slug,
+      levelPath: found.level.levelPath,
+      label: found.level.label,
+      number: found.lesson.number,
+      title: displayTitle(found.lesson, data.lessons),
+    };
+  }
   const levels: { levelPath: string }[] =
     course === "fr"
       ? FRENCH_LEVELS
@@ -93,9 +121,22 @@ async function loadCourseNext(course: LazyCourse, fromCloud: boolean): Promise<C
 
 const LANGUAGE_STORAGE_KEY = "deepend-selected-language";
 
-// The courses the app shows. The other courses' screens are still built
-// in; adding a code here (and its pill below) brings one back.
-const APP_LANGUAGES: Language[] = ["es"];
+// The courses this app shows (appVariant.ts): Spanish alone in Deep End:
+// Learn Spanish, every other course in Deep End Languages. A course Home
+// has no section for yet is left out.
+const LANGUAGE_NAMES: Record<Language, string> = {
+  es: "Spanish",
+  ja: "Japanese",
+  zh: "Chinese",
+  fr: "French",
+  de: "German",
+  pt: "Portuguese",
+  it: "Italian",
+  ko: "Korean",
+  en: "English",
+};
+const APP_LANGUAGES: Language[] = APP_COURSES.filter((c): c is Language => c in LANGUAGE_NAMES);
+const DEFAULT_LANGUAGE: Language = APP_LANGUAGES[0];
 
 const SPANISH_LESSONS_BY_LEVEL = Object.fromEntries(
   SPANISH_LEVEL_ORDER.map((lp) => [lp, LESSON_SOURCES[lp].lessons])
@@ -124,6 +165,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
   const cards = Object.values(await loadFlashcards());
   const ja = cards.filter((c) => courseOfLevelPath(c.levelPath) === "ja");
   const zh = cards.filter((c) => courseOfLevelPath(c.levelPath) === "zh");
+  const en = cards.filter((c) => courseOfLevelPath(c.levelPath) === "en");
   const study = fromCloud ? await syncStudyDays() : await getStudySummary();
   // Lessons finished before the daily review mix existed (or on the
   // website) join it once their completions are here.
@@ -139,6 +181,7 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
       pt: todaysReviewTotal(await getPortugueseReviewCounts()),
       ja: (await getDueCardsForToday(ja, prefs)).length,
       zh: (await getDueCardsForToday(zh, prefs)).length,
+      en: (await getDueCardsForToday(en, prefs)).length,
       ko: todaysReviewTotal(await getKoreanReviewCounts()),
       it: todaysReviewTotal(await getItalianReviewCounts()),
     },
@@ -150,15 +193,14 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
 
 export default function HomeScreen({ navigation }: Props) {
   const { session } = useAuth();
-  const [language, setLanguage] = useState<Language>("es");
+  const [language, setLanguage] = useState<Language>(DEFAULT_LANGUAGE);
 
   useFocusEffect(
     useCallback(() => {
-      readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
-        // The app offers Spanish only for now (owner's call, 2026-11-02);
-        // the other courses stay on the website. A language saved before
-        // then falls back to Spanish.
-        setLanguage(APP_LANGUAGES.includes(saved) ? saved : "es");
+      readJSON<Language>(LANGUAGE_STORAGE_KEY, DEFAULT_LANGUAGE).then((saved) => {
+        // A language this app doesn't offer (saved by an older version)
+        // falls back to the app's first course.
+        setLanguage(APP_LANGUAGES.includes(saved) ? saved : DEFAULT_LANGUAGE);
       });
     }, [])
   );
@@ -184,7 +226,9 @@ export default function HomeScreen({ navigation }: Props) {
         // First run: set up a starting level and daily goal -- unless
         // it's been done (here or on the website) or this account
         // already has lessons done, which predates setup existing.
-        if (!onboardingShownRef.current && synced.prefs.onboardedAt === null && !synced.hasSpanishProgress) {
+        // (The setup is the Spanish course's; Deep End Languages opens
+        // on Home, where the language pills are the first choice.)
+        if (!IS_LANGUAGES_APP && !onboardingShownRef.current && synced.prefs.onboardedAt === null && !synced.hasSpanishProgress) {
           onboardingShownRef.current = true;
           navigation.navigate("Onboarding");
         }
@@ -202,7 +246,7 @@ export default function HomeScreen({ navigation }: Props) {
   const courseSyncedRef = useRef<Record<string, boolean>>({});
   useFocusEffect(
     useCallback(() => {
-      if (language !== "fr" && language !== "de" && language !== "pt" && language !== "ko" && language !== "it") return;
+      if (!isLazyCourse(language)) return;
       const course = language;
       let cancelled = false;
       (async () => {
@@ -248,14 +292,16 @@ export default function HomeScreen({ navigation }: Props) {
       <ScrollView style={styles.scroll} contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.centerSection}>
           <View style={styles.heading}>
-            <Text style={styles.title}>Deep End</Text>
+            <Text style={[styles.title, IS_LANGUAGES_APP && styles.titleLong]}>{APP_NAME}</Text>
             <Text style={styles.subtitle}>{session?.user.email}</Text>
           </View>
 
-          {/* Only one course in the app for now, so no language switcher. */}
+          {/* One course (the Spanish app) needs no language switcher. */}
           {APP_LANGUAGES.length > 1 && (
             <View style={styles.langRow}>
-              <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
+              {APP_LANGUAGES.map((l) => (
+                <LangPill key={l} label={LANGUAGE_NAMES[l]} active={language === l} onPress={() => selectLanguage(l)} />
+              ))}
             </View>
           )}
 
@@ -291,17 +337,14 @@ export default function HomeScreen({ navigation }: Props) {
               <ContinueCard
                 label="All caught up"
                 title="Every required lesson from beginner to mastery is done."
-                onPress={() => navigation.navigate(
-                    courseNext.course === "fr"
-                      ? "FrenchLevels"
-                      : courseNext.course === "de"
-                        ? "GermanLevels"
-                        : courseNext.course === "pt"
-                          ? "PortugueseLevels"
-                          : courseNext.course === "ko"
-                            ? "KoreanLevels"
-                            : "ItalianLevels"
-                  )}
+                onPress={() => {
+                  const c = courseNext.course;
+                  if (isRemoteCourse(c)) navigation.navigate("CourseLevels", { course: c });
+                  else
+                    navigation.navigate(
+                      c === "fr" ? "FrenchLevels" : c === "de" ? "GermanLevels" : c === "pt" ? "PortugueseLevels" : c === "ko" ? "KoreanLevels" : "ItalianLevels"
+                    );
+                }}
               />
             )
           )}
@@ -369,9 +412,11 @@ export default function HomeScreen({ navigation }: Props) {
             ) : language === "it" ? (
               <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("ItalianLevels")} />
             ) : language === "ja" ? (
-              <NavCard icon="lessons" title="Lessons" body="Hiragana and katakana, then lessons level by level." onPress={() => navigation.navigate("JapaneseLevels")} />
+              <NavCard icon="lessons" title="Lessons" body="Hiragana and katakana, then lessons from beginner to mastery." onPress={() => navigation.navigate("CourseLevels", { course: "ja" })} />
+            ) : language === "zh" ? (
+              <NavCard icon="lessons" title="Lessons" body="Pinyin and tones, then lessons from HSK 1 to HSK 9." onPress={() => navigation.navigate("CourseLevels", { course: "zh" })} />
             ) : (
-              <NavCard icon="lessons" title="Lessons" body="Pinyin and tones, then lessons level by level." onPress={() => navigation.navigate("ChineseLevels")} />
+              <NavCard icon="lessons" title="Lecciones" body="Inglés para hispanohablantes, de A1 a C2." onPress={() => navigation.navigate("CourseLevels", { course: "en" })} />
             )}
 
             <NavCard
@@ -440,7 +485,7 @@ export default function HomeScreen({ navigation }: Props) {
                 Writing tile on each course page. */}
             {/* Korean's writing practice is in its Study Tools (with every
                 unit's writing tasks), not on Home. */}
-            {language !== "ko" && (
+            {language !== "ko" && language !== "en" && (
               <NavCard
                 icon="writing"
                 tint="saffron"
@@ -486,7 +531,7 @@ export default function HomeScreen({ navigation }: Props) {
           squeezing this screen's own layout -- nothing here needs to
           react to it opening. */}
       {/* The translator covers Spanish, French, German, Portuguese, Japanese and Italian (it-en / en-it). */}
-      {language !== "zh" && language !== "ko" && <TranslateBar language={language} />}
+      {language !== "zh" && language !== "ko" && language !== "en" && <TranslateBar language={language} />}
     </View>
   );
 }
@@ -541,6 +586,8 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
     color: colors.foreground,
   },
+  // "Deep End Languages" is twice as long as "Deep End".
+  titleLong: { fontSize: 28, lineHeight: 54 },
   subtitle: { fontSize: 13, color: colors.inkMuted, marginTop: 0 },
   langRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, justifyContent: "center" },
   langPill: {

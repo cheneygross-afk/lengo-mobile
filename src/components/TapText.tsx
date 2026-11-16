@@ -3,6 +3,8 @@ import { Text, StyleSheet, type StyleProp, type TextStyle } from "react-native";
 import { prefetchSpeech, speak, ENGLISH_LANG, type SpeechLang } from "@/lib/speech";
 import { targetSpans } from "@/lib/targetSpans";
 import { isSpanishText, spanishVoicer } from "@/lib/spanishVoice";
+import { hasRuby } from "@/lib/japanese";
+import JaRubyText, { jaTokens } from "@/components/JaRuby";
 
 // Makes every target-language word in a block of text tap-to-hear -- the
 // rule for lesson screens is that any word in the language being learned
@@ -144,6 +146,12 @@ function pieces(text: string, lang: SpeechLang, mode: Mode, boldBrackets: boolea
 /** What tapping each word of `text` would say (lib/lessonAudio.ts loads
  * these before a lesson starts), by the same rules as the rendered text. */
 export function spokenPieces(text: string, lang: SpeechLang, mode: Mode = "mixed"): { text: string; lang: SpeechLang }[] {
+  // Japanese with furigana markup: the words its pieces say (JaRuby).
+  if (hasRuby(text)) {
+    const said = new Set<string>();
+    for (const t of jaTokens(text.replace(/[[\]]/g, "")).tokens) if (t.say) said.add(t.say);
+    return [...said].map((w) => ({ text: w, lang }));
+  }
   return pieces(text, lang, mode, true)
     .filter((p) => p.lang)
     .map((p) => ({ text: p.text, lang: p.lang as SpeechLang }));
@@ -187,6 +195,24 @@ export default function TapText({
   lang: SpeechLang;
   mode?: Mode;
   boldBrackets?: boolean;
+  style?: StyleProp<TextStyle>;
+}) {
+  // Japanese written with furigana markup is laid out by JaRuby.
+  if (hasRuby(text)) return <JaRubyText text={text} style={style} boldBrackets={boldBrackets} />;
+  return <PlainTapText text={text} lang={lang} mode={mode} boldBrackets={boldBrackets} style={style} />;
+}
+
+function PlainTapText({
+  text,
+  lang,
+  mode,
+  boldBrackets,
+  style,
+}: {
+  text: string;
+  lang: SpeechLang;
+  mode: Mode;
+  boldBrackets: boolean;
   style?: StyleProp<TextStyle>;
 }) {
   const parts = useMemo(() => pieces(text, lang, mode, boldBrackets), [text, lang, mode, boldBrackets]);

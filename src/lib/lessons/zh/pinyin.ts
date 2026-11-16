@@ -71,7 +71,8 @@ export function stripTones(s: string): string {
  * characters and/or tone-marked pinyin. Characters must match exactly
  * (punctuation and spaces ignored). Pinyin matches with tone marks or tone
  * numbers; right syllables typed with no tones at all count as correct
- * with a reminder, wrong tones count as wrong.
+ * with a reminder, and so does a light (neutral) tone typed as a full one
+ * or the reverse; wrong tones count as wrong.
  */
 export function gradeChineseAnswer(value: string, answers: string[]): ZhGradeResult {
   const typedHanzi = cleanHanzi(value);
@@ -81,14 +82,27 @@ export function gradeChineseAnswer(value: string, answers: string[]): ZhGradeRes
   const typed = pinyinParts(value);
   if (!typed) return { correct: false };
   let toneless: string | null = null;
+  let neutral: string | null = null;
   for (const answer of answers) {
     const p = pinyinParts(answer);
     if (!p || p.letters !== typed.letters) continue;
     if (p.tones === typed.tones) return { correct: true };
     if (!typed.tones && !toneless) toneless = answer;
+    // A light (neutral) tone typed as a full tone, or the reverse
+    // (xuéshēng for xuésheng): dictionaries differ on many of these, so
+    // it counts, with the standard form shown.
+    else if (typed.tones && !neutral && (isSubsequence(p.tones, typed.tones) || isSubsequence(typed.tones, p.tones))) neutral = answer;
   }
   if (toneless) return { correct: true, note: `Correct -- now add the tones: "${toneless}".` };
+  if (neutral) return { correct: true, note: `Correct -- the standard form is "${neutral}": some syllables take the light (neutral) tone.` };
   return { correct: false };
+}
+
+/** True if `short` can be made from `long` by deleting characters. */
+function isSubsequence(short: string, long: string): boolean {
+  let i = 0;
+  for (const ch of long) if (i < short.length && ch === short[i]) i++;
+  return i === short.length;
 }
 
 // A tone mark must sit on the right vowel: on a or e if present, on o in

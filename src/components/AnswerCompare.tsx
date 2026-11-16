@@ -1,5 +1,6 @@
 import { Text, View, StyleSheet } from "react-native";
 import { speak, type SpeechLang } from "@/lib/speech";
+import { plainJa } from "@/lib/japanese";
 
 // After a typed or built answer is checked: what the learner gave, next to
 // the right answer, so they can see exactly where it went wrong (and,
@@ -50,7 +51,7 @@ export function AnswerCompare({
         <Text style={s.line}>
           <Text style={s.label}>{correctLabel} </Text>
           <Text style={[s.value, s.right]} onPress={() => speak(expected, lang)}>
-            {expected}
+            {plainJa(expected)}
           </Text>
         </Text>
       )}

@@ -11,6 +11,7 @@
 // (offline, a failed request), the learner gets a "Couldn't play the
 // audio -- Retry" prompt instead (see speechStatus.ts and
 // SpeechStatusToast).
+import { plainJa } from "./japanese";
 import { createAudioPlayer, setAudioModeAsync, type AudioPlayer, type AudioStatus } from "expo-audio";
 import { supabase } from "@/lib/supabase/client";
 import {
@@ -73,6 +74,8 @@ export function langForLevelPath(levelPath: string): SpeechLang {
   if (levelPath === "pt" || levelPath.startsWith("pt/")) return PORTUGUESE_LANG;
   if (levelPath === "ko" || levelPath.startsWith("ko/")) return KOREAN_LANG;
   if (levelPath === "it" || levelPath.startsWith("it/")) return ITALIAN_LANG;
+  // English for Spanish speakers: the language being learned is English.
+  if (levelPath === "en" || levelPath.startsWith("en/")) return ENGLISH_LANG;
   return levelPath.startsWith("ja") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -83,6 +86,7 @@ export function langForLevel(level: string): SpeechLang {
   if (level.startsWith("PT-")) return PORTUGUESE_LANG;
   if (level.startsWith("KO-")) return KOREAN_LANG;
   if (level.startsWith("IT-")) return ITALIAN_LANG;
+  if (level.startsWith("EN-")) return ENGLISH_LANG;
   return level.startsWith("JA") ? JAPANESE_LANG : SPANISH_LANG;
 }
 
@@ -92,7 +96,8 @@ export function langForLevel(level: string): SpeechLang {
 // two requests differing only in trailing punctuation share one cached
 // clip instead of generating (and paying for) two.
 export function stripForSpeech(text: string): string {
-  return text.replace(/[.,;:!?¿¡"'“”()\[\]]/g, "").trim();
+  // Furigana markup ({漢字|かんじ}) is read as the kanji.
+  return plainJa(text).replace(/[.,;:!?¿¡"'“”()\[\]]/g, "").trim();
 }
 
 // ---- Cached cloud pronunciation ------------------------------------

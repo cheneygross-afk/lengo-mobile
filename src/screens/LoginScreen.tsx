@@ -15,6 +15,7 @@ import { mottoStyle } from "@/ui/theme";
 import { requiredLessons } from "@/lib/lessons/levels";
 import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { supabase } from "@/lib/supabase/client";
+import { APP_NAME, IS_LANGUAGES_APP } from "@/lib/appVariant";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Login">;
 
@@ -42,7 +43,7 @@ export default function LoginScreen({ navigation }: Props) {
     <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === "ios" ? "padding" : undefined}>
       <View style={styles.container}>
         <View style={styles.brand}>
-          <Text style={styles.wordmark}>Deep End</Text>
+          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{APP_NAME}</Text>
           <Text style={styles.motto}>Jump in.</Text>
           <Text style={styles.tagline}>Log in to keep going.</Text>
         </View>
@@ -88,14 +89,15 @@ export default function LoginScreen({ navigation }: Props) {
         <Pressable onPress={() => navigation.navigate("Signup")}>
           <Text style={styles.footer}>Don't have an account? Sign up</Text>
         </Pressable>
-        {/* New here: the first lesson right away, account after (TryLesson). */}
-        <Pressable
+        {/* New here: the first lesson right away, account after (TryLesson).
+            Spanish only for now: its first lesson ships inside the app. */}
+        {!IS_LANGUAGES_APP && <Pressable
           style={({ pressed }) => [styles.tryButton, pressed && styles.buttonPressed]}
           onPress={() => navigation.navigate("TryLesson", { slug: FIRST_LESSON_SLUG })}
         >
           <Text style={styles.tryText}>New to Spanish? Try your first lesson free →</Text>
           <Text style={styles.trySub}>About 5 minutes, no account needed.</Text>
-        </Pressable>
+        </Pressable>}
       </View>
     </KeyboardAvoidingView>
   );
@@ -129,6 +131,8 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
     color: "#8B0000",
   },
+  // "Deep End Languages" is longer: smaller, so it fits one line on a phone.
+  wordmarkLong: { fontSize: 30, lineHeight: 64, paddingHorizontal: 8 },
   // The Deep End motto, set like the QR sticker (theme.ts mottoStyle).
   motto: { ...mottoStyle, marginTop: -6 },
   tagline: { fontSize: 14, color: "#2A151399", marginTop: 6 },

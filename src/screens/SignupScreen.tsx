@@ -14,6 +14,7 @@ import type { AuthStackParamList } from "@/navigation/types";
 import { mottoStyle } from "@/ui/theme";
 import { trackEvent } from "@/lib/analytics";
 import { supabase } from "@/lib/supabase/client";
+import { APP_NAME, IS_LANGUAGES_APP } from "@/lib/appVariant";
 
 type Props = NativeStackScreenProps<AuthStackParamList, "Signup">;
 
@@ -81,7 +82,7 @@ export default function SignupScreen({ navigation }: Props) {
     return (
       <View style={styles.container}>
         <View style={styles.brand}>
-          <Text style={styles.wordmark}>Deep End</Text>
+          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{APP_NAME}</Text>
         </View>
         <Text style={styles.confirmTitle}>Check your email</Text>
         <Text style={styles.confirmBody}>
@@ -98,7 +99,7 @@ export default function SignupScreen({ navigation }: Props) {
     <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === "ios" ? "padding" : undefined}>
       <View style={styles.container}>
         <View style={styles.brand}>
-          <Text style={styles.wordmark}>Deep End</Text>
+          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{APP_NAME}</Text>
           <Text style={styles.motto}>Jump in.</Text>
           <Text style={styles.tagline}>Create an account to get started.</Text>
         </View>
@@ -183,6 +184,8 @@ const styles = StyleSheet.create({
     paddingBottom: 4,
     color: "#8B0000",
   },
+  // "Deep End Languages" is longer: smaller, so it fits one line on a phone.
+  wordmarkLong: { fontSize: 30, lineHeight: 64, paddingHorizontal: 8 },
   // The Deep End motto, set like the QR sticker (theme.ts mottoStyle).
   motto: { ...mottoStyle, marginTop: -6 },
   tagline: { fontSize: 14, color: "#2A151399", marginTop: 6 },

@@ -5,14 +5,13 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import { deleteNotepad, loadAllNotepads, notepadKey, type LessonNotepad } from "@/lib/lessonNotepad";
 import type { CourseId } from "@/lib/courses";
+import { APP_COURSES } from "@/lib/appVariant";
 import { cardShadow, colors, fonts } from "@/ui/theme";
 
 // The Notes screen (mirror of the website's /notes): every lesson
 // notepad, grouped by course, with the lesson it came from and a way back
-// to it. The app only offers Spanish for now (HomeScreen APP_LANGUAGES),
-// so only those courses are listed; notes from other courses stay on the
-// website's Notes page.
-const APP_COURSES: CourseId[] = ["es"];
+// to it. Only this app's own courses are listed (lib/appVariant.ts); notes
+// from other courses stay on the website's Notes page.
 const COURSE_NAMES: Record<CourseId, string> = {
   es: "Spanish",
   zh: "Chinese",
