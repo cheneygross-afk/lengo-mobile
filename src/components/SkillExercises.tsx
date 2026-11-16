@@ -16,6 +16,7 @@ import type { DictationExercise, ListenChooseExercise, SpeakExercise, WriteExerc
 import { englishTaughtName, playOtherAudio, setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
 import { AnswerCompare } from "@/components/AnswerCompare";
 import TapText, { isTargetText } from "@/components/TapText";
+import { RubyLabel } from "@/components/JaRuby";
 import { dictationAnswer, gradeDictation, optionOrder } from "@/lib/grading";
 import { countWords, parseWritingFeedback, type WritingFeedback } from "@/lib/writingFeedback";
 import { supabase } from "@/lib/supabase/client";
@@ -84,7 +85,7 @@ export function ListenChoose({
                 checked && i === exercise.correctIndex && s.optionCorrect,
               ]}
             >
-              <Text style={s.optionText}>{opt}</Text>
+              <RubyLabel text={opt} style={s.optionText} />
             </Pressable>
           );
         })}

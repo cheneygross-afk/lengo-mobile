@@ -14,6 +14,7 @@ import {
 import type { LessonHighlight } from "@/lib/highlights";
 import { prefetchSpeech, speak, type SpeechLang } from "@/lib/speech";
 import { OLD_HANGUL, targetWordTest } from "@/components/TapText";
+import { jaTokens, RubyPiece } from "@/components/JaRuby";
 
 // Mobile has no equivalent of the web app's window.getSelection() (see
 // src/components/lessons/HighlightableText.tsx there), so this builds
@@ -29,7 +30,8 @@ import { OLD_HANGUL, targetWordTest } from "@/components/TapText";
 // website's click-to-remove <mark>.
 
 type WordRect = { x: number; y: number; width: number; height: number };
-type Token = { start: number; end: number; value: string; isWord: boolean };
+// `reading` and `say` are set for Japanese only (see JaRuby's jaTokens).
+type Token = { start: number; end: number; value: string; isWord: boolean; reading?: string; say?: string };
 
 type Props = {
   text: string;
@@ -137,24 +139,33 @@ export default function HighlightableText({
   // turning ordinary reading touches into accidental saved highlights.
   const [pending, setPending] = useState<{ start: number; end: number; x: number; y: number } | null>(null);
 
-  const tokens = useMemo(() => tokenize(text), [text]);
+  // Japanese has no spaces and carries furigana markup, so it is cut into
+  // pieces by JaRuby; offsets are into the plain text (markup removed), the
+  // same ones the website saves.
+  const ja = lang === "ja-JP";
+  const { plain, tokens } = useMemo<{ plain: string; tokens: Token[] }>(
+    () => (ja ? jaTokens(text) : { plain: text, tokens: tokenize(text) }),
+    [text, ja]
+  );
+  const said = (t: Token) => (ja ? t.say ?? "" : t.value);
   const words = useMemo(() => tokens.filter((t) => t.isWord), [tokens]);
   // Loads the first few words' clips as the block appears, so the first
   // taps play at once instead of after a download.
   useEffect(() => {
     if (!lang) return;
-    for (const w of words.slice(0, 8)) if (voiced(w)) prefetchSpeech(w.value, lang);
+    for (const w of words.slice(0, 8)) if (voiced(w)) prefetchSpeech(said(w), lang);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text, lang]);
   // Which words tap-to-hear plays: only the language being learned, and
   // never a word with old Hangul (see TapText's OLD_HANGUL).
   const voiced = useMemo(() => {
     if (!lang) return () => false;
+    if (ja) return (t: Token) => !!t.say;
     const sayable = (t: Token) => !(lang === "ko-KR" && OLD_HANGUL.test(t.value));
     if (!mixed) return sayable;
     const isTarget = targetWordTest(text, lang);
     return (t: Token) => sayable(t) && isTarget(t.start, t.end);
-  }, [text, lang, mixed]);
+  }, [text, lang, mixed, ja]);
 
   function measureOrigin(cb?: () => void) {
     rowRef.current?.measureInWindow((x, y) => {
@@ -213,7 +224,7 @@ export default function HighlightableText({
       setPending(null);
       return;
     }
-    if (lang && voiced(word)) speak(word.value, lang);
+    if (lang && voiced(word)) speak(said(word), lang);
     onWordTap?.(word.value);
   }
 
@@ -275,7 +286,7 @@ export default function HighlightableText({
 
   function confirmPending() {
     if (!pending) return;
-    onAdd(pending.start, pending.end, text.slice(pending.start, pending.end));
+    onAdd(pending.start, pending.end, plain.slice(pending.start, pending.end));
     setPending(null);
   }
 
@@ -284,7 +295,7 @@ export default function HighlightableText({
   return (
     <View
       ref={rowRef}
-      style={[styles.row, style]}
+      style={[styles.row, ja && styles.rowJa, style]}
       onLayout={() => measureOrigin()}
       {...(enabled ? panResponder.panHandlers : {})}
     >
@@ -303,6 +314,22 @@ export default function HighlightableText({
         const inDrag = !!dragRange && idx >= dragRange.start && idx <= dragRange.end;
         const inPending = !!pending && token.start >= pending.start && token.end <= pending.end;
         const bg = inDrag || inPending ? PREVIEW_COLOR : hit ? markColor : undefined;
+        if (ja)
+          return (
+            <RubyPiece
+              key={i}
+              token={token}
+              textStyle={textStyle}
+              extraStyle={[styles.word, isMarked?.(token.value) ? styles.marked : null, bg ? { backgroundColor: bg } : null]}
+              onLayout={(e: LayoutChangeEvent) => {
+                const { x, y, width, height } = e.nativeEvent.layout;
+                wordRects.current.set(idx, { x, y, width, height });
+              }}
+              onPressIn={lang && voiced(token) ? () => prefetchSpeech(said(token), lang) : undefined}
+              onPress={() => handleWordTap(token)}
+              onLongPress={onWordLongPress ? () => onWordLongPress(token.value) : undefined}
+            />
+          );
         return (
           <Text
             key={i}
@@ -333,6 +360,7 @@ export default function HighlightableText({
 
 const styles = StyleSheet.create({
   row: { flexDirection: "row", flexWrap: "wrap", alignItems: "flex-start" },
+  rowJa: { alignItems: "flex-end" },
   word: { borderRadius: 2 },
   marked: { textDecorationLine: "underline", textDecorationStyle: "dotted", textDecorationColor: "#2A151380" },
   pillWrap: {

@@ -23,8 +23,10 @@ export const APP_NAME = IS_LANGUAGES_APP ? "Deep End Languages" : "Deep End";
 /** The website this app belongs to (plans, account pages, course files). */
 export const APP_WEBSITE = IS_LANGUAGES_APP ? "https://deependlanguages.com" : "https://deependspanish.com";
 
-/** The courses this app offers, in the order Home lists them. */
-export const APP_COURSES: CourseId[] = IS_LANGUAGES_APP ? ["ja", "zh", "fr", "de", "pt", "it", "ko", "en"] : ["es"];
+/** The courses this app offers, in the order Home lists them. Chinese
+ * ("zh") and English ("en") are built but held back for a later release:
+ * add them here to turn them on. */
+export const APP_COURSES: CourseId[] = IS_LANGUAGES_APP ? ["ja", "fr", "de", "pt", "it", "ko"] : ["es"];
 
 /** The course a new install starts on. */
 export const DEFAULT_COURSE: CourseId = APP_COURSES[0];
