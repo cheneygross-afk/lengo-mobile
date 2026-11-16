@@ -17,6 +17,7 @@ import {
 import { previewVoice, setPreferredVoice, setPronunciationEnabled } from "@/lib/speech";
 import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
 import { syncPrefs, updatePrefs } from "@/lib/learnerPrefs";
+import { APP_WEBSITE, IS_LANGUAGES_APP } from "@/lib/appVariant";
 import { openPremium as openWebsitePlans } from "@/lib/premium";
 import {
   DAILY_GOAL_LABELS,
@@ -386,8 +387,10 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
       <Pressable style={s.premiumBtn} onPress={openPremium} disabled={openingPremium}>
         <Text style={s.premiumBtnText}>{openingPremium ? "Opening…" : "Get Premium"}</Text>
         <Text style={s.premiumBtnSub}>
-          Focused Lessons, one language: 2 months free, then $9/mo. All Access, every language: $15/mo. Cancel
-          anytime. Opens deependspanish.com in your browser, already signed in.
+          {IS_LANGUAGES_APP
+            ? "Every lesson and study tool for your language. Cancel anytime."
+            : "Focused Lessons, one language: 2 months free, then $9/mo. All Access, every language: $15/mo. Cancel anytime."}{" "}
+          Opens {APP_WEBSITE.replace("https://", "")} in your browser, already signed in.
         </Text>
       </Pressable>
 
@@ -436,13 +439,13 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
       {/* The placement test isn't on Home (most learners take it once),
           so it stays reachable here, next to the learning prefs, and on
           the Study Tools screen. */}
-      <View style={s.section}>
+      {!IS_LANGUAGES_APP && <View style={s.section}>
         <Text style={s.sectionTitle}>Your level</Text>
         <Text style={s.sectionSub}>Not sure your Spanish level is right? Take the placement test again any time.</Text>
         <Pressable onPress={() => navigation.navigate("Placement")} style={s.placementLink}>
           <Text style={s.placementLinkText}>Retake the Spanish placement test →</Text>
         </Pressable>
-      </View>
+      </View>}
 
       <View style={s.section}>
         <Text style={s.sectionTitle}>Highlighting</Text>
@@ -473,7 +476,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
         <View style={s.enabledRow}>
           <View style={s.enabledRowText}>
             <Text style={s.enabledLabel}>Hear words when tapped</Text>
-            <Text style={s.sectionSub}>Tap any Spanish or Japanese word or phrase to hear it said aloud.</Text>
+            <Text style={s.sectionSub}>Tap any word or phrase in the language you are learning to hear it said aloud.</Text>
           </View>
           <Switch
             value={pronunciationEnabled}
@@ -499,7 +502,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
             );
           })}
         </View>
-        <SpanishVarietyPicker />
+        {!IS_LANGUAGES_APP && <SpanishVarietyPicker />}
       </View>
 
       <EmailPrefs />
