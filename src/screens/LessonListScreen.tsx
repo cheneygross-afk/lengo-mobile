@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from "react";
-import { View, Text, SectionList, Pressable, StyleSheet, ActivityIndicator } from "react-native";
+import { View, Text, SectionList, Pressable, StyleSheet } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { card, cardShadow, colors, fonts } from "@/ui/theme";
@@ -22,6 +22,8 @@ import { germanLevelIfLoaded, germanLevelInfo, loadGermanLevel } from "@/lib/les
 import { loadPortugueseLevel, portugueseLevelIfLoaded, portugueseLevelInfo } from "@/lib/lessons/portuguese";
 import { koreanLevelIfLoaded, koreanLevelInfo, loadKoreanLevel } from "@/lib/lessons/korean";
 import { italianLevelIfLoaded, italianLevelInfo, loadItalianLevel } from "@/lib/lessons/italian";
+import { loadRemoteCourseLevel, remoteCourseLevelIfLoaded, remoteLevelInfo } from "@/lib/lessons/remoteCourses";
+import LevelDownload from "@/components/LevelDownload";
 import { planCovers, useAuth } from "@/lib/auth/AuthContext";
 import { courseOfLevelPath } from "@/lib/courses";
 import { freeSlugs } from "@/lib/freeLessons";
@@ -63,6 +65,8 @@ export default function LessonListScreen({ navigation, route }: Props) {
   const portugueseKey = route.params?.portugueseLevel ?? null;
   const koreanKey = route.params?.koreanLevel ?? null;
   const italianKey = route.params?.italianLevel ?? null;
+  // A Japanese, Chinese or English level, by its levelPath ("ja/a1").
+  const remoteInfo = remoteLevelInfo(route.params?.levelPath);
   // The French, German or Portuguese level shown, if any: "fr/a1", "de/b2", "pt/c1" ...
   const lazyInfo = frenchKey
     ? frenchLevelInfo(frenchKey)
@@ -74,7 +78,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
           ? koreanLevelInfo(koreanKey)
           : italianKey
             ? italianLevelInfo(italianKey)
-            : null;
+            : remoteInfo;
   const lazyLevelPath = lazyInfo?.levelPath ?? null;
   // Unused for a French or German level (its data comes from lazyData below).
   const moduleKey: LessonModuleKey = route.params?.moduleKey ?? "a1";
@@ -89,8 +93,14 @@ export default function LessonListScreen({ navigation, route }: Props) {
             ? koreanLevelIfLoaded(koreanKey) ?? null
             : italianKey
               ? italianLevelIfLoaded(italianKey) ?? null
-              : null
+              : remoteInfo
+                ? remoteCourseLevelIfLoaded(remoteInfo.levelPath) ?? null
+                : null
   );
+  // A level that isn't on the phone yet is downloaded (remoteLevels.ts);
+  // failed = it couldn't be, retry = how many times "Try again" was tapped.
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [retry, setRetry] = useState(0);
   useEffect(() => {
     if (!lazyLevelPath || lazyData?.levelPath === lazyLevelPath) return;
     let cancelled = false;
@@ -104,14 +114,23 @@ export default function LessonListScreen({ navigation, route }: Props) {
             ? loadKoreanLevel(koreanKey)
             : italianKey
               ? loadItalianLevel(italianKey)
-              : null;
-    load?.then((data) => {
-      if (!cancelled) setLazyData(data);
-    });
+              : remoteInfo
+                ? loadRemoteCourseLevel(remoteInfo.levelPath)
+                : null;
+    setLoadFailed(false);
+    load?.then(
+      (data) => {
+        if (!cancelled) setLazyData(data);
+      },
+      () => {
+        if (!cancelled) setLoadFailed(true);
+      }
+    );
     return () => {
       cancelled = true;
     };
-  }, [frenchKey, germanKey, portugueseKey, koreanKey, italianKey, lazyLevelPath, lazyData?.levelPath]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [frenchKey, germanKey, portugueseKey, koreanKey, italianKey, lazyLevelPath, lazyData?.levelPath, retry]);
   const source: Pick<LessonSource, "levelPath" | "title" | "lessons" | "units" | "canDo"> = useMemo(() => {
     if (!lazyInfo) return LESSON_SOURCES[moduleKey];
     // A level with no units (Korean Hangul) is one flat list.
@@ -240,11 +259,7 @@ export default function LessonListScreen({ navigation, route }: Props) {
   );
 
   if (lazyInfo && lazyData?.levelPath !== lazyInfo.levelPath) {
-    return (
-      <View style={[styles.container, styles.loading]}>
-        <ActivityIndicator />
-      </View>
-    );
+    return <LevelDownload failed={loadFailed} onRetry={() => setRetry((n) => n + 1)} />;
   }
 
   return (

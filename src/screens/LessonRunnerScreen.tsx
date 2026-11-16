@@ -78,6 +78,7 @@ import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/li
 import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
 import { setListenFirst, useListenFirst } from "@/lib/listenFirstPref";
 import { isLazyLevelPath, lazyLevelIfLoaded, loadLazyLevel, type LazyLevelData } from "@/lib/lessons/lazyLevels";
+import LevelDownload from "@/components/LevelDownload";
 
 type Props = NativeStackScreenProps<AppStackParamList, "LessonRunner">;
 
@@ -148,16 +149,25 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const [lazyData, setLazyData] = useState<LazyLevelData | null>(() =>
     lazyPath ? lazyLevelIfLoaded(lazyPath) ?? null : null
   );
+  // A level that isn't on the phone yet is downloaded (remoteLevels.ts).
+  const [lazyFailed, setLazyFailed] = useState(false);
+  const [lazyRetry, setLazyRetry] = useState(0);
   useEffect(() => {
     if (!lazyPath || lazyData?.levelPath === lazyPath) return;
     let cancelled = false;
-    loadLazyLevel(lazyPath)?.then((data) => {
-      if (!cancelled) setLazyData(data);
-    });
+    setLazyFailed(false);
+    loadLazyLevel(lazyPath)?.then(
+      (data) => {
+        if (!cancelled) setLazyData(data);
+      },
+      () => {
+        if (!cancelled) setLazyFailed(true);
+      }
+    );
     return () => {
       cancelled = true;
     };
-  }, [lazyPath, lazyData?.levelPath]);
+  }, [lazyPath, lazyData?.levelPath, lazyRetry]);
   // Every other track's slugs are unique across the Spanish, Japanese and
   // Chinese courses, so the slug alone finds the lesson regardless of which
   // one the learner came from -- LessonList, Review, or a level picker.
@@ -599,13 +609,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   });
   const [notepadOpen, setNotepadOpen] = useState(false);
 
-  if (lazyPath && !track) {
-    return (
-      <View style={s.center}>
-        <ActivityIndicator />
-      </View>
-    );
-  }
+  if (lazyPath && !track) return <LevelDownload failed={lazyFailed} onRetry={() => setLazyRetry((n) => n + 1)} />;
   if (!lesson) {
     return (
       <View style={s.center}>

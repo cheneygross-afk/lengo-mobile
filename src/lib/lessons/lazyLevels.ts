@@ -2,7 +2,8 @@
 // ("de/a1" ...), the Brazilian Portuguese course ("pt/a1" ...), the
 // Korean course ("ko/hangul", "ko/a1" ...) and the Italian course ("it/a1" ...),
 // see lessons/french.ts, lessons/german.ts, lessons/portuguese.ts,
-// lessons/korean.ts and lessons/italian.ts -- behind
+// lessons/korean.ts and lessons/italian.ts, plus Japanese ("ja/a1" ...),
+// Chinese ("zh/a1" ...) and English ("en/a1" ...), lessons/remoteCourses.ts -- behind
 // one levelPath-keyed interface, for the screens that show a lesson from
 // either (the lesson runner, unit tests, review).
 import type { Lesson } from "./types";
@@ -12,6 +13,7 @@ import { germanLevelIfLoaded, germanLevelKeyOf, loadGermanLevel } from "./german
 import { loadPortugueseLevel, portugueseLevelIfLoaded, portugueseLevelKeyOf } from "./portuguese";
 import { koreanLevelIfLoaded, koreanLevelKeyOf, loadKoreanLevel } from "./korean";
 import { italianLevelIfLoaded, italianLevelKeyOf, loadItalianLevel } from "./italian";
+import { loadRemoteCourseLevel, remoteCourseLevelIfLoaded, remoteLevelInfo } from "./remoteCourses";
 
 export type LazyLevelData = { levelPath: string; lessons: Lesson[]; units: ModuleUnit[] };
 
@@ -20,7 +22,7 @@ export function isLazyLevelPath(levelPath: string | undefined | null): levelPath
   return (
     !!levelPath &&
     (frenchLevelKeyOf(levelPath) !== null || germanLevelKeyOf(levelPath) !== null || portugueseLevelKeyOf(levelPath) !== null ||
-      koreanLevelKeyOf(levelPath) !== null || italianLevelKeyOf(levelPath) !== null)
+      koreanLevelKeyOf(levelPath) !== null || italianLevelKeyOf(levelPath) !== null || remoteLevelInfo(levelPath) !== null)
   );
 }
 
@@ -36,6 +38,7 @@ export function lazyLevelIfLoaded(levelPath: string): LazyLevelData | undefined 
   if (ko) return koreanLevelIfLoaded(ko);
   const it = italianLevelKeyOf(levelPath);
   if (it) return italianLevelIfLoaded(it);
+  if (remoteLevelInfo(levelPath)) return remoteCourseLevelIfLoaded(levelPath);
   return undefined;
 }
 
@@ -51,5 +54,6 @@ export function loadLazyLevel(levelPath: string): Promise<LazyLevelData> | null 
   if (ko) return loadKoreanLevel(ko);
   const it = italianLevelKeyOf(levelPath);
   if (it) return loadItalianLevel(it);
+  if (remoteLevelInfo(levelPath)) return loadRemoteCourseLevel(levelPath);
   return null;
 }

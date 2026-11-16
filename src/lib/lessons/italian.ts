@@ -17,6 +17,7 @@ import type { Lesson } from "./types";
 import type { UnitOutline } from "./units";
 import type { ModuleUnit } from "./registry";
 import { firstIncompleteRequired } from "./levels";
+import { loadRemoteLevel } from "./remoteLevels";
 
 export type ItalianLevelKey = "a1" | "a2" | "b1" | "b2" | "c1" | "c2" | "culture";
 export type ItalianLevelPath = `it/${ItalianLevelKey}`;
@@ -135,14 +136,12 @@ export type ItalianLevelData = {
   units: ModuleUnit[];
 };
 
-// The app is Spanish-only for now (APP_LANGUAGES in HomeScreen), so the
-// Italian lesson files are left out of the app: with every course built in,
-// the app's JavaScript passed 200 MB, too big to ship as an over-the-air
-// update. Every Italian level loads empty. To bring the course back, restore
-// this function's dynamic imports from git history (before lengo-mobile
-// #151) and add the course to APP_LANGUAGES.
-async function importLevel(_key: ItalianLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
-  return { lessons: [], units: [] };
+// The lesson files aren't built into the app (with every course in, its
+// JavaScript passed 200 MB): a level is downloaded from the website the
+// first time it's opened and kept on the phone (remoteLevels.ts). The
+// Spanish app never offers this course, so nothing is downloaded there.
+async function importLevel(key: ItalianLevelKey): Promise<{ lessons: Lesson[]; units: UnitOutline[] }> {
+  return loadRemoteLevel(`it/${key}`);
 }
 
 const loaded = new Map<ItalianLevelKey, ItalianLevelData>();
