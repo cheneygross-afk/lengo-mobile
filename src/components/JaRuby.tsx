@@ -43,7 +43,14 @@ export function jaTokens(text: string): { plain: string; tokens: JaToken[] } {
     if (/\s/.test(ch)) {
       let j = i + 1;
       while (j < plain.length && /\s/.test(plain[j])) j++;
-      tokens.push({ start: i, end: j, value: plain.slice(i, j), isWord: false });
+      // A space rides at the end of the piece before it, so a wrapped line
+      // never starts with one (it hangs, unseen, at the end of the line
+      // above). Only a space at the very start stands alone.
+      const prev = tokens[tokens.length - 1];
+      if (prev && prev.isWord && !prev.value.endsWith("\n")) {
+        prev.end = j;
+        prev.value = plain.slice(prev.start, j);
+      } else tokens.push({ start: i, end: j, value: plain.slice(i, j), isWord: false });
       i = j;
       continue;
     }
@@ -132,6 +139,11 @@ export function RubyPiece({
   onLayout?: React.ComponentProps<typeof View>["onLayout"];
 }) {
   const rt = readingStyle(textStyle);
+  // A trailing space (see jaTokens) is drawn as room to the right, so the
+  // reading stays centred over the word itself.
+  const shown = token.value.replace(/\s+$/, "");
+  const gap = shown.length < token.value.length && shown.length > 0;
+  const size = (StyleSheet.flatten(textStyle) ?? {}).fontSize ?? 14;
   const body = (
     <>
       {token.reading ? (
@@ -139,17 +151,17 @@ export function RubyPiece({
           {token.reading}
         </Text>
       ) : null}
-      <Text style={[textStyle, styles.base, extraStyle]}>{token.value}</Text>
+      <Text style={[textStyle, styles.base, extraStyle]}>{gap ? shown : token.value}</Text>
     </>
   );
   if (!onPress && !onLongPress)
     return (
-      <View style={styles.piece} onLayout={onLayout}>
+      <View style={[styles.piece, gap && { marginRight: size * 0.28 }]} onLayout={onLayout}>
         {body}
       </View>
     );
   return (
-    <Pressable style={styles.piece} onPress={onPress} onPressIn={onPressIn} onLongPress={onLongPress} onLayout={onLayout}>
+    <Pressable style={[styles.piece, gap && { marginRight: size * 0.28 }]} onPress={onPress} onPressIn={onPressIn} onLongPress={onLongPress} onLayout={onLayout}>
       {body}
     </Pressable>
   );

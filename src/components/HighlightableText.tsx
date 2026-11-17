@@ -225,7 +225,7 @@ export default function HighlightableText({
       return;
     }
     if (lang && voiced(word)) speak(said(word), lang);
-    onWordTap?.(word.value);
+    onWordTap?.(word.value.trim());
   }
 
   const panResponder = useRef(
@@ -320,14 +320,14 @@ export default function HighlightableText({
               key={i}
               token={token}
               textStyle={textStyle}
-              extraStyle={[styles.word, isMarked?.(token.value) ? styles.marked : null, bg ? { backgroundColor: bg } : null]}
+              extraStyle={[styles.word, isMarked?.(token.value.trim()) ? styles.marked : null, bg ? { backgroundColor: bg } : null]}
               onLayout={(e: LayoutChangeEvent) => {
                 const { x, y, width, height } = e.nativeEvent.layout;
                 wordRects.current.set(idx, { x, y, width, height });
               }}
               onPressIn={lang && voiced(token) ? () => prefetchSpeech(said(token), lang) : undefined}
               onPress={() => handleWordTap(token)}
-              onLongPress={onWordLongPress ? () => onWordLongPress(token.value) : undefined}
+              onLongPress={onWordLongPress ? () => onWordLongPress(token.value.trim()) : undefined}
             />
           );
         return (
