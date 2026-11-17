@@ -1,5 +1,13 @@
 import { useMemo } from "react";
-import { View, Text, Pressable, StyleSheet, type StyleProp, type TextStyle, type ViewStyle } from "react-native";
+import {
+  View,
+  Text,
+  Pressable,
+  StyleSheet,
+  type StyleProp,
+  type TextStyle,
+  type ViewStyle,
+} from "react-native";
 import { JAPANESE_CHAR, hasRuby, rubyLayout, segmentJa } from "@/lib/japanese";
 import { prefetchSpeech, speak, JAPANESE_LANG } from "@/lib/speech";
 
@@ -50,7 +58,13 @@ export function jaTokens(text: string): { plain: string; tokens: JaToken[] } {
       if (prev && prev.isWord && !prev.value.endsWith("\n")) {
         prev.end = j;
         prev.value = plain.slice(prev.start, j);
-      } else tokens.push({ start: i, end: j, value: plain.slice(i, j), isWord: false });
+      } else
+        tokens.push({
+          start: i,
+          end: j,
+          value: plain.slice(i, j),
+          isWord: false,
+        });
       i = j;
       continue;
     }
@@ -78,11 +92,24 @@ export function jaTokens(text: string): { plain: string; tokens: JaToken[] } {
     } else {
       // A run of anything else (an English word, digits, punctuation).
       j = i + 1;
-      while (j < plain.length && !/\s/.test(plain[j]) && !isJa(j) && !OPENERS.test(plain[j])) j++;
+      while (
+        j < plain.length &&
+        !/\s/.test(plain[j]) &&
+        !isJa(j) &&
+        !OPENERS.test(plain[j])
+      )
+        j++;
     }
     // Closing punctuation stays with what it closes.
     while (j < plain.length && CLOSERS.test(plain[j]) && groupAt[j] < 0) j++;
-    tokens.push({ start: i, end: j, value: plain.slice(i, j), reading, isWord: true, say: ja ? "" : undefined });
+    tokens.push({
+      start: i,
+      end: j,
+      value: plain.slice(i, j),
+      reading,
+      isWord: true,
+      say: ja ? "" : undefined,
+    });
     i = j;
   }
   // What a tap says: the word the piece is in (lib/japanese.ts segmentJa),
@@ -115,7 +142,13 @@ export function readingStyle(textStyle: StyleProp<TextStyle>): TextStyle {
   const flat = StyleSheet.flatten(textStyle) ?? {};
   const size = typeof flat.fontSize === "number" ? flat.fontSize : 14;
   const reading = Math.max(8, Math.round(size * 0.5));
-  return { fontSize: reading, lineHeight: reading + 2, color: flat.color, opacity: 0.75, textAlign: "center" };
+  return {
+    fontSize: reading,
+    lineHeight: reading + 2,
+    color: flat.color,
+    opacity: 0.75,
+    textAlign: "center",
+  };
 }
 
 /** One piece: its text, with the reading above when it has one. The row
@@ -147,21 +180,45 @@ export function RubyPiece({
   const body = (
     <>
       {token.reading ? (
-        <Text style={rt} numberOfLines={1}>
-          {token.reading}
-        </Text>
+        // The reading may be wider than its kanji (わたし over 私). It hangs
+        // over the edges instead of widening the piece, so the kanji keeps
+        // its normal spacing in the line, as <ruby> does on the website.
+        <View style={{ height: rt.lineHeight as number, alignSelf: "stretch" }}>
+          <View style={styles.readingRow}>
+            <Text
+              style={[
+                rt,
+                styles.readingText,
+                { width: token.reading.length * (rt.fontSize as number) + 4 },
+              ]}
+            >
+              {token.reading}
+            </Text>
+          </View>
+        </View>
       ) : null}
-      <Text style={[textStyle, styles.base, extraStyle]}>{gap ? shown : token.value}</Text>
+      <Text style={[textStyle, styles.base, extraStyle]}>
+        {gap ? shown : token.value}
+      </Text>
     </>
   );
   if (!onPress && !onLongPress)
     return (
-      <View style={[styles.piece, gap && { marginRight: size * 0.28 }]} onLayout={onLayout}>
+      <View
+        style={[styles.piece, gap && { marginRight: size * 0.28 }]}
+        onLayout={onLayout}
+      >
         {body}
       </View>
     );
   return (
-    <Pressable style={[styles.piece, gap && { marginRight: size * 0.28 }]} onPress={onPress} onPressIn={onPressIn} onLongPress={onLongPress} onLayout={onLayout}>
+    <Pressable
+      style={[styles.piece, gap && { marginRight: size * 0.28 }]}
+      onPress={onPress}
+      onPressIn={onPressIn}
+      onLongPress={onLongPress}
+      onLayout={onLayout}
+    >
       {body}
     </Pressable>
   );
@@ -207,7 +264,9 @@ export default function JaRubyText({
   }, [text, boldBrackets]);
   const { box, justify } = boxStyle(style);
   return (
-    <View style={[styles.row, box, { justifyContent: justify }, containerStyle]}>
+    <View
+      style={[styles.row, box, { justifyContent: justify }, containerStyle]}
+    >
       {tokens.map((t, i) => {
         const say = voiced && t.say ? t.say : null;
         return (
@@ -216,7 +275,9 @@ export default function JaRubyText({
             token={t}
             textStyle={style}
             extraStyle={boldAt[t.start] ? styles.bold : undefined}
-            onPressIn={say ? () => prefetchSpeech(say, JAPANESE_LANG) : undefined}
+            onPressIn={
+              say ? () => prefetchSpeech(say, JAPANESE_LANG) : undefined
+            }
             onPress={say ? () => speak(say, JAPANESE_LANG) : undefined}
           />
         );
@@ -226,17 +287,38 @@ export default function JaRubyText({
 }
 
 const BOX_KEYS = [
-  "margin", "marginTop", "marginBottom", "marginLeft", "marginRight", "marginVertical", "marginHorizontal",
-  "flex", "flexGrow", "flexShrink", "flexBasis", "alignSelf", "width", "maxWidth", "minWidth",
+  "margin",
+  "marginTop",
+  "marginBottom",
+  "marginLeft",
+  "marginRight",
+  "marginVertical",
+  "marginHorizontal",
+  "flex",
+  "flexGrow",
+  "flexShrink",
+  "flexBasis",
+  "alignSelf",
+  "width",
+  "maxWidth",
+  "minWidth",
 ] as const;
 
 /** A paragraph's text style, as the part that belongs on the row of pieces
  * (margins, flex, width) and how the row lines its pieces up. */
-export function boxStyle(style: StyleProp<TextStyle>): { box: ViewStyle; justify: "center" | "flex-end" | "flex-start" } {
+export function boxStyle(style: StyleProp<TextStyle>): {
+  box: ViewStyle;
+  justify: "center" | "flex-end" | "flex-start";
+} {
   const flat = (StyleSheet.flatten(style) ?? {}) as Record<string, unknown>;
   const box: Record<string, unknown> = {};
   for (const k of BOX_KEYS) if (flat[k] !== undefined) box[k] = flat[k];
-  const justify = flat.textAlign === "center" ? "center" : flat.textAlign === "right" ? "flex-end" : "flex-start";
+  const justify =
+    flat.textAlign === "center"
+      ? "center"
+      : flat.textAlign === "right"
+        ? "flex-end"
+        : "flex-start";
   return { box: box as ViewStyle, justify };
 }
 
@@ -264,11 +346,37 @@ export function RubyLabel({
 const styles = StyleSheet.create({
   row: { flexDirection: "row", flexWrap: "wrap", alignItems: "flex-end" },
   piece: { alignItems: "center" },
+  // A row centres a child wider than itself by letting it overflow both
+  // sides equally, which is how a long reading hangs over its kanji.
+  // Absolute, so the reading never sizes the piece; the row centres a
+  // reading wider than its kanji by letting it overflow both sides.
+  readingRow: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    flexDirection: "row",
+    justifyContent: "center",
+    overflow: "visible",
+  },
+  readingText: { flexShrink: 0, maxWidth: undefined },
   // The row places pieces; margins and alignment meant for a whole
   // paragraph must not repeat on every piece.
   base: {
-    margin: 0, marginTop: 0, marginBottom: 0, marginLeft: 0, marginRight: 0, marginVertical: 0, marginHorizontal: 0,
-    flex: 0, flexGrow: 0, flexShrink: 0, flexBasis: "auto", alignSelf: "auto", width: undefined, textAlign: "center",
+    margin: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    marginLeft: 0,
+    marginRight: 0,
+    marginVertical: 0,
+    marginHorizontal: 0,
+    flex: 0,
+    flexGrow: 0,
+    flexShrink: 0,
+    flexBasis: "auto",
+    alignSelf: "auto",
+    width: undefined,
+    textAlign: "center",
   },
   bold: { fontWeight: "700", color: "#2A1513" },
 });
