@@ -10,7 +10,7 @@
 // through guided work (fill the gap, order the words, change or correct a
 // sentence), to producing language freely (translate, say, write).
 
-import type { Exercise, Lesson, LessonExample } from "./types";
+import type { Exercise, Lesson, LessonExample, LessonTable } from "./types";
 
 // Task families (also used by scripts/qa/concept-check.ts).
 export type Family = "choose" | "transform" | "spot-error" | "produce" | "recognise" | "listen";
@@ -62,6 +62,8 @@ export type FlowStep =
       heading: string;
       body: BodyPiece[];
       examples: LessonExample[];
+      /** The section's tables, on its last card only. */
+      tables: LessonTable[];
     }
   | { kind: "exercise"; stage: Stage | "try"; exercise: Exercise; ref: ExerciseRef };
 
@@ -166,7 +168,8 @@ export function lessonFlow(l: Lesson): FlowStep[] {
     const per = Math.ceil(ex.length / cards.length);
     cards.forEach((body, part) => {
       const examples = cards.length > 1 && ex.length > 3 ? ex.slice(part * per, (part + 1) * per) : part === cards.length - 1 ? ex : [];
-      out.push({ kind: "learn", section: si, part, parts: cards.length, heading: s.heading, body, examples });
+      const tables = part === cards.length - 1 ? s.tables ?? [] : [];
+      out.push({ kind: "learn", section: si, part, parts: cards.length, heading: s.heading, body, examples, tables });
     });
     const own = s.checkpoint ?? [];
     own.forEach((exercise, index) => out.push({ kind: "exercise", stage: "try", exercise, ref: { section: si, index } }));

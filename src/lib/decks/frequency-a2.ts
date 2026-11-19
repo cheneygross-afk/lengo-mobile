@@ -138,7 +138,7 @@ export const FREQUENCY_A2: DeckCard[] = [
   {"rank":631,"es":"merecer","en":"to deserve","pos":"v.","exEs":"A pesar del precio, merece la pena.","exEn":"Despite the price, it's worth it."},
   {"rank":632,"es":"el hotel","en":"hotel","pos":"n.","exEs":"Al final llegamos al hotel a medianoche.","exEn":"In the end we got to the hotel at midnight."},
   {"rank":633,"es":"ofrecer","en":"to offer","pos":"v.","exEs":"¿Qué le puedo ofrecer para beber?","exEn":"What can I get you to drink?"},
-  {"rank":634,"es":"el gusto","en":"taste; pleasure (mucho gusto: nice to meet you)","pos":"n.","exEs":"A: Soy Diego. Mucho gusto.","exEn":"A: I'm Diego. Nice to meet you."},
+  {"rank":634,"es":"el gusto","en":"taste; pleasure (mucho gusto: nice to meet you)","pos":"n.","exEs":"Diego: Soy Diego. Mucho gusto.","exEn":"Diego: I'm Diego. Nice to meet you."},
   {"rank":635,"es":"la edad","en":"age","pos":"n.","exEs":"Con la edad se volvió muy serio.","exEn":"With age he became very serious."},
   {"rank":636,"es":"el maestro / la maestra","en":"teacher; master","pos":"n.","exEs":"Con los años, llegó a ser una verdadera maestra.","exEn":"Over the years, she came to be a true master."},
   {"rank":637,"es":"debido a","en":"due to, because of","pos":"prep.","exEs":"Con el debido respeto, los datos no avalan esa conclusión.","exEn":"With all due respect, the data do not support that conclusion."},

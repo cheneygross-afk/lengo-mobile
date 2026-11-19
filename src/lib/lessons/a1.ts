@@ -752,24 +752,24 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: ¡Hola! ¿Cómo te llamas?",
-            "en": "A: Hi! What's your name?"
+            "es": "Diego: ¡Hola! ¿Cómo te llamas?",
+            "en": "Diego: Hi! What's your name?"
           },
           {
-            "es": "B: Me llamo Sofía. ¿Y tú?",
-            "en": "B: My name is Sofía. And you?"
+            "es": "Sofía: Me llamo Sofía. ¿Y tú?",
+            "en": "Sofía: My name is Sofía. And you?"
           },
           {
-            "es": "A: Soy Diego. Mucho gusto.",
-            "en": "A: I'm Diego. Nice to meet you."
+            "es": "Diego: Soy Diego. Mucho gusto.",
+            "en": "Diego: I'm Diego. Nice to meet you."
           },
           {
-            "es": "B: Igualmente. ¿De dónde eres?",
-            "en": "B: Likewise. Where are you from?"
+            "es": "Sofía: Igualmente. ¿De dónde eres?",
+            "en": "Sofía: Likewise. Where are you from?"
           },
           {
-            "es": "A: Soy de Colombia.",
-            "en": "A: I'm from Colombia."
+            "es": "Diego: Soy de Colombia.",
+            "en": "Diego: I'm from Colombia."
           }
         ],
         "checkpoint": [
@@ -3629,22 +3629,22 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: ¿Qué haces los sábados?",
-            "en": "A: What do you do on Saturdays?"
+            "es": "Carmen: ¿Qué haces los sábados?",
+            "en": "Carmen: What do you do on Saturdays?"
           },
           {
-            "es": "B: Leo, escribo cartas y como con mi familia.",
-            "en": "B: I read, write letters, and eat with my family."
+            "es": "Pablo: Leo, escribo cartas y como con mi familia.",
+            "en": "Pablo: I read, write letters, and eat with my family."
           },
           {
-            "es": "A: ¡Qué bien! Yo aprendo español los sábados.",
-            "en": "A: How nice! I learn Spanish on Saturdays."
+            "es": "Carmen: ¡Qué bien! Yo aprendo español los sábados.",
+            "en": "Carmen: How nice! I learn Spanish on Saturdays."
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "What does B do on Saturdays, besides eating with family?",
+            "question": "What does Pablo do on Saturdays, besides eating with family?",
             "options": [
               "swims and cooks",
               "reads and writes letters",
@@ -3652,11 +3652,11 @@ const A1_BASE_LESSONS: Lesson[] = [
               "sleeps and watches TV"
             ],
             "correctIndex": 1,
-            "explanation": "B says \"Leo, escribo cartas\", so B reads and writes letters. The other activities don't appear in B's answer."
+            "explanation": "Pablo says \"Leo, escribo cartas\", so he reads and writes letters. The other activities don't appear in his answer."
           },
           {
             "type": "fill-blank",
-            "prompt": "Now B answers for himself and his sister. Complete with escribir.",
+            "prompt": "Now Pablo answers for himself and his sister. Complete with escribir.",
             "sentence": "Leemos, ___ cartas y comemos con la familia.",
             "answer": "escribimos",
             "explanation": "For nosotros the infinitive decides: leer and comer are -er (leemos, comemos), but escribir is -ir, so escribimos."
@@ -4741,22 +4741,22 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: ¿Cómo estás?",
-            "en": "A: How are you? (how you are right now: estar)"
+            "es": "Valentina: ¿Cómo estás?",
+            "en": "Valentina: How are you? (how you are right now: estar)"
           },
           {
-            "es": "B: Estoy bien, gracias. ¿Y tú? ¿Eres de aquí?",
-            "en": "B: I'm well, thanks. And you? Are you from here? (origin: ser)"
+            "es": "Andrés: Estoy bien, gracias. ¿Y tú? ¿Eres de aquí?",
+            "en": "Andrés: I'm well, thanks. And you? Are you from here? (origin: ser)"
           },
           {
-            "es": "A: No, soy de Chile, pero ahora estoy en México.",
-            "en": "A: No, I'm from Chile, but now I'm in Mexico."
+            "es": "Valentina: No, soy de Chile, pero ahora estoy en México.",
+            "en": "Valentina: No, I'm from Chile, but now I'm in Mexico."
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Why does A use \"soy de Chile\" instead of \"estoy de Chile\"?",
+            "question": "Why does Valentina use \"soy de Chile\" instead of \"estoy de Chile\"?",
             "options": [
               "Origin is part of who you are, so it uses ser",
               "Location is temporary, so it uses estar",
@@ -4764,11 +4764,11 @@ const A1_BASE_LESSONS: Lesson[] = [
               "It's a mistake in the dialogue"
             ],
             "correctIndex": 0,
-            "explanation": "Where you're from doesn't change, so it takes ser: soy de Chile. Where you are now does change, which is why A then switches to estar: ahora estoy en México."
+            "explanation": "Where you're from doesn't change, so it takes ser: soy de Chile. Where you are now does change, which is why Valentina then switches to estar: ahora estoy en México."
           },
           {
             "type": "fill-blank",
-            "prompt": "B meets A's friend Lucas. Complete B's question with the right verb.",
+            "prompt": "Andrés meets Valentina's friend Lucas. Complete Andrés's question with the right verb.",
             "sentence": "Lucas, ¿de dónde ___?",
             "answer": "eres",
             "hint": "tú, origin",
@@ -5711,38 +5711,38 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: ¿Es tu mochila?",
-            "en": "A: Is this your backpack?"
+            "es": "Elena: ¿Es tu mochila?",
+            "en": "Elena: Is this your backpack?"
           },
           {
-            "es": "B: No, es la mochila de mi hermano.",
-            "en": "B: No, it's my brother's backpack. (de + owner)"
+            "es": "Tomás: No, es la mochila de mi hermano.",
+            "en": "Tomás: No, it's my brother's backpack. (de + owner)"
           },
           {
-            "es": "A: ¿Dónde está tu mochila?",
-            "en": "A: Where is your backpack?"
+            "es": "Elena: ¿Dónde está tu mochila?",
+            "en": "Elena: Where is your backpack?"
           },
           {
-            "es": "B: Está en casa, sin mis libros.",
-            "en": "B: It's at home, without my books."
+            "es": "Tomás: Está en casa, sin mis libros.",
+            "en": "Tomás: It's at home, without my books."
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Whose backpack are A and B talking about at first?",
+            "question": "Whose backpack are Elena and Tomás talking about at first?",
             "options": [
-              "A's",
-              "B's",
-              "B's brother's",
-              "A's brother's"
+              "Elena's",
+              "Tomás's",
+              "Tomás's brother's",
+              "Elena's brother's"
             ],
             "correctIndex": 2,
-            "explanation": "\"Es la mochila de mi hermano\": de + owner, and mi refers to B. So it belongs to B's brother."
+            "explanation": "\"Es la mochila de mi hermano\": de + owner, and mi refers to Tomás. So it belongs to his brother."
           },
           {
             "type": "multiple-choice",
-            "question": "A finds a jacket. How does B say \"It's my sister's jacket\"?",
+            "question": "Elena finds a jacket. How does Tomás say \"It's my sister's jacket\"?",
             "options": [
               "Es la chaqueta de mi hermana.",
               "Es mi hermana's chaqueta.",
@@ -7652,22 +7652,22 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: ¿Cómo te llamas y de dónde eres?",
-            "en": "A: What's your name and where are you from?"
+            "es": "Javier: ¿Cómo te llamas y de dónde eres?",
+            "en": "Javier: What's your name and where are you from?"
           },
           {
-            "es": "B: Me llamo Laura y soy de Perú. ¿Y tú, cuántos años tienes?",
-            "en": "B: My name is Laura and I'm from Peru. And you, how old are you?"
+            "es": "Laura: Me llamo Laura y soy de Perú. ¿Y tú, cuántos años tienes?",
+            "en": "Laura: My name is Laura and I'm from Peru. And you, how old are you?"
           },
           {
-            "es": "A: Tengo veinte años. ¿Por qué estudias español?",
-            "en": "A: I'm twenty. Why are you studying Spanish?"
+            "es": "Javier: Tengo veinte años. ¿Por qué estudias español?",
+            "en": "Javier: I'm twenty. Why are you studying Spanish?"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "What does Laura ask A about?",
+            "question": "What does Laura ask Javier about?",
             "options": [
               "his job",
               "his age",
@@ -8563,22 +8563,22 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: ¿Te gusta el chocolate?",
-            "en": "A: Do you like chocolate?"
+            "es": "Isabel: ¿Te gusta el chocolate?",
+            "en": "Isabel: Do you like chocolate?"
           },
           {
-            "es": "B: Sí, me gusta mucho. Pero no me gustan las verduras.",
-            "en": "B: Yes, I like it a lot. But I don't like vegetables."
+            "es": "Daniel: Sí, me gusta mucho. Pero no me gustan las verduras.",
+            "en": "Daniel: Yes, I like it a lot. But I don't like vegetables."
           },
           {
-            "es": "A: A mí tampoco me gustan. ¡Nos gustan las mismas cosas!",
-            "en": "A: I don't like them either. We like the same things!"
+            "es": "Isabel: A mí tampoco me gustan. ¡Nos gustan las mismas cosas!",
+            "en": "Isabel: I don't like them either. We like the same things!"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "What does B NOT like?",
+            "question": "What does Daniel NOT like?",
             "options": [
               "chocolate",
               "vegetables",
@@ -8586,14 +8586,14 @@ const A1_BASE_LESSONS: Lesson[] = [
               "dancing"
             ],
             "correctIndex": 1,
-            "explanation": "B says \"No me gustan las verduras\", so B doesn't like vegetables. B does like chocolate, and doesn't mention music or dancing."
+            "explanation": "Daniel says \"No me gustan las verduras\", so he doesn't like vegetables. He does like chocolate, and doesn't mention music or dancing."
           },
           {
             "type": "multiple-choice",
-            "question": "Why does B say \"me gusta mucho\" about chocolate, not \"me gustan mucho\"?",
+            "question": "Why does Daniel say \"me gusta mucho\" about chocolate, not \"me gustan mucho\"?",
             "options": [
               "Because el chocolate is one thing.",
-              "Because B is one person.",
+              "Because Daniel is one person.",
               "Because mucho is singular.",
               "Both are correct."
             ],
@@ -9325,14 +9325,112 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 26,
     "title": "Key Irregular Verbs: Tener, Ir, Hacer + Hay, Part 2 of 2",
-    "summary": "Use hay for \"there is / there are\" and learn twenty places around town to use with hay, ir a and tener que.",
-    "duration": "7 min",
+    "summary": "See tener, ir and hacer side by side, pick the right verb for each job, and use hay (there is / there are) and hay vs. está with twenty places around town.",
+    "duration": "8 min",
     "sections": [
       {
-        "heading": "The idea: hay just says \"it exists\"",
+        "heading": "Tener, ir and hacer side by side",
         "body": [
-          "Hay (from haber) has one job: it says that something exists somewhere. What follows it isn't its subject, it's the thing that exists, so hay never agrees: hay un problema, hay tres libros.",
-          "It goes with things you're introducing: un / una, numbers, mucho, or no article at all. To make it negative put no before it, and drop un / una: no hay leche. To ask, just add question marks: ¿Hay un banco por aquí?"
+          "Here are the three verbs from Part 1 in one table. The shaded forms are the ones that break the rules: learn those by heart. Every form that isn't shaded uses the normal -er endings you already know."
+        ],
+        "tables": [
+          {
+            "caption": "Present tense",
+            "head": ["", "tener", "ir", "hacer"],
+            "rows": [
+              ["yo", "*tengo", "*voy", "*hago"],
+              ["tú", "*tienes", "*vas", "haces"],
+              ["él / ella / usted", "*tiene", "*va", "hace"],
+              ["nosotros", "tenemos", "*vamos", "hacemos"],
+              ["vosotros", "tenéis", "*vais", "hacéis"],
+              ["ellos / ustedes", "*tienen", "*van", "hacen"]
+            ],
+            "note": "tener = to have · ir = to go · hacer = to do / to make"
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "Which of these forms follows the normal -er pattern (it isn't shaded in the table)?",
+            "options": [
+              "tenemos",
+              "tengo",
+              "tienen",
+              "voy"
+            ],
+            "correctIndex": 0,
+            "explanation": "In tenemos the stress falls on the ending, so the e stays: a normal form. Tengo has the -go yo form, tienen has e → ie, and every form of ir is irregular."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Complete with the right form of ir.",
+            "sentence": "Mis amigos ___ a la playa el domingo.",
+            "en": "My friends [go] to the beach on Sunday.",
+            "answer": "van",
+            "explanation": "Mis amigos = ellos, so van. Ir is irregular in every form."
+          }
+        ]
+      },
+      {
+        "heading": "Which verb? Pick it by the job",
+        "body": [
+          "English says \"to be\" for age, weather and \"there is\", so it's easy to pick the wrong verb. Spanish gives each job its own verb. Find the job in the table and the verb comes with it."
+        ],
+        "tables": [
+          {
+            "caption": "One job, one verb",
+            "head": ["Job", "Verb", "Example"],
+            "rows": [
+              ["🎂 age", "*tener", "Tengo veinte años. (I'm 20.)"],
+              ["📋 must do", "*tener que", "Tengo que trabajar. (I have to work.)"],
+              ["🗓️ plans", "*ir a", "Voy a comer. (I'm going to eat.)"],
+              ["☀️ weather", "*hacer", "Hace calor. (It's hot.)"],
+              ["📍 it exists", "*hay", "Hay un café. (There's a café.)"]
+            ]
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "multiple-choice",
+            "question": "\"It's very cold today.\" (the weather)",
+            "options": [
+              "Hoy hace mucho frío.",
+              "Hoy es mucho frío.",
+              "Hoy hay mucho frío.",
+              "Hoy está mucho frío."
+            ],
+            "correctIndex": 0,
+            "explanation": "Weather is hacer's job: hace frío. Frío is a noun here, so \"very\" is mucho. Es, hay and está aren't used for the weather like this."
+          },
+          {
+            "type": "translate",
+            "direction": "en-es",
+            "prompt": "Correct the sentence.",
+            "source": "En verano hay mucho calor.",
+            "answer": "En verano hace mucho calor.",
+            "altAnswers": [
+              "En verano hace calor."
+            ],
+            "explanation": "Weather takes hacer: hace calor. Hay is only for things that exist somewhere, like a café or a park."
+          }
+        ]
+      },
+      {
+        "heading": "Hay: one word for \"there is\" and \"there are\"",
+        "body": [
+          "Hay (from haber) says that something exists. It never changes: one book or ten, it's hay. For \"there's no...\", put no in front and drop un / una. For a question, just add question marks."
+        ],
+        "tables": [
+          {
+            "head": ["", "English", "Spanish"],
+            "rows": [
+              ["➕ one", "There is a bank.", "*Hay un banco."],
+              ["➕➕ more", "There are two banks.", "*Hay dos bancos."],
+              ["➖ none", "There's no milk.", "*No hay leche."],
+              ["❓ ask", "Is there a bank?", "*¿Hay un banco?"]
+            ],
+            "note": "Same word in every row: hay."
+          }
         ],
         "examples": [
           {
@@ -9340,16 +9438,8 @@ const A1_BASE_LESSONS: Lesson[] = [
             "en": "There are three books on the table. (plural, still hay)"
           },
           {
-            "es": "Hay un problema.",
-            "en": "There is a problem."
-          },
-          {
             "es": "No hay agua.",
             "en": "There's no water. (no + hay, no article)"
-          },
-          {
-            "es": "¿Hay un hotel cerca?",
-            "en": "Is there a hotel nearby?"
           }
         ],
         "checkpoint": [
@@ -9382,32 +9472,75 @@ const A1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Put it into practice",
+        "heading": "Hay or está? A new thing or a known thing",
         "body": [
-          "Read this short exchange, which uses all four verbs, then answer the questions."
+          "Use hay to say that something exists, usually the first time you mention it (un, una, a number). Use está / están to say where a specific thing is (el, la, mi, a name). The little word after the verb tells you which."
+        ],
+        "tables": [
+          {
+            "head": ["", "hay", "está / están"],
+            "rows": [
+              ["It answers", "Is there one?", "Where is it?"],
+              ["Comes before", "*un, una, unos, dos, mucho", "*el, la, mi, tu, Ana"],
+              ["Example", "Hay un banco en la plaza.", "El banco está en la plaza."],
+              ["Meaning", "There's a bank in the square.", "The bank is in the square."]
+            ]
+          }
+        ],
+        "checkpoint": [
+          {
+            "type": "fill-blank",
+            "prompt": "Hay or está?",
+            "sentence": "La farmacia ___ al lado del banco.",
+            "en": "The pharmacy [is] next to the bank.",
+            "answer": "está",
+            "explanation": "La farmacia is a specific, known place, so you say where it is with estar: está."
+          },
+          {
+            "type": "fill-blank",
+            "prompt": "Hay or está?",
+            "sentence": "En mi calle ___ dos restaurantes.",
+            "en": "On my street [there are] two restaurants.",
+            "answer": "hay",
+            "explanation": "Dos restaurantes is new information (a number, no el / la), so hay. It stays hay for plurals."
+          }
+        ]
+      },
+      {
+        "heading": "Put it together: Lucía meets Mateo",
+        "body": [
+          "Lucía meets Mateo, a new student. Their chat uses all four verbs: tener, ir, hacer and hay. Tap any line to hear it, then answer the questions."
         ],
         "examples": [
           {
-            "es": "A: ¿Cuántos años tienes?",
-            "en": "A: How old are you?"
+            "es": "Lucía: ¿Cuántos años tienes?",
+            "en": "Lucía: How old are you?"
           },
           {
-            "es": "B: Tengo dieciocho años. Voy a la universidad.",
-            "en": "B: I'm eighteen. I go to the university."
+            "es": "Mateo: Tengo dieciocho años. Voy a la universidad.",
+            "en": "Mateo: I'm eighteen. I go to the university."
           },
           {
-            "es": "A: ¿Qué haces allí?",
-            "en": "A: What do you do there?"
+            "es": "Lucía: ¿Qué haces allí?",
+            "en": "Lucía: What do you do there?"
           },
           {
-            "es": "B: Estudio y hago muchos amigos. Hay muchas actividades.",
-            "en": "B: I study and make lots of friends. There are lots of activities."
+            "es": "Mateo: Estudio y hago muchos amigos. Hay muchas actividades.",
+            "en": "Mateo: I study and make lots of friends. There are lots of activities."
+          },
+          {
+            "es": "Lucía: ¿Y qué vas a hacer hoy?",
+            "en": "Lucía: And what are you going to do today?"
+          },
+          {
+            "es": "Mateo: Tengo que ir a la biblioteca. Hace frío y allí hay café.",
+            "en": "Mateo: I have to go to the library. It's cold, and there's coffee there."
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "How old is B?",
+            "question": "How old is Mateo?",
             "options": [
               "fifteen",
               "sixteen",
@@ -9415,108 +9548,73 @@ const A1_BASE_LESSONS: Lesson[] = [
               "twenty"
             ],
             "correctIndex": 2,
-            "explanation": "B says \"Tengo dieciocho años\" (age with tener), and dieciocho is eighteen. Fifteen is quince, sixteen dieciséis, and twenty veinte."
+            "explanation": "Mateo says \"Tengo dieciocho años\" (age with tener), and dieciocho is eighteen. Fifteen is quince, sixteen dieciséis, and twenty veinte."
           },
           {
             "type": "multiple-choice",
-            "question": "Which verb does B use to say the activities exist?",
+            "question": "What does Mateo have to do today?",
             "options": [
-              "hay",
-              "hace",
-              "tiene",
-              "va"
+              "go to the library",
+              "go to the beach",
+              "make coffee at home",
+              "meet his friends"
             ],
             "correctIndex": 0,
-            "explanation": "Hay muchas actividades: hay says something exists. Hace means does / makes, tiene has, and va goes."
+            "explanation": "\"Tengo que ir a la biblioteca\": tener que + infinitive says what you have to do. Hay café is just why he likes it there."
           }
         ]
       },
       {
         "heading": "Vocabulary: Places around town",
         "body": [
-          "Twenty places to use with hay, ir a, and tener que in real conversations.",
-          "Many are cognates, and the endings follow patterns: -dad matches English -ty (universidad = university, ciudad = city) and -ción matches -tion (estación = station). Words in -dad and -ción are always feminine: la universidad, la estación."
+          "Twenty places to use with hay, ir a and tener que. Learn each one with el or la. Many are cognates: -dad matches -ty (la universidad) and -ción matches -tion (la estación). Words in -dad and -ción are always feminine."
+        ],
+        "tables": [
+          {
+            "caption": "Everyday places",
+            "head": ["", "Spanish", "English"],
+            "rows": [
+              ["🏫", "la escuela", "school"],
+              ["🎓", "la universidad", "university"],
+              ["🏢", "la oficina", "office"],
+              ["🏦", "el banco", "bank"],
+              ["💊", "la farmacia", "pharmacy"],
+              ["🛒", "el supermercado", "supermarket"],
+              ["🧺", "el mercado", "market"],
+              ["🏥", "el hospital", "hospital"],
+              ["📚", "la biblioteca", "library"],
+              ["⛪", "la iglesia", "church"]
+            ]
+          },
+          {
+            "caption": "Going out and travel",
+            "head": ["", "Spanish", "English"],
+            "rows": [
+              ["🌳", "el parque", "park"],
+              ["🏖️", "la playa", "beach"],
+              ["⛰️", "la montaña", "mountain"],
+              ["🖼️", "el museo", "museum"],
+              ["✈️", "el aeropuerto", "airport"],
+              ["🚉", "la estación", "station"],
+              ["🏨", "el hotel", "hotel"],
+              ["🍽️", "el restaurante", "restaurant"],
+              ["🎬", "el cine", "movie theater"],
+              ["🏋️", "el gimnasio", "gym"]
+            ]
+          }
         ],
         "examples": [
           {
-            "es": "escuela",
-            "en": "school"
+            "es": "Hay una farmacia cerca.",
+            "en": "There's a pharmacy nearby."
           },
           {
-            "es": "universidad",
-            "en": "university"
+            "es": "Voy al gimnasio los lunes.",
+            "en": "I go to the gym on Mondays. (a + el = al)"
           },
           {
-            "es": "oficina",
-            "en": "office"
-          },
-          {
-            "es": "hospital",
-            "en": "hospital"
-          },
-          {
-            "es": "banco",
-            "en": "bank"
-          },
-          {
-            "es": "parque",
-            "en": "park"
-          },
-          {
-            "es": "playa",
-            "en": "beach"
-          },
-          {
-            "es": "montaña",
-            "en": "mountain"
-          },
-          {
-            "es": "biblioteca",
-            "en": "library"
-          },
-          {
-            "es": "museo",
-            "en": "museum"
-          },
-          {
-            "es": "mercado",
-            "en": "market"
-          },
-          {
-            "es": "supermercado",
-            "en": "supermarket"
-          },
-          {
-            "es": "farmacia",
-            "en": "pharmacy"
-          },
-          {
-            "es": "iglesia",
-            "en": "church"
-          },
-          {
-            "es": "aeropuerto",
-            "en": "airport"
-          },
-          {
-            "es": "estación",
-            "en": "station"
-          },
-          {
-            "es": "hotel",
-            "en": "hotel"
-          },
-          {
-            "es": "restaurante",
-            "en": "restaurant"
-          },
-          {
-            "es": "cine",
-            "en": "movie theater"
-          },
-          {
-            "es": "gimnasio",
-            "en": "gym"
+            "es": "Tengo que ir a la oficina.",
+            "en": "I have to go to the office."
           }
         ],
         "checkpoint": [
@@ -9533,12 +9631,12 @@ const A1_BASE_LESSONS: Lesson[] = [
                 "right": "park"
               },
               {
-                "left": "hospital",
-                "right": "hospital"
+                "left": "biblioteca",
+                "right": "library"
               },
               {
-                "left": "restaurante",
-                "right": "restaurant"
+                "left": "playa",
+                "right": "beach"
               }
             ],
             "explanation": "These are exactly the kinds of places you'll use hay, ir a, and tener que with in real conversations."
@@ -9559,13 +9657,6 @@ const A1_BASE_LESSONS: Lesson[] = [
       }
     ],
     "exercises": [
-      {
-        "type": "fill-blank",
-        "prompt": "Fill in the correct word for \"there are\".",
-        "sentence": "___ muchas personas aquí.",
-        "answer": "Hay",
-        "explanation": "Hay is invariable — same word for \"there is\" and \"there are\"."
-      },
       {
         "type": "matching",
         "instructions": "Match each infinitive to its irregular yo form.",
@@ -9590,12 +9681,24 @@ const A1_BASE_LESSONS: Lesson[] = [
         "explanation": "These four are among the most common irregular yo forms in Spanish — worth memorizing by heart."
       },
       {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Correct the sentence.",
-        "source": "Voy hacer la tarea porque tengo un examen mañana.",
-        "answer": "Voy a hacer la tarea porque tengo un examen mañana.",
-        "explanation": "Ir a + infinitive needs the a: voy a hacer. Tengo un examen is right: tener for what you have."
+        "type": "fill-blank",
+        "prompt": "Hay or está?",
+        "sentence": "Mi hermano ___ en el gimnasio.",
+        "en": "My brother [is] at the gym.",
+        "answer": "está",
+        "explanation": "Mi hermano is a specific person, so you say where he is with estar. Hay only introduces things: hay un gimnasio."
+      },
+      {
+        "type": "multiple-choice",
+        "question": "\"Where is the hotel?\"",
+        "options": [
+          "¿Dónde está el hotel?",
+          "¿Dónde hay el hotel?",
+          "¿Dónde es el hotel?",
+          "¿Dónde hace el hotel?"
+        ],
+        "correctIndex": 0,
+        "explanation": "El hotel is a specific place and you're asking where it is: estar. Hay never comes before el / la."
       },
       {
         "type": "translate",
@@ -9608,26 +9711,13 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Change un hotel to dos hoteles.",
-        "source": "Hay un hotel en la plaza.",
-        "answer": "Hay dos hoteles en la plaza.",
-        "explanation": "Only the noun changes (un hotel → dos hoteles). Hay stays the same for one or many."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Turn it into a question.",
-        "source": "Hay una farmacia en el centro.",
-        "answer": "¿Hay una farmacia en el centro?",
-        "explanation": "To ask whether something exists, keep hay and the word order and add question marks."
-      },
-      {
-        "type": "translate",
-        "direction": "en-es",
-        "prompt": "Correct the sentence.",
-        "source": "Han muchos turistas en la playa.",
-        "answer": "Hay muchos turistas en la playa.",
-        "explanation": "To say something exists, use hay for plurals too. Han can't mean 'there are'."
+        "prompt": "Change it to a plan with ir a.",
+        "source": "El sábado como en un restaurante.",
+        "answer": "El sábado voy a comer en un restaurante.",
+        "altAnswers": [
+          "El sábado yo voy a comer en un restaurante."
+        ],
+        "explanation": "A plan: ir in the same person (como → voy) + a + the infinitive comer."
       },
       {
         "type": "translate",
@@ -9636,6 +9726,37 @@ const A1_BASE_LESSONS: Lesson[] = [
         "source": "No hay la leche.",
         "answer": "No hay leche.",
         "explanation": "Hay introduces things in general, so no hay takes a bare noun: no hay leche. (La leche, a specific milk, would take estar: la leche está en la mesa.)"
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Hay el museo en la plaza.",
+        "answer": "El museo está en la plaza.",
+        "altAnswers": [
+          "Hay un museo en la plaza."
+        ],
+        "explanation": "Hay never comes before el / la. For a known place say where it is with estar (el museo está...), or introduce it with un (hay un museo...)."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Correct the sentence.",
+        "source": "Hace un supermercado en mi calle.",
+        "answer": "Hay un supermercado en mi calle.",
+        "explanation": "Hacer is for the weather (hace sol). To say a place exists, use hay."
+      },
+      {
+        "type": "translate",
+        "direction": "en-es",
+        "prompt": "Translate to Spanish.",
+        "source": "I have to go to the bank because there's no money at home.",
+        "answer": "Tengo que ir al banco porque no hay dinero en casa.",
+        "altAnswers": [
+          "Tengo que ir al banco porque no hay dinero en la casa.",
+          "Yo tengo que ir al banco porque no hay dinero en casa."
+        ],
+        "explanation": "Tener que + infinitive for what you must do, a + el = al, and no hay + a bare noun for what's missing."
       }
     ]
   },
@@ -9912,46 +10033,46 @@ const A1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "A: Me gusta esta bufanda. ¿Cuánto cuesta?",
-            "en": "A: I like this scarf. How much is it?"
+            "es": "Clara: Me gusta esta bufanda. ¿Cuánto cuesta?",
+            "en": "Clara: I like this scarf. How much is it?"
           },
           {
-            "es": "B: ¿Esa bufanda azul? Diez euros.",
-            "en": "B: That blue scarf (near you)? Ten euros."
+            "es": "Raúl: ¿Esa bufanda azul? Diez euros.",
+            "en": "Raúl: That blue scarf (near you)? Ten euros."
           },
           {
-            "es": "A: ¿Y aquellos sombreros, allí en la pared?",
-            "en": "A: And those hats over there, on the wall?"
+            "es": "Clara: ¿Y aquellos sombreros, allí en la pared?",
+            "en": "Clara: And those hats over there, on the wall?"
           },
           {
-            "es": "B: Esos son más caros. Y no sé qué es aquello — ¿un cinturón?",
-            "en": "B: Those are more expensive. And I don't know what that is over there — a belt?"
+            "es": "Raúl: Esos son más caros. Y no sé qué es aquello — ¿un cinturón?",
+            "en": "Raúl: Those are more expensive. And I don't know what that is over there — a belt?"
           }
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Where is the scarf A first points to, relative to A and B?",
+            "question": "Where is the scarf Clara first points to, relative to Clara and Raúl?",
             "options": [
               "Far from both of them",
-              "Close to A, the speaker",
-              "Close to B, the listener",
+              "Close to Clara, the speaker",
+              "Close to Raúl, the listener",
               "It isn't specified"
             ],
             "correctIndex": 1,
-            "explanation": "A says \"esta bufanda\", and este/esta marks something near the speaker. Ese/esa would put it near B, and aquel/aquella far from both."
+            "explanation": "Clara says \"esta bufanda\", and este/esta marks something near the speaker. Ese/esa would put it near Raúl, and aquel/aquella far from both."
           },
           {
             "type": "multiple-choice",
-            "question": "Why does B use \"aquello\", not \"aquel\" or \"aquella\", for the mystery object?",
+            "question": "Why does Raúl use \"aquello\", not \"aquel\" or \"aquella\", for the mystery object?",
             "options": [
               "Because the object is plural",
-              "Because B doesn't know what the object is, so there's no noun to agree with",
+              "Because Raúl doesn't know what the object is, so there's no noun to agree with",
               "Because it's a mistake — it should be \"aquella\"",
-              "Because the object is close to B"
+              "Because the object is close to Raúl"
             ],
             "correctIndex": 1,
-            "explanation": "\"Aquello\" is the neuter pronoun, used precisely because B can't name the object yet and so has no noun to match gender or number with."
+            "explanation": "\"Aquello\" is the neuter pronoun, used precisely because Raúl can't name the object yet and so has no noun to match gender or number with."
           }
         ]
       },
