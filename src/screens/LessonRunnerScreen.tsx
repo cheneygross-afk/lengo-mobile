@@ -18,6 +18,7 @@ import type { AppStackParamList } from "@/navigation/types";
 import { findLessonBySlug, isSpanishLessonLevel, moduleKeyForLesson, LESSON_SOURCES } from "@/lib/lessons/registry";
 import LessonNextSteps from "@/components/LessonNextSteps";
 import TryItYourself from "@/components/TryItYourself";
+import TroubleSpots from "@/components/TroubleSpots";
 import type { Exercise, Lesson } from "@/lib/lessons/types";
 import { displayTitle } from "@/lib/lessons/levels";
 import { unitOf } from "@/lib/lessons/units";
@@ -991,6 +992,16 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             elapsedMs={Date.now() - startedAt.current}
             accent={accent}
             today={today}
+            troubleSpots={
+              isSpanishLessonLevel(lesson.level) ? (
+                <TroubleSpots
+                  exclude={lesson.slug}
+                  max={3}
+                  variant="lesson"
+                  onOpen={(slug) => navigation.push("LessonRunner", { slug })}
+                />
+              ) : undefined
+            }
             tryIt={
               // A unit review already has its own writing task.
               lesson.unitReview ? undefined : (
@@ -1267,6 +1278,7 @@ function CompleteStep({
   accent,
   today,
   tryIt,
+  troubleSpots,
 }: {
   lessonTitle: string;
   correctCount: number;
@@ -1286,6 +1298,8 @@ function CompleteStep({
   today: { streak: number; minutes: number; goal: number } | null;
   // The "Try it yourself" writing box (see TryItYourself).
   tryIt?: React.ReactNode;
+  // Spanish: lessons the learner keeps missing questions from (TroubleSpots).
+  troubleSpots?: React.ReactNode;
 }) {
   const totalSeconds = Math.max(1, Math.round(elapsedMs / 1000));
   const minutes = Math.floor(totalSeconds / 60);
@@ -1322,6 +1336,8 @@ function CompleteStep({
       </View>
 
       {passed && today && <TodayStats streak={today.streak} minutesToday={today.minutes} goal={today.goal} color={accent} />}
+
+      {troubleSpots}
 
       {tryIt}
 

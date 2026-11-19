@@ -192,9 +192,16 @@ export function conceptCourse(id: string, courseOfPath: (levelPath: string) => s
   return id.split(".")[0];
 }
 
-/** Concepts that keep slipping (3+ lapses): worth sending the learner back to the lesson. */
+/**
+ * Concepts that keep slipping (3+ lapses) and haven't settled since (fewer
+ * than 3 right in a row after the last miss): worth sending the learner back
+ * to the lesson. Shakiest first.
+ */
 export function troubleConcepts(m: Mastery, minLapses = 3): string[] {
-  return [...m].filter(([, s]) => s.lapses >= minLapses).map(([c]) => c);
+  return [...m]
+    .filter(([, s]) => s.lapses >= minLapses && s.streak < 3)
+    .sort(([, a], [, b]) => b.lapses - a.lapses || b.lastReview - a.lastReview)
+    .map(([c]) => c);
 }
 
 export function gradeFromCorrect(correct: boolean): Grade {
