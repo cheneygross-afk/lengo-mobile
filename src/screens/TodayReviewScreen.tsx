@@ -18,6 +18,7 @@ import AudioGate from "@/components/AudioGate";
 import { exerciseSpeech } from "@/lib/lessonAudio";
 import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import StudyCreditNote from "@/components/StudyCreditNote";
+import TroubleSpots from "@/components/TroubleSpots";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
 import { requiresVosotros } from "@/lib/vosotros";
 import {
@@ -369,6 +370,9 @@ export default function TodayReviewScreen({ navigation, route }: Props) {
               </View>
             )}
             <Text style={s.kicker}>Today&apos;s review</Text>
+            {course === "es" && (
+              <TroubleSpots refreshKey={phase} onOpen={(slug) => navigation.navigate("LessonRunner", { slug })} />
+            )}
             {todaysReviewTotal(counts) === 0 ? (
               <>
                 <Text style={s.title}>All caught up</Text>
