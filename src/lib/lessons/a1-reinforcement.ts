@@ -88,6 +88,8 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ["—Buenas tardes, señor. ¿Cómo se llama usted?", "Good afternoon, sir. What's your name?"],
           ["—Me llamo Andrés. ¿Y usted es de aquí?", "My name is Andrés. And are you from here?"],
           ["—No, señor, soy de Toronto.", "No, sir, I'm from Toronto."],
+          ["tú: ¿Cómo te llamas? · usted: ¿Cómo se llama usted?", "What's your name? (friend · stranger)"],
+          ["tú: ¿De dónde eres? · usted: ¿De dónde es usted?", "Where are you from? (friend · stranger)"],
         ],
         [
           mc(
@@ -106,7 +108,31 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Scene 4: One language, many accents",
+        "Scene 4: First day at work",
+        "Same rule at work: tú with coworkers your age, usted with a client, a manager you don't know, or an older person you're meeting for the first time. Not sure? Start with usted. People will tell you when tú is fine: Puedes tutearme (you can call me tú).",
+        [
+          ["—Buenos días. Soy Ana, de recepción. ¿Cómo se llama usted?", "Good morning. I'm Ana, from reception. What's your name?"],
+          ["—Me llamo Pablo Ruiz. Soy de Lima.", "My name is Pablo Ruiz. I'm from Lima."],
+          ["—Mucho gusto, señor Ruiz.", "Nice to meet you, Mr. Ruiz."],
+          ["—Igualmente. Puedes tutearme.", "Likewise. You can call me tú."],
+        ],
+        [
+          mc(
+            "You work at a hotel front desk. A guest you've never met arrives. How do you ask his name?",
+            ["¿Cómo se llama usted?", "¿Cómo te llamas?", "¿Cómo me llamo?", "¿Cómo se llaman ustedes?"],
+            0,
+            "A guest is a stranger you serve, so use usted: ¿Cómo se llama usted? Te llamas is for a friend, and se llaman ustedes asks a group."
+          ),
+          mc(
+            "Pablo tells Ana \"Puedes tutearme.\" What does he want?",
+            ["For her to use tú with him", "For her to use usted with him", "To know where she's from", "To say goodbye"],
+            0,
+            "Tutear means to call someone tú. Pablo is saying the formal usted isn't needed with him."
+          ),
+        ]
+      ),
+      sec(
+        "Scene 5: One language, many accents",
         "Spanish sounds different from place to place, like English in London and Texas, and every accent is correct. In most of Spain, z, and c before e or i, sound like the th in \"think\": gracias sounds like \"grathias\". In Latin America they sound like s. In Buenos Aires, ll and y sound like \"sh\": me llamo sounds like \"me shamo\". In the Caribbean and southern Spain, an s at the end of a syllable often fades to a soft h. You'll practice all of these in the sounds lessons.",
         [
           ["—Hola, me llamo Carmen y soy de Zaragoza. ¡Gracias por venir!", "Hi, my name is Carmen and I'm from Zaragoza. Thanks for coming! (Spain: \"Tharagotha\", \"grathias\")"],
@@ -170,6 +196,12 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("Nice to meet you. Likewise.", "Mucho gusto. Igualmente.", "Igualmente is the natural reply to mucho gusto. \"De nada\" means you're welcome, not likewise.", ["Encantado. Igualmente.", "Encantada. Igualmente."]),
       toEs("Good morning, ma'am. Are you from here? (formal)", "Buenos días, señora. ¿Usted es de aquí?", "With an older stranger, use usted + es, not tú eres.", ["Buenos días, señora. ¿Es usted de aquí?", "Buenos días, señora. ¿Es de aquí?"]),
       wo("Buenas noches, señora, ¿de dónde es usted?", "Señora is the person you're talking to, so it goes right after the greeting, between commas: Buenas noches, señora, … It never comes after the question mark. (When you write it yourself, it can also close the question, inside the ¿?: ¿de dónde es usted, señora?) Usted, because she's an older stranger.", "Good evening, ma'am, where are you from?"),
+      {
+        type: "speak",
+        text: "Buenos días, señora. ¿De dónde es usted?",
+        tip: "Pause briefly at each comma, and let your voice rise at the end of the question.",
+        explanation: "A polite opening for someone older you don't know: greeting, señora, then the usted question.",
+      },
       toEs("Good evening. Where are you from, ma'am? (formal)", "Buenas noches. ¿De dónde es usted, señora?", "Señora can open or close what you say to her. At the end of a question it goes inside the ¿?, after a comma: ¿de dónde es usted, señora?", ["Buenas noches, ¿de dónde es usted, señora?", "Buenas noches. ¿De dónde es, señora?", "Buenas noches, ¿de dónde es, señora?", "Buenas noches, señora, ¿de dónde es usted?", "Buenas noches, señora. ¿De dónde es usted?"]),
       toEs("I'm from Chile, but my parents are from Peru.", "Soy de Chile, pero mis padres son de Perú.", "Soy for yourself, son for your parents (they): the verb changes with the person even in one sentence.", ["Yo soy de Chile, pero mis padres son de Perú."]),
       toEs(

@@ -1,11 +1,11 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "a63a7df2c522960b7196aeacd4f8a408e1d40e6f",
+  "commit": "09c77eec528caa5d873a686cb39ef0c75d8bbf9b",
   "files": {
     "src/lib/lessons/a1-additions.ts": "aa502ae0a7915653459334e5d1f3c7d665a105d15ae77a380e8e87f266cbd43d",
     "src/lib/lessons/a1-core.ts": "09d9c01a671d34fdb43c8512649527f14a5959a39277a333dbd37a0249076cd0",
     "src/lib/lessons/a1-irregulars.ts": "1e1c1935c0c4e7a0799afa96ac59228797fd5c0e759388be54656fd5bacfab5b",
-    "src/lib/lessons/a1-reinforcement.ts": "de48536d31596307096ce5b6b3f67248425c9abc1ca7508bebb2e45c33f3a1af",
+    "src/lib/lessons/a1-reinforcement.ts": "36836846afbabcd0d2eae8c2c4a3604d7a8524a9014c49a206c6d0d889ac59c4",
     "src/lib/lessons/a1.ts": "a08a5a8ba4f2bb4529e14161f36cea945168de6f140b2da9d3411cd0227ad13f",
     "src/lib/lessons/a2-common-words.ts": "931a497c73d0851967b56a3077ad9f06091720565db00a88dd2759f359142881",
     "src/lib/lessons/a2-drills.ts": "3edfb16eda356f53c29902d59577b14ba5a04a98a6b7c80dd29aae298cc238e7",
