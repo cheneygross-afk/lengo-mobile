@@ -69,17 +69,17 @@ const SAMPLES: Record<string, Exercise[]> = {
     {
       type: "write",
       prompt:
-        "Introduce yourself to a new classmate: say hello, give your name and where you're from, then ask them a question.",
+        "Introduce yourself to a new classmate. It's a casual chat with someone your age, so use tú: say hello, give your name and where you're from, then ask them a question.",
       minWords: 12,
       maxWords: 40,
       rubric: [
         "Greet the person (hola, buenos días...)",
         "Say your name with me llamo or soy",
         "Say where you're from with soy de",
-        "Ask a question, such as ¿De dónde eres?",
+        "Ask a question with tú, such as ¿De dónde eres? (To an older stranger you'd use usted: ¿De dónde es usted?)",
       ],
       modelAnswer: "¡Hola! Me llamo Sam. Soy estudiante. Soy de Canadá. Mucho gusto. ¿Cómo te llamas? ¿De dónde eres?",
-      explanation: "An introduction in Spanish follows the same steps as in English: greet, name, origin, then ask back.",
+      explanation: "An introduction in Spanish follows the same steps as in English: greet, name, origin, then ask back. Classmates use tú (¿Cómo te llamas? ¿De dónde eres?); with a teacher or an older stranger, switch to usted (¿Cómo se llama usted? ¿De dónde es usted?).",
     },
   ],
 };
