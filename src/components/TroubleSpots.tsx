@@ -1,4 +1,4 @@
-// "You keep missing these": Spanish lesson topics whose questions keep going
+// "Try these again": Spanish lesson topics whose questions keep going
 // wrong (3+ misses after the lesson was passed, and not yet 3 right in a row
 // since -- troubleConcepts in curriculum/memory.ts), each with a button back to
 // the lesson. Same rule and wording as the website's TroubleSpots. Shown on
@@ -73,8 +73,8 @@ export default function TroubleSpots({
   if (!spots.length) return null;
   return (
     <View style={s.box}>
-      <Text style={s.title}>{variant === "lesson" ? "Before you move on: you keep missing these" : "You keep missing these"}</Text>
-      <Text style={s.body}>Going over the lesson again now usually helps more than another round of questions. It only takes a few minutes.</Text>
+      <Text style={s.title}>{variant === "lesson" ? "Before you move on, try these again" : "Try these again"}</Text>
+      <Text style={s.body}>A quick look back at the lesson makes these stick. It only takes a few minutes.</Text>
       {spots.map((sp) => (
         <View key={`${sp.levelPath}/${sp.slug}`} style={s.row}>
           <Text style={s.lesson}>
