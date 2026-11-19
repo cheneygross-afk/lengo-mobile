@@ -1,4 +1,4 @@
-// The "Getting the audio ready" card shown while useAudioPreload makes a
+// The "Getting ready" card shown while useAudioPreload makes a
 // quiz's or tool's clips ready (same look as the lesson screen's).
 import { View, Text, Pressable, StyleSheet, type StyleProp, type ViewStyle } from "react-native";
 import { fonts } from "@/ui/theme";
@@ -16,7 +16,7 @@ export default function AudioGate({
   return (
     <View style={[s.card, style]} accessibilityLiveRegion="polite">
       <Text style={s.icon}>🎧</Text>
-      <Text style={s.title}>Getting the audio ready…</Text>
+      <Text style={s.title}>Getting ready…</Text>
       <Text style={s.sub}>So every word plays instantly once you start.</Text>
       <View style={s.track}>
         <View style={[s.fill, { backgroundColor: accent, width: `${pct}%` }]} />

@@ -820,7 +820,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         {!audioReady && (
           <View style={s.audioCard} accessibilityLiveRegion="polite">
             <Text style={s.audioIcon}>🎧</Text>
-            <Text style={s.audioTitle}>Getting the audio ready…</Text>
+            <Text style={s.audioTitle}>Getting the lesson ready…</Text>
             <Text style={s.audioSub}>So every word plays instantly once you're in the lesson.</Text>
             <View style={s.audioTrack}>
               <View
