@@ -517,16 +517,55 @@ export function splitOnBlank(sentence: string): [string, string] {
   return [sentence.slice(0, match.index), sentence.slice(match.index + match[0].length)];
 }
 
+// Words of a sentence for lining a typed answer up with the words around
+// a blank: cleaned, dashes as spaces, accents dropped.
+function contextWords(s: string): string[] {
+  return stripAccents(cleanAnswer(s).replace(/[—–]/g, " ")).split(" ").filter(Boolean);
+}
+
+function sameContextWord(typed: string, model: string): boolean {
+  return typed === model || editDistance(typed, model) <= typoTolerance(model.length);
+}
+
+/**
+ * A learner who types the whole sentence instead of only the missing word
+ * ("Mis padres son de Bogotá." for "Mis padres ___ de Bogotá.") has still
+ * answered: the words that stand where the blank is are their answer. Returns
+ * those words, or null if the typed text isn't the sentence around the blank.
+ */
+export function blankFromWholeSentence(value: string, sentence: string): string | null {
+  const [before, after] = splitOnBlank(sentence);
+  const pre = contextWords(before);
+  const post = contextWords(after);
+  if (pre.length + post.length === 0) return null;
+  const typedClean = cleanAnswer(value).replace(/[—–]/g, " ").split(" ").filter(Boolean);
+  const typed = typedClean.map((w) => stripAccents(w));
+  if (typed.length <= pre.length + post.length) return null;
+  for (let i = 0; i < pre.length; i++) if (!sameContextWord(typed[i], pre[i])) return null;
+  for (let i = 0; i < post.length; i++) {
+    if (!sameContextWord(typed[typed.length - post.length + i], post[i])) return null;
+  }
+  return typedClean.slice(pre.length, typed.length - post.length).join(" ");
+}
+
 export function gradeFillBlank(value: string, exercise: FillBlankExercise, speechLang: string): GradeResult {
   const [before] = splitOnBlank(exercise.sentence);
   // A pronoun can only be added when the blank opens the sentence --
   // otherwise the subject is already written out in front of it.
   const blankOpensSentence = !before.match(WORD);
-  return gradeFreeText(value, [exercise.answer, ...(exercise.altAnswers ?? [])], {
-    lang: answerLanguageFor(speechLang),
-    pronouns: blankOpensSentence,
-  });
+  const answers = [exercise.answer, ...(exercise.altAnswers ?? [])];
+  const opts = { lang: answerLanguageFor(speechLang), pronouns: blankOpensSentence };
+  const first = gradeFreeText(value, answers, opts);
+  if (first.correct) return first;
+  // Typed the whole sentence? Grade the words where the blank is.
+  const inBlank = blankFromWholeSentence(value, exercise.sentence);
+  if (inBlank !== null) {
+    const whole = gradeFreeText(inBlank, answers, opts);
+    if (whole.correct) return whole;
+  }
+  return first;
 }
+
 
 export function gradeTranslate(value: string, exercise: TranslateExercise, speechLang: string): GradeResult {
   // A "Correct the sentence" / "Make it plural" item gives a Spanish source to

@@ -83,7 +83,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Scene 3: Formal or informal?",
-        "Now Diego meets Lucía's grandfather. With an older stranger, Spanish speakers usually switch from tú to usted — and the verb switches with it: usted takes the él / ella form.",
+        "Now Diego meets Lucía's grandfather. With an older stranger, Spanish speakers usually switch from tú to usted — and the verb switches with it: usted takes the él / ella form. Señor or señora, said to the person, sits between commas: Buenas tardes, señor.",
         [
           ["—Buenas tardes, señor. ¿Cómo se llama usted?", "Good afternoon, sir. What's your name?"],
           ["—Me llamo Andrés. ¿Y usted es de aquí?", "My name is Andrés. And are you from here?"],
@@ -169,7 +169,8 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       { ...fb("How do you say the bold words in Spanish?", "—¿De dónde ___ tú? —Soy de Chile.", "eres", "The question mirrors the answer: tú eres → yo soy. Es would be for usted."), en: "—Where [are] you from? —I'm from Chile." },
       toEs("Nice to meet you. Likewise.", "Mucho gusto. Igualmente.", "Igualmente is the natural reply to mucho gusto. \"De nada\" means you're welcome, not likewise.", ["Encantado. Igualmente.", "Encantada. Igualmente."]),
       toEs("Good morning, ma'am. Are you from here? (formal)", "Buenos días, señora. ¿Usted es de aquí?", "With an older stranger, use usted + es, not tú eres.", ["Buenos días, señora. ¿Es usted de aquí?", "Buenos días, señora. ¿Es de aquí?"]),
-      wo("Buenas noches, señora, ¿de dónde es usted?", "With an older stranger, ask with usted: ¿de dónde es usted? instead of ¿de dónde eres?", "Good evening, ma'am, where are you from?"),
+      wo("Buenas noches, señora, ¿de dónde es usted?", "Señora is the person you're talking to, so it goes right after the greeting, between commas: Buenas noches, señora, … It never comes after the question mark. (When you write it yourself, it can also close the question, inside the ¿?: ¿de dónde es usted, señora?) Usted, because she's an older stranger.", "Good evening, ma'am, where are you from?"),
+      toEs("Good evening. Where are you from, ma'am? (formal)", "Buenas noches. ¿De dónde es usted, señora?", "Señora can open or close what you say to her. At the end of a question it goes inside the ¿?, after a comma: ¿de dónde es usted, señora?", ["Buenas noches, ¿de dónde es usted, señora?", "Buenas noches. ¿De dónde es, señora?", "Buenas noches, ¿de dónde es, señora?", "Buenas noches, señora, ¿de dónde es usted?", "Buenas noches, señora. ¿De dónde es usted?"]),
       toEs("I'm from Chile, but my parents are from Peru.", "Soy de Chile, pero mis padres son de Perú.", "Soy for yourself, son for your parents (they): the verb changes with the person even in one sentence.", ["Yo soy de Chile, pero mis padres son de Perú."]),
       toEs(
         "Los padres de Lucía es de Bogotá.",

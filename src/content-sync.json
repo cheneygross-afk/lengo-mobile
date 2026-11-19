@@ -1,11 +1,11 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "3cafa2c9e4fd6d63e5d6791f41ed0e3bdac606f9",
+  "commit": "a63a7df2c522960b7196aeacd4f8a408e1d40e6f",
   "files": {
     "src/lib/lessons/a1-additions.ts": "aa502ae0a7915653459334e5d1f3c7d665a105d15ae77a380e8e87f266cbd43d",
     "src/lib/lessons/a1-core.ts": "09d9c01a671d34fdb43c8512649527f14a5959a39277a333dbd37a0249076cd0",
     "src/lib/lessons/a1-irregulars.ts": "1e1c1935c0c4e7a0799afa96ac59228797fd5c0e759388be54656fd5bacfab5b",
-    "src/lib/lessons/a1-reinforcement.ts": "18e48416c811695f4845d8690aa6620e69f5560d8ed371a69ecf7764ee015193",
+    "src/lib/lessons/a1-reinforcement.ts": "de48536d31596307096ce5b6b3f67248425c9abc1ca7508bebb2e45c33f3a1af",
     "src/lib/lessons/a1.ts": "a08a5a8ba4f2bb4529e14161f36cea945168de6f140b2da9d3411cd0227ad13f",
     "src/lib/lessons/a2-common-words.ts": "931a497c73d0851967b56a3077ad9f06091720565db00a88dd2759f359142881",
     "src/lib/lessons/a2-drills.ts": "3edfb16eda356f53c29902d59577b14ba5a04a98a6b7c80dd29aae298cc238e7",
@@ -2018,7 +2018,7 @@
     "src/lib/lessons/skills-c1.ts": "85e475afe7b9395508524bc359ef59bb7b0b684662cda931592a8b701ae93c1d",
     "src/lib/lessons/skills-c2.ts": "9b310b787cfc5c0f388fd148d477f65924f2a7c17ce0bc151c16d866722a07cb",
     "src/lib/lessons/skills-dictation.ts": "d99b65a7794142d220ff005aaf8837fc78eeac4c8738853cd02d6d7defb03491",
-    "src/lib/lessons/skills-samples.ts": "62dc36620b92ec87adc4648ce17deda1a0112c0325d259febf9f9a3e759a3e52",
+    "src/lib/lessons/skills-samples.ts": "9fe5b33390228c0860cf6b9c8d262a738e454bba39ffa09689ba6fdfa7fdd90c",
     "src/lib/lessons/skills.ts": "fb4ef61f4b9c8c646a9f57a5d470578be5e4700572dee1f2c42f67eb81707780",
     "src/lib/lessons/sounds-of-spanish.ts": "710a939f83f46a52e5a03f4fe0c20175ad9e286a109069d815eb1b271102e161",
     "src/lib/lessons/survival-a2.ts": "9e689c5d0d149409bc76eb2825f128a534e36be9af1e9cf0481fc01ba78bffab",
