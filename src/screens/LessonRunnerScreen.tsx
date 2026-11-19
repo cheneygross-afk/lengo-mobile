@@ -11,6 +11,7 @@ import {
   ActivityIndicator,
   Keyboard,
   Platform,
+  Image,
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -819,7 +820,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       >
         {!audioReady && (
           <View style={s.audioCard} accessibilityLiveRegion="polite">
-            <Text style={s.audioIcon}>🎧</Text>
+            <Image
+              source={require("../../assets/shark-dive.gif")}
+              style={s.audioShark}
+              accessibilityIgnoresInvertColors
+              accessible={false}
+            />
             <Text style={s.audioTitle}>Getting the lesson ready…</Text>
             <Text style={s.audioSub}>So every word plays instantly once you're in the lesson.</Text>
             <View style={s.audioTrack}>
@@ -1418,7 +1424,7 @@ const s = StyleSheet.create({
     borderColor: "rgba(42,21,19,0.08)",
     alignItems: "center",
   },
-  audioIcon: { fontSize: 30 },
+  audioShark: { width: 180, height: 135 },
   audioTitle: { marginTop: 8, fontSize: 20, color: "#2A1513", fontFamily: fonts.display, textAlign: "center" },
   audioSub: { marginTop: 4, fontSize: 14, color: "rgba(42,21,19,0.65)", textAlign: "center" },
   audioTrack: {
