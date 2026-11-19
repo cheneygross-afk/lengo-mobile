@@ -94,7 +94,7 @@ const SENTENCE_END = /[.?!]$/;
 
 const words = (t: string) => t.trim().split(/\s+/).filter(Boolean).length;
 
-function usableEs(es: string, maxChars: number): boolean {
+export function usableEs(es: string, maxChars: number): boolean {
   const t = es.trim();
   return (
     t.length >= 8 &&
@@ -110,7 +110,7 @@ function usableEs(es: string, maxChars: number): boolean {
 // Some translations are Spanish definitions (C1 vocabulary), not English.
 const ENGLISH_WORD = /\b(the|an|i|you|he|she|it|we|they|is|are|was|were|to|of|and|in|on|my|your|this|that|be|have|has|do|does|will|would|can|not|for)\b/i;
 
-function usableEn(en: string | undefined, es: string): en is string {
+export function usableEn(en: string | undefined, es: string): en is string {
   if (!en) return false;
   const t = en.trim();
   return (
@@ -126,7 +126,7 @@ function usableEn(en: string | undefined, es: string): en is string {
 }
 
 /** Drops a trailing "(México)"-style note. */
-const stripNote = (t: string) => t.replace(/\s*\([^()]*\)\s*$/, "").trim();
+export const stripNote = (t: string) => t.replace(/\s*\([^()]*\)\s*$/, "").trim();
 
 /** A target-language sentence (`es`, named as in LessonExample) with its
  * translation into the learner's language (`en`), when usable. */
@@ -266,7 +266,7 @@ export type Copy = {
 /** A sentence for quoting inside a longer one: no final full stop. */
 export const quoted = (t: string) => t.replace(/\.$/, "");
 
-const EN_COPY: Copy = {
+export const EN_COPY: Copy = {
   title: (n, unit) => `Unit ${n} review: ${unit}`,
   summary: (unit, quiz) =>
     `Listen, speak and write with what you learned in "${unit}"${quiz ? ", then a short unit quiz" : ""}.`,
@@ -276,7 +276,7 @@ const EN_COPY: Copy = {
   ],
   speaking: [
     "Speaking",
-    "Read two sentences aloud, record yourself and compare with the model. Then two English prompts: say them in Spanish out loud before you check the answer. Your recordings stay on your device.",
+    "Read two sentences aloud, record yourself and compare with the model. Then two English prompts: say them in Spanish out loud before you check the answer. Your recordings aren't saved.",
   ],
   writing: [
     "Writing",
@@ -362,7 +362,7 @@ const ES_UNIT_SUMMARY_C2B: Record<string, string> = {
     "Repasa las preguntas retóricas en un discurso junto con el léxico económico y científico de la unidad, con audio, voz y un discurso breve.",
 };
 
-const ES_COPY: Copy = {
+export const ES_COPY: Copy = {
   title: (n, unit) => `Repaso de la unidad ${n}: ${unit}`,
   summary: (unit, quiz) =>
     ES_UNIT_SUMMARY[unit] ??
@@ -374,7 +374,7 @@ const ES_COPY: Copy = {
   ],
   speaking: [
     "Expresión oral",
-    "Lee dos frases en voz alta, grábate y compara con el modelo. Después, dos frases en inglés: dilas en español en voz alta antes de ver la respuesta. Tus grabaciones no salen de tu dispositivo.",
+    "Lee dos frases en voz alta, grábate y compara con el modelo. Después, dos frases en inglés: dilas en español en voz alta antes de ver la respuesta. Tus grabaciones no se guardan.",
   ],
   writing: [
     "Expresión escrita",

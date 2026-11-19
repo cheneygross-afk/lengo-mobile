@@ -20,6 +20,8 @@
 
 import type { Exercise, Lesson } from "./types";
 import { keepsAuthoredOrder, stageOf, type Stage } from "./lessonFlow";
+import { carryWhole } from "./questionCap";
+import { speaksSpanish, speakTarget, withSpeakingPractice } from "./speaking";
 
 export const MAX_CORE_QUESTIONS = 20;
 export const ROUND_MIN = 4;
@@ -88,10 +90,46 @@ function capLessonUncached(lesson: Lesson, max: number): CappedLesson {
   const order = lesson.exercises.map((exercise, index) => ({ exercise, index, stage: stageOf(exercise) }));
   if (!keepsAuthoredOrder(lesson)) order.sort((a, b) => rank[a.stage] - rank[b.stage] || a.index - b.index);
   const picked = new Set(spread(order.length, room).map((i) => order[i].index));
+  if (speaksSpanish(lesson)) keepSpeaking(lesson, sections, picked, max);
   const exercises = lesson.exercises.filter((_, i) => picked.has(i));
   // Left-out practice, easiest first, after any left-out checkpoints.
   for (const p of order) if (!picked.has(p.index)) extras.push(p.exercise);
   return { core: { ...lesson, sections, exercises }, extras };
+}
+
+/** Spanish lessons: one question in five is spoken (speaking.ts). When
+ * the even pick leaves spoken items out, they take the place of picked
+ * questions -- recognition ones (choose, match) first, from the most
+ * common question type, latest first -- which become extra practice. */
+function keepSpeaking(lesson: Lesson, sections: Lesson["sections"], picked: Set<number>, max: number) {
+  const inCheckpoints = sections.reduce((n, s) => n + (s.checkpoint?.filter((e) => e.type === "speak").length ?? 0), 0);
+  const ex = lesson.exercises;
+  let have = inCheckpoints + [...picked].filter((i) => ex[i].type === "speak").length;
+  const target = speakTarget(Math.min(max, sections.reduce((n, s) => n + (s.checkpoint?.length ?? 0), 0) + ex.length));
+  const waiting = ex.map((e, i) => i).filter((i) => ex[i].type === "speak" && !picked.has(i));
+  for (const add of waiting) {
+    if (have >= target) break;
+    const typeCount = new Map<string, number>();
+    for (const i of picked) typeCount.set(ex[i].type, (typeCount.get(ex[i].type) ?? 0) + 1);
+    const victims = [...picked]
+      .filter((i) => ex[i].type !== "speak" && ex[i].type !== "write")
+      .sort((a, b) => rank[stageOf(ex[a])] - rank[stageOf(ex[b])] || (typeCount.get(ex[b].type) ?? 0) - (typeCount.get(ex[a].type) ?? 0) || b - a);
+    if (!victims.length) break;
+    picked.delete(victims[0]);
+    picked.add(add);
+    have++;
+  }
+}
+
+/** Every Spanish lesson with its spoken questions (speaking.ts), using
+ * the cap's pick so sentences it leaves out are spoken first. Applied
+ * where each Spanish level exports its lessons. */
+export function withSpeaking(lessons: Lesson[]): Lesson[] {
+  const pickCore = (l: Lesson) => {
+    const { core } = capLessonUncached(l, MAX_CORE_QUESTIONS);
+    return new Set(coreQuestions(core));
+  };
+  return lessons.map((l) => carryWhole(l, withSpeakingPractice(l, pickCore)));
 }
 
 /** Every question of a lesson as shown (checkpoints, then practice). */

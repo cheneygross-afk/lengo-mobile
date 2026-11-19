@@ -1,4 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/a2.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { withSpeaking } from "./practiceCap";
 import type { Lesson } from "./types";
 import { A2_PERFECT_PRONOUNS } from "./a2-perfect-pronouns";
 import { buildLevel } from "./sequencing";
@@ -20989,4 +20990,5 @@ const A2_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const A2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS]), A2_WRITING_TASKS));
+// Every lesson then gets its spoken questions (speaking.ts).
+export const A2_LESSONS: Lesson[] = withSpeaking(splitLongLessons(withUnitWriting(buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS]), A2_WRITING_TASKS)));

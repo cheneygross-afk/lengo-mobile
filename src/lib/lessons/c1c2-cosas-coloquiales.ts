@@ -1,4 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/c1c2-cosas-coloquiales.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { withSpeaking } from "./practiceCap";
 import type { Lesson } from "./types";
 import { weaveLessons } from "./weave";
 import { COSAS_COLOQUIALES_REINFORCEMENT } from "./cosas-coloquiales-reinforcement";
@@ -1927,4 +1928,5 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
 // right after the lesson each one reinforces, and the whole level is
 // renumbered -- see weave.ts. Everything above this line is the original
 // lesson data.
-export const COSAS_COLOQUIALES_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT), COSAS_COLOQUIALES_WRITING_TASKS), { spanish: true });
+// Every lesson then gets its spoken questions (speaking.ts).
+export const COSAS_COLOQUIALES_LESSONS: Lesson[] = withSpeaking(splitLongLessons(withUnitWriting(weaveLessons(COSAS_COLOQUIALES_BASE_LESSONS, COSAS_COLOQUIALES_REINFORCEMENT), COSAS_COLOQUIALES_WRITING_TASKS), { spanish: true }));

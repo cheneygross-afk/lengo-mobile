@@ -88,7 +88,9 @@ export type DictationExercise = {
 
 // Record-and-compare: the learner hears the model, records themselves,
 // plays both back and judges whether they sounded close. The recording
-// never leaves the device. Self-assessed: "close" counts as correct.
+// is never saved. Where the browser can turn speech into text, what
+// the learner said is checked against `text` (speakCheck.ts); otherwise
+// self-assessed: "close" counts as correct.
 export type SpeakExercise = {
   type: "speak";
   text: string; // the Spanish sentence to say
@@ -96,6 +98,9 @@ export type SpeakExercise = {
   // answers out loud before hearing anything. `text` is then the model
   // answer, kept hidden until they've recorded (or tap "Show the answer").
   prompt?: string;
+  // Other answers to `prompt` that are just as right as `text` (used when
+  // a spoken answer is checked against what the learner said).
+  altAnswers?: string[];
   tip?: string; // a pronunciation tip
   explanation: string;
 };

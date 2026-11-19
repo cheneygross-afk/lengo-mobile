@@ -1,4 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/c2.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { withSpeaking } from "./practiceCap";
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
 import { addPractice } from "./practice";
@@ -42428,4 +42429,5 @@ const C2_BASE_LESSONS: Lesson[] = [
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
 // c2-practice.ts adds questions to the lessons that had too few.
-export const C2_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(addPractice(buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT), C2_PRACTICE), C2_WRITING_TASKS), { spanish: true });
+// Every lesson then gets its spoken questions (speaking.ts).
+export const C2_LESSONS: Lesson[] = withSpeaking(splitLongLessons(withUnitWriting(addPractice(buildLevel("C2", C2_BASE_LESSONS, C2_REINFORCEMENT), C2_PRACTICE), C2_WRITING_TASKS), { spanish: true }));

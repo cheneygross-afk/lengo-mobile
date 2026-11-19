@@ -1,4 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/a1.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { withSpeaking } from "./practiceCap";
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
 import { A1_REINFORCEMENT } from "./a1-reinforcement";
@@ -23370,6 +23371,7 @@ const A1_BASE_LESSONS: Lesson[] = [
 // vocabulary, optional Extra Practice) after weaving.
 // withSkillSamples adds the sample listening/speaking/writing exercises
 // (skills-samples.ts).
-export const A1_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(withSkillSamples(
+// Every lesson then gets its spoken questions (speaking.ts).
+export const A1_LESSONS: Lesson[] = withSpeaking(splitLongLessons(withUnitWriting(withSkillSamples(
   buildLevel("A1", A1_BASE_LESSONS, [...A1_REINFORCEMENT, ...A1_ADDITIONS, ...A1_IRREGULARS, ...A1_CORE])
-), A1_WRITING_TASKS));
+), A1_WRITING_TASKS)));
