@@ -153,10 +153,24 @@ export type LessonKind = "teach" | "reinforce" | "drill" | "review" | "unit-revi
 
 export type LessonExample = { es: string; en?: string };
 
+// A small grid shown on a teaching card: a conjugation table, a "this vs.
+// that" comparison, a word list with pictures. A cell starting with "*" is
+// highlighted (the irregular or key form); the "*" itself is not shown.
+// Keep tables small (a phone screen): about 4 columns and 8 rows at most.
+export type LessonTable = {
+  caption?: string;
+  head: string[];
+  rows: string[][];
+  /** One short line under the table. */
+  note?: string;
+};
+
 export type LessonSection = {
   heading: string;
   body: string[];
   examples?: LessonExample[];
+  /** Shown on the section's last teaching card, before its examples. */
+  tables?: LessonTable[];
   // A short 1-2 question check that appears right after this section, so
   // practice is spread through the lesson instead of dumped at the end.
   checkpoint?: Exercise[];

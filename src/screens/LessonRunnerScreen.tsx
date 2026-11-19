@@ -19,7 +19,7 @@ import { findLessonBySlug, isSpanishLessonLevel, moduleKeyForLesson, LESSON_SOUR
 import LessonNextSteps from "@/components/LessonNextSteps";
 import TryItYourself from "@/components/TryItYourself";
 import TroubleSpots from "@/components/TroubleSpots";
-import type { Exercise, Lesson } from "@/lib/lessons/types";
+import type { Exercise, Lesson, LessonTable } from "@/lib/lessons/types";
 import { displayTitle } from "@/lib/lessons/levels";
 import { unitOf } from "@/lib/lessons/units";
 import { LEVEL_EXIT_SLUGS } from "@/lib/lessons/sequencing";
@@ -31,6 +31,7 @@ import ExerciseBlock from "@/components/ExerciseBlock";
 import HighlightableText from "@/components/HighlightableText";
 import LessonVideoLink from "@/components/LessonVideoLink";
 import TapText from "@/components/TapText";
+import LessonTables from "@/components/LessonTables";
 import { isSpanishText, loadSpanishVoiceLists } from "@/lib/spanishVoice";
 import {
   langForLevel,
@@ -1113,7 +1114,7 @@ function TeachStep({
   accent: string;
   glyph: string;
   levelStep: number;
-  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; summary?: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[] }[] };
+  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; summary?: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[]; tables?: LessonTable[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
@@ -1210,6 +1211,8 @@ function TeachStep({
               />
             );
           })}
+          {/* Tables go on the section's last card, before its examples. */}
+          {!card || card.part === card.parts - 1 ? <LessonTables tables={section.tables ?? []} lang={lang} accent={accent} /> : null}
           {section.examples?.map((ex, ei) => {
             if (card && !card.examples.includes(ei)) return null;
             // Matches the website's `sec${i}-ex${k}-es` / `-en` keys.

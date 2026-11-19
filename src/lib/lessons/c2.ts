@@ -16702,14 +16702,14 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "En la práctica (1): cómo lo vive cada uno",
         "body": [
           "Mediadora: Gracias a los dos por aceptar esta conversación. Antes de nada, quiero que cada uno exprese cómo se siente respecto a lo ocurrido.",
-          "Persona A: Sinceramente, me siento ignorado desde hace semanas, como si mi opinión no contara en las decisiones del equipo.",
-          "Persona B: Entiendo que te sientas así, y lamento que haya llegado a ese punto. No era mi intención.",
-          "Mediadora: Bien, ese reconocimiento ya es un buen punto de partida. ¿Podrías, B, explicar tu perspectiva sobre lo sucedido?"
+          "Sergio: Sinceramente, me siento ignorado desde hace semanas, como si mi opinión no contara en las decisiones del equipo.",
+          "Marcos: Entiendo que te sientas así, y lamento que haya llegado a ese punto. No era mi intención.",
+          "Mediadora: Bien, ese reconocimiento ya es un buen punto de partida. ¿Podrías, Marcos, explicar tu perspectiva sobre lo sucedido?"
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué hace la Persona B al decir «Entiendo que te sientas así, y lamento que haya llegado a ese punto. No era mi intención»?",
+            "question": "¿Qué hace Marcos al decir «Entiendo que te sientas así, y lamento que haya llegado a ese punto. No era mi intención»?",
             "options": [
               "reconoce la emoción del otro sin justificarse ni contraatacar",
               "le da la razón en todo",
@@ -16717,51 +16717,51 @@ const C2_BASE_LESSONS: Lesson[] = [
               "cambia de tema"
             ],
             "correctIndex": 0,
-            "explanation": "Valida lo que siente A y lamenta la situación, sin «pero» ni reproche. No le da la razón en todo: más adelante explica su propia perspectiva."
+            "explanation": "Valida lo que siente Sergio y lamenta la situación, sin «pero» ni reproche. No le da la razón en todo: más adelante explica su propia perspectiva."
           }
         ]
       },
       {
         "heading": "En la práctica (2): la otra perspectiva",
         "body": [
-          "Persona B: Desde mi lado, sentí que cada propuesta mía se cuestionaba de inmediato, así que empecé a tomar decisiones sin consultar, para evitar el desgaste.",
-          "Persona A: No lo había visto así. Puede que parte de esto sea, en realidad, un malentendido mutuo.",
+          "Marcos: Desde mi lado, sentí que cada propuesta mía se cuestionaba de inmediato, así que empecé a tomar decisiones sin consultar, para evitar el desgaste.",
+          "Sergio: No lo había visto así. Puede que parte de esto sea, en realidad, un malentendido mutuo.",
           "Mediadora: Interesante. ¿Creen que hay algún punto en común desde el que empezar a reconstruir la confianza?"
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Al oír la perspectiva de B, ¿qué reconoce la Persona A?",
+            "question": "Al oír la perspectiva de Marcos, ¿qué reconoce Sergio?",
             "options": [
               "Que parte del conflicto puede ser un malentendido mutuo.",
-              "Que B tenía toda la razón desde el principio.",
+              "Que Marcos tenía toda la razón desde el principio.",
               "Que no quiere seguir con la mediación.",
-              "Que B tomó decisiones para perjudicarla."
+              "Que Marcos tomó decisiones para perjudicarlo."
             ],
             "correctIndex": 0,
-            "explanation": "A dice «No lo había visto así. Puede que parte de esto sea un malentendido mutuo»: duda («puede que» + subjuntivo) y reconoce que ambos contribuyeron. No le da toda la razón a B, no abandona la mediación ni le atribuye mala intención."
+            "explanation": "Sergio dice «No lo había visto así. Puede que parte de esto sea un malentendido mutuo»: duda («puede que» + subjuntivo) y reconoce que ambos contribuyeron. No le da toda la razón a Marcos, no abandona la mediación ni le atribuye mala intención."
           }
         ]
       },
       {
         "heading": "En la práctica (3): el acuerdo",
         "body": [
-          "Persona B: Yo estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones.",
-          "Persona A: Me parece un término medio razonable. Acepto esa parte del acuerdo.",
+          "Marcos: Yo estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones.",
+          "Sergio: Me parece un término medio razonable. Acepto esa parte del acuerdo.",
           "Mediadora: Excelente. Dejemos entonces por escrito este pacto de convivencia para que ambos lo tengan claro."
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué condición pone la Persona B para retomar las consultas previas?",
+            "question": "¿Qué condición pone Marcos para retomar las consultas previas?",
             "options": [
-              "Que A plantee sus dudas sin acusaciones.",
-              "Que A le pida perdón por escrito.",
+              "Que Sergio plantee sus dudas sin acusaciones.",
+              "Que Sergio le pida perdón por escrito.",
               "Que la mediadora decida por los dos.",
-              "Que A deje de participar en las decisiones."
+              "Que Sergio deje de participar en las decisiones."
             ],
             "correctIndex": 0,
-            "explanation": "B dice: «estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones» (condición real: si + presente). Las otras opciones no aparecen en el diálogo."
+            "explanation": "Marcos dice: «estaría dispuesto a retomar las consultas previas si tú te comprometes a plantear tus dudas sin acusaciones» (condición real: si + presente). Las otras opciones no aparecen en el diálogo."
           }
         ]
       }
@@ -16793,7 +16793,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Cambia la frase de la Persona B a la forma de usted.",
+        "prompt": "Cambia la frase de Marcos a la forma de usted.",
         "source": "Entiendo que te sientas así, y lamento que haya llegado a ese punto.",
         "answer": "Entiendo que se sienta así, y lamento que haya llegado a ese punto.",
         "explanation": "Con usted, el pronombre reflexivo pasa de «te» a «se» y el verbo a la tercera persona (se sienta). El subjuntivo se mantiene: sigue siendo una valoración."
@@ -20617,14 +20617,14 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "En la práctica (1): el coste de la transición",
         "body": [
-          "Comentarista A: La nueva ley de emisiones va a golpear con dureza a las regiones que dependen del carbón. No podemos hablar de sostenibilidad ignorando a esos trabajadores.",
-          "Comentarista B: Nadie lo ignora, pero posponer la transición energética otra década más solo agrava la huella de carbono que dejaremos a las próximas generaciones.",
-          "Comentarista A: El problema es que se presenta como una cuestión moral absoluta, cuando en realidad hay matices económicos enormes de por medio."
+          "Rosa: La nueva ley de emisiones va a golpear con dureza a las regiones que dependen del carbón. No podemos hablar de sostenibilidad ignorando a esos trabajadores.",
+          "Julián: Nadie lo ignora, pero posponer la transición energética otra década más solo agrava la huella de carbono que dejaremos a las próximas generaciones.",
+          "Rosa: El problema es que se presenta como una cuestión moral absoluta, cuando en realidad hay matices económicos enormes de por medio."
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué preocupa al Comentarista A de la nueva ley de emisiones?",
+            "question": "¿Qué preocupa a Rosa de la nueva ley de emisiones?",
             "options": [
               "Que golpee a las regiones que dependen del carbón y a sus trabajadores.",
               "Que la transición energética sea demasiado lenta.",
@@ -20632,16 +20632,16 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Que no se hable de la huella de carbono."
             ],
             "correctIndex": 0,
-            "explanation": "A dice que la ley «va a golpear con dureza a las regiones que dependen del carbón». Es B quien teme posponer la transición, porque agravaría la huella de carbono."
+            "explanation": "Rosa dice que la ley «va a golpear con dureza a las regiones que dependen del carbón». Es Julián quien teme posponer la transición, porque agravaría la huella de carbono."
           }
         ]
       },
       {
         "heading": "En la práctica (2): dónde coinciden",
         "body": [
-          "Comentarista B: Estoy de acuerdo en que el discurso se ha polarizado demasiado. Pero el electorado también merece políticas concretas, no solo promesas vacías de desarrollo sostenible.",
-          "Comentarista A: Ahí coincidimos. Sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en pura retórica.",
-          "Comentarista B: Y sin un mínimo de consenso entre bandos, ni siquiera una reforma bien diseñada logrará sobrevivir al próximo ciclo electoral."
+          "Julián: Estoy de acuerdo en que el discurso se ha polarizado demasiado. Pero el electorado también merece políticas concretas, no solo promesas vacías de desarrollo sostenible.",
+          "Rosa: Ahí coincidimos. Sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en pura retórica.",
+          "Julián: Y sin un mínimo de consenso entre bandos, ni siquiera una reforma bien diseñada logrará sobrevivir al próximo ciclo electoral."
         ],
         "checkpoint": [
           {
@@ -20654,7 +20654,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "En que el desarrollo sostenible es una promesa vacía que hay que abandonar."
             ],
             "correctIndex": 0,
-            "explanation": "A: «Sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en pura retórica»; B añade que sin un mínimo de consenso no sobrevivirá al próximo ciclo electoral. Ninguno pide retirar la ley ni abandonar la sostenibilidad."
+            "explanation": "Rosa: «Sin metas verificables y sin rendición de cuentas, cualquier reforma se queda en pura retórica»; Julián añade que sin un mínimo de consenso no sobrevivirá al próximo ciclo electoral. Ninguno pide retirar la ley ni abandonar la sostenibilidad."
           }
         ]
       },
@@ -20866,7 +20866,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "El comentarista A dice: «No podemos hablar de sostenibilidad ignorando a esos trabajadores». ¿Qué respuesta mantiene el tono deliberativo del debate?",
+        "question": "Rosa dice: «No podemos hablar de sostenibilidad ignorando a esos trabajadores». ¿Qué respuesta mantiene el tono deliberativo del debate?",
         "options": [
           "Nadie lo ignora, pero retrasar la transición también tiene un coste para todos.",
           "Usted defiende a los contaminadores, como siempre.",
@@ -20887,11 +20887,11 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Cambia la cita a estilo indirecto, empezando por «El comentarista B advirtió que…».",
+        "prompt": "Cambia la cita a estilo indirecto, empezando por «Julián advirtió que…».",
         "source": "«Posponer la transición solo agrava la huella de carbono.»",
-        "answer": "El comentarista B advirtió que posponer la transición solo agravaba la huella de carbono.",
+        "answer": "Julián advirtió que posponer la transición solo agravaba la huella de carbono.",
         "altAnswers": [
-          "El comentarista B advirtió que posponer la transición solo agravaría la huella de carbono."
+          "Julián advirtió que posponer la transición solo agravaría la huella de carbono."
         ],
         "explanation": "Con el verbo introductor en pasado (advirtió), el presente de la cita retrocede a imperfecto: agrava → agravaba. El infinitivo «posponer» no cambia."
       },
