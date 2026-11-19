@@ -1,4 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/b1.ts by scripts/sync-content.mjs -- edit it there, not here.
+import { withSpeaking } from "./practiceCap";
 import type { Lesson } from "./types";
 import { buildLevel } from "./sequencing";
 import { B1_GAPS } from "./b1-gaps";
@@ -22978,4 +22979,5 @@ const B1_BASE_LESSONS: Lesson[] = [
 // the same way; at a shared anchor they follow the reinforcement lessons.
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
-export const B1_LESSONS: Lesson[] = splitLongLessons(withUnitWriting(buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]), B1_WRITING_TASKS), { spanish: true });
+// Every lesson then gets its spoken questions (speaking.ts).
+export const B1_LESSONS: Lesson[] = withSpeaking(splitLongLessons(withUnitWriting(buildLevel("B1", B1_BASE_LESSONS, [...B1_REINFORCEMENT, ...B1_DRILLS, ...B1_COMMON_WORDS, ...B1_GAPS, ...B1_SURVIVAL]), B1_WRITING_TASKS), { spanish: true }));

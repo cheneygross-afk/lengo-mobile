@@ -226,6 +226,12 @@ const WHOLE = new WeakMap<Lesson, Lesson>();
 
 /** The lesson as authored, before it was split into parts. */
 export const wholeLesson = (l: Lesson): Lesson => WHOLE.get(l) ?? l;
+/** `to` (a changed copy of the part `from`) belongs to the same whole lesson. */
+export function carryWhole(from: Lesson, to: Lesson): Lesson {
+  const whole = WHOLE.get(from);
+  if (whole && to !== from) WHOLE.set(to, whole);
+  return to;
+}
 
 /** The lessons as authored: later parts dropped, part 1 replaced by its whole lesson. */
 export const wholeLessons = (lessons: Lesson[]): Lesson[] => lessons.filter((l) => !l.continues).map(wholeLesson);

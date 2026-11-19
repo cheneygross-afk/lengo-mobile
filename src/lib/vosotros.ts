@@ -175,7 +175,7 @@ function requiredAnswers(ex: Exercise): string[] {
     case "dictation":
       return [ex.answer ?? ex.audio, ...(ex.altAnswers ?? [])];
     case "speak":
-      return [ex.text];
+      return [ex.text, ...(ex.altAnswers ?? [])];
   }
 }
 
