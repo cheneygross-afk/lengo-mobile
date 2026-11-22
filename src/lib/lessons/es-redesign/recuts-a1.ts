@@ -2,6 +2,7 @@
 // Beginner recut lessons (see recut.ts): the old "Tener, Ir, Hacer + Hay"
 // lessons, cut into one lesson per concept.
 import type { Recut } from "./recut";
+import { A1_UNIT4_PATCHES } from "./a1-unit4";
 import { TENER, TENER_PHRASES, IR, IR_A } from "./concept-tables";
 
 export const A1_RECUTS: Recut[] = [
@@ -16,10 +17,12 @@ export const A1_RECUTS: Recut[] = [
       { lesson: "tener-ir-hacer-hay-2", sections: [2, 3], exercises: [2, 4, 5, 8, 9, 10, 11, 12, 13, 14, 16] },
     ],
     patch: {
+      // Fixes from Claude's Unit 4 audit (a1-unit4.ts): a recut takes no other patch.
+      ...A1_UNIT4_PATCHES["es-hay-there-is"],
       goal: "say what there is and isn't in a place, ask \"is there...?\", and choose hay or está.",
       sections: {
         0: { reteach: "Hay means both \"there is\" and \"there are\". It never changes: Hay una cama. Hay tres sillas." },
-        1: { reteach: "One word does everything: Hay un banco (there is), Hay dos bancos (there are), No hay leche (there's no), ¿Hay un banco? (is there?)." },
+        1: { ...A1_UNIT4_PATCHES["es-hay-there-is"].sections?.[1], reteach: "One word does everything: Hay un banco (there is), Hay dos bancos (there are), No hay leche (there's no), ¿Hay un banco? (is there?)." },
         2: { reteach: "Hay says something exists, with un, una or a number: Hay un banco. Está says where a known thing is, with el, la or mi: El banco está en la plaza." },
       },
       insert: [
