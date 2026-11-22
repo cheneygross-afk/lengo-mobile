@@ -1,6 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/sounds-of-spanish.ts by scripts/sync-content.mjs -- edit it there, not here.
 import { anchored, authoring } from "./authoring";
-import { dict, lc, spk } from "./skills-authoring";
+import { dict, lc, sayIt } from "./skills-authoring";
 import type { SpeakExercise } from "./types";
 import type { AnchoredLesson } from "./weave";
 
@@ -113,6 +113,28 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           ),
         ]
       ),
+      sec(
+        "Say new words one syllable at a time",
+        [
+          "A new word is easier in small pieces. Most Spanish syllables are one consonant plus one vowel: ca-sa, me-sa, pa-la. Say each piece slowly, then join them at normal speed.",
+          "Two consonants side by side usually split between syllables: ven-ta-na, can-tar. Every syllable has exactly one vowel sound.",
+        ],
+        [
+          ["casa", "house -- ca-sa"],
+          ["mesa", "table -- me-sa"],
+          ["pala", "shovel -- pa-la"],
+          ["ventana", "window -- ven-ta-na"],
+          ["zapato", "shoe -- za-pa-to"],
+        ],
+        [
+          mc(
+            "Ventana (window) is a new word. How does it split into syllables?",
+            ["ven-ta-na", "ve-nta-na", "vent-a-na", "ven-tan-a"],
+            0,
+            "Most syllables are a consonant plus a vowel, and two consonants side by side split up: n goes with ven, t starts ta. So: ven-ta-na, three syllables, one vowel each."
+          ),
+        ]
+      ),
     ],
     [
       lc(
@@ -166,11 +188,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("luna", "Luna (moon): the u is always \"oo\"."),
       dict("piso", "Piso (floor, flat): Spanish \"ee\" is written i."),
       dict("Mi casa es tu casa.", "Mi casa es tu casa -- \"my house is your house\", i.e. make yourself at home. Every a is the same open \"ah\"."),
-      spk("casa", "Open your mouth wide for both a's; the second one is as clear as the first.", "Casa: CA-sa, two equal \"ah\" sounds, stress on the first."),
-      spk("No, no sé.", "Cut each vowel off short: no glide into \"oo\" or \"ee\".", "No, no sé -- \"No, I don't know.\" Three short, pure vowels."),
-      spk("chocolate", "Four beats, and the final e is a full \"eh\": cho-co-la-te.", "Chocolate: cho-co-LA-te, stress on la."),
-      spk("Ana mira la mesa.", "Every a has the same sound, the stressed one just louder: no \"uh\" anywhere.", "Ana mira la mesa -- \"Ana looks at the table.\""),
-      spk("Hablo un poco de español.", "Keep the o of hablo and poco short and round, not \"oh-oo\".", "Hablo un poco de español -- \"I speak a little Spanish.\" Stress: HA-blo, PO-co, es-pa-ÑOL."),
+      sayIt("casa", "house", "Open your mouth wide for both a's; the second one is as clear as the first.", "Casa: CA-sa, two equal \"ah\" sounds, stress on the first."),
+      sayIt("No, no sé.", "No, I don't know.", "Cut each vowel off short: no glide into \"oo\" or \"ee\".", "No, no sé -- \"No, I don't know.\" Three short, pure vowels."),
+      sayIt("chocolate", "chocolate", "Four beats, and the final e is a full \"eh\": cho-co-la-te.", "Chocolate: cho-co-LA-te, stress on la."),
+      sayIt("Ana mira la mesa.", "Ana looks at the table.", "Every a has the same sound, the stressed one just louder: no \"uh\" anywhere.", "Ana mira la mesa -- \"Ana looks at the table.\""),
+      sayIt("Hablo un poco de español.", "I speak a little Spanish.", "Keep the o of hablo and poco short and round, not \"oh-oo\".", "Hablo un poco de español -- \"I speak a little Spanish.\" Stress: HA-blo, PO-co, es-pa-ÑOL."),
       mc(
         "You hear \"HA-bla in-GLÉS\", with a clear final a. Who speaks English?",
         ["he or she", "I", "we", "they"],
@@ -348,11 +370,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("agua", "Agua (water): soft g, written g."),
       dict("verdad", "Verdad (true, truth): v at the start, d in the middle and at the end, both soft. You have to learn v vs. b word by word."),
       dict("Tengo un gato.", "Tengo un gato -- \"I have a cat.\" Firm g in tengo (after n) and in gato (after n of un)."),
-      spk("Vivo en Valencia.", "Keep your top teeth off your lip: every v here is a b-sound, firm at the start of vivo and after the n of en, soft in the middle of vivo.", "Vivo en Valencia -- \"I live in Valencia.\" VI-vo en va-LEN-cia."),
-      spk("Todo está bien.", "Let the d of todo be soft, almost \"th\"; don't flap it like the tt in \"butter\".", "Todo está bien -- \"Everything's fine.\" TO-do es-TÁ BIEN."),
-      spk("¿Quieres agua?", "The g in agua barely closes: let the air keep flowing.", "¿Quieres agua? -- \"Do you want some water?\" Let the voice rise at the end."),
-      spk("¿De dónde es usted?", "Tongue against the back of your upper teeth for each d; the final d of usted is very light.", "¿De dónde es usted? -- \"Where are you from?\" (formal)."),
-      spk("un vaso de vino", "Firm b in un vaso (after n), soft b in de vino (between vowels).", "Un vaso de vino -- \"a glass of wine.\""),
+      sayIt("Vivo en Valencia.", "I live in Valencia.", "Keep your top teeth off your lip: every v here is a b-sound, firm at the start of vivo and after the n of en, soft in the middle of vivo.", "Vivo en Valencia -- \"I live in Valencia.\" VI-vo en va-LEN-cia."),
+      sayIt("Todo está bien.", "Everything's fine.", "Let the d of todo be soft, almost \"th\"; don't flap it like the tt in \"butter\".", "Todo está bien -- \"Everything's fine.\" TO-do es-TÁ BIEN."),
+      sayIt("¿Quieres agua?", "Do you want some water?", "The g in agua barely closes: let the air keep flowing.", "¿Quieres agua? -- \"Do you want some water?\" Let the voice rise at the end."),
+      sayIt("¿De dónde es usted?", "Where are you from? (formal)", "Tongue against the back of your upper teeth for each d; the final d of usted is very light.", "¿De dónde es usted? -- \"Where are you from?\" (formal)."),
+      sayIt("un vaso de vino", "a glass of wine", "Firm b in un vaso (after n), soft b in de vino (between vowels).", "Un vaso de vino -- \"a glass of wine.\""),
       mc(
         "Do tubo and tuvo sound different?",
         ["No: b and v sound the same", "Yes: the v uses teeth on the lip", "Yes: the b is silent", "Yes: the v sounds like f"],
@@ -498,13 +520,13 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("pero", "Pero (but): the tap is written with one r."),
       dict("rojo", "Rojo (red): at the start of a word the trill is written with one r -- never rr."),
       dict("Tengo tres perros.", "Tengo tres perros -- \"I have three dogs.\" Tres has a tap after t; perros has rr."),
-      spk("pero, perro", "Short flick for pero, then a long buzz for perro. Make the difference big.", "Pero (but) vs. perro (dog): tap vs. trill."),
-      spk("Mi perro es rojo.", "The r at the start of rojo trills, just like the rr in perro.", "Mi perro es rojo -- \"My dog is red.\""),
-      spk("rojo, rico, Roma", "Start each word with a trill: tongue relaxed behind the upper teeth, then blow so it vibrates.", "Rojo, rico, Roma: a single r at the start of a word is always trilled."),
-      spk("Rápido corren los carros.", "Three trills: the r of rápido and the rr of corren and carros. Go slowly first.", "Rápido corren los carros -- \"The cars run fast.\" Part of a famous trill tongue twister."),
-      spk("Tres tristes tigres.", "A tongue twister with taps: tr puts your tongue right where the trill starts too. Go slowly first.", "Tres tristes tigres -- \"three sad tigers\", the start of a famous tongue twister."),
-      spk("Enrique es de Puerto Rico.", "After n the r is trilled (Enrique); Puerto has a tap; Rico is trilled.", "Enrique es de Puerto Rico -- \"Enrique is from Puerto Rico.\""),
-      spk("Es caro, pero me gusta.", "Tap in caro, tap in pero -- no trills here at all.", "Es caro, pero me gusta -- \"It's expensive, but I like it.\""),
+      sayIt("pero, perro", "but, dog", "Short flick for pero, then a long buzz for perro. Make the difference big.", "Pero (but) vs. perro (dog): tap vs. trill."),
+      sayIt("Mi perro es rojo.", "My dog is red.", "The r at the start of rojo trills, just like the rr in perro.", "Mi perro es rojo -- \"My dog is red.\""),
+      sayIt("rojo, rico, Roma", "red, delicious, Rome", "Start each word with a trill: tongue relaxed behind the upper teeth, then blow so it vibrates.", "Rojo, rico, Roma: a single r at the start of a word is always trilled."),
+      sayIt("Rápido corren los carros.", "The cars run fast.", "Three trills: the r of rápido and the rr of corren and carros. Go slowly first.", "Rápido corren los carros -- \"The cars run fast.\" Part of a famous trill tongue twister."),
+      sayIt("Tres tristes tigres.", "Three sad tigers.", "A tongue twister with taps: tr puts your tongue right where the trill starts too. Go slowly first.", "Tres tristes tigres -- \"three sad tigers\", the start of a famous tongue twister."),
+      sayIt("Enrique es de Puerto Rico.", "Enrique is from Puerto Rico.", "After n the r is trilled (Enrique); Puerto has a tap; Rico is trilled.", "Enrique es de Puerto Rico -- \"Enrique is from Puerto Rico.\""),
+      sayIt("Es caro, pero me gusta.", "It's expensive, but I like it.", "Tap in caro, tap in pero -- no trills here at all.", "Es caro, pero me gusta -- \"It's expensive, but I like it.\""),
       mc("Which word means \"expensive\"?", ["caro", "carro"], 0, "Caro (one r, a tap) = expensive; carro (rr, a trill) = car. Between vowels, one letter changes the word."),
       mc(
         "Why is the r in Enrique trilled?",
@@ -659,11 +681,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("jamón", "Jamón (ham): j, and a written accent on the o."),
       dict("Hoy hace frío.", "Hoy hace frío -- \"It's cold today.\" Two silent h's: hoy and hace."),
       dict("España", "España (Spain): ñ, and a capital E for the country."),
-      spk("Juan es joven.", "Breathe out from the back of the throat for each j, like a strong h.", "Juan es joven -- \"Juan is young.\""),
-      spk("Hola, ¿hablas español?", "No h sound at all: \"o-la\", \"a-blas\".", "Hola, ¿hablas español? -- \"Hi, do you speak Spanish?\""),
-      spk("Hasta mañana.", "Silent h in hasta; ñ is one smooth \"ny\" sound.", "Hasta mañana -- \"See you tomorrow.\""),
-      spk("La gente de México", "G in gente and x in México both make the j sound.", "La gente de México -- \"the people of Mexico.\""),
-      spk("El niño tiene cinco años.", "Two ñ's: press the middle of your tongue up for \"ny\".", "El niño tiene cinco años -- \"The boy is five years old.\""),
+      sayIt("Juan es joven.", "Juan is young.", "Breathe out from the back of the throat for each j, like a strong h.", "Juan es joven -- \"Juan is young.\""),
+      sayIt("Hola, ¿hablas español?", "Hi, do you speak Spanish?", "No h sound at all: \"o-la\", \"a-blas\".", "Hola, ¿hablas español? -- \"Hi, do you speak Spanish?\""),
+      sayIt("Hasta mañana.", "See you tomorrow.", "Silent h in hasta; ñ is one smooth \"ny\" sound.", "Hasta mañana -- \"See you tomorrow.\""),
+      sayIt("La gente de México", "the people of Mexico", "G in gente and x in México both make the j sound.", "La gente de México -- \"the people of Mexico.\""),
+      sayIt("El niño tiene cinco años.", "The boy is five years old.", "Two ñ's: press the middle of your tongue up for \"ny\".", "El niño tiene cinco años -- \"The boy is five years old.\""),
       mc(
         "Which pair sounds exactly the same?",
         ["hola / ola", "una / uña", "mono / moño", "gato / gente"],
@@ -850,11 +872,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("cinco", "Cinco (five): c before i, an s sound."),
       dict("zapato", "Zapato (shoe): z at the start, even though it sounds like s in Latin America."),
       dict("Me llamo Yolanda.", "Me llamo Yolanda -- \"My name is Yolanda.\" Llamo with ll, Yolanda with Y: same sound, different letters."),
-      spk("Yo me llamo Guillermo.", "Y and ll the same, like \"yes\": yo, llamo and Guillermo all share it.", "Yo me llamo Guillermo -- \"My name is Guillermo.\""),
-      spk("Muchas gracias.", "\"Gra-sias\": c before i is an s sound, and both s's hiss.", "Muchas gracias -- \"Thank you very much.\""),
-      spk("Cinco zapatos azules.", "Every c before i and every z is an s sound: \"sin-co sa-pa-tos a-su-les\".", "Cinco zapatos azules -- \"five blue shoes.\""),
-      spk("Una casa en la playa.", "Keep the s of casa a sharp hiss, never a buzz like English \"rose\".", "Una casa en la playa -- \"a house on the beach.\""),
-      spk("Hoy y mañana llueve.", "Hoy and the word y are the vowel \"ee\"; ll in llueve is the y of \"yes\".", "Hoy y mañana llueve -- \"It's raining today and tomorrow.\""),
+      sayIt("Yo me llamo Guillermo.", "My name is Guillermo.", "Y and ll the same, like \"yes\": yo, llamo and Guillermo all share it.", "Yo me llamo Guillermo -- \"My name is Guillermo.\""),
+      sayIt("Muchas gracias.", "Thank you very much.", "\"Gra-sias\": c before i is an s sound, and both s's hiss.", "Muchas gracias -- \"Thank you very much.\""),
+      sayIt("Cinco zapatos azules.", "Five blue shoes.", "Every c before i and every z is an s sound: \"sin-co sa-pa-tos a-su-les\".", "Cinco zapatos azules -- \"five blue shoes.\""),
+      sayIt("Una casa en la playa.", "A house on the beach.", "Keep the s of casa a sharp hiss, never a buzz like English \"rose\".", "Una casa en la playa -- \"a house on the beach.\""),
+      sayIt("Hoy y mañana llueve.", "It's raining today and tomorrow.", "Hoy and the word y are the vowel \"ee\"; ll in llueve is the y of \"yes\".", "Hoy y mañana llueve -- \"It's raining today and tomorrow.\""),
       mc(
         "With seseo (Latin America), which pair sounds exactly the same?",
         ["ves / vez", "casa / cosa", "cena / Cuba", "rosa / roja"],
@@ -918,7 +940,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         [
           mc(
             "How do you say the number quince (fifteen)?",
-            ["\"KIN-se\" (\"KIN-the\" in Spain)", "\"KWIN-se\"", "\"ku-IN-se\"", "\"SIN-se\""],
+            ["\"KIN-se\"", "\"KWIN-se\"", "\"ku-IN-se\"", "\"SIN-se\""],
             0,
             "Qui is \"ki\", with a silent u, like aquí. It's never \"kw\" as in English \"quick\", and qu is never an s sound (only the c of ce makes that)."
           ),
@@ -979,10 +1001,10 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("guitarra", "Guitarra (guitar): gu before i for a hard g, and rr for the trill."),
       dict("pingüino", "Pingüino (penguin): ü because you hear the u."),
       dict("¿Quién quiere queso?", "¿Quién quiere queso? -- \"Who wants cheese?\" Three qu's, three silent u's. Quién has an accent because it's a question word."),
-      spk("¿Quieres queso?", "Don't say \"kw\": quieres is \"kie-res\", queso is \"ke-so\".", "¿Quieres queso? -- \"Do you want cheese?\""),
-      spk("Miguel toca la guitarra.", "The u after g is silent in both Miguel and guitarra.", "Miguel toca la guitarra -- \"Miguel plays the guitar.\""),
-      spk("El pingüino es bilingüe.", "Here the dots mean you say the u: \"pin-gwi-no\", \"bi-lin-gwe\".", "El pingüino es bilingüe -- \"The penguin is bilingual.\""),
-      spk("Aquí hay quince cosas.", "Aquí and quince both have the silent u of qu.", "Aquí hay quince cosas -- \"There are fifteen things here.\""),
+      sayIt("¿Quieres queso?", "Do you want cheese?", "Don't say \"kw\": quieres is \"kie-res\", queso is \"ke-so\".", "¿Quieres queso? -- \"Do you want cheese?\""),
+      sayIt("Miguel toca la guitarra.", "Miguel plays the guitar.", "The u after g is silent in both Miguel and guitarra.", "Miguel toca la guitarra -- \"Miguel plays the guitar.\""),
+      sayIt("El pingüino es bilingüe.", "The penguin is bilingual.", "Here the dots mean you say the u: \"pin-gwi-no\", \"bi-lin-gwe\".", "El pingüino es bilingüe -- \"The penguin is bilingual.\""),
+      sayIt("Aquí hay quince cosas.", "There are fifteen things here.", "Aquí and quince both have the silent u of qu.", "Aquí hay quince cosas -- \"There are fifteen things here.\""),
       mc(
         "How is guerra pronounced?",
         ["ge-rra: the u is silent", "gwe-rra", "je-rra", "gu-e-rra"],
@@ -1034,7 +1056,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Consonant + vowel: the words join",
         [
           "Spanish doesn't pause between words inside a phrase. A consonant at the end of one word joins the vowel that starts the next: los otros sounds like \"lo-so-tros\", un amigo like \"u-na-mi-go\", es importante like \"e-sim-por-tan-te\".",
-          "That's why fast Spanish seems to have no gaps. When you listen, expect the words to run together; when you speak, don't stop between them.",
+          "That's why fast Spanish seems to have no gaps. When you listen, expect the words to run together; when you speak, don't stop between them. The spellings in quotes only show how the syllables group: tap each phrase to hear the real sound.",
         ],
         [
           ["los otros", "the others -- \"lo-so-tros\""],
@@ -1043,11 +1065,17 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           ["mis hijos", "my children -- \"mi-si-jos\" (h is silent)"],
         ],
         [
-          mc(
-            "How does a speaker say dos hermanos (two brothers)?",
-            ["As one flow: \"do-ser-ma-nos\"", "With a pause: \"dos -- hermanos\"", "\"dos-jer-ma-nos\"", "\"do-her-ma-nos\""],
+          lc(
+            "dos hermanos",
+            "Listen to dos hermanos (two brothers). What happens between the two words?",
+            [
+              "The s of dos runs straight into the e of hermanos, with no pause",
+              "There is a short pause after dos",
+              "The h of hermanos is said like English h",
+              "The s of dos is dropped",
+            ],
             0,
-            "The h is silent, so hermanos starts with a vowel, and the s of dos joins it: \"do-ser-ma-nos\", like mis hijos. No pause, and no h sound."
+            "The h of hermanos is silent, so the word starts with the vowel e. The s of dos is fully said and joins that e with no pause, just like mis hijos."
           ),
         ]
       ),
@@ -1131,11 +1159,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("Es un amigo.", "Es un amigo -- \"He's a friend.\" You hear \"e-su-na-mi-go\", but it's three separate words: es, un, amigo."),
       dict("Vamos a comer.", "Vamos a comer -- \"Let's eat\" or \"We're going to eat.\" The a is short but it's there: vamos a + infinitive."),
       dict("¿Tienes hambre?", "¿Tienes hambre? -- \"Are you hungry?\" The rising voice tells you it's a question; write ¿ at the start and ? at the end."),
-      spk("¿Cómo estás?", "Link cómo into estás with no break: \"co-moes-tás\".", "¿Cómo estás? -- a question-word question: the voice can fall at the end."),
-      spk("Mi amigo es inglés.", "One smooth line: \"mia-mi-goe-sin-glés\".", "Mi amigo es inglés -- \"My friend is English.\" Voice falls: it's a statement."),
-      spk("¿Tienes hambre?", "Let your voice climb on the last word.", "¿Tienes hambre? -- a yes/no question, so it rises."),
-      spk("Voy a ir a Argentina.", "Merge a + a into one long a: \"vo-ya-i-rar-gen-ti-na\".", "Voy a ir a Argentina -- \"I'm going to go to Argentina.\""),
-      spk("Quiero café, agua y fruta.", "Rise on café and agua, fall on fruta to show the list is over.", "Quiero café, agua y fruta -- \"I want coffee, water and fruit.\""),
+      sayIt("¿Cómo estás?", "How are you?", "Link cómo into estás with no break: \"co-moes-tás\".", "¿Cómo estás? -- a question-word question: the voice can fall at the end."),
+      sayIt("Mi amigo es inglés.", "My friend is English.", "One smooth line: \"mia-mi-goe-sin-glés\".", "Mi amigo es inglés -- \"My friend is English.\" Voice falls: it's a statement."),
+      sayIt("¿Tienes hambre?", "Are you hungry?", "Let your voice climb on the last word.", "¿Tienes hambre? -- a yes/no question, so it rises."),
+      sayIt("Voy a ir a Argentina.", "I'm going to go to Argentina.", "Merge a + a into one long a: \"vo-ya-i-rar-gen-ti-na\".", "Voy a ir a Argentina -- \"I'm going to go to Argentina.\""),
+      sayIt("Quiero café, agua y fruta.", "I want coffee, water and fruit.", "Rise on café and agua, fall on fruta to show the list is over.", "Quiero café, agua y fruta -- \"I want coffee, water and fruit.\""),
       mc(
         "How does mis amigos sound in natural speech?",
         ["\"mi-sa-mi-gos\"", "\"mis -- a-mi-gos\" with a pause", "\"mi-ha-mi-gos\"", "\"mis-mi-gos\""],
@@ -1313,10 +1341,10 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("papá", "Papá (dad): write the accent, or it becomes papa (potato)."),
       dict("El árbol está aquí.", "El árbol está aquí -- \"The tree is here.\" Three accents: ÁR-bol, es-TÁ, a-QUÍ."),
       dict("Hablo español.", "Hablo español -- \"I speak Spanish.\" HA-blo has no accent; es-pa-ÑOL ends in l and stresses the last syllable, so it needs none either."),
-      spk("Mi papá come papas.", "Pa-PÁ, then PA-pas: move the beat and the word changes.", "Mi papá come papas -- \"My dad eats potatoes.\""),
-      spk("El teléfono está en la mesa.", "Hit the stressed syllables: te-LÉ-fo-no, es-TÁ, ME-sa.", "El teléfono está en la mesa -- \"The phone is on the table.\""),
-      spk("Hablo con Juan. Habló con Juan.", "Say both: HA-blo (I speak), then ha-BLÓ (he spoke).", "Hablo con Juan vs. Habló con Juan: present \"I\" vs. past \"he or she\"."),
-      spk("La música es fantástica.", "Two words stressed three syllables from the end: MÚ-si-ca, fan-TÁS-ti-ca.", "La música es fantástica -- \"The music is fantastic.\""),
+      sayIt("Mi papá come papas.", "My dad eats potatoes.", "Pa-PÁ, then PA-pas: move the beat and the word changes.", "Mi papá come papas -- \"My dad eats potatoes.\""),
+      sayIt("El teléfono está en la mesa.", "The phone is on the table.", "Hit the stressed syllables: te-LÉ-fo-no, es-TÁ, ME-sa.", "El teléfono está en la mesa -- \"The phone is on the table.\""),
+      sayIt("Hablo con Juan. Habló con Juan.", "I speak with Juan. He spoke with Juan.", "Say both: HA-blo (I speak), then ha-BLÓ (he spoke).", "Hablo con Juan vs. Habló con Juan: present \"I\" vs. past \"he or she\"."),
+      sayIt("La música es fantástica.", "The music is fantastic.", "Two words stressed three syllables from the end: MÚ-si-ca, fan-TÁS-ti-ca.", "La música es fantástica -- \"The music is fantastic.\""),
       mc(
         "Where is the stress in mesas?",
         ["ME-sas", "me-SAS"],

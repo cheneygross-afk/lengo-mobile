@@ -261,6 +261,10 @@ export type Copy = {
   readExpl: (s: Sentence) => string;
   respondPrompt: (en: string) => string;
   respondExpl: (s: Sentence) => string;
+  /** Every speaking item is "say it in <language>" with the answer hidden,
+   * none read aloud (Spanish, auditor 2026-11-20: learners should produce
+   * the answer, not read it off the screen). */
+  respondOnly?: boolean;
 };
 
 /** A sentence for quoting inside a longer one: no final full stop. */
@@ -276,7 +280,7 @@ export const EN_COPY: Copy = {
   ],
   speaking: [
     "Speaking",
-    "Read two sentences aloud, record yourself and compare with the model. Then two English prompts: say them in Spanish out loud before you check the answer. Your recordings aren't saved.",
+    "Four English sentences: say each one in Spanish out loud, then check your answer. Your recordings aren't saved.",
   ],
   writing: [
     "Writing",
@@ -287,6 +291,7 @@ export const EN_COPY: Copy = {
   dictExpl: (s) => `You heard: "${quoted(s.es)}"${s.en ? ` ("${quoted(s.en)}")` : ""}.`,
   readExpl: (s) => `"${quoted(s.es)}"${s.en ? ` ("${quoted(s.en)}")` : ""}. Play the model again and copy its rhythm.`,
   respondPrompt: (en) => `Say it in Spanish: "${en}"`,
+  respondOnly: true,
   respondExpl: (s) => `One way to say it: "${quoted(s.es)}". Another correct way counts too: check the meaning first, then the sound.`,
 };
 
@@ -374,7 +379,7 @@ export const ES_COPY: Copy = {
   ],
   speaking: [
     "Expresión oral",
-    "Lee dos frases en voz alta, grábate y compara con el modelo. Después, dos frases en inglés: dilas en español en voz alta antes de ver la respuesta. Tus grabaciones no se guardan.",
+    "Cuatro frases en inglés: di cada una en español en voz alta y luego comprueba tu respuesta. Tus grabaciones no se guardan.",
   ],
   writing: [
     "Expresión escrita",
@@ -385,6 +390,7 @@ export const ES_COPY: Copy = {
   dictExpl: (s) => `Has oído: «${quoted(s.es)}»${s.en ? ` ("${quoted(s.en)}")` : ""}.`,
   readExpl: (s) => `«${quoted(s.es)}»${s.en ? ` ("${quoted(s.en)}")` : ""}. Escucha otra vez el modelo e imita su ritmo.`,
   respondPrompt: (en) => `Dilo en español: "${en}"`,
+  respondOnly: true,
   respondExpl: (s) =>
     `Una forma de decirlo: «${quoted(s.es)}». Otra forma correcta también vale: comprueba primero el significado y después la pronunciación.`,
 };
@@ -546,10 +552,11 @@ export function buildUnitReview(
   }));
 
   // Speaking: read aloud, then respond aloud to prompts in the learner's language.
-  const respond = take(2, (s) => !!s.en && s.es.length <= 120);
+  const respond = take(copy.respondOnly ? 4 : 2, (s) => !!s.en && s.es.length <= 120);
   if (respond.length < 2) short("translated sentences to answer aloud");
-  const read = take(2, (s) => s.es.length <= 120);
-  if (read.length < 2) short("sentences to read aloud");
+  // Read-aloud only where the copy still asks for it, or to make up four.
+  const read = take(4 - respond.length, (s) => s.es.length <= 120);
+  if (respond.length + read.length < 4) short("sentences to read aloud");
   const speaking: SpeakExercise[] = [
     ...read.map((s): SpeakExercise => ({ type: "speak", text: s.es, explanation: copy.readExpl(s) })),
     ...respond.map(
