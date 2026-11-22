@@ -154,6 +154,32 @@ const A1_U5: Exercise[] = [
   say("Say it in Spanish: \"My parents read and I write.\"", "Mis padres leen y yo escribo.", ["Mis papás leen y yo escribo."], "Each verb takes its own subject's ending: leen (ellos, -en), escribo (yo, -o)."),
 ];
 
+const A1_U6: Exercise[] = [
+  // Listening and reading: recognise.
+  { type: "listen-choose", audio: "Nuestros abuelos tienen ochenta años.", question: "Listen. What does it mean?", options: ["Our grandparents are eighty.", "Our grandparents are eighteen.", "My grandparents are eighty.", "Their grandparents are eighty."], correctIndex: 0, explanation: "Nuestros is our, and age takes tener + años: tienen ochenta años." },
+  { type: "listen-choose", audio: "Esa mochila es de mi hermana.", question: "Listen. Whose is the backpack?", options: ["my sister's", "my brother's", "your sister's", "mine"], correctIndex: 0, explanation: "Thing + de + owner: es de mi hermana, my sister's. Esa says it's near the listener." },
+  { type: "listen-choose", audio: "Tengo mucha sed.", question: "Listen. How does the person feel?", options: ["very thirsty", "very hungry", "very cold", "in a hurry"], correctIndex: 0, explanation: "Tener sed is to be thirsty, and mucha makes it stronger. Hungry is hambre, cold frío and a hurry prisa." },
+  { type: "multiple-choice", question: "\"Those houses over there are big.\"", options: ["Aquellas casas son grandes.", "Aquellos casas son grandes.", "Esas casas son grandes.", "Aquella casas es grande."], correctIndex: 0, explanation: "Far from both of you is the aquel family, and casas is feminine plural: aquellas.", optionNotes: ["", "Casas is feminine, so the ending is -as.", "Esas is near the listener, not far from both.", "Several houses take aquellas and son."] },
+  { type: "multiple-choice", question: "\"Their dog is under the table.\"", options: ["Su perro está debajo de la mesa.", "Sus perro está debajo de la mesa.", "Su perro es debajo de la mesa.", "Su perro está debajo la mesa."], correctIndex: 0, explanation: "One dog takes su, even with several owners; location takes estar, and debajo needs de.", optionNotes: ["", "Sus is for several things; there is one dog.", "Where something is takes estar.", "Debajo always takes de before the noun."] },
+  { type: "multiple-choice", question: "\"I'm cold.\"", options: ["Tengo frío.", "Estoy frío.", "Soy frío.", "Tengo fría."], correctIndex: 0, explanation: "Feeling cold is something you have: tengo frío. Frío is a noun here, so it doesn't change.", optionNotes: ["", "Estar doesn't go with the noun frío for a person.", "Soy frío would mean you're an unfriendly person.", "Frío is a noun here, so it has no feminine form."] },
+  // Guided: write what you hear, complete, put in order, correct.
+  { type: "dictation", audio: "Estos zapatos son de mi padre.", explanation: "Estos zapatos son de mi padre: \"These shoes are my father's.\" Estos ends in -os, never -es." },
+  { type: "dictation", audio: "¿Cuántos años tienes?", explanation: "¿Cuántos años tienes?: \"How old are you?\" Cuántos agrees with años, and tú takes tienes." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "___ hijas son muy simpáticas.", en: "[Our] daughters are very nice.", answer: "Nuestras", explanation: "Nuestro agrees with the thing owned: hijas is feminine plural, so nuestras." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Mis primos ___ un perro y dos gatos.", en: "My cousins [have] a dog and two cats.", answer: "tienen", explanation: "Mis primos is ellos, and the stress falls on the stem, so ten- becomes tien-: tienen." },
+  { type: "word-order", prompt: "Put the words in order.", words: ["Me", "gusta", "esta", "camisa,", "pero", "no", "esa."], translation: "I like this shirt, but not that one.", explanation: "Esa stands alone for esa camisa, so it is feminine like camisa." },
+  { type: "translate", prompt: "Correct the sentence.", direction: "en-es", source: "Nosotros tienemos dos hijos.", answer: "Nosotros tenemos dos hijos.", altAnswers: ["Tenemos dos hijos."], explanation: "In tenemos the stress is on the ending, so the stem stays ten-." },
+  { type: "translate", prompt: "Correct the sentence.", direction: "en-es", source: "Es el libro de el profesor.", answer: "Es el libro del profesor.", explanation: "De + el always merges into del." },
+  // On your own: translate and speak.
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "This book is my brother's.", answer: "Este libro es de mi hermano.", explanation: "Spanish has no 's: thing + de + owner. Libro is masculine, so este." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "We have to study today.", answer: "Tenemos que estudiar hoy.", altAnswers: ["Hoy tenemos que estudiar.", "Nosotros tenemos que estudiar hoy.", "Nosotras tenemos que estudiar hoy."], explanation: "Tener que + infinitive says what you have to do; only tener changes: tenemos." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "My sister is twenty-one years old.", answer: "Mi hermana tiene veintiún años.", altAnswers: ["Mi hermana tiene 21 años."], explanation: "Age takes tener, and veintiuno shortens to veintiún before años." },
+  say("Say it in Spanish: \"Is that pen (near you) Ana's?\"", "¿Esa pluma es de Ana?", ["¿Es de Ana esa pluma?", "¿Ese bolígrafo es de Ana?", "¿Es de Ana ese bolígrafo?"], "Near the listener is the ese family, and pluma is feminine: esa. The owner comes after de."),
+  say("Say it in Spanish: \"I'm hungry and I'm in a hurry.\"", "Tengo hambre y tengo prisa.", ["Tengo hambre y prisa.", "Yo tengo hambre y tengo prisa."], "Hunger and hurry are things you have: tengo hambre, tengo prisa."),
+  say("Say it in Spanish: \"Our keys are on the table.\"", "Nuestras llaves están en la mesa.", ["Nuestras llaves están sobre la mesa.", "Nuestras llaves están encima de la mesa."], "Llaves is feminine plural, so nuestras; where things are takes estar."),
+  say("Say it in Spanish: \"What is that over there?\"", "¿Qué es aquello?", [], "You can't name the thing yet, and it's far from both of you: the neuter aquello."),
+];
+
 const check = (slug: string, level: Level, title: string, summary: string, body: string, exercises: Exercise[]): Lesson => ({
   slug,
   level,
@@ -207,5 +233,13 @@ export const ES_UNIT_CHECKS: Record<string, Lesson> = {
     "Twenty new questions on the whole unit: -er and -ir verbs, no before the verb, and the question words.",
     "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
     A1_U5,
+  ),
+  "a1/6": check(
+    "es-a1-unit-6-unit-review",
+    "A1",
+    "Unit 6 check: My, your, our · This, that, that over there · Tener and its phrases",
+    "Twenty new questions on the whole unit: possessives and de for whose, place words, este, ese and aquel, and tener for having, age and feelings.",
+    "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
+    A1_U6,
   ),
 };

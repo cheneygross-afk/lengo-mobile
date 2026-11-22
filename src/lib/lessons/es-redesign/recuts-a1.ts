@@ -1,6 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/es-redesign/recuts-a1.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Beginner recut lessons (see recut.ts): the old "Tener, Ir, Hacer + Hay"
 // lessons, cut into one lesson per concept.
+import { TENER_RECUT_FIX } from "./a1-unit6";
 import type { Recut } from "./recut";
 import { A1_UNIT4_PATCHES } from "./a1-unit4";
 import { TENER, TENER_PHRASES, IR, IR_A } from "./concept-tables";
@@ -68,9 +69,10 @@ export const A1_RECUTS: Recut[] = [
     ],
     patch: {
       goal: "say what you have, how old you are, that you're hungry or cold, and what you have to do.",
+      exercises: TENER_RECUT_FIX.exercises,
       sections: {
         0: { addTables: [TENER], reteach: "Tener: tengo, tienes, tiene, tenemos, tienen. Yo ends in -go, and the e becomes ie except in tenemos." },
-        1: { watchOut: true, reteach: "Tenemos keeps the plain ten-, never tienemos. The e only becomes ie in tienes, tiene and tienen." },
+        1: { watchOut: true, reteach: "Tenemos keeps the plain ten-, never tienemos. The e only becomes ie in tienes, tiene and tienen.", examples: TENER_RECUT_FIX.sections?.[1]?.examples },
         2: { addTables: [TENER_PHRASES], reteach: "Age, hunger, thirst, cold, heat and hurry are things you have in Spanish: Tengo veinte años, Tengo hambre. Never Soy veinte años or Estoy hambre." },
       },
       insert: [
