@@ -5,6 +5,10 @@ export type MultipleChoiceExercise = {
   options: string[];
   correctIndex: number;
   explanation: string;
+  // Wrong-answer notes (CRRT Reintroduce): one short line per option, in
+  // option order, saying why that choice is wrong. Shown above the
+  // explanation when the learner picks it. Empty or missing = none.
+  optionNotes?: string[];
 };
 
 export type MultiSelectExercise = {
@@ -132,6 +136,9 @@ export type ExerciseMeta = {
   // item it was copied from ("zh-greetings#3"), so a learner's answer is
   // credited to the original item and its concepts.
   from?: string;
+  // The teaching section (0-based) a practice question belongs to, so a
+  // run of misses on it brings back that section ("Let's look again").
+  section?: number;
 };
 
 export type Exercise = (
@@ -165,9 +172,23 @@ export type LessonTable = {
   note?: string;
 };
 
+// One step of a build-it card: a sentence put together a tap at a time
+// (hablar -> habl- -> + amos -> hablamos). `note` says what the step did.
+export type BuildStep = { text: string; note?: string };
+
 export type LessonSection = {
   heading: string;
   body: string[];
+  // An exception to the rule before it ("Watch out"): shown with its own
+  // yellow edge so learners see it as the exception, not the rule.
+  watchOut?: boolean;
+  // A build-it card on the section's last teaching card (see BuildStep).
+  build?: BuildStep[];
+  // The "Let's look again" card (CRRT Reintroduce), at most 300
+  // characters: shown after a learner misses two questions on this
+  // section, before two easier questions on it. Missing = the section's
+  // heading, tables and first examples are shown again instead.
+  reteach?: string;
   examples?: LessonExample[];
   /** Shown on the section's last teaching card, before its examples. */
   tables?: LessonTable[];
@@ -228,6 +249,9 @@ export type Lesson = {
   number: number;
   title: string;
   summary: string;
+  // "By the end of this lesson you can..." (the words after "can"): one
+  // line naming what the learner will be able to do.
+  goal?: string;
   duration: string;
   sections: LessonSection[];
   // The longer, mixed-format review at the end of the lesson.

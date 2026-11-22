@@ -19,12 +19,13 @@ import { findLessonBySlug, isSpanishLessonLevel, moduleKeyForLesson, LESSON_SOUR
 import LessonNextSteps from "@/components/LessonNextSteps";
 import TryItYourself from "@/components/TryItYourself";
 import TroubleSpots from "@/components/TroubleSpots";
-import type { Exercise, Lesson, LessonTable } from "@/lib/lessons/types";
+import type { BuildStep, Exercise, Lesson, LessonSection, LessonTable } from "@/lib/lessons/types";
+import type { SpeechLang } from "@/lib/speech";
 import { displayTitle } from "@/lib/lessons/levels";
 import { unitOf } from "@/lib/lessons/units";
 import { LEVEL_EXIT_SLUGS } from "@/lib/lessons/sequencing";
 import { authoredQuestions, buildReviewQuestions } from "@/lib/lessons/drill";
-import { lessonFlow, stageOf, type BodyPiece, type Stage } from "@/lib/lessons/lessonFlow";
+import { helpOf, lessonFlow, lessonTables, RETEACH_AFTER, RETEACH_FOLLOW, stageOf, type BodyPiece, type Stage } from "@/lib/lessons/lessonFlow";
 import { capLesson, coreQuestions, practiceRound } from "@/lib/lessons/practiceCap";
 import { trackEvent } from "@/lib/analytics";
 import ExerciseBlock from "@/components/ExerciseBlock";
@@ -138,7 +139,12 @@ type Step =
       // A keep-practicing question after the lesson's last one
       // (practiceCap.ts): practice on top, not part of the score.
       extra?: boolean;
+      // The teaching section it is on, when known (lessonFlow.ts), for
+      // "Let's look again" after two misses on one section.
+      section?: number | null;
     }
+  // "Let's look again" (CRRT Reintroduce, lessonFlow.ts planReteach).
+  | { kind: "reteach"; sectionIndex: number }
   // After the last question (at most 20): keep practicing or move on.
   | { kind: "choice" }
   | { kind: "complete" };
@@ -255,7 +261,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // authoredQuestions() order (see missedQuestions.ts).
     let q = 0;
     let authored = 0;
-    const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean, at?: number, stage?: Stage | "try") => {
+    const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean, at?: number, stage?: Stage | "try", section?: number | null) => {
       const index = at ?? idOf.get(exercise) ?? authored;
       authored++;
       if (skipExercise(exercise)) return;
@@ -269,6 +275,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
         passage,
         unitQuiz,
         stage,
+        section,
       });
       q++;
     };
@@ -299,8 +306,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
             first: st.section === 0 && st.part === 0,
             card: { part: st.part, parts: st.parts, body: st.body, examples: st.examples.map((e) => all.indexOf(e)) },
           });
-        } else {
-          pushOwn(st.exercise, undefined, lesson.unitReview, idOf.get(st.exercise), st.stage);
+        } else if (st.kind === "exercise") {
+          pushOwn(st.exercise, undefined, lesson.unitReview, idOf.get(st.exercise), st.stage, st.section);
         }
       }
     }
@@ -329,10 +336,26 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const [extraSteps, setExtraSteps] = useState<Step[]>([]);
   const practiced = useRef(new Set<Exercise>());
   const missedRef = useRef(new Set<Exercise>());
+  // The lesson's steps once "Let's look again" cards have gone in (null =
+  // as built). Misses per section, and the sections already looked at.
+  const [plannedSteps, setPlannedSteps] = useState<Step[] | null>(null);
+  const sectionMisses = useRef<Record<number, number>>({});
+  const retaught = useRef(new Set<number>());
+  const lastAnswer = useRef<{ key: string; correct: boolean } | null>(null);
+  useEffect(() => {
+    setPlannedSteps(null);
+    sectionMisses.current = {};
+    retaught.current = new Set();
+  }, [baseSteps]);
+  const coreSteps = plannedSteps ?? baseSteps;
   const steps = useMemo<Step[]>(
-    () => (baseSteps.length ? [...baseSteps, ...extraSteps, { kind: "choice" }, { kind: "complete" }] : []),
-    [baseSteps, extraSteps]
+    () => (coreSteps.length ? [...coreSteps, ...extraSteps, { kind: "choice" }, { kind: "complete" }] : []),
+    [coreSteps, extraSteps]
   );
+  // Help that fades (lessonFlow.ts helpOf): every table the lesson teaches,
+  // beside warm-up questions and behind a peek button in guided practice.
+  const allTables = useMemo(() => (lesson ? lessonTables(lesson) : []), [lesson]);
+  const [peek, setPeek] = useState(false);
   const lessonNote =
     variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) && isVosotrosFocused(lesson)
       ? vosotrosNote(lesson.level)
@@ -669,6 +692,41 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     // Nothing from this step may be heard on the next one.
     stopAllAudio();
     setFeedback(null);
+    setPeek(false);
+    // Two misses on one section: look at it again before going on, with
+    // the next two questions on it moved up behind the card.
+    const cur = steps[stepIndex];
+    if (
+      lesson &&
+      cur?.kind === "exercise" &&
+      !cur.extra &&
+      typeof cur.section === "number" &&
+      lastAnswer.current?.key === cur.key &&
+      !lastAnswer.current.correct
+    ) {
+      const sec = cur.section;
+      lastAnswer.current = null;
+      const n = (sectionMisses.current[sec] ?? 0) + 1;
+      sectionMisses.current[sec] = n;
+      if (n >= RETEACH_AFTER && !retaught.current.has(sec) && stepIndex < coreSteps.length) {
+        retaught.current.add(sec);
+        const before = coreSteps.slice(0, stepIndex + 1);
+        const follow: Step[] = [];
+        const rest: Step[] = [];
+        for (const st of coreSteps.slice(stepIndex + 1)) {
+          if (follow.length < RETEACH_FOLLOW && st.kind === "exercise" && st.section === sec) follow.push(st);
+          else rest.push(st);
+        }
+        // Keep "Question N of M" counting in the order shown.
+        let q = 0;
+        const next = [...before, { kind: "reteach", sectionIndex: sec } as Step, ...follow, ...rest].map((st) =>
+          st.kind === "exercise" && !st.extra ? { ...st, number: ++q } : st
+        );
+        setPlannedSteps(next);
+        setStepIndex((i) => i + 1);
+        return;
+      }
+    }
     setStepIndex((i) => Math.min(i + 1, steps.length - 1));
   }
 
@@ -701,6 +759,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     stopAllAudio();
     finishedRef.current = false;
     setExtraSteps([]);
+    setPlannedSteps(null);
+    sectionMisses.current = {};
+    retaught.current = new Set();
     practiced.current = new Set();
     missedRef.current = new Set();
     setCorrectCount(0);
@@ -879,6 +940,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           />
         )}
 
+        {audioReady && currentStep?.kind === "reteach" && lesson.sections[currentStep.sectionIndex] ? (
+          <ReteachStep section={lesson.sections[currentStep.sectionIndex]} lang={lang} accent={accent} onContinue={goNext} />
+        ) : null}
+
         {audioReady && currentStep?.kind === "exercise" && (
           <View>
             <Text style={s.badge}>
@@ -919,6 +984,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
                   setFeedback({ correct, explanation, title });
                   return;
                 }
+                lastAnswer.current = { key: currentStep.key, correct };
                 if (!correct && currentStep.source.slug === lesson?.slug) missedRef.current.add(currentStep.exercise);
                 if (correct) setCorrectCount((c) => c + 1);
                 setInARow((n) => (correct ? n + 1 : 0));
@@ -952,6 +1018,22 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
                 setFeedback({ correct, explanation, title });
               }}
             />
+            {/* Help that fades: the table beside warm-ups, behind a peek in
+                guided practice, gone when learners are on their own. */}
+            {allTables.length > 0 && !currentStep.extra && !currentStep.review && currentStep.stage && helpOf(currentStep.stage) !== "none" ? (
+              <View style={s.tableDrawer}>
+                {helpOf(currentStep.stage) === "open" || peek ? (
+                  <>
+                    <Text style={s.tableDrawerLabel}>THE TABLE, FOR NOW</Text>
+                    <LessonTables tables={allTables} lang={lang} accent={accent} />
+                  </>
+                ) : (
+                  <Pressable hitSlop={8} onPress={() => setPeek(true)} accessibilityRole="button">
+                    <Text style={s.peekBtn}>👀 Peek at the table</Text>
+                  </Pressable>
+                )}
+              </View>
+            ) : null}
             {!currentStep.extra && (
             <Pressable
               style={s.flagBtn}
@@ -1125,7 +1207,7 @@ function TeachStep({
   accent: string;
   glyph: string;
   levelStep: number;
-  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; summary?: string; optional?: boolean; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[]; tables?: LessonTable[] }[] };
+  lesson: { level: Lesson["level"]; slug: string; number: number; title: string; summary?: string; optional?: boolean; goal?: string; sections: { heading: string; body: string[]; examples?: { es: string; en?: string }[]; tables?: LessonTable[]; watchOut?: boolean; build?: BuildStep[] }[] };
   // Which section this screen teaches; null for a lesson with no sections
   // (a pure review), which just gets the title screen.
   sectionIndex: number | null;
@@ -1162,6 +1244,11 @@ function TeachStep({
             </Text>
             <TapText text={lesson.title} lang={lang} style={s.introTitle} />
             {lesson.summary ? <TapText text={lesson.summary} lang={lang} style={s.introSummary} /> : null}
+            {lesson.goal ? (
+              <View style={s.goalBox}>
+                <TapText text={`🎯 By the end of this lesson you can ${lesson.goal}`} lang={lang} style={s.goalText} />
+              </View>
+            ) : null}
             {levelStep >= 0 && (
               <View style={s.pathRow} accessible={false}>
                 {LEVEL_COLORS.map((c, li) => (
@@ -1188,7 +1275,8 @@ function TeachStep({
       {(sectionIndex === null ? [] : [sectionIndex]).map((si) => {
         const section = lesson.sections[si];
         return (
-        <View key={si} style={s.introSection}>
+        <View key={si} style={[s.introSection, section.watchOut && s.watchOutSection]}>
+          {section.watchOut ? <Text style={s.watchOutLabel}>⚠️ WATCH OUT</Text> : null}
           <View style={s.teachHeadingRow}>
             <View style={[s.teachHeadingBar, { backgroundColor: accent }]} />
             <TapText text={section.heading} lang={lang} style={s.teachHeading} />
@@ -1224,6 +1312,7 @@ function TeachStep({
           })}
           {/* Tables go on the section's last card, before its examples. */}
           {!card || card.part === card.parts - 1 ? <LessonTables tables={section.tables ?? []} lang={lang} accent={accent} /> : null}
+          {(!card || card.part === card.parts - 1) && section.build?.length ? <BuildIt steps={section.build} lang={lang} accent={accent} /> : null}
           {section.examples?.map((ex, ei) => {
             if (card && !card.examples.includes(ei)) return null;
             // Matches the website's `sec${i}-ex${k}-es` / `-en` keys.
@@ -1270,6 +1359,58 @@ function TeachStep({
       })}
       <Pressable style={s.bigBtn} onPress={onContinue}>
         <Text style={s.bigBtnText}>{nextIsQuestion ? "Check yourself" : "Continue"}</Text>
+      </Pressable>
+    </View>
+  );
+}
+
+// A build-it card (LessonSection.build): the sentence put together a tap at
+// a time, as on the website (BuildItCard.tsx).
+function BuildIt({ steps, lang, accent }: { steps: BuildStep[]; lang: SpeechLang; accent: string }) {
+  const [shown, setShown] = useState(1);
+  return (
+    <View style={s.buildBox}>
+      {steps.slice(0, shown).map((st, i) => (
+        <View key={i} style={s.buildRow}>
+          <View style={[s.buildNum, { backgroundColor: `${accent}33` }]}>
+            <Text style={s.buildNumText}>{i + 1}</Text>
+          </View>
+          <View style={{ flexShrink: 1 }}>
+            <TapText text={st.text} lang={lang} style={[s.buildText, i === steps.length - 1 && { fontWeight: "700" }]} />
+            {st.note ? <Text style={s.buildNote}>{st.note}</Text> : null}
+          </View>
+        </View>
+      ))}
+      {shown < steps.length ? (
+        <Pressable style={s.buildBtn} onPress={() => setShown((n) => n + 1)} accessibilityRole="button">
+          <Text style={s.buildBtnText}>Next step →</Text>
+        </Pressable>
+      ) : null}
+    </View>
+  );
+}
+
+// "Let's look again" (CRRT Reintroduce): the section once more after two
+// misses on it, before two easier questions on it.
+function ReteachStep({ section, lang, accent, onContinue }: { section: LessonSection; lang: SpeechLang; accent: string; onContinue: () => void }) {
+  return (
+    <View>
+      <Text style={s.badge}>🔁 Let's look again</Text>
+      <Text style={s.reteachIntro}>A couple of these slipped. Here's the idea once more, then two easier ones.</Text>
+      <View style={s.teachHeadingRow}>
+        <View style={[s.teachHeadingBar, { backgroundColor: accent }]} />
+        <TapText text={section.heading} lang={lang} style={s.teachHeading} />
+      </View>
+      {section.reteach ? <TapText text={section.reteach} lang={lang} style={s.reteachText} /> : null}
+      <LessonTables tables={section.tables ?? []} lang={lang} accent={accent} />
+      {(section.examples ?? []).slice(0, 2).map((ex, i) => (
+        <View key={i} style={[s.example, { borderLeftColor: accent }]}>
+          <TapText text={ex.es} lang={lang} style={s.teachBody} />
+          {ex.en ? <Text style={s.buildNote}>{ex.en}</Text> : null}
+        </View>
+      ))}
+      <Pressable style={s.bigBtn} onPress={onContinue}>
+        <Text style={s.bigBtnText}>Try again</Text>
       </Pressable>
     </View>
   );
@@ -1491,6 +1632,23 @@ const s = StyleSheet.create({
   introTitle: { fontSize: 28, lineHeight: 34, fontFamily: fonts.display, color: "#2A1513", marginBottom: 10 },
   introSummary: { fontSize: 15, lineHeight: 22, color: "#2A1513B3", marginBottom: 16 },
   introSection: { marginBottom: 22 },
+  watchOutSection: { borderLeftWidth: 5, borderLeftColor: "#f59e0b", paddingLeft: 12, borderRadius: 4 },
+  watchOutLabel: { fontSize: 12, fontWeight: "700", color: "#b45309", letterSpacing: 0.6, marginBottom: 4 },
+  goalBox: { marginTop: 10, borderRadius: 12, backgroundColor: "rgba(255,255,255,0.8)", paddingHorizontal: 12, paddingVertical: 8 },
+  goalText: { fontSize: 15, color: colors.ink, lineHeight: 21 },
+  tableDrawer: { marginTop: 14, borderRadius: 16, borderWidth: 1, borderColor: "rgba(0,0,0,0.08)", backgroundColor: "rgba(255,255,255,0.85)", padding: 12 },
+  tableDrawerLabel: { fontSize: 11, fontWeight: "700", color: colors.ink, opacity: 0.55, letterSpacing: 0.6 },
+  peekBtn: { fontSize: 15, fontWeight: "600", color: colors.ink, textDecorationLine: "underline" },
+  buildBox: { marginTop: 14, borderRadius: 16, borderWidth: 1, borderColor: "rgba(0,0,0,0.08)", backgroundColor: "#fff", padding: 12, gap: 8 },
+  buildRow: { flexDirection: "row", alignItems: "center", gap: 10 },
+  buildNum: { width: 24, height: 24, borderRadius: 12, alignItems: "center", justifyContent: "center" },
+  buildNumText: { fontSize: 12, fontWeight: "700", color: colors.ink },
+  buildText: { fontSize: 17, color: colors.ink, flexShrink: 1 },
+  buildNote: { fontSize: 13, color: colors.ink, opacity: 0.6 },
+  buildBtn: { marginTop: 4, alignSelf: "flex-start", borderRadius: 999, borderWidth: 1, borderColor: "rgba(0,0,0,0.15)", paddingHorizontal: 14, paddingVertical: 8 },
+  buildBtnText: { fontSize: 15, fontWeight: "600", color: colors.ink },
+  reteachIntro: { fontSize: 15, color: colors.ink, opacity: 0.7, marginBottom: 8 },
+  reteachText: { fontSize: 17, color: colors.ink, lineHeight: 26, marginBottom: 8 },
   noteBox: {
     borderWidth: 1,
     borderColor: "#2A151318",
