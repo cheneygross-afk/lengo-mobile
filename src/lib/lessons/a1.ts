@@ -23669,11 +23669,18 @@ const A1_BASE_LESSONS: Lesson[] = [
 
 // Hand-written summary and recap for split parts whose generated ones
 // only list the earlier part's headings (Unit 1 audit, 2026-11-21).
-const PART_RECAPS: Record<string, { summary: string; recap: string }> = {
+const PART_RECAPS: Record<string, { summary: string; recap: string; goal?: string }> = {
   "a1r-dialogue-first-meetings-part-2": {
     summary: "Put Lessons 1–3 to work: ask and answer names and origins, switch between tú and usted, catch it by ear, and write your own introduction.",
     recap:
       "Quick recap: a reply mirrors its question (¿Cómo te llamas? → Me llamo…; ¿De dónde eres? → Soy de…). Use tú with friends and usted with older people or strangers: usted takes es and se llama. Talking about others? Es for one person, son for more.",
+  },
+  // Unit 2 audit, 4.01.
+  "sounds-r-rr-part-2": {
+    summary: "Practice tap and trill in real sentences and tongue twisters, and say a few lines about a dog.",
+    recap:
+      "One r between vowels or at the end of a syllable is a tap: pe-ro, ca-ro, ha-blar. A trill is rr between vowels, or one r at the start of a word or after n, l or s: perro, rojo, Enrique. Between vowels, one letter changes the word: pero (but), perro (dog).",
+    goal: "use tap and trill in whole sentences and tongue twisters without mixing them up.",
   },
 };
 
@@ -23683,7 +23690,7 @@ function withPartRecaps(lessons: Lesson[]): Lesson[] {
     if (!fix) return l;
     const [first, ...rest] = l.sections;
     const sections = first?.heading === "Quick recap" ? [{ ...first, body: [fix.recap] }, ...rest] : l.sections;
-    return carryWhole(l, { ...l, summary: fix.summary, sections });
+    return carryWhole(l, { ...l, summary: fix.summary, sections, ...(fix.goal ? { goal: fix.goal } : {}) });
   });
 }
 

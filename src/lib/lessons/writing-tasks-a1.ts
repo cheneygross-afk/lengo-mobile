@@ -21,38 +21,6 @@ export const A1_WRITING_TASKS: UnitWriting = {
       "explanation": "Every adjective matches its noun: la profesora es simpática, los chicos altos, las chicas morenas, son inteligentes. Origin uses ser + de: son de Alemania."
     }
   ],
-  "sounds-r-rr": [
-    {
-      "type": "write",
-      "prompt": "Describe your pet, or a friend's pet: its name, what it's like and who it belongs to. Use plenty of words with r and rr, then read your text aloud.",
-      "minWords": 15,
-      "maxWords": 40,
-      "rubric": [
-        "Se llama… for the pet's name",
-        "At least four words with a trilled r (perro, Roberto, rápido, rojo…)",
-        "At least two words with a single tap r (pero, caro, para…)",
-        "Ser + adjectives that agree"
-      ],
-      "modelAnswer": "Mi perro se llama Rufo. Es un perro pequeño y marrón. Es muy rápido, pero un poco raro. Es el perro de mi amigo Roberto. Roberto es simpático y Rufo es muy listo. ¡Es un perro perfecto!",
-      "explanation": "Trill the rr (perro, marrón) and every r at the start of a word (Rufo, rápido, raro, Roberto). A single r between vowels or at the end of a syllable is one quick tap: pero, caro, the second r of Roberto, perfecto."
-    }
-  ],
-  "sounds-ll-y-c-z-s": [
-    {
-      "type": "write",
-      "prompt": "You're on holiday in a Spanish city. Write a short postcard to a friend: say where you are and describe the city, the streets and the people. Use words with ll, y, c and z.",
-      "minWords": 15,
-      "maxWords": 40,
-      "rubric": [
-        "A postcard greeting and goodbye (¡Hola…!, Un beso…)",
-        "Words with ll and y (Sevilla, calle, Yolanda…)",
-        "Words with ce, ci and z (ciudad, plaza, cerveza…)",
-        "Ser + adjectives that agree (las calles son estrechas)"
-      ],
-      "modelAnswer": "¡Hola, Yolanda! Un saludo desde Sevilla. La ciudad es preciosa. Las calles son estrechas y muy bonitas, y la plaza es enorme. La gente es muy simpática. Un beso, Ignacio.",
-      "explanation": "Ll and y sound the same in most places (Sevilla, calles, Yolanda). Ce, ci and z sound like th in most of Spain and like s in Latin America: ciudad, preciosa, plaza, Ignacio."
-    }
-  ],
   "present-tense-er-ir-verbs-2": [
     {
       "type": "write",

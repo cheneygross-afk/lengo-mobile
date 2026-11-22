@@ -13,6 +13,7 @@ import type {
 import { UNIT_DEFS } from "./unit-defs";
 import { pickUnitTestQuestions } from "./unitTest";
 import { A1_UNIT_WRITING } from "./unit-writing-a1";
+import { soundsUnitReview } from "./unit-review-sounds";
 import { A2_UNIT_WRITING } from "./unit-writing-a2";
 import { B1_UNIT_WRITING } from "./unit-writing-b1";
 import { B2_UNIT_WRITING } from "./unit-writing-b2";
@@ -654,8 +655,14 @@ const ES_UNIT_TITLES: Record<string, string> = {
   "b1r-challenge-subjunctive-gauntlet": "Desafíos intermedios y prueba final",
 };
 
+// Units whose review is written by hand, keyed by the unit's first lesson.
+const HAND_REVIEWS: Record<string, (generated: Lesson) => Lesson> = {
+  "sounds-vowels": soundsUnitReview,
+};
+
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
-  const review = buildUnitReview(spanishProfile(level, start), { number, title, lessons }, writing)!;
+  const generated = buildUnitReview(spanishProfile(level, start), { number, title, lessons }, writing)!;
+  const review = HAND_REVIEWS[start]?.(generated) ?? generated;
   const summary = ES_UNIT_SUMMARIES[start] ?? SPANISH_REVIEW_SUMMARIES[start];
   const es = ES_UNIT_TITLES[start];
   if (es) {

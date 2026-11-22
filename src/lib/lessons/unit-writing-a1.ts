@@ -17,10 +17,10 @@ export const A1_UNIT_WRITING: Record<string, WriteExercise> = {
     "Ser for who someone is and where they're from (soy de Canadá), and adjectives that match the person: Marta es alta, simpática (feminine)."
   ),
   "sounds-vowels": t(
-    "Write four or five short sentences about you: your name, where you live, and two things you have or like. Then read them aloud slowly, every vowel clear.",
-    ["Me llamo… and vivo en…", "At least two more sentences about you", "Correct accents where needed (é, á…)", "Short, clear sentences you can read aloud"],
-    "Me llamo Ricardo. Vivo en una ciudad bonita cerca del río. Tengo un perro grande que se llama Rocky. Me gustan la música y el café. Hoy hablo español con mi amiga Rosa.",
-    "Spanish vowels never change: read every a, e, i, o, u the same each time. Listen for the trill in perro and at the start of Ricardo, Rocky, río and Rosa, and the single tap in the middle of Ricardo (ri-CAR-do)."
+    "Write four short sentences about you and a friend: names, where you are from, and what you are like. Then read them aloud slowly, every vowel clear.",
+    ["Me llamo… / Soy de…", "Mi amigo/amiga se llama… and es de…", "Two adjectives that agree (alto, alta…)", "Short, clear sentences you can read aloud"],
+    "Me llamo Rosa. Soy de Bogotá. Mi amigo se llama Diego y es de Caracas. Es alto y muy simpático.",
+    "Read it aloud: every vowel short and pure (Ro-sa, Bo-go-tá), a trill at the start of Rosa, soft d in Diego after the vowel of se llama, and ca-ra-cas with taps."
   ),
   "present-tense-ar-verbs": t(
     "Describe a normal weekday: what you do in the morning, at work or school, and in the evening. Use at least four different verbs in the present tense.",
