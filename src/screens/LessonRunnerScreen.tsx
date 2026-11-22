@@ -361,6 +361,10 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // of showing it until answered. Remembered on this device.
   const listenFirstPref = useListenFirst();
   const [correctCount, setCorrectCount] = useState(0);
+  // Answers that aren't scored (a skipped speaking item, writing that
+  // couldn't be checked) are left out of the pass mark.
+  const [ungradedCount, setUngradedCount] = useState(0);
+  const gradedCount = Math.max(0, questionCount - ungradedCount);
   const [finishing, setFinishing] = useState(false);
   const [addedToReview, setAddedToReview] = useState(false);
   const [flaggedIds, setFlaggedIds] = useState<Set<string>>(new Set());
@@ -636,7 +640,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     setToday({ streak: credit.streak.current, minutes: credit.minutesToday, goal: prefs.dailyGoalMinutes });
     // Each question is answered once per run, so this is the first-try
     // score. Below the pass mark the lesson isn't marked complete.
-    if (!lessonPassed(correctCount, questionCount)) {
+    if (!lessonPassed(correctCount, gradedCount)) {
       setFinishing(false);
       return;
     }
@@ -700,6 +704,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     practiced.current = new Set();
     missedRef.current = new Set();
     setCorrectCount(0);
+    setUngradedCount(0);
     setInARow(0);
     setToday(null);
     setFeedback(null);
@@ -899,7 +904,12 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               lang={lang}
               level={lesson.level}
               listenFirst={listenFirstPref && isSpanishLessonLevel(lesson.level)}
-              onChecked={(correct, explanation, title) => {
+              onChecked={(correct, explanation, title, ungraded) => {
+                if (ungraded) {
+                  if (!currentStep.extra) setUngradedCount((c) => c + 1);
+                  setFeedback({ correct, explanation, title });
+                  return;
+                }
                 if (currentStep.extra) {
                   if (correct) missedRef.current.delete(currentStep.exercise);
                   else missedRef.current.add(currentStep.exercise);
@@ -983,8 +993,8 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
           <CompleteStep
             lessonTitle={shownTitle}
             correctCount={correctCount}
-            totalExercises={questionCount}
-            passed={lessonPassed(correctCount, questionCount)}
+            totalExercises={gradedCount}
+            passed={lessonPassed(correctCount, gradedCount)}
             nextLessonTitle={nextLesson ? displayTitle(nextLesson, trackLessons) : null}
             onNextLesson={() =>
               nextLesson &&

@@ -22,7 +22,9 @@ import { countWords, parseWritingFeedback, type WritingFeedback } from "@/lib/wr
 import { supabase } from "@/lib/supabase/client";
 
 // `title` replaces the feedback's "Correct!" / "Not quite." heading.
-type Submit = (correct: boolean, note?: string, title?: string) => void;
+// `ungraded`: the answer isn't scored (a skipped speaking item, or writing
+// that couldn't be checked), so it neither counts as right nor as wrong.
+type Submit = (correct: boolean, note?: string, title?: string, ungraded?: boolean) => void;
 
 const SLOW_RATE = 0.7;
 const WRITING_FEEDBACK_API_URL = "https://deependspanish.com/api/writing-feedback";
@@ -325,7 +327,8 @@ export function Speak({
       {!checked && mic === "recorded" && (
         <View>
           <Text style={[s.muted, { marginTop: 10 }]}>
-            {respond ? "Did you say the same thing (or something just as right)?" : "How did it sound next to the model?"}
+            {respond ? "Did you say the same thing (or something just as right)?" : "How did it sound next to the model?"}{" "}
+            Be honest: this is your own check, and it only helps you.
           </Text>
           <View style={s.row}>
             <Pressable style={[s.primaryBtn, s.flex]} onPress={() => submit(true, undefined, "Nice work!")}>
@@ -338,8 +341,8 @@ export function Speak({
         </View>
       )}
       {!checked && (
-        // Not graded: counts as done so skipping never costs a pass.
-        <Pressable style={s.linkButton} onPress={() => submit(true, undefined, "Skipped -- not graded.")}>
+        // Not graded: left out of the score, so skipping never costs a pass.
+        <Pressable style={s.linkButton} onPress={() => submit(true, undefined, "Skipped -- not graded.", true)}>
           <Text style={s.linkButtonText}>Skip</Text>
         </Pressable>
       )}
@@ -416,8 +419,9 @@ export function Write({
     const feedback = await fetchWritingFeedback(exercise, level, text);
     setState(feedback ? { kind: "feedback", feedback } : { kind: "selfcheck" });
     onFeedback?.(feedback);
-    // Submitting counts as done; the score is shown but never gates.
-    submit(true, undefined, "Submitted.");
+    // Checked writing counts as done; writing that couldn't be checked
+    // (no connection, not logged in) is left out of the score.
+    submit(true, undefined, feedback ? "Submitted." : "Submitted -- not graded (we couldn't check it this time).", !feedback);
   }
 
   return (
