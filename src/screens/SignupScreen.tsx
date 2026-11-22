@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AuthStackParamList } from "@/navigation/types";
-import { mottoStyle } from "@/ui/theme";
+import { mottoStyle, wordmarkText } from "@/ui/theme";
 import { trackEvent } from "@/lib/analytics";
 import { supabase } from "@/lib/supabase/client";
 import { APP_NAME, IS_LANGUAGES_APP } from "@/lib/appVariant";
@@ -82,7 +82,7 @@ export default function SignupScreen({ navigation }: Props) {
     return (
       <View style={styles.container}>
         <View style={styles.brand}>
-          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{APP_NAME}</Text>
+          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{wordmarkText(APP_NAME)}</Text>
         </View>
         <Text style={styles.confirmTitle}>Check your email</Text>
         <Text style={styles.confirmBody}>
@@ -99,7 +99,7 @@ export default function SignupScreen({ navigation }: Props) {
     <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === "ios" ? "padding" : undefined}>
       <View style={styles.container}>
         <View style={styles.brand}>
-          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{APP_NAME}</Text>
+          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{wordmarkText(APP_NAME)}</Text>
           <Text style={styles.motto}>Jump in.</Text>
           <Text style={styles.tagline}>Create an account to get started.</Text>
         </View>

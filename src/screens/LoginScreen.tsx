@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AuthStackParamList } from "@/navigation/types";
-import { mottoStyle } from "@/ui/theme";
+import { mottoStyle, wordmarkText } from "@/ui/theme";
 import { requiredLessons } from "@/lib/lessons/levels";
 import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { supabase } from "@/lib/supabase/client";
@@ -43,7 +43,7 @@ export default function LoginScreen({ navigation }: Props) {
     <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === "ios" ? "padding" : undefined}>
       <View style={styles.container}>
         <View style={styles.brand}>
-          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{APP_NAME}</Text>
+          <Text style={[styles.wordmark, IS_LANGUAGES_APP && styles.wordmarkLong]}>{wordmarkText(APP_NAME)}</Text>
           <Text style={styles.motto}>Jump in.</Text>
           <Text style={styles.tagline}>Log in to keep going.</Text>
         </View>
