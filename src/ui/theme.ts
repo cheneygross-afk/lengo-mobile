@@ -64,3 +64,14 @@ export const card: ViewStyle = {
   borderColor: colors.border,
   ...cardShadow,
 };
+
+// The "Deep End" wordmark text, ready to put in a <Text>.
+// Pacifico's "D" swash and final "d" reach past the width the font says
+// each letter takes. iOS lets them draw into the Text's padding, but
+// Android crops a Text's drawing to the inside of its padding, so the end
+// of the last "d" was cut off on the log-in, sign-up and Home screens.
+// On Android a no-break space at each end gives the letters room inside
+// that box (a normal space would be ignored when measuring line ends).
+export function wordmarkText(name: string): string {
+  return Platform.OS === "android" ? ` ${name} ` : name;
+}

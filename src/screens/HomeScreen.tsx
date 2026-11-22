@@ -8,7 +8,7 @@ import TranslateBar from "@/components/TranslateBar";
 import GlowBackground from "@/ui/GlowBackground";
 import NavCard from "@/ui/NavCard";
 import { Icon } from "@/ui/Icon";
-import { card, cardShadow, colors, fonts } from "@/ui/theme";
+import { card, cardShadow, colors, fonts, wordmarkText } from "@/ui/theme";
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import { LESSON_SOURCES } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
@@ -292,7 +292,7 @@ export default function HomeScreen({ navigation }: Props) {
       <ScrollView style={styles.scroll} contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
         <View style={styles.centerSection}>
           <View style={styles.heading}>
-            <Text style={[styles.title, IS_LANGUAGES_APP && styles.titleLong]}>{APP_NAME}</Text>
+            <Text style={[styles.title, IS_LANGUAGES_APP && styles.titleLong]}>{wordmarkText(APP_NAME)}</Text>
             <Text style={styles.subtitle}>{session?.user.email}</Text>
           </View>
 
