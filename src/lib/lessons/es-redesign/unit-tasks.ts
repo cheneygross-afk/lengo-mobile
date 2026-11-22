@@ -11,7 +11,7 @@
 // unit and the units before it have taught.
 
 import type { Exercise, Lesson, LessonExample } from "../types";
-import type { InterestTopic, LearningReason } from "../../interests";
+import type { CoreTopic, InterestTopic, LearningReason } from "../../interests";
 
 /** [question, options, index of the right one, explanation] */
 export type ReadingQuestion = [string, string[], number, string];
@@ -40,8 +40,23 @@ export type UnitTask = {
   words: [number, number];
   /** What the model answer shows, in plain words. */
   explanation: string;
-  topics: Record<InterestTopic, TopicVersion>;
+  /** Always the six core topics; the newer ones as they are written. */
+  topics: Record<CoreTopic, TopicVersion> & Partial<Record<InterestTopic, TopicVersion>>;
 };
+
+/** The newer topics' versions, by unit ("a1/1"): see unit-tasks-more-*.ts. */
+export type MoreVersions = Record<string, Partial<Record<Exclude<InterestTopic, CoreTopic>, TopicVersion>>>;
+
+/** Shorthand for writing a version. */
+export const version = (title: string, glossary: string, text: string[], english: string, questions: ReadingQuestion[], prompt: string, model: string): TopicVersion => ({
+  title,
+  glossary: glossary || undefined,
+  text,
+  english,
+  questions,
+  prompt,
+  model,
+});
 
 /** Who the learner writes to, by their reason for learning. */
 export const REASON_TWIST: Record<LearningReason, string> = {
@@ -57,7 +72,7 @@ export const unitTaskSlug = (unit: string) => `es-${unit.replace("/", "-u")}-rea
 
 /** One topic's lesson for a unit. `reason` adds who the learner writes to. */
 export function unitTaskLesson(task: UnitTask, topic: InterestTopic, reason?: LearningReason | null): Lesson {
-  const v = task.topics[topic];
+  const v = task.topics[topic] ?? task.topics["daily-life"];
   const questions: Exercise[] = v.questions.map(([question, options, correctIndex, explanation], i) => ({
     type: "multiple-choice",
     question,
@@ -104,7 +119,7 @@ export function unitTaskLesson(task: UnitTask, topic: InterestTopic, reason?: Le
 /** Problems that would make a unit's versions unfair or too long. */
 export function checkUnitTask(task: UnitTask): string[] {
   const bad: string[] = [];
-  const versions = Object.entries(task.topics);
+  const versions = Object.entries(task.topics) as [string, TopicVersion][];
   const count = (s: string) => s.split(/\s+/).filter(Boolean).length;
   const lengths = versions.map(([, v]) => count(v.text.join(" ")));
   const [lo, hi] = [Math.min(...lengths), Math.max(...lengths)];

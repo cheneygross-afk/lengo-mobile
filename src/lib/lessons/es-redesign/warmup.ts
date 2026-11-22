@@ -8,6 +8,7 @@
 import type { Exercise, Lesson, LessonSection } from "../types";
 
 export const WARM_UP_HEADING = "Warm-up: do you still have it?";
+const HAS_OWN = /^warm-up: what do you remember/i;
 /** How far back the warm-up reaches, in lessons. */
 export const WARM_UP_BACK = [1, 3, 6];
 
@@ -62,6 +63,8 @@ export function warmUpFor(before: Lesson[]): Exercise[] {
 /** The lesson with its warm-up as an opening card. Section numbers on the
  * lesson's own questions move up by one to match. */
 export function withWarmUp(l: Lesson, before: Lesson[]): Lesson {
+  // A lesson that already opens by asking what the learner remembers from earlier lessons keeps its own.
+  if (l.sections.some((s) => HAS_OWN.test(s.heading))) return l;
   const questions = warmUpFor(before);
   if (questions.length < 2) return l;
   const section: LessonSection = {
