@@ -12,8 +12,11 @@ import { C2_UNIT_TASKS } from "./unit-tasks-c2";
 import { A1_MORE } from "./unit-tasks-more-a1";
 import { A2_MORE } from "./unit-tasks-more-a2";
 import { B1_MORE } from "./unit-tasks-more-b1";
+import { B2_MORE } from "./unit-tasks-more-b2";
+import { C1_MORE } from "./unit-tasks-more-c1";
+import { C2_MORE } from "./unit-tasks-more-c2";
 
-const MORE: MoreVersions = { ...A1_MORE, ...A2_MORE, ...B1_MORE };
+const MORE: MoreVersions = { ...A1_MORE, ...A2_MORE, ...B1_MORE, ...B2_MORE, ...C1_MORE, ...C2_MORE };
 
 export const ES_UNIT_TASKS: UnitTask[] = [...A1_UNIT_TASKS, ...A2_UNIT_TASKS, ...B1_UNIT_TASKS, ...B2_UNIT_TASKS, ...C1_UNIT_TASKS, ...C2_UNIT_TASKS].map((t) =>
   MORE[t.unit] ? { ...t, topics: { ...t.topics, ...MORE[t.unit] } } : t,

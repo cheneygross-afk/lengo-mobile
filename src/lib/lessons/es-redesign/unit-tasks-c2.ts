@@ -146,15 +146,15 @@ export const C2_UNIT_TASKS: UnitTask[] = [
           ["¿Qué hace Elena después de terminar un recorrido?", ["Se va al hotel.", "Cena con el grupo.", "Va al aeropuerto."], 1, "Después de terminar un recorrido, ceno con el grupo: after a preposition, the plain verb."],
         ],
         "Write about what's on your mind, with travel in it. Say what's on your mind, how hard or good something is, your favorite part of the day and how you learned something.",
-        "Lo de el viaje de agosto me tiene pensando. No te imaginas lo caro que es volar en verano. Caminar sin mapa es mi parte favorita del día. Aprendí a viajar cometiendo errores. Después de llegar, busco un café tranquilo. Mi amiga Lucía dice que sigo comprando demasiadas guías, y tiene razón.",
+        "Lo del viaje de agosto me tiene pensando. No te imaginas lo caro que es volar en verano. Caminar sin mapa es mi parte favorita del día. Aprendí a viajar cometiendo errores. Después de llegar, busco un café tranquilo. Mi amiga Lucía dice que sigo comprando demasiadas guías, y tiene razón.",
       ),
       arts: v(
         "What's on Luna's mind",
         "gripe (flu), madrugada (the small hours), componiendo (composing)",
-        ["Lo de el concierto del sábado me tiene preocupada.", "No te imaginas lo difícil que es cantar con gripe.", "Escribir de madrugada es mi parte favorita del día.", "El ensayar la misma canción cien veces me cansa.", "Aprendí a cantar imitando a mi madre.", "Después de terminar un concierto, ceno con la banda.", "Sigo componiendo y, sin cantar, no sabría vivir."],
+        ["Lo del concierto del sábado me tiene preocupada.", "No te imaginas lo difícil que es cantar con gripe.", "Escribir de madrugada es mi parte favorita del día.", "El ensayar la misma canción cien veces me cansa.", "Aprendí a cantar imitando a mi madre.", "Después de terminar un concierto, ceno con la banda.", "Sigo componiendo y, sin cantar, no sabría vivir."],
         "The business with Saturday's concert has me worried. You can't imagine how hard singing with the flu is. Writing in the small hours is my favorite part of the day. Rehearsing the same song a hundred times wears me out. I learned to sing by imitating my mother. After finishing a concert, I have dinner with the band. I keep composing and, without singing, I wouldn't know how to live.",
         [
-          ["¿Qué le preocupa a Luna?", ["lo del concierto del sábado", "lo del disco nuevo", "lo de Andrés"], 0, "Lo de el concierto del sábado: lo de points at a matter both people know."],
+          ["¿Qué le preocupa a Luna?", ["lo del concierto del sábado", "lo del disco nuevo", "lo de Andrés"], 0, "Lo del concierto del sábado: lo de points at a matter both people know."],
           ["¿Cómo aprendió Luna a cantar?", ["leyendo libros", "imitando a su madre", "viajando"], 1, "Aprendí a cantar imitando a mi madre: the gerund says how."],
           ["¿Qué hace Luna después de terminar un concierto?", ["Se va a casa.", "Cena con la banda.", "Va al estudio."], 1, "Después de terminar un concierto, ceno con la banda: after a preposition, the plain verb."],
         ],
@@ -220,12 +220,12 @@ export const C2_UNIT_TASKS: UnitTask[] = [
           ["¿Con qué sigue soñando Diego?", ["con retirarse", "con jugar un mundial", "con ser entrenador"], 1, "Sigo soñando con jugar un mundial: soñar takes con."],
         ],
         "Write about a sport or exercise you've been doing for years. Say how long you've been doing something, what you didn't count on, what you realized and what you still dream of.",
-        "Llevo dos años corriendo por las mañanas. Al principio no contaba con tantas lesiones. Todo depende de el descanso. Ayer me di cuenta de que entrenaba sin un plan. A mi amigo Pablo le dije que estaba a punto de dejarlo. A mí me parece que la constancia es la clave. Sigo soñando con correr un maratón.",
+        "Llevo dos años corriendo por las mañanas. Al principio no contaba con tantas lesiones. Todo depende del descanso. Ayer me di cuenta de que entrenaba sin un plan. A mi amigo Pablo le dije que estaba a punto de dejarlo. A mí me parece que la constancia es la clave. Sigo soñando con correr un maratón.",
       ),
       travel: v(
         "Ten years as a guide",
         "imprevistos (surprises), recorrer (to cross)",
-        ["Llevo diez años trabajando como guía.", "Al principio no contaba con tantos imprevistos.", "Todo depende de el tiempo.", "Ayer me di cuenta de que los recorridos eran demasiado largos.", "A Tomás le dije que estaba a punto de cambiar todas las rutas.", "A mí me parece que es mejor ver menos y verlo bien, pero a él no le convence.", "Así que dejé de visitar cinco ciudades en una semana y me puse a diseñar viajes lentos.", "Sigo soñando con recorrer la Patagonia a pie."],
+        ["Llevo diez años trabajando como guía.", "Al principio no contaba con tantos imprevistos.", "Todo depende del tiempo.", "Ayer me di cuenta de que los recorridos eran demasiado largos.", "A Tomás le dije que estaba a punto de cambiar todas las rutas.", "A mí me parece que es mejor ver menos y verlo bien, pero a él no le convence.", "Así que dejé de visitar cinco ciudades en una semana y me puse a diseñar viajes lentos.", "Sigo soñando con recorrer la Patagonia a pie."],
         "I've been working as a guide for ten years. At first I wasn't counting on so many surprises. Everything depends on the weather. Yesterday I realized that the tours were too long. I told Tomás I was about to change all the routes. It seems to me that it's better to see less and see it well, but he isn't convinced. So I stopped visiting five cities in a week and started designing slow trips. I still dream of crossing Patagonia on foot.",
         [
           ["¿Cuánto tiempo lleva Elena trabajando como guía?", ["diez años", "veinte años", "dos años"], 0, "Llevo diez años trabajando como guía: llevar + time + gerund."],
@@ -233,12 +233,12 @@ export const C2_UNIT_TASKS: UnitTask[] = [
           ["¿Con qué sigue soñando Elena?", ["con dejar de viajar", "con recorrer la Patagonia a pie", "con abrir un hotel"], 1, "Sigo soñando con recorrer la Patagonia a pie: soñar takes con."],
         ],
         "Write about traveling, or a place you've been going to for years. Say how long you've been doing something, what you didn't count on, what you realized and what you still dream of.",
-        "Llevo cinco años viajando en tren. Al principio no contaba con tantos retrasos. Todo depende de el presupuesto. Ayer me di cuenta de que siempre iba a los mismos lugares. A mi amiga Lucía le dije que estaba a punto de reservar un viaje a Asia. A mí me parece que viajar despacio es mejor. Sigo soñando con dar la vuelta al mundo.",
+        "Llevo cinco años viajando en tren. Al principio no contaba con tantos retrasos. Todo depende del presupuesto. Ayer me di cuenta de que siempre iba a los mismos lugares. A mi amiga Lucía le dije que estaba a punto de reservar un viaje a Asia. A mí me parece que viajar despacio es mejor. Sigo soñando con dar la vuelta al mundo.",
       ),
       arts: v(
         "Twelve years on stage",
         "éxito (success), baladas (ballads), componer (to write music)",
-        ["Llevo doce años cantando en teatros.", "Al principio no contaba con tanto éxito.", "Todo depende de el público.", "Ayer me di cuenta de que mis canciones eran demasiado tristes.", "A Andrés le dije que estaba a punto de dejar la música.", "A mí me parece que la alegría también es arte, pero a él no le convence.", "Así que dejé de escribir baladas y me puse a componer canciones para bailar.", "Sigo soñando con cantar en el Teatro Colón."],
+        ["Llevo doce años cantando en teatros.", "Al principio no contaba con tanto éxito.", "Todo depende del público.", "Ayer me di cuenta de que mis canciones eran demasiado tristes.", "A Andrés le dije que estaba a punto de dejar la música.", "A mí me parece que la alegría también es arte, pero a él no le convence.", "Así que dejé de escribir baladas y me puse a componer canciones para bailar.", "Sigo soñando con cantar en el Teatro Colón."],
         "I've been singing in theaters for twelve years. At first I wasn't counting on so much success. Everything depends on the audience. Yesterday I realized that my songs were too sad. I told Andrés I was about to quit music. It seems to me that joy is art too, but he isn't convinced. So I stopped writing ballads and started writing songs to dance to. I still dream of singing at the Teatro Colón.",
         [
           ["¿Cuánto tiempo lleva Luna cantando en teatros?", ["doce años", "dos años", "veinte años"], 0, "Llevo doce años cantando en teatros: llevar + time + gerund."],
@@ -259,12 +259,12 @@ export const C2_UNIT_TASKS: UnitTask[] = [
           ["¿Con qué sigue soñando Marta?", ["con cambiar de empresa", "con una semana de cuatro días", "con ser directora"], 1, "Sigo soñando con una semana de cuatro días: soñar takes con."],
         ],
         "Write about your work or studies over the years. Say how long you've been doing something, what you didn't count on, what you realized and what you still dream of.",
-        "Llevo seis años trabajando en ventas. Al principio no contaba con tantos viajes. Todo depende de el equipo. Ayer me di cuenta de que nunca pedía ayuda. A mi compañera Ana le dije que estaba a punto de cambiar de empresa. A mí me parece que el trabajo en equipo es esencial. Sigo soñando con tener mi propio negocio.",
+        "Llevo seis años trabajando en ventas. Al principio no contaba con tantos viajes. Todo depende del equipo. Ayer me di cuenta de que nunca pedía ayuda. A mi compañera Ana le dije que estaba a punto de cambiar de empresa. A mí me parece que el trabajo en equipo es esencial. Sigo soñando con tener mi propio negocio.",
       ),
       "daily-life": v(
         "Thirty years in one house",
         "reparaciones (repairs), regalar (to give away), frutales (fruit trees)",
-        ["Llevo treinta años viviendo en esta casa.", "Al principio no contaba con tantas reparaciones.", "Todo depende de el dinero.", "Ayer me di cuenta de que guardaba demasiadas cosas.", "A Sofía le dije que estaba a punto de vender la casa.", "A mí me parece que con menos cosas se vive mejor, pero a ella no le convence.", "Así que dejé de comprar muebles y me puse a regalar lo que no usaba.", "Sigo soñando con un jardín lleno de frutales."],
+        ["Llevo treinta años viviendo en esta casa.", "Al principio no contaba con tantas reparaciones.", "Todo depende del dinero.", "Ayer me di cuenta de que guardaba demasiadas cosas.", "A Sofía le dije que estaba a punto de vender la casa.", "A mí me parece que con menos cosas se vive mejor, pero a ella no le convence.", "Así que dejé de comprar muebles y me puse a regalar lo que no usaba.", "Sigo soñando con un jardín lleno de frutales."],
         "I've been living in this house for thirty years. At first I wasn't counting on so many repairs. Everything depends on money. Yesterday I realized that I was keeping too many things. I told Sofía I was about to sell the house. It seems to me that you live better with fewer things, but she isn't convinced. So I stopped buying furniture and started giving away what I didn't use. I still dream of a garden full of fruit trees.",
         [
           ["¿Cuánto tiempo lleva Ana viviendo en esta casa?", ["treinta años", "tres años", "diez años"], 0, "Llevo treinta años viviendo en esta casa: llevar + time + gerund."],

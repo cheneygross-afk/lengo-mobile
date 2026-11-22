@@ -174,7 +174,7 @@ export const A1_MORE: MoreVersions = {
   "a1/3": {
     history: v(
       "Inés at the museum",
-      "curiosa (curious), lleno (full), turistas (tourists)",
+      "historiadora (historian), curiosa (curious), paciente (patient), lleno (full), turistas (tourists)",
       ["Inés es historiadora.", "Es curiosa y paciente.", "Hoy está en el museo con Bruno.", "Está cansada, pero está contenta.", "El museo está lleno.", "Los turistas están contentos también."],
       "Inés is a historian. She's curious and patient. Today she's at the museum with Bruno. She's tired, but she's happy. The museum is full. The tourists are happy too.",
       [
@@ -187,7 +187,7 @@ export const A1_MORE: MoreVersions = {
     ),
     science: v(
       "Vera's night at the lab",
-      "cielo (sky), claro (clear)",
+      "astrónoma (astronomer), paciente (patient), laboratorio (lab), cielo (sky), claro (clear), estrellas (stars)",
       ["Vera es astrónoma.", "Es inteligente y paciente.", "Hoy está en el laboratorio con Hugo.", "Está cansada, pero está contenta.", "El cielo está claro.", "Las estrellas están muy bonitas hoy."],
       "Vera is an astronomer. She's smart and patient. Today she's in the lab with Hugo. She's tired, but she's happy. The sky is clear. The stars look very pretty today.",
       [
@@ -200,7 +200,7 @@ export const A1_MORE: MoreVersions = {
     ),
     tech: v(
       "Nico's day at the office",
-      "creativo (creative), lista (ready), pantalla (screen)",
+      "programador (programmer), creativo (creative), paciente (patient), lista (ready), juego (game), pantalla (screen)",
       ["Nico es programador.", "Es creativo y paciente.", "Hoy está en la oficina con Mía.", "Está cansado, pero está contento.", "La computadora está lista.", "El juego nuevo está en la pantalla."],
       "Nico is a programmer. He's creative and patient. Today he's at the office with Mía. He's tired, but he's happy. The computer is ready. The new game is on the screen.",
       [
@@ -213,7 +213,7 @@ export const A1_MORE: MoreVersions = {
     ),
     health: v(
       "Clara's day at the clinic",
-      "llena (full), pacientes (patients), mejor (better)",
+      "enfermera (nurse), amable (kind), paciente (patient), clínica (clinic), tranquila (calm), llena (full), pacientes (patients), mejor (better)",
       ["Clara es enfermera.", "Es amable y paciente.", "Hoy está en la clínica con Iván.", "Está cansada, pero está tranquila.", "La clínica está llena.", "Los pacientes están mejor hoy."],
       "Clara is a nurse. She's kind and patient. Today she's at the clinic with Iván. She's tired, but she's calm. The clinic is full. The patients are better today.",
       [
@@ -226,7 +226,7 @@ export const A1_MORE: MoreVersions = {
     ),
     festivals: v(
       "Paula on festival day",
-      "alegre (cheerful), plaza (town square), llena (full)",
+      "bailarina (dancer), alegre (cheerful), plaza (town square), nerviosa (nervous), llena (full), calles (streets)",
       ["Paula es bailarina.", "Es alegre y simpática.", "Hoy está en la plaza con Raúl.", "Está nerviosa, pero está contenta.", "La plaza está llena.", "Las calles están muy bonitas hoy."],
       "Paula is a dancer. She's cheerful and nice. Today she's in the square with Raúl. She's nervous, but she's happy. The square is full. The streets look very pretty today.",
       [
@@ -239,7 +239,7 @@ export const A1_MORE: MoreVersions = {
     ),
     animals: v(
       "Julia's day at the farm",
-      "enfermo (sick)",
+      "veterinaria (vet), amable (kind), paciente (patient), granja (farm), caballo (horse), enfermo (sick), perros (dogs), tranquilos (calm)",
       ["Julia es veterinaria.", "Es amable y paciente.", "Hoy está en la granja con Simón.", "Está cansada, pero está contenta.", "El caballo está enfermo.", "Los perros están tranquilos hoy."],
       "Julia is a vet. She's kind and patient. Today she's at the farm with Simón. She's tired, but she's happy. The horse is sick. The dogs are calm today.",
       [
@@ -254,7 +254,7 @@ export const A1_MORE: MoreVersions = {
   "a1/4": {
     history: v(
       "A day at the museum",
-      "salas (rooms), objetos (objects), llega (arrives), entrada (entrance), terminan (they finish)",
+      "salas (rooms), objetos (objects), mapa (map), llega (arrives), turistas (tourists), entrada (entrance), terminan (they finish)",
       ["En el museo hay cinco salas.", "Hay cien objetos y un mapa grande.", "Inés llega a las ocho.", "Estudia los objetos y habla con los turistas.", "Bruno trabaja en la entrada.", "Terminan el día a las seis."],
       "In the museum there are five rooms. There are a hundred objects and a big map. Inés arrives at eight. She studies the objects and talks with the tourists. Bruno works at the entrance. They finish the day at six.",
       [
@@ -267,7 +267,7 @@ export const A1_MORE: MoreVersions = {
     ),
     science: v(
       "A night at the lab",
-      "telescopios (telescopes), llega (arrives), toma fotos (takes photos), terminan (they finish)",
+      "laboratorio (lab), telescopios (telescopes), llega (arrives), mira (looks at), estrellas (stars), toma fotos (takes photos), plantas (plants), terminan (they finish)",
       ["En el laboratorio hay seis personas.", "Hay dos telescopios y diez computadoras.", "Vera llega a las nueve de la noche.", "Mira las estrellas y toma fotos.", "Hugo trabaja con las plantas.", "Terminan a la una."],
       "In the lab there are six people. There are two telescopes and ten computers. Vera arrives at nine at night. She looks at the stars and takes photos. Hugo works with the plants. They finish at one.",
       [
@@ -280,7 +280,7 @@ export const A1_MORE: MoreVersions = {
     ),
     tech: v(
       "A day at the game studio",
-      "pantallas (screens), llega (arrives), programa (codes), equipo (team), dibuja (draws), terminan (they finish)",
+      "pantallas (screens), llega (arrives), programa (codes), juego (game), equipo (team), dibuja (draws), personajes (characters), terminan (they finish)",
       ["En la oficina hay ocho personas.", "Hay doce computadoras y tres pantallas.", "Nico llega a las diez.", "Programa el juego y habla con el equipo.", "Mía dibuja los personajes.", "Terminan a las siete."],
       "In the office there are eight people. There are twelve computers and three screens. Nico arrives at ten. He codes the game and talks with the team. Mía draws the characters. They finish at seven.",
       [
@@ -293,7 +293,7 @@ export const A1_MORE: MoreVersions = {
     ),
     health: v(
       "A day at the clinic",
-      "llega (arrives), medicinas (medicines), descansan (they rest)",
+      "clínica (clinic), salas (rooms), jardín (garden), llega (arrives), pacientes (patients), prepara (prepares), medicinas (medicines), descansan (they rest)",
       ["En la clínica hay nueve personas.", "Hay cuatro salas y un jardín.", "Clara llega a las siete.", "Habla con los pacientes y prepara las medicinas.", "Iván trabaja en la sala dos.", "Descansan a la una."],
       "In the clinic there are nine people. There are four rooms and a garden. Clara arrives at seven. She talks with the patients and prepares the medicines. Iván works in room two. They rest at one.",
       [
@@ -306,7 +306,7 @@ export const A1_MORE: MoreVersions = {
     ),
     festivals: v(
       "The day of the festival",
-      "bailarines (dancers), llega (arrives), canciones (songs), toca (plays), terminan (they finish)",
+      "pueblo (town), músicos (musicians), bailarines (dancers), llega (arrives), grupo (group), canciones (songs), toca (plays), terminan (they finish)",
       ["En el pueblo hay una fiesta.", "Hay veinte músicos y cien bailarines.", "Paula llega a las cinco.", "Baila con el grupo y canta dos canciones.", "Raúl toca la guitarra.", "Terminan a las doce."],
       "In the town there's a festival. There are twenty musicians and a hundred dancers. Paula arrives at five. She dances with the group and sings two songs. Raúl plays the guitar. They finish at twelve.",
       [
@@ -319,7 +319,7 @@ export const A1_MORE: MoreVersions = {
     ),
     animals: v(
       "A day on the farm",
-      "llega (arrives), examina (examines), descansan (they rest)",
+      "granja (farm), vacas (cows), caballos (horses), llega (arrives), examina (examines), descansan (they rest)",
       ["En la granja hay treinta animales.", "Hay diez vacas, dos caballos y cuatro perros.", "Julia llega a las seis.", "Examina los caballos y habla con Simón.", "Simón trabaja con las vacas.", "Descansan a las doce."],
       "On the farm there are thirty animals. There are ten cows, two horses and four dogs. Julia arrives at six. She examines the horses and talks with Simón. Simón works with the cows. They rest at twelve.",
       [
