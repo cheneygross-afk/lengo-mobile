@@ -1004,8 +1004,9 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
               ) : undefined
             }
             tryIt={
-              // A unit review already has its own writing task.
-              lesson.unitReview ? undefined : (
+              // A unit review already has its own writing task; pronunciation
+              // lessons (noTryIt) end with sound practice instead.
+              lesson.unitReview || lesson.noTryIt ? undefined : (
                 <TryItYourself
                   lessonSlug={lesson.slug}
                   level={lesson.level}

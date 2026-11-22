@@ -189,6 +189,9 @@ export type Lesson = {
   // a short unit quiz plus listening, speaking and writing practice built
   // from the unit's lessons. Required, but never used for testing out.
   unitReview?: boolean;
+  // No "Try it yourself" writing box at the end (e.g. the A1 Sounds of
+  // Spanish pronunciation lessons, which end with sound practice instead).
+  noTryIt?: boolean;
   // Set on part 2, 3... of a lesson split to keep every lesson at 30
   // questions or fewer (questionCap.ts): the slug of the lesson it
   // continues, whose part 1 keeps the original slug.

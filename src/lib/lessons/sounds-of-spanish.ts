@@ -26,7 +26,12 @@ const L = (
   duration: string,
   sections: Parameters<typeof anchored>[6],
   exercises: Parameters<typeof anchored>[7]
-) => anchored("A1", AFTER, slug, title, summary, duration, sections, exercises);
+) => {
+  const a = anchored("A1", AFTER, slug, title, summary, duration, sections, exercises);
+  // Pronunciation lessons: the generic "Try it yourself" writing box doesn't
+  // fit (auditor note 2026-11-21); each lesson ends with sound practice instead.
+  return { ...a, lesson: { ...a.lesson, noTryIt: true } };
+};
 
 export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
   L(
@@ -38,8 +43,8 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       sec(
         "Five letters, five sounds",
         [
-          "English has around a dozen vowel sounds for five letters. Spanish has exactly five, and each letter always makes the same one, in every word, stressed or not.",
-          "a is like the a in \"father\". e is like the e in \"met\", a little tenser. i is like \"ee\" in \"see\". o is like the o in \"more\", with rounded lips. u is like \"oo\" in \"food\".",
+          "English has around a dozen vowel sounds for five letters. Spanish has exactly five, and each vowel keeps its sound in every word. (One exception comes later: in que, qui, gue and gui the u is silent, as in queso and guitarra.)",
+          "Rough guides: a as in \"father\", e as in \"met\", i as in \"see\", o as in \"more\" with rounded lips, u as in \"food\". English accents vary, so let the audio be your model: tap each word to hear it.",
         ],
         [
           ["casa", "house -- both a's are the same \"ah\""],
@@ -51,23 +56,23 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Fila (line, queue) is a new word. How is its i pronounced?",
-            ["Like \"ee\" in \"see\"", "Like i in \"sit\"", "Like i in \"time\"", "It depends on the word"],
+            "Fila (line, queue) is a new word. Its i sounds the same as the i in...",
+            ["sí (yes)", "Nothing in Spanish: it depends on the word", "No Spanish word: i changes before l", "Only words that start with f"],
             0,
-            "Spanish i is always \"ee\", in every word: FEE-la. The short i of \"sit\" and the \"eye\" of \"time\" don't exist in Spanish, and the sound never depends on the word."
+            "Spanish i keeps one sound in every word, so the i of fila is the same as the i of sí. The sound of a Spanish vowel never depends on the word around it."
           ),
           mc(
             "Pala (shovel) is a new word. How do its two a's sound?",
-            ["Both the same open \"ah\"", "The first \"ah\", the second a weak \"uh\"", "Like the a in English \"pal\"", "The second one is silent"],
+            ["Both the same as the a's in casa", "The first like casa, the second weaker", "Different from each other", "The second one is silent"],
             0,
-            "Each Spanish letter has one sound, stressed or not, so both a's are the \"ah\" of \"father\": PA-la. English would weaken the second one to \"uh\"; Spanish never does."
+            "Each Spanish vowel keeps its sound, so both a's in pala sound like the a's in casa. The first one is stressed (PA-la), but the second keeps its full sound; Spanish never weakens it."
           ),
         ]
       ),
       sec(
         "Short and pure: no glide",
         [
-          "English long vowels slide into another sound: \"no\" is really \"noh-oo\", \"day\" is \"deh-ee\". Spanish vowels hold still. Say no and de short and clean, as if the sound were cut off with scissors.",
+          "English long vowels slide into another sound: \"no\" is really \"noh-oo\", \"day\" is \"deh-ee\". Spanish vowels hold still. Say \"no\" and \"de\" short and clean, as if the sound were cut off with scissors.",
           "Keep your jaw and lips still until the vowel is over. This single habit makes your accent sound far more Spanish.",
         ],
         [
@@ -87,13 +92,13 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Every vowel counts, even unstressed",
+        "Every vowel keeps its full sound",
         [
-          "English turns most unstressed vowels into a weak \"uh\" (the a's in \"banana\"). Spanish never does. In banana all three a's sound the same, and in chocolate the final e is fully pronounced: cho-co-la-te, four syllables.",
-          "This matters for meaning: the last vowel often tells you who is doing something or whether a word is masculine or feminine. Hablo is \"I speak\", habla is \"he or she speaks\".",
+          "Every word has one stressed syllable: ba-NA-na. English weakens the other vowels to \"uh\". Spanish never does: in banana all three a's keep the same sound, only the middle one is louder. In chocolate the final e is said too: cho-co-la-te.",
+          "This matters for meaning. In nouns and adjectives the last vowel often shows the gender: niño, niña. In verbs the ending shows who acts and when: hablo is \"I speak\", habla is \"he or she speaks\".",
         ],
         [
-          ["banana", "banana -- ba-na-na, three equal a's"],
+          ["banana", "banana -- ba-NA-na, three a's with the same sound"],
           ["chocolate", "chocolate -- cho-co-la-te"],
           ["importante", "important -- im-por-tan-te"],
           ["Hablo inglés.", "I speak English."],
@@ -132,12 +137,24 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Sol (sun) has a rounded o. Sal (salt) has an open a, and sul isn't a Spanish word."
       ),
       lc(
-        "Habla inglés.",
-        "Listen. Who speaks English?",
+        "Habla francés.",
+        "Listen. Who speaks French?",
         ["He or she does (habla)", "I do (hablo)", "You do (hablas)"],
         0,
-        "The last vowel of habla is a clear a, so it's he or she. Hablo ends in o (I) and hablas ends in -as (you). Unstressed vowels are never swallowed, so listen to the end of the verb."
+        "The last vowel of habla is a clear a, so it's he or she. Hablo ends in o (I) and hablas ends in -as (you). Spanish never swallows a final vowel, so listen to the end of the verb."
       ),
+      {
+        type: "matching",
+        instructions: "Sort by sound: match each new word to the Spanish word whose first vowel sounds the same.",
+        pairs: [
+          { left: "pato (duck)", right: "casa" },
+          { left: "peso (weight)", right: "mesa" },
+          { left: "libro (book)", right: "sí" },
+          { left: "foto (photo)", right: "sol" },
+          { left: "mundo (world)", right: "tú" },
+        ],
+        explanation: "Each Spanish vowel has one sound, so you can sort any word by its vowels: pa-to like ca-sa, pe-so like me-sa, li-bro like sí, fo-to like sol, mun-do like tú.",
+      },
       lc(
         "todo",
         "Listen. Which word did you hear?",
@@ -152,7 +169,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       spk("casa", "Open your mouth wide for both a's; the second one is as clear as the first.", "Casa: CA-sa, two equal \"ah\" sounds, stress on the first."),
       spk("No, no sé.", "Cut each vowel off short: no glide into \"oo\" or \"ee\".", "No, no sé -- \"No, I don't know.\" Three short, pure vowels."),
       spk("chocolate", "Four beats, and the final e is a full \"eh\": cho-co-la-te.", "Chocolate: cho-co-LA-te, stress on la."),
-      spk("Ana mira la mesa.", "Every a sounds the same, stressed or not: no \"uh\" anywhere.", "Ana mira la mesa -- \"Ana looks at the table.\""),
+      spk("Ana mira la mesa.", "Every a has the same sound, the stressed one just louder: no \"uh\" anywhere.", "Ana mira la mesa -- \"Ana looks at the table.\""),
       spk("Hablo un poco de español.", "Keep the o of hablo and poco short and round, not \"oh-oo\".", "Hablo un poco de español -- \"I speak a little Spanish.\" Stress: HA-blo, PO-co, es-pa-ÑOL."),
       mc(
         "You hear \"HA-bla in-GLÉS\", with a clear final a. Who speaks English?",
@@ -189,7 +206,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Make it feminine.",
         "El niño es alto.",
         "La niña es alta.",
-        "The final vowel carries the gender: o → a in every word. Say each final a fully, or niña and niño blur together."
+        "In these nouns and adjectives the final vowel shows the gender: o → a. Say each final a fully, or niña and niño blur together."
       ),
       fixSpelling(
         "Es muy important.",
@@ -249,15 +266,14 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       sec(
         "The soft d",
         [
-          "Spanish d is made with the tongue touching the back of the upper front teeth, not the gum ridge behind them as in English. At the start and after n or l it's firm: dos, donde, el día.",
-          "Between vowels it goes soft, close to the th in \"this\" but lighter: nada, todo, cada. At the end of a word it's softer still, almost gone: Madrid, usted, verdad.",
-          "In relaxed speech in Spain, -ado often loses its d: cansado sounds like \"cansao\". That's informal; say the soft d.",
+          "Spanish has a firm d and a soft d. The firm d comes at the start and after n or l: dos, donde, el día. The tongue presses fully against the back of the upper front teeth (English d touches the ridge behind them).",
+          "Everywhere else, especially between vowels, d is soft: the tongue only comes close to the edge of the upper teeth and lets air through, like a light th in \"this\": nada, todo, cada. At the end of a word it's soft and light: Madrid, usted.",
         ],
         [
           ["dos", "two -- firm d"],
           ["nada", "nothing -- soft d"],
           ["todo", "everything -- soft d"],
-          ["Madrid", "the final d is very light"],
+          ["Madrid", "the final d is soft and light"],
           ["¿Y usted?", "And you? (formal)"],
         ],
         [
@@ -269,9 +285,9 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           ),
           mc(
             "In which new phrase is the d firm?",
-            ["un dato (a fact)", "la duda (the doubt)", "poder (to be able)", "cuidado (careful)"],
+            ["un dato (a fact)", "el modo (the way)", "poder (to be able)", "cuidado (careful)"],
             0,
-            "D is firm at the start, after n or after l: un dato. In la duda, poder and cuidado every d comes after a vowel, so it's soft."
+            "D is firm at the start, after n or after l: un dato, with the tongue pressed to the teeth. In modo, poder and cuidado every d comes after a vowel, so it's soft."
           ),
         ]
       ),
@@ -419,7 +435,8 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "The trill: rr and r at the start",
         [
           "The trill is several taps in a row: the tongue tip vibrates against the ridge as air flows over it. It's written rr between vowels (perro, carro) and a single r at the start of a word (rojo, Roma, rico) or after n, l or s (Enrique, alrededor, Israel).",
-          "Can't trill yet? Relax your tongue, put it where you say d, and blow. Practise with tr and dr words (tres, tren, madre), where the tongue is already in place. A strong single tap is understood while you learn.",
+          "Can't trill yet? Relax your tongue, put it where you say d, and blow. Tr and dr words (tres, tren, madre) have a tap, not a trill, but they put your tongue in the right place: use them as a warm-up, then trill rojo and perro.",
+          "A tap is fine as a first step, but keep working on the trill: it can change the meaning, as in pero (but) and perro (dog).",
         ],
         [
           ["perro", "dog -- trill"],
@@ -427,7 +444,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           ["rojo", "red -- trilled at the start"],
           ["Roma", "Rome"],
           ["Enrique", "Enrique -- trill after n"],
-          ["tres", "three -- practice word"],
+          ["tres", "three -- a tap, good as a warm-up"],
         ],
         [
           mc(
@@ -447,7 +464,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       sec(
         "Tap or trill changes the word",
         [
-          "Between vowels, one r and two r's are different words. Getting this right matters: pero is \"but\", perro is \"dog\"; caro is \"expensive\", carro is \"car\"; cero is \"zero\", cerro is \"hill\".",
+          "Between vowels, changing a single r to rr can change the meaning of a word. Getting this right matters: pero is \"but\", perro is \"dog\"; caro is \"expensive\", carro is \"car\"; cero is \"zero\", cerro is \"hill\".",
         ],
         [
           ["pero / perro", "but / dog"],
@@ -483,7 +500,9 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("Tengo tres perros.", "Tengo tres perros -- \"I have three dogs.\" Tres has a tap after t; perros has rr."),
       spk("pero, perro", "Short flick for pero, then a long buzz for perro. Make the difference big.", "Pero (but) vs. perro (dog): tap vs. trill."),
       spk("Mi perro es rojo.", "The r at the start of rojo trills, just like the rr in perro.", "Mi perro es rojo -- \"My dog is red.\""),
-      spk("Tres tristes tigres.", "A tongue twister: tr puts your tongue right where the tap happens. Go slowly first.", "Tres tristes tigres -- \"three sad tigers\", the start of a famous tongue twister."),
+      spk("rojo, rico, Roma", "Start each word with a trill: tongue relaxed behind the upper teeth, then blow so it vibrates.", "Rojo, rico, Roma: a single r at the start of a word is always trilled."),
+      spk("Rápido corren los carros.", "Three trills: the r of rápido and the rr of corren and carros. Go slowly first.", "Rápido corren los carros -- \"The cars run fast.\" Part of a famous trill tongue twister."),
+      spk("Tres tristes tigres.", "A tongue twister with taps: tr puts your tongue right where the trill starts too. Go slowly first.", "Tres tristes tigres -- \"three sad tigers\", the start of a famous tongue twister."),
       spk("Enrique es de Puerto Rico.", "After n the r is trilled (Enrique); Puerto has a tap; Rico is trilled.", "Enrique es de Puerto Rico -- \"Enrique is from Puerto Rico.\""),
       spk("Es caro, pero me gusta.", "Tap in caro, tap in pero -- no trills here at all.", "Es caro, pero me gusta -- \"It's expensive, but I like it.\""),
       mc("Which word means \"expensive\"?", ["caro", "carro"], 0, "Caro (one r, a tap) = expensive; carro (rr, a trill) = car. Between vowels, one letter changes the word."),
@@ -544,7 +563,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       sec(
         "J, and g before e or i",
         [
-          "Spanish j is made at the back of the mouth. In Latin America and the Caribbean it's usually a breathy sound like English h in \"hot\". In most of Spain it's rougher, like the ch in Scottish \"loch\". Both are correct.",
+          "Spanish j is made at the back of the mouth: a breathy sound, like a strong English h in \"hot\". Many speakers make it rougher, like the ch in Scottish \"loch\". Both are correct.",
           "G before e or i makes the same sound: gente, girar, página. So jirafa and girasol start with the same sound but different letters -- learn the spelling with the word.",
           "A few place names keep an old x for this sound: México, Oaxaca, Texas. (Before a, o, u, g is the \"go\" sound from the earlier lesson.)",
         ],
@@ -590,10 +609,11 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       sec(
         "Ñ: \"ny\"",
         [
-          "Ñ sounds like the ny in \"canyon\" -- one sound, with the middle of the tongue pressed to the roof of the mouth. It's a separate letter, after n in the dictionary.",
+          "Ñ is close to the ny in \"canyon\", but English says n and then y, and Spanish ñ is one sound: press the middle of your tongue to the roof of your mouth. Hear it in cañón (canyon). It's a separate letter, after n in the dictionary.",
           "N and ñ make different words: una (one, a) vs. uña (fingernail), mono (monkey) vs. moño (hair bun). Always write the tilde.",
         ],
         [
+          ["el cañón", "the canyon -- one ñ sound, not n + y"],
           ["mañana", "tomorrow, morning"],
           ["España", "Spain"],
           ["el niño", "the boy, the child"],
@@ -603,9 +623,9 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         [
           mc(
             "Piña (pineapple) is a new word. What does its ñ sound like?",
-            ["The ny in \"canyon\"", "The n in \"no\"", "The ng in \"sing\"", "The n in \"onion\" said as two sounds, n-y"],
+            ["One sound, close to the ny in \"canyon\"", "The n in \"no\"", "The ng in \"sing\"", "Two separate sounds, n then y"],
             0,
-            "Ñ is one sound, like the ny in \"canyon\". A plain n would make a different word, and ng (\"sing\") is made further back."
+            "Ñ is a single sound, close to the ny in \"canyon\" (which English says as n + y). A plain n would make a different word, and ng (\"sing\") is made further back."
           ),
         ]
       ),
@@ -639,7 +659,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       dict("jamón", "Jamón (ham): j, and a written accent on the o."),
       dict("Hoy hace frío.", "Hoy hace frío -- \"It's cold today.\" Two silent h's: hoy and hace."),
       dict("España", "España (Spain): ñ, and a capital E for the country."),
-      spk("Juan es joven.", "Breathe out from the back of the throat for each j; softer in Latin America, rougher in Spain.", "Juan es joven -- \"Juan is young.\""),
+      spk("Juan es joven.", "Breathe out from the back of the throat for each j, like a strong h.", "Juan es joven -- \"Juan is young.\""),
       spk("Hola, ¿hablas español?", "No h sound at all: \"o-la\", \"a-blas\".", "Hola, ¿hablas español? -- \"Hi, do you speak Spanish?\""),
       spk("Hasta mañana.", "Silent h in hasta; ñ is one smooth \"ny\" sound.", "Hasta mañana -- \"See you tomorrow.\""),
       spk("La gente de México", "G in gente and x in México both make the j sound.", "La gente de México -- \"the people of Mexico.\""),
@@ -675,7 +695,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "The ñ never changes: niño → niña, español → española. Only the endings show the gender."
       ),
       fixSpelling("Hasta manana.", "Hasta mañana.", "Mañana has the \"ny\" sound, so it needs the tilde: ñ. N and ñ are different letters."),
-      fixSpelling("Soy de Espana.", "Soy de España.", "España has ñ, the \"ny\" of canyon. Without the tilde it's a misspelling."),
+      fixSpelling("Soy de Espana.", "Soy de España.", "España has ñ, one \"ny\" sound. Without the tilde it's a misspelling."),
       fixSpelling("Mi hijo tiene diez anos.", "Mi hijo tiene diez años.", "Años (years) needs the tilde. Without it you write a very different, rude word."),
       toEs("the people of Spain", "la gente de España", "Gente has g before e (the j sound), and España has ñ.", ["la gente española"]),
       say(
@@ -688,7 +708,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
   L(
     "sounds-ll-y-c-z-s",
     "Sounds of Spanish: LL and Y, C, Z and S",
-    "Why calle and playa share one sound, how Buenos Aires says yo, and the two standard ways to say cinco and gracias.",
+    "Why calle and playa share one sound, when y is just a vowel, and why cinco, zapato and gracias all have an s sound.",
     "10 min",
     [
       sec(
@@ -712,35 +732,29 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Regional ll, and the y that is just a vowel",
+        "The y that is just a vowel",
         [
-          "Regional note: in Argentina and Uruguay (Rioplatense Spanish), ll and y sound like \"sh\" (most younger speakers) or like the s in \"measure\" (older speakers): yo sounds like \"sho\", calle like \"ca-she\". A few areas, such as parts of the Andes, still keep ll different, closer to the lli in \"million\".",
-          "Y on its own (\"and\") and y at the end of a word (hoy, muy, rey) is just the vowel i.",
+          "Y on its own (\"and\") and y at the end of a word (hoy, muy, rey) is just the vowel i. Before a vowel it's the consonant: yo, playa.",
         ],
         [
-          ["yo", "Buenos Aires: \"sho\""],
           ["hoy y mañana", "today and tomorrow -- y is \"ee\""],
+          ["muy bien", "very well -- y is \"ee\""],
+          ["yo", "I -- y before a vowel, like \"yes\""],
         ],
         [
-          mc(
-            "In Buenos Aires, how does the new word llave (key) usually sound?",
-            ["Like \"sha-ve\" (or \"zha-ve\")", "Like \"ya-ve\" with an English y", "Like \"la-ve\"", "Like \"ja-ve\" with a Spanish j"],
-            0,
-            "Rioplatense Spanish (Argentina, Uruguay) says ll and y as \"sh\" or \"zh\", so llave sounds like \"sha-ve\". The English-style y is what most other regions use, and ll is never an l or a Spanish j."
-          ),
           mc(
             "How does the y sound in the new word ley (law)?",
             ["Like the vowel i (\"lei\")", "Like the y in \"yes\"", "Like \"sh\"", "It is silent"],
             0,
-            "A y at the end of a word is just the vowel i, as in hoy and muy, so ley sounds like \"lei\". The consonant sound (yes, or sh in Buenos Aires) only comes before a vowel, and Spanish letters are not silent."
+            "A y at the end of a word is just the vowel i, as in hoy and muy, so ley sounds like \"lei\". The consonant sound (as in \"yes\") only comes before a vowel, and Spanish letters are not silent."
           ),
         ]
       ),
       sec(
-        "C, z and s: seseo and distinción",
+        "C, z and s: seseo",
         [
-          "C before a, o, u is a k sound: casa, cosa, Cuba. C before e or i, and z everywhere, has two standard pronunciations.",
-          "In Latin America (and the Canary Islands and much of Andalusia) they sound like s: cinco is \"sin-co\", zapato is \"sa-pa-to\". This is called seseo, and it's what most Spanish speakers do.",
+          "C before a, o, u is a k sound: casa, cosa, Cuba.",
+          "C before e or i, and z everywhere, sound like s: cinco is \"sin-co\", zapato is \"sa-pa-to\". This is called seseo. It's standard in Latin America and it's what most Spanish speakers do.",
         ],
         [
           ["cinco", "five"],
@@ -750,29 +764,28 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         [
           mc(
             "A speaker from Mexico says the new word cielo (sky). What does it sound like?",
-            ["\"sie-lo\"", "\"thie-lo\"", "\"kie-lo\"", "\"chie-lo\""],
+            ["\"sie-lo\"", "\"kie-lo\"", "\"chie-lo\"", "\"ie-lo\""],
             0,
-            "Latin America uses seseo: c before e or i sounds like s, \"sie-lo\". \"Thie-lo\" is the distinción of most of Spain. C before e or i is never k or ch."
+            "Latin America uses seseo: c before e or i sounds like s, \"sie-lo\". C before e or i is never k or ch, and it's never silent."
           ),
         ]
       ),
       sec(
-        "Distinción in Spain, and why z turns into c",
+        "Why z turns into c",
         [
-          "In most of Spain they sound like the th in \"think\": cinco is \"thin-co\", zapato is \"tha-pa-to\", while s stays s. This is called distinción. Both are correct: choose one and use it consistently.",
-          "Spelling follows from this: ce and ci already make the sound, so z is normally written only before a, o and u. That's why lápiz becomes lápices and vez becomes veces.",
+          "Spelling follows from the sound: ce and ci already make the s sound, so z is normally written only before a, o and u. That's why lápiz becomes lápices and vez becomes veces.",
         ],
         [
-          ["gracias", "thank you -- \"gra-sias\" or \"gra-thias\""],
-          ["la cena", "dinner -- \"se-na\" or \"the-na\""],
+          ["gracias", "thank you -- \"gra-sias\""],
+          ["la cena", "dinner -- \"se-na\""],
           ["el lápiz, los lápices", "the pencil, the pencils -- z before e becomes c"],
         ],
         [
           mc(
-            "In most of Spain, which of these new words has the th sound?",
-            ["zumo (juice)", "sopa (soup)", "cama (bed)", "coche (car)"],
+            "Which of these new words has an s sound, though it's not written with s?",
+            ["zorro (fox)", "cama (bed)", "coche (car)", "cuna (cradle)"],
             0,
-            "Distinción gives th to z and to c before e or i: zumo is \"thu-mo\". S stays s (sopa), and c before a or o is a k (cama, coche)."
+            "Z always sounds like s, so zorro is \"so-rro\". C before a, o or u is a k: cama, coche, cuna."
           ),
           fb(
             "Write the plural of el pez (the fish).",
@@ -783,10 +796,10 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "S is always a hiss, and some words sound alike",
+        "S: a clear hiss, and some words sound alike",
         [
           "Spanish s is normally the hissing s of \"sun\", even between vowels. English often buzzes it (\"rose\", \"president\"); Spanish doesn't: casa, rosa, presidente.",
-          "With seseo, some pairs sound identical: casa (house) and caza (hunt), ves (you see) and vez (time, occasion). In Spain they're different. In Latin America, context tells you which word it is -- and spelling has to be learned.",
+          "With seseo, some pairs sound identical: casa (house) and caza (hunt), ves (you see) and vez (time, occasion). Context tells you which word it is, and you learn the spelling with the word.",
         ],
         [
           ["la casa", "the house -- a hissing s"],
@@ -796,10 +809,10 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         ],
         [
           mc(
-            "Why might the new words cocer (to cook) and coser (to sew) sound the same in Mexico?",
+            "Why do the new words cocer (to cook) and coser (to sew) sound the same?",
             ["In Latin America c before e sounds like s (seseo)", "Because c is silent", "Because s sounds like z in Spanish", "They never sound the same"],
             0,
-            "With seseo, ce is pronounced \"se\", so cocer sounds like coser, just like casa and caza. In most of Spain cocer has \"th\" and the words differ."
+            "With seseo, ce is pronounced \"se\", so cocer sounds like coser, just like casa and caza. Context and spelling tell them apart."
           ),
         ]
       ),
@@ -810,7 +823,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Listen. Where does the person live?",
         ["In a big house (casa)", "In a big hunt (caza)"],
         0,
-        "Only casa (house) makes sense. With a Latin American voice, casa and caza sound exactly the same (seseo), so the context decides; with a Spain voice, caza would have the \"th\" sound."
+        "Only casa (house) makes sense. With seseo, casa and caza sound exactly the same, so the context decides."
       ),
       lc(
         "La calle está llena.",
@@ -824,7 +837,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Listen. How many siblings does the person have?",
         ["5", "15", "50", "500"],
         0,
-        "Cinco is 5. Fifteen would be quince, fifty cincuenta and five hundred quinientos. Cinco may sound like \"sin-co\" or \"thin-co\" depending on the voice."
+        "Cinco is 5. Fifteen would be quince, fifty cincuenta and five hundred quinientos. Cinco sounds like \"sin-co\": c before i is an s sound."
       ),
       lc(
         "Una vez al año.",
@@ -834,12 +847,12 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Una vez al año -- \"once a year\". Vez (time, occasion) sounds like ves (you see) in Latin America, but una vez is a fixed phrase. Día would be \"day\" and siempre \"always\"."
       ),
       dict("calle", "Calle (street): spelled with ll, though it sounds like y for most speakers."),
-      dict("cinco", "Cinco (five): c before i, the s or \"th\" sound depending on the region."),
+      dict("cinco", "Cinco (five): c before i, an s sound."),
       dict("zapato", "Zapato (shoe): z at the start, even though it sounds like s in Latin America."),
       dict("Me llamo Yolanda.", "Me llamo Yolanda -- \"My name is Yolanda.\" Llamo with ll, Yolanda with Y: same sound, different letters."),
-      spk("Yo me llamo Guillermo.", "Y and ll the same, like \"yes\". In Argentina you'd hear \"Sho me shamo Guishermo\".", "Yo me llamo Guillermo -- \"My name is Guillermo.\""),
-      spk("Muchas gracias.", "Latin America: \"gra-sias\". Spain: \"gra-thias\". Both are right; pick one and be consistent.", "Muchas gracias -- \"Thank you very much.\""),
-      spk("Cinco zapatos azules.", "Every c before i and every z sounds the same: all s or all \"th\".", "Cinco zapatos azules -- \"five blue shoes.\""),
+      spk("Yo me llamo Guillermo.", "Y and ll the same, like \"yes\": yo, llamo and Guillermo all share it.", "Yo me llamo Guillermo -- \"My name is Guillermo.\""),
+      spk("Muchas gracias.", "\"Gra-sias\": c before i is an s sound, and both s's hiss.", "Muchas gracias -- \"Thank you very much.\""),
+      spk("Cinco zapatos azules.", "Every c before i and every z is an s sound: \"sin-co sa-pa-tos a-su-les\".", "Cinco zapatos azules -- \"five blue shoes.\""),
       spk("Una casa en la playa.", "Keep the s of casa a sharp hiss, never a buzz like English \"rose\".", "Una casa en la playa -- \"a house on the beach.\""),
       spk("Hoy y mañana llueve.", "Hoy and the word y are the vowel \"ee\"; ll in llueve is the y of \"yes\".", "Hoy y mañana llueve -- \"It's raining today and tomorrow.\""),
       mc(
@@ -864,7 +877,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         "Make it plural.",
         "el lápiz",
         "los lápices",
-        "Lápiz adds -es, and because ce already makes the s / th sound, the z is written c: lápices."
+        "Lápiz adds -es, and because ce already makes the s sound, the z is written c: lápices."
       ),
       tf(
         "Change it to two times.",
@@ -879,7 +892,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
       say(
         "Respond aloud: say thank you very much, and that the city is very pretty.",
         "Muchas gracias. La ciudad es muy bonita.",
-        "Gracias and ciudad: s sounds in Latin America, th sounds in most of Spain. Keep the s of muchas a sharp hiss."
+        "Gracias and ciudad have s sounds (c before i). Keep the s of muchas a sharp hiss."
       ),
     ]
   ),
