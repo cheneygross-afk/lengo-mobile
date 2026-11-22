@@ -98,7 +98,9 @@ export default function ExerciseBlock({
   showInlineFeedback?: boolean;
   // `title`, when set, replaces "Correct!" / "Not quite." (e.g. "Skipped
   // -- not graded." for a skipped speaking exercise).
-  onChecked?: (correct: boolean, explanation: string, title?: string) => void;
+  // `ungraded` is true for an answer that isn't scored (a skipped speaking
+  // item, or writing that couldn't be checked).
+  onChecked?: (correct: boolean, explanation: string, title?: string, ungraded?: boolean) => void;
   hideIndexLabel?: boolean;
   // Target language for pronunciation (flashcards/highlighting already
   // pronounce in this same language elsewhere -- see src/lib/speech.ts).
@@ -131,15 +133,15 @@ export default function ExerciseBlock({
   // -- and gets folded into the explanation text shown below (both the
   // inline Feedback box and whatever onChecked's caller does with it)
   // rather than needing its own prop threaded through every caller.
-  function report(isCorrect: boolean, note?: string, title?: string) {
+  function report(isCorrect: boolean, note?: string, title?: string, ungraded = false) {
     setFeedbackTitle(title);
     setCorrect(isCorrect);
     setChecked(true);
-    onAnswered?.(isCorrect);
+    if (!ungraded) onAnswered?.(isCorrect);
     const baseExplanation = (exercise as { explanation: string }).explanation;
     const explanation = note ? `${note} ${baseExplanation}` : baseExplanation;
     setShownExplanation(explanation);
-    onChecked?.(isCorrect, explanation, title);
+    onChecked?.(isCorrect, explanation, title, ungraded);
   }
 
   return (

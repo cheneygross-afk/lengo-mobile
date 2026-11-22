@@ -44,16 +44,17 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "At the same party, a woman tells you \"Encantada\" (nice to meet you). What is the most natural reply?",
-            ["Igualmente.", "De nada.", "Adiós.", "Por favor."],
-            0,
+            ["De nada.", "Adiós.", "Igualmente.", "Por favor."],
+            2,
             "Encantada means the same as mucho gusto, so it gets the same answer: igualmente (likewise). De nada answers gracias, adiós is goodbye and por favor is please."
           ),
           mc(
             "Someone asks you \"¿Cómo te llamas?\" Which answer fits?",
-            ["Me llamo Sam.", "Te llamas Sam.", "Se llama Sam.", "Soy de Sam."],
-            0,
+            ["Te llamas Sam.", "Me llamo Sam.", "Se llama Sam.", "Soy de Sam."],
+            1,
             "The question uses te llamas (you call yourself); your answer turns it into the yo form: me llamo. Te llamas means \"your name is\", se llama is \"his / her name is\", and soy de gives a place."
           ),
+          { ...fb("Complete the dialogue.", "—Hola, ¿cómo te llamas? —___ Lucía. ¿Y tú? —Soy Diego.", "Me llamo", "The answer mirrors the question: te llamas → me llamo."), altAnswers: ["Soy"] },
         ]
       ),
       sec(
@@ -87,17 +88,18 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           ["—Buenas tardes, señor. ¿Cómo se llama usted?", "Good afternoon, sir. What's your name?"],
           ["—Me llamo Andrés. ¿Y usted es de aquí?", "My name is Andrés. And are you from here?"],
-          ["—No, señor, soy de Toronto.", "No, sir, I'm from Toronto."],
+          ["—No, señor, soy de Colombia.", "No, sir, I'm from Colombia."],
           ["tú: ¿Cómo te llamas? · usted: ¿Cómo se llama usted?", "What's your name? (friend · stranger)"],
           ["tú: ¿De dónde eres? · usted: ¿De dónde es usted?", "Where are you from? (friend · stranger)"],
         ],
         [
           mc(
             "Which question should Diego use with Lucía's grandfather?",
-            ["¿De dónde es usted?", "¿De dónde eres tú?", "¿De dónde son ustedes?", "¿De dónde soy yo?"],
-            0,
+            ["¿De dónde eres tú?", "¿De dónde son ustedes?", "¿De dónde soy yo?", "¿De dónde es usted?"],
+            3,
             "With one older person you're being polite to, use usted — and usted takes the él/ella form of ser: es. Eres is for a friend, son ustedes for a group."
           ),
+          fb("Complete the dialogue.", "—Buenas tardes, señor. ¿De dónde ___ usted? —Soy de Lima.", "es", "Usted takes es, the él / ella form. Eres is only for tú."),
           toEs(
             "¿Tú eres profesor?",
             "¿Usted es profesor?",
@@ -119,39 +121,31 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "You work at a hotel front desk. A guest you've never met arrives. How do you ask his name?",
-            ["¿Cómo se llama usted?", "¿Cómo te llamas?", "¿Cómo me llamo?", "¿Cómo se llaman ustedes?"],
-            0,
+            ["¿Cómo te llamas?", "¿Cómo se llama usted?", "¿Cómo me llamo?", "¿Cómo se llaman ustedes?"],
+            1,
             "A guest is a stranger you serve, so use usted: ¿Cómo se llama usted? Te llamas is for a friend, and se llaman ustedes asks a group."
           ),
           mc(
             "Pablo tells Ana \"Puedes tutearme.\" What does he want?",
-            ["For her to use tú with him", "For her to use usted with him", "To know where she's from", "To say goodbye"],
-            0,
+            ["For her to use usted with him", "To know where she's from", "For her to use tú with him", "To say goodbye"],
+            2,
             "Tutear means to call someone tú. Pablo is saying the formal usted isn't needed with him."
           ),
         ]
       ),
       sec(
-        "Scene 5: One language, many accents",
-        "Spanish sounds different from place to place, like English in London and Texas, and every accent is correct. In most of Spain, z, and c before e or i, sound like the th in \"think\": gracias sounds like \"grathias\". In Latin America they sound like s. In Buenos Aires, ll and y sound like \"sh\": me llamo sounds like \"me shamo\". In the Caribbean and southern Spain, an s at the end of a syllable often fades to a soft h. You'll practice all of these in the sounds lessons.",
+        "Scene 5: Meet my coworker",
+        "To introduce someone, Spanish uses él es / ella es: Él es Tomás (this is Tomás, literally \"he is Tomás\"). The rest is what you know: soy + a job with no un/una, and the job matches the person.",
         [
-          ["—Hola, me llamo Carmen y soy de Zaragoza. ¡Gracias por venir!", "Hi, my name is Carmen and I'm from Zaragoza. Thanks for coming! (Spain: \"Tharagotha\", \"grathias\")"],
-          ["—Yo me llamo Mateo y soy de Buenos Aires.", "My name is Mateo and I'm from Buenos Aires. (Buenos Aires: \"me shamo\")"],
-          ["—Y yo soy Diego, de México. Mucho gusto.", "And I'm Diego, from Mexico. Nice to meet you. (Mexico: \"me yamo\", \"grasias\")"],
+          ["—Hola, Lucía. Él es Tomás, mi compañero de trabajo.", "Hi, Lucía. This is Tomás, my coworker."],
+          ["—Mucho gusto, Tomás. ¿Eres estudiante?", "Nice to meet you, Tomás. Are you a student?"],
+          ["—No, soy enfermero. ¿Y tú?", "No, I'm a nurse. And you?"],
+          ["—Yo soy profesora.", "I'm a teacher."],
         ],
         [
-          mc(
-            "Carmen, from Spain, says gracias with a th sound: \"grathias\". What does that tell you?",
-            ["It's the normal way to say c before i in most of Spain.", "She has a lisp.", "She's saying a different word.", "She's being very formal."],
-            0,
-            "In most of Spain, z and c before e or i sound like th, while s stays s, so it isn't a lisp. Latin America says the same letters like s. Both are correct, and gracias means the same everywhere."
-          ),
-          mc(
-            "Diego, from Mexico, says me llamo like \"me yamo\". How does Mateo from Buenos Aires say it?",
-            ["\"me shamo\"", "\"me lamo\"", "\"me thamo\"", "\"me hamo\""],
-            0,
-            "In Argentina and Uruguay, ll and y sound like sh: me shamo, and yo sounds like \"sho\". Most other speakers say an English y sound: me yamo."
-          ),
+          mc("What is Tomás's job?", ["teacher", "student", "nurse", "lawyer"], 2, "Soy enfermero = I'm a nurse; no un/una after ser. Lucía is the teacher, and \"No\" tells you he isn't a student."),
+          { ...fb("How do you say the bold words in Spanish?", "Lucía es ___.", "profesora", "Lucía is a woman: profesor + a. Maestra is just as right."), en: "Lucía is [a teacher].", altAnswers: ["maestra"] },
+          toEs("My coworker (a woman) is a nurse.", "Mi compañera de trabajo es enfermera.", "Both -o words switch to -a for a woman: compañera, enfermera. Compañero on its own can also mean classmate.", ["Mi compañera es enfermera."]),
         ]
       ),
     ],
@@ -170,7 +164,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Complete the introduction.",
         "Hola, yo ___ Marta y soy de Madrid.",
         "soy",
-        "Yo takes soy, the ser form (I am). This exercise practices ser."
+        "Yo takes soy (I am): Hola, yo soy Marta y soy de Madrid."
       ),
       mc(
         "You're introducing two friends to your teacher. How do you say \"They are from Mexico\"?",
@@ -182,7 +176,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "¿De dónde son ustedes?",
         "Somos de España.",
         "The question asks about ustedes (you all); you answer for your group with nosotros → somos. The pronoun is optional.",
-        ["Nosotros somos de España.", "Nosotras somos de España.", "De España."],
+        ["Nosotros somos de España.", "De España."],
         "Answer the question in Spanish for you and your brother: you're from Spain."
       ),
       toEn(
@@ -221,10 +215,11 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       toEs(
         "¿De dónde eres usted?",
         "¿De dónde es usted?",
-        "Usted takes es, the él / ella form. Eres goes only with tú.",
-        ["¿De dónde eres tú?", "¿De dónde eres?"],
+        "Usted takes es, the él / ella form. Eres goes only with tú. (¿De dónde eres? is correct Spanish too, but it changes the person: here the task is to fix the verb.)",
+        ["¿De dónde es?"],
         "Correct the sentence."
       ),
+      toEs("Soy no de aquí.", "No soy de aquí.", "No goes before the verb, never after it.", ["Yo no soy de aquí."], "Correct the sentence."),
       toEs(
         "Yo es de Toronto.",
         "Yo soy de Toronto.",
@@ -259,12 +254,26 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     "gender-number-articles-2",
     "a1r-contrast-articles",
     "Contrast Clinic: El, La, Un, Una",
-    "Minimal pairs that show exactly when to use the, a, and some — and how one letter changes the meaning.",
+    "When to say the, a, some or nothing: new or known things, jobs, and the places where Spanish and English don't match.",
     "7 min",
     [
       sec(
+        "Warm-up: what do you remember?",
+        "Before we start: what do you remember? Four quick questions from earlier lessons.",
+        [],
+        [
+          { ...fb("How do you say the bold words in Spanish?", "Hay ___ lámpara en el dormitorio.", "una", "Hay introduces something new, so un/una; lámpara is feminine. Review: Lesson 6."), en: "There's [a] lamp in the bedroom." },
+          toEs("The sofa is Ana's.", "El sofá es de Ana.", "Spanish has no 's: de + owner. Sofá is masculine. Review: Lesson 6."),
+          toEs("¿Tú eres de aquí?", "¿Usted es de aquí?", "Formal you is usted, and usted takes es. Review: Lesson 1.", ["¿Es usted de aquí?", "¿Es de aquí?"], "Make it formal."),
+          toEs("el lápiz", "los lápices", "El → los, and the final z becomes c before -es. Review: Lesson 5.", [], "Make it plural."),
+        ]
+      ),
+      sec(
         "Definite vs. indefinite",
-        "El/la/los/las point to a specific thing (the): one the listener can already identify. Un/una/unos/unas introduce something new or unspecified (a, some). So a thing usually appears first with un/una, and after that with el/la.",
+        [
+          "El/la/los/las point to a specific thing (the): one the listener can already identify. Un/una/unos/unas introduce something new or unspecified (a, some). So a thing usually appears first with un/una, and after that with el/la.",
+          "Phrases used in this lesson (learn them as set phrases; the verbs come later): tengo = I have · busco = I'm looking for · necesito = I need · llegan = they arrive · hablan = they speak.",
+        ],
         [
           ["Tengo un libro.", "I have a book. (any book, new information)"],
           ["El libro es interesante.", "The book is interesting. (the one we mentioned)"],
@@ -286,70 +295,63 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
           ),
         ]
       ),
-      sec(
-        "Nouns that break the -o/-a pattern",
-        "A few everyday nouns don't follow the -o = masculine, -a = feminine shortcut. Learn them with their article attached. Many nouns in -ma come from Greek and are masculine.",
-        [
-          ["el día", "the day"],
-          ["el mapa", "the map"],
-          ["el problema", "the problem"],
-          ["la mano", "the hand"],
-          ["la foto", "the photo"],
+      {
+        ...sec(
+          "Where Spanish and English differ",
+          "Most of the time el/la = the and un/una = a. Watch three places where they don't match: a plain job after ser takes no un/una; \"some\" is often left out (and never unos/unas with things you can't count); and things in general take el/la/los/las.",
+          [],
+          [
+            toEs("She's Ana's doctor.", "Es la doctora de Ana.", "Whose doctor → la. Compare Es doctora (just her job).", ["Ella es la doctora de Ana."]),
+            toEs("She's a doctor.", "Es doctora.", "A plain job after ser: no una, even though English says \"a\".", ["Ella es doctora."]),
+          ]
+        ),
+        tables: [
+          {
+            head: ["English", "Spanish", "Why"],
+            rows: [
+              ["She's a teacher.", "*Es profesora.", "plain job: no una"],
+              ["She's an excellent teacher.", "Es *una profesora excelente.", "described: una"],
+              ["She's Ana's teacher.", "Es *la profesora de Ana.", "whose: la"],
+              ["I have friends in Madrid.", "Tengo amigas en Madrid.", "\"some\" left out"],
+              ["I need (some) water.", "Necesito agua.", "can't count: no article"],
+              ["Flowers are pretty.", "*Las flores son bonitas.", "in general: las"],
+            ],
+          },
         ],
-        [
-          ms(
-            "These nouns are new. Which ones are masculine even though they end in -a?",
-            ["tema (topic)", "sistema (system)", "casa (house)", "idioma (language)", "semana (week)"],
-            [0, 1, 3],
-            "Tema, sistema and idioma are Greek -ma words, masculine like el problema. Casa and semana follow the normal rule: la casa, la semana."
-          ),
-        ]
-      ),
+      },
       sec(
         "Plural articles change meaning too",
-        "Unos/unas means \"some\" or \"a few.\" Los/las means \"the\" (all of a specific group).",
+        "Unos/unas means \"some\" or \"a few\" with things you can count: unos amigos. Often Spanish simply drops the article: Necesito lápices. (I need some pencils.) Los/las means \"the\" (all of a specific group).",
         [
           ["Unas amigas llegan hoy.", "Some friends (f.) arrive today."],
           ["Las amigas de Ana llegan hoy.", "Ana's friends (f.) arrive today."],
         ],
         [
-          fb(
-            "Complete with the correct indefinite article (\"some\").",
-            "Necesito ___ lápices para la clase.",
-            "unos",
-            "Lápices is masculine plural (el lápiz → los lápices), so \"some\" is unos."
-          ),
+          {
+            ...fb(
+              "Complete with the correct indefinite article (\"some\").",
+              "Necesito ___ lápices para la clase.",
+              "unos",
+              "Lápices is masculine plural (el lápiz → los lápices), so \"some\" is unos (algunos is right too)."
+            ),
+            altAnswers: ["algunos"],
+          },
         ]
       ),
     ],
     [
-      mt(
-        "Match each noun to its article.",
-        [
-          ["mano", "la"],
-          ["día", "el"],
-          ["ciudades", "las"],
-          ["problemas", "los"],
-        ],
-        "La mano and el día are the classic exceptions. -dad nouns are feminine (la ciudad → las ciudades)."
-      ),
       mc(
         "Which sentence means \"I have a problem\"?",
         ["Tengo un problema.", "Tengo una problema.", "Tengo el problema.", "Tengo la problema."],
         0,
         "Problema ends in -a but is masculine, and \"a problem\" needs the indefinite article: un problema. \"Una\" and \"la\" are feminine, and \"el problema\" means the problem."
       ),
-      fb("Complete with the correct definite article.", "___ foto de mi familia está en la mesa.", "La", "Foto is short for fotografía, which is feminine → la foto."),
+      { ...fb("How do you say the bold words in Spanish?", "Hay una foto en la mesa. ___ foto es de mi madre.", "La", "Second mention of a specific photo → la; foto is feminine (short for la fotografía)."), en: "There's a photo on the table. [The] photo is my mother's." },
+      mc("Hay un perro en el jardín. ___ perro es grande.", ["Un", "Una", "El", "La"], 2, "Second mention: the listener knows which dog, so el."),
+      mc("Which sentence means you want one specific photo your friend already knows about?", ["Busco una foto.", "Busco la foto.", "Busco unas fotos.", "Busco unos fotos."], 1, "A known, specific photo takes la; una foto is any photo. Unos fotos breaks the gender: foto is feminine."),
       toEs("The maps are big.", "Los mapas son grandes.", "Mapa is masculine → el mapa, plural los mapas."),
       toEn("Unas chicas hablan español.", "Some girls speak Spanish.", "Unas is the feminine plural of un/una and means some: unas chicas = some girls.", ["A few girls speak Spanish.", "Some girls are speaking Spanish."]),
-      mc(
-        "Which pair is correct?",
-        ["la ciudad / las ciudades", "el ciudad / los ciudades", "la ciudad / las ciudads", "el ciudad / las ciudades"],
-        0,
-        "Nouns ending in -dad are feminine, and a noun ending in a consonant adds -es: la ciudad, las ciudades. \"El\" and \"los\" are masculine, and \"ciudads\" adds only -s."
-      ),
-      wo("El día es muy bonito.", "Article + noun (el día) + verb + adverb + adjective.", "The day is very nice."),
-      toEs("Tengo una foto.", "Tengo unas fotos.", "Una → unas, foto → fotos. Foto stays feminine in the plural.", [], "Make it plural."),
+      wo("Es un día muy bonito.", "Un día (día is masculine despite the -a), then muy right before the adjective.", "It's a very nice day."),
       toEs(
         "Busco un mapa.",
         "Busco el mapa.",
@@ -359,7 +361,6 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       toEs("El problema es grande.", "Los problemas son grandes.", "El → los (problema is masculine), es → son, grande → grandes.", [], "Make it plural."),
       toEs("Las mapas son de Pedro.", "Los mapas son de Pedro.", "Mapa is masculine despite its -a, so the plural article is los.", [], "Correct the sentence."),
-      toEs("Busco los fotos de Madrid.", "Busco las fotos de Madrid.", "Foto is feminine (la foto, short for la fotografía), so the plural is las fotos.", [], "Correct the sentence."),
       toEs(
         "Tengo un perro. Un perro es negro.",
         "Tengo un perro. El perro es negro.",
@@ -368,9 +369,8 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "Correct the sentence."
       ),
       toEs("a map and the photos", "un mapa y las fotos", "Un mapa: masculine despite the -a, and \"a\" for something new. Las fotos: feminine despite the -o, plural, and \"the\" for specific photos."),
-      { ...fb("How do you say the bold words in Spanish?", "Tengo ___ amigas en Madrid.", "unas", "Some + feminine plural = unas. Las would mean \"the friends\"."), en: "I have [some] friends (f.) in Madrid." },
+      { ...fb("How do you say the bold words in Spanish?", "Tengo ___ amigas en Madrid.", "unas", "Some + feminine plural = unas. Las would mean \"the friends\". Tengo amigas en Madrid, with no article, is right too."), en: "I have [some] friends (f.) in Madrid." },
       { ...fb("How do you say the bold words in Spanish?", "___ fotos de la clase son bonitas.", "Las", "Specific photos → definite article, and foto is feminine: las."), en: "[The] class photos are pretty." },
-      toEs("The map is big.", "El mapa es grande.", "A specific map → el; mapa is masculine despite its -a."),
       mc("Which means \"I'm looking for some books\"?", ["Busco los libros.", "Busco unos libros.", "Busco unas libros.", "Busco un libros."], 1, "\"Some\" = unos/unas; libros is masculine, so unos. Los libros means \"the books\"."),
       wo("Busco unas fotos de Madrid", "Unas = some, for any photos, not specific ones; foto is feminine, so unas, not unos.", "I'm looking for some photos of Madrid"),
       toEs("Ana's friends (m.) arrive today.", "Los amigos de Ana llegan hoy.", "Specific friends (Ana's) → los. Unos would be just \"some friends\"."),
@@ -391,15 +391,16 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     ]
   ),
   L(
-    "review-pronouns-ser-gender-articles",
+    // After the adjective lesson, so every error here is one already taught (Unit 1 audit, 2026-11-21).
+    "adjective-agreement",
     "a1r-error-hunt-pronouns-articles",
-    "Error Hunt: Pronouns, Ser & Articles",
-    "Every sentence here was written by a learner. Find what's wrong, then fix it.",
+    "Error Hunt: Pronouns, Ser, Articles & Adjectives",
+    "Find and fix the mistakes English speakers make most with ser, pronouns, articles, adjectives and accents, then use the corrected forms yourself.",
     "7 min",
     [
       sec(
         "How to hunt",
-        "Remember the rules: the verb follows the subject, and the article follows the noun's gender and number. So when a sentence looks off, check three things in order: (1) does the verb match the subject? (2) does the article match the noun's gender? (3) does it match the noun's number?",
+        "Remember the rules: the verb follows the subject, and the article follows the noun. When a sentence looks off, check five things in order: (1) does the verb match the subject? (2) the article the noun's gender? (3) its number? (4) every adjective its noun? (5) the accents: tú/tu, él/el?",
         [
           ["✗ Nosotros es estudiantes. → ✓ Nosotros somos estudiantes.", "We are students."],
           ["✗ El casa es grande. → ✓ La casa es grande.", "The house is big."],
@@ -407,14 +408,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         [
           mc(
             "What's wrong with \"Ella son de Argentina\"?",
-            [
-              "The verb should be es, because ella is singular.",
-              "Ella should be él.",
-              "De should be en.",
-              "Nothing — it's correct.",
-            ],
-            0,
-            "Ella is one person, so ser must be es: Ella es de Argentina."
+            ["Ella should be él.", "De should be en.", "Son should be es.", "Son should be eres."],
+            2,
+            "Ella is one person, so ser must be es: Ella es de Argentina. Changing ella to él doesn't fix the verb, de is right for origin, and eres is for tú."
           ),
           toEs(
             "Ustedes es de México.",
@@ -427,7 +423,10 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Tú vs. tu, él vs. el",
-        "An accent mark can be the whole difference: tú (you) vs. tu (your); él (he) vs. el (the). The pronoun has the accent; the little word before a noun doesn't.",
+        [
+          "An accent mark can be the whole difference: tú (you) vs. tu (your); él (he) vs. el (the). The pronoun has the accent; the little word before a noun doesn't.",
+          "Remember: mi and tu go plural with a plural noun: mis vecinos, tus amigas. As \"my\" and \"your\", they never take an accent.",
+        ],
         [
           ["Tú eres mi amigo.", "You are my friend."],
           ["Tu amigo es simpático.", "Your friend is nice."],
@@ -452,9 +451,9 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
     [
       mc(
         "Find the correct version of \"Yo es estudiante.\"",
-        ["Yo soy estudiante.", "Yo eres estudiante.", "Yo son estudiante.", "Yo estoy estudiante."],
-        0,
-        "Yo always takes soy: Yo soy estudiante (no un before a bare profession). \"Eres\" is tú, \"son\" is ellos, and estar isn't used to say what someone is."
+        ["Yo eres estudiante.", "Yo son estudiante.", "Yo somos estudiante.", "Yo soy estudiante."],
+        3,
+        "Yo always takes soy: Yo soy estudiante (no un before a plain job). Eres is tú, son is ellos, and somos is nosotros."
       ),
       mc(
         "Find the correct version of \"Los chicas son altas.\"",
@@ -462,24 +461,24 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Chicas is feminine plural, so the article is las: Las chicas son altas. \"Los chicas\" and \"es\" mismatch gender and number, and \"Los chicos son altas\" makes the adjective disagree."
       ),
-      toEs("Ustedes sois muy simpáticos.", "Ustedes son muy simpáticos.", "Ustedes takes son, in Spain and Latin America alike. Sois goes with vosotros.", ["Vosotros sois muy simpáticos."], "Correct the sentence."),
+      toEs("Ustedes sois muy simpáticos.", "Ustedes son muy simpáticos.", "Ustedes takes son, in Spain and Latin America alike. Sois goes with vosotros.", [], "Correct the sentence."),
       toEs("Busco una mapa de la ciudad.", "Busco un mapa de la ciudad.", "Mapa is masculine despite the -a → un mapa.", [], "Correct the sentence."),
       ms(
         "Which of these sentences contain an error?",
-        ["Mi hermana es médica.", "Nosotras somos de Cuba.", "Tú es mi mejor amigo.", "El día es largo."],
-        [2],
-        "Tú takes eres: Tú eres mi mejor amigo. The others are correct."
+        ["Mi hermana es doctora.", "Nosotras somos de Cuba.", "Tú es mi amigo.", "Los días es largos."],
+        [2, 3],
+        "Tú takes eres: Tú eres mi amigo. Los días is plural, so son: Los días son largos. The first two are correct."
       ),
-      toEs("You (informal) are my teacher.", "Tú eres mi profesor.", "Tú + eres. Remember the accent on tú.", ["Eres mi profesor.", "Tú eres mi profesora.", "Eres mi profesora."]),
-      wo("Ellas son las amigas de Pedro.", "Subject + ser + article + noun + de + owner.", "They (f.) are Pedro's friends."),
-      toEs("Nosotros sois de Chile.", "Nosotros somos de Chile.", "Check the subject first: nosotros needs somos. Sois is for vosotros.", ["Somos de Chile.", "Vosotros sois de Chile."], "Correct the sentence."),
+      toEs("You (informal) are my teacher.", "Tú eres mi profesor.", "Tú + eres. Remember the accent on tú.", ["Eres mi profesor.", "Tú eres mi profesora.", "Eres mi profesora.", "Tú eres mi maestro.", "Eres mi maestro.", "Tú eres mi maestra.", "Eres mi maestra."]),
+      wo("Ellas son amigas de Pedro.", "Subject + ser + noun + de + owner. With las (Ellas son las amigas de Pedro) it means the particular friends you were talking about.", "They (f.) are Pedro's friends."),
+      toEs("Nosotros sois de Chile.", "Nosotros somos de Chile.", "Check the subject first: nosotros needs somos. Sois is for vosotros.", ["Somos de Chile."], "Correct the sentence."),
       toEs("El casa de Ana es bonita.", "La casa de Ana es bonita.", "Casa ends in -a and is feminine, so la casa.", [], "Correct the sentence."),
       toEs("Es una día bonito.", "Es un día bonito.", "Día is masculine despite the -a: un día. Bonito already shows it's masculine.", [], "Correct the sentence."),
       toEs("Tú es de Chile, ¿no?", "Tú eres de Chile, ¿no?", "Tú always takes eres; es is for él, ella and usted.", ["Eres de Chile, ¿no?"], "Correct the sentence."),
       toEs("Las flors son de Ana.", "Las flores son de Ana.", "Flor ends in a consonant, so the plural adds -es: flores.", [], "Correct the sentence."),
       toEs("You (informal) are my neighbor. (to a man)", "Tú eres mi vecino.", "Tú with an accent is \"you\"; tu without one is \"your\". Tú goes with eres.", ["Eres mi vecino."]),
       toEs("Your (informal) friend is from Peru.", "Tu amigo es de Perú.", "\"Your\" is tu, no accent. Tú with an accent is the pronoun \"you\".", ["Tu amiga es de Perú."]),
-      toEs("He is the doctor.", "Él es el doctor.", "Él (he) has an accent; el (the) doesn't. This sentence needs both.", ["Él es el médico."]),
+      toEs("He is the doctor.", "Él es el doctor.", "Él (he) has an accent; el (the) doesn't. Notice the article: Él es el doctor = he's THE doctor (a specific one). Él es doctor = he's a doctor (his job), with no article.", ["Él es el médico."]),
       mc("Which is correct?", ["El es mi amigo.", "Él es mi amigo.", "Él es mí amigo.", "El es mí amigo."], 1, "Él (he) needs the accent; mi (my) does not."),
       mc(
         "What's wrong with \"Los mapa son grandes\"?",
@@ -490,7 +489,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       toEs("The photos are Pedro's.", "Las fotos son de Pedro.", "Foto is feminine, so las fotos, not los fotos."),
       toEs("You all (Latin America) are students.", "Ustedes son estudiantes.", "Ustedes takes son. \"Sois\" is only for vosotros in Spain."),
       wo("Él es tu vecino", "Él (he) with an accent, tu (your) without.", "He is your neighbor"),
-      toEs("Are you (informal) the teacher? (to a woman)", "¿Tú eres la profesora?", "Tú eres for informal \"you are\"; a woman teacher is la profesora.", ["¿Eres tú la profesora?", "¿Eres la profesora?"]),
+      toEs("Are you (informal) the teacher? (to a woman)", "¿Tú eres la profesora?", "Tú eres for informal \"you are\"; a woman teacher is la profesora.", ["¿Eres tú la profesora?", "¿Eres la profesora?", "¿Tú eres la maestra?", "¿Eres tú la maestra?", "¿Eres la maestra?"]),
       toEs(
         "¿Usted es de Lima?",
         "¿Tú eres de Lima?",
@@ -509,7 +508,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
       toEs(
         "Él es el doctor de Ana.",
         "Ella es la doctora de Ana.",
-        "Él → ella (no accent problem now), el → la, and doctor → doctora.",
+        "Él → ella, el → la, doctor → doctora. La is here because she is a specific doctor (Ana's); for just her job you'd say Es doctora.",
         ["Es la doctora de Ana."],
         "Make it feminine."
       ),

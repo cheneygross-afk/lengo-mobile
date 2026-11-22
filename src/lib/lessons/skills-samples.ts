@@ -21,17 +21,17 @@ const SAMPLES: Record<string, Exercise[]> = {
       type: "listen-choose",
       audio: "¿De dónde eres?",
       question: "Listen. What is the person asking?",
-      options: ["Where are you from?", "What's your name?", "Where do you live?", "Who are you?"],
-      correctIndex: 0,
+      options: ["What's your name?", "Where do you live?", "Who are you?", "Where are you from?"],
+      correctIndex: 3,
       explanation: "¿De dónde eres? is \"Where are you from?\" (to someone you call tú). The answer starts with Soy de...",
     },
     {
       type: "listen-choose",
-      audio: "Usted es profesor.",
-      question: "Listen. Which pronoun did you hear?",
-      options: ["usted", "ustedes", "nosotros", "ellos"],
-      correctIndex: 0,
-      explanation: "Usted es profesor -- \"you are a teacher\", formal. Ustedes would need son: Ustedes son profesores.",
+      audio: "Son de México.",
+      question: "Listen. Who is from Mexico?",
+      options: ["I", "you (a friend)", "she", "they"],
+      correctIndex: 3,
+      explanation: "Son de México: son is the form for ellos / ellas (and ustedes). I would be soy, a friend eres, she es.",
     },
     {
       type: "dictation",
@@ -41,7 +41,7 @@ const SAMPLES: Record<string, Exercise[]> = {
     {
       type: "dictation",
       audio: "Soy de México.",
-      explanation: "Soy de México -- \"I'm from Mexico\". México has an accent on the first e.",
+      explanation: "Soy de México -- \"I'm from Mexico\". México has a written accent on the é (MÉ-xi-co), and the x sounds like a Spanish j.",
     },
     {
       type: "dictation",
@@ -63,7 +63,7 @@ const SAMPLES: Record<string, Exercise[]> = {
     {
       type: "speak",
       text: "¿Cómo se llama usted?",
-      tip: "Most speakers say ll like the y in \"yes\"; in Argentina and Uruguay it sounds like \"sh\".",
+      tip: "Say ll like the y in \"yes\".",
       explanation: "¿Cómo se llama usted? is the formal \"What's your name?\" Let your voice rise at the end of the question.",
     },
     {

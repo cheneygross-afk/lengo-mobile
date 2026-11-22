@@ -415,8 +415,56 @@ function variantsOf(answer: string, typedClean: string, opts: GradeOptions): str
         out.add(`${lead}${pronoun} ${first.charAt(0).toLowerCase()}${first.slice(1)}${rest ? ` ${rest}` : ""}`);
       }
     }
+    // The same later in the sentence, at the start of each clause
+    // ("Buenas tardes, yo soy Laura.", "Eres estudiante y soy profesor."):
+    // up to two clauses changed at once.
+    // A pronoun is only added where the answer itself has none, so "ella
+    // es" can't stand in for the answer's "él es".
+    const typedPronouns = [...new Set(typedClean.split(" ").filter((w) => SUBJECT_PRONOUNS[w]))];
+    const words = cleanAnswer(answer).split(" ");
+    const hadPronoun = new Set(words.flatMap((w, i) => (SUBJECT_PRONOUNS[w] ? [words.slice(i + 1).join(" ")] : [])));
+    let round = [...out];
+    for (let pass = 0; pass < 2; pass++) {
+      const next: string[] = [];
+      for (const v of round) for (const w of clausePronounVariants(v, typedPronouns, hadPronoun)) if (!out.has(w)) next.push(w);
+      next.forEach((w) => out.add(w));
+      round = next;
+    }
   }
   return [...out];
+}
+
+// Words that open a new clause in the middle of a sentence.
+const CLAUSE_JOINERS = new Set("y e o u ni pero que porque pues".split(" "));
+const NON_LETTERS = /[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ]/g;
+const LEADING_PUNCT = /^[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ]*/;
+
+// `answer` with a subject pronoun dropped from, or one of the typed
+// pronouns added to, the start of one of its later clauses -- only where
+// the pronoun fits the verb that follows.
+function clausePronounVariants(answer: string, typedPronouns: string[], hadPronoun: Set<string>): string[] {
+  const chunks = answer.trim().split(/\s+/);
+  const out: string[] = [];
+  for (let i = 1; i < chunks.length; i++) {
+    const prev = chunks[i - 1];
+    if (!/[,.;:?!]$/.test(prev) && !CLAUSE_JOINERS.has(prev.replace(NON_LETTERS, "").toLowerCase())) continue;
+    const chunk = chunks[i];
+    const lead = chunk.match(LEADING_PUNCT)?.[0] ?? "";
+    const word = chunk.slice(lead.length).replace(NON_LETTERS, "").toLowerCase();
+    const before = chunks.slice(0, i);
+    if (SUBJECT_PRONOUNS[word]) {
+      // Only a bare pronoun ("yo", not "yo,") right before its verb.
+      if (chunk.slice(lead.length).toLowerCase() !== word || i + 1 >= chunks.length) continue;
+      if (pronounFits(word, chunks.slice(i + 1).join(" "))) out.push([...before, lead + chunks[i + 1], ...chunks.slice(i + 2)].join(" "));
+    } else {
+      const rest = chunks.slice(i).join(" ");
+      if (hadPronoun.has(cleanAnswer(rest))) continue;
+      for (const p of typedPronouns) {
+        if (pronounFits(p, rest)) out.push([...before, `${lead}${p} ${chunk.slice(lead.length)}`, ...chunks.slice(i + 1)].join(" "));
+      }
+    }
+  }
+  return out;
 }
 
 // ---- Korean ----------------------------------------------------------
