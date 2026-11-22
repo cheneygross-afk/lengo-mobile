@@ -128,6 +128,32 @@ const A1_U4: Exercise[] = [
   say("Say it in Spanish: \"I work in an office and my sister studies at the university.\"", "Trabajo en una oficina y mi hermana estudia en la universidad.", ["Yo trabajo en una oficina y mi hermana estudia en la universidad."], "Each verb takes its own subject's ending: trabajo (yo, -o), estudia (mi hermana, -a)."),
 ];
 
+const A1_U5: Exercise[] = [
+  // Listening and reading: recognise.
+  { type: "listen-choose", audio: "Mis abuelos viven en el campo.", question: "Listen. Where do the grandparents live?", options: ["in the country", "in the city", "near the beach", "with us"], correctIndex: 0, explanation: "Viven en el campo means they live in the country. Viven is the ellos form of vivir." },
+  { type: "listen-choose", audio: "No bebemos café en la noche.", question: "Listen. What does it mean?", options: ["We don't drink coffee at night.", "We drink coffee at night.", "They don't drink coffee at night.", "I don't drink coffee at night."], correctIndex: 0, explanation: "No comes right before the verb, and bebemos (-emos) is nosotros: we don't drink." },
+  { type: "listen-choose", audio: "¿Cuándo abren la tienda?", question: "Listen. What is the question about?", options: ["when the shop opens", "where the shop is", "why the shop is closed", "how many shops there are"], correctIndex: 0, explanation: "Cuándo asks when, and abren is the ustedes / ellos form of abrir: when do they open the shop?" },
+  { type: "multiple-choice", question: "\"We write emails every day.\"", options: ["Escribimos correos todos los días.", "Escribemos correos todos los días.", "Escriben correos todos los días.", "Escribo correos todos los días."], correctIndex: 0, explanation: "Escribir is an -ir verb, so nosotros takes -imos: escribimos.", optionNotes: ["", "-emos is for -er verbs; escribir is -ir.", "Escriben is ellos or ustedes.", "Escribo is yo."] },
+  { type: "multiple-choice", question: "Answer: \"Viajo a Colombia.\" What was the question?", options: ["¿Adónde viajas?", "¿Dónde viajas?", "¿De dónde eres?", "¿Cuándo viajas?"], correctIndex: 0, explanation: "The answer says where you're heading (a Colombia), so the question asks adónde.", optionNotes: ["", "Movement toward a place takes adónde.", "That asks where you're from.", "That asks when; the answer gives a place."] },
+  { type: "multiple-choice", question: "\"Who are your teachers?\"", options: ["¿Quiénes son tus profesores?", "¿Quién son tus profesores?", "¿Quiénes es tus profesores?", "¿Cuáles son tus profesores?"], correctIndex: 0, explanation: "Several people take the plural quiénes, and the verb follows: son.", optionNotes: ["", "Quién is for one person.", "Several people take son, not es.", "Cuáles asks which ones, not who."] },
+  // Guided: write what you hear, complete, put in order, correct.
+  { type: "dictation", audio: "Leo el periódico en la mañana.", explanation: "Leo el periódico en la mañana: \"I read the newspaper in the morning.\" Yo takes -o: leo." },
+  { type: "dictation", audio: "¿Por qué no comes carne?", explanation: "¿Por qué no comes carne?: \"Why don't you eat meat?\" Por qué is two words with an accent, and no goes right before the verb." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Ustedes ___ muchas cartas.", en: "You all [receive] a lot of letters.", answer: "reciben", explanation: "Recibir is -ir, and ustedes takes the ellos ending -en, the same as -er verbs: reciben." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿___ hermanas tienes? —Tengo tres.", en: "[How many] sisters do you have? —I have three.", answer: "Cuántas", explanation: "Hermanas is feminine plural, so cuánto agrees as cuántas." },
+  { type: "word-order", prompt: "Put the words in order.", words: ["¿Con", "quién", "comes", "los", "domingos?"], translation: "Who do you eat with on Sundays?", explanation: "The preposition goes to the front with the question word: ¿Con quién...? Then the verb." },
+  { type: "translate", prompt: "Correct the sentence.", direction: "en-es", source: "Mi hermana no vivir aquí.", answer: "Mi hermana no vive aquí.", explanation: "After no, the verb still takes its ending: mi hermana is ella, so vive." },
+  { type: "translate", prompt: "Correct the sentence.", direction: "en-es", source: "¿Donde aprendes español?", answer: "¿Dónde aprendes español?", explanation: "As a question word, dónde always carries its accent." },
+  // On your own: translate and speak.
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "My friends don't understand the question.", answer: "Mis amigos no comprenden la pregunta.", altAnswers: ["Mis amigas no comprenden la pregunta.", "Mis amigos no entienden la pregunta.", "Mis amigas no entienden la pregunta."], explanation: "Mis amigos is ellos, so comprender takes -en, and no goes right before the verb." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "What do you (tú) drink in the afternoon?", answer: "¿Qué bebes en la tarde?", altAnswers: ["¿Qué bebes por la tarde?", "¿Qué tomas en la tarde?", "¿Qué tomas por la tarde?", "¿Qué bebes tú en la tarde?"], explanation: "A thing takes qué, first, then the verb in the tú form: bebes." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "We sell bread and we open at eight.", answer: "Vendemos pan y abrimos a las ocho.", altAnswers: ["Nosotros vendemos pan y abrimos a las ocho.", "Vendemos pan y abrimos a las 8."], explanation: "Vender is -er (vendemos) and abrir is -ir (abrimos): only nosotros shows the difference." },
+  say("Say it in Spanish: \"Where do you live?\"", "¿Dónde vives?", ["¿Dónde vives tú?", "¿Dónde vive usted?"], "No movement, so plain dónde, then the tú form of vivir: vives."),
+  say("Say it in Spanish: \"I don't run in the park.\"", "No corro en el parque.", ["Yo no corro en el parque."], "No goes right before the verb, and yo takes -o: corro."),
+  say("Say it in Spanish: \"Why are you studying Spanish? Because I want to travel.\"", "¿Por qué estudias español? Porque quiero viajar.", ["¿Por qué estudias español? Porque quiero viajar mucho."], "The question is por qué (two words, accent); the answer is porque (one word, no accent)."),
+  say("Say it in Spanish: \"My parents read and I write.\"", "Mis padres leen y yo escribo.", ["Mis papás leen y yo escribo."], "Each verb takes its own subject's ending: leen (ellos, -en), escribo (yo, -o)."),
+];
+
 const check = (slug: string, level: Level, title: string, summary: string, body: string, exercises: Exercise[]): Lesson => ({
   slug,
   level,
@@ -173,5 +199,13 @@ export const ES_UNIT_CHECKS: Record<string, Lesson> = {
     "Twenty new questions on the whole unit: hay or está, numbers and prices, the time, days and dates, and regular -ar verbs.",
     "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
     A1_U4,
+  ),
+  "a1/5": check(
+    "es-a1-unit-5-unit-review",
+    "A1",
+    "Unit 5 check: Regular -er and -ir verbs now · Saying no · Asking questions",
+    "Twenty new questions on the whole unit: -er and -ir verbs, no before the verb, and the question words.",
+    "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
+    A1_U5,
   ),
 };
