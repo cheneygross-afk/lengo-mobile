@@ -2865,7 +2865,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Where does the friend work?",
+            "question": "Todos los días, estudio español y escucho música. Mi amiga trabaja en un café y camina al trabajo. Los fines de semana, compramos comida juntos.\n\nWhere does the writer's friend work?",
             "options": [
               "a school",
               "a café",
@@ -2877,7 +2877,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "Who buys food on weekends?",
+            "question": "Todos los días, estudio español y escucho música. Mi amiga trabaja en un café y camina al trabajo. Los fines de semana, compramos comida juntos.\n\nWho buys food on weekends?",
             "options": [
               "the writer and the friend together",
               "only the friend",

@@ -25,6 +25,17 @@ export const dict = (audio: string, explanation: string, altAnswers?: string[], 
 });
 
 /** Speak (shadowing): hear the model, record yourself, compare. */
+/** Say it in Spanish from an English cue (auditor, 2026-11-20): the Spanish
+ * stays hidden until the learner has said it, so they produce it rather
+ * than read it. The tip shows once the answer does. */
+export const sayIt = (text: string, en: string, tip: string, explanation: string): SpeakExercise => ({
+  type: "speak",
+  prompt: `Say it in Spanish: "${en}"`,
+  text,
+  tip,
+  explanation,
+});
+
 export const spk = (text: string, tip: string, explanation: string): SpeakExercise => ({
   type: "speak",
   text,

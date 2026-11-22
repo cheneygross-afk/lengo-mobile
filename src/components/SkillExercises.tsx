@@ -281,7 +281,8 @@ export function Speak({
           </Pressable>
         </View>
       )}
-      {exercise.tip && <TapText text={`Tip: ${exercise.tip}`} lang={lang} style={s.tip} />}
+      {/* Respond aloud: a tip can quote the answer, so it waits until the answer shows. */}
+      {exercise.tip && reveal && <TapText text={`Tip: ${exercise.tip}`} lang={lang} style={s.tip} />}
       <View style={s.row}>
         {reveal && (
           <Pressable style={s.secondaryBtn} onPress={() => speak(exercise.text, lang)}>

@@ -1,6 +1,6 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/skills-a1.ts by scripts/sync-content.mjs -- edit it there, not here.
 import type { Exercise } from "./types";
-import { dict, lc, spk, wr } from "./skills-authoring";
+import { dict, lc, sayIt, spk, wr } from "./skills-authoring";
 
 // A1 listening, speaking and writing practice, appended to the named
 // lessons' final reviews by withSkills() (skills.ts). Instructions in
@@ -21,9 +21,9 @@ export const A1_SKILLS: Record<string, Exercise[]> = {
       0,
       "Sí, practico tenis -- \"Yes, I play tennis.\" The answer mirrors the question: practicas → practico."
     ),
-    spk("—¿Cocinas en casa? —Sí, cocino todos los días.", "Rise at the end of the question, fall at the end of the answer.", "The mirror rule: cocinas (you) in the question, cocino (I) in the answer."),
-    spk("Estudio inglés y trabajo en una tienda.", "Link estudio inglés into one flow: \"es-tu-dioin-glés\".", "\"I study English and work in a shop.\""),
-    spk("—¿Ustedes entrenan los lunes? —No, entrenamos los martes.", "Tap the r in entrenan and entrenamos (tr).", "\"Do you all train on Mondays? No, we train on Tuesdays.\" A question to ustedes gets a nosotros answer: entrenamos."),
+    sayIt("—¿Cocinas en casa? —Sí, cocino todos los días.", "Do you cook at home? Yes, I cook every day.", "Rise at the end of the question, fall at the end of the answer.", "The mirror rule: cocinas (you) in the question, cocino (I) in the answer."),
+    sayIt("Estudio inglés y trabajo en una tienda.", "I study English and work in a shop.", "Link estudio inglés into one flow: \"es-tu-dioin-glés\".", "\"I study English and work in a shop.\""),
+    sayIt("—¿Ustedes entrenan los lunes? —No, entrenamos los martes.", "Do you all train on Mondays? No, we train on Tuesdays.", "Tap the r in entrenan and entrenamos (tr).", "\"Do you all train on Mondays? No, we train on Tuesdays.\" A question to ustedes gets a nosotros answer: entrenamos."),
   ],
   "a1r-dialogue-whose-where": [
     lc(
