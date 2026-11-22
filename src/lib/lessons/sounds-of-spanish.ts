@@ -113,12 +113,7 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
           ),
         ]
       ),
-      sec(
-        "Say new words one syllable at a time",
-        [
-          "A new word is easier in small pieces. Most Spanish syllables are one consonant plus one vowel: ca-sa, me-sa, pa-la. Say each piece slowly, then join them at normal speed.",
-          "Two consonants side by side usually split between syllables: ven-ta-na, can-tar. Every syllable has exactly one vowel sound.",
-        ],
+    ],
         [
           ["casa", "house -- ca-sa"],
           ["mesa", "table -- me-sa"],
