@@ -38,6 +38,12 @@ const DIRS = {
   // website's rebuilt HSK 3.0 course is web-only for now (like the rebuilt
   // Japanese course). The app keeps its own copies of the earlier Chinese
   // beta, edited here.
+  // The redesigned Spanish course (concept steps, warm-ups, read-and-write
+  // tasks by interest). Preview-only on the website until all six levels
+  // pass the checks; synced so the app is ready for the switch.
+  "src/lib/lessons/es-redesign": [
+    "load.ts", // the website's admin preview loader (reads the website's data folder)
+  ],
   "src/lib/stories": [],
   "src/lib/readings": [],
   "src/lib/grammar": [],
@@ -139,7 +145,8 @@ const webOnly = (dir, name) =>
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
-const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts", "src/lib/ko-placementTest.ts", "src/lib/it-placementTest.ts"];
+// interests.ts: what a learner is into (the redesigned course picks videos and readings by it).
+const FILES = ["src/lib/interests.ts", "src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts", "src/lib/ko-placementTest.ts", "src/lib/it-placementTest.ts"];
 // Files above that the website may not have yet (the Italian course's placement test).
 const OPTIONAL_FILES = new Set(["src/lib/it-placementTest.ts"]);
 
