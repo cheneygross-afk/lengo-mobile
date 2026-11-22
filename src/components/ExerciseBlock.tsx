@@ -278,7 +278,12 @@ function MultipleChoice({
       {!checked && (
         <SubmitButton
           disabled={selected === null}
-          onPress={() => selected !== null && onSubmit(selected === exercise.correctIndex)}
+          onPress={() => {
+            if (selected === null) return;
+            // A wrong pick shows its own note first (optionNotes).
+            const why = selected !== exercise.correctIndex ? exercise.optionNotes?.[selected]?.trim() : "";
+            onSubmit(selected === exercise.correctIndex, why ? `Why not: ${why}` : undefined);
+          }}
         />
       )}
     </View>

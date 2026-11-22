@@ -10,7 +10,7 @@
 // through guided work (fill the gap, order the words, change or correct a
 // sentence), to producing language freely (translate, say, write).
 
-import type { Exercise, Lesson, LessonExample, LessonTable } from "./types";
+import type { BuildStep, Exercise, Lesson, LessonExample, LessonTable } from "./types";
 
 // Task families (also used by scripts/qa/concept-check.ts).
 export type Family = "choose" | "transform" | "spot-error" | "produce" | "recognise" | "listen";
@@ -64,8 +64,23 @@ export type FlowStep =
       examples: LessonExample[];
       /** The section's tables, on its last card only. */
       tables: LessonTable[];
+      /** An exception card ("Watch out"), shown with a yellow edge. */
+      watchOut: boolean;
+      /** The section's build-it steps, on its last card only. */
+      build: BuildStep[];
     }
-  | { kind: "exercise"; stage: Stage | "try"; exercise: Exercise; ref: ExerciseRef };
+  | {
+      kind: "exercise";
+      stage: Stage | "try";
+      exercise: Exercise;
+      ref: ExerciseRef;
+      /** The teaching section the question is on, when known: its own
+       * checkpoint, the section it was borrowed for, or meta.section. */
+      section: number | null;
+    }
+  // "Let's look again" (CRRT Reintroduce): put in by planReteach() after a
+  // learner misses two questions on one section.
+  | { kind: "reteach"; section: number; heading: string; text: string | null; tables: LessonTable[]; examples: LessonExample[] };
 
 /** A paragraph of a section's body, or a run of sentences cut from one.
  * from = its index in section.body; whole = it is the entire paragraph. */
@@ -169,10 +184,11 @@ export function lessonFlow(l: Lesson): FlowStep[] {
     cards.forEach((body, part) => {
       const examples = cards.length > 1 && ex.length > 3 ? ex.slice(part * per, (part + 1) * per) : part === cards.length - 1 ? ex : [];
       const tables = part === cards.length - 1 ? s.tables ?? [] : [];
-      out.push({ kind: "learn", section: si, part, parts: cards.length, heading: s.heading, body, examples, tables });
+      const last = part === cards.length - 1;
+      out.push({ kind: "learn", section: si, part, parts: cards.length, heading: s.heading, body, examples, tables, watchOut: !!s.watchOut, build: last ? s.build ?? [] : [] });
     });
     const own = s.checkpoint ?? [];
-    own.forEach((exercise, index) => out.push({ kind: "exercise", stage: "try", exercise, ref: { section: si, index } }));
+    own.forEach((exercise, index) => out.push({ kind: "exercise", stage: "try", exercise, ref: { section: si, index }, section: si }));
     // A section with no check of its own borrows an easy practice item, so
     // nothing is taught without being tried straight away.
     if (!own.length && !ordered) {
@@ -181,13 +197,63 @@ export function lessonFlow(l: Lesson): FlowStep[] {
         practice.find((p) => !borrowed.has(p.index) && p.stage === "walk");
       if (pick) {
         borrowed.add(pick.index);
-        out.push({ kind: "exercise", stage: "try", exercise: pick.exercise, ref: { section: null, index: pick.index } });
+        out.push({ kind: "exercise", stage: "try", exercise: pick.exercise, ref: { section: null, index: pick.index }, section: si });
       }
     }
   });
   const rest = practice.filter((p) => !borrowed.has(p.index));
   const rank: Record<Stage, number> = { crawl: 0, walk: 1, run: 2 };
   if (!ordered) rest.sort((a, b) => rank[a.stage] - rank[b.stage] || a.index - b.index);
-  for (const p of rest) out.push({ kind: "exercise", stage: p.stage, exercise: p.exercise, ref: { section: null, index: p.index } });
+  for (const p of rest) out.push({ kind: "exercise", stage: p.stage, exercise: p.exercise, ref: { section: null, index: p.index }, section: sectionOf(l, p.exercise) });
   return out;
+}
+
+const sectionOf = (l: Lesson, e: Exercise): number | null => {
+  const s = e.meta?.section;
+  return typeof s === "number" && s >= 0 && s < l.sections.length ? s : null;
+};
+
+// ---- CRRT: help that fades, and "Let's look again" ----
+
+/** How much help a question gets: the table beside it (open book), behind
+ * a "Peek at the table" button, or none. Help fades as practice climbs. */
+export type Help = "open" | "peek" | "none";
+export function helpOf(stage: Stage | "try"): Help {
+  if (stage === "try" || stage === "crawl") return "open";
+  if (stage === "walk") return "peek";
+  return "none";
+}
+
+/** Every table the lesson teaches, for the table drawer next to questions. */
+export function lessonTables(l: Lesson): LessonTable[] {
+  return l.sections.flatMap((s) => s.tables ?? []);
+}
+
+/** How many misses on one section bring back "Let's look again". */
+export const RETEACH_AFTER = 2;
+/** How many upcoming questions on the section move up right after it. */
+export const RETEACH_FOLLOW = 2;
+
+/** The steps with a "Let's look again" card put in after step `at`, and the
+ * next RETEACH_FOLLOW unreached questions on that section (easiest first,
+ * as the flow already orders them) moved up right behind it. */
+export function planReteach(steps: FlowStep[], at: number, l: Lesson, section: number): FlowStep[] {
+  const s = l.sections[section];
+  if (!s) return steps;
+  const card: FlowStep = {
+    kind: "reteach",
+    section,
+    heading: s.heading,
+    text: s.reteach ?? null,
+    tables: s.tables ?? [],
+    examples: (s.examples ?? []).slice(0, 2),
+  };
+  const later = steps.slice(at + 1);
+  const follow: FlowStep[] = [];
+  const rest: FlowStep[] = [];
+  for (const st of later) {
+    if (follow.length < RETEACH_FOLLOW && st.kind === "exercise" && st.section === section) follow.push(st);
+    else rest.push(st);
+  }
+  return [...steps.slice(0, at + 1), card, ...follow, ...rest];
 }
