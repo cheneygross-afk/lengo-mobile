@@ -313,30 +313,6 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         0,
         "Ellos is inside the boot, so o → ue: cuentan. \"Contan\" is missing the change, \"cuentamos\" wrongly puts the change in nosotros, and \"contamos\" is correct for \"we\", not \"they\"."
       ),
-      mc(
-        "Which vowel change does pensar make in \"you think\" (tú)?",
-        ["e → ie", "o → ue", "e → i", "No change"],
-        0,
-        "Tú is inside the boot, and pensar is an e → ie verb: piensas."
-      ),
-      mc(
-        "Which vowel change does dormir make in \"we sleep\" (nosotros)?",
-        ["No change", "o → ue", "e → ie", "o → u"],
-        0,
-        "Nosotros is outside the boot, so the o stays: dormimos. In yo, tú, él and ellos it would be o → ue: duermo."
-      ),
-      mc(
-        "Which vowel change does pedir make in \"she asks for\" (ella)?",
-        ["e → i", "e → ie", "o → ue", "No change"],
-        0,
-        "Ella is inside the boot, and pedir is an e → i verb: pide. It never becomes \"piede\"."
-      ),
-      mc(
-        "Which vowel change does encontrar make in \"I find\" (yo)?",
-        ["o → ue", "e → ie", "e → i", "No change"],
-        0,
-        "Yo is inside the boot, and encontrar is an o → ue verb: encuentro."
-      ),
       { type: "speak", prompt: "Say it in Spanish: I can't find my keys, but we can go on foot.", text: "No encuentro mis llaves, pero podemos ir a pie.", explanation: "Encuentro (yo) is inside the boot (o → ue); podemos (nosotros) is outside it, so no change." },
     ]
   ),
