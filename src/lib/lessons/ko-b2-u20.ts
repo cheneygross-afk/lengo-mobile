@@ -63,7 +63,7 @@ export const KO_B2_U20: Lesson[] = [
         heading: "Extreme weather: 폭염, 폭우, 가뭄, 이상 기후",
         body: [
           "The weather words in the news are short Sino-Korean nouns. 폭염 is a heatwave, 폭우 torrential rain, 폭설 heavy snow: the 폭 in each means 'violent'. 가뭄 'drought' is native Korean. 이상 기후 is 'abnormal weather', the umbrella term for all of them; 이상 here means 'abnormal', not the 이상 of 65세 이상 'or more'. The verbs: 폭염이 이어지다 'a heatwave goes on', 폭우가 쏟아지다 'rain pours down', 가뭄이 들다 'a drought sets in'.",
-          "To describe the change itself, use the A2 pattern -아 / 어지다 with -고 있다: 여름이 더워지고 있다 'summers are getting hotter'. 해마다 'every year, year by year' and 점점 'gradually' make it a trend. In speech say 해마다 여름이 더 더워지는 것 같아요; in writing drop the hedge: 해마다 여름이 더 더워지고 있다.",
+          "To describe the change itself, use the Elementary pattern -아 / 어지다 with -고 있다: 여름이 더워지고 있다 'summers are getting hotter'. 해마다 'every year, year by year' and 점점 'gradually' make it a trend. In speech say 해마다 여름이 더 더워지는 것 같아요; in writing drop the hedge: 해마다 여름이 더 더워지고 있다.",
         ],
         examples: [
           { es: "해마다 여름이 더 더워지고 있다.", en: "Summers are getting hotter every year." },
@@ -207,7 +207,7 @@ export const KO_B2_U20: Lesson[] = [
         source: "Apparently the drought ruined the harvest.",
         answer: "가뭄이 들어서 농사를 망쳤대요.",
         altAnswers: ["가뭄 때문에 농사를 망쳤대요.", "가뭄으로 농사를 망쳤대요.", "가뭄이 들어서 농사를 망쳤다고 해요.", "가뭄 때문에 농사를 망쳤다고 해요.", "가뭄이 들어서 농사가 망했대요.", "가뭄 때문에 농사가 망했대요.", "가뭄 때문에 농사를 다 망쳤대요."],
-        explanation: "가뭄이 들다 'a drought sets in'; 농사를 망치다 'ruin the farming'. -대요 passes on what you heard (B1).",
+        explanation: "가뭄이 들다 'a drought sets in'; 농사를 망치다 'ruin the farming'. -대요 passes on what you heard (Intermediate).",
       },
       {
         type: "dictation",
@@ -283,7 +283,7 @@ export const KO_B2_U20: Lesson[] = [
       {
         heading: "Reading an air-quality app",
         body: [
-          "Korean weather apps show dust as a level, not just a number: 좋음 'good', 보통 'moderate', 나쁨 'bad', 매우 나쁨 'very bad'. These are noun forms made with -(으)ㅁ (B1 Unit 22), the style of signs and labels. You read them out with 이에요: 오늘 미세먼지는 '나쁨'이에요. The figure behind the label is the 농도 'concentration': 미세먼지 농도가 높다 'the dust level is high'.",
+          "Korean weather apps show dust as a level, not just a number: 좋음 'good', 보통 'moderate', 나쁨 'bad', 매우 나쁨 'very bad'. These are noun forms made with -(으)ㅁ (Intermediate Unit 22), the style of signs and labels. You read them out with 이에요: 오늘 미세먼지는 '나쁨'이에요. The figure behind the label is the 농도 'concentration': 미세먼지 농도가 높다 'the dust level is high'.",
           "Forecasts use 예보 'forecast' and a few set verbs. 미세먼지 주의보 is an advisory and 경보 a warning, the stronger alert: 주의보가 내려졌다 'an advisory was issued', 해제되다 'be lifted'. 전국 'nationwide', 수도권 'the capital area' and 오후부터 'from the afternoon' tell you where and when. Don't read 나쁨 as 나빠요: the label is a noun, so use 이에요.",
         ],
         examples: [
@@ -664,7 +664,7 @@ export const KO_B2_U20: Lesson[] = [
       {
         heading: "Not doing it is not an option: -지 않으면 안 되다",
         body: [
-          "-지 않으면 안 되다 is built like a small argument: -지 않으면 'if we don't' + 안 되다 'it won't do'. The result is a stronger 'must' than the A2 -아 / 어야 하다, because it rules out the alternative: 지금 행동하지 않으면 안 된다 'We have no choice but to act now'. Attach -지 to any verb or adjective stem: 줄이다 → 줄이지 않으면 안 된다, 바꾸다 → 바꾸지 않으면 안 돼요.",
+          "-지 않으면 안 되다 is built like a small argument: -지 않으면 'if we don't' + 안 되다 'it won't do'. The result is a stronger 'must' than the Elementary level -아 / 어야 하다, because it rules out the alternative: 지금 행동하지 않으면 안 된다 'We have no choice but to act now'. Attach -지 to any verb or adjective stem: 줄이다 → 줄이지 않으면 안 된다, 바꾸다 → 바꾸지 않으면 안 돼요.",
           "Tense goes on the last verb, never on -지: 줄이지 않으면 안 됐다 'we had to cut it', 바꾸지 않으면 안 될 것이다 'we will have to change it'. In conversation the first half often shortens to 안 -(으)면: 지금 안 하면 안 돼요. Watch the second 안: drop it and 줄이지 않으면 돼요 means 'it's fine if you don't cut it', the opposite of what you meant.",
         ],
         examples: [
@@ -1149,7 +1149,7 @@ export const KO_B2_U20: Lesson[] = [
         heading: "Danger: -(으)ㄹ 위험이 있다, and the spoken -(으)ㄹ지도 모르다",
         body: [
           "위험 'danger, risk' is the word for physical harm and serious threats: health, safety, accidents. -(으)ㄹ 위험이 있다 / 크다 / 높다: 폭염에 오래 노출되면 열사병에 걸릴 위험이 있다. Like 우려, it only describes bad outcomes, but it sounds more concrete: 우려 is the worry, 위험 the hazard itself.",
-          "All three are formal or neutral nouns. In everyday talk, B1's -(으)ㄹ지도 모르다 'might' is the natural guess: 내일 비가 올지도 몰라요. It is personal and tentative, while the noun patterns sound like a report or an expert. 이러다가 열사병에 걸릴지도 몰라 is what you say to a friend; 열사병에 걸릴 위험이 있습니다 is what the news says.",
+          "All three are formal or neutral nouns. In everyday talk, the Intermediate level's -(으)ㄹ지도 모르다 'might' is the natural guess: 내일 비가 올지도 몰라요. It is personal and tentative, while the noun patterns sound like a report or an expert. 이러다가 열사병에 걸릴지도 몰라 is what you say to a friend; 열사병에 걸릴 위험이 있습니다 is what the news says.",
         ],
         examples: [
           { es: "폭염에 오래 노출되면 열사병에 걸릴 위험이 있다.", en: "Long exposure to extreme heat carries a risk of heatstroke." },
@@ -1688,7 +1688,7 @@ export const KO_B2_U20: Lesson[] = [
         heading: "Part 2: the customers",
         body: [
           "Feature articles let real people speak. Korean newspapers often close a direct quotation with 고 했다 or 고 말했다 rather than 라고: \"이제는 습관이 됐다\"고 했다. The age in brackets after a name, 박서연 씨(34), is the standard press format.",
-          "Notice how the customers' quotes use this unit's grammar: -(으)ㄹ 게 아니라 to reject the easy option, and a past habit that has become routine with -게 되다 (B1) and 습관이 되다 'become a habit'.",
+          "Notice how the customers' quotes use this unit's grammar: -(으)ㄹ 게 아니라 to reject the easy option, and a past habit that has become routine with -게 되다 (Intermediate) and 습관이 되다 'become a habit'.",
         ],
         examples: [
           { es: "평일 저녁에도 가게는 퇴근한 직장인들로 붐빈다.", en: "Even on weekday evenings the shop is busy with office workers on their way home." },

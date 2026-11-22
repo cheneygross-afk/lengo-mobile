@@ -61,7 +61,7 @@ export const KO_B2_U08: Lesson[] = [
       {
         heading: "-(으)며 for actions at the same time: the written -(으)면서",
         body: [
-          "-(으)며 has a second job: two actions by the same person at the same time, like -(으)면서 (A2). 음악을 들으며 산책했다 is 'I took a walk, listening to music'. Here the subject must be the same in both clauses, and the tense goes only on the last verb: 들으며. 들었으며 would turn it back into a list of two separate past facts, but the listening isn't a separate fact; it is what was happening during the walk.",
+          "-(으)며 has a second job: two actions by the same person at the same time, like -(으)면서 (Elementary). 음악을 들으며 산책했다 is 'I took a walk, listening to music'. Here the subject must be the same in both clauses, and the tense goes only on the last verb: 들으며. 들었으며 would turn it back into a list of two separate past facts, but the listening isn't a separate fact; it is what was happening during the walk.",
           "So the same ending reads two ways, and the context decides. Different subjects, or two facts that could be listed in any order, mean 'and'. One subject doing two things at once means 'while'. 그는 웃으며 대답했다 can only be 'he answered with a smile'.",
         ],
         examples: [
@@ -485,7 +485,7 @@ export const KO_B2_U08: Lesson[] = [
         heading: "What can follow, and 그러므로",
         body: [
           "-아 / 어서 can't be followed by a command, but -(으)므로 can take a formal request, which is why signs and notices use it so often: 바닥이 미끄러우므로 조심하시기 바랍니다, 공사 중이므로 다른 출입구를 이용해 주십시오. What it doesn't go with is a casual 반말 command. 위험하므로 들어가지 마 is understandable, but it mixes a printed connective with playground speech.",
-          "그러므로 is the same idea at the start of a sentence: 'therefore'. It belongs to arguments and conclusions, where one statement logically produces the next. 따라서 (B1) is close and slightly more neutral; both start written sentences.",
+          "그러므로 is the same idea at the start of a sentence: 'therefore'. It belongs to arguments and conclusions, where one statement logically produces the next. 따라서 (Intermediate) is close and slightly more neutral; both start written sentences.",
         ],
         examples: [
           { es: "바닥이 미끄러우므로 조심하시기 바랍니다.", en: "The floor is slippery, so please be careful." },
@@ -516,7 +516,7 @@ export const KO_B2_U08: Lesson[] = [
       {
         heading: "-(으)므로 or -(으)ㅁ으로써?",
         body: [
-          "These two sound almost alike and mean different things. -(으)므로 is 'because'. -(으)ㅁ으로써 is the noun form -(으)ㅁ (B1) plus 으로써 'by means of', so it means 'by doing': 운동을 꾸준히 함으로써 건강을 지킬 수 있다. Compare 열심히 공부하므로 성적이 좋다 (his grades are good because he studies hard) with 열심히 공부함으로써 성적을 올렸다 (he raised his grades by studying hard).",
+          "These two sound almost alike and mean different things. -(으)므로 is 'because'. -(으)ㅁ으로써 is the noun form -(으)ㅁ (Intermediate) plus 으로써 'by means of', so it means 'by doing': 운동을 꾸준히 함으로써 건강을 지킬 수 있다. Compare 열심히 공부하므로 성적이 좋다 (his grades are good because he studies hard) with 열심히 공부함으로써 성적을 올렸다 (he raised his grades by studying hard).",
           "Test it: if you can say 'by ...ing' in English, you need 함으로써, with the ㅁ attached to the stem. *공부하므로써 is a spelling mistake that mixes the two. For 'because', standard writing uses 공부하므로, not 공부함으로, which reads as 'by studying'.",
         ],
         examples: [
@@ -650,7 +650,7 @@ export const KO_B2_U08: Lesson[] = [
       {
         heading: "-고자 하다: 'this essay aims to'",
         body: [
-          "-고자 하다 means 'intend to, aim to', like -(으)려고 하다 (B1), but in a much higher register. It is the standard way to announce what a text will do: 이 글에서는 청년 실업의 원인과 해결 방법을 살펴보고자 한다. Almost every Korean essay, thesis and report states its aim in a sentence like this, and TOPIK writing examiners expect one.",
+          "-고자 하다 means 'intend to, aim to', like -(으)려고 하다 (Intermediate), but in a much higher register. It is the standard way to announce what a text will do: 이 글에서는 청년 실업의 원인과 해결 방법을 살펴보고자 한다. Almost every Korean essay, thesis and report states its aim in a sentence like this, and TOPIK writing examiners expect one.",
           "The form is the easiest in this unit: stem + -고자, with no 으 and no irregular changes. 보다 → 보고자, 듣다 → 듣고자, 돕다 → 돕고자, 살다 → 살고자. It attaches to action verbs only, because you can intend to do something but not to 'be' an adjective.",
           "In 한다체 the verb is 한다 (present), even though the aim lies ahead: 살펴보고자 한다. Adding a future tense (살펴보고자 할 것이다) sounds odd, because the intention exists now. The subject is usually the writer, the text (본 연구는, 이 장에서는) or an organisation in the news (정부는).",
         ],
@@ -855,7 +855,7 @@ export const KO_B2_U08: Lesson[] = [
         heading: "-(으)ㄴ 바 있다: on record as having done",
         body: [
           "바 is a dependent noun meaning 'what, the thing that', a formal cousin of 것. It never stands alone; a modifier always comes before it, and it is always spaced: 발표한 바, 느낀 바. Its most frequent use in the news is -(으)ㄴ 바 있다, 'has (once) done': 정부는 지난달 이 계획을 발표한 바 있다.",
-          "It does the job of -(으)ㄴ 적이 있다 (A2), but in reports and news it points to a fact already on record, often to remind the reader of something relevant now. The negative -(으)ㄴ 바 없다 is how officials deny things: 시장은 그런 약속을 한 바 없다고 밝혔다.",
+          "It does the job of -(으)ㄴ 적이 있다 (Elementary), but in reports and news it points to a fact already on record, often to remind the reader of something relevant now. The negative -(으)ㄴ 바 없다 is how officials deny things: 시장은 그런 약속을 한 바 없다고 밝혔다.",
           "With particles, 바 simply means 'what': 이번 여행에서 느낀 바가 많았다, 'I took a lot away from this trip'. You'll see it in essays where English says 'what I felt' or 'what we found'.",
         ],
         examples: [
@@ -2078,7 +2078,7 @@ export const KO_B2_U08: Lesson[] = [
       {
         heading: "Question 51: a library notice and a club invitation",
         body: [
-          "In question 51 you fill two gaps, (ㄱ) and (ㄴ), in a short practical text: a notice, an invitation, an email. Each gap takes one sentence or clause in the text's own register, which for notices is 합니다 with honorifics. At B1 you read the clues around the gap; at B2 those clues are often this unit's connectives. A gap that ends just before -(으)므로 needs a reason; a gap after -(으)므로 needs the result or request it leads to.",
+          "In question 51 you fill two gaps, (ㄱ) and (ㄴ), in a short practical text: a notice, an invitation, an email. Each gap takes one sentence or clause in the text's own register, which for notices is 합니다 with honorifics. At the Intermediate level you read the clues around the gap; at the Upper-intermediate level those clues are often this unit's connectives. A gap that ends just before -(으)므로 needs a reason; a gap after -(으)므로 needs the result or request it leads to.",
           "The most common closing gap in a notice is a request: -아 / 어 주시기 바랍니다, -시기 바랍니다, 부탁드립니다. A gap before -고자 합니다 needs an action verb the writer intends. Full marks need the right meaning, the right register and correct spelling.",
         ],
         examples: [

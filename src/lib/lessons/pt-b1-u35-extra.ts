@@ -8,13 +8,13 @@ export const PT_B1_U35_EXTRA: Lesson[] = [
     level: "PT-B1",
     number: 1,
     title: "Extra Practice: Exit Test Preparation, Part 1 of 3",
-    summary: "Mixed B1 grammar without hints: moods, past tenses, verb chains, relatives, the personal infinitive, reported speech and the passive.",
+    summary: "Mixed Intermediate grammar without hints: moods, past tenses, verb chains, relatives, the personal infinitive, reported speech and the passive.",
     duration: "12 min",
     optional: true,
     kind: "drill",
     sections: [
       {
-        heading: "The B1 toolkit in brief",
+        heading: "The Intermediate toolkit in brief",
         body: [
           "Two subjects → \"que\" + subjunctive (or the personal infinitive); fact → indicative; wish, feeling, doubt, purpose, condition → subjunctive. Past: events in the perfeito, scene in the imperfeito, the earlier past with \"tinha\" + participle, lately with \"tenho\" + participle. Prepositions go before relatives (\"com quem\", \"em que\"), reported speech shifts the tenses back, and the passive agrees with its subject.",
         ],

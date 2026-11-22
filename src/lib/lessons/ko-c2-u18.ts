@@ -1498,7 +1498,7 @@ export const KO_C2_U18: Lesson[] = [
         heading: "Backstory and truths: -고 있었다, the past, -기 마련이다",
         body: [
           "When the film looks back, the narration moves into the past, and -고 있었다 sets the scene for something that interrupts it: 그날 새벽에도 박 씨는 배 위에서 그물을 정리하고 있었다. 그때 무전기가 울렸다. The first sentence is the background in progress, the second the event. This is the documentary's way of telling a story, and the pattern is the same as in English ('was mending ... when'), so the risk is the opposite one: using the simple past for both and losing the frame. The plain past also gives history: 삼십 년 전, 이 골목에는 생선 가게가 쉰 곳이 넘었다.",
-          "Documentaries like to draw a general lesson from a particular life, and -기 마련이다 'it is in the nature of things that' is the tool (B2 Unit 4): 바다는 주는 만큼 가져가기 마련이다; 오래된 것은 사라지기 마련이다. It states a truth, not a prediction about one event, so it sounds wrong for a single case (내일 이 가게는 문을 닫기 마련이다 is a misuse). A narrator might use it once or twice per film, at the end of a sequence, where the music swells.",
+          "Documentaries like to draw a general lesson from a particular life, and -기 마련이다 'it is in the nature of things that' is the tool (Upper-intermediate Unit 4): 바다는 주는 만큼 가져가기 마련이다; 오래된 것은 사라지기 마련이다. It states a truth, not a prediction about one event, so it sounds wrong for a single case (내일 이 가게는 문을 닫기 마련이다 is a misuse). A narrator might use it once or twice per film, at the end of a sequence, where the music swells.",
         ],
         examples: [
           { es: "그날 새벽에도 박 씨는 배 위에서 그물을 정리하고 있었다.", en: "That morning, too, Mr Park was sorting his nets on the boat." },

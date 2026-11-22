@@ -1037,7 +1037,7 @@ export const PT_B1_U22: Lesson[] = [
       {
         heading: "Since when: faz uma semana que, desde segunda",
         body: [
-          "Landlords always ask \"desde quando?\". Answer with the A2 patterns: \"faz uma semana que a torneira está pingando\" or \"a torneira está pingando há uma semana\" (for a week), or \"desde segunda\" (since Monday). English says has been dripping; Portuguese keeps the present, because the problem is still going on.",
+          "Landlords always ask \"desde quando?\". Answer with the Elementary patterns: \"faz uma semana que a torneira está pingando\" or \"a torneira está pingando há uma semana\" (for a week), or \"desde segunda\" (since Monday). English says has been dripping; Portuguese keeps the present, because the problem is still going on.",
           "For one past event, use the perfeito: \"o chuveiro queimou ontem\", \"a luz acabou às oito\". Combine the two to tell the whole story: \"o cano estourou no domingo, e desde então está vazando\".",
         ],
         examples: [
@@ -2694,14 +2694,14 @@ export const PT_B1_U22: Lesson[] = [
     level: "PT-B1",
     number: 12,
     title: "Spiral Review: At Home in Brazil",
-    summary: "Mixed practice of renting, repairs and condomínio life with the present subjunctive and the A2 past tenses.",
+    summary: "Mixed practice of renting, repairs and condomínio life with the present subjunctive and the Elementary past tenses.",
     duration: "15 min",
     kind: "review",
     sections: [
       {
         heading: "Looking and renting",
         body: [
-          "This review mixes the whole unit with the present subjunctive and the A2 past tenses. A housing story has three moods: the apartment you want (subjunctive), the apartment you saw (indicative, often in the perfeito) and the apartment you used to have (imperfeito).",
+          "This review mixes the whole unit with the present subjunctive and the Elementary past tenses. A housing story has three moods: the apartment you want (subjunctive), the apartment you saw (indicative, often in the perfeito) and the apartment you used to have (imperfeito).",
         ],
         examples: [
           { es: "Quando eu morava em Recife, tinha um apartamento que dava para o mar.", en: "When I lived in Recife, I had an apartment that looked out on the sea." },

@@ -94,7 +94,7 @@ export const KO_A2_U15: Lesson[] = [
       {
         heading: "Sound focus: the silent ㅎ in ㄶ and ㅀ",
         body: [
-          "In A1 you learned that ㅎ goes silent before a vowel: 좋아요 [조아요]. The double finals ㄶ and ㅀ do the same: the ㅎ disappears and the other consonant slides onto the vowel. 많아요 [마나요], 싫어요 [시러요], 괜찮으면 [괜차느면], 끊으면 [끄느면], 잃어버렸어요 [이러버려써요].",
+          "In the Beginner level you learned that ㅎ goes silent before a vowel: 좋아요 [조아요]. The double finals ㄶ and ㅀ do the same: the ㅎ disappears and the other consonant slides onto the vowel. 많아요 [마나요], 싫어요 [시러요], 괜찮으면 [괜차느면], 끊으면 [끄느면], 잃어버렸어요 [이러버려써요].",
           "So -(으)면 after these stems sounds like 느면 or 르면: 싫으면 [시르면], 많으면 [마느면]. The spelling keeps ㄶ and ㅀ; only the sound changes.",
         ],
         examples: [

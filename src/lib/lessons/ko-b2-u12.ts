@@ -336,7 +336,7 @@ export const KO_B2_U12: Lesson[] = [
             source: "Moving costs vary enormously depending on the company.",
             answer: "이사 비용은 업체에 따라 천차만별이에요.",
             altAnswers: ["이사 비용은 회사에 따라 천차만별이에요.", "이사 비용이 업체에 따라 천차만별이에요.", "이삿짐 비용은 업체에 따라 천차만별이에요.", "이사 비용은 업체마다 천차만별이에요.", "이사 비용은 회사마다 천차만별이에요."],
-            explanation: "N에 따라 (depending on N, B2 Unit 9) + 천차만별이에요: 별 ends in a consonant, so 이에요.",
+            explanation: "N에 따라 (depending on N, Upper-intermediate Unit 9) + 천차만별이에요: 별 ends in a consonant, so 이에요.",
           },
           {
             type: "word-order",

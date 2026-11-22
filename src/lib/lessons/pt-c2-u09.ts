@@ -416,7 +416,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "Preferir and obedecer: what survives in good writers",
         body: [
-          "A reminder from B2: \"preferir\" compares with \"a\", not \"do que\". The slip that survives even in good writers is the intensifier: \"prefiro mais\", \"prefiro mil vezes\", \"prefiro muito mais\". The verb already contains the comparison, so the norm rejects all of them. Watch for the crase when the second term is feminine (\"prefiro a serra à praia\"). Watch also for its absence before cities with no article (\"prefiro Recife a Salvador\").",
+          "A reminder from the Upper-intermediate level: \"preferir\" compares with \"a\", not \"do que\". The slip that survives even in good writers is the intensifier: \"prefiro mais\", \"prefiro mil vezes\", \"prefiro muito mais\". The verb already contains the comparison, so the norm rejects all of them. Watch for the crase when the second term is feminine (\"prefiro a serra à praia\"). Watch also for its absence before cities with no article (\"prefiro Recife a Salvador\").",
           "\"Obedecer\" and \"desobedecer\" take an indirect object: \"obedecer ao regimento\", \"desobedecer à sinalização\". In speech \"a\" and \"à\" sound alike, so the missing crase in \"obedecer as normas\" only shows on paper. For a person the pronoun is \"lhe\": \"os jogadores não lhe obedecem\", not \"não o obedecem\".",
           "The norm also grants \"obedecer\" a privilege it denies other indirect verbs: the passive. \"As ordens foram obedecidas\" is correct. \"O filme foi assistido\", by contrast, still draws a red pen from strict editors.",
         ],
@@ -691,7 +691,7 @@ export const PT_C2_U09: Lesson[] = [
         heading: "Clock times and places",
         body: [
           "A clock time takes the crase when it answers at what time: \"às 15h\", \"à uma\", \"à meia-noite\", but \"ao meio-dia\", since \"meio-dia\" is masculine. Any other preposition blocks it, because only \"a\" fuses with the article: \"desde as 8h\", \"após as 22h\", \"entre as 10h e as 11h\", \"a partir das 14h\".",
-          "For places, one reminder of the B2 test: \"volto da Bahia\" gives \"vou à Bahia\", and \"volto de Curitiba\" gives \"vou a Curitiba\". The trap is the modifier. A city that normally takes no article takes one once it's specified: \"voltei à Curitiba da minha infância\".",
+          "For places, one reminder of the Upper-intermediate test: \"volto da Bahia\" gives \"vou à Bahia\", and \"volto de Curitiba\" gives \"vou a Curitiba\". The trap is the modifier. A city that normally takes no article takes one once it's specified: \"voltei à Curitiba da minha infância\".",
           "\"Casa\" meaning your own home takes no article, so no crase: \"chegamos a casa tarde\" in the norm, \"chegamos em casa\" in everyday Brazilian usage. Specify whose house and the crase returns: \"fui à casa da Beatriz\".",
         ],
         examples: [
@@ -1196,7 +1196,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "Mal / mau and a fim / afim",
         body: [
-          "In Brazil final l sounds like 'w', so \"mal\" and \"mau\" are homophones. \"Mal\" is the opposite of \"bem\". It is an adverb (\"dormi mal\"), a noun (\"o mal\", \"os males\") and the conjunction meaning as soon as from B2 (\"mal cheguei, começou a chover\"). \"Mau\" is the opposite of \"bom\": an adjective, feminine \"má\" (\"mau humor\", \"má notícia\"). Swap in bem or bom and the spelling follows.",
+          "In Brazil final l sounds like 'w', so \"mal\" and \"mau\" are homophones. \"Mal\" is the opposite of \"bem\". It is an adverb (\"dormi mal\"), a noun (\"o mal\", \"os males\") and the conjunction meaning as soon as from the Upper-intermediate level (\"mal cheguei, começou a chover\"). \"Mau\" is the opposite of \"bom\": an adjective, feminine \"má\" (\"mau humor\", \"má notícia\"). Swap in bem or bom and the spelling follows.",
           "Compounds are where near-natives slip: \"de mau humor\" but \"mal-humorado\", \"mal-educado\", \"mal-entendido\", because their opposites are \"bem-humorado\" and \"bem-educado\". \"Mal\" modifies an adjective or participle; \"mau\" qualifies a noun.",
           "\"A fim de\" is three words and means in order to. In speech, \"estar a fim de\" means to feel like something or to have a crush on someone. \"Afim\", one word, is an adjective meaning related or akin, plural \"afins\": \"áreas afins\". \"Estou afim de sair\", seen everywhere online, is a misspelling.",
         ],
@@ -1659,7 +1659,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "First pass: agreement and spelling pairs",
         body: [
-          "Editing at C2 means reading the same text several times, with each pass hunting one family of errors. Your colleague Daniel is an American who has lived in Curitiba for ten years. He sends you the opening of his quarterly report: \"Segue anexo as planilhas do trimestre. A equipe ficou meia sobrecarregada, mas tivemos menas reclamações e bastante elogios.\" It reads fluently, and that is exactly why the slips hide.",
+          "Editing at the Mastery level means reading the same text several times, with each pass hunting one family of errors. Your colleague Daniel is an American who has lived in Curitiba for ten years. He sends you the opening of his quarterly report: \"Segue anexo as planilhas do trimestre. A equipe ficou meia sobrecarregada, mas tivemos menas reclamações e bastante elogios.\" It reads fluently, and that is exactly why the slips hide.",
           "Start with agreement. \"Anexo\" agrees with what is attached, and the verb follows: \"seguem anexas as planilhas\". The fixed phrase \"em anexo\" never changes: \"seguem em anexo as planilhas\". \"Meio\" before an adjective is an adverb and stays \"meio\". \"Menos\" has no feminine. \"Bastante\" agrees when it means many.",
           "Then check the spelling pairs, which no spellchecker flags because both forms exist. Daniel wrote \"não sabemos porque o sistema caiu\" and \"o mal desempenho do aplicativo\". An indirect question takes \"por que\". Before a noun you need the adjective \"mau\", because \"mal\" is the adverb, the opposite of \"bem\".",
         ],

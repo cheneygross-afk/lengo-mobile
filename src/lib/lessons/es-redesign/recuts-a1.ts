@@ -2,6 +2,7 @@
 // Beginner recut lessons (see recut.ts): the old "Tener, Ir, Hacer + Hay"
 // lessons, cut into one lesson per concept.
 import { TENER_RECUT_FIX } from "./a1-unit6";
+import { IR_RECUT_FIX } from "./a1-unit7";
 import type { Recut } from "./recut";
 import { A1_UNIT4_PATCHES } from "./a1-unit4";
 import { TENER, TENER_PHRASES, IR, IR_A } from "./concept-tables";
@@ -62,9 +63,20 @@ export const A1_RECUTS: Recut[] = [
     concept: "tener",
     replaces: ["tener-ir-hacer-hay-1", "tener-ir-hacer-hay-1-part-2"],
     from: [
-      { lesson: "tener-ir-hacer-hay-1", sections: [0], exercises: [0, 2, 3, 7, 10] },
+      // The old course's Unit 8 fixes (a1-unit8-fixes.ts) gave tener-ir-hacer-hay-1
+      // a warm-up card and moved some questions between its two parts, so the
+      // same questions are picked from where they are now. Two that left are
+      // replaced by their nearest match (tiene que, tienes), and the last two
+      // places hold questions this lesson's patch replaces anyway.
+      { lesson: "tener-ir-hacer-hay-1", sections: [1], exercises: [0] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [4] },
+      { lesson: "tener-ir-hacer-hay-1", exercises: [3] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [11] },
+      { lesson: "tener-ir-hacer-hay-1", exercises: [8] },
       { lesson: "tener-ir-hacer-hay-drill-1", sections: [0, 1], exercises: [0, 1, 3, 5, 8, 10, 11] },
-      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [1, 4, 5, 6, 9, 14, 16] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [1, 5] },
+      { lesson: "tener-ir-hacer-hay-1", exercises: [2] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [6, 9, 17, 8] },
       { lesson: "tener-ir-hacer-hay-drill-1-part-2", exercises: [1, 4, 7] },
     ],
     patch: {
@@ -98,15 +110,24 @@ export const A1_RECUTS: Recut[] = [
     concept: "ir-a",
     replaces: [],
     from: [
-      { lesson: "tener-ir-hacer-hay-1", sections: [1], exercises: [1, 4, 8, 9, 11] },
+      // Picked from where these questions sit since the old course's Unit 8
+      // fixes added a warm-up card and moved questions between the two parts.
+      { lesson: "tener-ir-hacer-hay-1", sections: [2] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [3] },
+      { lesson: "tener-ir-hacer-hay-1", exercises: [4] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [13] },
+      { lesson: "tener-ir-hacer-hay-1", exercises: [7, 9] },
       { lesson: "tener-ir-hacer-hay-drill-1", sections: [2], exercises: [2, 4, 6, 12] },
       { lesson: "tener-ir-hacer-hay-drill-2", sections: [0] },
-      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [0, 3, 7, 10, 15] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [0] },
+      { lesson: "tener-ir-hacer-hay-1", exercises: [1] },
+      { lesson: "tener-ir-hacer-hay-1-part-2", exercises: [7, 10, 16] },
       { lesson: "tener-ir-hacer-hay-drill-1-part-2", exercises: [5, 10, 11, 12] },
       { lesson: "tener-ir-hacer-hay-2", exercises: [3, 17] },
     ],
     patch: {
       goal: "say where you're going, and what you're going to do later.",
+      exercises: IR_RECUT_FIX.exercises,
       sections: {
         0: { addTables: [IR], reteach: "Ir: voy, vas, va, vamos, van. For a place, add a: Voy a la playa. With el, a + el becomes al: Voy al cine." },
         1: { watchOut: true, reteach: "A + el always joins into al: Voy al mercado, never Voy a el mercado. A + la doesn't change: Voy a la escuela." },

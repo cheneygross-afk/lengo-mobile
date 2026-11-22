@@ -171,7 +171,7 @@ export const IT_B1_U27: Lesson[] = [
       {
         heading: "Sarebbe: it is said to be",
         body: [
-          "Italian journalists use the conditional to say something is reported but not confirmed: \"Il ministro sarebbe pronto a dimettersi\" means the minister is said to be ready to resign. English needs extra words (reportedly, is said to, allegedly); Italian just changes the verb. You need to recognize it at B1, not produce it.",
+          "Italian journalists use the conditional to say something is reported but not confirmed: \"Il ministro sarebbe pronto a dimettersi\" means the minister is said to be ready to resign. English needs extra words (reportedly, is said to, allegedly); Italian just changes the verb. You need to recognize it at the Intermediate level, not produce it.",
           "It's often paired with a source: \"secondo indiscrezioni\" (according to leaks), \"secondo fonti vicine al governo\", \"stando a quanto riportato da ...\" (according to what was reported by). Don't read it as would: \"Il ladro sarebbe un ex dipendente\" is the thief is allegedly a former employee, not would be.",
         ],
         examples: [
@@ -208,7 +208,7 @@ export const IT_B1_U27: Lesson[] = [
       {
         heading: "Translating it into English",
         body: [
-          "When you meet this conditional, add an English hedge: reportedly, allegedly, is said to, is thought to. When you write the news yourself at B1, you can be just as careful with \"secondo\" + indicative: \"Secondo la polizia, il ladro è un ex dipendente\". That's always correct.",
+          "When you meet this conditional, add an English hedge: reportedly, allegedly, is said to, is thought to. When you write the news yourself at the Intermediate level, you can be just as careful with \"secondo\" + indicative: \"Secondo la polizia, il ladro è un ex dipendente\". That's always correct.",
         ],
         examples: [
           { es: "Secondo la polizia, il ladro è un ex dipendente.", en: "According to the police, the thief is a former employee." },

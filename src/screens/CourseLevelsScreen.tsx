@@ -48,11 +48,11 @@ const COPY: Record<
   },
   en: {
     title: "Inglés",
-    subtitle: "Lecciones cortas, a tu ritmo, organizadas por nivel: de A1 a C2.",
+    subtitle: "Lecciones cortas, a tu ritmo, organizadas por nivel: de Fundamentos a Maestría.",
     start: "Empezar",
     cont: "Continuar",
     lesson: "Lección",
-    done: "Has terminado todas las lecciones obligatorias, de A1 a C2.",
+    done: "Has terminado todas las lecciones obligatorias, de Fundamentos a Maestría.",
     required: (d, t) => `${d} de ${t} obligatorias completadas`,
     loading: "Cargando…",
   },

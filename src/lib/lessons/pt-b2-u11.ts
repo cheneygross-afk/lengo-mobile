@@ -2222,7 +2222,7 @@ export const PT_B2_U11: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Talking Like a Brazilian",
-    summary: "Mix the unit's idioms with B2 grammar: the three subjunctives, past regrets, narrative tenses and a switch into formal register.",
+    summary: "Mix the unit's idioms with Upper-intermediate grammar: the three subjunctives, past regrets, narrative tenses and a switch into formal register.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",
@@ -2527,5 +2527,5 @@ export const PT_B2_U11_WRITING: WriteExercise = {
     "Keeps a friendly, informal register (\"a gente\", \"me liga\") and closes with an invitation such as \"dar uma volta\"",
   ],
   modelAnswer: "Oi, Bia! Tudo bem? Você não vai acreditar na semana que eu tive. Na segunda, eu fiquei de apresentar o projeto novo para o diretor, mas o computador travou bem na hora e eu paguei o maior mico na frente de todo mundo. Por sorte, o Rafael quebrou o galho e me emprestou o notebook dele, e no fim deu tudo certo. Na quarta, fui comprar um presente para a minha mãe e acabei escolhendo um relógio que custou os olhos da cara. Eu sei, eu sei: enfiei o pé na jaca. Agora vou ter que ser meio pão-duro até o fim do mês. E tem mais: o meu chefe anda pegando no meu pé por causa dos prazos. Se eu tivesse levado o trabalho mais a sério em janeiro, não estaria tão atrasado agora. Mas eu vou dar um jeito, como sempre. Bora dar uma volta no Ibirapuera no sábado? Me liga quando você tiver um tempinho. Estou com saudade! Beijo, Lucas",
-  explanation: "Idioms are fixed chunks: only the verb changes (\"paguei o maior mico\", \"custou os olhos da cara\", \"enfiei o pé na jaca\"), and swapping a noun breaks them (never \"pagar macaco\"). \"Ficar de\" + infinitive means to have agreed or promised to do something (\"fiquei de apresentar\"), and \"pegar no pé\" takes a possessive for the victim (\"pegando no meu pé\"). The message also brings back earlier B2 grammar: a mixed unreal condition (\"se eu tivesse levado... não estaria\") and the future subjunctive after \"quando\" (\"quando você tiver\"). These expressions belong in informal speech and messages, not in a formal letter.",
+  explanation: "Idioms are fixed chunks: only the verb changes (\"paguei o maior mico\", \"custou os olhos da cara\", \"enfiei o pé na jaca\"), and swapping a noun breaks them (never \"pagar macaco\"). \"Ficar de\" + infinitive means to have agreed or promised to do something (\"fiquei de apresentar\"), and \"pegar no pé\" takes a possessive for the victim (\"pegando no meu pé\"). The message also brings back earlier Upper-intermediate grammar: a mixed unreal condition (\"se eu tivesse levado... não estaria\") and the future subjunctive after \"quando\" (\"quando você tiver\"). These expressions belong in informal speech and messages, not in a formal letter.",
 };

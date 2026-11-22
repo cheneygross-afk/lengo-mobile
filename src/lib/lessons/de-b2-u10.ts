@@ -8,7 +8,7 @@ export const DE_B2_U10: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Upper-Intermediate Vocabulary Practice, Part 3 of 10",
-    summary: "Use the B2 vocabulary from Units 6-9 in context: notices, housing ads, feelings, reports and CVs.",
+    summary: "Use the Upper-intermediate vocabulary from Units 6-9 in context: notices, housing ads, feelings, reports and CVs.",
     duration: "15 min",
     sections: [
       {

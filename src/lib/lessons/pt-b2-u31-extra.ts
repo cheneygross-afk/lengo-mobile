@@ -7,7 +7,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
     slug: "b2-challenges-extra-1",
     level: "PT-B2",
     number: 1,
-    title: "Extra Practice: B2 Challenges, Part 1 of 3",
+    title: "Extra Practice: Challenges, Part 1 of 3",
     summary: "Grammar without hints: the five subjunctive tenses, all conditions, reported speech, the passive and the written norm in fresh sentences.",
     duration: "12 min",
     optional: true,
@@ -208,7 +208,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
     slug: "b2-challenges-extra-2",
     level: "PT-B2",
     number: 2,
-    title: "Extra Practice: B2 Challenges, Part 2 of 3",
+    title: "Extra Practice: Challenges, Part 2 of 3",
     summary: "The vocabulary of the level: the word webs on health, the environment, citizenship and money, plus idioms, false friends and regional words.",
     duration: "12 min",
     optional: true,
@@ -217,7 +217,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
       {
         heading: "Word webs: health, environment, citizenship, work",
         body: [
-          "The B2 word webs gave you the language of the news and public debate. Health: \"plano de saúde\", \"SUS\", \"consulta\", \"exame\", \"receita\". Environment: \"desmatamento\", \"queimadas\", \"reciclagem\". Citizenship: \"eleições\", \"voto obrigatório\", \"vereador\". Work and money: \"carteira assinada\", \"autônomo\", \"juros\", \"dívida\".",
+          "The Upper-intermediate word webs gave you the language of the news and public debate. Health: \"plano de saúde\", \"SUS\", \"consulta\", \"exame\", \"receita\". Environment: \"desmatamento\", \"queimadas\", \"reciclagem\". Citizenship: \"eleições\", \"voto obrigatório\", \"vereador\". Work and money: \"carteira assinada\", \"autônomo\", \"juros\", \"dívida\".",
           "Most come with fixed partners: \"marcar uma consulta\", \"fazer um exame\", \"combater o desmatamento\", \"pagar juros\", \"estar endividado\". Learn the pair, not just the noun.",
         ],
         examples: [
@@ -256,7 +256,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
               { left: "carteira assinada", right: "formal employment" },
               { left: "vereador", right: "city councilor" },
             ],
-            explanation: "Five key words from the B2 word webs. \"Juros\" is always plural.",
+            explanation: "Five key words from the Upper-intermediate word webs. \"Juros\" is always plural.",
           },
         ],
       },
@@ -429,7 +429,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
     slug: "b2-challenges-extra-3",
     level: "PT-B2",
     number: 3,
-    title: "Extra Practice: B2 Challenges, Part 3 of 3",
+    title: "Extra Practice: Challenges, Part 3 of 3",
     summary: "Exam-style speaking: the Celpe-Bras interview, from talking about yourself to describing an Elemento Provocador, giving an opinion and buying time.",
     duration: "12 min",
     optional: true,
@@ -479,7 +479,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
       {
         heading: "Opinions, hypotheses and buying time",
         body: [
-          "Opinion verbs choose the mood: \"acho que é\", \"não acho que seja\", \"duvido que funcione\", \"tenho certeza de que vai funcionar\". Hypotheses lift an answer to B2: \"se eu fosse prefeito...\", \"se a prefeitura tivesse investido antes...\".",
+          "Opinion verbs choose the mood: \"acho que é\", \"não acho que seja\", \"duvido que funcione\", \"tenho certeza de que vai funcionar\". Hypotheses lift an answer to Upper-intermediate: \"se eu fosse prefeito...\", \"se a prefeitura tivesse investido antes...\".",
           "Buy time without silence: \"deixa eu pensar\", \"é uma boa pergunta\", \"como posso dizer...\", \"nunca tinha pensado nisso\". Then close the answer: \"então, resumindo...\", \"é isso que eu acho\".",
         ],
         examples: [
@@ -573,7 +573,7 @@ export const PT_B2_U31_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The examiner asks your opinion on teenagers and social media. Which answer shows B2 range?",
+        question: "The examiner asks your opinion on teenagers and social media. Which answer shows Upper-intermediate range?",
         options: ["Embora as redes tenham coisas boas, acho que os pais deveriam limitar o tempo de tela.", "Redes sociais são ruins.", "Eu acho que sim.", "Os adolescentes usa muito as redes."],
         correctIndex: 0,
         explanation: "A concession with \"embora\" + subjunctive, an opinion and a suggestion with the conditional \"deveriam\". The last option breaks verb agreement.",

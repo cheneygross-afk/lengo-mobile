@@ -372,7 +372,7 @@ export const IT_B2_U11: Lesson[] = [
         body: [
           "In formal writing you'll need more than \"quindi\". \"Di conseguenza\" (as a result, consequently) stresses cause and effect: \"I prezzi sono aumentati; di conseguenza, le vendite sono calate.\" \"Pertanto\" (therefore) is the formal therefore of letters and reports: \"La domanda è incompleta; pertanto non può essere accettata.\"",
           "At the other end of the scale, \"per cui\" (so, which is why) is very common in speech: \"Ho perso le chiavi, per cui sono rimasto fuori.\" It's fine in conversation and informal emails, less so in an essay.",
-          "Choosing the register is part of the B2 skill: \"quindi\" goes everywhere, \"per cui\" is spoken, \"pertanto\" is formal. A text that piles up the same \"quindi\" three times reads like a beginner's.",
+          "Choosing the register is part of the Upper-intermediate skill: \"quindi\" goes everywhere, \"per cui\" is spoken, \"pertanto\" is formal. A text that piles up the same \"quindi\" three times reads like a beginner's.",
         ],
         examples: [
           { es: "I prezzi sono aumentati; di conseguenza, le vendite sono calate.", en: "Prices went up; as a result, sales fell." },
@@ -458,7 +458,7 @@ export const IT_B2_U11: Lesson[] = [
           { left: "quindi", right: "neutral: works everywhere" },
           { left: "di conseguenza", right: "stresses cause and effect" },
         ],
-        explanation: "Varying connectors is what makes a B2 text read well.",
+        explanation: "Varying connectors is what makes an Upper-intermediate text read well.",
       },
       { type: "dictation", audio: "Lo sciopero continua, quindi molti voli sono stati cancellati.", explanation: "\"Quindi\" = so; passive \"sono stati cancellati\"." },
       {

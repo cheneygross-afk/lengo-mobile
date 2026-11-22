@@ -24,7 +24,7 @@ export const KO_C1_U06: Lesson[] = [
       {
         heading: "Five moves, five frames",
         body: [
-          "A Korean 초록 (abstract) is a single paragraph that follows five moves in a fixed order, and each move has a stock frame Korean readers expect. Background: 최근 ... 증가하고 있다. Aim: 본 연구는 ...을 / 를 목적으로 한다, or the B2 -고자 한다. Method: ...을 / 를 대상으로 설문 조사를 실시하였다, ...을 / 를 분석하였다. Result: 그 결과 ... 것으로 나타났다. Implication: 이는 ...을 / 를 시사한다 'this suggests'. Much of writing a good abstract is choosing the right frame for each move.",
+          "A Korean 초록 (abstract) is a single paragraph that follows five moves in a fixed order, and each move has a stock frame Korean readers expect. Background: 최근 ... 증가하고 있다. Aim: 본 연구는 ...을 / 를 목적으로 한다, or the Upper-intermediate level -고자 한다. Method: ...을 / 를 대상으로 설문 조사를 실시하였다, ...을 / 를 분석하였다. Result: 그 결과 ... 것으로 나타났다. Implication: 이는 ...을 / 를 시사한다 'this suggests'. Much of writing a good abstract is choosing the right frame for each move.",
           "The tenses follow the moves, much as in English. Background and aim are usually in the present, because they are true as you write; method and result are in the past, because the study is finished; the implication returns to the present, because the meaning of the result holds now. Some journals put the aim in the past too (목적으로 하였다); either is fine if you stay consistent. What does not work is a whole abstract in the past with 이는 ...을 시사하였다, which sounds as if the result no longer means anything.",
         ],
         examples: [
@@ -250,7 +250,7 @@ export const KO_C1_U06: Lesson[] = [
       {
         heading: "나타났다 and 조사되었다: what the data showed",
         body: [
-          "In B2 you used 조사 결과 ... 것으로 나타났다 for TOPIK question 53. In a paper it carries almost every result sentence, in two shapes. With a clause, the modifier before 것 shows word class and time: 선호하는 (verb, true at the time), 높은 (adjective), 증가한 (completed change), 원인인 (noun + 이다). With a figure or a noun, use (으)로: 찬성 비율은 62%로 나타났다. 조사되었다 'was found by the survey' works in the same frames and is the natural choice for questionnaire data.",
+          "In the Upper-intermediate level you used 조사 결과 ... 것으로 나타났다 for TOPIK question 53. In a paper it carries almost every result sentence, in two shapes. With a clause, the modifier before 것 shows word class and time: 선호하는 (verb, true at the time), 높은 (adjective), 증가한 (completed change), 원인인 (noun + 이다). With a figure or a noun, use (으)로: 찬성 비율은 62%로 나타났다. 조사되었다 'was found by the survey' works in the same frames and is the natural choice for questionnaire data.",
           "The classic slip is backshifting. English says 'the survey showed that respondents preferred ...', so learners write 선호한 것으로 나타났다, which means they preferred it at some earlier point. If the preference held when the survey was taken, Korean uses the present modifier 선호하는; the past is already carried by 나타났다. Keep 선호한 for things that happened before the survey: 지난해 이사한 것으로 나타났다.",
         ],
         examples: [
@@ -475,14 +475,14 @@ export const KO_C1_U06: Lesson[] = [
     level: "KO-C1",
     number: 3,
     title: "Citing Sources, Part 1 of 2: -에 따르면, -에 의하면",
-    summary: "Cite a source with -에 따르면 and -에 의하면, mark what it says with the reported ending -다고 한다 / -(이)라고 한다 or a finding frame, avoid the B2 look-alike -에 따라, and punctuate in-text citations the way Korean journals do: 김민수(2023)에 따르면, (김민수, 2023; 이지은, 2021), 박준호 외(2022).",
+    summary: "Cite a source with -에 따르면 and -에 의하면, mark what it says with the reported ending -다고 한다 / -(이)라고 한다 or a finding frame, avoid the Upper-intermediate look-alike -에 따라, and punctuate in-text citations the way Korean journals do: 김민수(2023)에 따르면, (김민수, 2023; 이지은, 2021), 박준호 외(2022).",
     duration: "21 min",
     sections: [
       {
         heading: "에 따르면 and 에 의하면: according to",
         body: [
-          "Both mean 'according to' a source, and they attach straight to the noun: 김민수(2023)에 따르면, 정부 통계에 의하면, 선행 연구에 따르면 'according to previous research'. In academic writing they are interchangeable; 에 의하면 is a touch stiffer and more bookish. The source can be a person, a study, a document or a data set. In B2 news reading you saw 경찰에 따르면; at C1 the same pattern carries the literature review of a paper.",
-          "The trap is the B2 pattern -에 따라 'depending on, in accordance with': 지역에 따라 다르다, 규정에 따라 처리한다. It looks almost the same, but 김민수(2023)에 따라 means 'in accordance with Kim' or 'depending on Kim', not 'according to Kim'. If the source is speaking, you need the conditional -면: 따르면, 의하면.",
+          "Both mean 'according to' a source, and they attach straight to the noun: 김민수(2023)에 따르면, 정부 통계에 의하면, 선행 연구에 따르면 'according to previous research'. In academic writing they are interchangeable; 에 의하면 is a touch stiffer and more bookish. The source can be a person, a study, a document or a data set. In Upper-intermediate news reading you saw 경찰에 따르면; at the Advanced level the same pattern carries the literature review of a paper.",
+          "The trap is the Upper-intermediate pattern -에 따라 'depending on, in accordance with': 지역에 따라 다르다, 규정에 따라 처리한다. It looks almost the same, but 김민수(2023)에 따라 means 'in accordance with Kim' or 'depending on Kim', not 'according to Kim'. If the source is speaking, you need the conditional -면: 따르면, 의하면.",
         ],
         examples: [
           { es: "정부 통계에 따르면 1인 가구는 꾸준히 늘고 있다고 한다.", en: "According to government statistics, single-person households are steadily increasing." },
@@ -513,7 +513,7 @@ export const KO_C1_U06: Lesson[] = [
       {
         heading: "Marking the report: -다고 한다 and its alternatives",
         body: [
-          "After 에 따르면, Korean marks the content as someone else's. The simplest marker is the B1 reported ending -다고 한다, built as usual: adjective 높다고 한다, action verb now 증가한다고 한다, past 증가했다고 한다, noun 원인이라고 한다 (after a vowel, 계기라고 한다). The finding frame ...것으로 나타났다 and the reporting verbs of the next lesson (보고하였다, 밝혔다) do the same job.",
+          "After 에 따르면, Korean marks the content as someone else's. The simplest marker is the Intermediate reported ending -다고 한다, built as usual: adjective 높다고 한다, action verb now 증가한다고 한다, past 증가했다고 한다, noun 원인이라고 한다 (after a vowel, 계기라고 한다). The finding frame ...것으로 나타났다 and the reporting verbs of the next lesson (보고하였다, 밝혔다) do the same job.",
           "A bare statement after 에 따르면 (김민수(2023)에 따르면 외식비는 증가했다) is common in news writing and is not a grammar error. In a paper, though, it blurs the line between your source's claim and yours, and supervisors mark it. The opposite fault is -다고 한다 on every sentence of a literature review, which reads like a school report; vary it with 나타났다 and the reporting verbs.",
         ],
         examples: [
@@ -702,7 +702,7 @@ export const KO_C1_U06: Lesson[] = [
       {
         heading: "Neutral verbs: 보고하였다, 밝혔다, 설명하였다, 제시하였다",
         body: [
-          "Instead of 에 따르면 ... -다고 한다, a literature review usually makes the author the subject and picks a reporting verb: 김민수(2023)는 ...다고 보고하였다. The clause in front is built exactly as in B1 reported speech; the verb tells the reader what the source did and how you regard it. The reporting verb is normally past, because the publication is finished, while the clause keeps the tense of its content.",
+          "Instead of 에 따르면 ... -다고 한다, a literature review usually makes the author the subject and picks a reporting verb: 김민수(2023)는 ...다고 보고하였다. The clause in front is built exactly as in Intermediate reported speech; the verb tells the reader what the source did and how you regard it. The reporting verb is normally past, because the publication is finished, while the clause keeps the tense of its content.",
           "Four verbs report without judging. 보고하다 'report' is for data and results. 밝히다 'make clear, show' presents the content as established fact; you met its news sense in 입장을 밝혔다, and with a noun object it means 'reveal': 원인을 밝혔다. 설명하다 'explain' is for an interpretation: X를 Y(으)로 설명하였다. 제시하다 'present, put forward' takes a noun object such as a model, a framework or a solution: 대안을 제시하였다.",
         ],
         examples: [
@@ -960,7 +960,7 @@ export const KO_C1_U06: Lesson[] = [
         heading: "이에, 이를 위해, 이를 통해: linking the moves",
         body: [
           "Three set phrases glue the moves of a paper together. 이에 'accordingly, in response to this' turns a stated problem into your aim: ... 연구는 부족한 실정이다. 이에 본 연구는 ...고자 한다. 이를 위해 'to this end' links the aim to the method. 이를 통해 'through this' links a method or result to what it yields: 이를 통해 ...을 / 를 알 수 있다, ...을 / 를 기대한다.",
-          "이에 is not 'here' or 'in this'. It introduces an action or decision taken because of the previous sentence, so do not use it to add another fact; for that, use 또한 or 아울러. 이를 위해 must be followed by an action, not a result. And watch for 이에 관해서는 'regarding this': there 이에 is simply 이 + 에 before the B2 pattern -에 관해 / 관한, not the connective. The problem sentence itself often uses -에 관한 and 실정이다 'the situation is that': ...에 관한 연구는 아직 부족한 실정이다.",
+          "이에 is not 'here' or 'in this'. It introduces an action or decision taken because of the previous sentence, so do not use it to add another fact; for that, use 또한 or 아울러. 이를 위해 must be followed by an action, not a result. And watch for 이에 관해서는 'regarding this': there 이에 is simply 이 + 에 before the Upper-intermediate pattern -에 관해 / 관한, not the connective. The problem sentence itself often uses -에 관한 and 실정이다 'the situation is that': ...에 관한 연구는 아직 부족한 실정이다.",
         ],
         examples: [
           { es: "그러나 혼자 사는 노인의 식생활에 관한 연구는 아직 부족한 실정이다.", en: "However, research on the eating habits of older people living alone is still scarce." },
@@ -1000,7 +1000,7 @@ export const KO_C1_U06: Lesson[] = [
       {
         heading: "Signposts: 앞서 살펴본 바와 같이, 이상에서, 다음과 같다",
         body: [
-          "Longer texts say where they have been and where they are going. Looking back: 앞서 살펴본 바와 같이 'as examined above' and 앞서 언급한 바와 같이 'as mentioned above', from the B2 pattern -(으)ㄴ 바와 같이. Summing up: 이상에서 'from the above', as in 이상에서 논의한 내용을 정리하면 다음과 같다, and 이상의 결과를 종합하면 'taking the above results together'. Looking ahead: 다음과 같다 'is as follows', 다음 장에서는 'in the next chapter'.",
+          "Longer texts say where they have been and where they are going. Looking back: 앞서 살펴본 바와 같이 'as examined above' and 앞서 언급한 바와 같이 'as mentioned above', from the Upper-intermediate pattern -(으)ㄴ 바와 같이. Summing up: 이상에서 'from the above', as in 이상에서 논의한 내용을 정리하면 다음과 같다, and 이상의 결과를 종합하면 'taking the above results together'. Looking ahead: 다음과 같다 'is as follows', 다음 장에서는 'in the next chapter'.",
           "이상 here means 'the above', the opposite of 이하 'below'; it is the same word as in 3회 이상 'three or more', but in a text it points back at everything before. A conclusion section typically opens with 이상에서, restates the findings briefly, then moves to implications and limits.",
         ],
         examples: [
@@ -1046,7 +1046,7 @@ export const KO_C1_U06: Lesson[] = [
         source: "However, research on the eating habits of older people living alone is still scarce.",
         answer: "그러나 혼자 사는 노인의 식생활에 관한 연구는 아직 부족한 실정이다.",
         altAnswers: ["그러나 혼자 사는 노인의 식생활에 대한 연구는 아직 부족한 실정이다.", "그러나 노인 1인 가구의 식생활에 관한 연구는 아직 부족한 실정이다.", "그러나 노인 1인 가구의 식생활에 대한 연구는 아직 부족한 실정이다.", "그러나 혼자 사는 노인의 식생활에 관한 연구는 아직 부족하다.", "그러나 혼자 사는 노인의 식생활에 대한 연구는 아직 부족하다.", "그러나 혼자 사는 노인의 식생활에 관한 연구는 아직 미흡한 실정이다.", "하지만 혼자 사는 노인의 식생활에 관한 연구는 아직 부족한 실정이다.", "그러나 독거노인의 식생활에 관한 연구는 아직 부족한 실정이다.", "그러나 혼자 사는 노인들의 식생활에 관한 연구는 아직 부족한 실정이다."],
-        explanation: "N에 관한 연구 'research on N' (B2 Unit 9), and 부족한 실정이다 'the situation is that it is lacking': the classic gap sentence before 이에.",
+        explanation: "N에 관한 연구 'research on N' (Upper-intermediate Unit 9), and 부족한 실정이다 'the situation is that it is lacking': the classic gap sentence before 이에.",
       },
       {
         type: "translate",
@@ -1230,7 +1230,7 @@ export const KO_C1_U06: Lesson[] = [
       {
         heading: "-(으)ㅁ or -는 것?",
         body: [
-          "-다는 것을 and -는 것을 can do the same job: 만족도가 높다는 것을 알 수 있다 is just as correct and very common in papers. The difference is weight and register. -(으)ㅁ is compact and written, the voice of conclusions, reports and notices (the B1 memo endings -음 / -함 are the same form). -다는 것 is neutral, and in speech it is the only natural choice: 높다는 걸 알 수 있습니다 in a presentation, never 높음을 알 수 있어요.",
+          "-다는 것을 and -는 것을 can do the same job: 만족도가 높다는 것을 알 수 있다 is just as correct and very common in papers. The difference is weight and register. -(으)ㅁ is compact and written, the voice of conclusions, reports and notices (the Intermediate memo endings -음 / -함 are the same form). -다는 것 is neutral, and in speech it is the only natural choice: 높다는 걸 알 수 있습니다 in a presentation, never 높음을 알 수 있어요.",
           "-(으)ㅁ also has limits. It cannot point to the future by itself: write 증가할 것임을 or 증가할 것이라는 점을. Verbs of wanting and hoping take -기, not -(으)ㅁ: 확인되기를 기대한다. And a concrete everyday action is usually -는 것: 혼자 밥을 먹는 것에 익숙하다, not 먹음에.",
         ],
         examples: [

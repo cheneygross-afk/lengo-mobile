@@ -1066,7 +1066,7 @@ export const IT_B2_U17: Lesson[] = [
       {
         heading: "Giving your reason and closing",
         body: [
-          "Explain your reason in one or two sentences, with a past and a present: \"Sono appassionato di cucina toscana da molti anni e vorrei approfondire le mie conoscenze.\" \"Approfondire\" (to deepen) is a useful B2 verb.",
+          "Explain your reason in one or two sentences, with a past and a present: \"Sono appassionato di cucina toscana da molti anni e vorrei approfondire le mie conoscenze.\" \"Approfondire\" (to deepen) is a useful Upper-intermediate verb.",
           "Then close politely, combining a thanks and the formula: \"RingraziandoVi anticipatamente, resto in attesa di un Vostro cortese riscontro. Distinti saluti.\" To a school or company you can write \"Vi\" and \"Vostro\", capitalized.",
         ],
         examples: [

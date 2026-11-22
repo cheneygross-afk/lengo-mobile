@@ -281,7 +281,7 @@ export const PT_B2_U20: Lesson[] = [
       {
         heading: "Quando chegar → quando chegasse",
         body: [
-          "At B1 you learned that a reported future moves back: \"vou ligar\" → \"disse que ia ligar\", \"ligarei\" → \"disse que ligaria\". When the original sentence also has a future subjunctive, that verb moves back too, into the imperfect subjunctive: \"Quando eu chegar, eu ligo\" becomes \"ele disse que, quando chegasse, ligaria\".",
+          "At the Intermediate level you learned that a reported future moves back: \"vou ligar\" → \"disse que ia ligar\", \"ligarei\" → \"disse que ligaria\". When the original sentence also has a future subjunctive, that verb moves back too, into the imperfect subjunctive: \"Quando eu chegar, eu ligo\" becomes \"ele disse que, quando chegasse, ligaria\".",
           "Think of it as the whole future seen from a point in the past. English does the same thing more quietly (when I arrive → when he arrived), so learners often shift the main verb and forget the clause: \"*disse que, quando chegar, ligaria\". Both verbs move.",
           "The main verb has two forms. Writing prefers the conditional (\"ligaria\"); speech prefers \"ia\" + infinitive (\"ia ligar\") or even the imperfeito \"ligava\".",
         ],
@@ -1962,7 +1962,7 @@ export const PT_B2_U20: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Error Hunt: Reported Speech",
-    summary: "Find and fix the typical B2 reporting slips: unshifted subjunctives, quando chegar in a past report, perguntou que se, sugeriu que + indicative, para mim fazer and tenses that don't move.",
+    summary: "Find and fix the typical Upper-intermediate reporting slips: unshifted subjunctives, quando chegar in a past report, perguntou que se, sugeriu que + indicative, para mim fazer and tenses that don't move.",
     duration: "15 min",
     kind: "drill",
     format: "Error Hunt",
@@ -2700,7 +2700,7 @@ export const PT_B2_U20: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Spiral Review: Reporting Everything",
-    summary: "Cumulative practice of reported speech with all the B2 tenses and moods: statements, questions, commands, promises and stance verbs.",
+    summary: "Cumulative practice of reported speech with all the Upper-intermediate tenses and moods: statements, questions, commands, promises and stance verbs.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

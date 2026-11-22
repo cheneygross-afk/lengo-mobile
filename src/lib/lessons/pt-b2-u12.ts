@@ -63,7 +63,7 @@ export const PT_B2_U12: Lesson[] = [
         heading: "The thesis: one claim, clearly stated",
         body: [
           "The thesis (\"a tese\") is the one claim the whole essay defends. It usually closes the introduction, after one or two sentences of context. A topic is not a thesis. \"A educação a distância\" only names a subject. \"A educação a distância amplia o acesso, mas aprofunda a desigualdade\" takes a position someone could dispute.",
-          "There are three strong thesis frames. Use \"é inegável que\" + indicative, \"é fundamental que\" + subjunctive (the B1 rule for impersonal expressions still applies), or \"defende-se que\" + indicative. Many writers also preview their two arguments in the thesis, so the reader knows what each development paragraph will do.",
+          "There are three strong thesis frames. Use \"é inegável que\" + indicative, \"é fundamental que\" + subjunctive (the Intermediate rule for impersonal expressions still applies), or \"defende-se que\" + indicative. Many writers also preview their two arguments in the thesis, so the reader knows what each development paragraph will do.",
           "The trap for English speakers is the personal opener: In my opinion... In a redação, \"na minha opinião\" and \"eu acho que\" sound weak. The thesis states the claim as a claim.",
         ],
         examples: [
@@ -110,7 +110,7 @@ export const PT_B2_U12: Lesson[] = [
         heading: "Development and conclusion",
         body: [
           "Each development paragraph opens with a \"tópico frasal\", one sentence that states its argument. The rest of the paragraph supports it with an example, data, or cause and effect. The last sentence links back to the thesis. Keep to one argument per paragraph: two ideas squeezed into one paragraph cost points.",
-          "Connectors signal the structure (you met them in B1 Unit 23). \"Em primeiro lugar\" opens the first argument, and \"além disso\" or \"por outro lado\" opens the second. The conclusion opens with \"portanto\", \"dessa forma\" or \"diante do exposto\" (in light of the above). It restates the thesis in new words and ends with a concrete proposal: who should do what, and how.",
+          "Connectors signal the structure (you met them in Intermediate Unit 23). \"Em primeiro lugar\" opens the first argument, and \"além disso\" or \"por outro lado\" opens the second. The conclusion opens with \"portanto\", \"dessa forma\" or \"diante do exposto\" (in light of the above). It restates the thesis in new words and ends with a concrete proposal: who should do what, and how.",
         ],
         examples: [
           { es: "Em primeiro lugar, o transporte público precário aumenta o tempo de deslocamento dos trabalhadores.", en: "First, poor public transportation increases workers' commuting time." },
@@ -1161,7 +1161,7 @@ export const PT_B2_U12: Lesson[] = [
         heading: "É necessário que o governo invista: the proposal",
         body: [
           "Examiners check the proposal first. The ENEM calls it the \"proposta de intervenção\" and rewards four parts. The first is who acts (\"o governo\", \"as escolas\", \"a mídia\"). Then come what they do, how they do it (\"por meio de\", \"mediante\") and why (\"a fim de que\", \"para que\"). \"Algo deve ser feito\" names no one and loses points.",
-          "Impersonal expressions with their own subject take the subjunctive, as in B1: \"é necessário que o governo invista\", \"é fundamental que as famílias participem\". With no subject, use the infinitive: \"é necessário investir\". The typical slip is the indicative, as in \"que o governo investe\". Purpose clauses with \"a fim de que\" and \"para que\" also take the subjunctive.",
+          "Impersonal expressions with their own subject take the subjunctive, as in the Intermediate level: \"é necessário que o governo invista\", \"é fundamental que as famílias participem\". With no subject, use the infinitive: \"é necessário investir\". The typical slip is the indicative, as in \"que o governo investe\". Purpose clauses with \"a fim de que\" and \"para que\" also take the subjunctive.",
           "\"Cabe a\" (it is up to) is followed by the agent and an infinitive: \"cabe ao Estado garantir\". Remember the crase before feminine agents: \"cabe à escola\", \"cabe às prefeituras\".",
         ],
         examples: [

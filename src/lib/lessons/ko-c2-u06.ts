@@ -66,7 +66,7 @@ export const KO_C2_U06: Lesson[] = [
       {
         heading: "What people actually say in 2026",
         body: [
-          "A Seoul speaker under 60 lives on four levels. 합니다 for announcements, presentations, the news, interviews and first meetings with seniors; 해요 for most adults most of the time; 해 for friends, younger siblings and children; and 해라 in two places: commands and questions to children (밥 먹어라, 숙제했니?) and the written 한다체 of newspapers, reports and essays you practised at B1 and C1. 하오 and 하게 almost never come out of their mouths, except as a joke.",
+          "A Seoul speaker under 60 lives on four levels. 합니다 for announcements, presentations, the news, interviews and first meetings with seniors; 해요 for most adults most of the time; 해 for friends, younger siblings and children; and 해라 in two places: commands and questions to children (밥 먹어라, 숙제했니?) and the written 한다체 of newspapers, reports and essays you practised at Intermediate and Advanced. 하오 and 하게 almost never come out of their mouths, except as a joke.",
           "The jokes are worth noticing, because they show what the old levels mean to people. A friend who answers your text with 알았소 is playing the stern old gentleman; a manager who says 수고했네, 김 대리 at a team dinner is half teasing, half claiming the role of the senior. You will understand these jokes only if you know where 하오 and 하게 normally live, which is the job of this unit. You will rarely need to produce them yourself, except in a script, a translation or a game of role play.",
         ],
         examples: [
@@ -155,7 +155,7 @@ export const KO_C2_U06: Lesson[] = [
         source: "Read the passage and answer the questions.",
         answer: "다음 글을 읽고 물음에 답하시오.",
         altAnswers: ["글을 읽고 물음에 답하시오.", "다음 글을 읽고 질문에 답하시오.", "다음 글을 읽고 물음에 답하십시오.", "글을 읽고 질문에 답하시오."],
-        explanation: "Exam papers use the 하오 command -(으)시오. (C1 taught the written -(으)라, as in 답하라, which also appears on some papers.)",
+        explanation: "Exam papers use the 하오 command -(으)시오. (Advanced taught the written -(으)라, as in 답하라, which also appears on some papers.)",
       },
       {
         type: "multiple-choice",

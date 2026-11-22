@@ -642,7 +642,7 @@ export const ZH_PINYIN_LESSONS = numbered([
         "How to learn characters",
         [
           "Learn characters as part of words you can already say, not as isolated symbols. Recognising characters (reading) comes far faster than writing them by hand, and reading is what this course practises.",
-          "About 500 characters cover roughly three-quarters of everyday written Chinese. The A1 module introduces around 150 of the most common ones, always with pinyin.",
+          "About 500 characters cover roughly three-quarters of everyday written Chinese. The Foundations module introduces around 150 of the most common ones, always with pinyin.",
         ],
         [ex("中文", "Zhōngwén", "the Chinese language (written)"), ex("汉字", "hànzì", "Chinese characters")]
       ),
@@ -671,7 +671,7 @@ export const ZH_PINYIN_LESSONS = numbered([
     P,
     "zh-pinyin-review",
     "Pinyin & Tones Review",
-    "A cumulative check of tones, tricky initials and finals, tone changes and spelling -- before you start A1.",
+    "A cumulative check of tones, tricky initials and finals, tone changes and spelling -- before you start Foundations.",
     "9 min",
     [
       sec(

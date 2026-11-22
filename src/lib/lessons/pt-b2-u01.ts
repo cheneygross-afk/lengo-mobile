@@ -15,7 +15,7 @@ export const PT_B2_U01: Lesson[] = [
       {
         heading: "Falaram → falasse: one recipe for every verb",
         body: [
-          "The imperfect subjunctive is the past partner of the present subjunctive you know from B1. Build it from the eles form of the perfeito: take \"falaram\", drop -ram and add -sse to get \"falasse\". Every verb in the language follows this recipe.",
+          "The imperfect subjunctive is the past partner of the present subjunctive you know from the Intermediate level. Build it from the eles form of the perfeito: take \"falaram\", drop -ram and add -sse to get \"falasse\". Every verb in the language follows this recipe.",
           "The endings: \"eu falasse\", \"você/ele/ela falasse\", \"nós falássemos\", \"vocês/eles/elas falassem\". The eu and ele forms are identical, so a pronoun or the context tells them apart.",
           "The stress stays on the vowel before -ss- in every form (fa-LA-see, fa-LA-see-moos). In the nós form that puts it three syllables from the end, so that form needs a written accent. The double s is a sharp s, never a z.",
         ],
@@ -96,7 +96,7 @@ export const PT_B2_U01: Lesson[] = [
         body: [
           "The subjunctive follows the time of the main verb. A wish or request made now takes the present subjunctive: \"quero que você fale\". Put the wanting in the past and the subjunctive moves back with it: \"queria que você falasse\", \"pedi que você falasse\". The same goes for \"era importante que\", \"duvidei que\" and \"esperava que\".",
           "English hides this because it uses an infinitive (I wanted you to speak), so English speakers often produce \"queria que você fale\". Ask when the wanting happened: if it's in the past, the verb after \"que\" ends in -sse.",
-          "As in B1, the subjunctive needs two different subjects. With one subject, use the infinitive: \"eu queria falar\", never \"eu queria que eu falasse\".",
+          "As in the Intermediate level, the subjunctive needs two different subjects. With one subject, use the infinitive: \"eu queria falar\", never \"eu queria que eu falasse\".",
         ],
         examples: [
           { es: "Quero que você fale com ela.", en: "I want you to talk to her." },
@@ -785,7 +785,7 @@ export const PT_B2_U01: Lesson[] = [
       {
         heading: "Era importante que, duvidava que: every trigger shifts",
         body: [
-          "Every subjunctive trigger from B1 works the same way: impersonal expressions, doubt, emotion, negative opinions. Put the trigger in the past and the subjunctive follows: \"é importante que você saiba\" → \"era importante que você soubesse\", \"duvido que ele consiga\" → \"duvidava que ele conseguisse\", \"não acho que seja verdade\" → \"não achei que fosse verdade\".",
+          "Every subjunctive trigger from the Intermediate level works the same way: impersonal expressions, doubt, emotion, negative opinions. Put the trigger in the past and the subjunctive follows: \"é importante que você saiba\" → \"era importante que você soubesse\", \"duvido que ele consiga\" → \"duvidava que ele conseguisse\", \"não acho que seja verdade\" → \"não achei que fosse verdade\".",
           "Choose the main verb's past tense as you would anywhere else: \"era\" for a background situation, \"foi\" for a single event (\"foi uma pena que vocês não pudessem ficar\"). Either one pulls the subjunctive into the imperfect. \"Fosse\" + infinitive is the everyday way to say would in these clauses: \"não achei que ela fosse aceitar\".",
         ],
         examples: [
@@ -2401,7 +2401,7 @@ export const PT_B2_U01: Lesson[] = [
       {
         heading: "Infinitive or que? Real or imagined?",
         body: [
-          "Two B1 choices come back in the past. With the same subject, use the infinitive: \"eu queria ser médica\", never \"eu queria que eu fosse médica\". With a different subject, use \"que\" + subjunctive. After a preposition you can also use the personal infinitive: \"para que vocês entendessem\" and \"para vocês entenderem\" mean the same.",
+          "Two Intermediate choices come back in the past. With the same subject, use the infinitive: \"eu queria ser médica\", never \"eu queria que eu fosse médica\". With a different subject, use \"que\" + subjunctive. After a preposition you can also use the personal infinitive: \"para que vocês entendessem\" and \"para vocês entenderem\" mean the same.",
           "In relative clauses the mood still tells the listener whether the thing exists. \"Eu procurava um apartamento que tivesse varanda\" means any apartment, maybe none. \"Eu morava num apartamento que tinha varanda\" means a real one. After \"ninguém\" or \"nenhum\" the subjunctive is automatic, because nothing fits.",
         ],
         examples: [

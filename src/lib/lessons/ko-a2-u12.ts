@@ -1977,7 +1977,7 @@ export const KO_A2_U12: Lesson[] = [
             prompt: "Say it in Korean: Don't be late!",
             text: "늦지 마세요!",
             tip: "Say [늗찌 마세요]: the final ㅈ of 늦 is said [ㄷ] and makes the next ㅈ tense.",
-            explanation: "-지 마세요, the polite 'don't', from A1.",
+            explanation: "-지 마세요, the polite 'don't', from the Beginner level.",
           },
         ],
       },

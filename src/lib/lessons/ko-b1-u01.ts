@@ -65,7 +65,7 @@ export const KO_B1_U01: Lesson[] = [
         heading: "Action verbs: -ㄴ다고 / -는다고",
         body: [
           "Action verbs add a present marker before 다: -ㄴ다 after a vowel, -는다 after a consonant. So 가다 → 간다고, 먹다 → 먹는다고, 일하다 → 일한다고. This is the plain present of books and newspapers (Unit 4); here it lives inside the quote. Learners who know only -다 say *가다고 or *먹다고, the most common mistake in this unit.",
-          "Stems ending in ㄹ drop the ㄹ before ㄴ, as in 사는 (A2 Unit 9): 살다 → 산다고, 만들다 → 만든다고, 알다 → 안다고. Never *살는다고 or *만드는다고.",
+          "Stems ending in ㄹ drop the ㄹ before ㄴ, as in 사는 (Elementary Unit 9): 살다 → 산다고, 만들다 → 만든다고, 알다 → 안다고. Never *살는다고 or *만드는다고.",
           "Ask whether the verb describes or does. 바쁘다 describes, so 바쁘다고; 일하다 is an action, so 일한다고. 있다 keeps plain -다고 even in -고 있다: 공부하고 있다고.",
         ],
         examples: [
@@ -1641,7 +1641,7 @@ export const KO_B1_U01: Lesson[] = [
       {
         heading: "Sound focus: ㅎ + ㄷ → [ㅌ] in -다고",
         body: [
-          "When a stem ends in ㅎ (좋다, 그렇다) or in a double final with ㅎ (많다, 괜찮다, 싫다), the ㅎ merges with the ㄷ of -다고 into an aspirated [ㅌ]: 좋다고 [조타고], 많다고 [만타고], 괜찮다고 [괜찬타고], 싫다고 [실타고], 그렇다고 [그러타고]. It is the A2 rule you know from 좋다 [조타], but in reported speech you hear it all the time. The spelling keeps the ㅎ, so in dictation write 좋다고, not *조타고.",
+          "When a stem ends in ㅎ (좋다, 그렇다) or in a double final with ㅎ (많다, 괜찮다, 싫다), the ㅎ merges with the ㄷ of -다고 into an aspirated [ㅌ]: 좋다고 [조타고], 많다고 [만타고], 괜찮다고 [괜찬타고], 싫다고 [실타고], 그렇다고 [그러타고]. It is the Elementary rule you know from 좋다 [조타], but in reported speech you hear it all the time. The spelling keeps the ㅎ, so in dictation write 좋다고, not *조타고.",
           "Before -냐고 the ㅎ has no ㄷ to merge with, and turns into [ㄴ] instead: 좋냐고 [존냐고], 괜찮냐고 [괜찬냐고].",
         ],
         examples: [

@@ -640,7 +640,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Scene 2: Grading the guesses",
         body: [
           "Mia: \"Das dürfte der Stau sein. Ich hab's im Radio gehört: Unfall vor dem Elbtunnel.\" Lena: \"Aber er hätte doch anrufen können!\" Leon: \"Vielleicht ist sein Akku leer. Er kann doch nicht schon wieder sein Handy vergessen haben!\"",
-          "Mia's \"Das dürfte... sein\" is a confident guess with evidence. Lena reproaches with \"hätte... anrufen können\" (could have called: the Konjunktiv II past from B2). Leon's \"Er kann doch nicht schon wieder... vergessen haben!\" uses \"kann nicht\" + perfect infinitive with \"doch\" for disbelief: he can't have forgotten again, surely!",
+          "Mia's \"Das dürfte... sein\" is a confident guess with evidence. Lena reproaches with \"hätte... anrufen können\" (could have called: the Konjunktiv II past from Upper-intermediate). Leon's \"Er kann doch nicht schon wieder... vergessen haben!\" uses \"kann nicht\" + perfect infinitive with \"doch\" for disbelief: he can't have forgotten again, surely!",
         ],
         examples: [
           { es: "Das dürfte der Stau sein.", en: "That's very probably the traffic." },
@@ -2132,7 +2132,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Guessing and regretting",
         body: [
           "Everyday mysteries mix guesses about what happened with regrets about what we should have done. Guess: \"Ich muss den Schlüssel im Büro liegen gelassen haben.\" Regret: \"Ich hätte besser aufpassen sollen\" (I should have been more careful). Unreal condition: \"Wenn ich ihn eingesteckt hätte, stünde ich jetzt nicht vor der Tür.\"",
-          "Watch the two 'should have' ideas: \"Er müsste angekommen sein\" (he should have arrived by now: expectation) vs \"Er hätte früher losfahren sollen\" (he should have left earlier: criticism, from B2).",
+          "Watch the two 'should have' ideas: \"Er müsste angekommen sein\" (he should have arrived by now: expectation) vs \"Er hätte früher losfahren sollen\" (he should have left earlier: criticism, from Upper-intermediate).",
         ],
         examples: [
           { es: "Ich muss den Schlüssel im Büro liegen gelassen haben.", en: "I must have left the key at the office." },

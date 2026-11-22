@@ -249,7 +249,7 @@ export const KO_C2_U04: Lesson[] = [
         heading: "1392: a question in verse",
         body: [
           "In 1392 the 고려 dynasty was in its last months. 이성계's faction was preparing to found a new dynasty, and the great obstacle was 정몽주 (1337-1392), the most respected scholar-official still loyal to 고려. According to tradition, 이성계's son 이방원, later King 태종, invited him to drink and sounded him out with a 시조; 정몽주 replied with one of his own. The poems were written down in later collections and the scene may have been polished in the retelling, but every Korean knows it as one exchange. Here and throughout the unit, classical texts are given in modernised spelling as school anthologies print them; editions differ in small details.",
-          "하여가 'the song of what does it matter' opens with a shrug: 이런들 어떠하며 저런들 어떠하리, 'if it is this way, what of it; if that way, what of it'. -(으)ㄴ들 is the C1 'even if', and 어떠하리 is a rhetorical -(으)리: 'what would it matter?', meaning 'it doesn't matter at all'. The 중장 offers an image: 만수산 드렁칡이 얽어진들 어떠하리, the arrowroot vines (칡) on the slopes of 만수산, a hill near the 고려 capital 개성, grow all tangled together, and so what? Some editions print 얽혀진들 or 얽혀, the more modern verb.",
+          "하여가 'the song of what does it matter' opens with a shrug: 이런들 어떠하며 저런들 어떠하리, 'if it is this way, what of it; if that way, what of it'. -(으)ㄴ들 is the Advanced 'even if', and 어떠하리 is a rhetorical -(으)리: 'what would it matter?', meaning 'it doesn't matter at all'. The 중장 offers an image: 만수산 드렁칡이 얽어진들 어떠하리, the arrowroot vines (칡) on the slopes of 만수산, a hill near the 고려 capital 개성, grow all tangled together, and so what? Some editions print 얽혀진들 or 얽혀, the more modern verb.",
           "The 종장 makes the offer: 우리도 이같이 얽어져 백 년까지 누리리라, 'let us too be intertwined like this and enjoy a hundred years'. -리라 here is resolve and invitation at once. Notice what the poem never says: dynasty, king, betrayal. The persuasion works entirely through the vines and the friendly 우리.",
         ],
         examples: [
@@ -297,7 +297,7 @@ export const KO_C2_U04: Lesson[] = [
         heading: "단심가: a hundred deaths",
         body: [
           "정몽주's answer takes the same form and turns it against the asker. 초장: 이 몸이 죽고 죽어 일백 번 고쳐 죽어, 'this body may die and die, die over again a hundred times'. 고쳐 is the old sense of 고치다, 'do again, anew', and 일백 is an older way of saying 백. 중장: 백골이 진토되어 넋이라도 있고 없고, 'my white bones may turn to dust, my soul remain or not'. The doubled 있고 없고 means 'whether it does or not'.",
-          "The 종장 is one of the most quoted lines in Korean: 임 향한 일편단심이야 가실 줄이 있으랴. 임 here is the lord, the 고려 king; 일편단심 'a single piece of red heart' is the 사자성어 for unchanging loyalty (C1), and -이야 singles it out: that, at least. Now the trap. 가실 looks like the honorific of 가다, but it is an old verb 가시다 'change, fade'. -(으)ㄹ 줄이 있으랴 'could there be any chance that ...?' is a rhetorical question whose only answer is no: my loyalty will never change.",
+          "The 종장 is one of the most quoted lines in Korean: 임 향한 일편단심이야 가실 줄이 있으랴. 임 here is the lord, the 고려 king; 일편단심 'a single piece of red heart' is the 사자성어 for unchanging loyalty (Advanced), and -이야 singles it out: that, at least. Now the trap. 가실 looks like the honorific of 가다, but it is an old verb 가시다 'change, fade'. -(으)ㄹ 줄이 있으랴 'could there be any chance that ...?' is a rhetorical question whose only answer is no: my loyalty will never change.",
           "Set the poems side by side. 하여가 dissolves every difference with -(으)ㄴ들 어떠하리; 단심가 piles up concessions (죽고 죽어, 있고 없고) and then refuses with -(으)랴. Same form, same 3-syllable 종장 opening, opposite answers: that is why teachers love the pair.",
         ],
         examples: [
@@ -787,7 +787,7 @@ export const KO_C2_U04: Lesson[] = [
       {
         heading: "-(으)ㄴ들 ... -(으)랴: even if, would it",
         body: [
-          "The C1 concession -(으)ㄴ들 'even if' pairs naturally with a rhetorical ending. 천만금을 준들 이 마음을 바꾸랴: 'even if you gave me a fortune, would I change this heart?', meaning nothing could make me. You met it in Unit 3 in 꿈엔들 잊힐리야 'could I forget it even in dreams?', and you will meet it in 황진이 as an invitation: 쉬어 간들 어떠리, 'what harm if you stopped to rest?'.",
+          "The Advanced concession -(으)ㄴ들 'even if' pairs naturally with a rhetorical ending. 천만금을 준들 이 마음을 바꾸랴: 'even if you gave me a fortune, would I change this heart?', meaning nothing could make me. You met it in Unit 3 in 꿈엔들 잊힐리야 'could I forget it even in dreams?', and you will meet it in 황진이 as an invitation: 쉬어 간들 어떠리, 'what harm if you stopped to rest?'.",
           "To render the pair in modern prose, use 아무리 ... -아 / 어도 ... -지 않는다 (or -(으)ㄹ 수 없다): 아무리 큰돈을 준다 해도 내 마음은 변하지 않는다. The verse version is tighter and prouder; the prose version is clearer.",
         ],
         examples: [

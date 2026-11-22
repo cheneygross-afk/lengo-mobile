@@ -1596,7 +1596,7 @@ export const DE_B1_U11: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Intermediate Vocabulary Practice, Part 4 of 10",
-    summary: "Talk about leisure, sport and clubs with high-frequency B1 words, and use the verbs that most often open a zu-infinitive.",
+    summary: "Talk about leisure, sport and clubs with high-frequency Intermediate words, and use the verbs that most often open a zu-infinitive.",
     duration: "12 min",
     sections: [
       {

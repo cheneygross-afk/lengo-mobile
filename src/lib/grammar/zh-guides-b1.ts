@@ -14,7 +14,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     level: "B1",
     hsk: "HSK 3",
     intro: [
-      "At A2 you compared things with 比. B1 adds the language of discussion: giving a considered view, saying something is \"fairly\" or \"quite\" so, and setting two things side by side in a more formal way.",
+      "At the Everyday Chinese level you compared things with 比. The Independent Chinese level adds the language of discussion: giving a considered view, saying something is \"fairly\" or \"quite\" so, and setting two things side by side in a more formal way.",
     ],
     sections: [
       {
@@ -185,7 +185,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     hsk: "HSK 3",
     intro: [
       "English \"can't\" covers several situations: not allowed, not able, not managing. When the problem is the outcome (you listen but can't understand, you look but can't find), Chinese uses a potential complement: 听不懂, 找不到.",
-      "It's built from the result and direction complements you know from A2. Put 得 (can) or 不 (can't) between the verb and its result.",
+      "It's built from the result and direction complements you know from the Everyday Chinese level. Put 得 (can) or 不 (can't) between the verb and its result.",
     ],
     sections: [
       {
@@ -437,7 +437,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     level: "B1",
     hsk: "HSK 3",
     intro: [
-      "At A2, 把 moved an object before the verb to show what happened to it. At B1 you use it for transforming and relocating things, combine it with negatives and modals, and describe accidents: what broke, and how.",
+      "At the Everyday Chinese level, 把 moved an object before the verb to show what happened to it. At the Independent Chinese level you use it for transforming and relocating things, combine it with negatives and modals, and describe accidents: what broke, and how.",
     ],
     sections: [
       {
@@ -1060,7 +1060,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     level: "B1",
     hsk: "HSK 3",
     intro: [
-      "At A2 you met 如果…就 for if. B1 adds conditions with attitude: \"as long as\" (an easy condition) and \"only if\" (a demanding one). The second half changes with them: 只要 pairs with 就, 只有 with 才.",
+      "At the Everyday Chinese level you met 如果…就 for if. The Independent Chinese level adds conditions with attitude: \"as long as\" (an easy condition) and \"only if\" (a demanding one). The second half changes with them: 只要 pairs with 就, 只有 with 才.",
     ],
     sections: [
       {
@@ -1236,7 +1236,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     level: "B1",
     hsk: "HSK 3",
     intro: [
-      "因为…所以 from A2 is perfect for conversation. In reports, news and essays, Chinese switches to 由于…因此. This guide also covers purpose (为了, in order to) and the two ways to say you had no choice.",
+      "因为…所以 from the Everyday Chinese level is perfect for conversation. In reports, news and essays, Chinese switches to 由于…因此. This guide also covers purpose (为了, in order to) and the two ways to say you had no choice.",
     ],
     sections: [
       {
@@ -1305,7 +1305,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     level: "B1",
     hsk: "HSK 3",
     intro: [
-      "These patterns pin down exactly when something happens relative to something else: immediately after, not until, right away. As with 就 and 才 at A2, they also tell you whether things went faster or slower than expected.",
+      "These patterns pin down exactly when something happens relative to something else: immediately after, not until, right away. As with 就 and 才 at the Everyday Chinese level, they also tell you whether things went faster or slower than expected.",
     ],
     sections: [
       {
@@ -1478,7 +1478,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
     level: "B1",
     hsk: "HSK 3",
     intro: [
-      "B1 fills in the gaps between \"must\" and \"can\": daring to, needing to, being worth doing. It also gives you a full scale for how sure you are, which is essential for discussing anything with nuance.",
+      "Independent Chinese fills in the gaps between \"must\" and \"can\": daring to, needing to, being worth doing. It also gives you a full scale for how sure you are, which is essential for discussing anything with nuance.",
     ],
     sections: [
       {
@@ -1572,7 +1572,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
   },
   {
     slug: "prepositions-b1",
-    title: "B1 Prepositions: 对, 关于, 为, 按照, 朝 and 通过",
+    title: "Prepositions: 对, 关于, 为, 按照, 朝 and 通过",
     description:
       "对 (toward, to) vs 关于 (about), 为 (for someone) vs 为了 (in order to), 按照 (according to), 往, 向 and 朝 (toward), 通过 and 利用 (by means of), and position words like 周围 and 背后.",
     level: "B1",
@@ -1625,7 +1625,7 @@ export const ZH_GUIDES_B1: ZhGrammarGuide[] = [
       {
         heading: "通过, 利用, and positions",
         body: [
-          "通过 (tōngguò) + means: through, by means of. 利用 (lìyòng) + resource: make use of. 用 A 来 + verb: use A to do. For position, B1 adds 底下 (underneath), 背后 (behind, also figurative), 周围 (around) and written 内 (室内, 国内).",
+          "通过 (tōngguò) + means: through, by means of. 利用 (lìyòng) + resource: make use of. 用 A 来 + verb: use A to do. For position, Independent Chinese adds 底下 (underneath), 背后 (behind, also figurative), 周围 (around) and written 内 (室内, 国内).",
         ],
         examples: [
           { zh: "我们是通过朋友认识的。", pinyin: "Wǒmen shì tōngguò péngyou rènshi de.", en: "We met through friends." },

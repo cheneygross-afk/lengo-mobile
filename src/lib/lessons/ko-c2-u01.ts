@@ -2500,7 +2500,7 @@ export const KO_C2_U01: Lesson[] = [
       {
         heading: "Disagreeing with another reading",
         body: [
-          "하준 says the story is simply about a cruel husband. You read it differently. In a Korean group, direct contradiction (그건 틀렸어요) is rare and sounds aggressive. The usual path is to acknowledge, then offer your reading as a possibility: 물론 그런 면도 있지만, 저는 조금 다르게 읽었어요. Then the C1 hedge: 오히려 사랑을 표현하는 방식이라고 볼 수도 있지 않을까요? The negative question invites agreement instead of demanding it.",
+          "하준 says the story is simply about a cruel husband. You read it differently. In a Korean group, direct contradiction (그건 틀렸어요) is rare and sounds aggressive. The usual path is to acknowledge, then offer your reading as a possibility: 물론 그런 면도 있지만, 저는 조금 다르게 읽었어요. Then the Advanced hedge: 오히려 사랑을 표현하는 방식이라고 볼 수도 있지 않을까요? The negative question invites agreement instead of demanding it.",
           "Support it with the text, briefly: 욕을 하면서도 번 돈으로 설렁탕부터 사잖아요. -잖아요 appeals to what everyone in the room has read. When someone else makes a good point, concede gracefully: 듣고 보니 그렇네요 'now that I hear it, you're right', or 그런 해석도 가능하겠네요.",
         ],
         examples: [

@@ -80,7 +80,7 @@ const UNITS: KoreanUnitDef[] = [
   { id: "u21", title: "Reading Modern Literature, Part 1: Short Fiction", description: "Read modern Korean short fiction with understanding of its narrative tenses, literary endings and long sentences, and talk about a story in Korean.", lessons: KO_C1_U21, extra: KO_C1_U21_EXTRA, writing: KO_C1_U21_WRITING },
   { id: "u22", title: "Word Roots in Depth: Reading Unknown Sino-Korean Vocabulary", description: "Work out the meaning of unfamiliar Sino-Korean words from their parts, tell homophonous roots apart, and choose between native and Sino-Korean words by register.", lessons: KO_C1_U22, extra: KO_C1_U22_EXTRA, writing: KO_C1_U22_WRITING },
   { id: "u23", title: "Style and Register: One Message, Five Audiences", description: "Rewrite the same message for any audience, from a company announcement to a text to a younger sibling, choosing speech level, honorifics, words and tone deliberately.", lessons: KO_C1_U23, extra: KO_C1_U23_EXTRA, writing: KO_C1_U23_WRITING },
-  { id: "u24", title: "C1 Review and TOPIK 5 Practice", description: "Consolidate every C1 point and perform at TOPIK level 5 in listening, reading and writing.", lessons: KO_C1_U24, extra: KO_C1_U24_EXTRA, writing: KO_C1_U24_WRITING },
+  { id: "u24", title: "Review and TOPIK 5 Practice", description: "Consolidate every Advanced point and perform at TOPIK level 5 in listening, reading and writing.", lessons: KO_C1_U24, extra: KO_C1_U24_EXTRA, writing: KO_C1_U24_WRITING },
 ];
 
 const LEVEL = buildKoreanLevel("C1", UNITS);

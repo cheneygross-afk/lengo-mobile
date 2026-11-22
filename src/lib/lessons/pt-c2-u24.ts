@@ -15,7 +15,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "False friends and structures that don't map",
         body: [
-          "This review mixes the professional units, so each sentence tests more than one thing. Start with the traps that survive into C2. \"Pretender\" is to intend; \"eventualmente\" is occasionally or possibly, never finally; \"atualmente\" is currently; \"realizar\" is to carry out; \"compromisso\" is an appointment or commitment, not a compromise (\"meio-termo\", \"acordo\"); \"assistir a\" is to watch or attend.",
+          "This review mixes the professional units, so each sentence tests more than one thing. Start with the traps that survive into the Mastery level. \"Pretender\" is to intend; \"eventualmente\" is occasionally or possibly, never finally; \"atualmente\" is currently; \"realizar\" is to carry out; \"compromisso\" is an appointment or commitment, not a compromise (\"meio-termo\", \"acordo\"); \"assistir a\" is to watch or attend.",
           "Structures matter as much as words. The English -ing becomes an infinitive or a noun ('Reducing costs is vital' → \"Reduzir custos é vital\"). Phrasal verbs become a single verb (\"set up\" → \"criar\", \"montar\"). Noun stacks unfold from right to left with \"de\": 'customer service team leader' is \"líder da equipe de atendimento ao cliente\". English agentless passives often read better with \"se\" or an active verb.",
         ],
         examples: [

@@ -27,7 +27,7 @@ export type RemoteLevelInfo = {
   /** "A1", "Pinyin", "Kana". */
   code: string;
   name: string;
-  /** What the level cards show: "Beginner (A1)". */
+  /** What the level cards show: "Beginner". */
   label: string;
   /** The exam the level prepares for ("JLPT N5"), if any. */
   exam: string | null;

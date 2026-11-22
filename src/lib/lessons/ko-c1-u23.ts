@@ -22,7 +22,7 @@ export const KO_C1_U23: Lesson[] = [
       {
         heading: "One sentence, five registers",
         body: [
-          "By C1 you know every speech level; the skill now is choosing, and doing it on purpose. Take 'the meeting has moved to 3 p.m.'. 회의가 오후 3시로 변경되었습니다 is 하십시오체: announcements, presentations, formal emails, a first meeting with a client. 회의가 오후 3시로 바뀌었어요 is 해요체, the default polite speech for colleagues and anyone you are not close to. 회의 3시로 바뀌었어 is 반말, for close friends and younger family. 회의가 오후 3시로 변경되었다 is 한다체, the voice of reports, articles and essays. 회의 시간 오후 3시로 변경 is 개조식, the bullet-point style of minutes and notices.",
+          "By the Advanced level you know every speech level; the skill now is choosing, and doing it on purpose. Take 'the meeting has moved to 3 p.m.'. 회의가 오후 3시로 변경되었습니다 is 하십시오체: announcements, presentations, formal emails, a first meeting with a client. 회의가 오후 3시로 바뀌었어요 is 해요체, the default polite speech for colleagues and anyone you are not close to. 회의 3시로 바뀌었어 is 반말, for close friends and younger family. 회의가 오후 3시로 변경되었다 is 한다체, the voice of reports, articles and essays. 회의 시간 오후 3시로 변경 is 개조식, the bullet-point style of minutes and notices.",
           "The words move with the ending. Sino-Korean 변경되다 sits naturally in the formal and written versions; native 바뀌다 belongs to speech. The 반말 line also drops the particle and 오후, because friends share the context. A common English-speaker habit is to change only the ending: 변경되었어 to a friend is grammatical but sounds like a memo read aloud.",
           "한다체 is not rude 반말. It has no listener at all: written in a report, 회의가 변경되었다 is neutral; said to a person's face, it sounds like a narrator. 반말 is the opposite, a close, listener-facing style.",
         ],
@@ -815,7 +815,7 @@ export const KO_C1_U23: Lesson[] = [
       {
         heading: "Linking: -하고 → 와 / 과, 및; -고 → -(으)며",
         body: [
-          "To join nouns, speech uses 하고 and (이)랑; writing uses 와 / 과 and, in lists, notices and forms, 및 'and, as well as' (신청 및 문의). To join clauses, -고 is fine everywhere, but written prose alternates it with -(으)며 (B2): 이 지역은 공기가 맑으며 물이 깨끗하다. -(으)며 also avoids the chain of -고 -고 -고 that makes a learner's paragraph sound like a list.",
+          "To join nouns, speech uses 하고 and (이)랑; writing uses 와 / 과 and, in lists, notices and forms, 및 'and, as well as' (신청 및 문의). To join clauses, -고 is fine everywhere, but written prose alternates it with -(으)며 (Upper-intermediate): 이 지역은 공기가 맑으며 물이 깨끗하다. -(으)며 also avoids the chain of -고 -고 -고 that makes a learner's paragraph sound like a list.",
           "Small spoken forms need upgrading too: 거 → 것, 걸 → 것을, 게 → 것이, 이거 → 이것, 같은 거 → 등. 사람들 can often lose 들 in writing: 많은 시민이 is more natural than 많은 시민들이.",
         ],
         examples: [
@@ -1241,7 +1241,7 @@ export const KO_C1_U23: Lesson[] = [
       {
         heading: "The dial: softeners and sharpeners",
         body: [
-          "Speech level sets distance; tone sets firmness, and you control it separately. Softeners (B2) make room for the other person: 혹시 'by any chance' opens a question gently, 좀 shrinks a request, -(으)ㄹ 것 같아요 turns a fact into an impression, -(으)면 좋겠어요 states a wish instead of a demand, and a trailing -는데요 or -아서요 leaves the sentence open for the listener to finish.",
+          "Speech level sets distance; tone sets firmness, and you control it separately. Softeners (Upper-intermediate) make room for the other person: 혹시 'by any chance' opens a question gently, 좀 shrinks a request, -(으)ㄹ 것 같아요 turns a fact into an impression, -(으)면 좋겠어요 states a wish instead of a demand, and a trailing -는데요 or -아서요 leaves the sentence open for the listener to finish.",
           "Sharpeners close that room. -아 / 어 주십시오 is a clear request; -기 바랍니다 is a directive to everyone, typical of notices; -아 / 어야 합니다 states an obligation; 반드시 and 꼭 remove options; -(으)ㄹ 경우 ... -겠습니다 names a consequence. The same message moves along the dial: 좀 조용히 해 주시면 좋겠어요 → 조용히 해 주십시오 → 조용히 하시기 바랍니다.",
           "Two traps for English speakers. -기 바랍니다 to one superior sounds like a notice pinned to their desk; use -아 / 어 주시면 감사하겠습니다. And stacking every softener (혹시 좀 ... 것 같은데요) in a formal complaint sounds unsure of itself; when the matter is serious, one softener and a clear ending is stronger.",
           "Firmness also shows in what you leave out. Dropping 혹시 and 좀 already sharpens a request, and the firmest written form drops the verb altogether: 흡연 금지, 외부인 출입 금지, 주차 금지. Such noun signs are normal on walls and doors, but written to one person in a message they feel like a slammed door.",
@@ -2026,7 +2026,7 @@ export const KO_C1_U23: Lesson[] = [
       {
         heading: "Mixed levels in one message",
         body: [
-          "The most common C1 slip is not a wrong ending but two levels in one message. A new employee writes to the 팀장: 팀장님, 자료 보냈어. 확인 부탁드립니다. The second sentence is perfect; the first is 반말 to a superior, and the mix reads as careless or even mocking. The fix is to set one level for the reader and keep it: 팀장님, 자료 보냈습니다. 확인 부탁드립니다.",
+          "The most common Advanced slip is not a wrong ending but two levels in one message. A new employee writes to the 팀장: 팀장님, 자료 보냈어. 확인 부탁드립니다. The second sentence is perfect; the first is 반말 to a superior, and the mix reads as careless or even mocking. The fix is to set one level for the reader and keep it: 팀장님, 자료 보냈습니다. 확인 부탁드립니다.",
           "Essays have the same problem: 환경 문제는 매우 심각하다. 그래서 우리 모두 노력해야 해요. The first sentence is 한다체, the second 해요. Every sentence of an essay stays 한다체.",
         ],
         examples: [
@@ -2271,7 +2271,7 @@ export const KO_C1_U23: Lesson[] = [
       {
         heading: "Outlet 2: 수빈's blog post",
         body: [
-          "수빈's blog is polite 해요 to unknown readers, but personal and expressive: 그런데, 하필, -는 거예요 (B1 storytelling 'and would you believe'), 결국 ... -아서야 'only after'. Numbers stay, but feelings come in: 발을 동동 구르다 'stamp your feet with worry', 다행이었어요. Compare 지연됐다 in the news with 멈춰 서 있는 거예요 here: same fact, felt from inside the train.",
+          "수빈's blog is polite 해요 to unknown readers, but personal and expressive: 그런데, 하필, -는 거예요 (Intermediate storytelling 'and would you believe'), 결국 ... -아서야 'only after'. Numbers stay, but feelings come in: 발을 동동 구르다 'stamp your feet with worry', 다행이었어요. Compare 지연됐다 in the news with 멈춰 서 있는 거예요 here: same fact, felt from inside the train.",
         ],
         examples: [
           { es: "오늘은 대학 동기 결혼식 날이었어요.", en: "Today was my university friend's wedding day." },
@@ -2526,7 +2526,7 @@ export const KO_C1_U23: Lesson[] = [
             source: "We will let you know as soon as the new date is confirmed.",
             answer: "새 일정이 확정되는 대로 다시 안내드리겠습니다.",
             altAnswers: ["새 일정이 확정되는 대로 다시 안내해 드리겠습니다.", "새 일정이 확정되는 대로 다시 연락드리겠습니다.", "새로운 일정이 확정되는 대로 다시 안내드리겠습니다.", "새로운 일정이 확정되는 대로 다시 연락드리겠습니다.", "일정이 확정되는 대로 다시 안내드리겠습니다.", "일정이 확정되는 대로 다시 연락드리겠습니다.", "새 일정이 정해지는 대로 다시 안내드리겠습니다.", "새 일정이 확정되면 바로 다시 안내드리겠습니다."],
-            explanation: "-는 대로 'as soon as' (B2) and the humble 안내드리다 or 연락드리다.",
+            explanation: "-는 대로 'as soon as' (Upper-intermediate) and the humble 안내드리다 or 연락드리다.",
           },
         ],
       },

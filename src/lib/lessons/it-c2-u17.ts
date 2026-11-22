@@ -186,7 +186,7 @@ export const IT_C2_U17: Lesson[] = [
         body: [
           "Native speakers don't answer instantly either; they fill the gap with words that sound natural. \"Allora...\", \"Dunque...\", \"Vediamo un po'...\", \"Bella domanda\", \"Come dire...\", \"Diciamo che...\" give you two or three seconds without silence. For a longer pause: \"Mi lasci pensare un attimo.\"",
           "Another trick is to repeat or reframe the question: \"Se le piace vivere in città? Mah, dipende da cosa intendiamo per città.\" Reframing buys time and shows thought. The interjection \"mah\" signals doubt or a nuanced answer; \"beh\" introduces an obvious or slightly reluctant point.",
-          "Avoid the learner's habit of filling every pause with \"ehm\" or with English ‘so’ and ‘like’. \"Cioè\" and \"tipo\" are the Italian equivalents, but at C2 you should use them as natives do in relaxed speech, not as nervous fillers in a formal answer.",
+          "Avoid the learner's habit of filling every pause with \"ehm\" or with English ‘so’ and ‘like’. \"Cioè\" and \"tipo\" are the Italian equivalents, but at the Mastery level you should use them as natives do in relaxed speech, not as nervous fillers in a formal answer.",
           "Each discourse marker has its own job. \"Allora\" and \"dunque\" open; \"insomma\" sums up, sometimes with a hint of impatience (\"Insomma, non è semplice\"); \"comunque\" brings you back after a digression (\"Comunque, tornando alla domanda...\"); \"ecco\" lands the point you were looking for (\"Ecco, questo è il punto\"). Used in their proper places, they make an improvised answer sound planned.",
         ],
         examples: [
@@ -574,7 +574,7 @@ export const IT_C2_U17: Lesson[] = [
       {
         heading: "Verb patterns",
         body: [
-          "A transcript of a learner's talk shows the errors that survive to C2. Most are about prepositions after verbs and adjectives. It's \"rispondere a una domanda\" (not *rispondere la domanda), \"dipendere da\" (not *dipendere di), \"essere interessato a\" (not *interessato in), \"partecipare a\" (not *partecipare in).",
+          "A transcript of a learner's talk shows the errors that survive to Mastery. Most are about prepositions after verbs and adjectives. It's \"rispondere a una domanda\" (not *rispondere la domanda), \"dipendere da\" (not *dipendere di), \"essere interessato a\" (not *interessato in), \"partecipare a\" (not *partecipare in).",
           "\"Pensare a\" means to think about; \"pensare di\" means to have an opinion about or to intend: \"Penso spesso a mia nonna\", \"Che ne pensi del film?\", \"Penso di partire domani.\" And after \"facile\", \"difficile\" or \"bello\" + infinitive with a passive sense, use \"da\": \"È difficile da capire.\"",
           "These errors are invisible in writing practice because you have time to check. In speech they slip out, so drill the patterns aloud as whole chunks: \"rispondere alla domanda\", \"dipende da te\", \"partecipare al convegno\".",
           "Other common pairs: \"convincere qualcuno a fare\", \"riuscire a fare\", \"smettere di fare\", \"cercare di fare\", \"abituarsi a\", \"fidarsi di\". Learn each verb with its preposition, as natives store them, never as a bare verb.",
@@ -732,7 +732,7 @@ export const IT_C2_U17: Lesson[] = [
     level: "IT-C2",
     number: 10,
     title: "CILS QUATTRO: Speaking",
-    summary: "Practice the kind of tasks found in the CILS QUATTRO speaking test: a conversation with the examiner and a monologue on a topic, with C2 language for opinions and nuance.",
+    summary: "Practice the kind of tasks found in the CILS QUATTRO speaking test: a conversation with the examiner and a monologue on a topic, with Mastery language for opinions and nuance.",
     duration: "19 min",
     sections: [
       {
@@ -758,7 +758,7 @@ export const IT_C2_U17: Lesson[] = [
         heading: "The monologue",
         body: [
           "A typical prompt: \"Secondo alcuni, i social network hanno reso il dibattito pubblico più democratico; secondo altri, più superficiale. Esponga la sua opinione.\" Use a clear structure: introduce, present both views, give your own with reasons and an example, conclude.",
-          "Show C2 range in the frame sentences: \"Si tratta di una questione complessa, che non ammette risposte semplici.\" \"Da un lato è innegabile che...; dall'altro non si può ignorare che...\" \"A mio avviso, la verità sta nel mezzo, ma con una precisazione:...\" \"Alla luce di quanto detto, ritengo che...\"",
+          "Show Mastery range in the frame sentences: \"Si tratta di una questione complessa, che non ammette risposte semplici.\" \"Da un lato è innegabile che...; dall'altro non si può ignorare che...\" \"A mio avviso, la verità sta nel mezzo, ma con una precisazione:...\" \"Alla luce di quanto detto, ritengo che...\"",
           "Speak for the full time, but don't pad. If you finish early, add a concrete example or a counter-argument you can refute: \"Qualcuno potrebbe obiettare che...; a questo risponderei che...\"",
           "Topics at this level are often abstract or social: technology, work, the environment, language and identity, the role of culture. Prepare a small bank of examples from Italian life: they make your monologue concrete and show cultural knowledge as well as language.",
         ],
@@ -779,7 +779,7 @@ export const IT_C2_U17: Lesson[] = [
         heading: "The conversation",
         body: [
           "In the conversation, the examiner may challenge you: \"Ma non le sembra una posizione un po' ingenua?\" Stay calm and nuance: \"Capisco l'obiezione. Forse mi sono espressa in modo troppo netto: intendevo dire che...\" Rephrasing your own view shows control, not weakness.",
-          "Use the full range of hypothesis: \"Se fossi un insegnante, introdurrei...\", \"Se lo avessero fatto dieci anni fa, oggi non saremmo a questo punto.\" A mixed hypothesis like the second one, past condition with present result, is a typical C2 marker.",
+          "Use the full range of hypothesis: \"Se fossi un insegnante, introdurrei...\", \"Se lo avessero fatto dieci anni fa, oggi non saremmo a questo punto.\" A mixed hypothesis like the second one, past condition with present result, is a typical Mastery marker.",
           "A question back can be natural (\"E lei che cosa ne pensa?\"), but remember the examiner's role: they are there to listen to you, so don't turn the test into an interview of the examiner. Keep your answers developed, with reasons and examples, rather than short replies.",
         ],
         examples: [
@@ -803,7 +803,7 @@ export const IT_C2_U17: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[It's undeniable] that social media have given many people a voice.", sentence: "___ che i social abbiano dato voce a molti.", answer: "È innegabile", explanation: "\"È innegabile che\" + subjunctive." },
       { type: "word-order", prompt: "Put the words in order to say: To that I would reply that the problem is education.", words: ["A", "questo", "risponderei", "che", "il", "problema", "è", "l'educazione."], translation: "To that I would reply that the problem is education.", explanation: "Refuting a counter-argument." },
       { type: "multiple-choice", question: "The examiner says: \"Non le sembra una posizione ingenua?\" The best reply begins ...", options: ["Capisco l'obiezione. Forse...", "No, assolutamente no!", "Lei non ha capito.", "Non lo so."], correctIndex: 0, explanation: "Acknowledge, then nuance." },
-      { type: "dictation", audio: "Si tratta di una questione complessa, che non ammette risposte semplici.", explanation: "A C2 opening frame." },
+      { type: "dictation", audio: "Si tratta di una questione complessa, che non ammette risposte semplici.", explanation: "A Mastery opening frame." },
       { type: "speak", text: "Si tratta di una questione complessa. Da un lato è innegabile che i social abbiano dato voce a molti; dall'altro non si può ignorare che abbiano favorito la polarizzazione.", prompt: "Begin your monologue aloud: It's a complex issue. On the one hand it's undeniable that social media have given many people a voice; on the other, we can't ignore that they have encouraged polarization.", tip: "Mark the two halves with a pause at the semicolon.", explanation: "A balanced opening for the monologue." },
     ],
   },

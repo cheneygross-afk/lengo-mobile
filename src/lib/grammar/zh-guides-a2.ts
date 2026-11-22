@@ -14,7 +14,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     level: "A2",
     hsk: "HSK 2",
     intro: [
-      "Chinese verbs don't change for tense, but small aspect words show how an action unfolds. At A1 you met 了 for a completed action. A2 adds two more: 过 (guo) for experience, \"have you ever ...?\", and 在 (zài) before a verb for something in progress, \"I'm doing it right now\".",
+      "Chinese verbs don't change for tense, but small aspect words show how an action unfolds. At the Foundations level you met 了 for a completed action. The Everyday Chinese level adds two more: 过 (guo) for experience, \"have you ever ...?\", and 在 (zài) before a verb for something in progress, \"I'm doing it right now\".",
       "Think of them as answers to different questions. 了: did it happen? 过: has it ever happened? 在: is it happening now?",
     ],
     sections: [
@@ -163,7 +163,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
       },
       {
         q: "What's 墙上挂着一张地图?",
-        a: "That's the existential pattern, place + verb + 着 + thing: \"on the wall hangs a map\". It's a B1 point; see the guide on describing scenes.",
+        a: "That's the existential pattern, place + verb + 着 + thing: \"on the wall hangs a map\". It's an Independent Chinese point; see the guide on describing scenes.",
       },
     ],
     related: ["guo-and-zai-aspect", "direction-complements", "de-complement-and-di"],
@@ -362,7 +362,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     level: "A2",
     hsk: "HSK 2",
     intro: [
-      "English uses \"a bit\" for both \"a bit expensive\" and \"a bit cheaper\". Chinese uses two different words in two different places, and mixing them up is one of the most common A2 mistakes. This guide sorts them out, along with the words for \"so\" and \"like this\".",
+      "English uses \"a bit\" for both \"a bit expensive\" and \"a bit cheaper\". Chinese uses two different words in two different places, and mixing them up is one of the most common Everyday Chinese mistakes. This guide sorts them out, along with the words for \"so\" and \"like this\".",
     ],
     sections: [
       {
@@ -527,7 +527,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
       },
       {
         q: "How do I say \"can't understand\"?",
-        a: "That's a potential complement: 听不懂 (can't understand by listening), 看不懂 (can't understand by reading). It's a B1 point built on result complements.",
+        a: "That's a potential complement: 听不懂 (can't understand by listening), 看不懂 (can't understand by reading). It's an Independent Chinese point built on result complements.",
       },
     ],
     related: ["direction-complements", "ba-sentences", "potential-complements"],
@@ -619,7 +619,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
       },
       {
         q: "Do direction complements have other meanings?",
-        a: "Yes, many. 想起来 (remember), 看出来 (make out), 说下去 (keep talking) are figurative. They're covered in the B1 guide on figurative complements.",
+        a: "Yes, many. 想起来 (remember), 看出来 (make out), 说下去 (keep talking) are figurative. They're covered in the Independent Chinese guide on figurative complements.",
       },
     ],
     related: ["result-complements", "ba-sentences", "figurative-complements"],
@@ -697,7 +697,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Where do 不, 没 and 要 go in a 把 sentence?",
-        a: "Before 把: 我没把门关上 (I didn't shut the door), 你要把作业做完. This is covered in detail at B1.",
+        a: "Before 把: 我没把门关上 (I didn't shut the door), 你要把作业做完. This is covered in detail at the Independent Chinese level.",
       },
       {
         q: "Is 把 formal?",
@@ -806,7 +806,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     level: "A2",
     hsk: "HSK 2",
     intro: [
-      "These are the A2 sentence frames that link two ideas. Each has a fixed shape, and like all Chinese frames they mark both halves: \"if ..., then ...\", \"the more ..., the more ...\".",
+      "These are the Everyday Chinese sentence frames that link two ideas. Each has a fixed shape, and like all Chinese frames they mark both halves: \"if ..., then ...\", \"the more ..., the more ...\".",
     ],
     sections: [
       {
@@ -882,7 +882,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Is 要是 the same as 如果?",
-        a: "Yes, 要是 (yàoshi) is the spoken \"if\". It's covered in the B1 guide on conditions.",
+        a: "Yes, 要是 (yàoshi) is the spoken \"if\". It's covered in the Independent Chinese guide on conditions.",
       },
       {
         q: "Can 还是 mean anything else?",
@@ -1162,7 +1162,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
       },
       {
         q: "What does 学了两年了 mean, with two 了?",
-        a: "That you've been studying for two years and still are. With one 了 the studying is over. See the B1 guide on time spans.",
+        a: "That you've been studying for two years and still are. With one 了 the studying is over. See the Independent Chinese guide on time spans.",
       },
     ],
     related: ["guo-and-zai-aspect", "time-clauses", "time-spans-and-experience"],
@@ -1172,7 +1172,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     slug: "should-must-may",
     title: "Should, Must, May and Only: 应该, 得, 必须, 可以, 不用, 只",
     description:
-      "The A2 helping verbs for obligation and permission: 应该 (should), 得 and 必须 (must), 可以 (may), 不用 (no need), 不要 and 别 (don't), plus 打算 and 愿意 and only with 只.",
+      "The Everyday Chinese helping verbs for obligation and permission: 应该 (should), 得 and 必须 (must), 可以 (may), 不用 (no need), 不要 and 别 (don't), plus 打算 and 愿意 and only with 只.",
     level: "A2",
     hsk: "HSK 2",
     intro: [
@@ -1276,7 +1276,7 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
     level: "A2",
     hsk: "HSK 2",
     intro: [
-      "At A1 you could only say what is. A2 adds the shades in between: maybe, probably, surely, I thought (wrongly), I feel. These words go before the verb, and several of them combine with each other in a fixed order.",
+      "At the Foundations level you could only say what is. The Everyday Chinese level adds the shades in between: maybe, probably, surely, I thought (wrongly), I feel. These words go before the verb, and several of them combine with each other in a fixed order.",
     ],
     sections: [
       {
@@ -1432,13 +1432,13 @@ export const ZH_GUIDES_A2: ZhGrammarGuide[] = [
   },
   {
     slug: "everyday-words-a2",
-    title: "咱们, 自己, 所有, 什么样 and 怎么办: Useful A2 Words with Grammar",
+    title: "咱们, 自己, 所有, 什么样 and 怎么办: Useful Everyday Chinese Words with Grammar",
     description:
       "Inclusive 咱们, 自己 (oneself), 大家 (everyone), quantity words like 所有…都 and 大部分, question phrases 什么样 and 怎么办, and the verbs 出现, 发现 and 进行.",
     level: "A2",
     hsk: "HSK 2",
     intro: [
-      "Some words carry their own little grammar rules: 所有 needs 都, 进行 needs a two-syllable verb, 出现 puts the new thing after it. This guide collects the A2 words where a rule matters.",
+      "Some words carry their own little grammar rules: 所有 needs 都, 进行 needs a two-syllable verb, 出现 puts the new thing after it. This guide collects the Everyday Chinese words where a rule matters.",
     ],
     sections: [
       {

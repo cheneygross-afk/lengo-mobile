@@ -1793,7 +1793,7 @@ export const KO_B1_U18: Lesson[] = [
         source: "If I were the boss, I'd let the staff rest more.",
         answer: "제가 사장이라면 직원들을 더 쉬게 할 거예요.",
         altAnswers: ["제가 사장님이라면 직원들을 더 쉬게 할 거예요.", "제가 사장이라면 직원들을 더 쉬게 하겠어요.", "제가 사장이라면 직원들이 더 쉬게 할 거예요.", "내가 사장이라면 직원들을 더 쉬게 할 거예요.", "제가 사장이라면 직원들을 좀 더 쉬게 할 거예요."],
-        explanation: "'If I were' takes (이)라면: 사장이라면. Don't add 님 to yourself, and -게 하다 (A2) is 'let, make'.",
+        explanation: "'If I were' takes (이)라면: 사장이라면. Don't add 님 to yourself, and -게 하다 (Elementary) is 'let, make'.",
       },
       {
         type: "speak",

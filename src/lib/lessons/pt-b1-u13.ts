@@ -788,7 +788,7 @@ export const PT_B1_U13: Lesson[] = [
         heading: "Support, example, conclusion",
         body: [
           "After the frase-tópico come one or two reasons and a concrete example. Signal each move with the connectors from the last three lessons. \"Em primeiro lugar\" and \"além disso\" add reasons, \"por exemplo\" brings in the example, and \"portanto\" or \"em resumo\" closes.",
-          "The last sentence returns to the frase-tópico without repeating it. It draws a consequence or makes a proposal, often with an impersonal expression + subjunctive: \"é urgente que a prefeitura invista\". Five sentences make a solid B1 paragraph. One connector per sentence is plenty, and not every sentence needs one.",
+          "The last sentence returns to the frase-tópico without repeating it. It draws a consequence or makes a proposal, often with an impersonal expression + subjunctive: \"é urgente que a prefeitura invista\". Five sentences make a solid Intermediate paragraph. One connector per sentence is plenty, and not every sentence needs one.",
         ],
         examples: [
           { es: "Em primeiro lugar, os ônibus estão sempre lotados nos horários de pico.", en: "First of all, the buses are always packed at rush hour." },

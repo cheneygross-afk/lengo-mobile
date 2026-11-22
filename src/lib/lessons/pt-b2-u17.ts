@@ -2278,7 +2278,7 @@ export const PT_B2_U17: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Spiral Review: Imagining and Advising",
-    summary: "Cumulative practice: the imperfect subjunctive, unreal conditions, the B1 present subjunctive and the conditional.",
+    summary: "Cumulative practice: the imperfect subjunctive, unreal conditions, the Intermediate present subjunctive and the conditional.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

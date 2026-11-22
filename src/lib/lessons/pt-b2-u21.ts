@@ -15,7 +15,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         heading: "Ser carries the tense, the participle carries the agreement",
         body: [
-          "At B1 you met the passive in the present and the perfeito: \"a casa foi vendida\". The machine works the same way in every tense: put \"ser\" in the tense you need and add the participle. \"Ser\" tells you when; the participle tells you who, agreeing in gender and number with the subject: \"o prédio foi inaugurado\", \"as obras foram inauguradas\".",
+          "At the Intermediate level you met the passive in the present and the perfeito: \"a casa foi vendida\". The machine works the same way in every tense: put \"ser\" in the tense you need and add the participle. \"Ser\" tells you when; the participle tells you who, agreeing in gender and number with the subject: \"o prédio foi inaugurado\", \"as obras foram inauguradas\".",
           "The imperfeito describes a habit or background in the past: \"o pão era feito em casa\" (the bread used to be made at home). The future has two versions. \"Será anunciado\" is the written and news form, and \"vai ser anunciado\" is what people say. The conditional gives \"seria anunciado\" (would be announced).",
           "The agent, if you name it at all, comes with \"por\" plus the article: \"pelo prefeito\", \"pela empresa\", \"pelos moradores\". Use plain \"por\" before a name without an article: \"um romance escrito por Clarice Lispector\".",
         ],
@@ -91,7 +91,7 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Reading news leads",
         body: [
           "Brazilian news leads pack several passives into one sentence, often in different tenses. Read them in time order: \"A creche, que tinha sido prometida em 2021, foi entregue ontem e será ampliada no ano que vem.\" Three tenses of \"ser\", three agreements with \"a creche\".",
-          "Notice also the short participles you learned at B1: \"entregue\", \"pago\", \"aceito\", \"eleito\", \"preso\". With \"ser\" they are the only natural choice, whatever the tense: \"tinha sido pago\", \"será entregue\".",
+          "Notice also the short participles you learned at the Intermediate level: \"entregue\", \"pago\", \"aceito\", \"eleito\", \"preso\". With \"ser\" they are the only natural choice, whatever the tense: \"tinha sido pago\", \"será entregue\".",
         ],
         examples: [
           { es: "A creche, que tinha sido prometida em 2021, foi entregue ontem.", en: "The daycare center, which had been promised in 2021, was handed over yesterday." },
@@ -805,7 +805,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         heading: "Vendem-se casas: the se passivo agrees",
         body: [
-          "You met \"aluga-se\" and \"vende-se\" on signs at B1. In the written norm this \"se\" makes a passive: \"vendem-se casas\" means houses are sold, so \"casas\" is the grammatical subject and the verb must agree with it. One house: \"vende-se casa\". Several: \"vendem-se casas\", \"alugam-se salas\", \"consertam-se celulares\".",
+          "You met \"aluga-se\" and \"vende-se\" on signs at the Intermediate level. In the written norm this \"se\" makes a passive: \"vendem-se casas\" means houses are sold, so \"casas\" is the grammatical subject and the verb must agree with it. One house: \"vende-se casa\". Several: \"vendem-se casas\", \"alugam-se salas\", \"consertam-se celulares\".",
           "The order is usually verb first, then the noun, which is exactly why people miss the agreement: the plural comes after the verb, where English speakers and Brazilians alike expect an object. In a formal text, look past the \"se\" and ask: is the noun after it what is being sold, rented or fixed? If so, it's the subject, and plural noun means plural verb.",
           "The Unit 9 rules for pronoun position still apply: \"não se aceitam cheques\", \"os produtos que se vendem aqui\". After a trigger the \"se\" moves before the verb, but the agreement stays.",
         ],
@@ -2158,7 +2158,7 @@ export const PT_B2_U21: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Spiral Review: Passive and Impersonal",
-    summary: "Cumulative practice of the passive and the se with pronouns in writing, reported speech and the B2 subjunctives.",
+    summary: "Cumulative practice of the passive and the se with pronouns in writing, reported speech and the Upper-intermediate subjunctives.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

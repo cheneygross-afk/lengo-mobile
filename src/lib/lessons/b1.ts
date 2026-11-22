@@ -2084,7 +2084,7 @@ const B1_BASE_LESSONS: Lesson[] = [
             "right": "to disagree"
           }
         ],
-        "explanation": "Estas diez palabras del vocabulario de opiniones e incertidumbre aparecen con frecuencia a nivel B1. Improbable, como probable, pide subjuntivo después de «es… que»."
+        "explanation": "Estas diez palabras del vocabulario de opiniones e incertidumbre aparecen con frecuencia a nivel Intermediate. Improbable, como probable, pide subjuntivo después de «es… que»."
       },
       {
         "type": "fill-blank",
@@ -12838,7 +12838,7 @@ const B1_BASE_LESSONS: Lesson[] = [
           },
           {
             "type": "multi-select",
-            "question": "¿Cuáles de estas oraciones son ejemplos correctos de condición real con si (nivel B1)?",
+            "question": "¿Cuáles de estas oraciones son ejemplos correctos de condición real con si (nivel Intermediate)?",
             "options": [
               "Si tengo hambre, como algo.",
               "Si tuviera dinero, viajaría por el mundo.",
@@ -14580,8 +14580,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-1",
     "level": "B1",
     "number": 56,
-    "title": "B1 Vocabulary Practice, Part 1 of 10",
-    "summary": "Review the 50 emotion and reaction words from the B1 vocabulary lists.",
+    "title": "Vocabulary Practice, Part 1 of 10",
+    "summary": "Review the 50 emotion and reaction words from the Intermediate vocabulary lists.",
     "duration": "7 min",
     "sections": [
       {
@@ -15118,8 +15118,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-2",
     "level": "B1",
     "number": 57,
-    "title": "B1 Vocabulary Practice, Part 2 of 10",
-    "summary": "Review the 50 opinion and uncertainty words from the B1 vocabulary lists.",
+    "title": "Vocabulary Practice, Part 2 of 10",
+    "summary": "Review the 50 opinion and uncertainty words from the Intermediate vocabulary lists.",
     "duration": "7 min",
     "sections": [
       {
@@ -15466,8 +15466,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-3",
     "level": "B1",
     "number": 58,
-    "title": "B1 Vocabulary Practice, Part 3 of 10",
-    "summary": "Repasa las 50 palabras de naturaleza y medio ambiente de las listas de vocabulario B1.",
+    "title": "Vocabulary Practice, Part 3 of 10",
+    "summary": "Repasa las 50 palabras de naturaleza y medio ambiente de las listas de vocabulario de nivel Intermediate.",
     "duration": "8 min",
     "sections": [
       {
@@ -15797,8 +15797,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-4",
     "level": "B1",
     "number": 59,
-    "title": "B1 Vocabulary Practice, Part 4 of 10",
-    "summary": "Repasa las 50 palabras de cocina de las listas de vocabulario B1.",
+    "title": "Vocabulary Practice, Part 4 of 10",
+    "summary": "Repasa las 50 palabras de cocina de las listas de vocabulario de nivel Intermediate.",
     "duration": "7 min",
     "sections": [
       {
@@ -16161,8 +16161,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-5",
     "level": "B1",
     "number": 60,
-    "title": "B1 Vocabulary Practice, Part 5 of 10",
-    "summary": "Repasa las 50 palabras de dinero y finanzas de las listas de vocabulario B1.",
+    "title": "Vocabulary Practice, Part 5 of 10",
+    "summary": "Repasa las 50 palabras de dinero y finanzas de las listas de vocabulario de nivel Intermediate.",
     "duration": "8 min",
     "sections": [
       {
@@ -16538,8 +16538,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-6",
     "level": "B1",
     "number": 61,
-    "title": "B1 Vocabulary Practice, Part 6 of 10",
-    "summary": "Ponte a prueba con las 50 palabras de educación de la lista 6 de vocabulario B1 (la beca, matricularse, el plagio…).",
+    "title": "Vocabulary Practice, Part 6 of 10",
+    "summary": "Ponte a prueba con las 50 palabras de educación de la lista 6 de vocabulario de nivel Intermediate (la beca, matricularse, el plagio…).",
     "duration": "8 min",
     "sections": [
       {
@@ -16864,8 +16864,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-7",
     "level": "B1",
     "number": 62,
-    "title": "B1 Vocabulary Practice, Part 7 of 10",
-    "summary": "Practica las 50 palabras de experiencias de vida de la lista de vocabulario B1 n.º 7 (el logro, atreverse a, el hito…).",
+    "title": "Vocabulary Practice, Part 7 of 10",
+    "summary": "Practica las 50 palabras de experiencias de vida de la lista de vocabulario de nivel Intermediate n.º 7 (el logro, atreverse a, el hito…).",
     "duration": "8 min",
     "sections": [
       {
@@ -17212,8 +17212,8 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-8",
     "level": "B1",
     "number": 63,
-    "title": "B1 Vocabulary Practice, Part 8 of 10",
-    "summary": "Pon a prueba las 50 palabras de noticias y sucesos de la lista de vocabulario B1 n.º 8 (el titular, la polémica, el veredicto…).",
+    "title": "Vocabulary Practice, Part 8 of 10",
+    "summary": "Pon a prueba las 50 palabras de noticias y sucesos de la lista de vocabulario de nivel Intermediate n.º 8 (el titular, la polémica, el veredicto…).",
     "duration": "8 min",
     "sections": [
       {
@@ -17553,7 +17553,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-9",
     "level": "B1",
     "number": 64,
-    "title": "B1 Vocabulary Practice, Part 9 of 10",
+    "title": "Vocabulary Practice, Part 9 of 10",
     "summary": "Repasa las 50 palabras de la ciudad y las direcciones de la lección «Relative Pronouns: Que, Quien, El Que, Lo Que, Part 2 of 2».",
     "duration": "8 min",
     "sections": [
@@ -17926,7 +17926,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-vocabulary-practice-10",
     "level": "B1",
     "number": 65,
-    "title": "B1 Vocabulary Practice, Part 10 of 10",
+    "title": "Vocabulary Practice, Part 10 of 10",
     "summary": "Repasa 50 palabras de negocios y trabajo, aprende a deducir la familia de una palabra (-ción, -dor, -miento) y las combinaciones fijas (cumplir un plazo).",
     "duration": "8 min",
     "sections": [
@@ -18364,7 +18364,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-comprehensive-review-1",
     "level": "B1",
     "number": 66,
-    "title": "B1 Comprehensive Review, Part 1 of 3",
+    "title": "Comprehensive Review, Part 1 of 3",
     "summary": "Repasa el presente de subjuntivo (deseo, duda, emoción, expresiones impersonales, ojalá) y compruébalo en un conjunto mixto que también repasa mandatos, condicional y oraciones con si.",
     "duration": "7 min",
     "sections": [
@@ -18496,7 +18496,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-comprehensive-review-2",
     "level": "B1",
     "number": 67,
-    "title": "B1 Comprehensive Review, Part 2 of 3",
+    "title": "Comprehensive Review, Part 2 of 3",
     "summary": "Repasa mandatos, condicional, si + presente y pretérito perfecto, y practica oraciones con si, perfecto y pluscuamperfecto, relativos y pasiva en un conjunto mixto.",
     "duration": "7 min",
     "sections": [
@@ -18627,7 +18627,7 @@ const B1_BASE_LESSONS: Lesson[] = [
     "slug": "b1-comprehensive-review-3",
     "level": "B1",
     "number": 68,
-    "title": "B1 Comprehensive Review, Part 3 of 3",
+    "title": "Comprehensive Review, Part 3 of 3",
     "summary": "Repasa el pluscuamperfecto, los pronombres relativos y la pasiva y el se impersonal, y compruébalos en un conjunto mixto que también repasa el subjuntivo y las oraciones con si.",
     "duration": "7 min",
     "sections": [

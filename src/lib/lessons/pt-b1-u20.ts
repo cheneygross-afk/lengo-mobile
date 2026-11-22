@@ -52,7 +52,7 @@ export const PT_B1_U20: Lesson[] = [
         heading: "Ter medo, estar com medo, ficar com medo",
         body: [
           "Portuguese has three frames for a feeling, and each adds something. \"Ter\" + noun is the general or lasting feeling: \"tenho medo de altura\" (I'm afraid of heights). \"Estar com\" + noun is how you feel right now: \"estou com medo\" (I'm scared). \"Ficar com\" + noun is the moment the feeling starts: \"fiquei com medo\" (I got scared).",
-          "This is the same \"estar com\" you used for \"estou com fome\" and \"estou com frio\" at A2. It works with \"raiva\", \"vergonha\", \"ciúme\", \"saudade\" and \"medo\": \"ela está com raiva\", \"fiquei com vergonha\".",
+          "This is the same \"estar com\" you used for \"estou com fome\" and \"estou com frio\" at the Elementary level. It works with \"raiva\", \"vergonha\", \"ciúme\", \"saudade\" and \"medo\": \"ela está com raiva\", \"fiquei com vergonha\".",
         ],
         examples: [
           { es: "Tenho medo de altura desde criança.", en: "I've been afraid of heights since I was a kid." },
@@ -2116,7 +2116,7 @@ export const PT_B1_U20: Lesson[] = [
     level: "PT-B1",
     number: 11,
     title: "Spiral Review: People and Feelings",
-    summary: "Cumulative practice of emotion and relationship vocabulary with the subjunctive of reactions and the A2 past tenses.",
+    summary: "Cumulative practice of emotion and relationship vocabulary with the subjunctive of reactions and the Elementary past tenses.",
     duration: "13 min",
     kind: "review",
     sections: [

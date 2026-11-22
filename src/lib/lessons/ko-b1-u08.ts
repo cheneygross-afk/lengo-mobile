@@ -1662,7 +1662,7 @@ export const KO_B1_U08: Lesson[] = [
       {
         heading: "Sound focus: 무슨 일 [무슨닐], 할 일 [할릴]",
         body: [
-          "You met this rule in A2. When a word or word part ending in a consonant is followed by one starting with 이, 야, 여, 요 or 유, Koreans add a [ㄴ]: 무슨 일 [무슨닐], 한여름 [한녀름]. After ㄹ, the added ㄴ becomes [ㄹ]: 할 일 [할릴], 서울역 [서울력]. The new ㄴ can also change the consonant before it: 색연필 → [색년필] → [생년필], since ㄱ before ㄴ is said [ㅇ].",
+          "You met this rule in the Elementary level. When a word or word part ending in a consonant is followed by one starting with 이, 야, 여, 요 or 유, Koreans add a [ㄴ]: 무슨 일 [무슨닐], 한여름 [한녀름]. After ㄹ, the added ㄴ becomes [ㄹ]: 할 일 [할릴], 서울역 [서울력]. The new ㄴ can also change the consonant before it: 색연필 → [색년필] → [생년필], since ㄱ before ㄴ is said [ㅇ].",
           "It happens in compounds and short, closely linked phrases, not with endings and particles: 일이 is just [이리]. The spelling never changes, so in dictation you hear [할릴] but write 할 일.",
         ],
         examples: [

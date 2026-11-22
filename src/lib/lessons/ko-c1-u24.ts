@@ -13,8 +13,8 @@ export const KO_C1_U24: Lesson[] = [
     slug: "c1-review-connectives",
     level: "KO-C1",
     number: 1,
-    title: "Spiral Review: C1 Connectives",
-    summary: "No new grammar: -더니, -았 / 었더니, -고 보니, -다 보니, -는 통에, -(으)ㄴ들, -(으)ㄹ지언정, -(으)ㄹ지라도, -거니와 and -기에 / -길래 mixed with their B1 and B2 neighbours, plus the word root 급 (grade, level): 등급, 고급, 중급, 초급, 급수, 진급.",
+    title: "Spiral Review: Connectives",
+    summary: "No new grammar: -더니, -았 / 었더니, -고 보니, -다 보니, -는 통에, -(으)ㄴ들, -(으)ㄹ지언정, -(으)ㄹ지라도, -거니와 and -기에 / -길래 mixed with their Intermediate and Upper-intermediate neighbours, plus the word root 급 (grade, level): 등급, 고급, 중급, 초급, 급수, 진급.",
     duration: "21 min",
     sections: [
       {
@@ -69,7 +69,7 @@ export const KO_C1_U24: Lesson[] = [
         heading: "What I saw, what I did, what I found",
         body: [
           "Unit 1's connectives all look back, so run one check before choosing: who acted, and who watched? A change in someone else that you witnessed takes bare -더니: 지은 씨가 계속 야근을 하더니 몸살이 났다. Your own action followed by a result or a discovery takes -았 / 었더니: 메일을 다시 확인했더니 날짜가 바뀌어 있었다. A realisation once an action is complete is -고 보니; a result that crept up through repetition is -다 보니; a noisy, chaotic situation that spoiled something is -는 통에.",
-          "Then check the second clause. None of these can end in a command, a suggestion or a plan, because each reports what has already happened. Keep B2's neighbours in view too: -는 바람에 for one sudden cause (버스가 갑자기 서는 바람에 넘어졌다) and -느라고 for your own activity eating up the time (보고서를 쓰느라고 점심을 못 먹었다).",
+          "Then check the second clause. None of these can end in a command, a suggestion or a plan, because each reports what has already happened. Keep the Upper-intermediate level's neighbours in view too: -는 바람에 for one sudden cause (버스가 갑자기 서는 바람에 넘어졌다) and -느라고 for your own activity eating up the time (보고서를 쓰느라고 점심을 못 먹었다).",
         ],
         examples: [
           { es: "지은 씨가 요즘 계속 야근을 하더니 결국 몸살이 났다.", en: "Jieun has been working late all the time, and in the end she's come down with something." },
@@ -796,7 +796,7 @@ export const KO_C1_U24: Lesson[] = [
         heading: "Lectures and documentaries (41-50)",
         body: [
           "Lectures (41-42, 45-46, 49-50), documentaries (43-44) and the expert interview (47-48) are the densest clips. The core idea is rarely in the first sentence: it follows a turn (그런데, 그러나, 하지만 실제로는) or a summing-up marker (즉, 결국, 다시 말해). A documentary narrates in 한다체 or 합니다체 with written vocabulary such as 서식하다 'inhabit', 번식하다 'breed' and 기원 'origin'.",
-          "Attitude options at this end of the paper are more precise than at B2: 회의적인 시각을 보이고 있다 'is sceptical', 낙관적으로 전망하고 있다, 비판적으로 평가하고 있다, 한계를 지적하고 있다, 대안을 제시하고 있다. First decide whether the speaker is for, against or weighing both sides; that alone rules out half the options.",
+          "Attitude options at this end of the paper are more precise than at the Upper-intermediate level: 회의적인 시각을 보이고 있다 'is sceptical', 낙관적으로 전망하고 있다, 비판적으로 평가하고 있다, 한계를 지적하고 있다, 대안을 제시하고 있다. First decide whether the speaker is for, against or weighing both sides; that alone rules out half the options.",
         ],
         examples: [
           { es: "즉, 문제는 기술이 아니라 그것을 사용하는 방식에 있습니다.", en: "In other words, the problem lies not in the technology but in the way it's used." },
@@ -1496,7 +1496,7 @@ export const KO_C1_U24: Lesson[] = [
         heading: "The prompt and five minutes of planning",
         body: [
           "Question 54 is worth 50 of the 100 writing points: a 600-700 character essay in 한다체 that answers the prompt's three questions. On the paper it shares 50 minutes with questions 51-53, so most candidates have 30-35 minutes for it; here you get five minutes to plan and thirty to write. Note the instructions: 쓰라 is the written command of Unit 3, and 옮겨 쓰지 마시오 forbids copying the prompt's sentences.",
-          "Graders score three areas: 내용 및 과제 수행 (all three questions answered, on topic), 글의 전개 구조 (introduction, body and conclusion linked by connectives) and 언어 사용 (range and accuracy in one register). Answering all three questions clearly is the level 4 standard. Level 5 and 6 essays stand out in the other two areas: claims calibrated with the hedges of Unit 5, connectives that carry the logic, and C1 grammar used where it fits rather than put on display. Plan in Korean words: your position on the third question first, then one point and one example for each body paragraph.",
+          "Graders score three areas: 내용 및 과제 수행 (all three questions answered, on topic), 글의 전개 구조 (introduction, body and conclusion linked by connectives) and 언어 사용 (range and accuracy in one register). Answering all three questions clearly is the level 4 standard. Level 5 and 6 essays stand out in the other two areas: claims calibrated with the hedges of Unit 5, connectives that carry the logic, and Advanced grammar used where it fits rather than put on display. Plan in Korean words: your position on the third question first, then one point and one example for each body paragraph.",
         ],
         examples: [
           { es: "디지털 정보 격차에 대해 아래의 내용을 중심으로 자신의 생각을 쓰라.", en: "Write your view on the digital divide, focusing on the points below." },
@@ -1578,7 +1578,7 @@ export const KO_C1_U24: Lesson[] = [
         heading: "Scoring yourself at level 5",
         body: [
           "Keep the last three or four minutes for checking. Content: does each body paragraph answer one question, and does the conclusion answer the third? Structure: four paragraphs, an introduction in your own words that announces the plan, and connectors that show the logic (특히, 또한, 나아가, 물론 ... 그렇다고 해서, 따라서). Language: written vocabulary (고령층, 소외되다, 누리다), hedges where a claim is a judgement and none where it is a fact, and 한다체 to the last sentence, with spacing that follows the answer sheet's grid.",
-          "Level 5 deductions are subtler than level 4 ones: 것 같다 instead of a written hedge, 나는 or 내 생각에는 in every paragraph, the same connective three times, and an ambitious literary ending (-(으)ㄹ진대, -노라면) dropped where it doesn't fit. One well-placed C1 form beats three forced ones.",
+          "Level 5 deductions are subtler than level 4 ones: 것 같다 instead of a written hedge, 나는 or 내 생각에는 in every paragraph, the same connective three times, and an ambitious literary ending (-(으)ㄹ진대, -노라면) dropped where it doesn't fit. One well-placed Advanced form beats three forced ones.",
         ],
         examples: [
           { es: "각 문단이 질문에 하나씩 답하고 있는가?", en: "Does each paragraph answer one of the questions?" },
@@ -1626,7 +1626,7 @@ export const KO_C1_U24: Lesson[] = [
         rubric: [
           "Content: answers all three questions on topic, with one body paragraph on the causes and one on the problems, and a conclusion that proposes concrete efforts",
           "Structure: four paragraphs (introduction, two body paragraphs, conclusion), an introduction in the writer's own words that announces the plan (-고자 한다), and connectors that carry the logic (특히 / 또한, 나아가, 물론 ... 그렇다고 해서, 따라서)",
-          "Language use at level 5: calibrated written hedges (-(으)ㄹ 가능성이 크다, -다고 할 수 있다, -(으)ㄹ 수밖에 없다) instead of 것 같다, C1 forms where they fit (-거니와, -는 한편, -는 차원에서, -아 / 어야 할 것이다), and written vocabulary (고령층, 소외되다, 누리다)",
+          "Language use at level 5: calibrated written hedges (-(으)ㄹ 가능성이 크다, -다고 할 수 있다, -(으)ㄹ 수밖에 없다) instead of 것 같다, Advanced forms where they fit (-거니와, -는 한편, -는 차원에서, -아 / 어야 할 것이다), and written vocabulary (고령층, 소외되다, 누리다)",
           "Register and form: 한다체 throughout with no 저 / 제, -요 or 습니다, dependent nouns spaced (할 수, 할 것, 하는 데), and 600-700 characters",
         ],
         modelAnswer: "스마트폰 하나로 은행 업무부터 병원 예약까지 해결할 수 있는 시대가 되었다. 그러나 모든 사람이 이러한 편리함을 똑같이 누리는 것은 아니다. 디지털 기기를 능숙하게 다루는 사람과 그렇지 못한 사람 사이의 정보 격차가 점점 커지고 있기 때문이다. 이 글에서는 정보 격차의 원인과 문제점을 살펴보고 이를 줄이기 위한 방안을 제시하고자 한다.\n\n정보 격차가 생기는 가장 큰 원인은 기술의 변화 속도에 있다. 새로운 서비스는 끊임없이 등장하지만 이를 배울 기회는 충분하지 않다. 특히 고령층은 기기 사용에 익숙하지 않거니와 주변에 물어볼 사람도 없는 경우가 많다. 또한 경제적 여건 때문에 최신 기기를 갖추기 어려운 사람들도 적지 않다.\n\n이러한 격차는 단순한 불편에 그치지 않는다. 키오스크 앞에서 주문을 포기하거나 온라인으로만 받는 신청을 놓치는 일이 반복되면 사회 참여에서 밀려날 수밖에 없다. 나아가 필요한 정보와 혜택에서 소외될 가능성도 크다.\n\n물론 기술의 발전을 멈출 수는 없다. 그렇다고 해서 그 속도를 따라가지 못하는 사람들을 그대로 둘 수는 없을 것이다. 따라서 지역 사회 차원에서 눈높이에 맞춘 디지털 교육을 제공하는 한편 기존의 대면 창구도 유지해야 할 것이다. 기술은 모두를 위해 존재할 때 비로소 그 의미를 가진다고 할 수 있다.",
@@ -1719,8 +1719,8 @@ export const KO_C1_U24: Lesson[] = [
     slug: "c1-drill-c1-endings-mixed",
     level: "KO-C1",
     number: 8,
-    title: "Drill: Every C1 Ending",
-    summary: "High-repetition mixed production of the C1 endings, from -더니 and -(으)ㄴ들 to -건대, -(으)ㄹ세라, the written hedges and the editorial endings, with regular and irregular stems in random order; aim to answer each item in under ten seconds.",
+    title: "Drill: Every Advanced Ending",
+    summary: "High-repetition mixed production of the Advanced endings, from -더니 and -(으)ㄴ들 to -건대, -(으)ㄹ세라, the written hedges and the editorial endings, with regular and irregular stems in random order; aim to answer each item in under ten seconds.",
     duration: "30 min",
     sections: [
       {
@@ -2111,14 +2111,14 @@ export const KO_C1_U24: Lesson[] = [
     slug: "c1-error-hunt-c1-review",
     level: "KO-C1",
     number: 9,
-    title: "Error Hunt: C1 Review",
-    summary: "The most common C1 slips from the whole level in one set: yourself with bare -더니, commands after look-back connectives, register clashes, badly calibrated hedges, translationese, honorifics too low or too high, -률 / -율 and 결재 / 결제; find and fix each.",
+    title: "Error Hunt: Review",
+    summary: "The most common Advanced slips from the whole level in one set: yourself with bare -더니, commands after look-back connectives, register clashes, badly calibrated hedges, translationese, honorifics too low or too high, -률 / -율 and 결재 / 결제; find and fix each.",
     duration: "21 min",
     sections: [
       {
         heading: "Who saw it, and what may follow",
         body: [
-          "Starred forms are mistakes. Bare -더니 with yourself as the subject is still the most common C1 error: *제가 매일 걸어 다니더니 다리가 튼튼해졌어요 describes you as if you were watching a stranger. Your own action takes -았 / 었더니: 매일 걸어 다녔더니.",
+          "Starred forms are mistakes. Bare -더니 with yourself as the subject is still the most common Advanced error: *제가 매일 걸어 다니더니 다리가 튼튼해졌어요 describes you as if you were watching a stranger. Your own action takes -았 / 었더니: 매일 걸어 다녔더니.",
           "The second trap is what follows. Connectives that report what happened (-더니, -았 / 었더니, -기에 / -길래, -는 통에) can't be followed by a command, a suggestion or a promise: *값이 싸기에 하나 사세요 → 값이 싸니까 하나 사세요. The rhetorical connectives demand their own endings: -(으)ㄴ들 a rhetorical question or a strong negative (*지금 간들 늦지 않을 거예요 → 지금 가도), and -(으)ㄹ지언정 a refusal (*굶을지언정 돈을 빌릴 거예요 → 굶을지언정 돈은 빌리지 않겠어요).",
         ],
         examples: [
@@ -3096,8 +3096,8 @@ export const KO_C1_U24: Lesson[] = [
     slug: "c1-mission-c1-portfolio",
     level: "KO-C1",
     number: 11,
-    title: "Real-World Mission: Your C1 Portfolio",
-    summary: "Produce a four-piece C1 portfolio: a request email to another department, a 200-character description of survey data, a 600-character column on the four-day week and a two-minute formal speech, each self-checked against the C1 criteria.",
+    title: "Real-World Mission: Your Advanced Portfolio",
+    summary: "Produce a four-piece Advanced portfolio: a request email to another department, a 200-character description of survey data, a 600-character column on the four-day week and a two-minute formal speech, each self-checked against the Advanced criteria.",
     duration: "60 min",
     sections: [
       {
@@ -3146,7 +3146,7 @@ export const KO_C1_U24: Lesson[] = [
       {
         heading: "Piece 2: 200 characters of data",
         body: [
-          "Piece 2 is question 53 shortened: describe survey data in about 200 characters of 한다체. Frame, change, ranking and one closing line; every figure, no opinion and no cause the data doesn't give. At C1 the test is economy: four sentences, each verb chosen for its job (증가하였다, 가장 많았고, 그 뒤를 이었다, 예상된다).",
+          "Piece 2 is question 53 shortened: describe survey data in about 200 characters of 한다체. Frame, change, ranking and one closing line; every figure, no opinion and no cause the data doesn't give. At the Advanced level the test is economy: four sentences, each verb chosen for its job (증가하였다, 가장 많았고, 그 뒤를 이었다, 예상된다).",
         ],
         examples: [
           { es: "20~30대 1,000명을 대상으로 중고 거래 앱 이용 경험에 대해 조사하였다.", en: "A survey on using second-hand trading apps was carried out among 1,000 people in their 20s and 30s." },
@@ -3228,7 +3228,7 @@ export const KO_C1_U24: Lesson[] = [
         heading: "Piece 4: a two-minute speech, and the self-check",
         body: [
           "Piece 4 is a two-minute speech in 하십시오체 on your Korean journey, about a page of text read at a measured pace. Use the signposts of Unit 9 (먼저 ... 말씀드리고, 이어서, 정리하자면), one formal phrase from Unit 3 (돌이켜 보건대 or 바라건대) and a clean close. Record it and listen back once before you check.",
-          "Then self-check all four pieces against the C1 criteria: one register per piece, held to the last line; -시- for others and humble forms for yourself; calibrated hedges in the written pieces, with 것 같다 only in speech; no translationese; and the mechanics of spacing and -률 / -율.",
+          "Then self-check all four pieces against the Advanced criteria: one register per piece, held to the last line; -시- for others and humble forms for yourself; calibrated hedges in the written pieces, with 것 같다 only in speech; no translationese; and the mechanics of spacing and -률 / -율.",
         ],
         examples: [
           { es: "안녕하십니까. 오늘 이 자리에서 제 한국어 공부에 대해 말씀드릴 기회를 주셔서 감사합니다.", en: "Hello. Thank you for the opportunity to speak about my Korean studies today." },
@@ -3367,7 +3367,7 @@ export const KO_C1_U24_WRITING: WriteExercise = {
   maxWords: 220,
   rubric: [
     "Answers the question in four paragraphs: an introduction that poses it (과연 ...-는가), the advantages of grades, their limits, and a conclusion with concrete recommendations",
-    "Uses C1 connectives and endings accurately: -거니와 (or -(으)ㄹ 뿐만 아니라) for an added point, a written hedge (-다고 하기는 어렵다, -(으)ㄴ / 는 것으로 보인다, -지 않을까 싶다), and 물론 ... 그렇다고 해서 for the concession",
+    "Uses Advanced connectives and endings accurately: -거니와 (or -(으)ㄹ 뿐만 아니라) for an added point, a written hedge (-다고 하기는 어렵다, -(으)ㄴ / 는 것으로 보인다, -지 않을까 싶다), and 물론 ... 그렇다고 해서 for the concession",
     "Closes with a measured call (-아 / 어야 할 것이다, 비로소) and uses at least two 급 words (등급, 급수, 고급, 진급) naturally",
     "Keeps 한다체 throughout with written vocabulary and no 저 / 제, -요, 것 같다 or translationese (회의를 가지다, -에 있어서)",
   ],

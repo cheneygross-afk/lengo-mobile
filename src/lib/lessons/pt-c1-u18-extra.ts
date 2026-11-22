@@ -8,7 +8,7 @@ export const PT_C1_U18_EXTRA: Lesson[] = [
     level: "PT-C1",
     number: 1,
     title: "Extra Practice: Midpoint Review, Part 1 of 3",
-    summary: "Drill the grammar of the first half of C1: the subjunctive in its frame, the conditional of rumor, the future of probability, and participle and gerund clauses.",
+    summary: "Drill the grammar of the first half of the Advanced level: the subjunctive in its frame, the conditional of rumor, the future of probability, and participle and gerund clauses.",
     duration: "14 min",
     optional: true,
     kind: "drill",

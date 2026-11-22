@@ -22,7 +22,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "것으로 보인다: the written 것 같다",
         body: [
-          "In B2 you met the news sentence 이는 ... 때문인 것으로 보인다. At C1 it becomes a whole system. In a report, a paper or a TOPIK essay, 것 같다 sounds like a personal impression said aloud; the written hedge is 것으로 보인다 'appears to be, seems to': literally 'is seen as the fact that ...'. It keeps the claim cautious while taking the writer out of the sentence, which is exactly the voice Korean academic prose wants. 나는 or 내가 almost never appear with it: the evidence, not the writer, does the seeing.",
+          "In the Upper-intermediate level you met the news sentence 이는 ... 때문인 것으로 보인다. At the Advanced level it becomes a whole system. In a report, a paper or a TOPIK essay, 것 같다 sounds like a personal impression said aloud; the written hedge is 것으로 보인다 'appears to be, seems to': literally 'is seen as the fact that ...'. It keeps the claim cautious while taking the writer out of the sentence, which is exactly the voice Korean academic prose wants. 나는 or 내가 almost never appear with it: the evidence, not the writer, does the seeing.",
           "The tense lives in the modifier before 것, just as with 것 같다. Action verb now: 효과가 있는 (있다 takes -는), 늘어나는. Adjective now: 높은, 부족한. Noun: 원인인. Finished event: 줄어든, 증가한. Expected event: 늘어날, 계속될. A past state of an adjective is -았 / 었던: 높았던 것으로 보인다. The ending 보인다 itself stays in the present; 보였다 is for narrating what seemed true back then.",
           "The trap for English speakers is the adjective: 'satisfaction appears to be high' tempts *높는 것으로 보인다, copying the verb pattern. Adjectives never take -는. Check the dictionary form: if 'to be X' is one word (높다, 부족하다, 필요하다), it takes -(으)ㄴ.",
         ],
@@ -256,7 +256,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "Building the quoted clause",
         body: [
-          "-다고 볼 수 있다 'it can be seen that' and -다고 할 수 있다 'it can be said that' wrap a claim in the B1 reported-speech form and then add a modal: the writer does not state the fact, but says it is a defensible reading. That is the measured conclusion Korean academic writing expects at the end of a paragraph.",
+          "-다고 볼 수 있다 'it can be seen that' and -다고 할 수 있다 'it can be said that' wrap a claim in the Intermediate reported-speech form and then add a modal: the writer does not state the fact, but says it is a defensible reading. That is the measured conclusion Korean academic writing expects at the end of a paragraph.",
           "The clause in front is built exactly like indirect speech. Noun: 원인이라고 (after a consonant), 계기라고 (after a vowel). Adjective: 높다고, 필요하다고. Action verb in the present: 증가한다고, 줄어든다고, 먹는다고. Past of anything: 성공했다고, 높았다고, 원인이었다고. Future or guess: 늘어날 것이라고.",
           "The two classic slips are on nouns and verbs. English speakers write *원인이다고, copying the dictionary form, but 이다 becomes 이라고 before 고. And they write *증가하다고 for an action happening now, forgetting that a present action verb needs -ㄴ / 는다고: 증가한다고. Both errors stand out at once to a Korean reader.",
         ],
@@ -332,7 +332,7 @@ export const KO_C1_U05: Lesson[] = [
         heading: "Academic verbs: 분석하다, 검토하다, 제시하다, 시사하다",
         body: [
           "Four verbs carry most of the work around a conclusion. 분석하다 'analyse' and 검토하다 'examine, review' describe what the writer did: 자료를 분석한 결과, 선행 연구를 검토하였다. 제시하다 'present, put forward' introduces a proposal or evidence: 대안을 제시하다, 근거를 제시하다. 시사하다 'suggest, imply' is the hedge among them: the data does not prove, it suggests. 이 결과는 ... 점을 시사한다 or ... 가능성을 시사한다.",
-          "English 'suggest' has two meanings and only one is 시사하다. 'The results suggest that' is 시사한다; 'I suggest that we' is 제안하다. Writing *방안을 시사한다 for 'propose a measure' is a common C1 slip: use 제시하다 or 제안하다.",
+          "English 'suggest' has two meanings and only one is 시사하다. 'The results suggest that' is 시사한다; 'I suggest that we' is 제안하다. Writing *방안을 시사한다 for 'propose a measure' is a common Advanced slip: use 제시하다 or 제안하다.",
         ],
         examples: [
           { es: "자료를 분석한 결과 두 집단 사이에 뚜렷한 차이가 있었다.", en: "Analysis of the data showed a clear difference between the two groups." },
@@ -472,7 +472,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "-(으)ㄹ 가능성: always the future modifier",
         body: [
-          "In B2 you used -(으)ㄹ 가능성이 높다 in news about the environment. In academic writing it is the main tool for putting a number-like weight on a claim without a number. The scale runs 가능성이 매우 높다 (very likely), 높다 or 크다 (likely), 있다 (possible), 낮다 or 적다 (unlikely), 희박하다 (remote). 가능성이 크다 and 높다 are both standard; 가능성이 많다 is common in speech but less natural in writing.",
+          "In the Upper-intermediate level you used -(으)ㄹ 가능성이 높다 in news about the environment. In academic writing it is the main tool for putting a number-like weight on a claim without a number. The scale runs 가능성이 매우 높다 (very likely), 높다 or 크다 (likely), 있다 (possible), 낮다 or 적다 (unlikely), 희박하다 (remote). 가능성이 크다 and 높다 are both standard; 가능성이 많다 is common in speech but less natural in writing.",
           "가능성 always takes the -(으)ㄹ modifier, whatever the tense of the idea, because a possibility is by nature something not yet confirmed: 증가할 가능성, 높을 가능성, 원인일 가능성. English speakers who think 'the possibility that it is increasing' write *증가하는 가능성. Korean does not allow it; for an ongoing process use -고 있을 가능성.",
           "Add 도 and the claim softens again: 다른 요인이 작용할 가능성도 있다 'it is also possible that other factors are at work'. This 도 is how Korean writers acknowledge an alternative without abandoning their main reading.",
         ],
@@ -550,7 +550,7 @@ export const KO_C1_U05: Lesson[] = [
         heading: "가능성 vs -(으)ㄹ 수 있다",
         body: [
           "-(으)ㄹ 수 있다 also expresses possibility, and in many sentences the two are interchangeable: 비용이 증가할 수 있다 / 증가할 가능성이 있다. The difference is precision. 수 있다 only says 'can happen'; 가능성 can be graded (높다, 낮다, 희박하다), contrasted with 은 and listed with 도. When a reader needs to know how likely, write 가능성.",
-          "In speech the same ideas are 그럴 수도 있어요, 그럴 가능성이 높아요 or the B2 -(으)ㄹ지도 몰라요. -(으)ㄹ지도 모른다 also appears in writing, but it sounds more personal than 가능성이 있다 and is rare in reports.",
+          "In speech the same ideas are 그럴 수도 있어요, 그럴 가능성이 높아요 or the Upper-intermediate level -(으)ㄹ지도 몰라요. -(으)ㄹ지도 모른다 also appears in writing, but it sounds more personal than 가능성이 있다 and is rare in reports.",
           "When you do have a number, Korean switches words. 가능성 is graded with adjectives, while a figure goes with 확률 'probability': 비가 올 확률은 70%이다, 합격할 확률이 높다. A report that writes 가능성이 30%이다 is understood, but 확률 is the precise term and the one statisticians use.",
         ],
         examples: [
@@ -690,9 +690,9 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "-는 경향이 있다 and -는 경향을 보인다",
         body: [
-          "The strongest overclaim in student writing is the bare generalisation: 젊은 사람들은 온라인 쇼핑을 선호한다 says that all young people prefer it. Korean academic prose almost always softens a claim about a group with 경향 'tendency': 젊은 층은 온라인 쇼핑을 선호하는 경향이 있다. You met it in B2 for social trends; here it becomes the default way to state a pattern in data.",
+          "The strongest overclaim in student writing is the bare generalisation: 젊은 사람들은 온라인 쇼핑을 선호한다 says that all young people prefer it. Korean academic prose almost always softens a claim about a group with 경향 'tendency': 젊은 층은 온라인 쇼핑을 선호하는 경향이 있다. You met it in Upper-intermediate for social trends; here it becomes the default way to state a pattern in data.",
           "Two frames, two jobs. -는 경향이 있다 states a general tendency of a group, true over time. -는 경향을 보인다 'shows a tendency' reports what a particular set of data displayed, so it fits a results section: 조사 대상자들은 ... 경향을 보였다. Adjectives can take -(으)ㄴ 경향이 있다 (가격이 비싼 경향이 있다), but writers more often turn them into verbs with -아 / 어지다: 높아지는 경향.",
-          "Strengthen or weaken the tendency itself with an adjective: 경향이 강하다 / 뚜렷하다 (strong, clear), 경향이 약하다 (weak), 경향이 두드러진다 (stands out). And combine it with B1 -(으)ㄹ수록 for a proportional pattern: 소득이 높을수록 ... 경향이 있다.",
+          "Strengthen or weaken the tendency itself with an adjective: 경향이 강하다 / 뚜렷하다 (strong, clear), 경향이 약하다 (weak), 경향이 두드러진다 (stands out). And combine it with Intermediate -(으)ㄹ수록 for a proportional pattern: 소득이 높을수록 ... 경향이 있다.",
           "Do not confuse 경향 with the familiar -(으)ㄴ / 는 편이다. 편이다 places one person or thing on a scale (이 지역은 물가가 낮은 편이다, 민수는 말이 많은 편이다); 경향 describes how a group behaves over time or across data. Write 편이다 for a description and 경향 for a pattern.",
         ],
         examples: [
@@ -910,7 +910,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "-지 않을까 한다: a proposal phrased as a question",
         body: [
-          "In B1 you softened opinions in speech with -지 않을까 싶어요. In written Korean the same move, turned into 한다체, is the standard way to make a recommendation or a personal judgement: 제도를 보완할 필요가 있지 않을까 한다 'I would suggest that the system may need to be supplemented'. The writer asks the question 'wouldn't it be ...?' and answers it with 한다 'I think so', which lets the reader agree rather than be told.",
+          "In the Intermediate level you softened opinions in speech with -지 않을까 싶어요. In written Korean the same move, turned into 한다체, is the standard way to make a recommendation or a personal judgement: 제도를 보완할 필요가 있지 않을까 한다 'I would suggest that the system may need to be supplemented'. The writer asks the question 'wouldn't it be ...?' and answers it with 한다 'I think so', which lets the reader agree rather than be told.",
           "English speakers often fear that this sounds weak or unsure. To a Korean professor or examiner it does not: it is the normal register for the writer's own proposals, especially in conclusions. What would sound odd is a bare imperative-like 제도를 보완해야 한다 repeated three times. Use -아야 한다 for the core claim and -지 않을까 한다 for the further suggestions around it.",
           "Forms: verb or adjective stem + -지 않을까 한다 (필요하지 않을까 한다, 늘지 않을까 한다), noun + 이 / 가 아닐까 한다 (문제가 아닐까 한다, 원인이 아닐까 한다), past -지 않았을까 한다 (영향을 주지 않았을까 한다). 싶다 instead of 한다 is a little more personal and common in columns; it stays 싶다 in 한다체, never *싶는다.",
         ],
@@ -982,7 +982,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "-는 듯하다: the written 'it seems'",
         body: [
-          "B2 taught -는 듯하다 as the written 것 같다. In analytical prose it is the lightest of the hedges: an impression the writer forms from what is visible, without the reporting tone of 것으로 보인다. 상황이 조금씩 나아지는 듯하다 'the situation seems to be gradually improving'. Forms: -는 듯하다 for verbs now, -(으)ㄴ 듯하다 for adjectives and past verbs, -(으)ㄹ 듯하다 for the future.",
+          "The Upper-intermediate level taught -는 듯하다 as the written 것 같다. In analytical prose it is the lightest of the hedges: an impression the writer forms from what is visible, without the reporting tone of 것으로 보인다. 상황이 조금씩 나아지는 듯하다 'the situation seems to be gradually improving'. Forms: -는 듯하다 for verbs now, -(으)ㄴ 듯하다 for adjectives and past verbs, -(으)ㄹ 듯하다 for the future.",
           "Two cautions. First, 듯하다 is an adjective, so in 한다체 it stays 듯하다: *나아지는 듯한다 is a common slip. Second, it is a single word: write 나아지는 듯하다, never 듯 하다. Compared with 것으로 보인다, 듯하다 is more personal and more literary; in a lab report prefer 보인다, in a column or essay either works.",
         ],
         examples: [
@@ -1156,7 +1156,7 @@ export const KO_C1_U05: Lesson[] = [
         heading: "단정할 수 없다: refusing to conclude",
         body: [
           "단정하다 means 'conclude definitively, state categorically'. -다고 단정할 수 없다 'one cannot conclude that' and -다고 단정하기는 어렵다 'it is hard to conclude that' are the formal refusals to jump to a conclusion, the Korean counterpart of 'this does not prove that'. They are stronger than -다고 하기는 어렵다: the writer is warning the reader off a tempting inference.",
-          "The classic use is correlation versus causation: 두 변수가 함께 증가했다고 해서 인과 관계가 있다고 단정할 수는 없다. Here B2's -다고 해서 sets up the tempting reasoning and 단정할 수는 없다 rejects it; the 는 on 수 again marks contrast. In speech the same idea is 그렇다고 꼭 그런 건 아니에요 or 확실하지는 않아요.",
+          "The classic use is correlation versus causation: 두 변수가 함께 증가했다고 해서 인과 관계가 있다고 단정할 수는 없다. Here the Upper-intermediate level's -다고 해서 sets up the tempting reasoning and 단정할 수는 없다 rejects it; the 는 on 수 again marks contrast. In speech the same idea is 그렇다고 꼭 그런 건 아니에요 or 확실하지는 않아요.",
         ],
         examples: [
           { es: "두 변수가 함께 증가했다고 해서 인과 관계가 있다고 단정할 수는 없다.", en: "The fact that two variables rose together does not prove a causal relationship." },
@@ -1252,7 +1252,7 @@ export const KO_C1_U05: Lesson[] = [
         source: "We should not conclude that quality is poor just because the price is low.",
         answer: "가격이 싸다고 해서 품질이 나쁘다고 단정해서는 안 된다.",
         altAnswers: ["가격이 낮다고 해서 품질이 나쁘다고 단정해서는 안 된다.", "가격이 저렴하다고 해서 품질이 나쁘다고 단정해서는 안 된다.", "가격이 싸다고 해서 품질이 나쁘다고 단정할 수는 없다.", "가격이 싸다고 해서 품질이 나쁘다고 단정하면 안 된다.", "가격이 싸다고 품질이 나쁘다고 단정해서는 안 된다.", "가격이 싸다고 해서 품질이 떨어진다고 단정해서는 안 된다.", "가격이 낮다고 해서 품질이 나쁘다고 단정할 수는 없다."],
-        explanation: "-다고 해서 (B2) for the tempting reasoning, -아 / 어서는 안 된다 for the prohibition.",
+        explanation: "-다고 해서 (Upper-intermediate) for the tempting reasoning, -아 / 어서는 안 된다 for the prohibition.",
       },
       {
         type: "multiple-choice",
@@ -1379,7 +1379,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "Turning the claim down",
         body: [
-          "The most common editing job at C1 is softening an overclaim in your own draft. Read each sentence and ask: was this measured, or did I infer it? Measured facts stay firm. Inferences drop to (3) or (4), and claims about all people or all cases gain 대체로, 경향 or 일부.",
+          "The most common editing job at the Advanced level is softening an overclaim in your own draft. Read each sentence and ask: was this measured, or did I infer it? Measured facts stay firm. Inferences drop to (3) or (4), and claims about all people or all cases gain 대체로, 경향 or 일부.",
           "Tense survives the change. A past fact 증가했다 becomes 증가한 것으로 보인다 or 증가했을 가능성이 있다, not *증가할 가능성 (which would be the future).",
         ],
         examples: [
@@ -2229,7 +2229,7 @@ export const KO_C1_U05: Lesson[] = [
       {
         heading: "The interpretation",
         body: [
-          "Sentences 5 to 8 move from what was found to why. 이는 ... 때문인 것으로 보인다 is the cautious explanation you know from B2; 다만 'however, that said' introduces a reservation, and 가능성도 배제할 수 없다 keeps a rival explanation alive. This is exactly the calibration Korean reviewers want: the writer offers a mechanism but does not insist on it.",
+          "Sentences 5 to 8 move from what was found to why. 이는 ... 때문인 것으로 보인다 is the cautious explanation you know from the Upper-intermediate level; 다만 'however, that said' introduces a reservation, and 가능성도 배제할 수 없다 keeps a rival explanation alive. This is exactly the calibration Korean reviewers want: the writer offers a mechanism but does not insist on it.",
           "Notice what the writer does not say. There is no 나는, no 확실히, no 것 같다. The confidence is carried entirely by the sentence-final frame.",
         ],
         examples: [
@@ -2558,7 +2558,7 @@ export const KO_C1_U05: Lesson[] = [
         sentence: "___ 우려도 있다.",
         answer: "소통이 부족해질",
         altAnswers: ["의사소통이 부족해질", "소통이 줄어들", "소통이 어려워질"],
-        explanation: "-(으)ㄹ 우려 (B2) takes the future modifier, like 가능성: 부족해질 우려.",
+        explanation: "-(으)ㄹ 우려 (Upper-intermediate) takes the future modifier, like 가능성: 부족해질 우려.",
       },
       {
         type: "multiple-choice",

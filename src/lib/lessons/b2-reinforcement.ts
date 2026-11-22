@@ -4442,7 +4442,7 @@ export const B2_REINFORCEMENT: AnchoredLesson[] = [
         "La lista, segunda parte: haber, cambios, conectores, cuyo",
         [
           "6) Haber impersonal: siempre singular. 7) Verbos de cambio: ponerse (pasajero), hacerse (elegido), volverse (carácter). 8) Conectores: ¿la relación lógica es la correcta? 9) Cuyo: concuerda con lo poseído; nunca «que su».",
-          "¿Por qué una lista? Porque los errores de B2 casi nunca son de vocabulario: son de estructura, y cada estructura tiene una pregunta que la delata.",
+          "¿Por qué una lista? Porque los errores del nivel Advanced casi nunca son de vocabulario: son de estructura, y cada estructura tiene una pregunta que la delata.",
         ],
         [
           ["✗ Se hizo nervioso antes del examen. → ✓ Se puso nervioso antes del examen.", "He got nervous before the exam. (punto 7: cambio pasajero → ponerse)"],

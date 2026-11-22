@@ -296,7 +296,7 @@ export const KO_C1_U07: Lesson[] = [
       {
         heading: "-(으)ㄹ 수밖에 없다: the only possible outcome",
         body: [
-          "You met -(으)ㄹ 수밖에 없다 at B1 for forced choices (택시를 탈 수밖에 없었어요). In argument it does a second job: it presents a consequence as logically unavoidable. 원자재 가격이 오르면 제품 가격도 오를 수밖에 없다 'if raw material prices rise, product prices are bound to rise'. The writer's prediction becomes a matter of necessity, which makes it hard to dispute.",
+          "You met -(으)ㄹ 수밖에 없다 at Intermediate for forced choices (택시를 탈 수밖에 없었어요). In argument it does a second job: it presents a consequence as logically unavoidable. 원자재 가격이 오르면 제품 가격도 오를 수밖에 없다 'if raw material prices rise, product prices are bound to rise'. The writer's prediction becomes a matter of necessity, which makes it hard to dispute.",
           "Unlike -지 않을 수 없다, it takes any subject and any predicate: adjectives (비쌀 수밖에 없다), nouns (불만일 수밖에 없다, rarer) and past results (늦을 수밖에 없었다). Spacing: 수 stands alone, 밖에 joins it: 할 수밖에, never 할 수 밖에.",
           "Editorials often chain the two. First the outcome, then the verdict: 감독이 이렇게 허술하면 사고가 날 수밖에 없고, 당국의 책임을 묻지 않을 수 없다. The first half says the accident was predictable; the second says that someone should therefore have prevented it.",
         ],
@@ -470,7 +470,7 @@ export const KO_C1_U07: Lesson[] = [
         heading: "-아 / 어야 할 것이다: must, said with weight",
         body: [
           "The plain -아 / 어야 한다 states an obligation. Add 것이다 and you get -아 / 어야 할 것이다, the signature ending of the 사설's last paragraph: 정부는 대책을 마련해야 할 것이다. Literally 'it will be the case that they must', it sounds weighed and official rather than hot. Korean readers hear it as 'and we expect them to', which is why the press prefers it to the bare -아야 한다 when addressing people with power.",
-          "The negative is -아 / 어서는 안 될 것이다 'must not': 같은 실수를 되풀이해서는 안 될 것이다. Note 서는, not 도: -아도 된다 gives permission, -아서는 안 된다 forbids. For a softer prescription, use the B2 form -(으)ㄹ 필요가 있다 'there is a need to': 제도를 재검토할 필요가 있다. A well-built closing often moves from 필요가 있다 (the reasoning) to 해야 할 것이다 (the demand).",
+          "The negative is -아 / 어서는 안 될 것이다 'must not': 같은 실수를 되풀이해서는 안 될 것이다. Note 서는, not 도: -아도 된다 gives permission, -아서는 안 된다 forbids. For a softer prescription, use the Upper-intermediate form -(으)ㄹ 필요가 있다 'there is a need to': 제도를 재검토할 필요가 있다. A well-built closing often moves from 필요가 있다 (the reasoning) to 해야 할 것이다 (the demand).",
           "English speakers tend to translate 'should' as -는 게 좋겠다. That is advice to a friend, far too light for an editorial telling a ministry what to do.",
         ],
         examples: [
@@ -989,7 +989,7 @@ export const KO_C1_U07: Lesson[] = [
       {
         heading: "-다니 and -(이)라니: to think that ...!",
         body: [
-          "A 마당에 clause is often capped by an exclamation of disbelief, the -다니 you met in B2: after a verb or adjective stem, -(이)라니 after a noun. 요금을 올리다니 'and to think they are raising fares!', 회식이라니 'a staff dinner, of all things!'. The past goes in front: 올렸다니. In an editorial the exclamation may stand alone as a sentence or be followed by a judgement: 납득하기 어렵다 'it is hard to accept'.",
+          "A 마당에 clause is often capped by an exclamation of disbelief, the -다니 you met in the Upper-intermediate level: after a verb or adjective stem, -(이)라니 after a noun. 요금을 올리다니 'and to think they are raising fares!', 회식이라니 'a staff dinner, of all things!'. The past goes in front: 올렸다니. In an editorial the exclamation may stand alone as a sentence or be followed by a judgement: 납득하기 어렵다 'it is hard to accept'.",
           "In polite speech add 요: 벌써 끝났다니요? 'It's already over?'. The trap is the present tense: 다니 attaches straight to the stem (가다니, 먹다니), with no -ㄴ / 는 as in reported speech.",
         ],
         examples: [

@@ -59,7 +59,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         heading: "Adverbs: attraction until a comma",
         body: [
-          "Adverbs are the second zone to watch. The strong attractors you met at B2 (\"já\", \"sempre\", \"nunca\", \"ainda\", \"também\", \"só\") always pull the pronoun forward: \"já se sabia\", \"também me disseram\". Adverbs of time and place such as \"aqui\", \"hoje\", \"ontem\", \"depois\" and \"agora\" also attract it in the norm when they sit right against the verb: \"aqui se trabalha muito\", \"ontem me avisaram\".",
+          "Adverbs are the second zone to watch. The strong attractors you met at the Upper-intermediate level (\"já\", \"sempre\", \"nunca\", \"ainda\", \"também\", \"só\") always pull the pronoun forward: \"já se sabia\", \"também me disseram\". Adverbs of time and place such as \"aqui\", \"hoje\", \"ontem\", \"depois\" and \"agora\" also attract it in the norm when they sit right against the verb: \"aqui se trabalha muito\", \"ontem me avisaram\".",
           "A pause changes everything. Put a comma after the adverb and the verb begins a new rhythmic unit, so the norm returns to enclisis: \"Aqui, trabalha-se muito\", \"Depois, despediu-se de todos\". The same holds after a fronted adverbial phrase: \"Em Salvador, hospedou-se num hotel do Pelourinho\".",
           "This is why commas and clitics travel together in careful prose. Brazilian speech ignores the pause and keeps the pronoun in front (\"depois, se despediu\"), and many modern editors let that pass. A strict text, such as a contract, a thesis or a court ruling, pairs the comma with enclisis.",
         ],
@@ -917,7 +917,7 @@ export const PT_C2_U27: Lesson[] = [
         body: [
           "In legislation the mesóclise is alive and expected, because articles often open with the verb: \"Considerar-se-á aprovado o candidato que alcançar nota igual ou superior a sete\", \"Dar-se-á ciência às partes\". Here it sounds neither odd nor pompous; it is simply the register.",
           "Outside legal and ceremonial texts it sounds grand. Michel Temer, president from 2016 to 2018, was teased in the press and on social media for his mesóclises, because ordinary listeners hear the form as a display of erudition. In a work email, \"enviar-lhe-ei o arquivo\" reads as either a joke or a writer trying too hard; \"vou lhe enviar o arquivo\" or \"envio o arquivo\" is what a professional writes.",
-          "Brazilians also use it on purpose, for irony: \"Encontrar-nos-emos no bar às seis, se Deus quiser\" among friends mocks formality, and a columnist may write \"dir-se-ia uma reunião de ministros\" of a chaotic family lunch. Knowing how to produce it is part of C2 control; knowing when not to is the rest.",
+          "Brazilians also use it on purpose, for irony: \"Encontrar-nos-emos no bar às seis, se Deus quiser\" among friends mocks formality, and a columnist may write \"dir-se-ia uma reunião de ministros\" of a chaotic family lunch. Knowing how to produce it is part of Mastery control; knowing when not to is the rest.",
         ],
         examples: [
           { es: "Considerar-se-á aprovado o candidato que alcançar nota igual ou superior a sete.", en: "A candidate who scores seven or more shall be considered to have passed." },
@@ -1440,7 +1440,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         heading: "Verbs that refuse lhe: assisti a ele",
         body: [
-          "A small group of verbs takes \"a\" but rejects \"lhe\". You keep the preposition and add a stressed pronoun: \"assistir a\" (to watch, to attend), \"aspirar a\", \"visar a\" (to aim at), \"aludir a\", \"referir-se a\", \"recorrer a\", \"proceder a\". So \"o filme? Assisti a ele ontem\", \"o cargo? Aspiro a ele há anos\", \"a carta a que você se referiu\". \"Assisti-lhe\" for I watched it is a C2-level slip.",
+          "A small group of verbs takes \"a\" but rejects \"lhe\". You keep the preposition and add a stressed pronoun: \"assistir a\" (to watch, to attend), \"aspirar a\", \"visar a\" (to aim at), \"aludir a\", \"referir-se a\", \"recorrer a\", \"proceder a\". So \"o filme? Assisti a ele ontem\", \"o cargo? Aspiro a ele há anos\", \"a carta a que você se referiu\". \"Assisti-lhe\" for I watched it is a Mastery-level slip.",
           "\"Assistir\" has three lives. Watching or attending: \"assistir ao jogo\", \"assisti a ele\" (speech: \"assisti o jogo\", \"assisti ele\"). Helping or giving care, with a direct object: \"o médico assistiu o paciente\", \"assistiu-o\". And, in legal language, belonging to someone as a right, which does take \"lhe\": \"assiste-lhe o direito de recorrer\" (he has the right to appeal).",
           "Verbs with other prepositions never take a clitic: \"gostar dele\", \"pensar nela\", \"confiar neles\", \"precisar de você\". English speakers sometimes write \"lhe confio\"; Portuguese needs \"confio nele\".",
         ],
@@ -2141,7 +2141,7 @@ export const PT_C2_U27: Lesson[] = [
       {
         heading: "Norm to natural educated speech",
         body: [
-          "The reverse transformation matters just as much, because a C2 speaker who talks like a legal text sounds strange. Mesóclise becomes \"ir\" + infinitive: \"encontrá-lo-ei amanhã\" becomes \"vou encontrar com ele amanhã\" or, still careful, \"vou encontrá-lo amanhã\". Opening enclisis becomes proclisis: \"Disseram-me\" becomes \"Me disseram\". Contracted clitics disappear: \"entreguei-lho\" becomes \"entreguei pra ele\".",
+          "The reverse transformation matters just as much, because a Mastery speaker who talks like a legal text sounds strange. Mesóclise becomes \"ir\" + infinitive: \"encontrá-lo-ei amanhã\" becomes \"vou encontrar com ele amanhã\" or, still careful, \"vou encontrá-lo amanhã\". Opening enclisis becomes proclisis: \"Disseram-me\" becomes \"Me disseram\". Contracted clitics disappear: \"entreguei-lho\" becomes \"entreguei pra ele\".",
           "Educated speech keeps some norm features: \"eu o conheço\" and \"não a vi\" are common in careful conversation, and passive agreement (\"vendem-se\") is still respected by many. What it drops is the stiffness: the enclitic after a subject, the climbed pronoun, the mesóclise.",
         ],
         examples: [
@@ -2259,7 +2259,7 @@ export const PT_C2_U27: Lesson[] = [
     slug: "c2-error-hunt-clitics",
     level: "PT-C2",
     number: 10,
-    title: "Error Hunt: Clitics at C2",
+    title: "Error Hunt: Clitics at the Mastery Level",
     summary: "Proofread a legal opinion and a building notice and fix the clitic errors that survive even in polished prose: não far-se-á, tinha dito-lhe, vende-se casas, assisti-lhe for watched, lhe vi.",
     duration: "16 min",
     kind: "drill",

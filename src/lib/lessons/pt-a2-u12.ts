@@ -551,7 +551,7 @@ export const PT_A2_U12: Lesson[] = [
       {
         heading: "Ter que, precisar and the pharmacy",
         body: [
-          "\"Ter que\" + infinitive, which you met at A1, is obligation and stronger than \"deve\": \"você tem que tomar o remédio\" (you have to, no choice).",
+          "\"Ter que\" + infinitive, which you met at the Beginner level, is obligation and stronger than \"deve\": \"você tem que tomar o remédio\" (you have to, no choice).",
           "\"Precisar\" (to need) takes \"de\" before a noun, as in \"preciso de um remédio\". Before an infinitive, Brazilians drop it: \"preciso ir ao médico\".",
           "At the pharmacy, instructions combine \"deve\" with \"por\": \"o senhor deve tomar dois comprimidos por dia\". A \"comprimido\" is a pill, a \"remédio\" is medicine, and a \"receita\" is a prescription (it also means recipe).",
         ],

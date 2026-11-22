@@ -110,7 +110,7 @@ export const IT_A2_U14: Lesson[] = [
       {
         heading: "Double r",
         body: [
-          "A second group doubles the r: \"volere\" → \"vorrei\", \"venire\" → \"verrei\", \"bere\" → \"berrei\", \"rimanere\" → \"rimarrei\", \"tenere\" → \"terrei\". You know \"vorrei\" from A1 as a chunk; now you can use it in every person: \"vorresti\", \"vorrebbe\", \"vorremmo\".",
+          "A second group doubles the r: \"volere\" → \"vorrei\", \"venire\" → \"verrei\", \"bere\" → \"berrei\", \"rimanere\" → \"rimarrei\", \"tenere\" → \"terrei\". You know \"vorrei\" from Beginner as a chunk; now you can use it in every person: \"vorresti\", \"vorrebbe\", \"vorremmo\".",
           "Pronounce the double r with a real trill, held longer: vor-REI. A single r makes it sound like a typo.",
         ],
         examples: [
@@ -651,7 +651,7 @@ export const IT_A2_U14: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "A learner wrote \"Potresti mi aiutare?\". Write it correctly: Could you help me?", source: "Could you help me?", answer: "Potresti aiutarmi?", altAnswers: ["Mi potresti aiutare?"], explanation: "Pronoun before \"potresti\" or attached to the infinitive." },
-          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Vorrei che vieni alla festa\". Say it the A2 way: Do you fancy coming to the party?", source: "Do you fancy coming to the party?", answer: "Ti va di venire alla festa?", altAnswers: ["Vieni anche tu alla festa?", "Vieni alla festa?", "Vuoi venire alla festa?", "Ti piacerebbe venire alla festa?"], explanation: "\"Vorrei che\" needs a subjunctive; a question is simpler and natural." },
+          { type: "translate", direction: "en-es", prompt: "A learner wrote \"Vorrei che vieni alla festa\". Say it the Elementary way: Do you fancy coming to the party?", source: "Do you fancy coming to the party?", answer: "Ti va di venire alla festa?", altAnswers: ["Vieni anche tu alla festa?", "Vieni alla festa?", "Vuoi venire alla festa?", "Ti piacerebbe venire alla festa?"], explanation: "\"Vorrei che\" needs a subjunctive; a question is simpler and natural." },
           { type: "multiple-choice", question: "Which is correct?", options: ["Mi potresti aiutare?", "Potresti mi aiutare?", "Potresti aiutare mi?", "Mi potresti aiutarmi?"], correctIndex: 0, explanation: "One pronoun, before or attached." },
         ],
       },
@@ -661,7 +661,7 @@ export const IT_A2_U14: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Mi piacerei vivere a Roma\". Write it correctly: I'd like to live in Rome.", source: "I'd like to live in Rome.", answer: "Mi piacerebbe vivere a Roma.", altAnswers: ["Vorrei vivere a Roma."], explanation: "\"Piacerebbe\" + infinitive." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Potrebbe mi dare il menù?\". Write it correctly: Could you give me the menu? (to a waiter)", source: "Could you give me the menu?", answer: "Mi potrebbe dare il menù?", altAnswers: ["Potrebbe darmi il menù?", "Mi potrebbe portare il menù?", "Potrebbe portarmi il menù?"], explanation: "Pronoun before or attached." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Voglio un bicchiere d'acqua!\" to a waiter. Make it polite: I'd like a glass of water, please.", source: "I'd like a glass of water, please.", answer: "Vorrei un bicchiere d'acqua, per favore.", explanation: "\"Vorrei\" softens the request." },
-      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se io ero te, andrei\". Write it the A2 way: If I were you, I'd go. (to a friend)", source: "If I were you, I'd go.", answer: "Al tuo posto andrei.", altAnswers: ["Al posto tuo andrei.", "Io al tuo posto andrei."], explanation: "\"Al tuo posto\" + conditional." },
+      { type: "translate", direction: "en-es", prompt: "A learner wrote \"Se io ero te, andrei\". Write it the Elementary way: If I were you, I'd go. (to a friend)", source: "If I were you, I'd go.", answer: "Al tuo posto andrei.", altAnswers: ["Al posto tuo andrei.", "Io al tuo posto andrei."], explanation: "\"Al tuo posto\" + conditional." },
       { type: "translate", direction: "en-es", prompt: "A learner wrote \"Vorremo un tavolo per due\" at a restaurant. Write it correctly: We'd like a table for two.", source: "We'd like a table for two.", answer: "Vorremmo un tavolo per due.", explanation: "Conditional: double m." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[I'd like] those shoes.", sentence: "___ quelle scarpe.", answer: "Mi piacerebbero", altAnswers: ["Vorrei"], explanation: "Plural noun → \"piacerebbero\"." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "As a child I [would play] in the street.", sentence: "Da bambino ___ in strada.", answer: "giocavo", explanation: "Past habit → imperfetto, not conditional." },

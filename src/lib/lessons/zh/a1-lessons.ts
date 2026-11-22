@@ -989,8 +989,8 @@ export const ZH_A1_LESSONS = numbered([
   lesson(
     A,
     "zh-a1-review",
-    "A1 Review: Putting It All Together",
-    "A cumulative check of everything in A1 -- introductions, 是, questions, numbers, measure words, places, time, wanting, ability and 了.",
+    "Review: Putting It All Together",
+    "A cumulative check of everything in the Foundations level -- introductions, 是, questions, numbers, measure words, places, time, wanting, ability and 了.",
     "10 min",
     [
       sec(

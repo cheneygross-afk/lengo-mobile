@@ -427,7 +427,7 @@ export const KO_A2_U04: Lesson[] = [
         heading: "(이)나: or between nouns",
         body: [
           "To say 'A or B' with nouns, attach 나 to the first noun after a vowel (커피나 차) and 이나 after a consonant (빵이나 밥). The second noun takes whatever particle the sentence needs: 버스나 지하철을 타요.",
-          "Don't mix it up with the A1 words for 'and': 하고, (이)랑, 와 / 과. 커피하고 차 주세요 orders both; 커피나 차 주세요 asks for either one. English speakers sometimes reach for 하고 because 'and / or' blur in English lists, but in Korean the choice changes the order.",
+          "Don't mix it up with the Beginner words for 'and': 하고, (이)랑, 와 / 과. 커피하고 차 주세요 orders both; 커피나 차 주세요 asks for either one. English speakers sometimes reach for 하고 because 'and / or' blur in English lists, but in Korean the choice changes the order.",
           "(이)나 only joins nouns. 'Or' between whole verbs is a different ending you'll meet later, so for now keep it to things, places and times: 토요일이나 일요일에 만나요.",
         ],
         examples: [
@@ -1163,7 +1163,7 @@ export const KO_A2_U04: Lesson[] = [
       {
         heading: "This one, but not that one",
         body: [
-          "Since A1 you've used 은 / 는 to mark the topic. Its second job is contrast: 고기는 먹어요. 생선은 안 먹어요. 'Meat I eat; fish I don't.' Each 는 says 'as for this one, as opposed to others'. English does the same with stress: I eat MEAT.",
+          "Since the Beginner level you've used 은 / 는 to mark the topic. Its second job is contrast: 고기는 먹어요. 생선은 안 먹어요. 'Meat I eat; fish I don't.' Each 는 says 'as for this one, as opposed to others'. English does the same with stress: I eat MEAT.",
           "In a contrast, 은 / 는 replaces 이 / 가 and 을 / 를, so 커피를 좋아해요 becomes 커피는 좋아해요 when you're about to say something different about tea. Time words often get it too: 오늘은 바빠요. 내일은 괜찮아요.",
         ],
         examples: [

@@ -310,7 +310,7 @@ export const KO_C1_U22: Lesson[] = [
         heading: "The root 성: become, complete",
         body: [
           "This unit's root is 성 'become, complete'. 성공 is complete + achievement, 'success'; 성장 'growth'; 성과 'results achieved'; 완성 'completion'; 구성 'composition, make-up'; 형성 'formation'. 성인 'adult' is one who has become a full person, and 찬성 'agreeing' completes someone's proposal with your support.",
-          "Keep it apart from the 성 of 성격 'nature, character', which is also the B2 suffix -성 in 가능성 and 중요성, and appears in 성별 and 여성. A useful test: the 'become' 성 usually sits in words about processes and outcomes that go with 이루다, 거두다 or 되다 (성과를 거두다, 구성되다), while the 'nature' 성 names a quality something has (성격이 밝다).",
+          "Keep it apart from the 성 of 성격 'nature, character', which is also the Upper-intermediate suffix -성 in 가능성 and 중요성, and appears in 성별 and 여성. A useful test: the 'become' 성 usually sits in words about processes and outcomes that go with 이루다, 거두다 or 되다 (성과를 거두다, 구성되다), while the 'nature' 성 names a quality something has (성격이 밝다).",
         ],
         examples: [
           { es: "이번 프로젝트는 기대 이상의 성과를 거두었다.", en: "This project achieved better results than expected." },
@@ -456,7 +456,7 @@ export const KO_C1_U22: Lesson[] = [
     level: "KO-C1",
     number: 3,
     title: "Guessing Unknown Words from Their Parts",
-    summary: "Work out unfamiliar words such as 탈부착, 재활용, 무인 점포, 비대면, 고령화 and 저출생 in three steps (split the word, find each part in a word you know, test the guess against the sentence), using the B2 prefixes 비-, 불-, 무-, 미- and suffixes -적, -화, -성, -력, -감 as signposts, and spot the look-alikes where guessing fails.",
+    summary: "Work out unfamiliar words such as 탈부착, 재활용, 무인 점포, 비대면, 고령화 and 저출생 in three steps (split the word, find each part in a word you know, test the guess against the sentence), using the Upper-intermediate prefixes 비-, 불-, 무-, 미- and suffixes -적, -화, -성, -력, -감 as signposts, and spot the look-alikes where guessing fails.",
     duration: "21 min",
     sections: [
       {
@@ -493,7 +493,7 @@ export const KO_C1_U22: Lesson[] = [
       {
         heading: "Prefixes and suffixes as signposts",
         body: [
-          "The B2 affixes tell you what kind of word you are holding before you know its stem. 비- means 'not in this category': 비대면 is non + face-to-face, so remote or contactless (대면 is face + face, meeting in person). -화 marks a process: 고령화 is high + age + -ization, the ageing of a population. -성 marks a quality, -력 an ability, -감 a feeling, -적 an adjective-like word. So 고령화 must be something that happens, and 자립성 something a person has.",
+          "The Upper-intermediate affixes tell you what kind of word you are holding before you know its stem. 비- means 'not in this category': 비대면 is non + face-to-face, so remote or contactless (대면 is face + face, meeting in person). -화 marks a process: 고령화 is high + age + -ization, the ageing of a population. -성 marks a quality, -력 an ability, -감 a feeling, -적 an adjective-like word. So 고령화 must be something that happens, and 자립성 something a person has.",
           "Learn the low and high pair too: 저 'low' and 고 'high'. 저출생 is low + birth: a low birth rate. You will also see 저출산 'low births', the older term built on 출산 'giving birth'; many official texts and newspapers now prefer 저출생, which talks about babies born rather than mothers giving birth. 저소득층 and 고소득층 are low- and high-income groups.",
         ],
         examples: [
@@ -664,7 +664,7 @@ export const KO_C1_U22: Lesson[] = [
     slug: "c1-prefixes-advanced",
     level: "KO-C1",
     number: 4,
-    title: "Prefixes Beyond B2",
+    title: "Prefixes Beyond the Upper-intermediate Level",
     summary: "Read and use six prefixes of news and policy Korean: 반- (반정부, 반환경적) and 친- (친환경, 친정부), 탈- (탈원전, 탈출) and 범- (범국민적, 범정부), 초- (초고속, 초대형) and 재- (재개발, 재검토), spaced and joined correctly, in headline compounds and full sentences.",
     duration: "21 min",
     sections: [
@@ -876,7 +876,7 @@ export const KO_C1_U22: Lesson[] = [
     slug: "c1-suffixes-advanced",
     level: "KO-C1",
     number: 5,
-    title: "Suffixes Beyond B2",
+    title: "Suffixes Beyond the Upper-intermediate Level",
     summary: "Use the suffixes of academic and news Korean: -론 for argued positions (결정론, 낙관론), -관 for outlooks (가치관, 세계관), -권 for rights, zones and tickets (선거권, 수도권, 입장권), -계 for professional worlds (교육계, 연예계), and -률 / -율 for rates, spelled 율 after a vowel or ㄴ (비율, 할인율) and 률 elsewhere (확률, 실업률).",
     duration: "21 min",
     sections: [
@@ -1958,7 +1958,7 @@ export const KO_C1_U22: Lesson[] = [
             source: "Regular exercise helps boost the immune system.",
             answer: "규칙적인 운동은 면역력을 증진하는 데 도움이 된다.",
             altAnswers: ["규칙적인 운동은 면역력을 높이는 데 도움이 된다.", "규칙적인 운동은 면역력 증진에 도움이 된다.", "규칙적인 운동은 면역력을 증진하는 데 도움을 준다.", "규칙적인 운동은 면역력을 높이는 데 도움을 준다.", "규칙적인 운동은 면역력을 증진시키는 데 도움이 된다.", "규칙적으로 운동하면 면역력이 높아진다.", "꾸준한 운동은 면역력을 높이는 데 도움이 된다."],
-            explanation: "면역력 is -력 'power' from B2; 증진하다 'promote'. -는 데 도움이 되다 'help in doing'.",
+            explanation: "면역력 is -력 'power' from the Upper-intermediate level; 증진하다 'promote'. -는 데 도움이 되다 'help in doing'.",
           },
         ],
       },

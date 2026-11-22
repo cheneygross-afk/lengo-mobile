@@ -250,7 +250,7 @@ export const KO_B1_U22: Lesson[] = [
       {
         heading: "-기: things to do",
         body: [
-          "A Korean to-do list is a column of -기 forms: 오늘 할 일: 빨래하기, 장보기, 엄마한테 전화하기. You met -기 in A2 as 'doing' (취미는 요리하기예요); in a list it names an action still to be done, like English 'do laundry, buy groceries'.",
+          "A Korean to-do list is a column of -기 forms: 오늘 할 일: 빨래하기, 장보기, 엄마한테 전화하기. You met -기 in Elementary as 'doing' (취미는 요리하기예요); in a list it names an action still to be done, like English 'do laundry, buy groceries'.",
           "-기 goes straight onto the stem with no irregular changes, because it starts with a consonant: 걷기, 듣기, 돕기, 만들기. Particles like 을 / 를 usually drop: 보고서 쓰기, 택배 보내기. The same form heads plans and resolutions: 새해 목표: 매일 30분 걷기, 담배 끊기.",
         ],
         examples: [
@@ -1386,7 +1386,7 @@ export const KO_B1_U22: Lesson[] = [
       {
         heading: "Signs to speech: 금지 → -(으)면 안 돼요",
         body: [
-          "A 금지 sign becomes the 'mustn't' of A2 Unit 7 when you explain it: 주차 금지 → 여기에 주차하면 안 돼요, or to a stranger or an older person, 주차하시면 안 돼요. 출입 금지 → 들어가시면 안 돼요.",
+          "A 금지 sign becomes the 'mustn't' of Elementary Unit 7 when you explain it: 주차 금지 → 여기에 주차하면 안 돼요, or to a stranger or an older person, 주차하시면 안 돼요. 출입 금지 → 들어가시면 안 돼요.",
           "The sign's noun usually turns back into a 하다 verb (주차 → 주차하다, 촬영 → 촬영하다), but some need their everyday verb: 금연 is 담배를 피우다, 출입 is 들어가다. Keep 금지 out of the spoken sentence: 주차 금지하세요 would mean 'ban parking', not 'don't park'.",
         ],
         examples: [

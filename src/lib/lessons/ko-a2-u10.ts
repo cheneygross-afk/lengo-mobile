@@ -2030,7 +2030,7 @@ export const KO_A2_U10: Lesson[] = [
       {
         heading: "At the lost-and-found centre",
         body: [
-          "준호 left his bag on the subway this morning. He goes to the lost-and-found centre (유실물 센터) at 시청역. The clerk speaks polite 해요 with the A1 service phrase 뭐 잃어버리셨어요?, and 준호 answers in plain 해요.",
+          "준호 left his bag on the subway this morning. He goes to the lost-and-found centre (유실물 센터) at 시청역. The clerk speaks polite 해요 with the Beginner service phrase 뭐 잃어버리셨어요?, and 준호 answers in plain 해요.",
           "First she asks what, where and when. Line numbers use Sino-Korean numbers: 2호선 is [이호선].",
         ],
         examples: [

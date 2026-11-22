@@ -2585,7 +2585,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Advanced Exit Test: Ready for the Mastery Level?",
-    summary: "Show you are ready for C2 in a Goethe C1-style exit test: a reading text, a listening-style transcript, pieces of an \"Erörterung\" and a formal message, and grammar from across the whole level.",
+    summary: "Show you are ready for Mastery in a Goethe C1-style exit test: a reading text, a listening-style transcript, pieces of an \"Erörterung\" and a formal message, and grammar from across the whole level.",
     duration: "20 min",
     sections: [
       {

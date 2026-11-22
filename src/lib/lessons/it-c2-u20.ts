@@ -220,7 +220,7 @@ export const IT_C2_U20: Lesson[] = [
         body: [
           "Neapolitan-accented Italian often weakens final vowels to a neutral sound, and uses \"tenere\" for \"avere\" in some regional speech: \"tengo fame\". The interjection \"uagliò\" (hey, kid) and the musical intonation are recognizable at once.",
           "Sicilian has retroflex sounds, made with the tongue curled back. In dialect the double \"ll\" becomes a retroflex ‘dd’ (\"beddu\" for \"bello\"); in regional Italian the feature survives mainly in \"tr\" and \"str\", which have a special hiss (\"treno\", \"strada\"). Sicilian Italian also tends to put the verb at the end: \"Stanco sono\" (I'm tired), a construction from dialect.",
-          "These features are not errors; they are part of the richness of Italian. At C2, you should understand all of them while choosing standard forms in your own speech and writing, unless you are deliberately quoting.",
+          "These features are not errors; they are part of the richness of Italian. At the Mastery level, you should understand all of them while choosing standard forms in your own speech and writing, unless you are deliberately quoting.",
           "If you want to show that you recognize a regional form, mark it clearly: \"come dicono a Roma\" or \"per dirla alla napoletana\". This shows awareness without confusing your register. In formal writing, and in the CILS exam, keep to standard forms throughout.",
         ],
         examples: [
@@ -342,7 +342,7 @@ export const IT_C2_U20: Lesson[] = [
     slug: "c2-drill-dictation-c2",
     level: "IT-C2",
     number: 5,
-    title: "Drill: C2 Dictation",
+    title: "Drill: Dictation",
     summary: "High-repetition dictation of long, fast Mastery-level sentences, with translation practice on the same structures.",
     duration: "25 min",
     kind: "drill",
@@ -737,7 +737,7 @@ export const IT_C2_U20: Lesson[] = [
         heading: "Paraphrase recognition",
         body: [
           "Exam options paraphrase the recording. \"Restituire spazio ai pedoni\" may become \"rendere le strade più pedonali\"; \"potenziare il trasporto pubblico\" may become \"migliorare autobus e metropolitane\". Train yourself to recognize the same idea in different words.",
-          "Typical paraphrase pairs: \"diminuire / ridurre / calare\", \"aumentare / crescere / incrementare\", \"è indispensabile / non se ne può fare a meno\", \"in passato / un tempo / una volta\". At C2, the vocabulary range of the questions is part of the test.",
+          "Typical paraphrase pairs: \"diminuire / ridurre / calare\", \"aumentare / crescere / incrementare\", \"è indispensabile / non se ne può fare a meno\", \"in passato / un tempo / una volta\". At the Mastery level, the vocabulary range of the questions is part of the test.",
           "Beware of paraphrases that change the strength of a claim: \"potrebbe\" vs \"deve\", \"alcuni\" vs \"tutti\", \"spesso\" vs \"sempre\". The right option keeps both the idea and its degree of certainty.",
           "Paraphrase also changes word class and voice. A verb in the recording becomes a noun in the option (\"le vendite sono calate\" → \"il calo delle vendite\"), and an active becomes a passive (\"il Comune ha chiuso la piazza\" → \"la piazza è stata chiusa\"). Practice turning sentences into nominal form and back, and these options stop looking unfamiliar.",
         ],

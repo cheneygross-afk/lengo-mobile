@@ -23,7 +23,7 @@ export const KO_B1_U16: Lesson[] = [
       {
         heading: "-는 척하다: acting as if it's happening",
         body: [
-          "To say someone acts as if an action is going on when it isn't, put -는 척하다 after an action verb: 자는 척했어요 'I pretended to be asleep'. 척 means 'a show, a pretence', and 하다 turns it into a verb. English says 'pretend to sleep' with an infinitive; Korean needs the modifier -는 from A2 in front of 척.",
+          "To say someone acts as if an action is going on when it isn't, put -는 척하다 after an action verb: 자는 척했어요 'I pretended to be asleep'. 척 means 'a show, a pretence', and 하다 turns it into a verb. English says 'pretend to sleep' with an infinitive; Korean needs the modifier -는 from Elementary in front of 척.",
           "The stem rules are the ones you know for -는: 자다 → 자는 척, 먹다 → 먹는 척, 듣다 → 듣는 척. ㄹ stems drop the ㄹ: 알다 → 아는 척, 울다 → 우는 척, never *알는 척. Tense goes only on 척하다 at the end: 자는 척해요, 자는 척했어요, 자는 척할 거예요.",
           "-는 척 pictures the action in progress at that moment: 책을 읽는 척했어요 'I pretended to be reading'. Pretending something has already happened, or pretending to be tired or busy, needs -(으)ㄴ 척, the topic of Part 2.",
         ],
@@ -265,7 +265,7 @@ export const KO_B1_U16: Lesson[] = [
       {
         heading: "Past actions: 못 들은 척, 다 읽은 척",
         body: [
-          "With an action verb, -(으)ㄴ 척 pretends that something has already happened: 숙제를 한 척했어요 'I pretended I had done my homework', against 숙제를 하는 척했어요 'I pretended to be doing it'. The stem rules are A2's past modifier: 보다 → 본, 읽다 → 읽은, 듣다 → 들은, 만들다 → 만든.",
+          "With an action verb, -(으)ㄴ 척 pretends that something has already happened: 숙제를 한 척했어요 'I pretended I had done my homework', against 숙제를 하는 척했어요 'I pretended to be doing it'. The stem rules are the Elementary level's past modifier: 보다 → 본, 읽다 → 읽은, 듣다 → 들은, 만들다 → 만든.",
           "Three combinations are everyday Korean: 못 본 척하다 'act as if you didn't see', 못 들은 척하다 'act as if you didn't hear', and 다 읽은 척 'pretend to have read it all'. Never add -았- inside: *들었는 척, *잤는 척. The past is already in -(으)ㄴ, and the tense of the pretending goes on 척하다.",
         ],
         examples: [
@@ -1550,7 +1550,7 @@ export const KO_B1_U16: Lesson[] = [
       {
         heading: "Three ways to be busy",
         body: [
-          "Three endings, three different truths. 바쁜 척해요: he isn't really busy, it's a show. 바쁜 편이에요: he generally is busy, more than most people. 바쁜 것 같아요 (A2): you are guessing he's busy from what you see. All three share the modifier 바쁜, so only the last word tells you what the speaker believes.",
+          "Three endings, three different truths. 바쁜 척해요: he isn't really busy, it's a show. 바쁜 편이에요: he generally is busy, more than most people. 바쁜 것 같아요 (Elementary): you are guessing he's busy from what you see. All three share the modifier 바쁜, so only the last word tells you what the speaker believes.",
           "English 'He acts busy' and 'He seems busy' are close, and learners swap 척 and 것 같다. Ask one question: does the speaker think it's true? Not true: 척. Probably true right now: 것 같다. True as a general pattern: 편.",
         ],
         examples: [
@@ -1836,7 +1836,7 @@ export const KO_B1_U16: Lesson[] = [
       {
         heading: "Sound: ㄴ + ㄹ said [ㄴㄴ]",
         body: [
-          "In A2 you learned that ㄴ next to ㄹ is said [ㄹ]: 신라 [실라], 연락 [열락], 설날 [설랄]. But when a Sino-Korean word ending in ㄴ takes a suffix starting with ㄹ, such as 력 'power', 량 'amount' or 란 'column', the ㄹ turns into [ㄴ] instead: 판단력 [판단녁], 결단력 [결딴녁], 생산량 [생산냥], 의견란 [의견난].",
+          "In the Elementary level you learned that ㄴ next to ㄹ is said [ㄹ]: 신라 [실라], 연락 [열락], 설날 [설랄]. But when a Sino-Korean word ending in ㄴ takes a suffix starting with ㄹ, such as 력 'power', 량 'amount' or 란 'column', the ㄹ turns into [ㄴ] instead: 판단력 [판단녁], 결단력 [결딴녁], 생산량 [생산냥], 의견란 [의견난].",
           "A rule of thumb: word + suffix (판단 + 력) gives [ㄴㄴ]; inside a single old word (신라, 연락) you hear [ㄹㄹ]. 결단 also has a tense [딴], the Sino-Korean ㄹ + ㄷ rule from Unit 9. The spelling never changes, so dictation is where it counts.",
         ],
         examples: [

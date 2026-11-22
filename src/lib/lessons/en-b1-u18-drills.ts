@@ -72,7 +72,7 @@ export const EN_B1_U18_DRILLS: Lesson[] = [
   lesson(
     1,
     "first-half-review",
-    "B1 First Half Review",
+    "First Half Review",
     "Use the main structures of the first half of the level in one mixed set: tenses, used to, the future, conditionals and wishes, modals, the passive and relative clauses.",
     "Recap: the big structures so far",
     [

@@ -418,7 +418,7 @@ export const KO_B1_U31: Lesson[] = [
       {
         heading: "Why Koreans soften",
         body: [
-          "A flat 그건 틀렸어요 'that's wrong' can sound rude in Korean, especially to someone older or senior. Koreans keep the mood smooth by framing even a firm opinion as an impression. The everyday tool is one you know from A2: -(으)ㄴ / 는 것 같아요 'it seems'. 이 가격은 좀 비싼 것 같아요 can mean 'this price is too high', said gently.",
+          "A flat 그건 틀렸어요 'that's wrong' can sound rude in Korean, especially to someone older or senior. Koreans keep the mood smooth by framing even a firm opinion as an impression. The everyday tool is one you know from the Elementary level: -(으)ㄴ / 는 것 같아요 'it seems'. 이 가격은 좀 비싼 것 같아요 can mean 'this price is too high', said gently.",
           "So when a Korean colleague says 좀 어려울 것 같아요 about your request, it often means no. Hear the softener as politeness, not uncertainty.",
         ],
         examples: [

@@ -1450,7 +1450,7 @@ export const KO_C2_U27: Lesson[] = [
         heading: "Concessions and conditions",
         body: [
           "Concessions in Korean are offered as gifts with strings, and the grammar shows the string. -겠습니다만 gives with one hand and asks with the other: 계약 기간은 저희가 양보하겠습니다만, 응답 시간은 4시간 이내로 보장해 주셨으면 합니다. -는 조건으로 makes the condition explicit: 2년 계약을 하는 조건으로 월 450만 원에 해 드리겠습니다. -(으)ㄹ 경우 states consequences: 응답이 늦어질 경우 위약금이 발생합니다.",
-          "Ask rather than demand: -아 / 어 주셨으면 합니다 'we would like you to' and -(으)면 어떨까 합니다 'how would it be if' (spiralled from C1 Unit 9) put the request softly but unmistakably. When you accept, name exactly what you accept: 그 조건이라면 저희도 받아들일 수 있습니다. A vague 좋습니다 can be quoted back at you later as agreement to everything.",
+          "Ask rather than demand: -아 / 어 주셨으면 합니다 'we would like you to' and -(으)면 어떨까 합니다 'how would it be if' (spiralled from Advanced Unit 9) put the request softly but unmistakably. When you accept, name exactly what you accept: 그 조건이라면 저희도 받아들일 수 있습니다. A vague 좋습니다 can be quoted back at you later as agreement to everything.",
           "Watch the speech level under pressure. When a point is lost, English speakers often drop into 해요 or a sigh of 아, 진짜요? Keep 합니다, keep 저희 for your side, and keep -시- for the other company's people: 이사님께서 말씀하신 대로.",
         ],
         examples: [
@@ -1533,7 +1533,7 @@ export const KO_C2_U27: Lesson[] = [
         source: "We would suggest payment within 60 days.",
         answer: "대금 지급은 60일 이내로 하면 어떨까 합니다.",
         altAnswers: ["대금 지급은 육십 일 이내로 하면 어떨까 합니다.", "대금 지급은 60일 이내로 하는 것이 어떨까 합니다.", "대금 지급은 60일 이내로 하면 어떨까 싶습니다.", "대금 지급은 60일 이내로 해 주셨으면 합니다.", "대금 지급 기한은 60일로 하면 어떨까 합니다.", "대금은 60일 이내에 지급하면 어떨까 합니다.", "대금 지급은 60일 이내로 하는 게 어떨까 합니다.", "대금 지급은 60일 이내로 하면 어떻겠습니까?"],
-        explanation: "-(으)면 어떨까 합니다 proposes without demanding (C1 Unit 9); 대금 지급 'payment of the price' is contract vocabulary.",
+        explanation: "-(으)면 어떨까 합니다 proposes without demanding (Advanced Unit 9); 대금 지급 'payment of the price' is contract vocabulary.",
       },
       {
         type: "translate",

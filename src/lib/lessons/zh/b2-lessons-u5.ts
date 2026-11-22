@@ -127,8 +127,8 @@ export const ZH_B2_LESSONS_U5 = [
   lesson(
     L,
     "zh-b2-review",
-    "B2 Review: Less Shopping, More Saving",
-    "Everything from B2 in one blog post: conditions and concessions, cause and purpose, surprise and emphasis, formal words, and life online.",
+    "Review: Less Shopping, More Saving",
+    "Everything from Upper-Intermediate Chinese in one blog post: conditions and concessions, cause and purpose, surprise and emphasis, formal words, and life online.",
     "10 min",
     [
       sec(
@@ -147,7 +147,7 @@ export const ZH_B2_LESSONS_U5 = [
         ]
       ),
       sec(
-        "What B2 added",
+        "What Upper-Intermediate Chinese added",
         [
           "Conditions and concessions: 即使…也, 不管/无论…都, 既然…就, 否则/不然, 尽管.",
           "Cause and purpose: 为了, 由于…因此, 于是, 结果, 只好, 不得不. Nuance: 并不, 难道, 到底, 竟然, 没想到, 恐怕, 差点儿.",

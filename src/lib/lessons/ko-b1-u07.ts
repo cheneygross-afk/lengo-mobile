@@ -24,7 +24,7 @@ export const KO_B1_U07: Lesson[] = [
         body: [
           "To say why you do something, put the goal in front of the action with -(으)려고: 살을 빼려고 매일 운동해요 'I work out every day to lose weight'. English puts 'in order to' after the action; Korean keeps the main verb last, so the purpose comes first.",
           "After a vowel or ㄹ, add -려고: 가려고, 배우려고, 만들려고, 살려고 (the ㄹ stays). After any other consonant, add -으려고: 먹으려고, 찾으려고. Irregular stems change as they do before any -으- ending: 듣다 → 들으려고, 돕다 → 도우려고, 짓다 → 지으려고.",
-          "Tense goes only on the final verb: 사려고 일찍 나갔어요, never *샀으려고. Both halves share one subject, and unlike -(으)러 from A1, -(으)려고 works before any verb, not only 가다 and 오다.",
+          "Tense goes only on the final verb: 사려고 일찍 나갔어요, never *샀으려고. Both halves share one subject, and unlike -(으)러 from the Beginner level, -(으)려고 works before any verb, not only 가다 and 오다.",
         ],
         examples: [
           { es: "한국 회사에 취직하려고 한국어를 배워요.", en: "I'm learning Korean to get a job at a Korean company." },
@@ -67,7 +67,7 @@ export const KO_B1_U07: Lesson[] = [
         heading: "No commands, and -려고 vs -려고 해요",
         body: [
           "-(으)려고 states your own intention, so it can't come before a command or a suggestion: *사려고 가세요 and *먹으려고 갑시다 are wrong. For 'go and buy' use -(으)러 (next lesson); for formal advice, -기 위해서 (lesson 3).",
-          "Compare A2's -(으)려고 해요 'I'm planning to'. When -려고 is followed by 하다 at the end, it is a plan: 다음 달부터 운동하려고 해요. When another verb follows, it gives that action's purpose: 건강해지려고 운동을 시작했어요. In the past, -려고 했어요 means 'I was going to (but...)'.",
+          "Compare the Elementary level's -(으)려고 해요 'I'm planning to'. When -려고 is followed by 하다 at the end, it is a plan: 다음 달부터 운동하려고 해요. When another verb follows, it gives that action's purpose: 건강해지려고 운동을 시작했어요. In the past, -려고 했어요 means 'I was going to (but...)'.",
         ],
         examples: [
           { es: "다음 달부터 운동하려고 해요.", en: "I'm planning to work out from next month." },
@@ -99,7 +99,7 @@ export const KO_B1_U07: Lesson[] = [
             source: "I'm planning to work out from next month.",
             answer: "다음 달부터 운동하려고 해요.",
             altAnswers: ["다음 달부터 운동을 하려고 해요.", "다음 달부터 운동을 시작하려고 해요.", "다음 달부터 운동 시작하려고 해요.", "다음 달부터는 운동하려고 해요.", "다음 달부터 운동할 계획이에요."],
-            explanation: "-(으)려고 해요 at the end of the sentence is a plan (A2), not a purpose.",
+            explanation: "-(으)려고 해요 at the end of the sentence is a plan (Elementary), not a purpose.",
           },
         ],
       },
@@ -248,7 +248,7 @@ export const KO_B1_U07: Lesson[] = [
       {
         heading: "-(으)러 only before coming and going",
         body: [
-          "-(으)러 from A1 also gives a purpose, but only before verbs of movement: 가다, 오다, 다니다 and their compounds (나가다, 들어오다, 올라가다). 빵을 사러 편의점에 가요 'I'm going to the convenience store to buy bread'. Before any other verb it is wrong: *빵을 사러 일찍 일어났어요.",
+          "-(으)러 from Beginner also gives a purpose, but only before verbs of movement: 가다, 오다, 다니다 and their compounds (나가다, 들어오다, 올라가다). 빵을 사러 편의점에 가요 'I'm going to the convenience store to buy bread'. Before any other verb it is wrong: *빵을 사러 일찍 일어났어요.",
           "-(으)려고 works before every verb, so it is the one you need when the main verb is not movement: 빵을 사려고 일찍 일어났어요. Before 가다 and 오다 both are possible, but -(으)러 is the everyday 'go to do'.",
         ],
         examples: [
@@ -467,7 +467,7 @@ export const KO_B1_U07: Lesson[] = [
       {
         heading: "-기 위해(서): in order to, more formally",
         body: [
-          "-기 위해서 means the same 'in order to' as -(으)려고 but sounds more deliberate and more formal: 시험에 합격하기 위해서 매일 공부해요. It joins the plain stem with the -기 noun form from A2, so there are no irregulars to think about: 듣기 위해서, 돕기 위해서, 살기 위해서. The 서 often drops, especially in writing: 합격하기 위해 노력했다.",
+          "-기 위해서 means the same 'in order to' as -(으)려고 but sounds more deliberate and more formal: 시험에 합격하기 위해서 매일 공부해요. It joins the plain stem with the -기 noun form from the Elementary level, so there are no irregulars to think about: 듣기 위해서, 돕기 위해서, 살기 위해서. The 서 often drops, especially in writing: 합격하기 위해 노력했다.",
           "Unlike -(으)려고, it is fine before commands and suggestions, so teachers, doctors and notices use it: 건강을 지키기 위해서 매일 걸으세요. It is also the purpose form TOPIK essays expect.",
         ],
         examples: [
@@ -550,7 +550,7 @@ export const KO_B1_U07: Lesson[] = [
       {
         heading: "Adjectives need a change",
         body: [
-          "-기 위해서 is made for actions, something you can work towards. An adjective describes a state, so textbooks and TOPIK graders prefer a change with -아 / 어지다 from A2 (건강해지기 위해서, 날씬해지기 위해서) or the noun (건강을 위해서). You will hear 건강하기 위해서 and 행복하기 위해서 from Koreans, but in careful speech and essays they count as less standard.",
+          "-기 위해서 is made for actions, something you can work towards. An adjective describes a state, so textbooks and TOPIK graders prefer a change with -아 / 어지다 from the Elementary level (건강해지기 위해서, 날씬해지기 위해서) or the noun (건강을 위해서). You will hear 건강하기 위해서 and 행복하기 위해서 from Koreans, but in careful speech and essays they count as less standard.",
         ],
         examples: [
           { es: "건강해지기 위해서 채소를 많이 먹어요.", en: "I eat a lot of vegetables to become healthier." },
@@ -729,7 +729,7 @@ export const KO_B1_U07: Lesson[] = [
       {
         heading: "-게 or -도록?",
         body: [
-          "In everyday speech Koreans often use -게 in the same place: 늦지 않게 일찍 출발하세요, 잘 들리게 크게 말해 주세요. You know -게 from adverbs (A2: 크게, 쉽게); after a verb it can also mean 'so that'. -도록 sounds more careful and formal, so it is the one for notices, instructions and writing.",
+          "In everyday speech Koreans often use -게 in the same place: 늦지 않게 일찍 출발하세요, 잘 들리게 크게 말해 주세요. You know -게 from adverbs (Elementary: 크게, 쉽게); after a verb it can also mean 'so that'. -도록 sounds more careful and formal, so it is the one for notices, instructions and writing.",
         ],
         examples: [
           { es: "아기가 깨지 않게 조용히 말해 주세요.", en: "Please speak quietly so the baby doesn't wake up." },
@@ -2377,7 +2377,7 @@ export const KO_B1_U07: Lesson[] = [
         heading: "The big goal (목표)",
         body: [
           "Your language exchange partner 서연 asked: 앞으로 6개월 동안 계획이 뭐예요? Write her a short plan in polite 해요: one big 목표, three steps, one habit, and a request for help.",
-          "Start with the goal as a noun or -는 거예요. -게 되다 from A2 is handy for 'come to be able to': 한국어로 회의를 할 수 있게 되는 거예요. Then link the steps to it with 그 목표를 이루기 위해서.",
+          "Start with the goal as a noun or -는 거예요. -게 되다 from the Elementary level is handy for 'come to be able to': 한국어로 회의를 할 수 있게 되는 거예요. Then link the steps to it with 그 목표를 이루기 위해서.",
         ],
         examples: [
           { es: "서연 씨, 제 6개월 계획을 알려 드릴게요.", en: "Seoyeon, let me tell you my six-month plan." },

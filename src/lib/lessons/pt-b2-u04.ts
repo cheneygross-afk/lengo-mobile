@@ -68,7 +68,7 @@ export const PT_B2_U04: Lesson[] = [
       {
         heading: "Não acredito que ele tenha dito isso: doubt and emotion",
         body: [
-          "Every B1 trigger works this way with a past event. For doubt and denial, use \"duvido que\", \"não acredito que\", \"não acho que\" or \"é possível que\". For emotion, use \"fico feliz que\", \"é uma pena que\" or \"me preocupa que\". The trigger stays in the present because the reaction is happening now. Only the event is past.",
+          "Every Intermediate trigger works this way with a past event. For doubt and denial, use \"duvido que\", \"não acredito que\", \"não acho que\" or \"é possível que\". For emotion, use \"fico feliz que\", \"é uma pena que\" or \"me preocupa que\". The trigger stays in the present because the reaction is happening now. Only the event is past.",
           "Certainty keeps the indicative, so the plain perfeito comes back: \"acho que ele disse a verdade\", but \"não acho que ele tenha dito a verdade\". When both verbs share a subject, use \"ter\" + participle as an infinitive: \"fico feliz de ter vindo\" (I'm glad I came), not \"fico feliz que eu tenha vindo\".",
         ],
         examples: [
@@ -518,7 +518,7 @@ export const PT_B2_U04: Lesson[] = [
         heading: "Teria ido: what would have happened",
         body: [
           "The conditional perfect is the conditional of \"ter\" plus a past participle: \"eu teria ido\" (I would have gone), \"você teria gostado\", \"nós teríamos ficado\", \"eles teriam comido\". It places an imagined outcome in the past: something that could have happened and didn't. The participle never changes. It is \"elas teriam ido\", never *\"elas teriam idas\".",
-          "English would have + participle maps onto it neatly, so the traps lie elsewhere. Keep would (\"eu iria\", 'I would go') apart from would have (\"eu teria ido\"). Never put an infinitive after \"teria\": say \"teria ido\", not *\"teria ir\". The irregular participles from B1 turn up constantly: \"teria feito\", \"teria dito\", \"teria visto\", \"teria vindo\".",
+          "English would have + participle maps onto it neatly, so the traps lie elsewhere. Keep would (\"eu iria\", 'I would go') apart from would have (\"eu teria ido\"). Never put an infinitive after \"teria\": say \"teria ido\", not *\"teria ir\". The irregular participles from Intermediate turn up constantly: \"teria feito\", \"teria dito\", \"teria visto\", \"teria vindo\".",
           "It often stands alone, with the reason given by \"mas\": \"eu teria ligado, mas fiquei sem bateria\". With an explicit condition it pairs with the pluperfect subjunctive from the last lesson: \"se eu tivesse sabido, teria ido\". The next lesson works through these conditions in full.",
         ],
         examples: [

@@ -239,7 +239,7 @@ export const KO_B2_U28: Lesson[] = [
       {
         heading: "-대: someone told me",
         body: [
-          "The two endings sound identical, so Koreans mix them up in chats all the time. The way out is to expand them. -대 is the short form of -다고 해 (B1 Unit 3): 비가 온대 is 비가 온다고 해 'they say it'll rain'. The ㅐ is the ㅐ of 해, squeezed in. So if you can unpack the ending into -다고 해 and the meaning is 'someone said', write ㅐ.",
+          "The two endings sound identical, so Koreans mix them up in chats all the time. The way out is to expand them. -대 is the short form of -다고 해 (Intermediate Unit 3): 비가 온대 is 비가 온다고 해 'they say it'll rain'. The ㅐ is the ㅐ of 해, squeezed in. So if you can unpack the ending into -다고 해 and the meaning is 'someone said', write ㅐ.",
           "It follows the reported forms you know: action verbs 온대, 먹는대; adjectives and 있다 / 없다 춥대, 맛있대; past 갔대, 먹었대; nouns 학생이래 (from 이라고 해). Add 요 for polite speech: 춥대요. In writing these stay in messages and speech; an essay uses the full -다고 한다.",
         ],
         examples: [
@@ -273,7 +273,7 @@ export const KO_B2_U28: Lesson[] = [
       {
         heading: "-데: I saw it myself",
         body: [
-          "-데 is the short form of -더라 (B1 Unit 5): you report something you experienced yourself. 어제 그 식당에 가 봤는데 진짜 맛있데 means 맛있더라 'it was really good, I found'. Expand it into -더라; if that works, write ㅔ. The polite form is -데요, the short sister of -더라고요.",
+          "-데 is the short form of -더라 (Intermediate Unit 5): you report something you experienced yourself. 어제 그 식당에 가 봤는데 진짜 맛있데 means 맛있더라 'it was really good, I found'. Expand it into -더라; if that works, write ㅔ. The polite form is -데요, the short sister of -더라고요.",
           "So one sound gives two messages. 맛있대 passes on a review; 맛있데 is your own review. 사람이 많대 is a warning you heard; 사람이 많데 is what you saw when you got there. Because -데 reports what you witnessed, it is not used for your own deliberate actions, just as with -더라.",
           "In questions both appear. 거기 춥데? asks the listener about their own experience: 'was it cold there?'. 왜 이렇게 춥대? needs no one to be quoted at all: in a question -대 can voice surprise or annoyance, 'why on earth is it so cold?'.",
         ],
@@ -315,7 +315,7 @@ export const KO_B2_U28: Lesson[] = [
       {
         heading: "-는데 and -(으)ㄴ데: always ㅔ",
         body: [
-          "The connective -는데 / -(으)ㄴ데 (B1 Unit 6) and its sentence-final -는데요 contain neither 해 nor 더라, so they are always written with ㅔ: 비가 오는데 우산 있어?, 배고픈데 뭐 먹을까?, 저 학생인데요. So are 그런데 and -던데. *오는대 for the connective is a slip you will see in comments.",
+          "The connective -는데 / -(으)ㄴ데 (Intermediate Unit 6) and its sentence-final -는데요 contain neither 해 nor 더라, so they are always written with ㅔ: 비가 오는데 우산 있어?, 배고픈데 뭐 먹을까?, 저 학생인데요. So are 그런데 and -던데. *오는대 for the connective is a slip you will see in comments.",
           "With action verbs, both -는대 and -는데 exist, and they mean different things: 민수가 고기를 안 먹는대 'Minsu says he doesn't eat meat' but 민수가 고기를 안 먹는데 'Minsu doesn't eat meat, though...'. With adjectives and 있다, hearsay has no 는: 맛있대, never *맛있는대.",
         ],
         examples: [
@@ -649,7 +649,7 @@ export const KO_B2_U28: Lesson[] = [
       {
         heading: "(으)로서: as a ...",
         body: [
-          "You know (으)로 from A2 as 'by, with, towards'. Add 서 and it narrows to one job: the role, status or position someone speaks or acts in, English 'as': 학생으로서, 부모로서, 팀장으로서. It is the language of duty and responsibility, so it lives in speeches, essays, interviews and 자기소개서.",
+          "You know (으)로 from Elementary as 'by, with, towards'. Add 서 and it narrows to one job: the role, status or position someone speaks or acts in, English 'as': 학생으로서, 부모로서, 팀장으로서. It is the language of duty and responsibility, so it lives in speeches, essays, interviews and 자기소개서.",
           "The 으 follows the usual rule: after a consonant 으로서 (선생님으로서, 회사원으로서), after a vowel or ㄹ just 로서 (친구로서, 의사로서). A handy test is to replace it with 의 입장에서 'from the position of': if the sentence still means the same, you want 서.",
         ],
         examples: [
@@ -1329,7 +1329,7 @@ export const KO_B2_U28: Lesson[] = [
       {
         heading: "이따가 or 있다가?",
         body: [
-          "Both are said [이따가]. 이따가 is a time adverb, 'later (today), in a little while': 이따가 전화할게. 있다가 is the verb 있다 'stay, be' plus -다가 (B1): 'stay and then': 집에 좀 있다가 나갈게 'I'll stay home a bit and then go out', 조금만 더 있다가 가요 'stay a little longer before you go'.",
+          "Both are said [이따가]. 이따가 is a time adverb, 'later (today), in a little while': 이따가 전화할게. 있다가 is the verb 있다 'stay, be' plus -다가 (Intermediate): 'stay and then': 집에 좀 있다가 나갈게 'I'll stay home a bit and then go out', 조금만 더 있다가 가요 'stay a little longer before you go'.",
           "Test it with 'stay': if the sentence is about being somewhere for a while before doing something, it is 있다가. If it only means 'later', it is 이따가, the same 이따 as in 이따 봐 'see you later'. An hour from now is 이따가; an hour in a café is 있다가.",
         ],
         examples: [
@@ -1363,7 +1363,7 @@ export const KO_B2_U28: Lesson[] = [
       {
         heading: "부치다 or 붙이다?",
         body: [
-          "Both are said [부치다], thanks to palatalization (A2 Unit 3): ㅌ before 이 becomes [ㅊ], so 붙이다 sounds like 부치다, just as 같이 is [가치]. 붙이다 is the causative of 붙다 'stick': 'make something stick, attach' (우표를 붙이다, 벽에 포스터를 붙이다). 부치다 has no 붙다 behind it: 'send by post or freight' (편지를 부치다, 짐을 부치다 'check in luggage') and 'fry flat' (전을 부치다).",
+          "Both are said [부치다], thanks to palatalization (Elementary Unit 3): ㅌ before 이 becomes [ㅊ], so 붙이다 sounds like 부치다, just as 같이 is [가치]. 붙이다 is the causative of 붙다 'stick': 'make something stick, attach' (우표를 붙이다, 벽에 포스터를 붙이다). 부치다 has no 붙다 behind it: 'send by post or freight' (편지를 부치다, 짐을 부치다 'check in luggage') and 'fry flat' (전을 부치다).",
           "The test is 붙다: if the thing ends up stuck to something, write 붙이다. So you 붙이다 the stamp on the envelope and then 부치다 the letter. The other pairs from this unit work the same way: 돼 / 되 and -대 / -데 also sound alike and are settled by grammar, not by ear.",
         ],
         examples: [

@@ -989,7 +989,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         heading: "Sei que or quero que: fact or wish",
         body: [
-          "The verb after \"que\" doesn't choose its own mood. The verb before \"que\" chooses it. \"Sei que você fala inglês\" reports a fact, so it takes the indicative, the forms you've used since A1. \"Quero que você fale inglês\" is about something you want to happen, so it takes the subjunctive.",
+          "The verb after \"que\" doesn't choose its own mood. The verb before \"que\" chooses it. \"Sei que você fala inglês\" reports a fact, so it takes the indicative, the forms you've used since the Beginner level. \"Quero que você fale inglês\" is about something you want to happen, so it takes the subjunctive.",
           "Knowing, seeing and saying (\"saber\", \"ver\", \"dizer\") introduce facts, so they take the indicative. Wanting and asking (\"querer\", \"preferir\", \"pedir\") push someone to act, so they take the subjunctive. English marks the difference with structure (I know you speak vs I want you to speak). That makes it easy to forget that Portuguese marks it on the verb itself.",
         ],
         examples: [
@@ -2206,13 +2206,13 @@ export const PT_B1_U01: Lesson[] = [
     level: "PT-B1",
     number: 10,
     title: "Spiral Review: Wanting Things",
-    summary: "Mix the present subjunctive with the A2 past tenses, the near future, object pronouns and reflexive verbs in everyday requests.",
+    summary: "Mix the present subjunctive with the Elementary past tenses, the near future, object pronouns and reflexive verbs in everyday requests.",
     duration: "12 min",
     sections: [
       {
         heading: "What happened, and what you want now",
         body: [
-          "Nothing about the form is new: take the eu form of the present, drop the -o and switch the vowel (chego → chegue, faço → faça, trago → traga). What this lesson adds is company. Real conversation slides between what happened and what you want, so the A2 past tenses and the subjunctive often share a sentence.",
+          "Nothing about the form is new: take the eu form of the present, drop the -o and switch the vowel (chego → chegue, faço → faça, trago → traga). What this lesson adds is company. Real conversation slides between what happened and what you want, so the Elementary past tenses and the subjunctive often share a sentence.",
           "The past states facts: \"você chegou tarde\" (it happened, indicative). The wish points forward: \"quero que você chegue cedo\" (not yet real, subjunctive). English uses a plain verb either way, so the trap is copying the past form into the que clause: never \"quero que você chegou\".",
           "Keep the main verb in the present or the near future here (\"quero\", \"prefiro\", \"peço\", \"vou pedir\"). After a past main verb Portuguese needs a different subjunctive, which comes later.",
         ],
@@ -2264,7 +2264,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         heading: "Me, nos, se inside the que clause",
         body: [
-          "The A2 pronoun rules carry straight into the que clause, and they get simpler: after \"que\" the pronoun goes before the verb in speech and in writing alike: \"quero que você me ligue\", \"prefiro que ele nos espere\".",
+          "The Elementary pronoun rules carry straight into the que clause, and they get simpler: after \"que\" the pronoun goes before the verb in speech and in writing alike: \"quero que você me ligue\", \"prefiro que ele nos espere\".",
           "Reflexive verbs keep their pronoun, matched to the new subject: \"quero que vocês se levantem cedo\". \"A gente\" takes the ele form and the pronoun \"se\": \"prefiro que a gente se encontre no centro\", never \"a gente nos encontre\".",
           "For him and her, speech says \"quero que você convide ela\" and careful writing says \"quero que você a convide\". Both are Brazilian; choose by register.",
         ],

@@ -864,7 +864,7 @@ export const KO_C1_U16: Lesson[] = [
       {
         heading: "-(으)ㅁ으로써: the method that leads to the result",
         body: [
-          "You met -(으)ㅁ으로써 at B2 next to -(으)므로. At C1 it becomes a workhorse of essays on values and self-cultivation, because it ties a practice to its outcome: 매일 명상함으로써 마음의 평화를 얻었다 'By meditating every day I found peace of mind'. The verb is turned into a noun with -(으)ㅁ, and 으로써 'by means of' attaches to that noun. The second clause is the result, often with -(으)ㄹ 수 있다, 얻다, 줄이다, 높이다 or 지키다.",
+          "You met -(으)ㅁ으로써 at Upper-intermediate next to -(으)므로. At the Advanced level it becomes a workhorse of essays on values and self-cultivation, because it ties a practice to its outcome: 매일 명상함으로써 마음의 평화를 얻었다 'By meditating every day I found peace of mind'. The verb is turned into a noun with -(으)ㅁ, and 으로써 'by means of' attaches to that noun. The second clause is the result, often with -(으)ㄹ 수 있다, 얻다, 줄이다, 높이다 or 지키다.",
           "Build the noun carefully. 하다 → 함, 이해하다 → 이해함, 듣다 → 들음, 돕다 → 도움, and ㄹ stems keep their ㄹ: 살다 → 삶, 만들다 → 만듦, 알다 → 앎. So 'by living simply' is 소박하게 삶으로써, not *살음으로써. For 'by not doing', negate first: 비교하지 않음으로써 'by not comparing'. In speech Koreans say -아 / 어서 or -는 것으로 instead: 매일 명상을 해서 마음이 편해졌어요.",
         ],
         examples: [
@@ -898,7 +898,7 @@ export const KO_C1_U16: Lesson[] = [
       {
         heading: "-(으)로써 with nouns, and 이로써",
         body: [
-          "Without the -(으)ㅁ, -(으)로써 attaches straight to a noun: 대화로써 문제를 풀다 'solve the problem through dialogue', 행동으로써 보여 주다 'show it through actions'. It is the emphatic, written form of plain (으)로, and the B2 test still works: if you can say 'using' or 'through' (을 / 를 써서, 을 / 를 통해), the word is 써. Often (으)로 alone is enough: 말보다 행동으로 보여 주세요.",
+          "Without the -(으)ㅁ, -(으)로써 attaches straight to a noun: 대화로써 문제를 풀다 'solve the problem through dialogue', 행동으로써 보여 주다 'show it through actions'. It is the emphatic, written form of plain (으)로, and the Upper-intermediate test still works: if you can say 'using' or 'through' (을 / 를 써서, 을 / 를 통해), the word is 써. Often (으)로 alone is enough: 말보다 행동으로 보여 주세요.",
           "이로써 'with this, hereby' closes ceremonies and meetings and sums up an argument: 이로써 회의를 마치겠습니다 'With this, I close the meeting'. In essays, 이로써 ... 알 수 있다 means 'from this we can see ...'.",
         ],
         examples: [
@@ -1082,7 +1082,7 @@ export const KO_C1_U16: Lesson[] = [
             source: "After three years there, I've grown really attached to that neighbourhood.",
             answer: "삼 년 살았더니 그 동네에 정이 많이 들었어요.",
             altAnswers: ["3년 살았더니 그 동네에 정이 많이 들었어요.", "삼 년 살다 보니 그 동네에 정이 많이 들었어요.", "3년 살다 보니 그 동네에 정이 많이 들었어요.", "삼 년 동안 살았더니 그 동네에 정이 많이 들었어요.", "3년 동안 살았더니 그 동네에 정이 많이 들었어요.", "삼 년을 살았더니 그 동네에 정이 많이 들었어요.", "3년을 살았더니 그 동네에 정이 많이 들었어요.", "삼 년 살았더니 그 동네에 정이 많이 들었네요.", "3년 살았더니 그 동네에 정이 많이 들었네요."],
-            explanation: "정이 들다 takes 에 for what you grow attached to. -았 / 었더니 (spiral C1 Unit 1) gives the result you noticed after living there.",
+            explanation: "정이 들다 takes 에 for what you grow attached to. -았 / 었더니 (spiral Advanced Unit 1) gives the result you noticed after living there.",
           },
           {
             type: "multiple-choice",
@@ -1308,7 +1308,7 @@ export const KO_C1_U16: Lesson[] = [
       {
         heading: "데 있다 or 는데? Spacing and meaning",
         body: [
-          "The connective -는데 'and, but, so' is written attached; the 데 of -는 데 있다 is a separate noun and gets a space. The same pair shows up in -는 데 좋다 (B1), -는 데 걸리다 and -는 데 필요하다, which you already know. The test: if you can add 에 (감사하는 데에), it's the noun, so space it. 행복은 감사하는데 있다 runs the words together and, read literally, begins 'happiness is grateful, and...'.",
+          "The connective -는데 'and, but, so' is written attached; the 데 of -는 데 있다 is a separate noun and gets a space. The same pair shows up in -는 데 좋다 (Intermediate), -는 데 걸리다 and -는 데 필요하다, which you already know. The test: if you can add 에 (감사하는 데에), it's the noun, so space it. 행복은 감사하는데 있다 runs the words together and, read literally, begins 'happiness is grateful, and...'.",
           "Keep the subject of the frame abstract. 핵심, 원인, 의의, 차이, 비결 'secret, key' all work; a person does not 'lie in' something, so 'The good teacher lies in patience' must be recast as 좋은 교사의 조건은 인내심에 있다. Another common frame is 차이는 ...다는 데 있다 for comparing ideas: 두 종교의 차이는 신을 믿느냐 믿지 않느냐는 데 있다.",
         ],
         examples: [
@@ -1349,7 +1349,7 @@ export const KO_C1_U16: Lesson[] = [
         heading: "-(으)ㄹ 따름이다: merely, nothing more",
         body: [
           "-(으)ㄹ 따름이다 says that something is only this and nothing more. It has two voices. The humble voice deflects praise: 저는 제 할 일을 했을 따름입니다 'I merely did my job'. With feelings it means 'I can only feel this': 감사할 따름입니다 'I am simply grateful', 부끄러울 따름입니다 'I can only feel ashamed', 놀라울 따름이다 'It is nothing short of astonishing'. With nouns, use -일 따름이다: 그것은 변명일 따름이다 'That is nothing but an excuse'.",
-          "It is the formal twin of -(으)ㄹ 뿐이다 from B1, and the two are usually interchangeable. 따름 belongs to speeches, interviews, acceptance remarks and essays; in a chat with a friend, 그냥 할 일을 했을 뿐이야 is the natural choice. The analytical voice uses it to cut a claim down to size: 이는 추측일 따름이다 'This is mere speculation'.",
+          "It is the formal twin of -(으)ㄹ 뿐이다 from the Intermediate level, and the two are usually interchangeable. 따름 belongs to speeches, interviews, acceptance remarks and essays; in a chat with a friend, 그냥 할 일을 했을 뿐이야 is the natural choice. The analytical voice uses it to cut a claim down to size: 이는 추측일 따름이다 'This is mere speculation'.",
         ],
         examples: [
           { es: "저는 제 할 일을 했을 따름입니다.", en: "I merely did my job." },
@@ -1850,7 +1850,7 @@ export const KO_C1_U16: Lesson[] = [
         heading: "Part 1: the room next door",
         body: [
           "This personal essay (수필) was written for the course; the writer and the grandmother are invented. It is in 한다체 with 나, like most Korean essays. Read each sentence, guess unknown words from context, then check the English. Key words: 방을 얻다 'rent a room', 훑어보다 'look someone up and down', 밥은 먹고 다니냐 'are you eating properly?', the classic Korean way of showing concern.",
-          "Watch -더니 in the third sentence (C1 Unit 1): the writer observes the grandmother's look and then her question. And notice the last line of the part: the writer could not yet tell whether the question was a greeting or worry. The whole essay grows out of that uncertainty.",
+          "Watch -더니 in the third sentence (Advanced Unit 1): the writer observes the grandmother's look and then her question. And notice the last line of the part: the writer could not yet tell whether the question was a greeting or worry. The whole essay grows out of that uncertainty.",
         ],
         examples: [
           { es: "대학에 입학하던 해, 나는 전주의 한 오래된 골목에 작은 방을 얻었다.", en: "The year I started university, I rented a small room in an old alley in Jeonju." },

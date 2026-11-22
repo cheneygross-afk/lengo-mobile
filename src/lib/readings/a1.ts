@@ -7,7 +7,7 @@ export const A1_READINGS: Reading[] = [
     title: "Short Stories in Spanish for Beginners",
     author: "Olly Richards",
     description:
-      "Eight short stories written specifically for A1-A2 learners, with a full glossary and summaries after each chapter. The standard first \"real book\" for brand-new readers.",
+      "Eight short stories written specifically for Beginner to Elementary learners, with a full glossary and summaries after each chapter. The standard first \"real book\" for brand-new readers.",
     amazonUrl: amazonSearchUrl("Short Stories in Spanish for Beginners", "Olly Richards"),
   },
   {
@@ -23,8 +23,8 @@ export const A1_READINGS: Reading[] = [
     title: "Cuentos para estudiantes de español: Principiantes",
     author: "J.A. Bravo",
     description:
-      "Twenty familiar fairy tales (Cinderella, Little Red Riding Hood, and others) rewritten in true A1 vocabulary, so a plot you already know carries you through Spanish that's brand new to you.",
-    amazonUrl: amazonSearchUrl("Cuentos para estudiantes de español. Nivel A1. Principiantes", "J.A. Bravo"),
+      "Twenty familiar fairy tales (Cinderella, Little Red Riding Hood, and others) rewritten in true Beginner vocabulary, so a plot you already know carries you through Spanish that's brand new to you.",
+    amazonUrl: amazonSearchUrl("Cuentos para estudiantes de español. Nivel Beginner. Principiantes", "J.A. Bravo"),
   },
   {
     title: "Amnesia",
@@ -72,7 +72,7 @@ export const A1_READINGS: Reading[] = [
     title: "Spanish Novels: Muerte en Buenos Aires",
     author: "Paco Ardit",
     description:
-      "A simple mystery set in Buenos Aires, part of the same A1 series, built from short chapters and everyday sentence patterns.",
+      "A simple mystery set in Buenos Aires, part of the same Beginner series, built from short chapters and everyday sentence patterns.",
     amazonUrl: amazonSearchUrl("Spanish Novels: Muerte en Buenos Aires", "Paco Ardit"),
   },
   {

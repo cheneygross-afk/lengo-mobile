@@ -218,7 +218,7 @@ export default function PortuguesePlacementTestScreen({ navigation }: Props) {
         </View>
         <Text style={s.body}>
           {PT_PLACEMENT_TOTAL} questions, about 10 minutes. The first {PT_ROUTER_QUESTIONS.length} cover every level from
-          beginner to mastery (A1 to C2); the rest focus on the two levels closest to yours. Some questions are spoken, so turn
+          beginner to mastery; the rest focus on the two levels closest to yours. Some questions are spoken, so turn
           your sound on, and some ask you to type the Portuguese. All of it is Brazilian Portuguese.
         </Text>
         <Text style={s.progress}>Your progress is saved as you go, so you can stop and come back later.</Text>

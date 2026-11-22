@@ -635,14 +635,14 @@ export const KO_A2_U22_EXTRA: Lesson[] = [
     level: "KO-A2",
     number: 4,
     optional: true,
-    title: "Extra Practice: A2 Sound Changes",
-    summary: "Hear, write and say every A2 sound-change rule again in everyday sentences.",
+    title: "Extra Practice: Sound Changes",
+    summary: "Hear, write and say every Elementary sound-change rule again in everyday sentences.",
     duration: "12 min",
     sections: [
       {
         heading: "Nasal and ㄹ changes",
         body: [
-          "Most A2 rules turn a consonant nasal or into ㄹ: 습니다 [슴니다], 국립 [궁닙], 정류장 [정뉴장], 연락 [열락], 신라 [실라]. The spelling never changes, so write what the word is, not what you hear.",
+          "Most Elementary rules turn a consonant nasal or into ㄹ: 습니다 [슴니다], 국립 [궁닙], 정류장 [정뉴장], 연락 [열락], 신라 [실라]. The spelling never changes, so write what the word is, not what you hear.",
         ],
         examples: [
           { es: "회의는 세 시에 시작합니다.", en: "The meeting starts at three." },

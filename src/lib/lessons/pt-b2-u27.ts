@@ -89,7 +89,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Passar de ano, reprovar, recuperação",
         body: [
-          "A student who meets the grade \"passa de ano\" (moves up a year). One who doesn't \"repete de ano\" or \"é reprovado\". The active \"reprovar\" works too: \"ele reprovou em matemática\", and in speech even \"a professora me reprovou\". \"Fui reprovado\" is the plain passive from earlier in B2. Before failing outright, many schools offer \"recuperação\", a make-up period at the end of a term or year.",
+          "A student who meets the grade \"passa de ano\" (moves up a year). One who doesn't \"repete de ano\" or \"é reprovado\". The active \"reprovar\" works too: \"ele reprovou em matemática\", and in speech even \"a professora me reprovou\". \"Fui reprovado\" is the plain passive from earlier in the Upper-intermediate level. Before failing outright, many schools offer \"recuperação\", a make-up period at the end of a term or year.",
           "Grades are \"notas\", usually from 0 to 10: \"tirar nota boa\", \"tirar 7\". They appear in the \"boletim\" (report card). A school subject is a \"matéria\": \"qual é a sua matéria preferida?\" And remember \"colégio\": in Brazil it is a school, often private, for children and teenagers. A college in the American sense is a \"faculdade\".",
         ],
         examples: [

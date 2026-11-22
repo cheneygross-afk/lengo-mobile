@@ -12,7 +12,7 @@ export const KO_C2_GUIDES: KoGrammarGuide[] = [
       "The grammar of Korean fiction and the personal essay (수필): narrator and point of view, free indirect thought without quotation marks, older spellings in colonial-era texts (하엿다, 잇다), and essay endings of emphasis, reflection and address (-ㄴ 것이다, 그지없다, -는가, 벗이여).",
     level: "C2",
     intro: [
-      `At C2 you read Korean literature as it was written, not in simplified form. Narrators slip into characters' thoughts without quotation marks, older stories keep spellings from before the modern rules, and essays close with reflective and rhetorical endings that rarely appear in speech.`,
+      `At the Mastery level you read Korean literature as it was written, not in simplified form. Narrators slip into characters' thoughts without quotation marks, older stories keep spellings from before the modern rules, and essays close with reflective and rhetorical endings that rarely appear in speech.`,
     ],
     sections: [
       {
@@ -809,7 +809,7 @@ export const KO_C2_GUIDES: KoGrammarGuide[] = [
       "Reading Korean law at mastery level: statute structure (조, 항, 호), statute endings, provisos and exceptions (다만, -에도 불구하고, 그러하지 아니하다), contract clauses, court judgments (기각한다, 처한다), criminal procedure (피의자 / 피고인), and plain-language rewrites.",
     level: "C2",
     intro: [
-      `C1 introduced contracts and notices. C2 reads the law itself: statutes, judgments and procedure. The language is archaic in places, but highly regular, and the plain-language movement is slowly modernising it.`,
+      `The Advanced level introduced contracts and notices. The Mastery level reads the law itself: statutes, judgments and procedure. The language is archaic in places, but highly regular, and the plain-language movement is slowly modernising it.`,
     ],
     sections: [
       {
@@ -945,7 +945,7 @@ export const KO_C2_GUIDES: KoGrammarGuide[] = [
       "Writing and speaking like Korean journalists: the lead, attribution verbs (밝혔다, 전했다, 해명했다), unconfirmed reports (-(으)ㄴ 것으로 알려졌다 / 전해졌다), quotations, headlines and captions, corrections (바로잡습니다), anchor openings, live crosses, weather (-겠습니다) and documentary narration.",
     level: "C2",
     intro: [
-      `B2 taught you to read the news. C2 teaches you to write and present it: choosing attribution verbs with care, signalling how sure you are, and switching between print and broadcast style.`,
+      `The Upper-intermediate level taught you to read the news. The Mastery level teaches you to write and present it: choosing attribution verbs with care, signalling how sure you are, and switching between print and broadcast style.`,
     ],
     sections: [
       {
@@ -1262,7 +1262,7 @@ export const KO_C2_GUIDES: KoGrammarGuide[] = [
       "Korean academic writing at thesis level: chapter structure, methods and results sections, discussion and limitations (본 연구의 한계), citation ethics and plagiarism, and answering questions at a conference.",
     level: "C2",
     intro: [
-      `C1 covered abstracts, hedging and citation. A full thesis adds methods, discussion and limitations sections, each with its own conventional phrasing, and academic life adds peer review and conference Q&A.`,
+      `The Advanced level covered abstracts, hedging and citation. A full thesis adds methods, discussion and limitations sections, each with its own conventional phrasing, and academic life adds peer review and conference Q&A.`,
     ],
     sections: [
       {
@@ -1402,7 +1402,7 @@ export const KO_C2_GUIDES: KoGrammarGuide[] = [
       "Editing Korean prose to native standard: 번역투 (에 있어서, 가지다, 로부터, 되어지다, 그녀), sentence agreement (문장 호응: *제 꿈은 의사가 되고 싶다), adverbs that demand an ending (결코 ... -지 않다), redundancy (역전 앞, 미리 예약), rhythm, and verbs over nouns.",
     level: "C2",
     intro: [
-      `At C2 your Korean is grammatical; the goal now is style. Editors look for three things: translationese (번역투), sentences whose parts don't agree (문장 호응), and padding. Most fixes make the sentence shorter and more verbal.`,
+      `At Mastery your Korean is grammatical; the goal now is style. Editors look for three things: translationese (번역투), sentences whose parts don't agree (문장 호응), and padding. Most fixes make the sentence shorter and more verbal.`,
     ],
     sections: [
       {

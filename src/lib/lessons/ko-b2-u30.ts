@@ -950,8 +950,8 @@ export const KO_B2_U30: Lesson[] = [
     slug: "b2-final-drill-ending-marathon",
     level: "KO-B2",
     number: 5,
-    title: "Drill: The B2 Ending Marathon",
-    summary: "Timed, high-repetition production of forty-odd B2 endings and patterns, one fast item each, across verbs, adjectives and nouns in 해요 and 한다체: contrast and concession, truth and degree, hypotheticals, written connectives, survey language and the theme-unit patterns.",
+    title: "Drill: The Upper-intermediate Ending Marathon",
+    summary: "Timed, high-repetition production of forty-odd Upper-intermediate endings and patterns, one fast item each, across verbs, adjectives and nouns in 해요 and 한다체: contrast and concession, truth and degree, hypotheticals, written connectives, survey language and the theme-unit patterns.",
     duration: "25 min",
     sections: [
       {
@@ -1354,8 +1354,8 @@ export const KO_B2_U30: Lesson[] = [
     slug: "b2-final-error-hunt",
     level: "KO-B2",
     number: 6,
-    title: "Error Hunt: The B2 Top Twenty",
-    summary: "Fix the twenty slips B2 learners make most: spoken register in essays, honorific gaps, 십상, 봤자, 일쑤 and 커녕 with the wrong kind of result, -잖아요 for news, wrong modifiers before 반면에 and -느니, -는 데 / -는데 and 뿐 spacing, 돼 / 되, 봬요, 며칠, -(으)ㄹ게, 바라요 and (으)로서.",
+    title: "Error Hunt: The Upper-intermediate Top Twenty",
+    summary: "Fix the twenty slips Upper-intermediate learners make most: spoken register in essays, honorific gaps, 십상, 봤자, 일쑤 and 커녕 with the wrong kind of result, -잖아요 for news, wrong modifiers before 반면에 and -느니, -는 데 / -는데 and 뿐 spacing, 돼 / 되, 봬요, 며칠, -(으)ㄹ게, 바라요 and (으)로서.",
     duration: "17 min",
     sections: [
       {
@@ -1402,7 +1402,7 @@ export const KO_B2_U30: Lesson[] = [
       {
         heading: "6-10: The wrong kind of result",
         body: [
-          "Several B2 patterns carry an attitude, and the classic slip is using them with the wrong kind of outcome. (6) -기 십상이다 is only for results you don't want. (7) -아 / 어 봤자 needs a useless or bad result after it. (8) -기 일쑤이다 is for bad habits; a good habit takes -곤 하다 or 자주. (9) 커녕 needs a negative or opposite second half: 밥은커녕 빵을 먹었어요 contradicts itself. (10) -잖아요 assumes the listener already knows; for news, use -거든요 or a trailing -아 / 어서요.",
+          "Several Upper-intermediate patterns carry an attitude, and the classic slip is using them with the wrong kind of outcome. (6) -기 십상이다 is only for results you don't want. (7) -아 / 어 봤자 needs a useless or bad result after it. (8) -기 일쑤이다 is for bad habits; a good habit takes -곤 하다 or 자주. (9) 커녕 needs a negative or opposite second half: 밥은커녕 빵을 먹었어요 contradicts itself. (10) -잖아요 assumes the listener already knows; for news, use -거든요 or a trailing -아 / 어서요.",
         ],
         examples: [
           { es: "연습 없이 무대에 서면 실수하기 십상이다.", en: "Go on stage without practice and you're liable to slip up." },
@@ -2187,7 +2187,7 @@ export const KO_B2_U30: Lesson[] = [
         heading: "Question 51: an email with two gaps",
         body: [
           "On the current paper-based test, the four writing questions share 50 minutes: aim for about 5-10 minutes on 51-52, about 10 on 53 and the remaining 30-35 on 54. Questions 51 and 52 are worth 10 points each, one sentence per gap, (ㄱ) and (ㄴ). Give yourself five minutes per text here.",
-          "Question 51 is a practical text: an email, a notice, an invitation or a post. Match its register (here 습니다) and read around each gap: -아 / 어서 before (ㄱ) means it states a result of the reason, and a question mark after (ㄴ) asks for a request. A B2 answer climbs the request ladder of Unit 27.",
+          "Question 51 is a practical text: an email, a notice, an invitation or a post. Match its register (here 습니다) and read around each gap: -아 / 어서 before (ㄱ) means it states a result of the reason, and a question mark after (ㄴ) asks for a request. An Upper-intermediate answer climbs the request ladder of Unit 27.",
         ],
         examples: [
           { es: "교수님, 안녕하십니까? 저는 한국어학과 3학년 하준입니다.", en: "Professor, good afternoon. I'm Hajun, a third-year in the Korean department." },
@@ -2227,7 +2227,7 @@ export const KO_B2_U30: Lesson[] = [
       {
         heading: "Question 52: a paragraph with two gaps",
         body: [
-          "Question 52 is a short 한다체 paragraph explaining a general idea. The connectors carry the logic: 그러나 turns, 또한 adds, 따라서 concludes, and -기 때문이다 gives the reason. Write a clause that fits both sides of the gap, in 한다체: a 해요 or 습니다 answer loses points even if the meaning is right. Reach for B2 grammar where it fits: -(으)ㄹ까 봐, -기 쉽다, -는 것이 바람직하다.",
+          "Question 52 is a short 한다체 paragraph explaining a general idea. The connectors carry the logic: 그러나 turns, 또한 adds, 따라서 concludes, and -기 때문이다 gives the reason. Write a clause that fits both sides of the gap, in 한다체: a 해요 or 습니다 answer loses points even if the meaning is right. Reach for Upper-intermediate grammar where it fits: -(으)ㄹ까 봐, -기 쉽다, -는 것이 바람직하다.",
         ],
         examples: [
           { es: "사람들은 보통 실수를 하면 숨기려고 한다.", en: "People usually try to hide their mistakes." },
@@ -2484,7 +2484,7 @@ export const KO_B2_U30: Lesson[] = [
       {
         heading: "Scoring yourself",
         body: [
-          "Spend the last three minutes on the three criteria. Content: does each 본론 answer one of the first two questions, and does the 결론 answer the third? Structure: four indented paragraphs, a 서론 that rephrases rather than copies, connectors that do real work. Language use: a range of B2 grammar used correctly, written words (이점, 우려, 의존하다) rather than spoken ones, and 한다체 all the way, with no 저 / 제, -요 or 근데.",
+          "Spend the last three minutes on the three criteria. Content: does each 본론 answer one of the first two questions, and does the 결론 answer the third? Structure: four indented paragraphs, a 서론 that rephrases rather than copies, connectors that do real work. Language use: a range of Upper-intermediate grammar used correctly, written words (이점, 우려, 의존하다) rather than spoken ones, and 한다체 all the way, with no 저 / 제, -요 or 근데.",
           "The common deductions are mechanical, so they are the easiest points to save: under 600 characters, prompt sentences copied word for word, a third question left unanswered, and a 해요 ending slipping in near the end, when you are tired.",
         ],
         examples: [
@@ -2528,7 +2528,7 @@ export const KO_B2_U30: Lesson[] = [
         rubric: [
           "Content: answers all three questions on topic, one 본론 paragraph each for the benefits and the problems, and a 결론 that names the abilities needed",
           "Structure: four paragraphs (서론, two 본론, 결론), a 서론 in the writer's own words ending with -고자 한다 or similar, and connectors that do real work (우선 / 예를 들어 / 그 결과, 그러나 / 게다가 / 실제로, 물론 ... 그러나 / 따라서, 이를 위해서는)",
-          "Language use: a range of B2 grammar used correctly, such as 반면에, -(으)ㄹ 우려가 있다, -(으)ㄹ 가능성이 있다, -다 보면, -기 십상이다, -에 달려 있다, -아 / 어야 한다, with written vocabulary (이점, 의존하다, 비판적으로)",
+          "Language use: a range of Upper-intermediate grammar used correctly, such as 반면에, -(으)ㄹ 우려가 있다, -(으)ㄹ 가능성이 있다, -다 보면, -기 십상이다, -에 달려 있다, -아 / 어야 한다, with written vocabulary (이점, 의존하다, 비판적으로)",
           "Register and form: 한다체 throughout (no 저 / 제, -요, 습니다 or 근데), dependent nouns spaced (할 수 있다, 할 것이다, 하는 데), and 600-700 characters",
         ],
         modelAnswer: "최근 인공지능 기술이 빠르게 발전하면서 우리 생활 곳곳에서 인공지능을 쉽게 만날 수 있게 되었다. 이러한 변화는 생활을 편리하게 만드는 반면에 새로운 문제를 낳기도 한다. 이 글에서는 인공지능 기술의 이점과 문제점을 살펴보고, 인공지능 시대에 사람에게 필요한 능력에 대해 논의하고자 한다.\n\n우선 인공지능은 우리의 시간과 노력을 크게 줄여 준다. 예를 들어 번역이나 자료 검색처럼 오래 걸리던 일을 몇 초 만에 해결할 수 있다. 또한 의료 분야에서는 질병을 조기에 발견하는 데 도움을 주기도 한다. 그 결과 사람들은 더 중요한 일에 시간을 쓸 수 있게 되었다.\n\n그러나 인공지능 기술의 발전에는 문제도 따른다. 단순하고 반복적인 일자리가 줄어들 우려가 있으며, 잘못된 정보가 사실처럼 퍼질 가능성도 있다. 게다가 사람들이 인공지능에 지나치게 의존하다 보면 스스로 생각하는 힘이 약해지기 십상이다. 실제로 과제를 인공지능에 맡기고 내용을 확인하지 않는 학생들도 적지 않다.\n\n물론 기술의 발전을 막을 수는 없다. 기술은 어디까지나 도구일 뿐이며, 그것을 어떻게 사용할지는 결국 사람에게 달려 있다. 따라서 인공지능 시대에는 정보를 비판적으로 판단하는 능력과 사람만이 가진 창의력, 공감 능력을 길러야 한다. 이를 위해서는 학교와 사회가 함께 노력해야 할 것이다.",

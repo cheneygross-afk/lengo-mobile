@@ -22,7 +22,7 @@ export const KO_B1_U02: Lesson[] = [
       {
         heading: "-자고 했어요: they said 'let's'",
         body: [
-          "Unit 1 reported statements with -다고 and questions with -냐고. Suggestions have their own ending: the stem + -자고, then a reporting verb, usually 하다. 같이 가자고 했어요 is literally 'She said let's go together', in natural English 'She suggested we go together'. It is the casual 'let's' -자 from A2 with the quoting 고 added.",
+          "Unit 1 reported statements with -다고 and questions with -냐고. Suggestions have their own ending: the stem + -자고, then a reporting verb, usually 하다. 같이 가자고 했어요 is literally 'She said let's go together', in natural English 'She suggested we go together'. It is the casual 'let's' -자 from Elementary with the quoting 고 added.",
           "Because -자 starts with a consonant, every stem stays as it is: 먹자고, 만들자고, 듣자고, 걷자고, 돕자고. No 으, no irregular changes, which makes -자고 the easiest report of all.",
           "The trap is meaning. -자고 always includes the speaker: it means 'let's', not 'to'. 민수 씨가 가자고 했어요 means Minsu wants to go with you. If he told you to go without him, that is a command, and Korean uses a different ending (next lesson).",
         ],
@@ -907,7 +907,7 @@ export const KO_B1_U02: Lesson[] = [
         heading: "권하다 and 허락하다: advice and permission",
         body: [
           "권하다 is 'to recommend, to urge', for advice from doctors, friends and shop staff: 의사가 운동하라고 권했어요 'The doctor recommended that I exercise.' Like the others, it follows the -(으)라고 quote, often with -아 / 어 보라고 'try': 먹어 보라고 권했어요.",
-          "허락하다 'to allow' reports permission, so it takes the permission sentence -아 / 어도 된다고 (A2's -아 / 어도 되다 + Unit 1's -ㄴ다고): 엄마가 친구 집에서 자도 된다고 허락했어요. There is no command to quote, because permission is a statement.",
+          "허락하다 'to allow' reports permission, so it takes the permission sentence -아 / 어도 된다고 (Elementary's -아 / 어도 되다 + Unit 1's -ㄴ다고): 엄마가 친구 집에서 자도 된다고 허락했어요. There is no command to quote, because permission is a statement.",
           "When the speaker is senior, the -시- goes on these verbs too: 권하셨어요, 허락하셨어요, 시키셨어요.",
         ],
         examples: [
@@ -1640,7 +1640,7 @@ export const KO_B1_U02: Lesson[] = [
       {
         heading: "Sound focus: 음료 [음뇨], 정리 [정니]",
         body: [
-          "When ㄹ starts a syllable after a final ㅁ or ㅇ, it is said as [ㄴ]: 음료 [음뇨] 'drink', 정리 [정니] 'tidying', 심리 [심니] 'psychology', 종로 [종노], 대통령 [대통녕] 'president', and this unit's 명령 [명녕]. You met the rule in A2; Sino-Korean words are full of it.",
+          "When ㄹ starts a syllable after a final ㅁ or ㅇ, it is said as [ㄴ]: 음료 [음뇨] 'drink', 정리 [정니] 'tidying', 심리 [심니] 'psychology', 종로 [종노], 대통령 [대통녕] 'president', and this unit's 명령 [명녕]. You met the rule in the Elementary level; Sino-Korean words are full of it.",
           "The spelling never changes, so dictation is where it bites: you hear [음뇨] and must write 음료. If you hear [ㄴ] after ㅁ or ㅇ in a Sino-Korean word, ㄹ is usually the letter on the page.",
         ],
         examples: [

@@ -793,7 +793,7 @@ export const KO_C2_U08: Lesson[] = [
       {
         heading: "카다: Gyeongsang quotation",
         body: [
-          "Reported speech in standard Korean joins the quote to 하다 with -고: 비 온다고 하더라 'They said it's going to rain' (B1). In Gyeongsang speech -고 하- fuses into one syllable, 카: 비 온다 카더라. The rest of the verb follows normally: 카더라 (하더라), 캤다 (했다), 카나 / 카노 (하니), 카모 (하면), 카이 (하니까). So 머라 카노? is 뭐라고 하니? 'What are you saying? / What did he say?', and said with a laugh or a frown it is also 'What are you on about?'. 니 온다 캤나? is 너 온다고 했어? 'Did you say you were coming?'. 내가 했다 카이 is 내가 했다니까 'I told you I did it'.",
+          "Reported speech in standard Korean joins the quote to 하다 with -고: 비 온다고 하더라 'They said it's going to rain' (Intermediate). In Gyeongsang speech -고 하- fuses into one syllable, 카: 비 온다 카더라. The rest of the verb follows normally: 카더라 (하더라), 캤다 (했다), 카나 / 카노 (하니), 카모 (하면), 카이 (하니까). So 머라 카노? is 뭐라고 하니? 'What are you saying? / What did he say?', and said with a laugh or a frown it is also 'What are you on about?'. 니 온다 캤나? is 너 온다고 했어? 'Did you say you were coming?'. 내가 했다 카이 is 내가 했다니까 'I told you I did it'.",
           "카더라 has even entered standard Korean as a noun: 카더라 통신 'the they-say network', for rumours with no source. Writers spell the quotation verb both apart and joined (머라 카노 / 머라카노); either is accepted here. When you report a Gyeongsang speaker's words in standard Korean, simply restore -고 하다: 할매가 단디 하라 카더라 → 할머니가 조심하라고 하셨어.",
         ],
         examples: [

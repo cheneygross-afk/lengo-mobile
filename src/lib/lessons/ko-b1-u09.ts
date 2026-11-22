@@ -1370,7 +1370,7 @@ export const KO_B1_U09: Lesson[] = [
       {
         heading: "Changes of mind: 했다가",
         body: [
-          "-았 / 었다가 is also how Korean tells a change of plan. Put it on -기로 하다 or -(으)려고 하다 from A2: 여행을 가기로 했다가 취소했어요 'We decided to go on a trip, then cancelled'; 사려고 했다가 너무 비싸서 안 샀어요 'I was going to buy it, but it was too expensive, so I didn't.'",
+          "-았 / 었다가 is also how Korean tells a change of plan. Put it on -기로 하다 or -(으)려고 하다 from the Elementary level: 여행을 가기로 했다가 취소했어요 'We decided to go on a trip, then cancelled'; 사려고 했다가 너무 비싸서 안 샀어요 'I was going to buy it, but it was too expensive, so I didn't.'",
         ],
         examples: [
           { es: "여행을 가기로 했다가 취소했어요.", en: "We decided to go on a trip, then cancelled." },
@@ -2149,7 +2149,7 @@ export const KO_B1_U09: Lesson[] = [
       {
         heading: "Sound focus: 출장 [출짱], 일정 [일쩡]",
         body: [
-          "You met this rule in A2: in Sino-Korean words, ㄷ, ㅅ or ㅈ right after ㄹ is said tense. 출장 [출짱] 'business trip', 일정 [일쩡] 'schedule', 결정 [결쩡] 'decision', 출석 [출썩] 'attendance', 열심히 [열씸히] 'hard', 발달 [발딸] 'development'. The spelling never changes, and other consonants stay plain: 출발 [출발].",
+          "You met this rule in the Elementary level: in Sino-Korean words, ㄷ, ㅅ or ㅈ right after ㄹ is said tense. 출장 [출짱] 'business trip', 일정 [일쩡] 'schedule', 결정 [결쩡] 'decision', 출석 [출썩] 'attendance', 열심히 [열씸히] 'hard', 발달 [발딸] 'development'. The spelling never changes, and other consonants stay plain: 출발 [출발].",
           "It doesn't happen in verb forms after a ㄹ stem: 만들자마자 [만들자마자], 살다가 [살다가], 놀다가 [놀다가] keep plain consonants. So when you hear [짱] or [쩡] after ㄹ, expect a Sino-Korean noun, and write it with plain ㅈ.",
         ],
         examples: [

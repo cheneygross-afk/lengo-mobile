@@ -657,7 +657,7 @@ export const KO_B1_U12: Lesson[] = [
       {
         heading: "Recap: 앉아 있어요, 서 있어요",
         body: [
-          "In A2 you met -아 / 어 있다 for a state that lasts after a change: you sit down, and then you are seated, 앉아 있어요. It works with verbs that take no object: 서 있어요 'is standing', 누워 있어요 'is lying down', 와 있어요 'has come and is here'. -고 있다 is for an action in progress; -아 / 어 있다 is the result that stays.",
+          "In the Elementary level you met -아 / 어 있다 for a state that lasts after a change: you sit down, and then you are seated, 앉아 있어요. It works with verbs that take no object: 서 있어요 'is standing', 누워 있어요 'is lying down', 와 있어요 'has come and is here'. -고 있다 is for an action in progress; -아 / 어 있다 is the result that stays.",
         ],
         examples: [
           { es: "할머니는 소파에 앉아 계세요.", en: "Grandma is sitting on the sofa." },

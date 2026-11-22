@@ -895,7 +895,7 @@ export const PT_B1_U09: Lesson[] = [
       {
         heading: "After querer, poder, dever: never",
         body: [
-          "When an infinitive follows \"querer\", \"poder\", \"dever\", \"precisar\" or \"conseguir\", the two verbs work as a team and only the first is conjugated: \"eles querem sair\", never \"eles querem saírem\". The person is already marked on \"querem\"; marking it again is a doubled ending, one of the most common B1 slips.",
+          "When an infinitive follows \"querer\", \"poder\", \"dever\", \"precisar\" or \"conseguir\", the two verbs work as a team and only the first is conjugated: \"eles querem sair\", never \"eles querem saírem\". The person is already marked on \"querem\"; marking it again is a doubled ending, one of the most common Intermediate slips.",
           "The same goes for the near future (\"vocês vão viajar\"), for \"ter que\" (\"eles têm que trabalhar\") and even for chains with a preposition inside, like \"começar a\" and \"acabar de\": \"elas começaram a rir\". In all of these the infinitive has no subject of its own, so the personal infinitive has no job to do.",
         ],
         examples: [
@@ -2257,14 +2257,14 @@ export const PT_B1_U09: Lesson[] = [
     level: "PT-B1",
     number: 10,
     title: "Spiral Review: Infinitives and Subjunctives",
-    summary: "Mix the personal infinitive with the present subjunctive and the B1 tenses, and learn which triggers accept only one of them.",
+    summary: "Mix the personal infinitive with the present subjunctive and the Intermediate tenses, and learn which triggers accept only one of them.",
     duration: "12 min",
     sections: [
       {
         heading: "Para vocês entenderem or para que vocês entendam",
         body: [
           "Reminder: when the subject changes, \"para\", \"antes de\", \"sem\" and \"até\" take the personal infinitive. Their partners \"para que\", \"antes que\", \"sem que\" and \"até que\" take the subjunctive. Both are correct, but the infinitive is lighter and is what you'll hear most.",
-          "The infinitive has one more advantage: it ignores tense. \"Ele explicou tudo para nós entendermos\" works in the past. The \"que\" version would need a past subjunctive you'll meet at B2, so use the infinitive in past sentences for now.",
+          "The infinitive has one more advantage: it ignores tense. \"Ele explicou tudo para nós entendermos\" works in the past. The \"que\" version would need a past subjunctive you'll meet at the Upper-intermediate level, so use the infinitive in past sentences for now.",
           "\"Depois de\" has no subjunctive partner: \"depois que\" takes the indicative.",
         ],
         examples: [
@@ -2362,7 +2362,7 @@ export const PT_B1_U09: Lesson[] = [
         ],
       },
       {
-        heading: "With the B1 tenses",
+        heading: "With the Intermediate tenses",
         body: [
           "The personal infinitive works with any tense you know. The main verb carries the time, and the infinitive only says who does the second action: \"eles tinham saído antes de nós chegarmos\", \"temos acordado cedo para as crianças não chegarem atrasadas\".",
           "After the conditional, the infinitive is again the easy route: \"seria bom vocês conhecerem a Bahia\". The \"que\" version needs the past subjunctive (\"seria bom que vocês conhecessem\"). Recognize it, but don't build it yet.",

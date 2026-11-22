@@ -547,7 +547,7 @@ export const PT_C1_U07: Lesson[] = [
         body: [
           "\"Muito\" is the neutral intensifier, but each alternative carries a register. \"Bem\" before an adjective or adverb means very, with a touch of emphasis: \"bem caro\", \"bem cedo\". \"Super\", \"mega\" and \"hiper\" do the same job in conversation and chats, but they sound out of place in a report. There, \"extremamente\", \"altamente\" or \"bastante\" belong. \"Bastante\" is the safe middle choice: \"um tema bastante complexo\" works in a meeting and in an essay.",
           "The trap is \"demais\" after an adjective. In Brazil \"esse bolo é bom demais\" is praise: really good, not too good. It means excessive only when the context says so, typically with \"para\": \"caro demais para mim\".",
-          "In the written norm \"super\" is a prefix and joins the word, as in \"superinteressante\". It takes a hyphen only before h or r: \"super-rápido\". The \"-íssimo\" superlative from A2 still fits every register.",
+          "In the written norm \"super\" is a prefix and joins the word, as in \"superinteressante\". It takes a hyphen only before h or r: \"super-rápido\". The \"-íssimo\" superlative from Elementary still fits every register.",
         ],
         examples: [
           { es: "O apartamento é bem caro, mas fica perto do metrô.", en: "The apartment is pretty expensive, but it's close to the subway." },
@@ -2011,13 +2011,13 @@ export const PT_C1_U07: Lesson[] = [
     level: "PT-C1",
     number: 9,
     title: "Error Hunt: Nuance",
-    summary: "Find and fix C1 slips of tone: words with the wrong connotation, refusals and requests that sound blunt, particles in the wrong slot and a super in every sentence.",
+    summary: "Find and fix Advanced slips of tone: words with the wrong connotation, refusals and requests that sound blunt, particles in the wrong slot and a super in every sentence.",
     duration: "15 min",
     sections: [
       {
         heading: "Wrong connotation: praise where pity belongs",
         body: [
-          "This lesson collects sentences C1 learners actually write. Each one is grammatical, but the words carry the wrong attitude. The classic case is \"Depois da quimioterapia, meu tio ficou esbelto.\" \"Esbelto\" admires a slim, elegant body, so the sentence sounds like a compliment on cancer. For illness, use \"muito magro\", \"abatido\" or \"debilitado\", or simply \"emagreceu muito\".",
+          "This lesson collects sentences Advanced learners actually write. Each one is grammatical, but the words carry the wrong attitude. The classic case is \"Depois da quimioterapia, meu tio ficou esbelto.\" \"Esbelto\" admires a slim, elegant body, so the sentence sounds like a compliment on cancer. For illness, use \"muito magro\", \"abatido\" or \"debilitado\", or simply \"emagreceu muito\".",
           "The trap also works in reverse. \"Ela é teimosa nos estudos\" is meant as praise but calls her stubborn; the praise you want is \"persistente\" or \"dedicada\". \"Barato\" can hint at poor quality (\"um sofá barato\" may be falling apart), while \"em conta\" or \"com preço bom\" stresses good value. Before you choose the word, decide whether the speaker is admiring, neutral or critical.",
         ],
         examples: [

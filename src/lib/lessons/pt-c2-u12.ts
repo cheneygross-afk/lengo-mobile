@@ -783,7 +783,7 @@ export const PT_C2_U12: Lesson[] = [
       {
         heading: "Describing Machado's syntax",
         body: [
-          "Essays on Machado too often retell the plot or argue about whether Capitu betrayed Bento. The C2 task is to describe how the sentences work: \"o narrador se dirige ao leitor\", \"a oração subordinada desmente a principal\", \"a adjetivação é precisa e econômica\", \"a ironia nasce do contraste entre o tom solene e o conteúdo mesquinho\".",
+          "Essays on Machado too often retell the plot or argue about whether Capitu betrayed Bento. The Mastery task is to describe how the sentences work: \"o narrador se dirige ao leitor\", \"a oração subordinada desmente a principal\", \"a adjetivação é precisa e econômica\", \"a ironia nasce do contraste entre o tom solene e o conteúdo mesquinho\".",
           "Machado's vocabulary is classical but rarely ornate. He prefers the exact word, balanced clauses, and endings that drop suddenly from the solemn to the trivial, a technique called \"anticlímax\". \"Ao vencedor, as batatas!\", the motto of the mad philosopher Quincas Borba, does it in four words: a heroic formula, then potatoes.",
           "To imitate him, keep the grammar formal and the tone urbane, insert an aside to the reader, and let the last clause take back what the first one gave. A sentence written for this course in his manner: \"Era um homem honesto, ao menos nas horas em que ninguém o via.\" The subordinate clause reverses the main one, which is pure Machado.",
         ],

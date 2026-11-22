@@ -44,7 +44,7 @@ const UNITS: KoreanUnitDef[] = [
   { id: "u09", title: "Yesterday: the Past Tense", description: "Talk about what you did and what happened, and link sentences into a short story.", lessons: KO_A1_U09, extra: KO_A1_U09_EXTRA, writing: KO_A1_U09_WRITING },
   { id: "u10", title: "Describing Things", description: "Describe people, food, places and the weather with descriptive verbs.", lessons: KO_A1_U10, extra: KO_A1_U10_EXTRA, writing: KO_A1_U10_WRITING },
   { id: "u11", title: "Wants and Plans", description: "Say what you want to do, what you will do and where you are going to do it, and with whom.", lessons: KO_A1_U11, extra: KO_A1_U11_EXTRA, writing: KO_A1_U11_WRITING },
-  { id: "u12", title: "Polite Requests and A1 Review", description: "Ask, offer and tell people politely, and handle ordering, a taxi and a clinic visit.", lessons: KO_A1_U12, extra: KO_A1_U12_EXTRA, writing: KO_A1_U12_WRITING },
+  { id: "u12", title: "Polite Requests and Beginner Review", description: "Ask, offer and tell people politely, and handle ordering, a taxi and a clinic visit.", lessons: KO_A1_U12, extra: KO_A1_U12_EXTRA, writing: KO_A1_U12_WRITING },
 ];
 
 const LEVEL = buildKoreanLevel("A1", UNITS);

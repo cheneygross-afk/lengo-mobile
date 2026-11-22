@@ -88,7 +88,7 @@ export const KO_A2_U06: Lesson[] = [
       {
         heading: "ㄹ stems: nothing to add",
         body: [
-          "A stem that already ends in ㄹ has the ㄹ the ending needs, so nothing is added: 만들다 → 만들 수 있어요, 열다 → 열 수, 놀다 → 놀 수, 살다 → 살 수. It's the same rule as 만들 거예요 from A1.",
+          "A stem that already ends in ㄹ has the ㄹ the ending needs, so nothing is added: 만들다 → 만들 수 있어요, 열다 → 열 수, 놀다 → 놀 수, 살다 → 살 수. It's the same rule as 만들 거예요 from the Beginner level.",
           "Adding 을 anyway gives *만들을 수 or *열을 수, one of the most common written mistakes at this level.",
         ],
         examples: [
@@ -197,7 +197,7 @@ export const KO_A2_U06: Lesson[] = [
         source: "I couldn't sleep yesterday.",
         answer: "어제 잘 수 없었어요.",
         altAnswers: ["어제는 잘 수 없었어요.", "저는 어제 잘 수 없었어요.", "어제 못 잤어요.", "어제는 못 잤어요.", "어제 잠을 잘 수 없었어요."],
-        explanation: "The past goes on 없다 at the end: 잘 수 없었어요. A1's 못 잤어요 says the same thing.",
+        explanation: "The past goes on 없다 at the end: 잘 수 없었어요. The Beginner level's 못 잤어요 says the same thing.",
       },
       {
         type: "speak",
@@ -252,7 +252,7 @@ export const KO_A2_U06: Lesson[] = [
       {
         heading: "수 없어요 or 못?",
         body: [
-          "You met 못 in A1: 못 가요, 'I can't go'. In everyday speech Koreans reach for 못 first; it's short and personal. 수 없어요 is longer and sounds firmer or more official, so it's what you see on signs and hear in announcements, and when a rule or the situation rules something out.",
+          "You met 못 in the Beginner level: 못 가요, 'I can't go'. In everyday speech Koreans reach for 못 first; it's short and personal. 수 없어요 is longer and sounds firmer or more official, so it's what you see on signs and hear in announcements, and when a rule or the situation rules something out.",
           "Watch where each one goes with 하다 verbs: 못 sits between the noun and 해요 (통화 못 해요), while 수 없어요 keeps the verb whole (통화할 수 없어요).",
         ],
         examples: [
@@ -884,7 +884,7 @@ export const KO_A2_U06: Lesson[] = [
         heading: "Didn't or couldn't?",
         body: [
           "-지 않았어요 says you chose not to; -지 못했어요 says something stopped you. 숙제를 하지 않았어요 admits you didn't do it; 숙제를 하지 못했어요 says you couldn't. To a teacher, that difference matters.",
-          "It's the same split as 안 and 못 in A1, just in the long form.",
+          "It's the same split as 안 and 못 in the Beginner level, just in the long form.",
         ],
         examples: [
           { es: "숙제를 하지 않았어요.", en: "I didn't do my homework. (I chose not to.)" },

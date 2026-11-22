@@ -74,7 +74,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u19", title: "Italian in the World", description: "Explore Italian outside Italy: Switzerland, San Marino, the Vatican, the diaspora.", lessons: IT_C2_U19, extra: IT_C2_U19_EXTRA, writing: IT_C2_U19_WRITING },
   { id: "u20", title: "Listening Mastery", description: "Understand fast native speech, overlapping conversation and regional accents.", lessons: IT_C2_U20, extra: IT_C2_U20_EXTRA, writing: IT_C2_U20_WRITING },
   { id: "u21", title: "Writing Mastery", description: "Practice CILS QUATTRO writing and reading tasks.", lessons: IT_C2_U21, extra: IT_C2_U21_EXTRA, writing: IT_C2_U21_WRITING },
-  { id: "u22", title: "C2 Review", description: "Bring the whole course together.", lessons: IT_C2_U22, extra: IT_C2_U22_EXTRA, writing: IT_C2_U22_WRITING },
+  { id: "u22", title: "Mastery Review", description: "Bring the whole course together.", lessons: IT_C2_U22, extra: IT_C2_U22_EXTRA, writing: IT_C2_U22_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("C2", UNITS);

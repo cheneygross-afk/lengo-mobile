@@ -17185,14 +17185,14 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-1",
     "level": "C2",
     "number": 90,
-    "title": "Narrativa histórica C2: el imperfecto narrativo, Part 1 of 10",
+    "title": "Narrativa histórica: el imperfecto narrativo, Part 1 of 10",
     "summary": "El imperfecto que no describe sino que narra: «Dos días después, el rey abdicaba». Cuándo lo usan historiadores y periodistas, qué efecto produce y cómo distinguirlo del imperfecto de fondo.",
     "duration": "9 min",
     "sections": [
       {
         "heading": "Un imperfecto para un hecho puntual",
         "body": [
-          "En C1 se aprende que el indefinido narra hechos y el imperfecto describe el fondo. La prosa histórica y periodística rompe a menudo esa regla con el imperfecto narrativo (también llamado «de ruptura» o «periodístico»): un hecho puntual y concluido se cuenta en imperfecto, casi siempre acompañado de una fecha o de un complemento que lo delimita: «El 14 de abril de 1931 se proclamaba la Segunda República»; «Tres días después, el general moría en el exilio»."
+          "En el nivel Mastery se aprende que el indefinido narra hechos y el imperfecto describe el fondo. La prosa histórica y periodística rompe a menudo esa regla con el imperfecto narrativo (también llamado «de ruptura» o «periodístico»): un hecho puntual y concluido se cuenta en imperfecto, casi siempre acompañado de una fecha o de un complemento que lo delimita: «El 14 de abril de 1931 se proclamaba la Segunda República»; «Tres días después, el general moría en el exilio»."
         ],
         "examples": [
           {
@@ -17398,7 +17398,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-2",
     "level": "C2",
     "number": 91,
-    "title": "Narrativa histórica C2: pluscuamperfecto y pretérito anterior, Part 2 of 10",
+    "title": "Narrativa histórica: pluscuamperfecto y pretérito anterior, Part 2 of 10",
     "summary": "Distinguir el pluscuamperfecto (había firmado: anterioridad sin inmediatez) del pretérito anterior (hubo firmado: anterioridad inmediata), reconocer este último en textos literarios e históricos y sustituirlo por formas modernas.",
     "duration": "9 min",
     "sections": [
@@ -17435,7 +17435,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Hoy se reconoce, no se usa",
         "body": [
-          "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», donde la inmediatez la aporta el conector «apenas») o por construcciones como «nada más firmar» o «una vez firmado». Un hablante C2 debe reconocerlo, no necesariamente usarlo."
+          "Hoy es casi exclusivo de la lengua literaria y de la historiografía de estilo clásico. En el habla y en la prosa actual se sustituye por el indefinido («Apenas firmó el tratado…»), por el pluscuamperfecto («Apenas había firmado…», donde la inmediatez la aporta el conector «apenas») o por construcciones como «nada más firmar» o «una vez firmado». Un hablante de nivel Professional & Academic debe reconocerlo, no necesariamente usarlo."
         ],
         "examples": [
           {
@@ -17622,7 +17622,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-3",
     "level": "C2",
     "number": 92,
-    "title": "Narrativa histórica C2: el futuro del pasado y la forma en -ra, Part 3 of 10",
+    "title": "Narrativa histórica: el futuro del pasado y la forma en -ra, Part 3 of 10",
     "summary": "Anticipar desde el pasado (sería, habría de, estaba llamado a) y reconocer el uso culto y periodístico de «el que fuera presidente» con valor de pluscuamperfecto.",
     "duration": "9 min",
     "sections": [
@@ -17822,7 +17822,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-4",
     "level": "C2",
     "number": 93,
-    "title": "Narrativa histórica C2: el presente histórico y el de cronología, Part 4 of 10",
+    "title": "Narrativa histórica: el presente histórico y el de cronología, Part 4 of 10",
     "summary": "Narrar el pasado en presente: cuándo lo hace el historiador, cómo se reorganiza todo el sistema verbal (pasado → pretérito perfecto; futuro → anticipación) y qué incoherencias evitar.",
     "duration": "9 min",
     "sections": [
@@ -18007,7 +18007,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-5",
     "level": "C2",
     "number": 94,
-    "title": "Narrativa histórica C2: el estilo indirecto libre, Part 5 of 10",
+    "title": "Narrativa histórica: el estilo indirecto libre, Part 5 of 10",
     "summary": "La voz del personaje dentro de la voz del narrador: reconocer el estilo indirecto libre en la novela histórica, sus marcas (imperfecto y condicional, deícticos del personaje, preguntas y exclamaciones sin verbo de habla) y compararlo con el estilo directo e indirecto.",
     "duration": "9 min",
     "sections": [
@@ -18190,7 +18190,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-6",
     "level": "C2",
     "number": 95,
-    "title": "Narrativa histórica C2: conectores del relato histórico, Part 6 of 10",
+    "title": "Narrativa histórica: conectores del relato histórico, Part 6 of 10",
     "summary": "Conectores temporales y causales de registro culto: por aquel entonces, a la sazón, acto seguido, a renglón seguido, al cabo de, a la postre, a raíz de, al calor de, a instancias de, so pretexto de, de ahí que.",
     "duration": "9 min",
     "sections": [
@@ -18387,7 +18387,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-7",
     "level": "C2",
     "number": 96,
-    "title": "Narrativa histórica C2: la voz del historiador, Part 7 of 10",
+    "title": "Narrativa histórica: la voz del historiador, Part 7 of 10",
     "summary": "Separar hechos, inferencias y valoraciones: verbos de modalización (cabe suponer, todo indica que), el condicional de rumor y su problema en el texto académico, y el anacronismo.",
     "duration": "9 min",
     "sections": [
@@ -18591,7 +18591,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-8",
     "level": "C2",
     "number": 97,
-    "title": "Narrativa histórica C2: el registro culto de la historiografía, Part 8 of 10",
+    "title": "Narrativa histórica: el registro culto de la historiografía, Part 8 of 10",
     "summary": "Participio absoluto, nominalización, adjetivos y adverbios cultos (otrora, coetáneo, sendos, susodicho) y la sintaxis del texto histórico académico.",
     "duration": "9 min",
     "sections": [
@@ -18791,7 +18791,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-9",
     "level": "C2",
     "number": 98,
-    "title": "Narrativa histórica C2: léxico de los procesos históricos, Part 9 of 10",
+    "title": "Narrativa histórica: léxico de los procesos históricos, Part 9 of 10",
     "summary": "Vocabulario preciso para narrar cambios y conflictos: hito, punto de inflexión, parteaguas, coyuntura, detonante, pronunciamiento, asonada, motín, efeméride, pervivencia, fuente primaria y secundaria.",
     "duration": "9 min",
     "sections": [
@@ -18984,7 +18984,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "historical-narrative-10",
     "level": "C2",
     "number": 99,
-    "title": "Narrativa histórica C2: periodizar la historia, Part 10 of 10",
+    "title": "Narrativa histórica: periodizar la historia, Part 10 of 10",
     "summary": "Nombres de periodos en España y América (Antiguo Régimen, Siglo de Oro, época virreinal, la Colonia, Restauración, Transición, entreguerras), prefijos de periodización y por qué los nombres de las épocas no son neutrales.",
     "duration": "9 min",
     "sections": [
@@ -25942,7 +25942,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "modismos-expresiones-idiomaticas-drill-1",
     "level": "C2",
     "number": 121,
-    "title": "Modismos C2: significado exacto y restricciones, Part 1 of 3",
+    "title": "Modismos: significado exacto y restricciones, Part 1 of 3",
     "summary": "Locuciones de uso culto que un hablante nativo emplea sin pensar: qué significan con exactitud, qué exigen (una negación, un clítico fijo) y dónde se usan.",
     "duration": "9 min",
     "sections": [
@@ -26238,7 +26238,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "modismos-expresiones-idiomaticas-drill-2",
     "level": "C2",
     "number": 122,
-    "title": "Modismos C2: el mapa regional, Part 2 of 3",
+    "title": "Modismos: el mapa regional, Part 2 of 3",
     "summary": "El mismo concepto, distintos modismos según el país: qué es panhispánico, qué es de España, de México, del Río de la Plata o de Colombia, y cómo no quedar como un extranjero.",
     "duration": "9 min",
     "sections": [
@@ -26266,7 +26266,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Un concepto, cinco países",
         "body": [
           "Faltar a clase sin permiso tiene nombre propio en cada país: «hacer novillos» o «hacer pellas» (España), «irse de pinta» (México), «hacerse la rata» (Argentina, Uruguay), «capar clase» (Colombia), «hacer la cimarra» (Chile). La forma neutra, válida en todas partes, es «faltar a clase» o «saltarse las clases».",
-          "Un hablante C2 no necesita usar todas, pero sí reconocerlas y evitar las de otro país cuando habla con alguien de allí, porque suenan impostadas."
+          "Un hablante de nivel Professional & Academic no necesita usar todas, pero sí reconocerlas y evitar las de otro país cuando habla con alguien de allí, porque suenan impostadas."
         ],
         "examples": [
           {
@@ -26498,7 +26498,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "modismos-expresiones-idiomaticas-drill-3",
     "level": "C2",
     "number": 123,
-    "title": "Modismos C2: prensa, juego y registro, Part 3 of 3",
+    "title": "Modismos: prensa, juego y registro, Part 3 of 3",
     "summary": "Cómo usa la prensa los modismos en titulares, cómo los deforma con ironía y cómo sustituirlos por un equivalente formal cuando el registro lo exige.",
     "duration": "9 min",
     "sections": [
@@ -26754,7 +26754,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "refranes-dichos-populares-drill-1",
     "level": "C2",
     "number": 124,
-    "title": "Refranes C2: el refrán a medias, Part 1 of 3",
+    "title": "Refranes: el refrán a medias, Part 1 of 3",
     "summary": "Los nativos suelen citar solo la primera mitad del refrán y dar por sabida la segunda. Aprende a completarlos, a entender lo que se calla y a citarlos con las fórmulas de introducción habituales.",
     "duration": "9 min",
     "sections": [
@@ -26990,7 +26990,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "refranes-dichos-populares-drill-2",
     "level": "C2",
     "number": 125,
-    "title": "Refranes C2: la gramática antigua del refranero, Part 2 of 3",
+    "title": "Refranes: la gramática antigua del refranero, Part 2 of 3",
     "summary": "Futuro de subjuntivo, «do» por «donde», verbos elididos, «quien» sin antecedente: la gramática arcaica que conservan los refranes y cómo reconocerla.",
     "duration": "9 min",
     "sections": [
@@ -27225,7 +27225,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "refranes-dichos-populares-drill-3",
     "level": "C2",
     "number": 126,
-    "title": "Refranes C2: variación regional y uso irónico, Part 3 of 3",
+    "title": "Refranes: variación regional y uso irónico, Part 3 of 3",
     "summary": "Refranes de América y de España, variantes del mismo refrán según el país, y cómo se usa hoy el refranero con ironía o para desmontarlo.",
     "duration": "9 min",
     "sections": [
@@ -27443,7 +27443,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "espanol-juridico-administrativo-drill-1",
     "level": "C2",
     "number": 127,
-    "title": "Español jurídico C2: latinismos y fórmulas del foro, Part 1 of 3",
+    "title": "Español jurídico: latinismos y fórmulas del foro, Part 1 of 3",
     "summary": "Los latinismos que siguen vivos en sentencias y escritos (in dubio pro reo, iuris tantum, a quo, sub iudice…), las fórmulas procesales fijas y las diferencias de terminología entre España y América.",
     "duration": "9 min",
     "sections": [
@@ -27724,7 +27724,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "espanol-juridico-administrativo-drill-2",
     "level": "C2",
     "number": 128,
-    "title": "Español jurídico C2: anáfora, sendos y futuro de subjuntivo, Part 2 of 3",
+    "title": "Español jurídico: anáfora, sendos y futuro de subjuntivo, Part 2 of 3",
     "summary": "La gramática propia del texto legal: anáforas (dicho, el mismo, el citado, susodicho), «sendos», «a la sazón», el futuro de subjuntivo en las normas y la distinción entre «cabe», «procede» y «ha lugar».",
     "duration": "9 min",
     "sections": [
@@ -27989,7 +27989,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "espanol-juridico-administrativo-drill-3",
     "level": "C2",
     "number": 129,
-    "title": "Español jurídico C2: cláusulas contractuales, Part 3 of 3",
+    "title": "Español jurídico: cláusulas contractuales, Part 3 of 3",
     "summary": "Leer y redactar cláusulas: salvo pacto en contrario, sin perjuicio de, fuerza mayor frente a caso fortuito, cláusula penal y resolutoria, y la fórmula final de firma.",
     "duration": "9 min",
     "sections": [
@@ -28215,7 +28215,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "espanol-medico-drill-1",
     "level": "C2",
     "number": 130,
-    "title": "Español médico C2: el término clínico y el de la calle, Part 1 of 3",
+    "title": "Español médico: el término clínico y el de la calle, Part 1 of 3",
     "summary": "Pasar con soltura del registro del paciente al del informe clínico (cefalea, disnea, astenia, prurito, síncope), evitar los falsos amigos que confunden a médicos bilingües y conocer las variantes regionales del vocabulario sanitario.",
     "duration": "9 min",
     "sections": [
@@ -28242,7 +28242,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Dos registros para un mismo síntoma",
         "body": [
-          "El paciente dice «me duele la cabeza», «me ahogo», «estoy muy cansado», «me pica todo», «me mareé y me caí»; el médico escribe «cefalea», «disnea», «astenia», «prurito», «síncope». Un profesional C2 domina las dos columnas y sabe traducir en ambas direcciones: al informe y de vuelta al paciente.",
+          "El paciente dice «me duele la cabeza», «me ahogo», «estoy muy cansado», «me pica todo», «me mareé y me caí»; el médico escribe «cefalea», «disnea», «astenia», «prurito», «síncope». Un profesional de nivel Professional & Academic domina las dos columnas y sabe traducir en ambas direcciones: al informe y de vuelta al paciente.",
           "Hay matices que no conviene borrar: «mareo» es vago (puede ser «vértigo», sensación de giro, o «presíncope», sensación de desvanecimiento); «lipotimia» es un desmayo breve de origen vasovagal; «síncope» es la pérdida transitoria de conciencia con recuperación espontánea."
         ],
         "examples": [
@@ -28505,7 +28505,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "espanol-medico-drill-2",
     "level": "C2",
     "number": 131,
-    "title": "Español médico C2: el informe clínico, Part 2 of 3",
+    "title": "Español médico: el informe clínico, Part 2 of 3",
     "summary": "La sintaxis del informe: estilo nominal, verbos de registro (refiere, niega, se objetiva, se pauta), abreviaturas y la estructura anamnesis, exploración, juicio clínico y plan.",
     "duration": "9 min",
     "sections": [
@@ -28769,7 +28769,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "espanol-medico-drill-3",
     "level": "C2",
     "number": 132,
-    "title": "Español médico C2: informar, consentir y dar malas noticias, Part 3 of 3",
+    "title": "Español médico: informar, consentir y dar malas noticias, Part 3 of 3",
     "summary": "El lenguaje del consentimiento informado, cómo atenuar sin mentir al comunicar un diagnóstico grave y la diferencia entre el registro del profesional y el del familiar.",
     "duration": "9 min",
     "sections": [
@@ -28978,7 +28978,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "metaforas-eufemismos-lenguaje-figurado-drill-1",
     "level": "C2",
     "number": 133,
-    "title": "Lenguaje figurado C2: figuras de la tradición literaria, Part 1 of 3",
+    "title": "Lenguaje figurado: figuras de la tradición literaria, Part 1 of 3",
     "summary": "Oxímoron, paradoja, sinestesia, hipálage y quiasmo: reconocerlas en versos clásicos y en la prosa actual, y distinguir las que se confunden.",
     "duration": "9 min",
     "sections": [
@@ -29196,14 +29196,14 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "metaforas-eufemismos-lenguaje-figurado-drill-2",
     "level": "C2",
     "number": 134,
-    "title": "Lenguaje figurado C2: el eufemismo institucional, Part 2 of 3",
+    "title": "Lenguaje figurado: el eufemismo institucional, Part 2 of 3",
     "summary": "Cómo disfrazan la realidad los gobiernos y las empresas (crecimiento negativo, ajuste de plantilla, daños colaterales, actualización de tarifas) y las metáforas del discurso político.",
     "duration": "9 min",
     "sections": [
       {
         "heading": "Recuerda la regla: descodificar el eufemismo",
         "body": [
-          "Recuerda la regla: el eufemismo institucional cambia la palabra incómoda por una técnica o neutra («ajuste de plantilla» = despidos, «actualización de tarifas» = subida), y la metáfora política convierte una imagen en fórmula («líneas rojas», «tender puentes»). Leer en C2 es descodificar las dos cosas; redactar en C2 es decidir cuándo hay que nombrar los hechos sin rodeos."
+          "Recuerda la regla: el eufemismo institucional cambia la palabra incómoda por una técnica o neutra («ajuste de plantilla» = despidos, «actualización de tarifas» = subida), y la metáfora política convierte una imagen en fórmula («líneas rojas», «tender puentes»). Leer en el nivel Professional & Academic es descodificar las dos cosas; redactar en el nivel Professional & Academic es decidir cuándo hay que nombrar los hechos sin rodeos."
         ],
         "checkpoint": [
           {
@@ -29224,7 +29224,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Decir sin decir",
         "body": [
           "El eufemismo institucional sustituye la palabra incómoda por una técnica o neutra: «crecimiento negativo» (decrecimiento, recesión), «desaceleración» (el crecimiento baja, pero aún no hay caída), «ajuste» o «reestructuración de plantilla» (despidos), «actualización de tarifas» o «reajuste de precios» (subida), «daños colaterales» (víctimas civiles), «flexibilización del mercado laboral» (menos protección para el trabajador).",
-          "Un lector C2 descodifica el eufemismo y un redactor C2 decide cuándo usarlo y cuándo exige la claridad nombrar las cosas."
+          "Un lector de nivel Professional & Academic descodifica el eufemismo y un redactor de nivel Professional & Academic decide cuándo usarlo y cuándo exige la claridad nombrar las cosas."
         ],
         "examples": [
           {
@@ -29417,7 +29417,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "despidos."
         ],
         "translation": "Behind the euphemism of restructuring lie four hundred layoffs.",
-        "explanation": "El lector C2 descodifica el eufemismo empresarial."
+        "explanation": "El lector de nivel Professional & Academic descodifica el eufemismo empresarial."
       },
       {
         "type": "translate",
@@ -29449,7 +29449,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "metaforas-eufemismos-lenguaje-figurado-drill-3",
     "level": "C2",
     "number": 135,
-    "title": "Lenguaje figurado C2: ironía, litote y sus marcas, Part 3 of 3",
+    "title": "Lenguaje figurado: ironía, litote y sus marcas, Part 3 of 3",
     "summary": "Las marcas gramaticales de la ironía en español (valiente, dichoso, menudo, que digamos, precisamente) y la litote como atenuación culta.",
     "duration": "9 min",
     "sections": [
@@ -29681,7 +29681,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "registro-argumentacion-debate-negociacion-drill-1",
     "level": "C2",
     "number": 136,
-    "title": "Argumentación C2: conectores cultos de matiz fino, Part 1 of 3",
+    "title": "Argumentación: conectores cultos de matiz fino, Part 1 of 3",
     "summary": "Más allá de «sin embargo» y «no obstante»: antes bien, con todo, a mayor abundamiento, máxime cuando, no ser óbice, habida cuenta de, so pena de, amén de, a lo sumo y cuando menos.",
     "duration": "9 min",
     "sections": [
@@ -29924,7 +29924,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "registro-argumentacion-debate-negociacion-drill-2",
     "level": "C2",
     "number": 137,
-    "title": "Argumentación C2: el modo verbal que argumenta, Part 2 of 3",
+    "title": "Argumentación: el modo verbal que argumenta, Part 2 of 3",
     "summary": "Cómo el indicativo y el subjuntivo cambian el argumento: el hecho de que, no porque… sino porque, no es que, aunque polémico, por más que y que yo sepa.",
     "duration": "9 min",
     "sections": [
@@ -30173,7 +30173,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "registro-argumentacion-debate-negociacion-drill-3",
     "level": "C2",
     "number": 138,
-    "title": "Argumentación C2: cabe, conviene, procede y la discrepancia cortés, Part 3 of 3",
+    "title": "Argumentación: cabe, conviene, procede y la discrepancia cortés, Part 3 of 3",
     "summary": "Verbos impersonales que no son sinónimos (cabe, conviene, procede, es preciso, huelga), el estilo nominal que despersonaliza el argumento y las fórmulas para discrepar con cortesía.",
     "duration": "9 min",
     "sections": [
@@ -30392,7 +30392,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "negocios-economia-drill-1",
     "level": "C2",
     "number": 139,
-    "title": "Negocios C2: leer una cuenta de resultados, Part 1 of 3",
+    "title": "Negocios: leer una cuenta de resultados, Part 1 of 3",
     "summary": "El vocabulario técnico de los estados financieros: cifra de negocio, resultado bruto de explotación (ebitda), resultado neto, amortización, deterioro, provisiones, apalancamiento y fondo de comercio, con sus distinciones exactas.",
     "duration": "9 min",
     "sections": [
@@ -30652,7 +30652,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "negocios-economia-drill-2",
     "level": "C2",
     "number": 140,
-    "title": "Negocios C2: colocaciones y variación regional, Part 2 of 3",
+    "title": "Negocios: colocaciones y variación regional, Part 2 of 3",
     "summary": "Las colocaciones que distinguen al profesional (cerrar un ejercicio, cotizar al alza, incurrir en pérdidas, saldar una deuda) y las diferencias de vocabulario empresarial entre España y América.",
     "duration": "9 min",
     "sections": [
@@ -30933,7 +30933,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "negocios-economia-drill-3",
     "level": "C2",
     "number": 141,
-    "title": "Negocios C2: el informe y el correo profesional, Part 3 of 3",
+    "title": "Negocios: el informe y el correo profesional, Part 3 of 3",
     "summary": "Estilo nominal del informe económico, atenuación en la comunicación interna, fórmulas de correspondencia que ya suenan anticuadas y cómo sustituirlas.",
     "duration": "9 min",
     "sections": [
@@ -30961,7 +30961,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Del verbo al sustantivo",
         "body": [
           "El informe económico prefiere el estilo nominal: «Hemos decidido cerrar dos plantas porque bajó la demanda» → «El cierre de dos plantas responde a la caída de la demanda». Verbos de apoyo precisos sustituyen a «hacer» y «tener»: «llevar a cabo una auditoría», «acometer una reestructuración», «efectuar un pago», «registrar un crecimiento», «experimentar una caída».",
-          "El abuso del estilo nominal oscurece el texto; un redactor C2 lo usa en informes y lo evita en correos a clientes."
+          "El abuso del estilo nominal oscurece el texto; un redactor de nivel Professional & Academic lo usa en informes y lo evita en correos a clientes."
         ],
         "examples": [
           {
@@ -31149,7 +31149,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-1",
     "level": "C2",
     "number": 142,
-    "title": "Vocabulario C2: verbos precisos en lugar de «hacer», Part 1 of 30",
+    "title": "Vocabulario: verbos precisos en lugar de «hacer», Part 1 of 30",
     "summary": "«Hacer» sirve para todo y por eso no dice nada: acometer, efectuar, perpetrar, entablar, infligir, surtir efecto y otros verbos que un texto culto prefiere.",
     "duration": "10 min",
     "sections": [
@@ -31471,7 +31471,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-2",
     "level": "C2",
     "number": 143,
-    "title": "Vocabulario C2: verbos precisos en lugar de «decir», Part 2 of 30",
+    "title": "Vocabulario: verbos precisos en lugar de «decir», Part 2 of 30",
     "summary": "Aducir, alegar, esgrimir, apostillar, espetar, farfullar, recalcar, aseverar: el verbo de habla también informa de cómo se dice y con qué intención.",
     "duration": "10 min",
     "sections": [
@@ -31782,7 +31782,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-3",
     "level": "C2",
     "number": 144,
-    "title": "Vocabulario C2: verbos precisos en lugar de «dar», «tener» y «poner», Part 3 of 30",
+    "title": "Vocabulario Professional & Academic: verbos precisos en lugar de «dar», «tener» y «poner», Part 3 of 30",
     "summary": "Conferir, otorgar, suscitar, deparar, granjearse, albergar, ostentar, adolecer de, entrañar: verbos que sustituyen a los comodines y precisan la relación.",
     "duration": "10 min",
     "sections": [
@@ -32141,7 +32141,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-4",
     "level": "C2",
     "number": 145,
-    "title": "Vocabulario C2: verbos de la argumentación y la decisión, Part 4 of 30",
+    "title": "Vocabulario: verbos de la argumentación y la decisión, Part 4 of 30",
     "summary": "Soslayar, dirimir, zanjar, refrendar, avalar, desmentir, refutar, colegir, dilucidar, supeditar: verbos para discutir, resolver y razonar con precisión.",
     "duration": "10 min",
     "sections": [
@@ -32505,7 +32505,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-5",
     "level": "C2",
     "number": 146,
-    "title": "Vocabulario C2: verbos de cambio: paliar, mermar, socavar, Part 5 of 30",
+    "title": "Vocabulario: verbos de cambio: paliar, mermar, socavar, Part 5 of 30",
     "summary": "Paliar, mitigar, subsanar, menoscabar, socavar, mermar, acrecentar, afianzar, desvirtuar, redundar en: cómo crece, se debilita o se corrige algo.",
     "duration": "10 min",
     "sections": [
@@ -32853,7 +32853,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-6",
     "level": "C2",
     "number": 147,
-    "title": "Vocabulario C2: adjetivos de carácter, Part 6 of 30",
+    "title": "Vocabulario: adjetivos de carácter, Part 6 of 30",
     "summary": "Pusilánime, taimado, displicente, circunspecto, ecuánime, pertinaz, díscolo, adusto, campechano, zalamero, mezquino, magnánimo: retratar a una persona con precisión.",
     "duration": "10 min",
     "sections": [
@@ -33192,7 +33192,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-7",
     "level": "C2",
     "number": 148,
-    "title": "Vocabulario C2: adjetivos valorativos cultos, Part 7 of 30",
+    "title": "Vocabulario: adjetivos valorativos cultos, Part 7 of 30",
     "summary": "Baladí, perentorio, fehaciente, somero, ingente, exiguo, nimio, acérrimo, fútil, espurio, prolijo, sucinto, flagrante: valorar con precisión en registro culto.",
     "duration": "10 min",
     "sections": [
@@ -33510,7 +33510,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-8",
     "level": "C2",
     "number": 149,
-    "title": "Vocabulario C2: sustantivos abstractos precisos, Part 8 of 30",
+    "title": "Vocabulario: sustantivos abstractos precisos, Part 8 of 30",
     "summary": "Desidia, entereza, contumacia, desasosiego, resquemor, inquina, ahínco, templanza, acritud, hastío, probidad: nombrar actitudes y estados con exactitud.",
     "duration": "10 min",
     "sections": [
@@ -33830,7 +33830,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-9",
     "level": "C2",
     "number": 150,
-    "title": "Vocabulario C2: falsos amigos de nivel avanzado (I), Part 9 of 30",
+    "title": "Vocabulario: falsos amigos de nivel avanzado (I), Part 9 of 30",
     "summary": "Ignorar, aplicar, asumir, realizar, soportar, evidencia, argumento, audiencia, agenda, comprensivo, educado, consistente, injuria, compromiso: palabras que se parecen al inglés y engañan incluso a hablantes avanzados.",
     "duration": "10 min",
     "sections": [
@@ -34188,7 +34188,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-10",
     "level": "C2",
     "number": 151,
-    "title": "Vocabulario C2: falsos amigos de nivel avanzado (II) y calcos, Part 10 of 30",
+    "title": "Vocabulario: falsos amigos de nivel avanzado (II) y calcos, Part 10 of 30",
     "summary": "Pretender, suceso, honesto, introducir, casual, rudo, desgracia, efectivo, recordar, molestar y los calcos «en base a», «a nivel de», «jugar un rol»: evitar lo que delata la traducción.",
     "duration": "10 min",
     "sections": [
@@ -34569,7 +34569,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-11",
     "level": "C2",
     "number": 152,
-    "title": "Vocabulario C2: latinismos del español culto, Part 11 of 30",
+    "title": "Vocabulario: latinismos del español culto, Part 11 of 30",
     "summary": "Sine qua non, ipso facto, grosso modo, statu quo, in extremis, motu proprio, a posteriori, ad hoc, lapsus, cuórum: latinismos vivos, su forma correcta y los errores más frecuentes.",
     "duration": "10 min",
     "sections": [
@@ -34901,7 +34901,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-12",
     "level": "C2",
     "number": 153,
-    "title": "Vocabulario C2: helenismos y cultismos, Part 12 of 30",
+    "title": "Vocabulario: helenismos y cultismos, Part 12 of 30",
     "summary": "Panacea, paradigma, dicotomía, idiosincrasia, epítome, paroxismo, hecatombe, catarsis, apología, diatriba, neófito, acólito: palabras cultas de origen griego que aparecen en la prensa y el ensayo.",
     "duration": "10 min",
     "sections": [
@@ -35260,7 +35260,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-13",
     "level": "C2",
     "number": 154,
-    "title": "Vocabulario C2: locuciones cultas, Part 13 of 30",
+    "title": "Vocabulario: locuciones cultas, Part 13 of 30",
     "summary": "En aras de, en pos de, a ultranza, de soslayo, a sabiendas, a mansalva, a hurtadillas, de consuno, a la zaga, a destajo: locuciones que dan precisión y registro culto.",
     "duration": "10 min",
     "sections": [
@@ -35620,7 +35620,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-14",
     "level": "C2",
     "number": 155,
-    "title": "Vocabulario C2: colocaciones verbo + sustantivo, Part 14 of 30",
+    "title": "Vocabulario: colocaciones verbo + sustantivo, Part 14 of 30",
     "summary": "Albergar esperanzas, abrigar dudas, cosechar éxitos, sembrar la discordia, tender una trampa, acatar una orden, entablar conversación, conciliar el sueño, aunar esfuerzos: el verbo que un nativo elige sin pensar.",
     "duration": "10 min",
     "sections": [
@@ -35984,7 +35984,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-15",
     "level": "C2",
     "number": 156,
-    "title": "Vocabulario C2: adjetivos que intensifican, Part 15 of 30",
+    "title": "Vocabulario: adjetivos que intensifican, Part 15 of 30",
     "summary": "Error garrafal, ignorancia supina, silencio sepulcral, pobre de solemnidad, fracaso rotundo, fe ciega, rechazo visceral, informe demoledor, esfuerzo denodado, lluvia torrencial, batalla encarnizada: las colocaciones intensivas que suenan nativas.",
     "duration": "10 min",
     "sections": [
@@ -36313,7 +36313,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-16",
     "level": "C2",
     "number": 157,
-    "title": "Vocabulario C2: parónimos traicioneros, Part 16 of 30",
+    "title": "Vocabulario: parónimos traicioneros, Part 16 of 30",
     "summary": "Infligir e infringir, prever y proveer, bienal y bianual, inerme e inerte, ingerir e injerir, perjuicio y prejuicio, desbastar y devastar: parejas que confunden incluso a los nativos.",
     "duration": "10 min",
     "sections": [
@@ -36663,7 +36663,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-17",
     "level": "C2",
     "number": 158,
-    "title": "Vocabulario C2: léxico de la política, Part 17 of 30",
+    "title": "Vocabulario: léxico de la política, Part 17 of 30",
     "summary": "Clientelismo, caciquismo, prevaricación, cohecho, tráfico de influencias, malversación, moción de censura, cuestión de confianza, transfuguismo, investidura, puertas giratorias: el vocabulario de la prensa política.",
     "duration": "10 min",
     "sections": [
@@ -36998,7 +36998,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-18",
     "level": "C2",
     "number": 159,
-    "title": "Vocabulario C2: léxico económico fino, Part 18 of 30",
+    "title": "Vocabulario: léxico económico fino, Part 18 of 30",
     "summary": "Deflación, estanflación, prima de riesgo, repunte, burbuja, rescate, quita, morosidad, liquidez, solvencia, arancel, economía sumergida: el vocabulario de las noticias económicas.",
     "duration": "10 min",
     "sections": [
@@ -37351,7 +37351,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-19",
     "level": "C2",
     "number": 160,
-    "title": "Vocabulario C2: el método científico, Part 19 of 30",
+    "title": "Vocabulario: el método científico, Part 19 of 30",
     "summary": "Sesgo, muestra, correlación, causalidad, grupo de control, replicabilidad, placebo, ensayo clínico, margen de error, significación estadística, revisión por pares, extrapolar: leer y discutir ciencia con precisión.",
     "duration": "10 min",
     "sections": [
@@ -37704,7 +37704,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-20",
     "level": "C2",
     "number": 161,
-    "title": "Vocabulario C2: derecho civil cotidiano, Part 20 of 30",
+    "title": "Vocabulario: derecho civil cotidiano, Part 20 of 30",
     "summary": "Albacea, usufructo, nuda propiedad, herencia yacente, servidumbre de paso, embargo, desahucio, prescripción, caducidad, allanamiento de morada: el derecho que aparece en herencias, alquileres y noticias.",
     "duration": "10 min",
     "sections": [
@@ -38061,7 +38061,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-21",
     "level": "C2",
     "number": 162,
-    "title": "Vocabulario C2: medicina en la prensa, Part 21 of 30",
+    "title": "Vocabulario: medicina en la prensa, Part 21 of 30",
     "summary": "Etiología, pronóstico, comorbilidad, secuela, remisión, recidiva, profilaxis, iatrogenia, asintomático, agudo y crónico, benigno y maligno: entender la información sanitaria de los medios.",
     "duration": "10 min",
     "sections": [
@@ -38450,7 +38450,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-22",
     "level": "C2",
     "number": 163,
-    "title": "Vocabulario C2: emociones matizadas, Part 22 of 30",
+    "title": "Vocabulario: emociones matizadas, Part 22 of 30",
     "summary": "Desazón, congoja, abatimiento, morriña, desencanto, aprensión, añoranza, desolación, exaltación, sobresalto, vergüenza ajena: nombrar emociones con precisión.",
     "duration": "10 min",
     "sections": [
@@ -38841,7 +38841,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-23",
     "level": "C2",
     "number": 164,
-    "title": "Vocabulario C2: describir personas y paisajes, Part 23 of 30",
+    "title": "Vocabulario: describir personas y paisajes, Part 23 of 30",
     "summary": "Macilento, enjuto, fornido, cetrino, lozano, ajado, mustio, umbrío, frondoso, yermo, agreste, lóbrego, diáfano: adjetivos de la descripción literaria.",
     "duration": "10 min",
     "sections": [
@@ -39204,7 +39204,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-24",
     "level": "C2",
     "number": 165,
-    "title": "Vocabulario C2: verbos de sonido y de luz, Part 24 of 30",
+    "title": "Vocabulario: verbos de sonido y de luz, Part 24 of 30",
     "summary": "Crepitar, chirriar, retumbar, bisbisear, rechinar, tintinear, zumbar, fulgurar, centellear, titilar, refulgir, parpadear, resplandecer, tamizar: el verbo exacto para lo que se oye y para la luz.",
     "duration": "10 min",
     "sections": [
@@ -39553,7 +39553,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-25",
     "level": "C2",
     "number": 166,
-    "title": "Vocabulario C2: movimiento y gesto, Part 25 of 30",
+    "title": "Vocabulario: movimiento y gesto, Part 25 of 30",
     "summary": "Deambular, merodear, pulular, escabullirse, agazaparse, encaramarse, trastabillar, repantigarse, desperezarse, enarcar las cejas, encogerse de hombros: narrar el movimiento con precisión.",
     "duration": "10 min",
     "sections": [
@@ -39912,7 +39912,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-26",
     "level": "C2",
     "number": 167,
-    "title": "Vocabulario C2: verbos pronominales con régimen, Part 26 of 30",
+    "title": "Vocabulario: verbos pronominales con régimen, Part 26 of 30",
     "summary": "Jactarse de, arrogarse, percatarse de, cerciorarse de, inmiscuirse en, obstinarse en, desentenderse de, congraciarse con, avenirse a, atenerse a, dignarse: verbos cultos con su preposición exacta.",
     "duration": "10 min",
     "sections": [
@@ -40310,7 +40310,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-27",
     "level": "C2",
     "number": 168,
-    "title": "Vocabulario C2: el mismo concepto en tres registros y cinco países, Part 27 of 30",
+    "title": "Vocabulario Professional & Academic: el mismo concepto en tres registros y cinco países, Part 27 of 30",
     "summary": "Currar, laburar, chambear; la pasta, la plata, la lana; guay, chévere, chido, bacán; mogollón: reconocer las palabras coloquiales de cada zona y saber qué significan en español neutro.",
     "duration": "10 min",
     "sections": [
@@ -40426,7 +40426,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Valorar y cuantificar",
         "body": [
-          "Adjetivos y cuantificadores coloquiales que un hablante C2 reconoce aunque no los use.",
+          "Adjetivos y cuantificadores coloquiales que un hablante de nivel Professional & Academic reconoce aunque no los use.",
           "«guay»: estupendo (coloquial, España).",
           "«chévere»: estupendo (coloquial, Venezuela, Colombia, Caribe).",
           "«chido»: estupendo (coloquial, México).",
@@ -40702,7 +40702,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-28",
     "level": "C2",
     "number": 169,
-    "title": "Vocabulario C2: el léxico del titular, Part 28 of 30",
+    "title": "Vocabulario: el léxico del titular, Part 28 of 30",
     "summary": "Varapalo, revés, espaldarazo, órdago, pulso, guiño, desplante, mazazo, debacle, desaire, rifirrafe, batacazo: sustantivos expresivos de la prensa y los verbos que los acompañan (dar un varapalo, sufrir un revés, lanzar un órdago, mantener un pulso).",
     "duration": "10 min",
     "sections": [
@@ -41093,7 +41093,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-29",
     "level": "C2",
     "number": 170,
-    "title": "Vocabulario C2: crítica literaria y artística, Part 29 of 30",
+    "title": "Vocabulario: crítica literaria y artística, Part 29 of 30",
     "summary": "Verosimilitud, hipérbaton, écfrasis, leitmotiv, pastiche, epígono, polifonía, esperpento, tremendismo, costumbrismo, metaficción, manido: el léxico de la reseña y el comentario de texto, y cómo descifrarlo por sus piezas (meta-, poli-, -ismo → -ista).",
     "duration": "10 min",
     "sections": [
@@ -41461,7 +41461,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-vocabulary-practice-30",
     "level": "C2",
     "number": 171,
-    "title": "Vocabulario C2: filosofía y pensamiento, Part 30 of 30",
+    "title": "Vocabulario: filosofía y pensamiento, Part 30 of 30",
     "summary": "Ontología, epistemología, teleología, aporía, solipsismo, dialéctica, relativismo, nihilismo, sofisma, tautología, falacia ad hominem, apriorístico: conceptos para leer ensayo y debatir ideas, con los sufijos -logía (estudio) e -ismo (doctrina) como pista.",
     "duration": "10 min",
     "sections": [
@@ -41824,14 +41824,14 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-comprehensive-review-1",
     "level": "C2",
     "number": 172,
-    "title": "C1/C2 Comprehensive Review, Part 1 of 3",
-    "summary": "Repasarás los grandes temas gramaticales de C1/C2 (subjuntivo, concesivas, nominalización, gerundio, pasiva y se impersonal, estilo indirecto libre, por/para, ser/estar) y los pondrás a prueba en ejercicios.",
+    "title": "Mastery & Professional Comprehensive Review, Part 1 of 3",
+    "summary": "Repasarás los grandes temas gramaticales del nivel Mastery & Professional (subjuntivo, concesivas, nominalización, gerundio, pasiva y se impersonal, estilo indirecto libre, por/para, ser/estar) y los pondrás a prueba en ejercicios.",
     "duration": "10 min",
     "sections": [
       {
         "heading": "Subjuntivo: repaso y matices avanzados",
         "body": [
-          "El subjuntivo expresa antecedentes inciertos, deseos, dudas y emociones. En C1/C2, la elección entre presente, imperfecto, perfecto y pluscuamperfecto de subjuntivo depende de la relación temporal con el verbo principal y del grado de certeza que se quiera transmitir."
+          "El subjuntivo expresa antecedentes inciertos, deseos, dudas y emociones. En el nivel Mastery & Professional, la elección entre presente, imperfecto, perfecto y pluscuamperfecto de subjuntivo depende de la relación temporal con el verbo principal y del grado de certeza que se quiera transmitir."
         ]
       },
       {
@@ -42003,8 +42003,8 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-comprehensive-review-2",
     "level": "C2",
     "number": 173,
-    "title": "C1/C2 Comprehensive Review, Part 2 of 3",
-    "summary": "Repasarás la variación regional (voseo, léxico), los registros (correspondencia, académico, jurídico, médico) y el lenguaje figurado y expresivo de C1/C2.",
+    "title": "Mastery & Professional Comprehensive Review, Part 2 of 3",
+    "summary": "Repasarás la variación regional (voseo, léxico), los registros (correspondencia, académico, jurídico, médico) y el lenguaje figurado y expresivo del nivel Mastery & Professional.",
     "duration": "10 min",
     "sections": [
       {
@@ -42212,8 +42212,8 @@ const C2_BASE_LESSONS: Lesson[] = [
     "slug": "c1c2-comprehensive-review-3",
     "level": "C2",
     "number": 174,
-    "title": "C1/C2 Comprehensive Review, Part 3 of 3",
-    "summary": "Repasarás el español profesional y temático de C1/C2: negocios, debate, negociación, citas, narrativa histórica, ciencia, filosofía, crítica y escritura creativa.",
+    "title": "Mastery & Professional Comprehensive Review, Part 3 of 3",
+    "summary": "Repasarás el español profesional y temático del nivel Mastery & Professional: negocios, debate, negociación, citas, narrativa histórica, ciencia, filosofía, crítica y escritura creativa.",
     "duration": "10 min",
     "sections": [
       {

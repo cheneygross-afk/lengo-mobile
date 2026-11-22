@@ -591,7 +591,7 @@ export const KO_B2_U12_EXTRA: Lesson[] = [
         source: "I asked where the toilet was, and he answered something completely different.",
         answer: "화장실이 어디냐고 물었는데 동문서답을 했어요.",
         altAnswers: ["화장실이 어디냐고 물어봤는데 동문서답을 했어요.", "화장실이 어디냐고 물었는데 동문서답했어요.", "화장실이 어디냐고 물어봤는데 동문서답했어요.", "화장실이 어디냐고 물었는데 엉뚱한 대답을 했어요.", "화장실이 어디 있냐고 물었는데 동문서답을 했어요."],
-        explanation: "Reported question -냐고 묻다 (B1), then 동문서답을 하다.",
+        explanation: "Reported question -냐고 묻다 (Intermediate), then 동문서답을 하다.",
       },
       {
         type: "translate",

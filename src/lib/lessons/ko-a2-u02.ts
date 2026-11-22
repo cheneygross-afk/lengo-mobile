@@ -130,7 +130,7 @@ export const KO_A2_U02: Lesson[] = [
       {
         heading: "Sound focus: ㅎ goes silent at normal speed",
         body: [
-          "You met this in A1: ㅎ after ㄴ ㄹ ㅁ ㅇ is very weak. In relaxed normal-speed speech, which is where 반말 lives, it disappears and the consonant before it links to the next vowel: 전화 [저놔], 은행 [으냉], 결혼 [겨론], 간호사 [가노사], 열심히 [열씨미].",
+          "You met this in the Beginner level: ㅎ after ㄴ ㄹ ㅁ ㅇ is very weak. In relaxed normal-speed speech, which is where 반말 lives, it disappears and the consonant before it links to the next vowel: 전화 [저놔], 은행 [으냉], 결혼 [겨론], 간호사 [가노사], 열심히 [열씨미].",
           "The spelling never changes, so when a friend says [저놔해] you write 전화해. Newsreaders keep a light ㅎ; friends don't.",
         ],
         examples: [
@@ -361,7 +361,7 @@ export const KO_A2_U02: Lesson[] = [
       {
         heading: "The future: 할 거야",
         body: [
-          "할 거예요 is 할 거 + 예요, so it follows the noun rule: 거 ends in a vowel, and 예요 becomes 야. 갈 거야, 먹을 거야, 만들 거야. Say 거 as [꺼], as in A1: [할 꺼야].",
+          "할 거예요 is 할 거 + 예요, so it follows the noun rule: 거 ends in a vowel, and 예요 becomes 야. 갈 거야, 먹을 거야, 만들 거야. Say 거 as [꺼], as in the Beginner level: [할 꺼야].",
           "A frequent slip is *할 거이야: 거 ends in a vowel, so only 야.",
         ],
         examples: [

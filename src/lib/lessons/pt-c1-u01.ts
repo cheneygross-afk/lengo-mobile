@@ -15,7 +15,7 @@ export const PT_C1_U01: Lesson[] = [
       {
         heading: "Asserting or not: descriptions",
         body: [
-          "The indicative asserts: the speaker vouches for what the clause says. The subjunctive withholds that commitment, because the content is wanted, doubted, unknown or simply not the point. You met the triggers at B1 (\"quero que\", \"duvido que\"). At C1 the interesting cases are the ones where both moods are grammatical and the choice itself is the message.",
+          "The indicative asserts: the speaker vouches for what the clause says. The subjunctive withholds that commitment, because the content is wanted, doubted, unknown or simply not the point. You met the triggers at the Intermediate level (\"quero que\", \"duvido que\"). At the Advanced level the interesting cases are the ones where both moods are grammatical and the choice itself is the message.",
           "Relative clauses show it most clearly. \"Procuro um livro que tem as respostas\" means such a book exists and you know it. \"Procuro um livro que tenha as respostas\" means any book will do, if one exists. English uses has in both, so English speakers default to the indicative and end up sounding as if they had a specific item in mind.",
           "The same test works for people and places: is there a real, identifiable referent, or only a profile? A job ad wants \"alguém que fale alemão\". The recruiter who has already found the candidate talks about \"uma moça que fala alemão\".",
         ],
@@ -299,7 +299,7 @@ export const PT_C1_U01: Lesson[] = [
         heading: "O único, o primeiro, nenhum",
         body: [
           "The same choice opens after words that single something out: \"o único\", \"o primeiro\", \"o último\". \"Ele é o único que sabe a senha\" reports a fact. \"Ele é o único que saiba a senha\" underlines the exclusivity, meaning as far as anyone can tell. Careful writing often chooses the subjunctive after \"o único que\" to sound measured, but the indicative is correct in any register.",
-          "With \"nenhum\", \"ninguém\" and \"nada\", the thing described doesn't exist. As you saw at B1, that means the subjunctive is expected even in conversation: \"não conheço ninguém que fale japonês\". You will hear the indicative here, but it sounds careless.",
+          "With \"nenhum\", \"ninguém\" and \"nada\", the thing described doesn't exist. As you saw at the Intermediate level, that means the subjunctive is expected even in conversation: \"não conheço ninguém que fale japonês\". You will hear the indicative here, but it sounds careless.",
           "After \"o primeiro\", \"o último\" and \"o único\", Portuguese often drops the clause and uses \"a\" + infinitive: \"foi a primeira mulher a presidir o tribunal\". This mirrors English 'the first woman to' and sidesteps the mood question. Don't use \"para\" or \"que\" + infinitive here.",
         ],
         examples: [
@@ -950,7 +950,7 @@ export const PT_C1_U01: Lesson[] = [
       {
         heading: "Tomara and oxalá: the tense tunes the hope",
         body: [
-          "You already know \"tomara que\" + present subjunctive for a hope about something still open: \"tomara que não chova\". At C1 the tense after it does the fine-tuning. The perfect subjunctive hopes about a past whose outcome you don't know: \"tomara que ela tenha passado\" (I hope she passed). The imperfect subjunctive turns a hope into a wish for something unlikely or unreal: \"tomara que fosse verdade\" (if only it were true).",
+          "You already know \"tomara que\" + present subjunctive for a hope about something still open: \"tomara que não chova\". At the Advanced level the tense after it does the fine-tuning. The perfect subjunctive hopes about a past whose outcome you don't know: \"tomara que ela tenha passado\" (I hope she passed). The imperfect subjunctive turns a hope into a wish for something unlikely or unreal: \"tomara que fosse verdade\" (if only it were true).",
           "On its own, \"Tomara!\" means I hope so, and \"Tomara que não!\" means I hope not. It is neutral to informal, at home in speech and messages.",
           "\"Oxalá\" comes from Arabic, roughly 'God willing', and means the same. In Brazil it sounds literary: you'll read it in columns and song lyrics far more than you'll hear it at the padaria. It usually takes no \"que\": \"oxalá ele tenha razão\". Capitalized, \"Oxalá\" is also an orixá of Candomblé.",
         ],
@@ -1539,7 +1539,7 @@ export const PT_C1_U01: Lesson[] = [
         body: [
           "Rafael gives way, but on his own terms. \"Seja como for\" (be that as it may) admits the debate is unresolved and moves on. It's the most useful phrase in any meeting that's running late. \"Seja lá quem for\" does the same for people: whoever it is.",
           "\"Quer... quer não\" sets both options aside: \"quer o cliente goste, quer não\" (whether the client likes it or not). \"Digam o que disserem\" (say what they will) admits that others will object and dismisses them in advance.",
-          "Polite disagreement still follows the B1 rule: \"não acho que\" takes the subjunctive.",
+          "Polite disagreement still follows the Intermediate rule: \"não acho que\" takes the subjunctive.",
         ],
         examples: [
           { es: "Seja como for, precisamos decidir isso hoje.", en: "Rafael: Be that as it may, we need to decide this today." },
@@ -2251,7 +2251,7 @@ export const PT_C1_U01: Lesson[] = [
     level: "PT-C1",
     number: 10,
     title: "Spiral Review: The Subjunctive in Depth",
-    summary: "Fresh practice that mixes every C1 use of the subjunctive: mood as meaning, superlatives and o único, fixed expressions, the reduplicated concessive and wishes.",
+    summary: "Fresh practice that mixes every Advanced use of the subjunctive: mood as meaning, superlatives and o único, fixed expressions, the reduplicated concessive and wishes.",
     duration: "15 min",
     kind: "review",
     format: "Spiral Review",

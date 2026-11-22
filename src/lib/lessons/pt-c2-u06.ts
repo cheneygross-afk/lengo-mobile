@@ -416,7 +416,7 @@ export const PT_C2_U06: Lesson[] = [
         body: [
           "Prolepsis states the opponent's objection before they can, then answers it. It makes you sound fair and takes their best line away from them. The standard openers are \"Alguns dirão que...\", \"Haverá quem diga que...\", \"Pode-se argumentar que...\" and, more conversationally, \"Eu sei o que vocês estão pensando\".",
           "Watch the moods. \"Alguns dirão que\" is a confident prediction, with the written future and the indicative after it. \"Haverá quem diga\" takes the subjunctive because those people are hypothetical. The rebuttal follows with \"mas\" or \"só que\", while \"não se trata de X, e sim de Y\" reframes the question altogether.",
-          "Concede something real before you rebut: \"É verdade que o projeto custa caro, mas...\". An objection built only to be knocked down, the \"espantalho\" you met at C1, makes a thoughtful audience suspicious.",
+          "Concede something real before you rebut: \"É verdade que o projeto custa caro, mas...\". An objection built only to be knocked down, the \"espantalho\" you met at the Advanced level, makes a thoughtful audience suspicious.",
         ],
         examples: [
           { es: "Alguns dirão que não há dinheiro para isso. Há, sim; falta prioridade.", en: "Some will say there's no money for this. There is; what's missing is priority." },
@@ -1135,7 +1135,7 @@ export const PT_C2_U06: Lesson[] = [
         heading: "The toast: one memory, one wish, one glass",
         body: [
           "A Brazilian toast lasts a minute or two. It says who you are to the person, gives one concrete memory and a wish, then raises the glass. Open with \"Gostaria de propor um brinde a...\", or \"Vamos fazer um brinde?\" among friends. Call everyone to drink with \"Saúde!\" or the playful \"Tim-tim!\". The preposition contracts as usual: \"um brinde aos noivos\", \"um brinde à aniversariante\".",
-          "The wish is where the B1 subjunctive earns its place: \"que vocês sejam felizes\", \"que nunca falte saúde\". Two or three wishes in a gradação build a natural climax. English speakers tend to trail off ('so, yeah, anyway, cheers'). In Portuguese, stop on the wish and raise the glass. Ending with \"é isso, obrigado\" deflates the moment.",
+          "The wish is where the Intermediate subjunctive earns its place: \"que vocês sejam felizes\", \"que nunca falte saúde\". Two or three wishes in a gradação build a natural climax. English speakers tend to trail off ('so, yeah, anyway, cheers'). In Portuguese, stop on the wish and raise the glass. Ending with \"é isso, obrigado\" deflates the moment.",
         ],
         examples: [
           { es: "Gostaria de propor um brinde à aniversariante, minha mãe.", en: "I'd like to propose a toast to the birthday girl, my mother." },
@@ -1216,7 +1216,7 @@ export const PT_C2_U06: Lesson[] = [
       {
         heading: "Graduation: protocol first, then the class's voice",
         body: [
-          "At a \"colação de grau\" the \"orador da turma\" speaks for the graduating class, and the opening follows ceremonial protocol. Authorities come first, in order of rank, then teachers, then families and classmates. A university president (the \"reitor\") is addressed as \"Magnífico Reitor\", and high officials take \"Excelentíssimo\", as in the official letters of C1. To avoid listing twenty names, greet the highest authority and fold in the rest: \"Na pessoa do Magnífico Reitor, cumprimento as demais autoridades\".",
+          "At a \"colação de grau\" the \"orador da turma\" speaks for the graduating class, and the opening follows ceremonial protocol. Authorities come first, in order of rank, then teachers, then families and classmates. A university president (the \"reitor\") is addressed as \"Magnífico Reitor\", and high officials take \"Excelentíssimo\", as in the official letters of the Advanced level. To avoid listing twenty names, greet the highest authority and fold in the rest: \"Na pessoa do Magnífico Reitor, cumprimento as demais autoridades\".",
           "After that ritual opening the speech uses the first person plural, \"nós\" rather than \"a gente\": \"chegamos\", \"aprendemos\", \"devemos\". The expected moves are thanks to families and teachers, a shared memory of the course and a look ahead. \"Hoje não é um fim, mas um começo\" is said at every formatura in the country. If you use it, give it a twist.",
         ],
         examples: [
@@ -1407,7 +1407,7 @@ export const PT_C2_U06: Lesson[] = [
         heading: "Nouns on the page, verbs in the air",
         body: [
           "An essay can pack an argument into nouns: \"a ampliação do acesso à educação básica\". The reader takes it in at their own pace and can go back. A listener hears it once, in order, and a chain of noun + \"de\" + noun turns to fog by the third link. Spoken argument turns the nouns back into verbs with people doing things: \"precisamos garantir que toda criança entre na escola\".",
-          "The same goes for clause structure. Writing tolerates a subject held back behind a reduced clause and a concession (\"Considerados os dados, e ainda que haja divergências, conclui-se que...\"). Aloud, put the main clause first and add the rest in units a breath long. End-weight, which you met at C1, matters even more here: the new, heavy information goes last, where the voice lands.",
+          "The same goes for clause structure. Writing tolerates a subject held back behind a reduced clause and a concession (\"Considerados os dados, e ainda que haja divergências, conclui-se que...\"). Aloud, put the main clause first and add the rest in units a breath long. End-weight, which you met at the Advanced level, matters even more here: the new, heavy information goes last, where the voice lands.",
           "None of this is dumbing down. A speech in the Câmara Municipal is as formal as a redação. It simply accepts that the ear has no rewind button.",
         ],
         examples: [

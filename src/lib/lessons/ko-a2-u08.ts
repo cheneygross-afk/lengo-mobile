@@ -21,7 +21,7 @@ export const KO_A2_U08: Lesson[] = [
       {
         heading: "ㅂ becomes 우 before a vowel",
         body: [
-          "You met 매워요 and 추워요 in A1. They follow a rule that covers most describing verbs whose stem ends in ㅂ: before an ending that starts with a vowel, the ㅂ turns into 우, and 우 + 어 contracts to 워. So 덥다 'to be hot' becomes 더워요, 어렵다 'to be difficult' becomes 어려워요, and the past is 더웠어요, 어려웠어요.",
+          "You met 매워요 and 추워요 in the Beginner level. They follow a rule that covers most describing verbs whose stem ends in ㅂ: before an ending that starts with a vowel, the ㅂ turns into 우, and 우 + 어 contracts to 워. So 덥다 'to be hot' becomes 더워요, 어렵다 'to be difficult' becomes 어려워요, and the past is 더웠어요, 어려웠어요.",
           "The same happens to 쉽다 (쉬워요), 춥다 (추워요), 맵다 (매워요), 가깝다 (가까워요), 무겁다 (무거워요), 가볍다 (가벼워요), 귀엽다 (귀여워요), 고맙다 (고마워요) and 반갑다 (반가워요). The classic English-speaker mistake is to add 어 to the written stem: *덥어요, *어렵어요. Koreans never say these.",
         ],
         examples: [
@@ -87,7 +87,7 @@ export const KO_A2_U08: Lesson[] = [
       {
         heading: "Before a consonant, ㅂ stays",
         body: [
-          "When the ending starts with a consonant, nothing happens: 덥고, 어렵고, 덥습니다, 어렵지 않아요. That's why the A1 set phrases 고맙습니다 and 반갑습니다 keep their ㅂ, while the 해요 forms are 고마워요 and 반가워요.",
+          "When the ending starts with a consonant, nothing happens: 덥고, 어렵고, 덥습니다, 어렵지 않아요. That's why the Beginner set phrases 고맙습니다 and 반갑습니다 keep their ㅂ, while the 해요 forms are 고마워요 and 반가워요.",
         ],
         examples: [
           { es: "서울은 여름에 덥고 습해요.", en: "Seoul is hot and humid in summer." },

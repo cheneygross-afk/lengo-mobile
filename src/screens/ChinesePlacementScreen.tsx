@@ -77,10 +77,10 @@ export default function ChinesePlacementScreen({ navigation }: Props) {
             <Text style={s.kicker}>Placement test</Text>
             <Text style={s.title}>Where should you start?</Text>
             <Text style={s.body}>
-              A short test that climbs level by level, from pinyin to C2, and stops where you need to begin. Each level has{" "}
+              A short test that climbs level by level, from pinyin to the top level, and stops where you need to begin. Each level has{" "}
               {stages[0]?.items.length ?? 0} questions; get {pct}% right and you move up.
             </Text>
-            <Text style={s.note}>From C1 the questions are entirely in Chinese, like the lessons.</Text>
+            <Text style={s.note}>From the Advanced Chinese level the questions are entirely in Chinese, like the lessons.</Text>
             <Pressable style={s.bigBtn} onPress={() => setPhase("testing")} disabled={!stages.length}>
               <Text style={s.bigBtnText}>Start</Text>
             </Pressable>
@@ -90,7 +90,7 @@ export default function ChinesePlacementScreen({ navigation }: Props) {
         {phase === "testing" && item && (
           <View>
             <Text style={s.badge}>
-              {current.code} · question {index + 1} of {current.items.length}
+              {current.name} · question {index + 1} of {current.items.length}
             </Text>
             <ExerciseBlock
               key={`${stage}-${index}`}
@@ -114,37 +114,37 @@ export default function ChinesePlacementScreen({ navigation }: Props) {
 
         {phase === "stage-passed" && (
           <View style={s.center}>
-            <Text style={s.title}>{current.code} passed</Text>
+            <Text style={s.title}>{current.name} passed</Text>
             <Text style={s.body}>
-              {results[results.length - 1]?.right}/{results[results.length - 1]?.total} right. Next: {stages[stage + 1].code}{" "}
+              {results[results.length - 1]?.right}/{results[results.length - 1]?.total} right. Next: {stages[stage + 1].name}{" "}
               {stages[stage + 1].name}.
             </Text>
             <Pressable style={s.bigBtn} onPress={nextStage}>
-              <Text style={s.bigBtnText}>On to {stages[stage + 1].code}</Text>
+              <Text style={s.bigBtnText}>On to {stages[stage + 1].name}</Text>
             </Pressable>
           </View>
         )}
 
         {phase === "done" && (
           <View style={s.center}>
-            <Text style={s.title}>{beyond ? "You passed every level" : `Start at ${at.code}: ${at.name}`}</Text>
+            <Text style={s.title}>{beyond ? "You passed every level" : `Start at ${at.name}`}</Text>
             <Text style={s.body}>
               {beyond
-                ? "C2 included. Use C2 to polish: its unit reviews and level test are a good place to start."
+                ? "Proficient Chinese included. Use it to polish: its unit reviews and level test are a good place to start."
                 : start === 0
                   ? "Begin at the beginning: the first module builds everything else."
-                  : `You passed ${stages.slice(0, start).map((x) => x.code).join(", ")}. Inside ${at.code}, each unit has a test-out, so you can skip units you already know.`}
+                  : `You passed ${stages.slice(0, start).map((x) => x.name).join(", ")}. Inside ${at.name}, each unit has a test-out, so you can skip units you already know.`}
             </Text>
             {results.map((r, i) => (
               <Text key={stages[i].code} style={s.note}>
-                {stages[i].code}: {r.right}/{r.total} {placementPassed(r.right, r.total) ? "· passed" : "· start here"}
+                {stages[i].name}: {r.right}/{r.total} {placementPassed(r.right, r.total) ? "· passed" : "· start here"}
               </Text>
             ))}
             <Pressable
               style={s.bigBtn}
               onPress={() => navigation.replace("LessonList", { moduleKey: `zh-${at.path}` as LessonModuleKey })}
             >
-              <Text style={s.bigBtnText}>Go to {at.code}</Text>
+              <Text style={s.bigBtnText}>Go to {at.name}</Text>
             </Pressable>
             <Pressable style={s.linkBtn} onPress={() => navigation.goBack()}>
               <Text style={s.linkBtnText}>All Chinese levels</Text>

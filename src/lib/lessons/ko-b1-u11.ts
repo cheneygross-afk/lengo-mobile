@@ -677,7 +677,7 @@ export const KO_B1_U11: Lesson[] = [
         heading: "Make, let, don't let, and two set phrases",
         body: [
           "-게 하다 means both 'make' and 'let'; context decides. 아이들을 밖에서 놀게 해요 is 'let', 다시 쓰게 했어요 is 'make'. For 'not let', put 못 before the verb: 엄마가 밤에는 게임을 못 하게 했어요 'Mum didn't let me play games at night'.",
-          "Two set phrases are worth learning whole: 기다리게 해서 죄송합니다 'Sorry to keep you waiting', heard in every shop and office, and -게 하지 마세요 for 'don't make someone ...': 부모님을 걱정하게 하지 마세요. This -게 sits on a verb and is followed by 하다; the A2 -게 on adjectives (크게, 맛있게) just makes an adverb.",
+          "Two set phrases are worth learning whole: 기다리게 해서 죄송합니다 'Sorry to keep you waiting', heard in every shop and office, and -게 하지 마세요 for 'don't make someone ...': 부모님을 걱정하게 하지 마세요. This -게 sits on a verb and is followed by 하다; the Elementary level -게 on adjectives (크게, 맛있게) just makes an adverb.",
         ],
         examples: [
           { es: "기다리게 해서 죄송합니다.", en: "I'm sorry to have kept you waiting." },
@@ -1655,7 +1655,7 @@ export const KO_B1_U11: Lesson[] = [
       {
         heading: "Sound focus: 입히다 [이피다], 앉히다 [안치다]",
         body: [
-          "In A1 you heard ㅎ merge with a neighbouring ㄱ, ㄷ, ㅂ or ㅈ into one aspirated sound: 좋다 [조타], 축하 [추카]. Causative 히 does the same to the consonant before it: ㅂ + 히 → [피], ㅈ + 히 → [치], ㄱ + 히 → [키]. So 입히다 [이피다], 눕히다 [누피다], 앉히다 [안치다], 읽히다 [일키다], 넓히다 [널피다].",
+          "In the Beginner level you heard ㅎ merge with a neighbouring ㄱ, ㄷ, ㅂ or ㅈ into one aspirated sound: 좋다 [조타], 축하 [추카]. Causative 히 does the same to the consonant before it: ㅂ + 히 → [피], ㅈ + 히 → [치], ㄱ + 히 → [키]. So 입히다 [이피다], 눕히다 [누피다], 앉히다 [안치다], 읽히다 [일키다], 넓히다 [널피다].",
           "With a double final consonant, the first letter stays in its syllable and the second merges: 앉 → [안] + [치], 읽 → [일] + [키], 넓 → [널] + [피]. The spelling never shows any of this. When you hear [이펴써요] you write 입혔어요, and [안처요] is 앉혀요. Compare plain 입어요 [이버요]: no ㅎ, no puff of air.",
         ],
         examples: [

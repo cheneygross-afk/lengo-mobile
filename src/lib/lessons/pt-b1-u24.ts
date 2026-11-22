@@ -81,7 +81,7 @@ export const PT_B1_U24: Lesson[] = [
       {
         heading: "Tontura, enjoo, falta de ar",
         body: [
-          "Beyond the A2 aches, these are the words a doctor will ask about: \"tontura\" (dizziness), \"enjoo\" (nausea), \"falta de ar\" (shortness of breath), \"inchaço\" (swelling), \"coceira\" (itching), \"ardência\" (a burning feeling), \"pressão alta\" (high blood pressure).",
+          "Beyond the Elementary aches, these are the words a doctor will ask about: \"tontura\" (dizziness), \"enjoo\" (nausea), \"falta de ar\" (shortness of breath), \"inchaço\" (swelling), \"coceira\" (itching), \"ardência\" (a burning feeling), \"pressão alta\" (high blood pressure).",
           "Most go with \"estou com\" or \"sinto\": \"estou com enjoo\", \"sinto falta de ar quando subo a escada\". Some have a matching verb or adjective: \"o pé está inchado\", \"está coçando\", \"arde\" (it burns). Careful: \"sentir falta de\" alone means to miss someone; \"falta de ar\" is only about breathing.",
         ],
         examples: [
@@ -202,7 +202,7 @@ export const PT_B1_U24: Lesson[] = [
           { left: "a coceira", right: "itching" },
           { left: "a ardência", right: "a burning feeling" },
         ],
-        explanation: "The B1 symptom words a doctor or pharmacist will ask about.",
+        explanation: "The Intermediate symptom words a doctor or pharmacist will ask about.",
       },
     ],
   },

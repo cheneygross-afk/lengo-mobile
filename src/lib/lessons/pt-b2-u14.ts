@@ -1107,7 +1107,7 @@ export const PT_B2_U14: Lesson[] = [
         heading: "Segundo, afirmou, teria: who says so?",
         body: [
           "News attributes every claim. Either put the source first with \"segundo\" or \"de acordo com\", or use a reporting verb: \"afirmou\", \"declarou\", \"anunciou\", \"negou\", \"admitiu\". \"Em nota\" means in a written statement. \"Procurado, o ministério não se manifestou\" is the stock line for 'when contacted, the ministry did not comment'.",
-          "The B1 tense shifts still apply, but news often keeps the present when the fact is still true: \"afirmou que as obras terminam em março\". \"Negar\" with the same subject takes the infinitive: \"negou ter recebido\".",
+          "The Intermediate tense shifts still apply, but news often keeps the present when the fact is still true: \"afirmou que as obras terminam em março\". \"Negar\" with the same subject takes the infinitive: \"negou ter recebido\".",
           "For unconfirmed information the press uses the conditional, as with \"teria dito\": \"o acordo estaria perto\" (the deal is reportedly close), \"teria se reunido\" (reportedly met). The plain perfeito would state it as fact, and that can be a legal risk.",
         ],
         examples: [
@@ -2329,7 +2329,7 @@ export const PT_B2_U14: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Culture and Society",
-    summary: "Mixed practice in discussing Brazilian music, movie, books and the news with the B2 subjunctives, reported speech, the passive and the written norm.",
+    summary: "Mixed practice in discussing Brazilian music, movie, books and the news with the Upper-intermediate subjunctives, reported speech, the passive and the written norm.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

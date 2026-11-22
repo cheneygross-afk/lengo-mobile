@@ -8,7 +8,7 @@ export const PT_B2_U24_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 1,
     title: "Extra Practice: Mixed Review, Part 1 of 3",
-    summary: "A translation relay across the first half of B2: conditions, subjunctives, the passive, reported speech and idioms.",
+    summary: "A translation relay across the first half of the Upper-intermediate level: conditions, subjunctives, the passive, reported speech and idioms.",
     duration: "13 min",
     optional: true,
     kind: "drill",

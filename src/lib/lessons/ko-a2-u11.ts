@@ -298,7 +298,7 @@ export const KO_A2_U11: Lesson[] = [
       {
         heading: "Sound focus: 갈 곳 [갈 꼳]",
         body: [
-          "You met this in A1 with 갈 거예요 [갈 꺼예요]: after the -(으)ㄹ modifier, a following ㄱ ㄷ ㅂ ㅅ ㅈ becomes tense. It happens with every noun: 갈 곳 [갈 꼳], 먹을 거 [머글 꺼], 볼 사람 [볼 싸람], 살 집 [살 찝], 할 게 [할 께].",
+          "You met this in Beginner with 갈 거예요 [갈 꺼예요]: after the -(으)ㄹ modifier, a following ㄱ ㄷ ㅂ ㅅ ㅈ becomes tense. It happens with every noun: 갈 곳 [갈 꼳], 먹을 거 [머글 꺼], 볼 사람 [볼 싸람], 살 집 [살 찝], 할 게 [할 께].",
           "Only the sound changes; the spelling never does. And only -(으)ㄹ does this: 간 곳 'a place I went' stays [간 곧]. So the tense sound itself tells you the action is still to come.",
         ],
         examples: [

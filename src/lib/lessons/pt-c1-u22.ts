@@ -8,7 +8,7 @@ export const PT_C1_U22: Lesson[] = [
     level: "PT-C1",
     number: 1,
     title: "Advanced Challenge: The Error Marathon",
-    summary: "Correct a long newsletter article riddled with typical C1 errors in mood, punctuation, regência, register and variety, with no hints about where they are.",
+    summary: "Correct a long newsletter article riddled with typical Advanced errors in mood, punctuation, regência, register and variety, with no hints about where they are.",
     duration: "18 min",
     kind: "drill",
     format: "Error Hunt",
@@ -1901,7 +1901,7 @@ export const PT_C1_U22: Lesson[] = [
     slug: "c1-exit-reading-writing",
     level: "PT-C1",
     number: 9,
-    title: "C1 Exit Test, Part 1: Reading into Writing",
+    title: "Exit Test, Part 1: Reading into Writing",
     summary: "Read a news report on the shortage of day-care spots in Salvador and turn it into a formal letter to the city's education secretary, with a clear writer, reader and purpose.",
     duration: "20 min",
     kind: "skills",
@@ -2114,7 +2114,7 @@ export const PT_C1_U22: Lesson[] = [
     slug: "c1-exit-listening-writing",
     level: "PT-C1",
     number: 10,
-    title: "C1 Exit Test, Part 2: Listening into Writing",
+    title: "Exit Test, Part 2: Listening into Writing",
     summary: "Turn a radio interview with a police chief about scams targeting older people into a clear notice for the older residents of a building.",
     duration: "20 min",
     kind: "skills",
@@ -2320,7 +2320,7 @@ export const PT_C1_U22: Lesson[] = [
     slug: "c1-exit-interview",
     level: "PT-C1",
     number: 11,
-    title: "C1 Exit Test, Part 3: The Interview",
+    title: "Exit Test, Part 3: The Interview",
     summary: "Discuss an elemento provocador on phones in schools as in the Celpe-Bras interview: describe it, take a position, concede, nuance, clarify and widen the discussion to abstract questions.",
     duration: "18 min",
     kind: "skills",
@@ -2330,7 +2330,7 @@ export const PT_C1_U22: Lesson[] = [
         heading: "The elemento provocador and your first position",
         body: [
           "The examiner hands you a short text: a headline, \"Escolas proíbem celular em sala de aula\", and a photo of students' phones in a box on the teacher's desk. You first say what it is about, then where you stand. Openers that sound natural rather than rehearsed: \"Bom, pelo que eu entendi, o texto fala de...\", \"A imagem mostra...\", \"Eu, particularmente, sou a favor de...\", \"Na minha opinião,...\".",
-          "At C1 the examiner wants a position with a reason and an example, not a list of opinions. \"Sou a favor da proibição, porque o celular tira a atenção dos alunos. Eu dou aula de inglês e vejo isso todo dia\" does all three in two sentences. You can bring in context you know: in 2025 a federal law restricted phones in Brazilian schools, except for teaching purposes.",
+          "At the Advanced level the examiner wants a position with a reason and an example, not a list of opinions. \"Sou a favor da proibição, porque o celular tira a atenção dos alunos. Eu dou aula de inglês e vejo isso todo dia\" does all three in two sentences. You can bring in context you know: in 2025 a federal law restricted phones in Brazilian schools, except for teaching purposes.",
         ],
         examples: [
           { es: "Bom, pelo que eu entendi, o texto fala da proibição do celular nas escolas.", en: "Well, as I understand it, the text is about banning phones in schools." },
@@ -2528,7 +2528,7 @@ export const PT_C1_U22: Lesson[] = [
         type: "speak",
         text: "É verdade que o celular pode ajudar, mas, de modo geral, acho que ele atrapalha mais do que ajuda.",
         prompt: "Answer the examiner: concede that phones can help, then say that, on the whole, they get in the way more than they help.",
-        explanation: "Concession, general claim, comparison: a full C1 turn.",
+        explanation: "Concession, general claim, comparison: a full Advanced turn.",
       },
       {
         type: "translate",
@@ -2545,7 +2545,7 @@ export const PT_C1_U22: Lesson[] = [
     slug: "c1-exit-language",
     level: "PT-C1",
     number: 12,
-    title: "C1 Exit Test, Part 4: Ready for C2?",
+    title: "Exit Test, Part 4: Ready for the Mastery Level?",
     summary: "A final mixed check of the whole level: grammar, punctuation, register and vocabulary in fresh sentences, with no topic to warn you what's coming.",
     duration: "20 min",
     kind: "skills",
@@ -2554,7 +2554,7 @@ export const PT_C1_U22: Lesson[] = [
       {
         heading: "Grammar under pressure",
         body: [
-          "This is the last language check of C1. Each item draws on a different unit, mixed on purpose. C2 assumes these structures are automatic: the subjunctive after concessions and fixed expressions, probability with the future and conditional, reduced clauses, and the personal infinitive. If one slows you down, go back to its unit before moving on.",
+          "This is the last language check of the Advanced level. Each item draws on a different unit, mixed on purpose. Mastery assumes these structures are automatic: the subjunctive after concessions and fixed expressions, probability with the future and conditional, reduced clauses, and the personal infinitive. If one slows you down, go back to its unit before moving on.",
         ],
         examples: [
           { es: "Seja como for, a decisão já foi tomada.", en: "Be that as it may, the decision has been made." },

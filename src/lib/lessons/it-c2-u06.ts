@@ -16,7 +16,7 @@ export const IT_C2_U06: Lesson[] = [
       {
         heading: "Where you live",
         body: [
-          "At C2 the question is no longer 'what is the word?' but 'which of the five words?'. Near-synonyms differ along three axes: register (everyday, formal, literary, bureaucratic), connotation (warm, neutral, negative) and collocation (which words they combine with).",
+          "At the Mastery level the question is no longer 'what is the word?' but 'which of the five words?'. Near-synonyms differ along three axes: register (everyday, formal, literary, bureaucratic), connotation (warm, neutral, negative) and collocation (which words they combine with).",
           "\"Casa\" is the everyday, warm word: home and house at once (\"torno a casa\"). \"Abitazione\" is neutral and technical, the word of real estate agents, statistics and the police (\"un'abitazione di cento metri quadri\", \"perquisire l'abitazione\"). \"Dimora\" is literary or solemn: \"una dimora storica\", \"l'ultima dimora\" (the grave). \"Alloggio\" is somewhere to stay, often temporary or provided: \"vitto e alloggio\" (board and lodging), \"alloggi per studenti\". \"Domicilio\" and \"residenza\" are legal: your \"residenza\" is where you are registered, your \"domicilio\" where you actually live; \"consegna a domicilio\" is home delivery.",
         ],
         examples: [
@@ -263,7 +263,7 @@ export const IT_C2_U06: Lesson[] = [
       {
         heading: "Verb and noun",
         body: [
-          "A collocation is a pair of words that habitually go together. Grammar allows \"fare una decisione\"; Italian doesn't use it. Natives say \"prendere una decisione\", as English says 'make' a decision. Learning nouns with their verbs is what separates C1 from C2.",
+          "A collocation is a pair of words that habitually go together. Grammar allows \"fare una decisione\"; Italian doesn't use it. Natives say \"prendere una decisione\", as English says 'make' a decision. Learning nouns with their verbs is what separates Advanced from the Mastery level.",
           "Key pairs: \"prendere una decisione\", \"fare una domanda\" (everyday) or \"porre una domanda\" (formal), \"porre un problema\" or \"sollevare un problema\", \"nutrire dubbi\" or \"nutrire speranze\" (formal), \"avanzare una proposta\", \"sollevare un'obiezione\", \"muovere una critica\", \"esprimere un parere\", \"trarre una conclusione\", \"svolgere un ruolo\", \"rivestire un'importanza\", \"colmare una lacuna\".",
         ],
         examples: [

@@ -122,7 +122,7 @@ export const IT_C1_U16: Lesson[] = [
         heading: "Conditions with the subjunctive",
         body: [
           "Conditions take the subjunctive: \"a condizione che\" (on condition that), \"purché\" (provided that), \"a patto che\", \"sempre che\" (as long as): \"Possiamo accettare a condizione che la consegna avvenga entro marzo\". \"Qualora\" + subjunctive is the formal if: \"Qualora l'ordine superasse le mille unità, applicheremmo uno sconto ulteriore\".",
-          "Mirror the past in the imperfect subjunctive after a conditional: \"Accetteremmo purché ci garantiste l'esclusiva\" (we'd accept provided you guaranteed us exclusivity). This is the B2 sequence of tenses, now under pressure in a real negotiation.",
+          "Mirror the past in the imperfect subjunctive after a conditional: \"Accetteremmo purché ci garantiste l'esclusiva\" (we'd accept provided you guaranteed us exclusivity). This is the Upper-intermediate sequence of tenses, now under pressure in a real negotiation.",
           "To refuse politely: \"Purtroppo non siamo in grado di...\" (unfortunately we're not in a position to), \"Temo che sia difficile\", \"Su questo punto non possiamo transigere\" (we can't compromise on this).",
           "To hold your ground without closing the door: \"Questa è la nostra ultima offerta\", \"Ci serve un po' di tempo per valutare\", \"Dobbiamo sentire la direzione\" (we have to check with management). Sum up what has been agreed with \"Riepilogando, siamo d'accordo su...\". \"Prendere o lasciare\" (take it or leave it) exists, but across an Italian table it sounds rude.",
         ],
@@ -542,7 +542,7 @@ export const IT_C1_U16: Lesson[] = [
       {
         heading: "Calques from English",
         body: [
-          "Office Italian is full of English. Some loans are now normal (\"il budget\", \"il marketing\", \"la call\" in many companies), but in formal writing a C1 speaker uses the Italian word, and some calques are simply wrong. Here is an email from a junior colleague, one problem per sentence.",
+          "Office Italian is full of English. Some loans are now normal (\"il budget\", \"il marketing\", \"la call\" in many companies), but in formal writing an Advanced speaker uses the Italian word, and some calques are simply wrong. Here is an email from a junior colleague, one problem per sentence.",
           "1. \"Facciamo un meeting giovedì?\" Write \"Facciamo una riunione giovedì?\" (or \"ci vediamo giovedì?\"). 2. \"Ho schedulato la call per le 15.\" Use \"Ho fissato la riunione per le 15\" or \"Ho programmato\". 3. \"Stiamo processando il Suo ordine.\" Orders are \"evasi\" (fulfilled) or \"gestiti\": \"Il Suo ordine è in fase di lavorazione\" or \"stiamo evadendo il Suo ordine\".",
           "4. \"Vorrei applicare per la posizione di analista.\" You \"candidarsi\" or \"fare domanda\": \"Vorrei candidarmi per la posizione\". 5. \"Ti forwardo la mail.\" Write \"Ti inoltro l'email\". 6. \"La deadline è venerdì.\" In formal writing: \"La scadenza è venerdì\" or \"il termine è venerdì\".",
         ],

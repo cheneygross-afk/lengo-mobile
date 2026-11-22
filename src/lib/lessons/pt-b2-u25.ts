@@ -2462,7 +2462,7 @@ export const PT_B2_U25: Lesson[] = [
       {
         heading: "From the posto to the pronto-socorro",
         body: [
-          "This lesson mixes the unit's words with B2 grammar. Three reminders. The passive agrees with the patient: \"ela foi atendida\", \"ele foi internado\". Reported speech shifts back: \"o médico disse que eu precisava\". And \"se\" + future subjunctive gives instructions, while \"se\" + imperfect subjunctive imagines.",
+          "This lesson mixes the unit's words with Upper-intermediate grammar. Three reminders. The passive agrees with the patient: \"ela foi atendida\", \"ele foi internado\". Reported speech shifts back: \"o médico disse que eu precisava\". And \"se\" + future subjunctive gives instructions, while \"se\" + imperfect subjunctive imagines.",
         ],
         examples: [
           { es: "Ela foi atendida no posto e encaminhada para o cardiologista.", en: "She was seen at the health center and referred to a cardiologist." },

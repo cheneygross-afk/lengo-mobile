@@ -17,7 +17,7 @@ export const KO_A2_U03: Lesson[] = [
       {
         heading: "-고: this, then that",
         body: [
-          "In A1 you joined descriptions with -고: 싸고 맛있어요. With action verbs the same -고 also gives the order of events: 샤워하고 아침을 먹어요 'I shower and then have breakfast'. Add 고 straight to the stem, with no vowel rules: 하고, 먹고, 닦고, 보고.",
+          "In the Beginner level you joined descriptions with -고: 싸고 맛있어요. With action verbs the same -고 also gives the order of events: 샤워하고 아침을 먹어요 'I shower and then have breakfast'. Add 고 straight to the stem, with no vowel rules: 하고, 먹고, 닦고, 보고.",
           "Korean marks the tense and the speech level once, on the last verb. 숙제를 하고 잤어요 is 'I did my homework and went to bed'. English speakers put the past on both verbs, but *숙제를 했고 잤어요 sounds like two separate facts listed side by side, not one step after the other.",
         ],
         examples: [
@@ -250,7 +250,7 @@ export const KO_A2_U03: Lesson[] = [
       {
         heading: "Go there and do it: 가서, 만나서, 앉아서",
         body: [
-          "To make -아서 / -어서, take the 해요 form, drop 요 and add 서: 가요 → 가서, 만나요 → 만나서, 앉아요 → 앉아서, 먹어요 → 먹어서, 해요 → 해서. Every A1 vowel rule carries over, so if you know the 해요 form, you know this one.",
+          "To make -아서 / -어서, take the 해요 form, drop 요 and add 서: 가요 → 가서, 만나요 → 만나서, 앉아요 → 앉아서, 먹어요 → 먹어서, 해요 → 해서. Every Beginner vowel rule carries over, so if you know the 해요 form, you know this one.",
           "-아서 links two actions that belong together: the second happens in the place the first took you to, or with the person you met. 학교에 가서 공부해요 means 'I go to school and study there'. 친구를 만나서 영화를 봤어요 means you watched the movie with that friend.",
         ],
         examples: [
@@ -939,7 +939,7 @@ export const KO_A2_U03: Lesson[] = [
       {
         heading: "One sentence or two",
         body: [
-          "In A1 you said 'but' with two sentences: 비싸요. 그런데 맛있어요. -지만 packs the same idea into one: 비싸지만 맛있어요. That's the everyday way to say 'X but Y'. In fact 하지만 is just 하다 + 지만, standing at the start of a sentence.",
+          "In the Beginner level you said 'but' with two sentences: 비싸요. 그런데 맛있어요. -지만 packs the same idea into one: 비싸지만 맛있어요. That's the everyday way to say 'X but Y'. In fact 하지만 is just 하다 + 지만, standing at the start of a sentence.",
           "그런데 is soft and also means 'by the way'; 하지만 is firmer and a little bookish. -지만 is a clear, balanced 'but' for speech and writing, in every speech level: 비싸지만 맛있어 to a friend, 비싸지만 맛있습니다 in a presentation. Keep the two-sentence starters for when the second part is long or comes as an afterthought.",
         ],
         examples: [
@@ -1084,7 +1084,7 @@ export const KO_A2_U03: Lesson[] = [
     level: "KO-A2",
     number: 6,
     title: "Drill: -고, -아서 and -(으)니까",
-    summary: "Link two clauses fast with -고, -고 나서, -아서 and -(으)니까, with regular verbs and the A1 irregulars, plus a few -지만 contrasts.",
+    summary: "Link two clauses fast with -고, -고 나서, -아서 and -(으)니까, with regular verbs and the Beginner irregulars, plus a few -지만 contrasts.",
     duration: "20 min",
     sections: [
       {

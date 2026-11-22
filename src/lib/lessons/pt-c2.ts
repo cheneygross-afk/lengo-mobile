@@ -101,7 +101,7 @@ const UNITS: PortugueseUnitDef[] = [
   { id: "u29", title: "Word Formation & the Hyphen", description: "Spell and build words like an editor: the hyphen after the Acordo, hard plurals, learned roots, suffixes with attitude and new words.", lessons: PT_C2_U29, extra: PT_C2_U29_EXTRA, writing: PT_C2_U29_WRITING },
   { id: "u30", title: "Precision in Practice", description: "Drill the norma culta under pressure: agreement, regência, crase, clitics, verbs, word formation and collocation mixed in real texts.", lessons: PT_C2_U30, extra: PT_C2_U30_EXTRA, writing: PT_C2_U30_WRITING },
   { id: "u10", title: "Mastery Review", description: "Show complete command of Brazilian Portuguese across registers, genres and topics.", lessons: PT_C2_U10, extra: PT_C2_U10_EXTRA, writing: PT_C2_U10_WRITING },
-  { id: "u31", title: "Celpe-Bras Practice & C2 Exit Test", description: "Practise the Celpe-Bras integrated tasks at the Avançado Superior band and take the level's exit test.", lessons: PT_C2_U31, extra: PT_C2_U31_EXTRA, writing: PT_C2_U31_WRITING },
+  { id: "u31", title: "Celpe-Bras Practice & Mastery Exit Test", description: "Practise the Celpe-Bras integrated tasks at the Avançado Superior band and take the level's exit test.", lessons: PT_C2_U31, extra: PT_C2_U31_EXTRA, writing: PT_C2_U31_WRITING },
 ];
 
 const LEVEL = buildPortugueseLevel("C2", UNITS);

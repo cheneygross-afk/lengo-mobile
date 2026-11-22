@@ -17,7 +17,7 @@ export const KO_C1_U22_EXTRA: Lesson[] = [
       {
         heading: "Two old roots, one new word",
         body: [
-          "No new rules here. Every C1 unit gave you a root; many new words are simply two of them put together. 위약금 is 위 'violate' + 약 'promise' (Unit 11) + 금 'money' (Unit 12): the penalty for breaking a contract. 관측 is 관 'see' (Unit 1) + 측 'measure' (Unit 5): observation, as in 기상 관측. Split, anchor, test, then use the word.",
+          "No new rules here. Every Advanced unit gave you a root; many new words are simply two of them put together. 위약금 is 위 'violate' + 약 'promise' (Unit 11) + 금 'money' (Unit 12): the penalty for breaking a contract. 관측 is 관 'see' (Unit 1) + 측 'measure' (Unit 5): observation, as in 기상 관측. Split, anchor, test, then use the word.",
         ],
         examples: [
           { es: "약정 기간 안에 해지하면 위약금을 내야 해요.", en: "If you cancel within the contract period, you have to pay a penalty." },

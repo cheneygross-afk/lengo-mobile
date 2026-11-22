@@ -2639,7 +2639,7 @@ export const PT_B2_U29: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Spiral Review: Life in Brazil",
-    summary: "Cumulative practice of the unit's social codes and festival vocabulary with the B2 grammar: subjunctive norms, quando + future subjunctive, wishes, unreal conditions and the passive.",
+    summary: "Cumulative practice of the unit's social codes and festival vocabulary with the Upper-intermediate grammar: subjunctive norms, quando + future subjunctive, wishes, unreal conditions and the passive.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",
@@ -2648,7 +2648,7 @@ export const PT_B2_U29: Lesson[] = [
         heading: "Visits, time and plans",
         body: [
           "A reminder of the unit's codes: an invitation is real when it has a day and a time; bring something even if told \"não precisa\"; arrive a little late to parties and on time to work; soften every no. The grammar: \"é comum que\" + subjunctive, \"pega mal\" + infinitive, \"quando\" + future subjunctive for advice.",
-          "Mix in the rest of B2. Unreal conditions for advice (\"se eu fosse você, levaria um vinho\"), regrets (\"se eu tivesse avisado, ela não teria ficado chateada\") and reported speech (\"ele disse que estava chegando\").",
+          "Mix in the rest of the Upper-intermediate level. Unreal conditions for advice (\"se eu fosse você, levaria um vinho\"), regrets (\"se eu tivesse avisado, ela não teria ficado chateada\") and reported speech (\"ele disse que estava chegando\").",
         ],
         examples: [
           { es: "Se eu fosse você, levaria um vinho.", en: "If I were you, I'd take a bottle of wine." },

@@ -465,7 +465,7 @@ export const DE_C2_U09: Lesson[] = [
         heading: "\"Doch\": contradicting a negative",
         body: [
           "English answers 'yes' to contradict a negative question ('Aren't you coming?' – 'Yes, I am'), which is ambiguous. German has a special word: \"doch\". \"Kommst du nicht mit?\" – \"Doch!\" (Yes, I am coming). \"Ja\" here would be confusing, and \"nein\" confirms the negative: \"Nein, ich komme nicht mit.\"",
-          "\"Doch\" also contradicts a negative statement: \"Das stimmt nicht.\" – \"Doch, das stimmt!\" Insistent: \"Doch, doch!\"; emphatic: \"Und ob!\" (You bet!). \"Doch\" with stress always contradicts; unstressed \"doch\" in the middle of a sentence is a modal particle (C1, Unit 11), a different word in function.",
+          "\"Doch\" also contradicts a negative statement: \"Das stimmt nicht.\" – \"Doch, das stimmt!\" Insistent: \"Doch, doch!\"; emphatic: \"Und ob!\" (You bet!). \"Doch\" with stress always contradicts; unstressed \"doch\" in the middle of a sentence is a modal particle (Advanced, Unit 11), a different word in function.",
         ],
         examples: [
           { es: "Kommst du nicht mit? – Doch!", en: "Aren't you coming? – Yes, I am!" },

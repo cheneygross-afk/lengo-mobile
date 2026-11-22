@@ -54,7 +54,7 @@ export const PT_B2_U18: Lesson[] = [
         heading: "Se o locatário desocupar...: clauses with the future subjunctive",
         body: [
           "Contract clauses are conditions about the future, so they're full of the future subjunctive from Unit 4: \"se o locatário desocupar o imóvel antes do prazo, pagará multa\" (if the tenant vacates before the end of the term, he'll pay a penalty). The result is often in the formal simple future (\"pagará\", \"deverá\") or the present (\"fica obrigado a\").",
-          "\"Caso\" is the contract's other if, and it takes the present subjunctive, as you learned at B1: \"caso haja atraso no pagamento\" (should there be a late payment). Same meaning, different mood: \"se houver atraso\" = \"caso haja atraso\". Never mix them: *\"caso houver\" is a classic mistake.",
+          "\"Caso\" is the contract's other if, and it takes the present subjunctive, as you learned at the Intermediate level: \"caso haja atraso no pagamento\" (should there be a late payment). Same meaning, different mood: \"se houver atraso\" = \"caso haja atraso\". Never mix them: *\"caso houver\" is a classic mistake.",
           "\"Quando\" and \"assim que\" also take the future subjunctive here: \"quando terminar o contrato\", \"assim que for assinado\".",
         ],
         examples: [
@@ -269,7 +269,7 @@ export const PT_B2_U18: Lesson[] = [
         heading: "E se eu precisar sair antes?",
         body: [
           "Daniel's contract with his employer lasts two years, but the lease is thirty months. So he asks the key question: \"e se eu precisar sair antes?\". This \"e se\" + future subjunctive is a real question about a possible future, not the imperfect-subjunctive suggestion of Unit 3.",
-          "Simone explains the multa rescisória and a legal exception: under the Lei do Inquilinato there's no penalty if the tenant's employer transfers him to another city, as long as he gives 30 days' written notice; agencies usually ask for a letter from the employer. Notice \"desde que\" (as long as) + present subjunctive from B1.",
+          "Simone explains the multa rescisória and a legal exception: under the Lei do Inquilinato there's no penalty if the tenant's employer transfers him to another city, as long as he gives 30 days' written notice; agencies usually ask for a letter from the employer. Notice \"desde que\" (as long as) + present subjunctive from the Intermediate level.",
         ],
         examples: [
           { es: "E se eu precisar sair antes dos trinta meses?", en: "(Daniel) And what if I need to leave before the thirty months?" },
@@ -2514,7 +2514,7 @@ export const PT_B2_U18: Lesson[] = [
     level: "PT-B2",
     number: 13,
     title: "Spiral Review: Living in Brazil",
-    summary: "Cumulative practice: the future subjunctive in instructions, formal requests and the B2 subjunctives in contracts, complaints and documents.",
+    summary: "Cumulative practice: the future subjunctive in instructions, formal requests and the Upper-intermediate subjunctives in contracts, complaints and documents.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

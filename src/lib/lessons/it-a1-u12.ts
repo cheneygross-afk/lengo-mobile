@@ -587,7 +587,7 @@ export const IT_A1_U12: Lesson[] = [
     slug: "a1-spiral-a1-grammar",
     level: "IT-A1",
     number: 9,
-    title: "Spiral Review: A1 Grammar",
+    title: "Spiral Review: Grammar",
     summary: "Mix articles, essere and avere, the present tense, piacere and possessives in new sentences.",
     duration: "16 min",
     kind: "review",

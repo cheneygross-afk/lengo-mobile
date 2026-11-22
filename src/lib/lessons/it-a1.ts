@@ -44,7 +44,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u09", title: "Irregular Everyday Verbs", description: "Talk about plans, invitations, ability and obligation with the most common irregular verbs.", lessons: IT_A1_U09, extra: IT_A1_U09_EXTRA, writing: IT_A1_U09_WRITING },
   { id: "u10", title: "Likes and Dislikes", description: "Say what you and others like and don't like, and agree or disagree.", lessons: IT_A1_U10, extra: IT_A1_U10_EXTRA, writing: IT_A1_U10_WRITING },
   { id: "u11", title: "My Day: Reflexive Verbs", description: "Describe your daily routine, tell the time of each activity, and talk about the days of the week.", lessons: IT_A1_U11, extra: IT_A1_U11_EXTRA, writing: IT_A1_U11_WRITING },
-  { id: "u12", title: "Possessives and A1 Review", description: "Talk about family and belongings with possessives, and handle everyday tasks: a hotel, a pharmacy, a train ticket.", lessons: IT_A1_U12, extra: IT_A1_U12_EXTRA, writing: IT_A1_U12_WRITING },
+  { id: "u12", title: "Possessives and Beginner Review", description: "Talk about family and belongings with possessives, and handle everyday tasks: a hotel, a pharmacy, a train ticket.", lessons: IT_A1_U12, extra: IT_A1_U12_EXTRA, writing: IT_A1_U12_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("A1", UNITS);

@@ -8,14 +8,14 @@ export const PT_C2_U05: Lesson[] = [
     slug: "c2-false-friends",
     level: "PT-C2",
     number: 1,
-    title: "False Friends at C2",
+    title: "False Friends at the Mastery Level",
     summary: "The look-alikes that still trip up advanced learners, such as pretender, realizar, eventualmente, compromisso and esquisito, and the right Portuguese for each English word.",
     duration: "15 min",
     sections: [
       {
         heading: "Verbs that say something else",
         body: [
-          "These look-alikes survive into C2 because they produce grammatical sentences that simply mean something else. \"Pretender\" is to intend or plan: \"pretendo sair cedo\" means I'm planning to leave early. To pretend is \"fingir\". \"Realizar\" is to carry out, hold or fulfill (\"realizar uma pesquisa\", \"realizar um sonho\"). To realize, in the sense of noticing, is \"perceber\" or \"se dar conta de\", and in speech \"cair a ficha\" (\"aí caiu a ficha\": then it sank in).",
+          "These look-alikes survive into Mastery because they produce grammatical sentences that simply mean something else. \"Pretender\" is to intend or plan: \"pretendo sair cedo\" means I'm planning to leave early. To pretend is \"fingir\". \"Realizar\" is to carry out, hold or fulfill (\"realizar uma pesquisa\", \"realizar um sonho\"). To realize, in the sense of noticing, is \"perceber\" or \"se dar conta de\", and in speech \"cair a ficha\" (\"aí caiu a ficha\": then it sank in).",
           "Attend splits three ways. \"Atender\" is what a salesclerk, a doctor or someone picking up a ringing phone does: serve, see, answer. \"Assistir a\" is to watch or sit in on (\"assistir a uma palestra\"), with its preposition in the norm. To attend a meeting as a participant is \"participar de\" or \"comparecer a\", and to attend a school is \"frequentar\". To assist someone is \"ajudar\" or \"auxiliar\".",
           "\"Puxar\" is to pull, and push is \"empurrar\": door signs catch visitors out every day. \"Suportar\" is to bear or stand (\"não suporto calor\"). To support a person or a cause is \"apoiar\".",
         ],
@@ -284,7 +284,7 @@ export const PT_C2_U05: Lesson[] = [
         body: [
           "When English -ing works as a noun (Smoking kills, I hate waiting), Portuguese uses the infinitive, never the gerúndio: \"Fumar mata\", \"Odeio esperar\". The same rule holds after every preposition: \"antes de sair\", \"sem pensar\", \"em vez de reclamar\", \"depois de comer\". \"Antes de saindo\" is the classic calque, and it is simply ungrammatical.",
           "Where English uses an -ing noun, Portuguese often has a real noun, and it reads better in titles and formal prose. The opening of the exhibition is \"a abertura da exposição\", the booking is \"a reserva\", the building is \"o prédio\", the shopping is \"as compras\". Look for the noun before you put an article on an infinitive; \"o abrir da exposição\" is literary at best.",
-          "Means is the one place where -ing and the gerúndio meet: You learn by practicing is \"A gente aprende praticando\". On arriving, meaning at the moment of arriving, is \"ao chegar\", the reduced clause from C1. After verbs of perception both forms work: I saw her leaving is \"Eu a vi saindo\" or \"Eu a vi sair\" (in speech, \"vi ela saindo\").",
+          "Means is the one place where -ing and the gerúndio meet: You learn by practicing is \"A gente aprende praticando\". On arriving, meaning at the moment of arriving, is \"ao chegar\", the reduced clause from the Advanced level. After verbs of perception both forms work: I saw her leaving is \"Eu a vi saindo\" or \"Eu a vi sair\" (in speech, \"vi ela saindo\").",
         ],
         examples: [
           { es: "Fumar faz mal à saúde.", en: "Smoking is bad for your health." },
@@ -1049,7 +1049,7 @@ export const PT_C2_U05: Lesson[] = [
         heading: "Summarizing: select, don't shadow",
         body: [
           "Mediation is not translation. When a Brazilian colleague asks what an English report says, they want the gist in natural Portuguese, not every sentence in its original order. Decide first what this reader needs. Then rebuild the content around three things: the main claim, the key evidence and what it means for them. Detail that doesn't change the conclusion can go.",
-          "Open by framing the source, so the listener knows whose voice they're hearing: \"O texto trata de...\", \"Em linhas gerais...\", \"Segundo o relatório...\". The journalistic conditional from C1 suits claims you report without endorsing: \"a medida teria pouco efeito\". Then flag the point you most want remembered: \"O ponto central é que...\", \"Vale destacar que...\".",
+          "Open by framing the source, so the listener knows whose voice they're hearing: \"O texto trata de...\", \"Em linhas gerais...\", \"Segundo o relatório...\". The journalistic conditional from Advanced suits claims you report without endorsing: \"a medida teria pouco efeito\". Then flag the point you most want remembered: \"O ponto central é que...\", \"Vale destacar que...\".",
           "The trap is shadowing English structure. English reports stack hedges ('may potentially suggest') and front-load abstract nouns. A Portuguese summary keeps one hedge (\"pode indicar\", \"sugere\") and puts a clear subject and verb early. If your summary is as long as the original, you've translated it.",
         ],
         examples: [
@@ -1158,7 +1158,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "Live mediation, and the other way around",
         body: [
-          "Informal mediation reports the speaker in the third person: \"Ela está perguntando se...\", \"O que ele quis dizer é que...\", \"Ele pediu para a gente...\". Trained interpreters, by contrast, use the first person. Reported speech from B1 does the work, tense shifts included. Before you relay something ambiguous, check it: \"Só para confirmar: o senhor quer que...?\"",
+          "Informal mediation reports the speaker in the third person: \"Ela está perguntando se...\", \"O que ele quis dizer é que...\", \"Ele pediu para a gente...\". Trained interpreters, by contrast, use the first person. Reported speech from Intermediate does the work, tense shifts included. Before you relay something ambiguous, check it: \"Só para confirmar: o senhor quer que...?\"",
           "Adjust the tone as well as the words. A blunt 'That won't work' relayed literally as \"Isso não vai funcionar\" can sound harsher to a Brazilian client than the speaker intended. \"Ele acha que, do jeito que está, não funciona\" carries the same content with Brazilian softness. Never invent agreement where the speaker disagreed.",
           "Mediating a Brazilian text for English speakers reverses the gap. \"Carteira assinada\", \"13º salário\" and \"CLT\" each need an English gloss: a formally registered job with full labor rights, a mandatory extra month's pay in December, and the labor code that guarantees both. The skill is the same: name it, anchor it, move on.",
         ],
@@ -1974,7 +1974,7 @@ export const PT_C2_U05: Lesson[] = [
       {
         heading: "False friends that pass the spellchecker",
         body: [
-          "At C2 the false friends that survive are the dangerous ones: they produce a real Portuguese sentence with the wrong meaning, so no spellchecker flags them. \"Realizei que estava errado\" says I carried out that I was wrong; to realize is \"perceber\" or \"me dar conta\". \"Atualmente\" means currently, never actually (\"na verdade\"). \"Eventualmente\" means now and then; eventually is \"no fim\" or \"acabar\" + gerund: \"ela acabou aceitando\".",
+          "At the Mastery level the false friends that survive are the dangerous ones: they produce a real Portuguese sentence with the wrong meaning, so no spellchecker flags them. \"Realizei que estava errado\" says I carried out that I was wrong; to realize is \"perceber\" or \"me dar conta\". \"Atualmente\" means currently, never actually (\"na verdade\"). \"Eventualmente\" means now and then; eventually is \"no fim\" or \"acabar\" + gerund: \"ela acabou aceitando\".",
           "Test every word that looks like its English twin. \"Compromisso\" is an appointment or a commitment; a compromise is \"um meio-termo\" or \"um acordo\". \"Sensível\" is sensitive; sensible is \"sensato\". \"Injúria\" is a legal insult; an injury is \"uma lesão\". \"Suportar\" means to put up with; to support is \"apoiar\".",
         ],
         examples: [

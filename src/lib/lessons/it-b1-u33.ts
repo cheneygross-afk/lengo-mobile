@@ -17,7 +17,7 @@ export const IT_B1_U33: Lesson[] = [
       {
         heading: "The exam and the strategy",
         body: [
-          "CILS UNO is the Intermediate (B1) certificate of the Università per Stranieri di Siena. It has five parts, each marked separately: listening, reading, grammar and vocabulary (\"analisi delle strutture di comunicazione\"), writing and speaking. Check the current format and timings on the official CILS site before you book.",
+          "CILS UNO is the Intermediate (Intermediate) certificate of the Università per Stranieri di Siena. It has five parts, each marked separately: listening, reading, grammar and vocabulary (\"analisi delle strutture di comunicazione\"), writing and speaking. Check the current format and timings on the official CILS site before you book.",
           "In the listening part you hear short real-life recordings: announcements, phone messages, short dialogues. Strategy: read the question and options before the audio, decide what kind of detail you need (a time, a place, a reason), and don't panic at unknown words: listen for the answer, not for every word.",
         ],
         examples: [
@@ -529,7 +529,7 @@ export const IT_B1_U33: Lesson[] = [
     slug: "b1-drill-b1-grammar-1",
     level: "IT-B1",
     number: 8,
-    title: "Drill: B1 Grammar, Part 1 of 2",
+    title: "Drill: Grammar, Part 1 of 2",
     summary: "High-repetition translation across Intermediate Units 1-17: combined pronouns, pronominal verbs, trapassato, subjunctive, past conditional, future perfect, if-clauses, gerund.",
     duration: "22 min",
     kind: "drill",
@@ -577,7 +577,7 @@ export const IT_B1_U33: Lesson[] = [
     slug: "b1-drill-b1-grammar-2",
     level: "IT-B1",
     number: 9,
-    title: "Drill: B1 Grammar, Part 2 of 2",
+    title: "Drill: Grammar, Part 2 of 2",
     summary: "High-repetition translation across Intermediate Units 18-32: infinitives with prepositions, fare + infinitive, passive, si, relatives, connectors, reciprocal verbs, reported speech.",
     duration: "22 min",
     kind: "drill",

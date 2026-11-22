@@ -1351,8 +1351,8 @@ export const PT_A1_U08: Lesson[] = [
     slug: "a1-error-hunt-a1",
     level: "PT-A1",
     number: 7,
-    title: "Error Hunt: The Whole A1",
-    summary: "Find and fix the mistakes learners make most across A1: ser vs estar, gender, contractions, gostar de, estar + gerúndio and Spanish words that sneak in.",
+    title: "Error Hunt: The Whole Beginner Level",
+    summary: "Find and fix the mistakes learners make most across Beginner: ser vs estar, gender, contractions, gostar de, estar + gerúndio and Spanish words that sneak in.",
     duration: "12 min",
     kind: "drill",
     format: "Error Hunt",
@@ -1808,7 +1808,7 @@ export const PT_A1_U08: Lesson[] = [
     level: "PT-A1",
     number: 9,
     title: "Beginner Final Review, Part 2 of 2",
-    summary: "A mixed review of the second half of A1 in fresh situations: plans with ir, irregular verbs, questions, numbers and time, family and places, likes, the present progressive and a gente.",
+    summary: "A mixed review of the second half of Beginner in fresh situations: plans with ir, irregular verbs, questions, numbers and time, family and places, likes, the present progressive and a gente.",
     duration: "14 min",
     sections: [
       {
@@ -2069,7 +2069,7 @@ export const PT_A1_U08: Lesson[] = [
           { left: "Faz frio em Curitiba.", right: "It's cold in Curitiba." },
           { left: "O carro deles é novo.", right: "Their car is new." },
         ],
-        explanation: "These sentences mix the second half of A1: a routine chunk, the progressive, \"a gente\" with the ele form, \"fazer\" for weather and \"deles\" for their.",
+        explanation: "These sentences mix the second half of the Beginner level: a routine chunk, the progressive, \"a gente\" with the ele form, \"fazer\" for weather and \"deles\" for their.",
       },
     ],
   },

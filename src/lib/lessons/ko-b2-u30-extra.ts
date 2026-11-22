@@ -9,7 +9,7 @@ export const KO_B2_U30_EXTRA: Lesson[] = [
     level: "KO-B2",
     number: 1,
     optional: true,
-    title: "Extra Practice: B2 Grammar Mix",
+    title: "Extra Practice: Grammar Mix",
     summary: "Mixed translation across the level: one new sentence each for contrast, let alone, calculations, only-if, hypotheticals, word formation, idioms, news, theme-unit patterns, contractions and offers.",
     duration: "15 min",
     sections: [
@@ -168,7 +168,7 @@ export const KO_B2_U30_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["I'll contact you as soon as the meeting ends.", "I'll contact you the way we discussed in the meeting.", "I contacted you after the meeting ended.", "Please contact me before the meeting ends."],
         correctIndex: 0,
-        explanation: "After an action verb in the present, -는 대로 means 'as soon as' (B1); -(으)ㄴ 대로 after a past verb means 'the way'.",
+        explanation: "After an action verb in the present, -는 대로 means 'as soon as' (Intermediate); -(으)ㄴ 대로 after a past verb means 'the way'.",
       },
       {
         type: "dictation",
@@ -188,7 +188,7 @@ export const KO_B2_U30_EXTRA: Lesson[] = [
     level: "KO-B2",
     number: 2,
     optional: true,
-    title: "Extra Practice: B2 Vocabulary Mix",
+    title: "Extra Practice: Vocabulary Mix",
     summary: "The theme vocabulary of Units 17-24 in new contexts: society (저출산, 맞벌이, 육아 휴직), work (재택근무, 칼퇴, 워라밸), education (사교육), environment (분리수거, 미세먼지), technology (악플, 개인 정보), economy (가성비, 할부, 충동구매), health (면역력, 번아웃) and culture (원작, 시청률).",
     duration: "15 min",
     sections: [
@@ -437,7 +437,7 @@ export const KO_B2_U30_EXTRA: Lesson[] = [
         rubric: [
           "Content: names the criteria (such as income, security, aptitude, work-life balance), explains the problem of relying on one criterion with an example, and states the attitude needed in the 결론",
           "Structure: four paragraphs (서론, two 본론, 결론) with a 서론 in the writer's own words and real connectors (그러나, 예를 들어, 반대로, 실제로, 물론 ... 따라서)",
-          "Language use: B2 grammar used accurately, such as -(으)ㄹ 뿐만 아니라, -는 가운데, -기 쉽다, -기 마련이다, -다 보면, -(으)ㄹ 수도 있다, -ㄴ다면 ... -(으)ㄹ 것이다, with written vocabulary (소득, 안정성, 적성, 가치관)",
+          "Language use: Upper-intermediate grammar used accurately, such as -(으)ㄹ 뿐만 아니라, -는 가운데, -기 쉽다, -기 마련이다, -다 보면, -(으)ㄹ 수도 있다, -ㄴ다면 ... -(으)ㄹ 것이다, with written vocabulary (소득, 안정성, 적성, 가치관)",
           "Register and form: 한다체 throughout (no 저 / 제, -요, 습니다 or 근데), dependent nouns spaced, and 600-700 characters",
         ],
         modelAnswer: "직업은 생계를 유지하는 수단일 뿐만 아니라 자신의 꿈을 실현하는 통로이기도 하다. 그래서 많은 사람들이 직업을 선택할 때 오랫동안 고민한다. 이 글에서는 사람들이 직업을 선택하는 기준과 그에 따른 문제를 살펴보고, 바람직한 직업 선택을 위해 필요한 태도에 대해 논의하고자 한다.\n\n사람들이 직업을 선택할 때 가장 중요하게 생각하는 기준은 보통 소득과 안정성이다. 물가가 계속 오르는 가운데 안정적인 수입은 생활에 꼭 필요하기 때문이다. 이 밖에도 적성과 흥미, 그리고 일과 삶의 균형을 중요하게 여기는 사람이 늘고 있다.\n\n그러나 한 가지 기준만으로 직업을 선택하면 문제가 생기기 쉽다. 예를 들어 연봉만 보고 회사를 고른 사람은 일에 흥미를 느끼지 못해 금방 지치기 마련이다. 반대로 흥미만 따르다 보면 경제적인 어려움을 겪을 수도 있다. 실제로 입사 후 일 년도 안 되어 회사를 그만두는 신입 사원이 적지 않다.\n\n물론 처음부터 완벽한 직업을 찾기는 어렵다. 따라서 직업을 선택할 때는 여러 기준을 균형 있게 고려하는 태도가 필요하다. 무엇보다 자신이 어떤 사람인지 먼저 알아야 하며, 직업을 고른 뒤에도 꾸준히 배우면서 자신에게 맞는 길을 찾아가야 한다. 자신의 적성과 가치관을 충분히 살펴본 후에 결정한다면 후회 없는 선택을 할 수 있을 것이다.",
@@ -468,7 +468,7 @@ export const KO_B2_U30_EXTRA: Lesson[] = [
         sentence: "반대로 ___ 경제적인 어려움을 겪을 수도 있다.",
         answer: "흥미만 따르다 보면",
         altAnswers: ["흥미만 따르면", "흥미만 좇다 보면", "흥미만 추구하다 보면"],
-        explanation: "-다 보면 'if you keep doing it' (B1 Unit 28, Unit 21 spiral) leads to a likely result.",
+        explanation: "-다 보면 'if you keep doing it' (Intermediate Unit 28, Unit 21 spiral) leads to a likely result.",
       },
       {
         type: "translate",

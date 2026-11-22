@@ -16,7 +16,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
     level: "C1",
     hsk: "HSK 5–6",
     intro: [
-      "At C1 you start to argue: to concede a point and then push back, to weigh two options, to say which you'd choose even at a cost. These patterns are the backbone of essays, debates and serious conversation. Most have a written flavour; the guide notes the spoken equivalents.",
+      "At the Advanced Chinese level you start to argue: to concede a point and then push back, to weigh two options, to say which you'd choose even at a cost. These patterns are the backbone of essays, debates and serious conversation. Most have a written flavour; the guide notes the spoken equivalents.",
     ],
     sections: [
       {
@@ -92,7 +92,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Is 而 always 'whereas'?",
-        a: "No. 而 is a flexible written linker: 'and', 'but', 'whereas', or linking manner to action (匆匆而去). The C2 guide on 而, 则 and 且 covers its full range.",
+        a: "No. 而 is a flexible written linker: 'and', 'but', 'whereas', or linking manner to action (匆匆而去). The Proficient Chinese guide on 而, 则 and 且 covers its full range.",
       },
       {
         q: "What's the difference between 宁可 and 宁愿?",
@@ -200,7 +200,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
     level: "C1",
     hsk: "HSK 5–6",
     intro: [
-      "很 and 非常 get you through B1. At C1 you need words with more colour: some written (极其), some vivid and spoken (得要命), some that carry an attitude rather than a degree (简直, 明明, 可). Each has a fixed position, which is where most mistakes happen.",
+      "很 and 非常 get you through the Independent Chinese level. At the Advanced Chinese level you need words with more colour: some written (极其), some vivid and spoken (得要命), some that carry an attitude rather than a degree (简直, 明明, 可). Each has a fixed position, which is where most mistakes happen.",
     ],
     sections: [
       {
@@ -302,9 +302,9 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: "甚至 at C1",
+        heading: "甚至 at the Advanced Chinese level",
         body: [
-          "甚至 (shènzhì) adds a further, more extreme example. At C1 it often comes in the middle of a series, sometimes as 甚至于 or with 连: 他不但不道歉，甚至还怪别人 (not only did he not apologise, he even blamed others).",
+          "甚至 (shènzhì) adds a further, more extreme example. At the Advanced Chinese level it often comes in the middle of a series, sometimes as 甚至于 or with 连: 他不但不道歉，甚至还怪别人 (not only did he not apologise, he even blamed others).",
         ],
         examples: [
           { zh: "这个病很难治，有的人甚至要治好几年。", pinyin: "Zhège bìng hěn nán zhì, yǒu de rén shènzhì yào zhì hǎo jǐ nián.", en: "This illness is hard to treat; some people even need several years of treatment." },
@@ -468,13 +468,13 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
   // ------------------------------------------------------------------
   {
     slug: "spoken-structures-c1",
-    title: "Spoken Structures at C1: Figurative Complements, 把 Revisited, 彼此 and 动不动就",
+    title: "Spoken Structures at the Advanced Chinese Level: Figurative Complements, 把 Revisited, 彼此 and 动不动就",
     description:
       "Advanced spoken grammar: figurative directional complements (想起来, 坚持下去), fixed potential forms (舍不得, 看不惯), 把 with negation and modals, colloquial 给, 彼此 and 互相, 动不动就, and frames like 爱V不V and 说V就V.",
     level: "C1",
     hsk: "HSK 5–6",
     intro: [
-      "C1 speech is full of short, idiomatic structures that a textbook rarely spells out: complements that have drifted far from their literal meaning, fixed potential forms that work like single words, and frames that express impatience or indifference. They make your Chinese sound natural rather than translated.",
+      "Advanced Chinese speech is full of short, idiomatic structures that a textbook rarely spells out: complements that have drifted far from their literal meaning, fixed potential forms that work like single words, and frames that express impatience or indifference. They make your Chinese sound natural rather than translated.",
     ],
     sections: [
       {
@@ -921,7 +921,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
   // ------------------------------------------------------------------
   {
     slug: "news-and-trends-c1",
-    title: "Reading the News: 据报道, 已 / 仍 / 尚未, 日益, 屡次 and Numbers at C1",
+    title: "Reading the News: 据报道, 已 / 仍 / 尚未, 日益, 屡次 and Numbers at the Advanced Chinese Level",
     description:
       "The grammar of the press: reporting verbs (表示, 称, 指出, 强调), written time words (已, 曾, 正, 将, 仍, 尚未), gradual and repeated change (日益, 逐步, 一再, 屡次), approximate numbers, 成 and 折, and measure words for abstract things.",
     level: "C1",
@@ -954,7 +954,7 @@ export const ZH_GUIDES_C1: ZhGrammarGuide[] = [
       {
         heading: "Gradual and repeated change",
         body: [
-          "日益 (rìyì) means 'increasingly, day by day' and is written: 日益严重 (increasingly serious). 逐步 and 逐渐 (gradually), 陆续 and 纷纷 (one after another) return from B2 in more formal contexts.",
+          "日益 (rìyì) means 'increasingly, day by day' and is written: 日益严重 (increasingly serious). 逐步 and 逐渐 (gradually), 陆续 and 纷纷 (one after another) return from Upper-Intermediate Chinese in more formal contexts.",
           "一再 (yízài) and 再三 (zàisān) mean 'again and again', usually for requests and warnings: 他一再强调…; 再三 can follow the verb (考虑再三). 屡次 (lǚcì) is written 'repeatedly'. 反复 (fǎnfù) means 'over and over', also of illnesses that keep returning.",
         ],
         examples: [

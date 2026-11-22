@@ -799,7 +799,7 @@ export const IT_A1_U06: Lesson[] = [
     slug: "a1-spiral-units-1-6",
     level: "IT-A1",
     number: 11,
-    title: "Spiral Review: The First Half of A1",
+    title: "Spiral Review: The First Half of the Beginner Level",
     summary: "Follow a day in the life of Sofia, a nurse in Bari, using everything from Units 1-6.",
     duration: "16 min",
     kind: "review",

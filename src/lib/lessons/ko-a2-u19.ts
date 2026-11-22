@@ -1058,7 +1058,7 @@ export const KO_A2_U19: Lesson[] = [
       {
         heading: "아마 ... -(으)ㄹ 거예요: probably",
         body: [
-          "The A1 future -(으)ㄹ 거예요 is also a guess about someone else: 아마 늦을 거예요 'He'll probably be late', 아마 집에 있을 거예요 'She's probably at home'. 아마 'probably' flags the guess, and it wants a guessing ending: 아마 늦어요 sounds less natural, a plain fact with a stray 'probably'.",
+          "The Beginner future -(으)ㄹ 거예요 is also a guess about someone else: 아마 늦을 거예요 'He'll probably be late', 아마 집에 있을 거예요 'She's probably at home'. 아마 'probably' flags the guess, and it wants a guessing ending: 아마 늦어요 sounds less natural, a plain fact with a stray 'probably'.",
           "For a guess about the past, put -았 / 었- in front: 지금쯤 도착했을 거예요 'He'll have arrived by now'. 아마 also goes with 것 같아요. -(으)ㄹ 거예요 sounds a little surer, a prediction from what you know; 것 같아요 sounds more like an impression.",
         ],
         examples: [
@@ -2150,7 +2150,7 @@ export const KO_A2_U19: Lesson[] = [
       {
         heading: "What you expected, what you saw",
         body: [
-          "Korean map apps are full of short restaurant reviews (리뷰). A typical one compares the photos with the real thing: 사진에서는 맛있어 보였는데 ... 'It looked tasty in the photos, but ...'. Here -는데 joins two clauses like 'but'; you'll study it in B1, so just recognise it for now.",
+          "Korean map apps are full of short restaurant reviews (리뷰). A typical one compares the photos with the real thing: 사진에서는 맛있어 보였는데 ... 'It looked tasty in the photos, but ...'. Here -는데 joins two clauses like 'but'; you'll study it in the Intermediate level, so just recognise it for now.",
           "Reviews describe the place with what you saw: 가게가 깨끗해 보였어요, 직원들이 친절해 보였어요. For how something seemed at the time, put 같다 in the past: 인기가 많은 것 같았어요.",
         ],
         examples: [

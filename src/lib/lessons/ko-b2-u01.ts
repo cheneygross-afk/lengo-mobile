@@ -20,7 +20,7 @@ export const KO_B2_U01: Lesson[] = [
         heading: "Adjectives: 비싼 반면에, 많은 반면에",
         body: [
           "To weigh two things against each other, Korean uses 반면에 'whereas, on the other hand'. 반면 is a noun (literally 'the opposite face'), so the clause before it needs a modifier ending, exactly like 동안 or 때. With adjectives that is -(으)ㄴ: 비싸다 → 비싼 반면에, 많다 → 많은 반면에, 조용하다 → 조용한 반면에.",
-          "The two sides usually both carry contrastive 은 / 는: 서울은 ... 부산은 .... You met this contrast at A2; here it does real work, because it tells the listener which two things are on the scales. With 이 / 가 on both, the sentence sounds like two separate pieces of news. The 에 is optional: 비싼 반면 and 비싼 반면에 mean the same, and the short form leans slightly written.",
+          "The two sides usually both carry contrastive 은 / 는: 서울은 ... 부산은 .... You met this contrast at the Elementary level; here it does real work, because it tells the listener which two things are on the scales. With 이 / 가 on both, the sentence sounds like two separate pieces of news. The 에 is optional: 비싼 반면 and 비싼 반면에 mean the same, and the short form leans slightly written.",
           "How is it different from -지만? -지만 is a plain 'but' for any contrast. 반면에 promises a balanced look at two sides, so it sounds considered and a little formal: right in a meeting, a review or an opinion, slightly stiff in a quick text to a friend. Lesson 4 sets the two side by side.",
         ],
         examples: [
@@ -325,7 +325,7 @@ export const KO_B2_U01: Lesson[] = [
       {
         heading: "Starting a sentence: 반면에, 이와 반대로",
         body: [
-          "In writing, Koreans often split the comparison into two sentences and open the second with 반면에 (or just 반면): 도시는 편리하다. 반면에 공기가 나쁘다. This is the plain written style (한다체) you learned at B1, the style of essays, reports and TOPIK writing. 이와 반대로 'in contrast to this' is stronger: use it when the second fact runs the opposite way.",
+          "In writing, Koreans often split the comparison into two sentences and open the second with 반면에 (or just 반면): 도시는 편리하다. 반면에 공기가 나쁘다. This is the plain written style (한다체) you learned at the Intermediate level, the style of essays, reports and TOPIK writing. 이와 반대로 'in contrast to this' is stronger: use it when the second fact runs the opposite way.",
           "Two things to watch. In 한다체, action verbs take -ㄴ다 / -는다 in the present (찾는다, 본다) while adjectives stay in the dictionary form (맑다, 멀다), so *맑는다 is wrong. And don't stack connectors: 반면에 하지만 says 'but' twice. Choose one tool: the ending -(으)ㄴ / 는 반면에 inside one sentence, or 반면에 opening the next sentence.",
         ],
         examples: [
@@ -510,7 +510,7 @@ export const KO_B2_U01: Lesson[] = [
       {
         heading: "Spacing: 하는 데 반해, not *하는데 반해",
         body: [
-          "Here 데 is a dependent noun, 'point, case', and the full form is 데에 반해. Dependent nouns stand apart, so 하는 데 반해 is spaced. The connective -는데 you learned at B1 is one ending glued to the stem: 비가 오는데 우산이 없어요. Same letters, different grammar.",
+          "Here 데 is a dependent noun, 'point, case', and the full form is 데에 반해. Dependent nouns stand apart, so 하는 데 반해 is spaced. The connective -는데 you learned at the Intermediate level is one ending glued to the stem: 비가 오는데 우산이 없어요. Same letters, different grammar.",
           "The test: if you could slip 에 in after 데 (오른 데에 반해), it's the noun and needs a space. Typed answers forgive spacing, but TOPIK graders and Korean readers notice.",
         ],
         examples: [
@@ -919,7 +919,7 @@ export const KO_B2_U01: Lesson[] = [
       {
         heading: "Verbs and adjectives: 노력했음에도, 비쌈에도",
         body: [
-          "For a whole clause, first turn it into a noun with -(으)ㅁ from B1: consonant stems add 음 (있음, 많음), vowel stems add ㅁ (비쌈, 함), ㄹ stems keep the ㄹ (힘듦, 삶), and nouns take 임 (학생임). Then add 에도 불구하고. For a finished event use the past: 노력했음에도 불구하고, 설명했음에도 불구하고.",
+          "For a whole clause, first turn it into a noun with -(으)ㅁ from the Intermediate level: consonant stems add 음 (있음, 많음), vowel stems add ㅁ (비쌈, 함), ㄹ stems keep the ㄹ (힘듦, 삶), and nouns take 임 (학생임). Then add 에도 불구하고. For a finished event use the past: 노력했음에도 불구하고, 설명했음에도 불구하고.",
           "Spelling trap: the past is 했음, 갔음, 있었음, never *했슴. The 슴 comes from mixing it up with 습니다; the ending is always 음 after a consonant. 불구하고 can also drop: 노력했음에도 시험에 떨어졌다 means the same and is common in writing.",
         ],
         examples: [
@@ -1090,7 +1090,7 @@ export const KO_B2_U01: Lesson[] = [
       {
         heading: "-는데도: 'even though' in speech",
         body: [
-          "In conversation, Koreans rarely say -(으)ㅁ에도 불구하고. They take the connective -는데 you know from B1 and add 도 'even': 아침을 먹었는데도 배가 고파요 'even though I ate breakfast, I'm hungry'. The tone is mild surprise or frustration: this shouldn't be happening, but it is.",
+          "In conversation, Koreans rarely say -(으)ㅁ에도 불구하고. They take the connective -는데 you know from the Intermediate level and add 도 'even': 아침을 먹었는데도 배가 고파요 'even though I ate breakfast, I'm hungry'. The tone is mild surprise or frustration: this shouldn't be happening, but it is.",
           "The forms follow -는데 exactly. Action verbs and 있다 / 없다: 먹는데도, 맛있는데도. Past: 먹었는데도, 했는데도. Adjectives: 비싼데도, 좋은데도. Nouns: 주말인데도. It's one word, glued together, unlike the spaced 데 반해.",
           "Plain -는데 can already mean 'but' (먹었는데 배가 고파요); the 도 adds 'even' and insists the result shouldn't have happened. You'll also hear -는데도 불구하고 (학생인데도 불구하고): it's grammatical, but it sounds like a lecture, so keep it for formal speech, not for chats with friends.",
         ],
@@ -1166,7 +1166,7 @@ export const KO_B2_U01: Lesson[] = [
       {
         heading: "-는데도 or -아 / 어도?",
         body: [
-          "B1 taught -아 / 어도 'even if, even though'. It covers both real and imagined situations: 비가 와도 갈 거예요 'even if it rains, I'll go'. -는데도 only works with a fact that is already true: 비가 오는데도 축구를 했어요 'it was raining, yet we played football'. So for anything hypothetical or in the future, choose -아 / 어도.",
+          "The Intermediate level taught -아 / 어도 'even if, even though'. It covers both real and imagined situations: 비가 와도 갈 거예요 'even if it rains, I'll go'. -는데도 only works with a fact that is already true: 비가 오는데도 축구를 했어요 'it was raining, yet we played football'. So for anything hypothetical or in the future, choose -아 / 어도.",
           "-아 / 어도 can also take a request (비가 와도 꼭 오세요), but -는데도 can't, any more than 불구하고 can. And 아무리 'however much' pairs with -아 / 어도: 아무리 바빠도 밥은 먹어야 해요.",
           "A quick test: if you could start the English with 'it's a fact that ...', both endings work. If the first half means 'if' or 'whatever', only -아 / 어도 does.",
         ],

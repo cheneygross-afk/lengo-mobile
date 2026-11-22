@@ -16,7 +16,7 @@ export const PT_B2_U06: Lesson[] = [
         heading: "Gostar de, precisar de, depender de",
         body: [
           "English likes things directly and depends 'on' them. Portuguese hangs all three of these verbs on \"de\": \"gostar de\", \"precisar de\", \"depender de\". Saying \"gosto o filme\" or \"depende em você\" is the classic English-speaker slip.",
-          "\"De\" contracts with a following article or pronoun, as it has since A1: \"gosto do Rio\", \"depende da hora\", \"preciso disso\", \"depende dele\". Before a bare noun it stays whole: \"preciso de ajuda\".",
+          "\"De\" contracts with a following article or pronoun, as it has since the Beginner level: \"gosto do Rio\", \"depende da hora\", \"preciso disso\", \"depende dele\". Before a bare noun it stays whole: \"preciso de ajuda\".",
           "Before an infinitive, \"gostar de\" keeps its preposition (\"gosto de cozinhar\"). After \"precisar\", Brazilians usually drop it: \"preciso sair\" is standard. In questions the preposition moves to the front and can't be left at the end as in English. 'Who does it depend on?' is \"De quem depende?\"",
         ],
         examples: [
@@ -330,7 +330,7 @@ export const PT_B2_U06: Lesson[] = [
       {
         heading: "Chegar a in writing, chegar em in speech",
         body: [
-          "You met the split between \"ir a\" and \"ir em\" at A2, and \"chegar\" splits the same way. A news report says \"o presidente chegou a Brasília\" and \"o voo chegou ao Rio às oito\". In conversation everyone says \"cheguei em Brasília\" or \"cheguei no aeroporto\".",
+          "You met the split between \"ir a\" and \"ir em\" at the Elementary level, and \"chegar\" splits the same way. A news report says \"o presidente chegou a Brasília\" and \"o voo chegou ao Rio às oito\". In conversation everyone says \"cheguei em Brasília\" or \"cheguei no aeroporto\".",
           "Each form is right in its place, but \"chegar em\" in a formal text reads as careless. Home, which takes no article, is \"chegar a casa\" in the norm and \"chegar em casa\" in speech. It is never \"à casa\". The figurative \"chegar a um acordo\" (to reach an agreement) uses \"a\" as its standard form.",
         ],
         examples: [
@@ -992,7 +992,7 @@ export const PT_B2_U06: Lesson[] = [
         heading: "The preposition goes first",
         body: [
           "English parks the preposition at the end: the movie I watched, the person I dream about. Portuguese never leaves a preposition hanging. When the verb inside the relative clause takes one (\"gostar de\", \"pensar em\", \"sonhar com\", \"assistir a\"), it moves to the front, right before the relative: \"o filme a que assisti\", \"a pessoa com quem sonho\".",
-          "As at B1, things take \"que\" after short prepositions and people take \"quem\". The preposition belongs to the verb of the clause, not to the main sentence, so find that verb first. In \"a cidade em que pensei\", the \"em\" comes from \"pensar em\".",
+          "As at the Intermediate level, things take \"que\" after short prepositions and people take \"quem\". The preposition belongs to the verb of the clause, not to the main sentence, so find that verb first. In \"a cidade em que pensei\", the \"em\" comes from \"pensar em\".",
           "\"Que\" has no article, so nothing contracts: \"de que\", \"em que\", and \"a que\" with no crase (\"a peça a que assisti\").",
         ],
         examples: [
@@ -2185,7 +2185,7 @@ export const PT_B2_U06: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Prepositions and Crase",
-    summary: "Mixed practice of verb prepositions, the crase and a / à / há in emails, notices and reports, combined with the B2 subjunctives and conditionals.",
+    summary: "Mixed practice of verb prepositions, the crase and a / à / há in emails, notices and reports, combined with the Upper-intermediate subjunctives and conditionals.",
     duration: "15 min",
     sections: [
       {

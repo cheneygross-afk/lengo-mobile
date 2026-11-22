@@ -80,7 +80,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "Eu vi ele or eu o vi?",
         body: [
-          "As you saw at A2, Brazilians say \"eu vi ele\" and \"vou chamar ela\", using the subject pronoun as an object. That is natural in speech and casual messages, but the written norm counts it as an error. In writing, use \"eu o vi\", \"nós a convidamos\" and \"vou chamá-la\".",
+          "As you saw at the Elementary level, Brazilians say \"eu vi ele\" and \"vou chamar ela\", using the subject pronoun as an object. That is natural in speech and casual messages, but the written norm counts it as an error. In writing, use \"eu o vi\", \"nós a convidamos\" and \"vou chamá-la\".",
           "The opposite mistake is just as real: \"o\" and \"a\" sound stiff in a chat with friends. When the object is obvious, speech often drops it entirely: \"Você viu o filme? Vi.\"",
         ],
         examples: [
@@ -2225,7 +2225,7 @@ export const PT_B2_U08: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Choosing Your Register",
-    summary: "Mixed practice moving between chat, email and report, with haver, object pronouns, formal verbs and the B2 subjunctives each in the right register.",
+    summary: "Mixed practice moving between chat, email and report, with haver, object pronouns, formal verbs and the Upper-intermediate subjunctives each in the right register.",
     duration: "15 min",
     kind: "review",
     sections: [
@@ -2233,7 +2233,7 @@ export const PT_B2_U08: Lesson[] = [
         heading: "Speech or norm? The same sentence twice",
         body: [
           "Quick reminder: the written norm uses impersonal \"haver\" in the singular (\"havia muitas pessoas\"), \"nós\" with its own verb form, \"o\" and \"a\" as object pronouns, and \"para\". Speech says \"tinha muita gente\", \"a gente\", \"ele\" as an object and \"pra\". Neither set is wrong. Each is only wrong in the other's place.",
-          "The B2 trap is mixing levels: an email that opens with \"A gente gostaria\", or \"haviam\" because the noun after it is plural. When you raise the register, change every marker in the sentence, not just one. The grammar underneath doesn't move: \"embora\" takes the subjunctive in a chat and in a report alike.",
+          "The Upper-intermediate trap is mixing levels: an email that opens with \"A gente gostaria\", or \"haviam\" because the noun after it is plural. When you raise the register, change every marker in the sentence, not just one. The grammar underneath doesn't move: \"embora\" takes the subjunctive in a chat and in a report alike.",
         ],
         examples: [
           { es: "Tinha muita gente na reunião, mas ninguém falou nada.", en: "There were tons of people at the meeting, but nobody said a thing." },

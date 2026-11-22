@@ -1228,7 +1228,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Do lado do mercado, em frente à igreja",
         body: [
           "Place words carry \"de\" or \"a\" and contract with the article: \"perto do banco\", \"longe da praia\", \"do lado do mercado\" (next to the market; in speech Brazilians say \"do lado de\" more than \"ao lado de\"), \"em frente à igreja\" (across from the church), \"na esquina\" (on the corner).",
-          "\"Entre\" (between) never contracts: \"entre o banco e a padaria\". No commands yet: you'll learn \"vire\" and \"siga\" at A2. For now, describe where it is.",
+          "\"Entre\" (between) never contracts: \"entre o banco e a padaria\". No commands yet: you'll learn \"vire\" and \"siga\" at the Elementary level. For now, describe where it is.",
         ],
         examples: [
           { es: "A farmácia fica do lado do mercado.", en: "The pharmacy is next to the grocery store." },

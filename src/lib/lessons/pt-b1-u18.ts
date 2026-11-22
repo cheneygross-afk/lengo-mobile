@@ -246,7 +246,7 @@ export const PT_B1_U18: Lesson[] = [
     slug: "b1-review-tenses",
     level: "PT-B1",
     number: 2,
-    title: "Review: The B1 Tenses",
+    title: "Review: The Intermediate Tenses",
     summary: "Put the conditional, the perfeito composto and the mais-que-perfeito side by side and choose the right one in real sentences.",
     duration: "12 min",
     sections: [
@@ -484,7 +484,7 @@ export const PT_B1_U18: Lesson[] = [
     level: "PT-B1",
     number: 3,
     title: "Review: Complex Sentences",
-    summary: "Mix the personal infinitive, relative pronouns, reported speech and the passive in fresh, longer B1 sentences.",
+    summary: "Mix the personal infinitive, relative pronouns, reported speech and the passive in fresh, longer Intermediate sentences.",
     duration: "14 min",
     kind: "review",
     sections: [
@@ -759,14 +759,14 @@ export const PT_B1_U18: Lesson[] = [
     slug: "b1-error-hunt-b1",
     level: "PT-B1",
     number: 4,
-    title: "Error Hunt: The Whole B1",
-    summary: "Find and fix the typical B1 mistakes in mood, tenses, verb forms, relative clauses, the passive, reported speech and register.",
+    title: "Error Hunt: The Whole Intermediate Level",
+    summary: "Find and fix the typical Intermediate mistakes in mood, tenses, verb forms, relative clauses, the passive, reported speech and register.",
     duration: "15 min",
     sections: [
       {
         heading: "Mood slips: subjunctive or indicative?",
         body: [
-          "Most B1 mistakes are about mood. The subjunctive follows wanting, hoping, doubting, conjunctions like \"para que\", \"embora\" and \"caso\", and descriptions of something that may not exist. Learners write \"quero que você fala\" or \"embora é caro\"; the fixes are \"fale\" and \"seja\".",
+          "Most Intermediate mistakes are about mood. The subjunctive follows wanting, hoping, doubting, conjunctions like \"para que\", \"embora\" and \"caso\", and descriptions of something that may not exist. Learners write \"quero que você fala\" or \"embora é caro\"; the fixes are \"fale\" and \"seja\".",
           "The reverse slip is just as common: belief takes the indicative. \"Acho que ele venha\" is wrong; say \"acho que ele vem\", and keep the subjunctive for \"não acho que\" and \"duvido que\". A thing you already know also takes the indicative: \"moro num apartamento que tem varanda\".",
           "When both verbs share a subject, use the infinitive: \"espero passar\", not \"espero que eu passo\".",
         ],
@@ -807,7 +807,7 @@ export const PT_B1_U18: Lesson[] = [
       {
         heading: "Tense and form slips",
         body: [
-          "Three B1 tenses have form traps. The conditional of \"fazer\", \"dizer\" and \"trazer\" is short: \"faria\", \"diria\", \"traria\", never \"fazeria\". Irregular participles stay irregular after \"ter\": \"tenho feito\", \"tinha dito\", not \"fazido\" or \"dizido\".",
+          "Three Intermediate tenses have form traps. The conditional of \"fazer\", \"dizer\" and \"trazer\" is short: \"faria\", \"diria\", \"traria\", never \"fazeria\". Irregular participles stay irregular after \"ter\": \"tenho feito\", \"tinha dito\", not \"fazido\" or \"dizido\".",
           "Meaning trips English speakers up too. \"Tenho visitado\" means 'I've been visiting lately', so a single visit is \"já visitei Paris\". When one past event came before another, use the mais-que-perfeito: \"quando cheguei, o filme já tinha começado\", not \"já começou\".",
           "The personal infinitive inflects after a preposition with its own subject (\"para eles entenderem\"), but never after \"querer\", \"poder\" or \"dever\": \"eles querem sair\", not \"saírem\".",
         ],
@@ -995,7 +995,7 @@ export const PT_B1_U18: Lesson[] = [
     slug: "b1-transform-b1",
     level: "PT-B1",
     number: 5,
-    title: "Transformations: The B1 Toolkit",
+    title: "Transformations: The Intermediate Toolkit",
     summary: "Rewrite sentences by changing their tense, mood, voice and register, and follow every word that has to change with them.",
     duration: "15 min",
     kind: "reinforce",
@@ -1778,7 +1778,7 @@ export const PT_B1_U18: Lesson[] = [
         heading: "Part 1: Talking about yourself",
         body: [
           "The interview lasts twenty minutes. In the first five, the examiner chats about the questionnaire you filled out: your work, your studies, why you're learning Portuguese. Answer in full sentences with a reason or a detail. A bare \"sim\" shows the examiner nothing.",
-          "Use the B1 tenses where they fit: \"tenho estudado\" for what you've been doing lately, \"nunca tinha morado\" for before a past moment, \"gostaria de\" for plans. If you miss a question, ask \"Desculpe, você poderia repetir?\" Asking is normal and costs you nothing.",
+          "Use the Intermediate tenses where they fit: \"tenho estudado\" for what you've been doing lately, \"nunca tinha morado\" for before a past moment, \"gostaria de\" for plans. If you miss a question, ask \"Desculpe, você poderia repetir?\" Asking is normal and costs you nothing.",
         ],
         examples: [
           { es: "Então, fale um pouco sobre você.", en: "(Examiner) So, tell me a bit about yourself." },
@@ -2359,7 +2359,7 @@ export const PT_B1_U18: Lesson[] = [
     level: "PT-B1",
     number: 10,
     title: "Spiral Review: The Whole Intermediate Level",
-    summary: "A final mixed check of B1: mood choices, the past system and the conditional, reported speech, relatives, the passive, connectors and register.",
+    summary: "A final mixed check of the Intermediate level: mood choices, the past system and the conditional, reported speech, relatives, the passive, connectors and register.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

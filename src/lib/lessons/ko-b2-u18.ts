@@ -721,7 +721,7 @@ export const KO_B2_U18: Lesson[] = [
       {
         heading: "Two traps: 'know how' and real opinions",
         body: [
-          "A2 taught -(으)ㄹ 줄 알다 'know how to': 운전할 줄 알아요 'I can drive'. It looks the same, but it is a skill, not a belief, and it lives in the present: 운전할 줄 알아요? asks about ability. When you meet 줄 알았어요 in the past, the belief reading is the usual one.",
+          "The Elementary level taught -(으)ㄹ 줄 알다 'know how to': 운전할 줄 알아요 'I can drive'. It looks the same, but it is a skill, not a belief, and it lives in the present: 운전할 줄 알아요? asks about ability. When you meet 줄 알았어요 in the past, the belief reading is the usual one.",
           "The bigger trap is English 'I thought'. If you are giving a real opinion, use -다고 생각했다: 발표가 좋았다고 생각했어요 'I thought the presentation was good'. Saying 발표가 좋은 줄 알았어요 tells your listener you were wrong about it, which can sound like a criticism of the speaker.",
         ],
         examples: [
@@ -850,7 +850,7 @@ export const KO_B2_U18: Lesson[] = [
         body: [
           "-아 / 어 봤자 joins the verb 'try' (보다) to a concessive ending, so 가 봤자 is 'even if you go' with an implied 'it won't help'. The stem takes -아 / 어 as in -아 / 어요: 가 봤자, 기다려 봤자, 말해 봤자, 들어 봤자. Where English says 'there's no point -ing' or 'it's no use -ing', Korean puts the verb first and the verdict after: 지금 가 봤자 이미 늦었어요 'There's no point going now; it's already too late'.",
           "The second half delivers the letdown, and a few endings are almost glued to 봤자: 소용없다 'it's no use', 마찬가지다 'it's all the same', -(으)ㄹ 게 뻔하다 'it's obvious that' (Unit 4), or a rhetorical question: 말해 봤자 뭐 해요? 'What's the point of saying anything?' 아무리 'however much' often comes in front: 아무리 일해 봤자 월급은 그대로예요.",
-          "Compare -아 / 어도 (B1), which is a neutral 'even if': 비가 와도 갈 거예요 'I'll go even if it rains'. 봤자 already contains the speaker's verdict that the effort is wasted, so it sounds resigned or dismissive. That is why it is so common in office grumbling, and why it can sound rude if you use it about a colleague's idea in a meeting.",
+          "Compare -아 / 어도 (Intermediate), which is a neutral 'even if': 비가 와도 갈 거예요 'I'll go even if it rains'. 봤자 already contains the speaker's verdict that the effort is wasted, so it sounds resigned or dismissive. That is why it is so common in office grumbling, and why it can sound rude if you use it about a colleague's idea in a meeting.",
         ],
         examples: [
           { es: "지금 가 봤자 이미 늦었어요.", en: "There's no point going now; it's already too late." },
@@ -1098,7 +1098,7 @@ export const KO_B2_U18: Lesson[] = [
         body: [
           "일쑤 carries a sigh. It is for things the speaker sees as bad: lateness, mistakes, forgetting, skipped meals, broken promises. Using it for a good habit sounds as if you are complaining about it: 그 사람은 운동하기 일쑤예요 suggests his exercising is a problem. For neutral or good frequency, use 자주 'often' or 늘 / 항상 'always': 그 사람은 운동을 자주 해요.",
           "Because it judges, -기 일쑤이다 about a superior sounds critical. In a complaint about your own boss to a friend it is exactly right; in a meeting it is undiplomatic. It is common in both speech and writing, from a chat after work to an essay on office culture.",
-          "For past habits, compare -곤 했다 (B1): 주말마다 등산을 가곤 했어요 'I used to go hiking every weekend' is neutral or fond, while 신입 때는 회의에 늦기 일쑤였어요 'I was forever late for meetings when I was new' is a confession. Same frequency, opposite feeling.",
+          "For past habits, compare -곤 했다 (Intermediate): 주말마다 등산을 가곤 했어요 'I used to go hiking every weekend' is neutral or fond, while 신입 때는 회의에 늦기 일쑤였어요 'I was forever late for meetings when I was new' is a confession. Same frequency, opposite feeling.",
         ],
         examples: [
           { es: "주말에도 회사에서 연락이 오기 일쑤예요.", en: "Work calls me all the time, even at weekends." },
@@ -1587,7 +1587,7 @@ export const KO_B2_U18: Lesson[] = [
       {
         heading: "Part 1: Seven o'clock, still at the desk",
         body: [
-          "It is 7 p.m. at a marketing company in 강남. 박 팀장님 stops by 지은's desk with a request. Listen for the honorific verbs from B1 Unit 19: the team leader's own actions take -(으)시- (말씀하신, 주셨어요), while 지은's actions toward him are humble (여쭤보다, 드리다). She answers in polite 해요 with a few formal 습니다 endings, which is how most Korean offices sound.",
+          "It is 7 p.m. at a marketing company in 강남. 박 팀장님 stops by 지은's desk with a request. Listen for the honorific verbs from Intermediate Unit 19: the team leader's own actions take -(으)시- (말씀하신, 주셨어요), while 지은's actions toward him are humble (여쭤보다, 드리다). She answers in polite 해요 with a few formal 습니다 endings, which is how most Korean offices sound.",
           "지은 had misread the deadline, and she says so with 줄 알았다. Notice that she takes the blame softly (제가 잘못 알았네요) instead of saying the boss was unclear.",
         ],
         examples: [

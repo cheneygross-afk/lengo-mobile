@@ -18,7 +18,7 @@ export const PT_C2_U02_EXTRA: Lesson[] = [
         heading: "Puns and homophones",
         body: [
           "Homophones sound the same and are spelled differently: \"concerto\" (concert) / \"conserto\" (repair); \"sessão\" (session, screening) / \"seção\" (section, department) / \"cessão\" (transfer of rights); \"cela\" (cell) / \"sela\" (saddle); \"acender\" (to light) / \"ascender\" (to rise); \"censo\" (census) / \"senso\" (sense); \"caçar\" (to hunt) / \"cassar\" (to revoke).",
-          "A \"trocadilho\" (pun) plays on these or on words with two meanings: \"O pianista foi ao conserto... do piano\". Spelling them right in writing is a C2 marker; in speech, context does the work.",
+          "A \"trocadilho\" (pun) plays on these or on words with two meanings: \"O pianista foi ao conserto... do piano\". Spelling them right in writing is a Mastery marker; in speech, context does the work.",
         ],
         examples: [
           { es: "Fomos a um concerto de música clássica.", en: "We went to a classical music concert." },

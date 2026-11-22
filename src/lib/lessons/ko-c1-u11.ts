@@ -445,7 +445,7 @@ export const KO_C1_U11: Lesson[] = [
       {
         heading: "-(으)ㄴ / 는 경우(에는): the contract's 'if'",
         body: [
-          "In B1 you used -(으)ㄹ 경우 and noun + 의 경우 for 'in case of'. Legal Korean builds almost every condition on 경우, and the modifier carries the tense. 계약을 위반한 경우 is 'where a party has breached the contract' (completed), 계약을 해지하는 경우 'where a party terminates' (the act itself), and 지급이 지연될 경우 'should payment be delayed' (a possibility). Laws prefer -(으)ㄴ / 는 경우; notices and news like -(으)ㄹ 경우. All three translate as 'if' or 'where'.",
+          "In the Intermediate level you used -(으)ㄹ 경우 and noun + 의 경우 for 'in case of'. Legal Korean builds almost every condition on 경우, and the modifier carries the tense. 계약을 위반한 경우 is 'where a party has breached the contract' (completed), 계약을 해지하는 경우 'where a party terminates' (the act itself), and 지급이 지연될 경우 'should payment be delayed' (a possibility). Laws prefer -(으)ㄴ / 는 경우; notices and news like -(으)ㄹ 경우. All three translate as 'if' or 'where'.",
           "-에는 adds a contrast: 계약을 위반한 경우에는 means 'in the case of a breach, as opposed to other cases'. It is the usual form at the head of a clause that changes the normal rule. Conversation would say -(으)면 instead: 계약을 어기면 위약금을 내야 돼요. Learners who write -(으)면 in a contract are understood, but the text loses its legal voice.",
         ],
         examples: [
@@ -518,7 +518,7 @@ export const KO_C1_U11: Lesson[] = [
         heading: "단, 다만, 그러하지 아니하다, and -에도 불구하고",
         body: [
           "A rule is often followed by its exception. 단, at the start of a sentence with a comma, means 'however, provided that': 단, 천재지변의 경우에는 그러하지 아니하다 'however, this does not apply in the case of a natural disaster'. 그러하지 아니하다 ('it is not so') cancels the rule just stated. 다만 does the same job, slightly softer, and laws use it for the proviso that follows a main paragraph. The danger is the other 단: before a number, 단 한 번, 단 하루, it means 'just, only'. 단, 학생은 무료이다 does not say 'only students are free'; it says 'however, students are free', an exception to a fee just mentioned.",
-          "-에도 불구하고 (from B2) states an obligation that holds despite something: 갑의 요청에도 불구하고 'despite A's request'; with a clause, -았 / 었음에도 불구하고: 두 차례 통보하였음에도 불구하고 'although notified twice'. In contracts it often prepares a consequence: despite the warning, the party failed to act, so the other side may terminate.",
+          "-에도 불구하고 (from Upper-intermediate) states an obligation that holds despite something: 갑의 요청에도 불구하고 'despite A's request'; with a clause, -았 / 었음에도 불구하고: 두 차례 통보하였음에도 불구하고 'although notified twice'. In contracts it often prepares a consequence: despite the warning, the party failed to act, so the other side may terminate.",
         ],
         examples: [
           { es: "단, 천재지변의 경우에는 그러하지 아니하다.", en: "However, this does not apply in the case of a natural disaster." },
@@ -1071,7 +1071,7 @@ export const KO_C1_U11: Lesson[] = [
       {
         heading: "전세, 월세 and getting the deposit back",
         body: [
-          "In B1 you met the two systems. With 월세 you pay a deposit (보증금) and monthly rent; with 전세 you pay one very large deposit and no rent, and the landlord returns it in full at the end. Either way the deposit can be most of a tenant's savings, so the key clause is 보증금 반환: 임대인은 계약이 종료된 때에 보증금을 임차인에게 반환하여야 한다. In conversation: 계약이 끝나면 집주인이 보증금을 돌려줘야 돼요.",
+          "In the Intermediate level you met the two systems. With 월세 you pay a deposit (보증금) and monthly rent; with 전세 you pay one very large deposit and no rent, and the landlord returns it in full at the end. Either way the deposit can be most of a tenant's savings, so the key clause is 보증금 반환: 임대인은 계약이 종료된 때에 보증금을 임차인에게 반환하여야 한다. In conversation: 계약이 끝나면 집주인이 보증금을 돌려줘야 돼요.",
           "The problem is not the clause but the money behind it. If the landlord has borrowed heavily against the home, or the home is worth less than the deposits on it, a tenant can be left waiting, or lose part of the deposit if the home is sold at auction. So Korean tenants learn three protective steps and one document, and they check them before paying the 잔금 (the balance due on moving in).",
         ],
         examples: [
@@ -2380,7 +2380,7 @@ export const KO_C1_U11: Lesson[] = [
             source: "Despite several requests to the site manager, nothing has improved.",
             answer: "현장 관리자에게 여러 차례 요청하였음에도 불구하고 개선되지 않고 있습니다.",
             altAnswers: ["현장 관리자에게 여러 차례 요청했음에도 불구하고 개선되지 않고 있습니다.", "현장 관리자에게 여러 번 요청하였음에도 불구하고 개선되지 않고 있습니다.", "현장 관리자에게 여러 번 요청했음에도 불구하고 개선되지 않고 있습니다.", "현장 관리자에게 여러 차례 요청하였음에도 불구하고 나아지지 않고 있습니다.", "현장 관리자에게 여러 차례 요청했음에도 불구하고 달라진 것이 없습니다.", "현장 관리자에게 여러 차례 요청하였으나 개선되지 않고 있습니다.", "현장 관리자에게 여러 차례 요청했지만 개선되지 않고 있습니다.", "현장 관리자에게 여러 차례 요청했는데도 개선되지 않고 있습니다.", "현장 관리자에게 여러 차례 요청드렸음에도 불구하고 개선되지 않고 있습니다."],
-            explanation: "-았 / 었음에도 불구하고 (B2) carries the 'despite'; -고 있습니다 shows the problem continues.",
+            explanation: "-았 / 었음에도 불구하고 (Upper-intermediate) carries the 'despite'; -고 있습니다 shows the problem continues.",
           },
           {
             type: "fill-blank",

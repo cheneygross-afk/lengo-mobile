@@ -22,7 +22,7 @@ export const KO_C1_U08: Lesson[] = [
       {
         heading: "The subject line: -에 관한 건 and -의 건",
         body: [
-          "A Korean office email is judged by its subject line before anyone opens it, and the subject is a noun phrase, never a sentence. The classic frame ends in 건 'matter, item': 신제품 출시 일정에 관한 건 'concerning the launch schedule', 회의 일정 변경의 건 'change of meeting schedule'. -에 관한 (B2) is 'concerning'; -의 건 is shorter and a little more official. Many companies also open with a tag in square brackets: [요청] request, [공유] for your information, [안내] notice, [회신 요청] reply needed, [긴급] urgent.",
+          "A Korean office email is judged by its subject line before anyone opens it, and the subject is a noun phrase, never a sentence. The classic frame ends in 건 'matter, item': 신제품 출시 일정에 관한 건 'concerning the launch schedule', 회의 일정 변경의 건 'change of meeting schedule'. -에 관한 (Upper-intermediate) is 'concerning'; -의 건 is shorter and a little more official. Many companies also open with a tag in square brackets: [요청] request, [공유] for your information, [안내] notice, [회신 요청] reply needed, [긴급] urgent.",
           "English speakers tend to write a sentence: 자료 좀 보내 주세요 as a subject is not ungrammatical, but it reads like a messenger chat. Turn the verb into a Sino-Korean noun and stack the nouns: 자료 송부 요청, 견적서 검토 요청의 건. A lighter modern style drops 건 and ends in 안내, 요청 or 공유: 11월 워크숍 일정 안내.",
         ],
         examples: [
@@ -64,7 +64,7 @@ export const KO_C1_U08: Lesson[] = [
         body: [
           "The body opens with two moves: a greeting and who you are. 안녕하십니까 is the formal default for a first email, a senior reader or another company; 안녕하세요 is fine with colleagues you write to often. Then give your team or company before your name: 마케팅팀 김지은입니다, 한빛물산 영업팀 박민수입니다. No 저는 and never 씨 after your own name; the 입니다 sentence is the introduction. When the reader may not know why you are involved, add your role with 담당 'in charge of': 이번 행사 담당 김지은입니다.",
           "A courtesy line usually comes next. Inside the company, 수고 많으십니다 acknowledges the reader's work; to a client, 항상 도움 주셔서 감사합니다 or 늘 감사드립니다. Then the purpose: 다름이 아니라 ... 연락드렸습니다 'I am writing about ...' (literally 'it is nothing other than'), or ... 관련하여 연락드립니다 'I am contacting you regarding ...'.",
-          "수고 is the trap. 수고 많으십니다 at the top of an email is a widely used courtesy, though some careful writers avoid any 수고 phrase toward someone far above them and write 늘 감사드립니다 instead. The real problem is 수고하세요 as a goodbye: as B1 showed, said to a superior it sounds like a boss telling a junior to keep at it.",
+          "수고 is the trap. 수고 많으십니다 at the top of an email is a widely used courtesy, though some careful writers avoid any 수고 phrase toward someone far above them and write 늘 감사드립니다 instead. The real problem is 수고하세요 as a goodbye: as Intermediate showed, said to a superior it sounds like a boss telling a junior to keep at it.",
         ],
         examples: [
           { es: "안녕하십니까, 마케팅팀 김지은입니다.", en: "Hello, this is Kim Ji-eun from the marketing team." },
@@ -490,7 +490,7 @@ export const KO_C1_U08: Lesson[] = [
         heading: "Acknowledging: 메일 잘 받았습니다",
         body: [
           "A Korean reply acknowledges first, with a fixed line: 메일 잘 받았습니다, 보내 주신 자료 잘 받았습니다. The 잘 says nothing about quality; it confirms safe receipt and thanks the sender at once, so a reply that jumps straight to business feels abrupt. Then comes the next step: 확인 후 다시 연락드리겠습니다 'I'll check and get back to you', 내부 검토 후 회신드리겠습니다 'we'll review it internally and reply'.",
-          "-겠습니다 here is a promise, the formal partner of -(으)ㄹ게요, which is fine in a quick message to a peer but too casual for a client. -도록 하겠습니다 (B1) softens the promise into 'I will see to it': 내일까지 정리해서 보내 드리도록 하겠습니다. 연락드리다, 회신드리다 and 전달하다 carry the action toward the reader, so the humble 드리다 forms are the default whenever the reader is above you or outside the company.",
+          "-겠습니다 here is a promise, the formal partner of -(으)ㄹ게요, which is fine in a quick message to a peer but too casual for a client. -도록 하겠습니다 (Intermediate) softens the promise into 'I will see to it': 내일까지 정리해서 보내 드리도록 하겠습니다. 연락드리다, 회신드리다 and 전달하다 carry the action toward the reader, so the humble 드리다 forms are the default whenever the reader is above you or outside the company.",
         ],
         examples: [
           { es: "보내 주신 자료 잘 받았습니다.", en: "I've received the materials you sent, thank you." },
@@ -570,7 +570,7 @@ export const KO_C1_U08: Lesson[] = [
       {
         heading: "Following up without pressure",
         body: [
-          "When no reply comes, the Korean follow-up avoids any hint of blame. The model is 혹시 확인하셨는지 여쭙고자 연락드립니다 'I'm writing to ask whether you might have had a chance to check it'. Every piece softens: 혹시 'by any chance', -(으)셨는지 asks without demanding (B1 embedded questions), 여쭙다 is the humble 'ask', and -고자 (B2) gives the purpose. 왜 답장 안 하셨어요? is unthinkable, and even 아직 확인 안 하셨나요? sounds like an accusation.",
+          "When no reply comes, the Korean follow-up avoids any hint of blame. The model is 혹시 확인하셨는지 여쭙고자 연락드립니다 'I'm writing to ask whether you might have had a chance to check it'. Every piece softens: 혹시 'by any chance', -(으)셨는지 asks without demanding (Intermediate embedded questions), 여쭙다 is the humble 'ask', and -고자 (Upper-intermediate) gives the purpose. 왜 답장 안 하셨어요? is unthinkable, and even 아직 확인 안 하셨나요? sounds like an accusation.",
           "Then make replying easy. Apologise for writing again (바쁘신 중에 재차 연락드려 죄송합니다), give a reason for the deadline (일정상 'because of the schedule'), and reattach the file so the reader need not search: 지난번에 보내 드린 자료를 다시 첨부하오니. After one written follow-up, Koreans usually pick up the phone rather than send a third email.",
         ],
         examples: [
@@ -716,7 +716,7 @@ export const KO_C1_U08: Lesson[] = [
       {
         heading: "-함, -음, -임: lines that end in a noun",
         body: [
-          "개조식 'itemised style' is how Korean offices write reports, minutes, proposals and slides: each line ends in a noun form instead of a sentence ending. B1 met -(으)ㅁ in memos (회의 있음); at C1 it becomes a system. 하다 verbs give -함 (진행함, 필요함), other verbs and adjectives -음 or -ㅁ (늘었음, 있음, 지연됨), and 이다 gives 임 (예정임, 문제임). For a finished action, -았 / 었음 makes completion explicit (완료하였음), but most writers keep the shorter 완료함 or 완료됨 when the context is clear.",
+          "개조식 'itemised style' is how Korean offices write reports, minutes, proposals and slides: each line ends in a noun form instead of a sentence ending. The Intermediate level met -(으)ㅁ in memos (회의 있음); at the Advanced level it becomes a system. 하다 verbs give -함 (진행함, 필요함), other verbs and adjectives -음 or -ㅁ (늘었음, 있음, 지연됨), and 이다 gives 임 (예정임, 문제임). For a finished action, -았 / 었음 makes completion explicit (완료하였음), but most writers keep the shorter 완료함 or 완료됨 when the context is clear.",
           "Forming the noun is the trap. A stem ending in a vowel or ㄹ takes -ㅁ: 되다 → 됨, 만들다 → 만듦. A stem ending in any other consonant takes -음: 있다 → 있음, 늦다 → 늦음. So *완료되음 is wrong (완료됨), and so is *있슴, a spelling abolished in 1988 that still turns up in older offices (있음). The past spelling slip *됬음 is as wrong here as anywhere: 됐음.",
         ],
         examples: [
@@ -759,7 +759,7 @@ export const KO_C1_U08: Lesson[] = [
         heading: "Noun endings and dropped particles",
         body: [
           "Many bullets go one step further and end in a bare Sino-Korean noun: 다음 주 중 완료 예정, 검토 필요, 확인 요청. To build one, find the noun inside the verb (완료하다 → 완료), keep the time and the key object, and drop 을 / 를, 이 / 가 and most 은 / 는: 다음 주 중으로 완료할 예정입니다 → 다음 주 중 완료 예정. Office shorthand adds 차주 'next week' and 금주 'this week'.",
-          "Instructions end in 바람 or -기 바람 (B1): 협조 바람, 금요일까지 제출 바람. This is the voice of a manager writing to staff. When your report asks your 팀장 for something, write 검토 요청 or 결재 요청 as a line item, or a full 부탁드립니다 sentence; 바람 aimed upward reads as an order. Symbols do the rest: - for items, ※ for a note, → for a result.",
+          "Instructions end in 바람 or -기 바람 (Intermediate): 협조 바람, 금요일까지 제출 바람. This is the voice of a manager writing to staff. When your report asks your 팀장 for something, write 검토 요청 or 결재 요청 as a line item, or a full 부탁드립니다 sentence; 바람 aimed upward reads as an order. Symbols do the rest: - for items, ※ for a note, → for a result.",
         ],
         examples: [
           { es: "다음 주 중 완료 예정.", en: "Due for completion next week." },
@@ -948,7 +948,7 @@ export const KO_C1_U08: Lesson[] = [
     level: "KO-C1",
     number: 5,
     title: "The Proposal (기안서)",
-    summary: "Write and read a 기안서: the fixed headings 목적, 배경, 추진 내용, 소요 예산 and 기대 효과, the frame sentences 다음과 같이 보고합니다 and 검토 후 결재하여 주시기 바랍니다, purpose and plan lines in -고자 함 and -(으)ㄹ 예정임, B2's 바 in proposals and notices, and the 결재 chain from 담당 to 팀장 to 부장.",
+    summary: "Write and read a 기안서: the fixed headings 목적, 배경, 추진 내용, 소요 예산 and 기대 효과, the frame sentences 다음과 같이 보고합니다 and 검토 후 결재하여 주시기 바랍니다, purpose and plan lines in -고자 함 and -(으)ㄹ 예정임, the Upper-intermediate level's 바 in proposals and notices, and the 결재 chain from 담당 to 팀장 to 부장.",
     duration: "21 min",
     sections: [
       {
@@ -1000,7 +1000,7 @@ export const KO_C1_U08: Lesson[] = [
       {
         heading: "-고자 함 and -(으)ㄹ 예정임",
         body: [
-          "Purpose and plan lines speak in the document's voice of intention. -고자 함 'intends to' (B2 -고자, now in 개조식) is more formal and impersonal than -(으)려고 함: 노후된 휴게 공간을 개선하고자 함. Dated plans take -(으)ㄹ 예정임 or just 예정: 11월 중 공사 착수 예정. In the full-sentence opening the same forms become -고자 합니다 and -(으)ㄹ 예정입니다.",
+          "Purpose and plan lines speak in the document's voice of intention. -고자 함 'intends to' (Upper-intermediate -고자, now in 개조식) is more formal and impersonal than -(으)려고 함: 노후된 휴게 공간을 개선하고자 함. Dated plans take -(으)ㄹ 예정임 or just 예정: 11월 중 공사 착수 예정. In the full-sentence opening the same forms become -고자 합니다 and -(으)ㄹ 예정입니다.",
           "Background lines state facts in -음 / -함 / 임 and often cite data: 직원 설문 결과 휴게 공간 부족이 가장 큰 불만으로 나타남. Expected effects are stacked nouns ending in 기대 or 예상: 업무 효율 향상 및 이직률 감소 기대. Keep one idea per line. A line strung together with -고 and -며 is a sentence pretending to be a bullet, and senior readers notice.",
         ],
         examples: [
@@ -1040,9 +1040,9 @@ export const KO_C1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "B2's 바, and the 결재 chain",
+        heading: "The Upper-intermediate level's 바, and the 결재 chain",
         body: [
-          "Proposals and notices reuse B2's 바. Spaced 바와 같이 points back: 앞서 보고드린 바와 같이 'as I reported earlier'. The attached connective -(으)ㄴ바 / -는바 states a finding or a situation before what follows: 직원 만족도를 조사한바 휴게 공간에 대한 불만이 가장 많았음; 엘리베이터 점검이 예정되어 있는바 계단을 이용하시기 바랍니다. Spacing tells them apart: the connective is attached, the noun is spaced.",
+          "Proposals and notices reuse the Upper-intermediate level's 바. Spaced 바와 같이 points back: 앞서 보고드린 바와 같이 'as I reported earlier'. The attached connective -(으)ㄴ바 / -는바 states a finding or a situation before what follows: 직원 만족도를 조사한바 휴게 공간에 대한 불만이 가장 많았음; 엘리베이터 점검이 예정되어 있는바 계단을 이용하시기 바랍니다. Spacing tells them apart: the connective is attached, the noun is spaced.",
           "The 기안서 then travels up the 결재 line: 담당 (you) → 팀장 → 부장, and higher for big budgets, each signing a box at the top of the page. 결재를 올리다 is 'submit for approval', 결재가 나다 or 결재를 받다 'get it approved', 반려되다 'be sent back'. Most companies now use 전자 결재, but the words are the same. Watch the spelling: 결재 'approval' and 결제 'payment' sound identical in Seoul speech, and Koreans mix them up too.",
         ],
         examples: [
@@ -1139,7 +1139,7 @@ export const KO_C1_U08: Lesson[] = [
         source: "As soon as the director approves it, we'll go ahead.",
         answer: "부장님 결재가 나면 바로 진행하겠습니다.",
         altAnswers: ["부장님 결재가 나는 대로 바로 진행하겠습니다.", "부장님 결재가 나는 대로 진행하겠습니다.", "부장님께서 결재하시면 바로 진행하겠습니다.", "부장님 결재가 나면 곧바로 진행하겠습니다.", "부장님 결재를 받으면 바로 진행하겠습니다.", "부장님 결재가 나오면 바로 진행하겠습니다.", "부장님 결재가 나면 바로 진행하도록 하겠습니다."],
-        explanation: "결재가 나다 'approval comes through'; -는 대로 (B1) is 'as soon as'.",
+        explanation: "결재가 나다 'approval comes through'; -는 대로 (Intermediate) is 'as soon as'.",
       },
       {
         type: "listen-choose",
@@ -2318,7 +2318,7 @@ export const KO_C1_U08: Lesson[] = [
         heading: "지연 사항 and 결정 사항: delays and decisions",
         body: [
           "The report continues: 홍보 영상 제작 1주 지연됨(외주 업체 일정 문제); 매장 포스터 인쇄 보류(디자인 수정 필요). Delays always carry a cause in brackets, because the reader wants to know whose problem it is: ours or an outside contractor's (외주 업체). 보류 'on hold' is softer than 취소 'cancelled': the work is waiting on something.",
-          "Decisions end in -기로 함, B1's -기로 하다 in 개조식, often with the meeting that made them: 영상 공개일 11/3로 변경하기로 함(10/16 팀 회의); 포스터 문구는 고객 설문 결과를 반영하여 수정하기로 함. 반영하다 'reflect, incorporate' is one of the busiest verbs in Korean office writing: 의견을 반영하다, 결과를 반영하여.",
+          "Decisions end in -기로 함, the Intermediate level's -기로 하다 in 개조식, often with the meeting that made them: 영상 공개일 11/3로 변경하기로 함(10/16 팀 회의); 포스터 문구는 고객 설문 결과를 반영하여 수정하기로 함. 반영하다 'reflect, incorporate' is one of the busiest verbs in Korean office writing: 의견을 반영하다, 결과를 반영하여.",
         ],
         examples: [
           { es: "홍보 영상 제작 1주 지연됨(외주 업체 일정 문제)", en: "Promotional video delayed one week (outside contractor's schedule)" },
@@ -2595,7 +2595,7 @@ export const KO_C1_U08: Lesson[] = [
         heading: "Step 3: the follow-up",
         body: [
           "Two days pass with no answer, and the deadline is today. The follow-up repeats nothing with irritation: it asks whether they have seen the email, gives the reason for the date, reattaches the plan so they need not search, and apologises for writing again. If that gets no answer either, you phone: 대강당 대관 건으로 전화드렸습니다.",
-          "Be exact with time words: 지난 월요일 or 이번 주 월요일 'last Monday / this Monday', 이번 주 목요일 'this Thursday', 내일 오전 중 'tomorrow morning'. A follow-up with a precise date is easier to answer than one that says 빨리. -도록 (B1) gives the courtesy behind an action: 확인하시기 편하시도록 'so that it's easy for you to check'.",
+          "Be exact with time words: 지난 월요일 or 이번 주 월요일 'last Monday / this Monday', 이번 주 목요일 'this Thursday', 내일 오전 중 'tomorrow morning'. A follow-up with a precise date is easier to answer than one that says 빨리. -도록 (Intermediate) gives the courtesy behind an action: 확인하시기 편하시도록 'so that it's easy for you to check'.",
         ],
         examples: [
           { es: "혹시 지난 월요일에 보내 드린 대관 요청 메일을 확인하셨는지 여쭙고자 연락드립니다.", en: "I'm writing to ask whether you might have seen the booking request I sent last Monday." },
@@ -2712,7 +2712,7 @@ export const KO_C1_U08: Lesson[] = [
         question: "The 총무팀 finally replies. What will happen?",
         options: ["The booking is approved, and the chairs will be set up the afternoon before the event.", "The booking is still under review, and the chairs will come on the day.", "The booking was refused, but the chairs are available.", "The marketing team must collect the chairs the afternoon before."],
         correctIndex: 0,
-        explanation: "승인되었으며 'has been approved, and' (B2 written -(으)며); 전날 오후 'the afternoon before'; 설치해 드릴 예정 'will set up for you'.",
+        explanation: "승인되었으며 'has been approved, and' (Upper-intermediate written -(으)며); 전날 오후 'the afternoon before'; 설치해 드릴 예정 'will set up for you'.",
       },
       {
         type: "translate",

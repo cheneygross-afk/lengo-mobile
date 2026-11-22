@@ -894,7 +894,7 @@ export const KO_B1_U15: Lesson[] = [
       {
         heading: "Might, probably or apparently?",
         body: [
-          "Three guessing tools, three strengths. -(으)ㄹ지도 모르다 'might' leaves the door open, maybe 30 percent: 비가 올지도 몰라요. -(으)ㄹ 것 같다 (A2) means you think it's likely: 비가 올 것 같아요 'I think it's going to rain'. -나 보다 (Unit 14) draws a conclusion from evidence in front of you: 비가 오나 봐요, said when people walk in with wet umbrellas.",
+          "Three guessing tools, three strengths. -(으)ㄹ지도 모르다 'might' leaves the door open, maybe 30 percent: 비가 올지도 몰라요. -(으)ㄹ 것 같다 (Elementary) means you think it's likely: 비가 올 것 같아요 'I think it's going to rain'. -나 보다 (Unit 14) draws a conclusion from evidence in front of you: 비가 오나 봐요, said when people walk in with wet umbrellas.",
           "Use -(으)ㄹ지도 몰라요 to warn or to hedge a plan: 길이 막힐지도 모르니까 일찍 출발하세요. It makes you sound careful rather than sure.",
         ],
         examples: [
@@ -1028,7 +1028,7 @@ export const KO_B1_U15: Lesson[] = [
       {
         heading: "온 지 (time since) vs 왔는지 (embedded question)",
         body: [
-          "Two endings look almost alike. -(으)ㄴ 지 from A2 counts time since something happened: 한국에 온 지 일 년 됐어요 'It's been a year since I came to Korea'. Here 지 is a noun meaning 'time since', so it stands apart with a space, and a length of time plus 되다 or 지나다 always follows.",
+          "Two endings look almost alike. -(으)ㄴ 지 from Elementary counts time since something happened: 한국에 온 지 일 년 됐어요 'It's been a year since I came to Korea'. Here 지 is a noun meaning 'time since', so it stands apart with a space, and a length of time plus 되다 or 지나다 always follows.",
           "-는지 / -았는지 embeds a question, and 지 is part of the ending, so it joins: 언제 왔는지 몰라요 'I don't know when he came'. The quick test: is there a length of time and 됐어요 after it? Then it's 온 지. Is there 알다, 모르다, 궁금하다 or a question word? Then it's 왔는지.",
           "In speech the two sound the same before a pause, [온지], so only the rest of the sentence tells you which one you heard. In writing, the space carries the meaning.",
         ],
@@ -1707,7 +1707,7 @@ export const KO_B1_U15: Lesson[] = [
       {
         heading: "Sound focus: 있는지 [인는지], 없는지 [엄는지]",
         body: [
-          "You met this rule in A2, and -는지 brings it back in nearly every sentence. Before ㄴ, a final consonant that sounds like [ㄷ] (written ㅅ, ㅆ, ㅈ, ㅊ, ㅌ) becomes [ㄴ]: 있는지 [인는지], 맞는지 [만는지], 찾는지 [찬는지], 끝나는지 [끈나는지]. The past marker ㅆ does it too: 했는지 [핸는지], 왔는지 [완는지]. A final that sounds like [ㅂ] (ㅂ, ㅍ, ㅄ) becomes [ㅁ]: 없는지 [엄는지], and one that sounds like [ㄱ] becomes [ㅇ]: 먹는지 [멍는지].",
+          "You met this rule in the Elementary level, and -는지 brings it back in nearly every sentence. Before ㄴ, a final consonant that sounds like [ㄷ] (written ㅅ, ㅆ, ㅈ, ㅊ, ㅌ) becomes [ㄴ]: 있는지 [인는지], 맞는지 [만는지], 찾는지 [찬는지], 끝나는지 [끈나는지]. The past marker ㅆ does it too: 했는지 [핸는지], 왔는지 [완는지]. A final that sounds like [ㅂ] (ㅂ, ㅍ, ㅄ) becomes [ㅁ]: 없는지 [엄는지], and one that sounds like [ㄱ] becomes [ㅇ]: 먹는지 [멍는지].",
           "The spelling never changes, and that is the dictation trap: you hear [핸는지] but write 했는지. Ask yourself what the stem is and which tense the speaker means, then spell the parts.",
         ],
         examples: [

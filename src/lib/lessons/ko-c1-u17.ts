@@ -22,7 +22,7 @@ export const KO_C1_U17: Lesson[] = [
       {
         heading: "Framing an idiom: 그야말로, (이)라고 할 수 있다, 격이다",
         body: [
-          "At B2 you dropped 사자성어 into sentences as nouns: 일석이조예요, 작심삼일로 끝났어요. At C1 an idiom usually arrives inside a frame that tells the reader how strongly you mean it. 그야말로 X이다 is the emphatic frame, 'it was nothing short of X', the storyteller's choice. X(이)라고 할 수 있다, the measured conclusion from Unit 5, is the essayist's: 'it could be called X'. 그야말로 고진감래였다 celebrates; 고진감래라고 할 수 있다 evaluates.",
+          "At the Upper-intermediate level you dropped 사자성어 into sentences as nouns: 일석이조예요, 작심삼일로 끝났어요. At the Advanced level an idiom usually arrives inside a frame that tells the reader how strongly you mean it. 그야말로 X이다 is the emphatic frame, 'it was nothing short of X', the storyteller's choice. X(이)라고 할 수 있다, the measured conclusion from Unit 5, is the essayist's: 'it could be called X'. 그야말로 고진감래였다 celebrates; 고진감래라고 할 수 있다 evaluates.",
           "격 means 'standing, case', and ... 격이다 says the situation fits the pattern of a well-known saying: 'it's a case of ...'. It is the natural partner of proverbs. A proverb is a clause, so it takes a modifier before 격: 소 잃고 외양간 고치는 격이다, 'that's locking the stable door after the horse has bolted'. A noun idiom stands directly before it: 동문서답 격의 대답. 격 often sounds wry or critical, so it suits a commentator pointing out folly.",
         ],
         examples: [
@@ -64,7 +64,7 @@ export const KO_C1_U17: Lesson[] = [
         heading: "As good as, comes to: (이)나 다름없다 and -(으)ㄴ 셈이다",
         body: [
           "X(이)나 다름없다, 'no different from X, as good as X', compares the facts to something stronger: the contract isn't signed yet, but 이미 결정된 것이나 다름없다. After a clause use 것이나 (spoken 거나): 포기한 것이나 다름없다. After a noun, 이나 follows a consonant and 나 a vowel: 가족이나 다름없는 친구, 사면초가나 다름없는 상황. N과 / 와 다름없다 is also correct.",
-          "-(으)ㄴ 셈이다, from B2, does arithmetic on events: 'when you add it up, it comes to'. 실패가 오히려 기회가 된 셈이다 tallies what happened and draws the line under it, and after a noun idiom it becomes 인 셈이다: 일석이조인 셈이다. Keep them apart: 다름없다 compares the situation to something it isn't quite, while 셈이다 states the net result of something that really happened.",
+          "-(으)ㄴ 셈이다, from the Upper-intermediate level, does arithmetic on events: 'when you add it up, it comes to'. 실패가 오히려 기회가 된 셈이다 tallies what happened and draws the line under it, and after a noun idiom it becomes 인 셈이다: 일석이조인 셈이다. Keep them apart: 다름없다 compares the situation to something it isn't quite, while 셈이다 states the net result of something that really happened.",
         ],
         examples: [
           { es: "아직 발표는 안 났지만 합격한 것이나 다름없다.", en: "The results aren't out yet, but it's as good as a pass." },
@@ -107,7 +107,7 @@ export const KO_C1_U17: Lesson[] = [
       {
         heading: "Noun, adverb phrase or -하다 word, and register",
         body: [
-          "Most 사자성어 are nouns with their own favourite particles: 사면초가에 빠지다, 속수무책으로 당하다, 풍전등화의 위기. Some that describe a trait or a way of acting also take 하다: 우유부단하다 'indecisive', 횡설수설하다 'ramble', 청렴결백하다 'incorruptible'. Others never do: 이구동성 works only as the adverb phrase 이구동성으로 'with one voice', and 이구동성하다 is not used. Learn each idiom together with its usual partner, as you learned 시행착오를 겪다 at B2.",
+          "Most 사자성어 are nouns with their own favourite particles: 사면초가에 빠지다, 속수무책으로 당하다, 풍전등화의 위기. Some that describe a trait or a way of acting also take 하다: 우유부단하다 'indecisive', 횡설수설하다 'ramble', 청렴결백하다 'incorruptible'. Others never do: 이구동성 works only as the adverb phrase 이구동성으로 'with one voice', and 이구동성하다 is not used. Learn each idiom together with its usual partner, as you learned 시행착오를 겪다 at the Upper-intermediate level.",
           "Register matters. 사자성어 belong to speeches, editorials, essays and the talk of older or educated speakers. Among friends one idiom said with a smile sounds witty; three in a row sound like a school essay or a politician. Many have plain everyday equivalents: 말에 뼈가 있다 for 언중유골, 손쓸 방법이 없다 for 속수무책. Knowing both lets you match the room.",
         ],
         examples: [
@@ -206,7 +206,7 @@ export const KO_C1_U17: Lesson[] = [
         source: "The government was caught in a true dilemma, with no way forward or back.",
         answer: "정부는 그야말로 진퇴양난에 빠졌다.",
         altAnswers: ["정부는 그야말로 진퇴양난이었다.", "정부는 말 그대로 진퇴양난에 빠졌다.", "정부는 그야말로 진퇴양난에 처했다.", "정부는 그야말로 진퇴양난에 놓였다.", "정부는 그야말로 진퇴양난의 상황에 빠졌다.", "정부는 그야말로 진퇴양난의 처지에 놓였다.", "정부가 그야말로 진퇴양난에 빠졌다."],
-        explanation: "진퇴양난 (B2) is a noun that takes 에 with 빠지다, 처하다 or 놓이다; 그야말로 adds emphasis.",
+        explanation: "진퇴양난 (Upper-intermediate) is a noun that takes 에 with 빠지다, 처하다 or 놓이다; 그야말로 adds emphasis.",
       },
       {
         type: "multiple-choice",
@@ -281,7 +281,7 @@ export const KO_C1_U17: Lesson[] = [
       {
         heading: "What goes around: 인과응보 and 사필귀정",
         body: [
-          "인과응보 joins 인과 'cause and effect' with 응보 'requital': every deed comes back to its doer. The idea is Buddhist, and in principle it covers good deeds too, but in everyday use Koreans say it when wrongdoing is punished: 남을 속이더니 결국 인과응보다. It is broader than 자업자득 from B2, which points at one person who brought trouble on himself; 인과응보 states the law that the case illustrates.",
+          "인과응보 joins 인과 'cause and effect' with 응보 'requital': every deed comes back to its doer. The idea is Buddhist, and in principle it covers good deeds too, but in everyday use Koreans say it when wrongdoing is punished: 남을 속이더니 결국 인과응보다. It is broader than 자업자득 from the Upper-intermediate level, which points at one person who brought trouble on himself; 인과응보 states the law that the case illustrates.",
           "사필귀정 is 'all things must return to what is right': lies come out, the guilty are caught, justice wins in the end. It is the word of the court verdict and the scandal's last chapter: 결국 사필귀정이었다. Said in the middle of an injustice, it is a statement of faith: 사필귀정이라고 믿는다 'I believe the truth will prevail'. Both are nouns: 인과응보다 after a vowel, 사필귀정이다 after a consonant.",
         ],
         examples: [
@@ -308,7 +308,7 @@ export const KO_C1_U17: Lesson[] = [
             sentence: "남을 속이더니 결국 모든 것을 잃었으니 ___ 셈이다.",
             answer: "인과응보인",
             altAnswers: ["자업자득인"],
-            explanation: "After a noun, 셈이다 needs the modifier of 이다: 인과응보인 셈이다. 자업자득 (B2) also fits this one person's case.",
+            explanation: "After a noun, 셈이다 needs the modifier of 이다: 인과응보인 셈이다. 자업자득 (Upper-intermediate) also fits this one person's case.",
           },
           {
             type: "multiple-choice",
@@ -475,7 +475,7 @@ export const KO_C1_U17: Lesson[] = [
         source: "As the saying goes, whoever tied the knot should untie it: the side that started this conflict should resolve it.",
         answer: "결자해지라는 말이 있듯이 이 갈등은 처음 문제를 만든 쪽이 풀어야 한다.",
         altAnswers: ["결자해지라는 말처럼 이 갈등은 처음 문제를 만든 쪽이 풀어야 한다.", "결자해지라는 말이 있듯이 이 갈등은 갈등을 시작한 쪽이 풀어야 한다.", "결자해지라는 말이 있듯이 이 갈등은 처음 문제를 일으킨 쪽이 풀어야 한다.", "결자해지라는 말이 있듯이 이 갈등은 처음 문제를 만든 쪽이 해결해야 한다.", "결자해지라는 말이 있듯이 이 갈등은 갈등을 시작한 쪽이 해결해야 한다.", "결자해지라고 이 갈등은 처음 문제를 만든 쪽이 풀어야 한다.", "결자해지라는 말처럼 이 갈등은 갈등을 시작한 쪽이 해결해야 한다."],
-        explanation: "-(이)라는 말이 있듯이 'as the saying goes' introduces the idiom (B2); a knot or a conflict is 풀다 'untie, resolve'.",
+        explanation: "-(이)라는 말이 있듯이 'as the saying goes' introduces the idiom (Upper-intermediate); a knot or a conflict is 풀다 'untie, resolve'.",
       },
       {
         type: "translate",
@@ -726,7 +726,7 @@ export const KO_C1_U17: Lesson[] = [
     level: "KO-C1",
     number: 4,
     title: "Predicaments",
-    summary: "Describe tight spots with 사면초가, 고립무원, 속수무책, 첩첩산중 and 풍전등화 and their usual verbs (사면초가에 빠지다, 속수무책으로 당하다, 풍전등화의 위기), and keep them apart from B2's 설상가상 and 진퇴양난.",
+    summary: "Describe tight spots with 사면초가, 고립무원, 속수무책, 첩첩산중 and 풍전등화 and their usual verbs (사면초가에 빠지다, 속수무책으로 당하다, 풍전등화의 위기), and keep them apart from the Upper-intermediate level's 설상가상 and 진퇴양난.",
     duration: "21 min",
     sections: [
       {
@@ -813,7 +813,7 @@ export const KO_C1_U17: Lesson[] = [
       {
         heading: "Mountains beyond mountains: 첩첩산중",
         body: [
-          "첩첩산중 [첩첩싼중] is 'deep among layer upon layer of mountains'. Literally it locates a remote village; figuratively, with 갈수록 'the further you go', it says that obstacles keep appearing and the end is nowhere in sight: 갈수록 첩첩산중이다. Compare B2's two predicament idioms. 설상가상 'frost on snow' adds one more blow on top of a bad situation; 진퇴양난 is being stuck with no way forward or back. 첩첩산중 is a long road ahead still full of difficulties.",
+          "첩첩산중 [첩첩싼중] is 'deep among layer upon layer of mountains'. Literally it locates a remote village; figuratively, with 갈수록 'the further you go', it says that obstacles keep appearing and the end is nowhere in sight: 갈수록 첩첩산중이다. Compare the Upper-intermediate level's two predicament idioms. 설상가상 'frost on snow' adds one more blow on top of a bad situation; 진퇴양난 is being stuck with no way forward or back. 첩첩산중 is a long road ahead still full of difficulties.",
           "When you write about a crisis, pick the idiom for the shape of the trouble: enemies everywhere (사면초가), nobody coming (고립무원), no means to act (속수무책), about to collapse (풍전등화), no end in sight (첩첩산중). A news report might use two in a row, 사면초가에 몰린 회사는 속수무책이었다, but each should add something the other doesn't.",
         ],
         examples: [
@@ -838,7 +838,7 @@ export const KO_C1_U17: Lesson[] = [
             question: "Both options are bad: staying loses money, leaving costs a penalty. Which idiom fits exactly?",
             options: ["진퇴양난", "설상가상", "첩첩산중", "풍전등화"],
             correctIndex: 0,
-            explanation: "No way forward or back is 진퇴양난 (B2). 설상가상 is one more blow; 첩첩산중 is a road full of obstacles; 풍전등화 is imminent collapse.",
+            explanation: "No way forward or back is 진퇴양난 (Upper-intermediate). 설상가상 is one more blow; 첩첩산중 is a road full of obstacles; 풍전등화 is imminent collapse.",
           },
           {
             type: "speak",
@@ -917,7 +917,7 @@ export const KO_C1_U17: Lesson[] = [
         source: "The company was struggling, and to make matters worse the CEO collapsed.",
         answer: "회사가 어려운데 설상가상으로 대표까지 쓰러졌다.",
         altAnswers: ["회사가 어려운데 설상가상으로 대표마저 쓰러졌다.", "회사가 어려운 상황에서 설상가상으로 대표까지 쓰러졌다.", "회사가 어려운 와중에 설상가상으로 대표까지 쓰러졌다.", "회사가 어려운데 설상가상으로 사장까지 쓰러졌다.", "회사가 힘든데 설상가상으로 대표까지 쓰러졌다.", "회사가 어려운데 설상가상으로 대표가 쓰러졌다.", "회사가 어려운데 엎친 데 덮친 격으로 대표까지 쓰러졌다."],
-        explanation: "설상가상으로 (B2) adds one more blow. 엎친 데 덮친 격으로 is the native proverb version, with 격.",
+        explanation: "설상가상으로 (Upper-intermediate) adds one more blow. 엎친 데 덮친 격으로 is the native proverb version, with 격.",
       },
       {
         type: "multiple-choice",
@@ -933,7 +933,7 @@ export const KO_C1_U17: Lesson[] = [
         source: "If we keep the contract we lose money, and if we break it we pay a penalty: we're stuck either way.",
         answer: "계약을 지키면 손해를 보고 깨면 위약금을 내야 하니 진퇴양난이다.",
         altAnswers: ["계약을 지키면 손해를 보고 깨면 위약금을 내야 해서 진퇴양난이다.", "계약을 지키면 손해고 깨면 위약금을 내야 하니 진퇴양난이다.", "계약을 지키면 손해를 보고 파기하면 위약금을 내야 하니 진퇴양난이다.", "계약을 지키면 손해를 보고 깨면 위약금을 물어야 하니 진퇴양난이다.", "계약을 지키면 손해를 보고 깨면 위약금을 내야 하니 그야말로 진퇴양난이다.", "계약을 지키면 손해를 보고 깨면 위약금을 내야 한다. 진퇴양난이다."],
-        explanation: "Two bad options either way: 진퇴양난 (B2). -(으)니 gives the reason in written style.",
+        explanation: "Two bad options either way: 진퇴양난 (Upper-intermediate). -(으)니 gives the reason in written style.",
       },
       {
         type: "speak",
@@ -998,7 +998,7 @@ export const KO_C1_U17: Lesson[] = [
         heading: "Enduring for the comeback: 와신상담",
         body: [
           "와신상담 is 'sleeping on brushwood, tasting gall'. Two ancient kings kept the pain of defeat fresh, one by sleeping on sticks and the other by licking a bitter gallbladder, until they could take revenge (lesson 8). Today it means enduring hardship for years, never forgetting a defeat, to come back and win. Sports reporters love it: 작년 결승에서 진 팀이 와신상담 끝에 우승했다. It is a noun (와신상담 끝에, 와신상담의 세월) and a -하다 verb (와신상담하며 준비했다).",
-          "Don't confuse it with 칠전팔기 from B2. 칠전팔기 is falling down and getting up again many times; 와신상담 is one bitter defeat, carried and avenged after long preparation. Lesson 10 returns to this pair.",
+          "Don't confuse it with 칠전팔기 from the Upper-intermediate level. 칠전팔기 is falling down and getting up again many times; 와신상담 is one bitter defeat, carried and avenged after long preparation. Lesson 10 returns to this pair.",
         ],
         examples: [
           { es: "작년 결승에서 진 팀이 와신상담 끝에 올해 우승했다.", en: "The team that lost last year's final nursed its defeat and won this year." },
@@ -1166,14 +1166,14 @@ export const KO_C1_U17: Lesson[] = [
     level: "KO-C1",
     number: 6,
     title: "Friendship and Loyalty",
-    summary: "Talk about deep friendship, shared hardship and lifelong gratitude with 관포지교, 막역지우, 동병상련, 결초보은 and 각골난망, and keep them apart from B2's 죽마고우 and 역지사지.",
+    summary: "Talk about deep friendship, shared hardship and lifelong gratitude with 관포지교, 막역지우, 동병상련, 결초보은 and 각골난망, and keep them apart from the Upper-intermediate level's 죽마고우 and 역지사지.",
     duration: "21 min",
     sections: [
       {
         heading: "Friends for life: 관포지교, 막역지우",
         body: [
           "관포지교 is 'the friendship of 관 and 포', two statesmen of ancient China, 관중 and 포숙. 포숙 forgave his friend's poverty, failures and even an act of cowardice, and later recommended him for the highest office (lesson 8). The idiom names a friendship of total trust that survives every test. It is literary: 두 사람의 우정은 관포지교라 할 만하다, 관포지교 같은 우정.",
-          "막역지우 [마격찌우] is 'a friend with nothing between you': someone so close that nothing needs hiding or excusing. The four-syllable form is formal; in conversation Koreans use the adjective 막역하다: 막역한 사이, 막역한 친구. Compare 죽마고우 from B2, 'bamboo-horse old friend': it stresses time, a friend since childhood. 막역지우 stresses closeness, which you can reach at forty, and 관포지교 stresses loyalty proven by hardship.",
+          "막역지우 [마격찌우] is 'a friend with nothing between you': someone so close that nothing needs hiding or excusing. The four-syllable form is formal; in conversation Koreans use the adjective 막역하다: 막역한 사이, 막역한 친구. Compare 죽마고우 from the Upper-intermediate level, 'bamboo-horse old friend': it stresses time, a friend since childhood. 막역지우 stresses closeness, which you can reach at forty, and 관포지교 stresses loyalty proven by hardship.",
         ],
         examples: [
           { es: "두 사람의 우정은 관포지교라 할 만하다.", en: "Their friendship truly deserves to be called legendary." },
@@ -1212,7 +1212,7 @@ export const KO_C1_U17: Lesson[] = [
       {
         heading: "Sharing the same pain: 동병상련",
         body: [
-          "동병상련 [동병상년] is 'same illness, mutual pity': people in the same trouble understand each other without explanation. Two colleagues laid off on the same day, the parents of exam candidates, fans of a team that always loses. It pairs with 느끼다 and modifies 마음 or 처지: 동병상련을 느끼다, 동병상련의 마음으로. B2's 역지사지 is different: you deliberately imagine another person's position. 동병상련 comes from actually sharing it.",
+          "동병상련 [동병상년] is 'same illness, mutual pity': people in the same trouble understand each other without explanation. Two colleagues laid off on the same day, the parents of exam candidates, fans of a team that always loses. It pairs with 느끼다 and modifies 마음 or 처지: 동병상련을 느끼다, 동병상련의 마음으로. The Upper-intermediate level's 역지사지 is different: you deliberately imagine another person's position. 동병상련 comes from actually sharing it.",
           "The idea runs deep in Korean social life: alumni of the same military unit, parents waiting outside the 수능 exam hall, foreigners swapping visa stories at a 주민센터. Saying 동병상련이네요 to someone in your own situation is a warm way to bond. Saying it to someone whose trouble you don't share sounds false; there, 마음이 아프네요 or 힘드시겠어요 is the right sympathy.",
         ],
         examples: [
@@ -1341,7 +1341,7 @@ export const KO_C1_U17: Lesson[] = [
         source: "We've been friends since we were little, so there's nothing we don't know about each other.",
         answer: "우리는 죽마고우라서 서로 모르는 게 없어요.",
         altAnswers: ["저희는 죽마고우라서 서로 모르는 게 없어요.", "우리는 죽마고우라서 서로 모르는 것이 없어요.", "저희는 죽마고우라서 서로 모르는 것이 없어요.", "우리는 죽마고우여서 서로 모르는 게 없어요.", "우리는 어릴 때부터 친구라서 서로 모르는 게 없어요.", "저희는 어릴 때부터 친구라서 서로 모르는 게 없어요.", "우리는 죽마고우라 서로 모르는 게 없어요.", "우리는 어렸을 때부터 친구여서 서로 모르는 게 없어요."],
-        explanation: "죽마고우 (B2) is the childhood friend; 라서 after the vowel 우.",
+        explanation: "죽마고우 (Upper-intermediate) is the childhood friend; 라서 after the vowel 우.",
       },
       {
         type: "multiple-choice",
@@ -2260,7 +2260,7 @@ export const KO_C1_U17: Lesson[] = [
       {
         heading: "Effort: 와신상담 or 칠전팔기",
         body: [
-          "칠전팔기 (B2), 'fall seven times, rise eight', praises persistence through many failures: the candidate who fails the exam again and again and finally passes. 와신상담 is about one defeat, usually by a rival, nursed for a long time and avenged after grim preparation; it has the flavour of a grudge match. A team that loses many finals and finally wins shows 칠전팔기; a team that loses one final to its rival and beats the same rival a year later shows 와신상담.",
+          "칠전팔기 (Upper-intermediate), 'fall seven times, rise eight', praises persistence through many failures: the candidate who fails the exam again and again and finally passes. 와신상담 is about one defeat, usually by a rival, nursed for a long time and avenged after grim preparation; it has the flavour of a grudge match. A team that loses many finals and finally wins shows 칠전팔기; a team that loses one final to its rival and beats the same rival a year later shows 와신상담.",
         ],
         examples: [
           { es: "그는 일곱 번 떨어진 끝에 여덟 번째 도전에서 합격했다. 그야말로 칠전팔기였다.", en: "He failed seven times and passed on his eighth try. It was true persistence." },
@@ -2284,14 +2284,14 @@ export const KO_C1_U17: Lesson[] = [
             source: "I'll try again in the spirit of never giving up.",
             answer: "칠전팔기의 정신으로 다시 도전하겠습니다.",
             altAnswers: ["칠전팔기의 정신으로 다시 한번 도전하겠습니다.", "칠전팔기의 마음으로 다시 도전하겠습니다.", "칠전팔기의 자세로 다시 도전하겠습니다.", "칠전팔기의 정신으로 재도전하겠습니다.", "칠전팔기 정신으로 다시 도전하겠습니다.", "포기하지 않는 정신으로 다시 도전하겠습니다."],
-            explanation: "칠전팔기의 정신 'the spirit of falling seven times and rising eight' is the B2 set phrase; persistence, not revenge.",
+            explanation: "칠전팔기의 정신 'the spirit of falling seven times and rising eight' is the Upper-intermediate set phrase; persistence, not revenge.",
           },
         ],
       },
       {
         heading: "People: 동병상련 or 역지사지, 관포지교 or 죽마고우",
         body: [
-          "역지사지 (B2), 'change places and think', is something you do on purpose, usually as advice: 역지사지로 생각해 보세요. 동병상련 is a feeling that is already there because you share the same trouble. You can practise 역지사지 with anyone; 동병상련 needs the same illness.",
+          "역지사지 (Upper-intermediate), 'change places and think', is something you do on purpose, usually as advice: 역지사지로 생각해 보세요. 동병상련 is a feeling that is already there because you share the same trouble. You can practise 역지사지 with anyone; 동병상련 needs the same illness.",
           "죽마고우 measures time: a friend since you rode bamboo horses as children. 관포지교 measures loyalty: a friendship that survives faults and tests, whenever it began. A childhood friend can still betray you, but a friendship called 관포지교 cannot, by definition. When praising a friendship in a speech, 관포지교 is the higher compliment; when introducing a friend, 죽마고우 is the plain fact.",
         ],
         examples: [
@@ -2454,7 +2454,7 @@ export const KO_C1_U17: Lesson[] = [
             sentence: "___ 공장에 불까지 났다.",
             answer: "설상가상으로",
             altAnswers: ["엎친 데 덮친 격으로", "게다가", "더구나"],
-            explanation: "설상가상으로 (B2) adds a blow; 까지 'even' reinforces it. 엎친 데 덮친 격으로 is the native proverb with 격.",
+            explanation: "설상가상으로 (Upper-intermediate) adds a blow; 까지 'even' reinforces it. 엎친 데 덮친 격으로 is the native proverb with 격.",
           },
           {
             type: "translate",

@@ -29,7 +29,7 @@ learn,language,japanese,french,german,korean,italian,portuguese,kanji,hiragana,v
 Deep End Languages teaches six languages the way a good tutor would: short, focused lessons that build on each other, with practice right after every new idea. Jump in.
 
 SIX LANGUAGES, BEGINNER TO FLUENT
-Japanese, French, German, Brazilian Portuguese, Italian and Korean, each from total beginner (A1) up to mastery (C2). Lessons take 4 to 10 minutes and end with quick checks so you know it stuck.
+Japanese, French, German, Brazilian Portuguese, Italian and Korean, each from total beginner up to mastery. Lessons take 4 to 10 minutes and end with quick checks so you know it stuck.
 
 JAPANESE, FROM THE ALPHABETS UP
 Start with hiragana and katakana. Every kanji word shows its reading above it, and you can answer in kanji, kana or romaji.
@@ -55,7 +55,7 @@ completions) linked to the user for app functionality only.
 Sign-in required. Use the existing reviewer account (full access to every course,
 login kept in /mnt/project-files/play-store/reviewer-login.txt, never in this repo).
 
-> Deep End Languages is a language-learning app for Japanese, French, German, Portuguese, Italian and Korean. Sign in with the provided account. On Home pick a language, then Lessons > Beginner (A1) > the first lesson. Lessons download the first time a level is opened. Tap any word to hear it.
+> Deep End Languages is a language-learning app for Japanese, French, German, Portuguese, Italian and Korean. Sign in with the provided account. On Home pick a language, then Lessons > Beginner > the first lesson. Lessons download the first time a level is opened. Tap any word to hear it.
 
 ## Screenshots
 6.9" iPhone (1320x2868), taken from the iOS Simulator: home with the language pills,

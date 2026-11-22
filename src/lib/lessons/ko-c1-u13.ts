@@ -63,7 +63,7 @@ export const KO_C1_U13: Lesson[] = [
       {
         heading: "When Korean prefers -되다, and the double passive",
         body: [
-          "Science and news writing choose -되다 when the doer is unknown, obvious or beside the point: 결과가 발표되었다, 원인이 밝혀졌다, 회의가 연기되었다. Native verbs build their passives differently, with 이 / 히 / 리 / 기 (보이다, 열리다, 잡히다) or -아 / 어지다 (만들어지다, 밝혀지다), as you saw at B1. Sino-Korean -하다 verbs normally take 되다 instead.",
+          "Science and news writing choose -되다 when the doer is unknown, obvious or beside the point: 결과가 발표되었다, 원인이 밝혀졌다, 회의가 연기되었다. Native verbs build their passives differently, with 이 / 히 / 리 / 기 (보이다, 열리다, 잡히다) or -아 / 어지다 (만들어지다, 밝혀지다), as you saw at the Intermediate level. Sino-Korean -하다 verbs normally take 되다 instead.",
           "Because 되다 is already passive, adding -어지다 on top doubles it: 개발되어지다, 발견되어지다, 생각되어지다. Such forms are common in casual and student writing, but 국립국어원's usage advice treats them as double passives, and editors and professors correct them. Write 개발되었다, 발견되었다, 생각된다.",
           "Some -하다 nouns describe a change that happens by itself, so the -하다 verb is already intransitive: 증가하다, 감소하다, 변화하다, 발생하다. 환자 수가 증가했다 needs no 되다; you will meet 증가되다 in print, but 증가하다 is the safer choice.",
         ],
@@ -476,7 +476,7 @@ export const KO_C1_U13: Lesson[] = [
         heading: "알려져 있다: what is already known",
         body: [
           "Science writing rarely says 'X does Y' flatly. It wraps the claim in a noun phrase and attaches a verb that says where the knowledge comes from. The first is -는 것으로 알려져 있다 'is known to': 이 성분은 염증을 줄이는 것으로 알려져 있다 'this ingredient is known to reduce inflammation'. The resultative -어 있다 presents it as settled background, something the field already accepts.",
-          "At B1 you met the news form 알려졌다 'it has been reported', used for fresh information from an unnamed source (다친 사람은 없는 것으로 알려졌다). Keep them apart: 알려져 있다 is a standing fact, 알려졌다 is today's report.",
+          "At the Intermediate level you met the news form 알려졌다 'it has been reported', used for fresh information from an unnamed source (다친 사람은 없는 것으로 알려졌다). Keep them apart: 알려져 있다 is a standing fact, 알려졌다 is today's report.",
           "The modifier before 것 follows the usual rules. Action verbs and 있다 / 없다 take -는 (줄이는, 있는). Adjectives take -(으)ㄴ (위험한, 높은). Nouns take 인 (원인인). A completed past event takes -(으)ㄴ on a verb: 조선 시대에 들어온 것으로 알려져 있다 'is believed to have come in during the Joseon era'.",
         ],
         examples: [
@@ -685,7 +685,7 @@ export const KO_C1_U13: Lesson[] = [
       {
         heading: "우려 and 위험: a bad outcome that could happen",
         body: [
-          "From B2 you know -(으)ㄹ 우려가 있다 'there is a danger that', used only for unwelcome outcomes: 과다 복용할 경우 간이 손상될 우려가 있다. 위험 'risk' is its more concrete partner. It works with a clause (합병증이 생길 위험이 있다) or straight after a noun (감염 위험, 재발 위험), and it can be measured: 위험이 높다 / 낮다, 위험을 줄이다, 위험이 두 배로 높아지다. 우려 expresses concern; 위험 names a risk you could put a number on.",
+          "From the Upper-intermediate level you know -(으)ㄹ 우려가 있다 'there is a danger that', used only for unwelcome outcomes: 과다 복용할 경우 간이 손상될 우려가 있다. 위험 'risk' is its more concrete partner. It works with a clause (합병증이 생길 위험이 있다) or straight after a noun (감염 위험, 재발 위험), and it can be measured: 위험이 높다 / 낮다, 위험을 줄이다, 위험이 두 배로 높아지다. 우려 expresses concern; 위험 names a risk you could put a number on.",
           "Leaflets and official advice often prefer the plainest form, -(으)ㄹ 수 있다: 졸음이 올 수 있다, 부작용이 나타날 수 있다. It states a possibility without alarm, which is exactly what a patient needs. 부작용이 있을 거예요 is grammatical, but in a leaflet it sounds like a prediction that side effects will definitely come.",
         ],
         examples: [

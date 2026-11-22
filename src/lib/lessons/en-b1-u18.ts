@@ -8,7 +8,7 @@ export const EN_B1_U18: Lesson[] = [
     slug: "b1-spiral-first-half-1",
     level: "EN-B1",
     number: 1,
-    title: "Spiral Review: B1 First Half, Part 1 of 3",
+    title: "Spiral Review: First Half, Part 1 of 3",
     summary: "Mixed practice of the present perfect continuous, the narrative tenses, used to and the future forms: choose the right tense, translate it and fix it.",
     duration: "12 min",
     sections: [
@@ -286,7 +286,7 @@ export const EN_B1_U18: Lesson[] = [
     slug: "b1-spiral-first-half-2",
     level: "EN-B1",
     number: 2,
-    title: "Spiral Review: B1 First Half, Part 2 of 3",
+    title: "Spiral Review: First Half, Part 2 of 3",
     summary: "Mixed practice of all the conditionals, wishes with «ojalá», obligation (must, have to, should) and deduction (must, might, can't).",
     duration: "12 min",
     sections: [
@@ -558,7 +558,7 @@ export const EN_B1_U18: Lesson[] = [
     slug: "b1-spiral-first-half-3",
     level: "EN-B1",
     number: 3,
-    title: "Spiral Review: B1 First Half, Part 3 of 3",
+    title: "Spiral Review: First Half, Part 3 of 3",
     summary: "Mixed practice of the passive in different tenses, have something done, and relative clauses with who, which, that, where, whose and what.",
     duration: "12 min",
     sections: [

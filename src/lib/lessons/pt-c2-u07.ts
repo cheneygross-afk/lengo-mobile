@@ -101,7 +101,7 @@ export const PT_C2_U07: Lesson[] = [
         heading: "Reading an ementa",
         body: [
           "Appeal decisions open with an \"ementa\", the headnote that lawyers, journalists and search engines read first. Its first block is a string of key terms in capitals, separated by periods: type of appeal, area of law, facts, conclusion. Read it like a headline, made of nouns with no verbs. The last term (\"RECURSO DESPROVIDO\", \"SENTENÇA REFORMADA\") tells you who won.",
-          "The numbered paragraphs that follow pack in the structures of formal writing: nominalization (\"o extravio da bagagem\" rather than 'the bag was lost'), the passive, and the reduced participle clauses you met at C1: \"comprovado o dano\", 'once the damage has been proven'. Subject inversion is frequent: \"responde a companhia aérea pelos danos\".",
+          "The numbered paragraphs that follow pack in the structures of formal writing: nominalization (\"o extravio da bagagem\" rather than 'the bag was lost'), the passive, and the reduced participle clauses you met at the Advanced level: \"comprovado o dano\", 'once the damage has been proven'. Subject inversion is frequent: \"responde a companhia aérea pelos danos\".",
           "The legal basis comes with \"nos termos de\" (under, pursuant to) or \"com fundamento em\". The Consumer Protection Code is the \"CDC\". Articles 1 to 9 are read as ordinals (\"artigo quinto\"), from 10 on as cardinals (\"artigo catorze\"), and \"§ 1º\" is \"parágrafo primeiro\". For a non-lawyer, unpack the ementa: who sued whom, for what, and what the court decided.",
         ],
         examples: [
@@ -581,7 +581,7 @@ export const PT_C2_U07: Lesson[] = [
         body: [
           "\"Câmbio\" is the exchange rate, reported as the price of the dollar: \"o dólar fechou em alta, cotado a R$ 5,43\". Mind the direction: when \"o dólar sobe\", the real is weakening (\"o real se desvaloriza\"). \"Frente ao\" or \"em relação ao\" sets up the comparison. Trade uses the \"dólar comercial\"; travelers pay the pricier \"dólar turismo\".",
           "Growth is the \"PIB\" (\"Produto Interno Bruto\"), reported by \"trimestre\". Two quarters of contraction in a row make a \"recessão técnica\". Public accounts close in \"superávit\" or \"déficit\", both accented and masculine. \"A Bolsa\" is the São Paulo stock exchange, tracked by the \"Ibovespa\".",
-          "Headlines compress the chain with the nominal style from B1: a noun phrase as subject, a present-tense verb, few articles. Examples are \"Alta do dólar pressiona inflação\" and \"Queda dos juros anima a Bolsa\". Expect the journalistic conditional for unconfirmed plans too: \"o governo estudaria um novo imposto\".",
+          "Headlines compress the chain with the nominal style from the Intermediate level: a noun phrase as subject, a present-tense verb, few articles. Examples are \"Alta do dólar pressiona inflação\" and \"Queda dos juros anima a Bolsa\". Expect the journalistic conditional for unconfirmed plans too: \"o governo estudaria um novo imposto\".",
         ],
         examples: [
           { es: "O dólar fechou em alta, cotado a R$ 5,43.", en: "The dollar closed higher, at R$ 5.43." },
@@ -730,7 +730,7 @@ export const PT_C2_U07: Lesson[] = [
         body: [
           "\"Divulgação científica\" is science written for the public: a reportagem in \"Pesquisa FAPESP\" or \"Superinteressante\", an explainer on a YouTube channel, a panel in a museum. It takes its facts from the paper and its order from journalism. The finding comes first, the method comes later or not at all, and the text addresses the reader as \"você\".",
           "Its moves are fixed enough to learn. The finding enters with a reporting verb: \"um estudo aponta que\", \"pesquisadores descobriram que\", \"segundo os autores\". The most natural Portuguese for English 'a study finds that' is \"um estudo aponta que\" or \"indica que\". The source is named precisely. An outside expert is quoted for perspective, almost always with the same relative clause: \"que não participou do estudo\".",
-          "The register is the plain end of the norma culta. Sentences are short, questions voice the reader's doubt (\"Mas o que isso significa para você?\"), agreement is complete and there is no slang. The C1 hedges (\"sugere\", \"tende a\") stay. The impersonal academic machinery (\"verifica-se que\", \"no âmbito de\") goes.",
+          "The register is the plain end of the norma culta. Sentences are short, questions voice the reader's doubt (\"Mas o que isso significa para você?\"), agreement is complete and there is no slang. The Advanced hedges (\"sugere\", \"tende a\") stay. The impersonal academic machinery (\"verifica-se que\", \"no âmbito de\") goes.",
         ],
         examples: [
           { es: "Um estudo da USP aponta que dormir pouco afeta a memória dos adolescentes.", en: "A University of São Paulo study finds that too little sleep affects teenagers' memory." },

@@ -207,7 +207,7 @@ export const C2_UNIT_TASKS: UnitTask[] = [
           ["¿Con qué sigue soñando Rosa?", ["con cerrar el restaurante", "con una estrella Michelin", "con viajar"], 1, "Sigo soñando con una estrella Michelin: soñar takes con."],
         ],
         "Write about something you've been doing for years, to do with food. Say how long you've been doing something, what you didn't count on, what you realized and what you still dream of.",
-        "Llevo tres años cocinando en casa. Al principio no contaba con tanto trabajo. Todo depende de los ingredientes. Ayer me di cuenta de que siempre hacía las mismas recetas. A mi amiga Lucía le dije que estaba a punto de apuntarme a un curso. A mí me parece que cocinar es un arte. Sigo soñando con abrir un pequeño café.",
+        "Llevo tres años cocinando en casa. Al principio no contaba con tanto trabajo. Todo depende de los ingredientes. Ayer me di cuenta de que siempre hacía las mismas recetas. A mi amiga Lucía le dije que estaba a punto de inscribirme en un curso. A mí me parece que cocinar es un arte. Sigo soñando con abrir un pequeño café.",
       ),
       sports: v(
         "Fifteen years on the field",

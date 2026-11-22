@@ -253,7 +253,7 @@ export const KO_B2_U29: Lesson[] = [
       {
         heading: "How questions 1-4 work; cause and addition pairs",
         body: [
-          "Questions 1-2 give one sentence with a blank and four endings; 3-4 underline an ending and ask for the option closest in meaning (의미가 비슷한 것). Neither needs the whole sentence translated. Read the clause before the blank, then check the end of the sentence: its tense, its mood, and whether the result is good or bad. Wrong options are real B2 endings that fail one of those checks.",
+          "Questions 1-2 give one sentence with a blank and four endings; 3-4 underline an ending and ask for the option closest in meaning (의미가 비슷한 것). Neither needs the whole sentence translated. Read the clause before the blank, then check the end of the sentence: its tense, its mood, and whether the result is good or bad. Wrong options are real Upper-intermediate endings that fail one of those checks.",
           "Cause: -는 바람에 and -(으)ㄴ 탓에 both blame a cause for a bad result. Watch the modifier: 바람에 always takes -는, even for a past event (늦잠을 자는 바람에), while 탓에 uses the past -(으)ㄴ (늦잠을 잔 탓에). So 자는 바람에 and 잔 탓에 are the pair; *잔 바람에 is wrong.",
           "Addition: -(으)ㄹ 뿐만 아니라 'not only ... but also' and -는 데다가 'on top of' are the pair. Adjectives take -(으)ㄴ 데다가: 쌀 뿐만 아니라 = 싼 데다가. Both add a point in the same direction, so the second clause is usually also good, or also bad.",
         ],

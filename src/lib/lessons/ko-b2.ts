@@ -98,7 +98,7 @@ const UNITS: KoreanUnitDef[] = [
   { id: "u27", title: "Politeness Strategies", description: "Make requests, give opinions and say no in a way that sounds considerate to Korean ears, at the right level for the listener.", lessons: KO_B2_U27, extra: KO_B2_U27_EXTRA, writing: KO_B2_U27_WRITING },
   { id: "u28", title: "Spelling Traps Natives Make", description: "Spell and space the words that even Korean adults get wrong, in messages, forms and essays.", lessons: KO_B2_U28, extra: KO_B2_U28_EXTRA, writing: KO_B2_U28_WRITING },
   { id: "u29", title: "TOPIK II Reading Strategies", description: "Read TOPIK II passages faster and more accurately by knowing each question type, its clues and its traps.", lessons: KO_B2_U29, extra: KO_B2_U29_EXTRA, writing: KO_B2_U29_WRITING },
-  { id: "u30", title: "B2 Review and TOPIK 4 Practice", description: "Bring the whole level together and sit a full TOPIK II practice at the level 4 standard.", lessons: KO_B2_U30, extra: KO_B2_U30_EXTRA, writing: KO_B2_U30_WRITING },
+  { id: "u30", title: "Review and TOPIK 4 Practice", description: "Bring the whole level together and sit a full TOPIK II practice at the level 4 standard.", lessons: KO_B2_U30, extra: KO_B2_U30_EXTRA, writing: KO_B2_U30_WRITING },
 ];
 
 const LEVEL = buildKoreanLevel("B2", UNITS);

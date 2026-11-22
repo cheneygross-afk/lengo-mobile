@@ -919,7 +919,7 @@ export const PT_C1_U03: Lesson[] = [
       {
         heading: "Paragraph flow: link back, then move on",
         body: [
-          "Between paragraphs, cohesion works like a relay: the opening sentence picks up what the last paragraph left, then moves on. At B2 you used pronouns and synonyms for this. Academic writing prefers a demonstrative plus a noun that sums up the previous idea: \"esse cenário\", \"tal fenômeno\", \"essa queda\", \"o referido estudo\". A bare \"isso\" at the start of a paragraph is too vague for a reviewer.",
+          "Between paragraphs, cohesion works like a relay: the opening sentence picks up what the last paragraph left, then moves on. At the Upper-intermediate level you used pronouns and synonyms for this. Academic writing prefers a demonstrative plus a noun that sums up the previous idea: \"esse cenário\", \"tal fenômeno\", \"essa queda\", \"o referido estudo\". A bare \"isso\" at the start of a paragraph is too vague for a reviewer.",
           "Then use one connector, not two: \"Portanto, por conseguinte\" and \"Além disso, também\" say the same thing twice. Vary your paragraph openings too. Three in a row that start with \"Além disso\" read like a list, not an argument. \"Por sua vez\" (in turn) and \"Nesse contexto\" give you alternatives.",
         ],
         examples: [
@@ -2013,7 +2013,7 @@ export const PT_C1_U03: Lesson[] = [
         heading: "Onde is for places",
         body: [
           "In speech \"onde\" stretches to any relation: a period, a situation, a text, a theory. The written norm keeps it for real places: \"a cidade onde a pesquisa foi feita\". For periods, cases and contexts use \"em que\". For a text use \"em que\" or \"no qual\" / \"na qual\". For a theory you are summarizing, \"segundo a qual\" (according to which) is often the most precise choice.",
-          "A quick test: if you couldn't point to it on a map, \"onde\" is probably wrong. \"Um contexto onde\" and \"um período onde\" are the slips examiners circle most. As you saw in B1, \"o qual\" agrees with the noun it replaces.",
+          "A quick test: if you couldn't point to it on a map, \"onde\" is probably wrong. \"Um contexto onde\" and \"um período onde\" are the slips examiners circle most. As you saw in the Intermediate level, \"o qual\" agrees with the noun it replaces.",
         ],
         examples: [
           { es: "A pesquisa foi realizada em Belém, onde vivem os participantes.", en: "The research was carried out in Belém, where the participants live." },

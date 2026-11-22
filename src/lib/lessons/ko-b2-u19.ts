@@ -270,7 +270,7 @@ export const KO_B2_U19: Lesson[] = [
             source: "These days kids go straight to 학원 after school.",
             answer: "요즘 아이들은 학교가 끝나면 바로 학원에 가요.",
             altAnswers: ["요즘 애들은 학교가 끝나면 바로 학원에 가요.", "요즘 아이들은 학교 끝나면 바로 학원에 가요.", "요즘 애들은 학교 끝나면 바로 학원에 가요.", "요즘 아이들은 학교가 끝나자마자 학원에 가요.", "요즘 애들은 학교가 끝나자마자 학원에 가요.", "요즘 아이들은 수업이 끝나면 바로 학원에 가요.", "요즘 아이들은 학교가 끝나면 곧바로 학원에 가요.", "요즘 아이들은 방과 후에 바로 학원에 가요.", "요즘 아이들은 학교가 끝나면 바로 학원으로 가요."],
-            explanation: "학원에 가다 for going to the academy (학원에 다니다 for attending one regularly). -자마자 (B1 Unit 9) also gives 'straight after'.",
+            explanation: "학원에 가다 for going to the academy (학원에 다니다 for attending one regularly). -자마자 (Intermediate Unit 9) also gives 'straight after'.",
           },
           {
             type: "fill-blank",
@@ -325,7 +325,7 @@ export const KO_B2_U19: Lesson[] = [
             type: "speak",
             text: "선행 학습을 시키지 않으면 불안하다는 부모도 있어요.",
             tip: "학습 is said [학씁]: after the stop ㄱ, ㅅ turns tense.",
-            explanation: "선행 학습을 시키다 'have a child study ahead' + -다는 (reported, B1) before 부모.",
+            explanation: "선행 학습을 시키다 'have a child study ahead' + -다는 (reported, Intermediate) before 부모.",
           },
         ],
       },
@@ -514,7 +514,7 @@ export const KO_B2_U19: Lesson[] = [
         heading: "-느냐에 달려 있다: when the factor is a question",
         body: [
           "When the deciding factor is a question (how, how much, who, which), Korean turns it into a noun with -느냐 and adds 에 달려 있다: 어떻게 공부하느냐에 달려 있다 'it depends on how you study'. Verbs and 있다 / 없다 take -느냐 (공부하느냐, 있느냐), adjectives -(으)냐 (얼마나 성실하냐), nouns -(이)냐 (누구냐), and the past -았 / 었느냐 (얼마나 노력했느냐). Learn it as a chunk with its question word: 어떻게 ... -느냐에, 얼마나 ... -느냐에, 누가 ... -느냐에.",
-          "-느냐 is the written, formal shape; you met it as an older reported-question form in B1. In speech most Koreans say -냐 for everything (어떻게 공부하냐에 달려 있어요), and -는지에 달려 있다 is a neutral alternative in both registers (어떻게 공부하는지에 달려 있다).",
+          "-느냐 is the written, formal shape; you met it as an older reported-question form in the Intermediate level. In speech most Koreans say -냐 for everything (어떻게 공부하냐에 달려 있어요), and -는지에 달려 있다 is a neutral alternative in both registers (어떻게 공부하는지에 달려 있다).",
         ],
         examples: [
           { es: "성적은 어떻게 공부하느냐에 달려 있다.", en: "Grades depend on how you study." },
@@ -907,7 +907,7 @@ export const KO_B2_U19: Lesson[] = [
       {
         heading: "-다가는: a warning about where a habit leads",
         body: [
-          "-다가 (B1 Unit 9) marks an action in progress that something interrupts. Add 는 and the clause becomes a warning: if this goes on, something bad will follow. 그렇게 놀다가는 시험에 떨어질 거야 'Keep playing around like that and you'll fail the exam'. Any action verb stem takes it: 놀다가는, 미루다가는, 먹다가는, 새우다가는.",
+          "-다가 (Intermediate Unit 9) marks an action in progress that something interrupts. Add 는 and the clause becomes a warning: if this goes on, something bad will follow. 그렇게 놀다가는 시험에 떨어질 거야 'Keep playing around like that and you'll fail the exam'. Any action verb stem takes it: 놀다가는, 미루다가는, 먹다가는, 새우다가는.",
           "The first clause describes a habit or a trend already under way, which is why 그렇게, 이렇게, 계속 and 매일 are its usual partners. The second clause predicts the unwelcome result: -(으)ㄹ 거예요, -(으)ㄹ 수도 있어요, -겠어요, or the present for a general danger, as in the set phrase 큰일 나요 'there'll be real trouble'.",
         ],
         examples: [
@@ -951,7 +951,7 @@ export const KO_B2_U19: Lesson[] = [
         heading: "Never a command, never good news",
         body: [
           "The result clause is a prediction, never a command or a suggestion: *그렇게 놀다가는 공부해라 is not Korean. Put the advice in its own sentence: 그렇게 놀다가는 떨어질 거야. 이제 공부 좀 해.",
-          "-다가는 always expects a bad outcome. For a good one use -(으)면 or B1's -다 보면: 열심히 공부하다 보면 합격할 거예요. 열심히 공부하다가는 합격할 거예요 is a clash rather than a compliment: it sounds as if getting in were a disaster, so a Korean hears a joke or a slip.",
+          "-다가는 always expects a bad outcome. For a good one use -(으)면 or the Intermediate level's -다 보면: 열심히 공부하다 보면 합격할 거예요. 열심히 공부하다가는 합격할 거예요 is a clash rather than a compliment: it sounds as if getting in were a disaster, so a Korean hears a joke or a slip.",
         ],
         examples: [
           { es: "그렇게 놀다가는 떨어질 거야. 이제 공부 좀 해.", en: "Keep that up and you'll fail. Get studying now." },
@@ -1336,7 +1336,7 @@ export const KO_B2_U19: Lesson[] = [
     level: "KO-B2",
     number: 7,
     title: "Drill: Depends and Warnings",
-    summary: "Fast production in 해요 and 한다체: nouns into -에 달려 있다, verbs into -기 나름이다, habits into -다가는 warnings (놀다가는, 미루다가는, 빠지다가는) and results into -(으)ㄹ 수밖에 없다 (다닐 수밖에 없다, spiral of B1 Unit 24).",
+    summary: "Fast production in 해요 and 한다체: nouns into -에 달려 있다, verbs into -기 나름이다, habits into -다가는 warnings (놀다가는, 미루다가는, 빠지다가는) and results into -(으)ㄹ 수밖에 없다 (다닐 수밖에 없다, spiral of Intermediate Unit 24).",
     duration: "25 min",
     sections: [
       {
@@ -1472,7 +1472,7 @@ export const KO_B2_U19: Lesson[] = [
       {
         heading: "-(으)ㄹ 수밖에 없다 in argument",
         body: [
-          "B1's -(으)ㄹ 수밖에 없다 'have no choice but to' also states a logical certainty, 'is bound to'. In an argument it shows a result follows inevitably: 경쟁이 이렇게 심하니까 학원에 다닐 수밖에 없다. Spacing: 다닐 수밖에, with 밖에 attached to 수.",
+          "The Intermediate level's -(으)ㄹ 수밖에 없다 'have no choice but to' also states a logical certainty, 'is bound to'. In an argument it shows a result follows inevitably: 경쟁이 이렇게 심하니까 학원에 다닐 수밖에 없다. Spacing: 다닐 수밖에, with 밖에 attached to 수.",
         ],
         examples: [
           { es: "다니다 → 다닐 수밖에 없다", en: "attend → have no choice but to attend" },
@@ -2527,7 +2527,7 @@ export const KO_B2_U19: Lesson[] = [
         source: "In fact, many students are short of sleep because they attend 학원 until late at night.",
         answer: "실제로 많은 학생이 밤늦게까지 학원에 다니느라 잠이 부족하다.",
         altAnswers: ["실제로 많은 학생들이 밤늦게까지 학원에 다니느라 잠이 부족하다.", "실제로 많은 학생이 밤늦게까지 학원에 다니느라고 잠이 부족하다.", "실제로 많은 학생들이 밤늦게까지 학원에 다니느라고 잠이 부족하다.", "실제로 많은 학생이 밤늦게까지 학원에 다녀서 잠이 부족하다.", "실제로 많은 학생들이 밤늦게까지 학원에 다녀서 잠이 부족하다.", "실제로 많은 학생이 밤늦게까지 학원에 다니기 때문에 잠이 부족하다.", "실제로 많은 학생들이 밤늦게까지 학원에 다니기 때문에 잠이 부족하다.", "실제로 많은 학생이 늦은 밤까지 학원에 다니느라 잠이 부족하다."],
-        explanation: "-느라(고) (B1) gives a cause that eats up time; 실제로 introduces evidence.",
+        explanation: "-느라(고) (Intermediate) gives a cause that eats up time; 실제로 introduces evidence.",
       },
       {
         type: "matching",

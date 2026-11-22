@@ -138,7 +138,7 @@ export const IT_B1_U24: Lesson[] = [
           "Every Italian CV ends with a signed consent line: \"Autorizzo il trattamento dei miei dati personali ai sensi del Regolamento UE 2016/679\" (the GDPR). Since 2018 the law no longer strictly requires it for a CV you send on your own initiative, but many employers still expect it, so include it and sign it.",
         ],
         examples: [
-          { es: "Madrelingua: inglese. Altre lingue: italiano (B1), spagnolo (A2).", en: "Mother tongue: English. Other languages: Italian (B1), Spanish (A2)." },
+          { es: "Madrelingua: inglese. Altre lingue: italiano (Intermediate), spagnolo (Elementary).", en: "Mother tongue: English. Other languages: Italian (Intermediate), Spanish (Elementary)." },
           { es: "Ottima conoscenza del pacchetto Office.", en: "Excellent knowledge of Microsoft Office." },
           { es: "Buone capacità comunicative e di lavoro in gruppo.", en: "Good communication and teamwork skills." },
           { es: "Patente B, automunito.", en: "Driver's license, own car." },
@@ -814,6 +814,6 @@ export const IT_B1_U24_WRITING: WriteExercise = {
     "Uses a polite conditional or a subjunctive (sarei felice di, spero che ... sia)",
     "Closes with a formal formula (in attesa di un Suo riscontro, cordiali saluti)",
   ],
-  modelAnswer: "Gentile Responsabile, Le scrivo in merito all'annuncio per la posizione di assistente amministrativa part time. Come potrà vedere dal curriculum allegato, ho lavorato per tre anni nella segreteria di uno studio legale a Manchester, dove mi occupavo dell'agenda, della fatturazione e dei rapporti con i clienti. Da un anno vivo a Bologna e lavoro come insegnante di inglese, quindi parlo inglese come madrelingua e ho un buon livello di italiano (B1). Sono una persona precisa e affidabile e sarei felice di mettere la mia esperienza al servizio del Vostro studio. Sono disponibile da subito. Spero che la mia candidatura sia di Vostro interesse e resto a disposizione per un eventuale colloquio. In attesa di un Suo cortese riscontro, porgo cordiali saluti. Emily Carter",
+  modelAnswer: "Gentile Responsabile, Le scrivo in merito all'annuncio per la posizione di assistente amministrativa part time. Come potrà vedere dal curriculum allegato, ho lavorato per tre anni nella segreteria di uno studio legale a Manchester, dove mi occupavo dell'agenda, della fatturazione e dei rapporti con i clienti. Da un anno vivo a Bologna e lavoro come insegnante di inglese, quindi parlo inglese come madrelingua e ho un buon livello di italiano (Intermediate). Sono una persona precisa e affidabile e sarei felice di mettere la mia esperienza al servizio del Vostro studio. Sono disponibile da subito. Spero che la mia candidatura sia di Vostro interesse e resto a disposizione per un eventuale colloquio. In attesa di un Suo cortese riscontro, porgo cordiali saluti. Emily Carter",
   explanation: "The email moves from the reason (\"Le scrivo in merito a\") to the profile, with the passato prossimo for the finished job (\"ho lavorato per tre anni\"), the imperfetto for duties (\"mi occupavo\") and present + \"da\" for now (\"da un anno vivo a Bologna\"). \"Sarei felice di\" and \"spero che ... sia\" keep it modest, and the formal closing completes it.",
 };

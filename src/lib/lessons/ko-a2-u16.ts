@@ -19,7 +19,7 @@ export const KO_A2_U16: Lesson[] = [
       {
         heading: "-(으)시-: respect for the person you're talking about",
         body: [
-          "In A1 you met 세요 in requests (앉으세요) and in questions to the listener (어디 가세요?). That 세요 is the honorific -(으)시- plus the polite ending. -시- shows respect for the subject of the sentence, the person who does the action or is described, so you also use it for a teacher, a boss or a grandparent who isn't there: 할아버지는 신문을 읽으세요.",
+          "In the Beginner level you met 세요 in requests (앉으세요) and in questions to the listener (어디 가세요?). That 세요 is the honorific -(으)시- plus the polite ending. -시- shows respect for the subject of the sentence, the person who does the action or is described, so you also use it for a teacher, a boss or a grandparent who isn't there: 할아버지는 신문을 읽으세요.",
           "After a vowel stem add 세요 (가세요, 바쁘세요, 일하세요); after a consonant stem add 으세요 (읽으세요, 앉으세요). Descriptive verbs take it too: 선생님이 바쁘세요. A noun takes 이세요 after a consonant and 세요 after a vowel: 선생님이세요, 의사세요.",
           "English has nothing like this, so learners drop it as soon as the senior is a third person. 할아버지는 신문을 읽어요 is grammatical, but it talks about your grandfather the way you'd talk about a child.",
         ],
@@ -102,7 +102,7 @@ export const KO_A2_U16: Lesson[] = [
       {
         heading: "Asking them, answering for yourself",
         body: [
-          "With the listener as the subject, -시- is the polite way to ask about them: 뭐 하세요? 'What do you do?' or 'What are you doing?'. Koreans use it with strangers, customers and anyone older, which is why it felt like a set phrase in A1.",
+          "With the listener as the subject, -시- is the polite way to ask about them: 뭐 하세요? 'What do you do?' or 'What are you doing?'. Koreans use it with strangers, customers and anyone older, which is why it felt like a set phrase in the Beginner level.",
           "Your answer is about you, so the -시- goes: 회사에 다녀요, not *회사에 다니세요. Never honour yourself: *저는 학생이세요 sounds as if you were bowing to yourself. Friends, younger siblings and children don't get -시- either: 동생은 대학생이에요.",
         ],
         examples: [

@@ -16,7 +16,7 @@ export const IT_C1_U07: Lesson[] = [
       {
         heading: "Real or wished-for: relative clauses",
         body: [
-          "At B2 you learned that some verbs take the subjunctive. At C1 the question becomes: what does each mood say? In a relative clause the indicative describes something that exists and that you have identified; the subjunctive describes the kind of thing you want, which may not exist.",
+          "At the Upper-intermediate level you learned that some verbs take the subjunctive. At the Advanced level the question becomes: what does each mood say? In a relative clause the indicative describes something that exists and that you have identified; the subjunctive describes the kind of thing you want, which may not exist.",
           "\"Cerco una casa che ha il giardino\" means you have a particular house in mind (you saw the ad). \"Cerco una casa che abbia il giardino\" means any house, as long as it has a garden. The same holds after \"c'è qualcuno che\" and negatives: \"Non c'è nessuno che sappia rispondere\" (there is nobody who can answer: the subjunctive, because the person doesn't exist).",
           "Superlatives and words like \"l'unico\", \"il solo\", \"il primo\" also prefer the subjunctive in careful language: \"È il libro più bello che io abbia mai letto\", \"Sei l'unica persona che mi capisca\". In conversation you will hear \"che ho mai letto\" and \"che mi capisce\"; they are not wrong, just plainer. Here the mood changes the register more than the meaning.",
         ],

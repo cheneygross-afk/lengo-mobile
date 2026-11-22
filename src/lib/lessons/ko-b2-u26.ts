@@ -566,7 +566,7 @@ export const KO_B2_U26: Lesson[] = [
         source: "Really? Minsu is getting married next month?",
         answer: "진짜요? 민수 씨가 다음 달에 결혼해요?",
         altAnswers: ["정말요? 민수 씨가 다음 달에 결혼해요?", "진짜요? 민수 씨 다음 달에 결혼해요?", "정말요? 민수 씨 다음 달에 결혼해요?", "진짜요? 민수 씨가 다음 달에 결혼한대요?", "정말요? 민수 씨가 다음 달에 결혼한대요?", "진짜요? 민수 씨가 다음 달에 결혼하세요?", "정말요? 민수 씨가 다음 달에 결혼하세요?"],
-        explanation: "진짜요? or 정말요? reacts with surprise; 결혼한대요? 'he says he is...?' checks the news you just heard (B1).",
+        explanation: "진짜요? or 정말요? reacts with surprise; 결혼한대요? 'he says he is...?' checks the news you just heard (Intermediate).",
       },
       {
         type: "fill-blank",
@@ -584,7 +584,7 @@ export const KO_B2_U26: Lesson[] = [
         source: "Yeah, I should've brought an umbrella.",
         answer: "그러게, 우산 가져올걸.",
         altAnswers: ["그러게, 우산 가지고 올걸.", "그러게, 우산 챙겨 올걸.", "그러게, 우산 가져올 걸 그랬어.", "그러게, 우산 가지고 올 걸 그랬어."],
-        explanation: "그러게 agrees ruefully, and -(으)ㄹ걸 (B1) is the regret 'should have'.",
+        explanation: "그러게 agrees ruefully, and -(으)ㄹ걸 (Intermediate) is the regret 'should have'.",
       },
       {
         type: "multiple-choice",
@@ -903,7 +903,7 @@ export const KO_B2_U26: Lesson[] = [
       {
         heading: "Before a result, or at the end: 먹으나 마나예요",
         body: [
-          "Before a clause, -(으)나 마나 introduces the obvious result: 물어보나 마나 안 된다고 할걸요 'No point asking; they'll say no, I bet'. The result clause usually holds a guess: -(으)ㄹ 거야, -(으)ㄹ걸요 (B1) or -(으)ㄹ 게 뻔하다 (Unit 4).",
+          "Before a clause, -(으)나 마나 introduces the obvious result: 물어보나 마나 안 된다고 할걸요 'No point asking; they'll say no, I bet'. The result clause usually holds a guess: -(으)ㄹ 거야, -(으)ㄹ걸요 (Intermediate) or -(으)ㄹ 게 뻔하다 (Unit 4).",
           "At the end of a sentence, -(으)나 마나예요 (casual 마나야) says the action is useless: 이 약은 먹으나 마나예요 'This medicine does nothing; I might as well not take it', 바람이 세서 우산은 쓰나 마나야. As a modifier, 하나 마나 한 말 is 'a pointless thing to say', a common put-down.",
         ],
         examples: [
@@ -1712,7 +1712,7 @@ export const KO_B2_U26: Lesson[] = [
       {
         heading: "Part 2: The first day of filming",
         body: [
-          "Now the story. 하준 launches it with 있잖아요 and paints it with 막: 비가 막 쏟아졌어요 'the rain was absolutely pouring down'. He reports what the director said and what he saw himself with -더라고요 (B1): 그냥 찍자고 하시더라고요, 분위기가 있더라고요.",
+          "Now the story. 하준 launches it with 있잖아요 and paints it with 막: 비가 막 쏟아졌어요 'the rain was absolutely pouring down'. He reports what the director said and what he saw himself with -더라고요 (Intermediate): 그냥 찍자고 하시더라고요, 분위기가 있더라고요.",
           "The host reacts like a friend: 아니, ...? to protest on 하준's behalf, and 하긴 to concede once she hears the outcome. 하준 answers her protest with 그러니까요! 'Exactly!'. Notice the rhythm: story line, reaction, story line. That back-and-forth is what makes Korean talk shows sound like real chat.",
         ],
         examples: [
@@ -1831,7 +1831,7 @@ export const KO_B2_U26: Lesson[] = [
         source: "I hear you filmed this drama on Jeju?",
         answer: "이번 드라마는 제주도에서 찍으셨다면서요?",
         altAnswers: ["이번 드라마는 제주에서 찍으셨다면서요?", "이번 드라마를 제주도에서 찍으셨다면서요?", "이번 드라마는 제주도에서 촬영하셨다면서요?", "이번 드라마를 제주도에서 촬영하셨다면서요?", "이번 드라마 제주도에서 찍으셨다면서요?", "이번 드라마는 제주도에서 찍으셨다고요?"],
-        explanation: "-다면서요? checks something you heard (B1); -(으)시- honours the guest.",
+        explanation: "-다면서요? checks something you heard (Intermediate); -(으)시- honours the guest.",
       },
       {
         type: "word-order",
@@ -1886,14 +1886,14 @@ export const KO_B2_U26: Lesson[] = [
     level: "KO-B2",
     number: 9,
     title: "Dialogue Lab: A Disastrous 소개팅",
-    summary: "Follow 서연 as she tells her friend 지은 about a disastrous blind date in 반말, with 있잖아, 막, 근데, 그러니까 and -더라 (spiral of B1 Unit 5), and build 지은's reactions: 헐, 진짜?, 대박, 하긴, 그러게.",
+    summary: "Follow 서연 as she tells her friend 지은 about a disastrous blind date in 반말, with 있잖아, 막, 근데, 그러니까 and -더라 (spiral of Intermediate Unit 5), and build 지은's reactions: 헐, 진짜?, 대박, 하긴, 그러게.",
     duration: "17 min",
     sections: [
       {
         heading: "Part 1: 어제 소개팅 어땠어?",
         body: [
           "A 소개팅 is a blind date set up by a friend, still a very common way to meet someone in Korea. The morning after, 지은 wants to hear everything. The two are close friends, so it is all 반말. 서연 opens with 말도 마 'don't even ask' and 있잖아, the signal that a story is coming.",
-          "For what she saw herself she uses casual -더라 (B1 Unit 5, the 반말 of -더라고요): 미안하다는 말도 안 하더라 'he didn't even say sorry'. 지은's job is to react at every pause, with 왜? 뭔데?, 헐 and 진짜?, so that 서연 keeps going.",
+          "For what she saw herself she uses casual -더라 (Intermediate Unit 5, the 반말 of -더라고요): 미안하다는 말도 안 하더라 'he didn't even say sorry'. 지은's job is to react at every pause, with 왜? 뭔데?, 헐 and 진짜?, so that 서연 keeps going.",
         ],
         examples: [
           { es: "지은: 어제 소개팅 어땠어?", en: "Jieun: So how was the blind date yesterday?" },

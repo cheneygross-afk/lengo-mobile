@@ -74,7 +74,7 @@ export const PT_B2_U02: Lesson[] = [
       {
         heading: "Moraria, faria: what would happen",
         body: [
-          "The result clause takes the futuro do pretérito you know from B1: the infinitive + \"-ia\" (\"moraria\", \"comeríamos\", \"viajariam\"), with the irregulars \"faria\", \"diria\", \"traria\". The two verbs work as a pair: subjunctive in the condition, conditional in the result.",
+          "The result clause takes the futuro do pretérito you know from the Intermediate level: the infinitive + \"-ia\" (\"moraria\", \"comeríamos\", \"viajariam\"), with the irregulars \"faria\", \"diria\", \"traria\". The two verbs work as a pair: subjunctive in the condition, conditional in the result.",
           "Questions follow the same pattern: \"O que você faria se ganhasse na loteria?\" For negatives, \"não\" goes before the verb it denies: \"se não chovesse\" (if it weren't raining), \"eu não iria\" (I wouldn't go).",
           "Watch out for polite English. If you would help me means 'if you helped me', so Portuguese still says \"se você me ajudasse\". The English would never becomes a conditional inside the se-clause.",
         ],
@@ -305,7 +305,7 @@ export const PT_B2_U02: Lesson[] = [
       {
         heading: "Eu ia, eu podia, era: the spoken main clause",
         body: [
-          "In Part 1 the main clause took the conditional: \"se eu tivesse carro, eu iria te buscar\". In conversation, most Brazilians swap the conditional for the imperfeito, the habit you met at B1: \"se eu tivesse carro, eu ia te buscar\". Only the main clause changes. The \"se\" clause stays in the imperfect subjunctive.",
+          "In Part 1 the main clause took the conditional: \"se eu tivesse carro, eu iria te buscar\". In conversation, most Brazilians swap the conditional for the imperfeito, the habit you met at the Intermediate level: \"se eu tivesse carro, eu ia te buscar\". Only the main clause changes. The \"se\" clause stays in the imperfect subjunctive.",
           "Three verbs do most of the work: \"ia\" + infinitive (would do), \"podia\" (could) and \"era\" (would be). \"Se fosse mais perto, era mais fácil\" sounds relaxed, and \"seria mais fácil\" sounds careful. Other verbs work the same way: \"se eu soubesse, eu te dizia\".",
           "Context decides the meaning. Without a \"se\" clause, \"eu ia te buscar\" usually means I was going to pick you up. In emails and essays, keep the conditional. Never let the imperfeito slip into the \"se\" clause: you will hear \"se eu tinha dinheiro\", but it's nonstandard.",
         ],
@@ -2237,7 +2237,7 @@ export const PT_B2_U02: Lesson[] = [
       {
         heading: "Step 3: Set it against the life you have",
         body: [
-          "The paragraph comes alive when the imagined life rubs against the real one. Reality stays in the present indicative and the dream stays in the conditional: \"Hoje eu passo duas horas no trânsito; em Salvador, eu iria a pé para o trabalho.\" B1 connectors do the linking: \"por outro lado\", \"em compensação\", \"em vez de\" + infinitive.",
+          "The paragraph comes alive when the imagined life rubs against the real one. Reality stays in the present indicative and the dream stays in the conditional: \"Hoje eu passo duas horas no trânsito; em Salvador, eu iria a pé para o trabalho.\" Intermediate connectors do the linking: \"por outro lado\", \"em compensação\", \"em vez de\" + infinitive.",
           "Add depth with the unit's other tools. Use \"mesmo que\" + imperfect subjunctive for a price you'd pay (\"mesmo que ganhasse menos\") and \"como se\" for how it would feel (\"como se estivesse sempre de férias\").",
           "Close by stepping back: \"Seria outra vida, mas não sei se seria melhor.\" Here \"se\" means whether and introduces an indirect question, so it takes whatever indicative tense the meaning needs (here the conditional), never the subjunctive.",
         ],

@@ -28,7 +28,7 @@ export type GermanLevelInfo = {
   /** "A1" ... "C2", "Culture". */
   code: string;
   name: string;
-  /** What the level cards show: "Beginner (A1)". */
+  /** What the level cards show: "Beginner". */
   label: string;
   exam: string | null;
   description: string;
@@ -42,7 +42,7 @@ export const GERMAN_LEVELS: GermanLevelInfo[] = [
     levelPath: "de/a1",
     code: "A1",
     name: "Beginner",
-    label: "Beginner (A1)",
+    label: "Beginner",
     exam: "Goethe-Zertifikat A1",
     description:
       "Sein and haben, der/die/das and noun plurals, the sounds of German, present-tense verbs and modal verbs, questions, word order, the accusative, numbers, time and everyday conversations.",
@@ -52,7 +52,7 @@ export const GERMAN_LEVELS: GermanLevelInfo[] = [
     levelPath: "de/a2",
     code: "A2",
     name: "Elementary",
-    label: "Elementary (A2)",
+    label: "Elementary",
     exam: "Goethe-Zertifikat A2",
     description:
       "The Perfekt and Präteritum, the dative case, reflexive verbs, two-way prepositions, adjective endings, weil/dass clauses, the future and survival situations from restaurants to the Bürgeramt.",
@@ -62,7 +62,7 @@ export const GERMAN_LEVELS: GermanLevelInfo[] = [
     levelPath: "de/b1",
     code: "B1",
     name: "Intermediate",
-    label: "Intermediate (B1)",
+    label: "Intermediate",
     exam: "Goethe-Zertifikat B1",
     description:
       "Konjunktiv II and wenn-clauses, the Plusquamperfekt, relative and infinitive clauses, the passive, verbs with prepositions, the genitive, spoken German and real situations at the bank, the office and home.",
@@ -72,7 +72,7 @@ export const GERMAN_LEVELS: GermanLevelInfo[] = [
     levelPath: "de/b2",
     code: "B2",
     name: "Upper-intermediate",
-    label: "Upper-intermediate (B2)",
+    label: "Upper-intermediate",
     exam: "Goethe-Zertifikat B2",
     description:
       "Konjunktiv I and indirect speech, past hypotheticals, passive alternatives, extended participles, nominal style, concessive and causal clauses, connectors for arguing a point, and word order for emphasis.",
@@ -82,7 +82,7 @@ export const GERMAN_LEVELS: GermanLevelInfo[] = [
     levelPath: "de/c1",
     code: "C1",
     name: "Advanced",
-    label: "Advanced (C1)",
+    label: "Advanced",
     exam: "Goethe-Zertifikat C1",
     description:
       "Advanced Konjunktiv, nominal and academic style, literary narration, registers from formal to Umgangssprache, Austrian and Swiss German, formal letters and academic writing.",
@@ -92,7 +92,7 @@ export const GERMAN_LEVELS: GermanLevelInfo[] = [
     levelPath: "de/c2",
     code: "C2",
     name: "Mastery",
-    label: "Mastery (C2)",
+    label: "Mastery",
     exam: "Goethe-Zertifikat C2",
     description:
       "Legal, medical and business German, idioms and proverbs, humour and wordplay, rhetoric, debate and negotiation, and writing about history, science, art and ideas.",

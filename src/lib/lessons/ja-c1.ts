@@ -14,7 +14,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "Layering Honorifics: When One Isn't Enough",
         "body": [
-          "By B2 you learned single sonkeigo and kenjougo forms (いらっしゃる, 拝見する). In real business Japanese, speakers often layer an honorific verb with the auxiliary construction お〜になる or お〜する to intensify politeness further, or combine a kenjougo verb with させていただく to soften a request to act.",
+          "By the Upper-intermediate level you learned single sonkeigo and kenjougo forms (いらっしゃる, 拝見する). In real business Japanese, speakers often layer an honorific verb with the auxiliary construction お〜になる or お〜する to intensify politeness further, or combine a kenjougo verb with させていただく to soften a request to act.",
           "お目にかかれて光栄です (it is an honor to meet you) combines the humble 目にかかる (to have the honor of meeting) with 光栄 (honor) -- this doubled humility is standard in first business meetings and self-introductions, not excessive."
         ],
         "examples": [
@@ -296,7 +296,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "ず: The Classical Negative That Never Left",
         "body": [
-          "Modern Japanese negates verbs with 〜ない, but the classical negative 〜ず survives in fixed phrases, formal writing, and the adverbial form 〜ずに (without doing), which you already know as a B1 form. At C1 you need the bare literary ず itself, seen in proverbs, legal text, and formal narration."
+          "Modern Japanese negates verbs with 〜ない, but the classical negative 〜ず survives in fixed phrases, formal writing, and the adverbial form 〜ずに (without doing), which you already know as a Intermediate form. At the Advanced level you need the bare literary ず itself, seen in proverbs, legal text, and formal narration."
         ],
         "examples": [
           {
@@ -352,7 +352,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "ず: The Classical Negative That Never Left (cont'd)",
         "body": [
-          "のみならず (not only... but also) and 少なからず (not a little, considerably) are built on ず and appear constantly in essays and news writing. 〜ざるを得ない (cannot help but...) is the negative-conjecture-of-ず construction and is one of the most common C1 patterns for expressing reluctant necessity."
+          "のみならず (not only... but also) and 少なからず (not a little, considerably) are built on ず and appear constantly in essays and news writing. 〜ざるを得ない (cannot help but...) is the negative-conjecture-of-ず construction and is one of the most common Advanced patterns for expressing reluctant necessity."
         ],
         "checkpoint": [
           {
@@ -408,7 +408,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "べし and べき: Classical Obligation and Its Modern Descendant",
         "body": [
-          "べき is the modern adjectival remnant of classical べし (\"should/must\"), and you likely already know 〜べきだ from B1/B2. At C1, watch for the bare classical form べし itself in formal announcements, mottos, and legal or academic writing -- 初心忘るべからず (never forget your beginner's spirit) is a famous example, where べからず is the classical negative-obligation \"must not.\""
+          "べき is the modern adjectival remnant of classical べし (\"should/must\"), and you likely already know 〜べきだ from the Intermediate and Upper-intermediate levels. At the Advanced level, watch for the bare classical form べし itself in formal announcements, mottos, and legal or academic writing -- 初心忘るべからず (never forget your beginner's spirit) is a famous example, where べからず is the classical negative-obligation \"must not.\""
         ],
         "examples": [
           {
@@ -586,13 +586,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 12,
     "title": "Four-Character Idioms and Set Expressions (Yojijukugo), Part 1 of 4",
-    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a C1 speaker is expected to produce, not just recognize.",
+    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a Advanced speaker is expected to produce, not just recognize.",
     "duration": "10 min",
     "sections": [
       {
-        "heading": "What Yojijukugo Are and Why They Matter at C1",
+        "heading": "What Yojijukugo Are and Why They Matter at the Advanced Level",
         "body": [
-          "Yojijukugo (四字熟語) are four-kanji compounds, mostly borrowed from Chinese classical literature, that compress a whole idea, moral, or situation into four characters. Native speakers use dozens of them casually in speech and constantly in writing; recognizing them is necessary for reading news and essays, and using two or three naturally is a strong C1 marker.",
+          "Yojijukugo (四字熟語) are four-kanji compounds, mostly borrowed from Chinese classical literature, that compress a whole idea, moral, or situation into four characters. Native speakers use dozens of them casually in speech and constantly in writing; recognizing them is necessary for reading news and essays, and using two or three naturally is a strong Advanced marker.",
           "They function grammatically like a noun or na-adjective stem, often followed by だ/な or used adverbially with に: 一石二鳥だ (it's killing two birds with one stone), 単刀直入に言うと (to put it bluntly / getting straight to the point)."
         ],
         "examples": [
@@ -653,7 +653,7 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 13,
     "title": "Four-Character Idioms and Set Expressions (Yojijukugo), Part 2 of 4",
-    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a C1 speaker is expected to produce, not just recognize.",
+    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a Advanced speaker is expected to produce, not just recognize.",
     "duration": "8 min",
     "sections": [
       {
@@ -694,7 +694,7 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 14,
     "title": "Four-Character Idioms and Set Expressions (Yojijukugo), Part 3 of 4",
-    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a C1 speaker is expected to produce, not just recognize.",
+    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a Advanced speaker is expected to produce, not just recognize.",
     "duration": "9 min",
     "sections": [
       {
@@ -781,7 +781,7 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 15,
     "title": "Four-Character Idioms and Set Expressions (Yojijukugo), Part 4 of 4",
-    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a C1 speaker is expected to produce, not just recognize.",
+    "summary": "Learn to recognize and correctly deploy the yojijukugo (four-character compound idioms) that pepper news writing, speeches, and business Japanese -- and the handful of common ones a Advanced speaker is expected to produce, not just recognize.",
     "duration": "10 min",
     "sections": [
       {
@@ -803,7 +803,7 @@ export const JA_C1_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Why should a C1 writer avoid stacking three or four yojijukugo in a single sentence?",
+            "question": "Why should a Advanced writer avoid stacking three or four yojijukugo in a single sentence?",
             "options": [
               "It is grammatically impossible",
               "It reads as ostentatious rather than natural, even though each idiom is correct",
@@ -1518,7 +1518,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "とみられる and と考えられる: Reported Expert/Objective Judgment (cont'd)",
         "body": [
-          "This is a key C1 skill: native writers rarely say 私は〜と思う in formal analytical writing. Instead they use these passive-flavored, consensus-attributing forms to sound objective, even when the judgment originates with the writer."
+          "This is a key Advanced skill: native writers rarely say 私は〜と思う in formal analytical writing. Instead they use these passive-flavored, consensus-attributing forms to sound objective, even when the judgment originates with the writer."
         ],
         "checkpoint": [
           {
@@ -1562,7 +1562,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "Hearsay Layered with Inference: 〜とのことだ, 〜という, 〜らしい Revisited",
         "body": [
-          "You know 〜そうだ (hearsay) and 〜らしい from earlier levels. At C1, combine these with a named or implied source for precision: 〜とのことだ (\"I hear that... [according to what was said]\") is more formal than plain そうだ and often appears after a specific attribution (先生の話では〜とのことだ -- according to the teacher, I hear that...).",
+          "You know 〜そうだ (hearsay) and 〜らしい from earlier levels. At the Advanced level, combine these with a named or implied source for precision: 〜とのことだ (\"I hear that... [according to what was said]\") is more formal than plain そうだ and often appears after a specific attribution (先生の話では〜とのことだ -- according to the teacher, I hear that...).",
           "〜という is used to report something as commonly said or as a defining fact attributed to a broader unspecified source, and often appears mid-sentence to introduce a noun clause: 田中という人 (a person called Tanaka) versus 田中氏は 辞任するという (it's said/reported that Mr. Tanaka will resign) -- context and position distinguish the naming use from the reporting use."
         ],
         "examples": [
@@ -1659,7 +1659,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "たとえ〜ても Intensified: 〜(よ)うとも and よしんば",
         "body": [
-          "You know たとえ〜ても (even if...) from earlier levels. At C1, the volitional form + とも (〜(よ)うとも) replaces ても for a more dramatic, rhetorical concession, common in speeches and formal persuasive writing: たとえ困難であろうとも、諦めない (no matter how difficult it may be, I will not give up)."
+          "You know たとえ〜ても (even if...) from earlier levels. At the Advanced level, the volitional form + とも (〜(よ)うとも) replaces ても for a more dramatic, rhetorical concession, common in speeches and formal persuasive writing: たとえ困難であろうとも、諦めない (no matter how difficult it may be, I will not give up)."
         ],
         "examples": [
           {
@@ -1827,7 +1827,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "Choosing the Right Register of Concession",
         "body": [
-          "A C1 speaker should be able to select among registers: plain でも for casual speech, たとえ〜ても for standard formal concession, たとえ〜(よ)うとも for dramatic/rhetorical formal concession (speeches, persuasive essays), and 〜う/ようが〜まいが for a blunt \"it doesn't matter either way\" dismissal."
+          "A Advanced speaker should be able to select among registers: plain でも for casual speech, たとえ〜ても for standard formal concession, たとえ〜(よ)うとも for dramatic/rhetorical formal concession (speeches, persuasive essays), and 〜う/ようが〜まいが for a blunt \"it doesn't matter either way\" dismissal."
         ],
         "examples": [
           {
@@ -1867,7 +1867,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "Choosing the Right Register of Concession (cont'd)",
         "body": [
-          "Using the dramatic forms in ordinary conversation sounds theatrical or pretentious; using plain でも in a formal speech undersells the point. Matching register to context is itself the C1 skill being tested here, not just knowing the forms exist."
+          "Using the dramatic forms in ordinary conversation sounds theatrical or pretentious; using plain でも in a formal speech undersells the point. Matching register to context is itself the Advanced skill being tested here, not just knowing the forms exist."
         ],
         "checkpoint": [
           {
@@ -2392,7 +2392,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "こと vs の as Nominalizers: The Refined Distinction",
         "body": [
-          "You've used こと and の to nominalize clauses since B1 (〜ことができる, 見るのが好き). At C1, the distinction sharpens: の is preferred when the nominalized clause refers to a directly perceivable event (seen, heard, caught in the act -- 彼が走るのを見た, I saw him running), while こと is preferred for abstract propositions, reported facts, and anything the speaker knows about rather than directly witnesses (彼が辞めたことを知った, I learned [the fact] that he quit)."
+          "You've used こと and の to nominalize clauses since the Intermediate level (〜ことができる, 見るのが好き). At the Advanced level, the distinction sharpens: の is preferred when the nominalized clause refers to a directly perceivable event (seen, heard, caught in the act -- 彼が走るのを見た, I saw him running), while こと is preferred for abstract propositions, reported facts, and anything the speaker knows about rather than directly witnesses (彼が辞めたことを知った, I learned [the fact] that he quit)."
         ],
         "examples": [
           {
@@ -2528,7 +2528,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "〜化: Coining Abstract \"-ization\" Nouns (cont'd)",
         "body": [
-          "〜化する turns the noun into a verb (\"to become/make X-ified\"): 業務を効率化する (to streamline operations). This is one of the single most productive word-formation patterns in modern formal Japanese, especially in news, business, and technology writing, and C1 speakers should be able to coin plausible new 〜化 words on the fly, not just recognize fixed ones."
+          "〜化する turns the noun into a verb (\"to become/make X-ified\"): 業務を効率化する (to streamline operations). This is one of the single most productive word-formation patterns in modern formal Japanese, especially in news, business, and technology writing, and Advanced speakers should be able to coin plausible new 〜化 words on the fly, not just recognize fixed ones."
         ],
         "checkpoint": [
           {
@@ -3046,7 +3046,7 @@ export const JA_C1_LESSONS: Lesson[] = [
       {
         "heading": "Identifying the Devices at Work (cont'd)",
         "body": [
-          "The final sentence's 〜のである doesn't just state a fact -- it closes the paragraph with the formal explanatory weight that この段落の結論はこれだ (\"this is the paragraph's conclusion\") signals without saying so explicitly. Recognizing this closing function is itself a C1 reading skill, not just a grammar point."
+          "The final sentence's 〜のである doesn't just state a fact -- it closes the paragraph with the formal explanatory weight that この段落の結論はこれだ (\"this is the paragraph's conclusion\") signals without saying so explicitly. Recognizing this closing function is itself a Advanced reading skill, not just a grammar point."
         ]
       }
     ],
@@ -3126,13 +3126,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 63,
     "title": "JA-C1 Vocabulary Practice, Part 1 of 6",
-    "summary": "Mixed review of C1 grammar markers and set expressions, part 1 of 6.",
+    "summary": "Mixed review of Advanced grammar markers and set expressions, part 1 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 1",
         "body": [
-          "Review the C1 grammar markers and expressions introduced across this level's topics. Set 1 of 6."
+          "Review the Advanced grammar markers and expressions introduced across this level's topics. Set 1 of 6."
         ],
         "examples": [
           {
@@ -3242,13 +3242,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 64,
     "title": "JA-C1 Vocabulary Practice, Part 2 of 6",
-    "summary": "Mixed review of C1 grammar markers and set expressions, part 2 of 6.",
+    "summary": "Mixed review of Advanced grammar markers and set expressions, part 2 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 2",
         "body": [
-          "Review the C1 grammar markers and expressions introduced across this level's topics. Set 2 of 6."
+          "Review the Advanced grammar markers and expressions introduced across this level's topics. Set 2 of 6."
         ],
         "examples": [
           {
@@ -3358,13 +3358,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 65,
     "title": "JA-C1 Vocabulary Practice, Part 3 of 6",
-    "summary": "Mixed review of C1 grammar markers and set expressions, part 3 of 6.",
+    "summary": "Mixed review of Advanced grammar markers and set expressions, part 3 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 3",
         "body": [
-          "Review the C1 grammar markers and expressions introduced across this level's topics. Set 3 of 6."
+          "Review the Advanced grammar markers and expressions introduced across this level's topics. Set 3 of 6."
         ],
         "examples": [
           {
@@ -3474,13 +3474,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 66,
     "title": "JA-C1 Vocabulary Practice, Part 4 of 6",
-    "summary": "Mixed review of C1 grammar markers and set expressions, part 4 of 6.",
+    "summary": "Mixed review of Advanced grammar markers and set expressions, part 4 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 4",
         "body": [
-          "Review the C1 grammar markers and expressions introduced across this level's topics. Set 4 of 6."
+          "Review the Advanced grammar markers and expressions introduced across this level's topics. Set 4 of 6."
         ],
         "examples": [
           {
@@ -3590,13 +3590,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 67,
     "title": "JA-C1 Vocabulary Practice, Part 5 of 6",
-    "summary": "Mixed review of C1 grammar markers and set expressions, part 5 of 6.",
+    "summary": "Mixed review of Advanced grammar markers and set expressions, part 5 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 5",
         "body": [
-          "Review the C1 grammar markers and expressions introduced across this level's topics. Set 5 of 6."
+          "Review the Advanced grammar markers and expressions introduced across this level's topics. Set 5 of 6."
         ],
         "examples": [
           {
@@ -3706,13 +3706,13 @@ export const JA_C1_LESSONS: Lesson[] = [
     "level": "JA-C1",
     "number": 68,
     "title": "JA-C1 Vocabulary Practice, Part 6 of 6",
-    "summary": "Mixed review of C1 grammar markers and set expressions, part 6 of 6.",
+    "summary": "Mixed review of Advanced grammar markers and set expressions, part 6 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 6",
         "body": [
-          "Review the C1 grammar markers and expressions introduced across this level's topics. Set 6 of 6."
+          "Review the Advanced grammar markers and expressions introduced across this level's topics. Set 6 of 6."
         ],
         "examples": [
           {

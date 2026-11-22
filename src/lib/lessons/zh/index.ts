@@ -51,7 +51,7 @@ const META: Omit<ZhModule, "lessons" | "units" | "canDo">[] = [
     name: "Pinyin & Tones",
     path: "pinyin",
     description:
-      "How Mandarin sounds and how pinyin writes it: the four tones and the neutral tone, every initial and final, tone changes, spelling rules, and how characters are built -- before A1.",
+      "How Mandarin sounds and how pinyin writes it: the four tones and the neutral tone, every initial and final, tone changes, spelling rules, and how characters are built -- before the Foundations level.",
   },
   {
     code: "A1",

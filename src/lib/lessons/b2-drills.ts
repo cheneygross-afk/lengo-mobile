@@ -1223,7 +1223,7 @@ export const B2_DRILLS: AnchoredLesson[] = [
     [
       fb("Completa con el verbo en la forma correcta.", "En cuanto ___ un buen trabajo, me independizaré. (encontrar)", "encuentre", "Plan futuro → en cuanto + subjuntivo; encontrar diptonga: encuentre."),
       fb("Completa con el verbo en la forma correcta.", "Antes de que ___ el verano, quiero perder dos kilos. (llegar)", "llegue", "Antes de que lleva siempre subjuntivo; g → gu delante de e: llegue."),
-      fb("Completa con el verbo en la forma correcta.", "No dejaré de estudiar hasta que ___ el nivel C1. (conseguir)", "consiga", "Hasta que + acción futura → subjuntivo. Conseguir pierde la u delante de a: consiga."),
+      fb("Completa con el verbo en la forma correcta.", "No dejaré de estudiar hasta que ___ el nivel Mastery. (conseguir)", "consiga", "Hasta que + acción futura → subjuntivo. Conseguir pierde la u delante de a: consiga."),
       fb("Completa con el verbo en la forma correcta.", "Cuando mis padres se ___, iré a vivir cerca de ellos. (jubilar)", "jubilen", "La jubilación aún no ha llegado → cuando + subjuntivo (se jubilen)."),
       fb("Completa con el verbo en la forma correcta.", "Voy a ahorrar para que mis hijos ___ estudiar fuera. (poder)", "puedan", "Yo ahorro, mis hijos pueden: sujetos distintos → para que + subjuntivo (puedan)."),
       toEs("When I retire, I'll live by the sea.", "Cuando me jubile, viviré junto al mar.", "«Cuando» + acción futura exige subjuntivo: «me jubile».", ["Cuando me jubile, viviré cerca del mar.", "Cuando me jubile, voy a vivir junto al mar."]),

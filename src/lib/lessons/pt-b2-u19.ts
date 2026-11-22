@@ -2653,7 +2653,7 @@ export const PT_B2_U19: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Spiral Review: Mood Without Hints",
-    summary: "Mixed English-to-Portuguese translation with no trigger labels, across all the B1 and B2 uses of the subjunctive, the indicative and the infinitive.",
+    summary: "Mixed English-to-Portuguese translation with no trigger labels, across all the Intermediate and Upper-intermediate uses of the subjunctive, the indicative and the infinitive.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

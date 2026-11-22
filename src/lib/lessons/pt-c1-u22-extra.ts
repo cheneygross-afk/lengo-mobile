@@ -14,7 +14,7 @@ export const PT_C1_U22_EXTRA: Lesson[] = [
     kind: "drill",
     sections: [
       {
-        heading: "The C1 grammar checklist",
+        heading: "The Advanced grammar checklist",
         body: [
           "Subjunctive after doubt, wish, concession and sought-for nouns; indicative after certainty and known nouns. The future and conditional of probability for guesses (\"serão umas oito\", \"teria uns trinta anos\"). Reduced clauses with the participle first (\"feitas as contas\"), \"ao\" + infinitive and \"tendo\" + participle. \"Haver\" (there is) and \"fazer\" (elapsed time) always singular.",
         ],

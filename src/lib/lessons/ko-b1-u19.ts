@@ -22,7 +22,7 @@ export const KO_B1_U19: Lesson[] = [
       {
         heading: "드리다: giving upward",
         body: [
-          "Korean shows respect in two directions. -(으)시- raises the other person's actions: 부장님이 오셨어요. Humble verbs do the opposite: they lower your own action when it goes toward someone senior. You met the first one in A2: 주다 becomes 드리다 when the receiver is above you, and the receiver takes 께 instead of 에게 / 한테.",
+          "Korean shows respect in two directions. -(으)시- raises the other person's actions: 부장님이 오셨어요. Humble verbs do the opposite: they lower your own action when it goes toward someone senior. You met the first one in the Elementary level: 주다 becomes 드리다 when the receiver is above you, and the receiver takes 께 instead of 에게 / 한테.",
           "At work this is constant: handing over documents, sending a file, giving a customer a receipt. -아 / 어 드리다 does the same for favours: 보내 드릴게요, 확인해 드리겠습니다. English has no grammar for this, so learners say 부장님한테 서류를 줬어요, which sounds as if the boss were a classmate.",
           "Who counts as above you? Anyone older or higher: a manager, a teacher, a customer, a grandparent. With a colleague of your own rank or a junior, plain 주다 is normal (민수 씨한테 자료를 줬어요); 드리다 to a junior sounds stiff or even sarcastic. A phone call follows the same pattern: 전화하다 becomes 전화드리다.",
         ],
@@ -637,7 +637,7 @@ export const KO_B1_U19: Lesson[] = [
       {
         heading: "께서 and -(으)시-",
         body: [
-          "In A2 you raised a senior subject with -(으)시- on the verb. In formal speech, reports and writing, the subject particle rises too: 이 / 가 becomes 께서, and 은 / 는 becomes 께서는. 사장님께서 출장을 가셨어요 'The CEO has gone on a business trip.'",
+          "In the Elementary level you raised a senior subject with -(으)시- on the verb. In formal speech, reports and writing, the subject particle rises too: 이 / 가 becomes 께서, and 은 / 는 becomes 께서는. 사장님께서 출장을 가셨어요 'The CEO has gone on a business trip.'",
           "The verb ending is the part you can't skip. In everyday office talk 사장님이 출장을 가셨어요 is perfectly polite, but 께서 with a bare verb (*사장님께서 출장을 갔어요) is a mismatch: you lift the boss with the particle and drop him with the verb.",
         ],
         examples: [
@@ -710,7 +710,7 @@ export const KO_B1_U19: Lesson[] = [
       {
         heading: "After the business trip",
         body: [
-          "Welcoming a boss back uses the honorific verbs from A2: 드시다 (eat, drink), 주무시다 (sleep), 말씀하시다 (speak), and honorific nouns like 식사 (meal) and 성함 (name). Showing sympathy uses -(으)셨겠어요, a guess about how it was for them: 많이 피곤하셨겠어요 'You must have been very tired.'",
+          "Welcoming a boss back uses the honorific verbs from the Elementary level: 드시다 (eat, drink), 주무시다 (sleep), 말씀하시다 (speak), and honorific nouns like 식사 (meal) and 성함 (name). Showing sympathy uses -(으)셨겠어요, a guess about how it was for them: 많이 피곤하셨겠어요 'You must have been very tired.'",
         ],
         examples: [
           { es: "출장 가서 식사는 잘 드셨어요?", en: "Did you eat well on your business trip?" },
@@ -1900,7 +1900,7 @@ export const KO_B1_U19: Lesson[] = [
       {
         heading: "Sound focus: 출장 [출짱], 결제 [결쩨]",
         body: [
-          "You met this rule in A2: in Sino-Korean words, a final ㄹ makes a following ㄷ, ㅅ or ㅈ tense. Office vocabulary is full of it: 출장 [출짱], 결제 [결쩨], 일정 [일쩡], 실장 [실짱], 발송 [발쏭]. The spelling keeps the plain consonant.",
+          "You met this rule in the Elementary level: in Sino-Korean words, a final ㄹ makes a following ㄷ, ㅅ or ㅈ tense. Office vocabulary is full of it: 출장 [출짱], 결제 [결쩨], 일정 [일쩡], 실장 [실짱], 발송 [발쏭]. The spelling keeps the plain consonant.",
           "Only ㄷ, ㅅ, ㅈ change: 출발 and 결과 keep their plain ㅂ and ㄱ. One homophone matters at work: 결재, a boss's sign-off on a document, sounds exactly like 결제, payment.",
         ],
         examples: [

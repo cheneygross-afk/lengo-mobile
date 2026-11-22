@@ -951,7 +951,7 @@ export const KO_B1_U23: Lesson[] = [
         heading: "The doctor's questions, and how long",
         body: [
           "Doctors speak to patients with -(으)시-: 어디가 불편하세요? 'what's bothering you?', 언제부터 그러셨어요? 'since when has it been like this?', 약은 드셨어요? 'have you taken anything?'. You answer without -시-, since it's about yourself.",
-          "For how long, use the time-since pattern from A2: verb + -(으)ㄴ 지 + time + 됐어요: 기침을 한 지 사흘 됐어요 'I've been coughing for three days', 열이 난 지 이틀 됐어요. Write 지 with a space; the -는지 of Unit 15 is one word. Native day counts are common here: 하루, 이틀, 사흘, 나흘.",
+          "For how long, use the time-since pattern from the Elementary level: verb + -(으)ㄴ 지 + time + 됐어요: 기침을 한 지 사흘 됐어요 'I've been coughing for three days', 열이 난 지 이틀 됐어요. Write 지 with a space; the -는지 of Unit 15 is one word. Native day counts are common here: 하루, 이틀, 사흘, 나흘.",
         ],
         examples: [
           { es: "어디가 불편하세요?", en: "What seems to be the problem?" },
@@ -983,7 +983,7 @@ export const KO_B1_U23: Lesson[] = [
       {
         heading: "Sound: 참고 [참꼬], 앉지 [안찌]",
         body: [
-          "The doctor's instructions bring back a rule from A2: when a verb stem ends in ㄴ or ㅁ (including ㄵ and ㄻ), an ending that starts with ㄱ, ㄷ or ㅈ is said tense. 참다 [참따], 숨을 참고 [참꼬] 'holding your breath', 눈을 감고 [감꼬] 'with your eyes closed', 안고 [안꼬], 참지 마세요 [참찌], 앉지 [안찌].",
+          "The doctor's instructions bring back a rule from the Elementary level: when a verb stem ends in ㄴ or ㅁ (including ㄵ and ㄻ), an ending that starts with ㄱ, ㄷ or ㅈ is said tense. 참다 [참따], 숨을 참고 [참꼬] 'holding your breath', 눈을 감고 [감꼬] 'with your eyes closed', 안고 [안꼬], 참지 마세요 [참찌], 앉지 [안찌].",
           "The rule belongs to verb endings only. Nouns keep a plain sound: 감기 'a cold' is [감기], not [감끼]. Passive and causative -기- also stays plain: 안기다 'be held' is [안기다], and 감기다 'close by themselves' is [감기다].",
         ],
         examples: [

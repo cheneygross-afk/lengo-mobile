@@ -8,7 +8,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
     slug: "contrast-and-concession-b2",
     title: "Whereas, Despite, Just Because: 반면에, -는 데 반해, -(으)ㅁ에도 불구하고, -는데도, -다고 해서",
     description:
-      "The B2 toolkit for comparing two sides and for results that go against expectation: -(으)ㄴ / 는 반면에, -는 데 반해, -(으)ㅁ에도 불구하고, -(으)ㄴ / 는데도 and -다고 해서, and how each differs from plain -지만 and -는데.",
+      "The Upper-intermediate toolkit for comparing two sides and for results that go against expectation: -(으)ㄴ / 는 반면에, -는 데 반해, -(으)ㅁ에도 불구하고, -(으)ㄴ / 는데도 and -다고 해서, and how each differs from plain -지만 and -는데.",
     level: "B2",
     intro: [
       `Earlier you contrasted with -지만 and -는데. They still work, but they are blunt tools: -지만 is a plain 'but', and -는데 is so soft that it often isn't a contrast at all. Upper-intermediate Korean, especially in writing, TOPIK essays and the news, needs more precise contrast.`,
@@ -129,7 +129,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
       "Piling up reasons and facts: N뿐만 아니라, -(으)ㄹ 뿐만 아니라, -(으)ㄴ / 는 데다가 and -기도 하고 -기도 하다, with how they differ from a simple -고.",
     level: "B2",
     intro: [
-      `-고 lists things neutrally: 싸고 맛있어요. At B2 you need ways to add weight: 'not only ... but also', 'on top of that', 'both ... and'. These are the patterns reviewers, essay writers and anyone making a case reach for.`,
+      `-고 lists things neutrally: 싸고 맛있어요. At the Upper-intermediate level you need ways to add weight: 'not only ... but also', 'on top of that', 'both ... and'. These are the patterns reviewers, essay writers and anyone making a case reach for.`,
     ],
     sections: [
       {
@@ -830,7 +830,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
       "Talking about what didn't happen and what couldn't be true: -았 / 었더라면 ... -았 / 었을 텐데, spoken -았 / 었으면 ... -았 / 었을 거예요, mixed time, near misses with -(으)ㄹ 뻔했다 and disbelief with -(으)ㄹ 리가 없다.",
     level: "B2",
     intro: [
-      `At B1 you met regret (-(으)ㄹ걸, -았 / 었어야 했는데) and near misses (-(으)ㄹ 뻔했다). B2 adds the full 'if only I had' counterfactual and strong disbelief.`,
+      `At the Intermediate level you met regret (-(으)ㄹ걸, -았 / 었어야 했는데) and near misses (-(으)ㄹ 뻔했다). The Upper-intermediate level adds the full 'if only I had' counterfactual and strong disbelief.`,
     ],
     sections: [
       {
@@ -891,7 +891,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
       },
       {
         q: `What about -다면?`,
-        a: `-다면 (B1) is an imagined condition in the present or future: 복권에 당첨된다면. -았더라면 is specifically about the past that didn't happen.`,
+        a: `-다면 (Intermediate) is an imagined condition in the present or future: 복권에 당첨된다면. -았더라면 is specifically about the past that didn't happen.`,
       },
     ],
     related: ["regret-and-near-misses", "hypotheticals-damyeon", "only-if-only-after", "beliefs-and-evidence"],
@@ -908,7 +908,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
     slug: "sino-korean-affixes",
     title: "Sino-Korean Prefixes and Suffixes: 비-, 불-, 무-, 미-, -적, -화, -성, -력, -감",
     description:
-      "The handful of Sino-Korean affixes that unlock thousands of B2 words: negative prefixes 비-, 불- / 부-, 무-, 미-, and suffixes -적 (-적이다, -적인, -적으로), -화, -성, -력 and -감.",
+      "The handful of Sino-Korean affixes that unlock thousands of Upper-intermediate words: negative prefixes 비-, 불- / 부-, 무-, 미-, and suffixes -적 (-적이다, -적인, -적으로), -화, -성, -력 and -감.",
     level: "B2",
     intro: [
       `Much formal Korean vocabulary is Sino-Korean, built like Latin and Greek words in English. A few prefixes and suffixes turn up again and again. Learn what each adds, and you can guess the meaning of new words in the news and in TOPIK reading.`,
@@ -1411,7 +1411,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
       {
         heading: `Having done it a while: -다 보니(까)`,
         body: [
-          `-다 보니(까) says that by doing something repeatedly or for a while, you found a result: 매일 한국 드라마를 보다 보니 한국어가 늘었어요 (From watching Korean dramas every day, my Korean improved). Compare -다 보면 (B1), which looks forward: 'if you keep doing it, you'll find'.`,
+          `-다 보니(까) says that by doing something repeatedly or for a while, you found a result: 매일 한국 드라마를 보다 보니 한국어가 늘었어요 (From watching Korean dramas every day, my Korean improved). Compare -다 보면 (Intermediate), which looks forward: 'if you keep doing it, you'll find'.`,
         ],
         examples: [
           { ko: "같이 일하다 보니 친해졌어요.", en: "Working together, we became close." },
@@ -1480,7 +1480,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
       "Patterns for how something happened and what might happen: -(으)ㄴ 채(로) (left as it was), -(으)ㄹ 겸 (two purposes), -(으)려야 -(으)ㄹ 수가 없다 (can't even if I try), and -(으)ㄹ 우려가 있다 / 가능성이 있다 (risk and likelihood).",
     level: "B2",
     intro: [
-      `These patterns don't form a family; they are four useful tools that turn up across B2 themes: the state you did something in, killing two birds with one stone, being unable however hard you try, and formal risk.`,
+      `These patterns don't form a family; they are four useful tools that turn up across Upper-intermediate themes: the state you did something in, killing two birds with one stone, being unable however hard you try, and formal risk.`,
     ],
     sections: [
       {
@@ -1561,7 +1561,7 @@ export const KO_B2_GUIDES: KoGrammarGuide[] = [
       "The dependent noun 데 ('place, case, purpose') in -는 데 들다 / 걸리다 / 좋다 / 도움이 되다, -는 데다가 and -는 데 반해, and how one space separates it from the ending -는데.",
     level: "B2",
     intro: [
-      `Korean has two things spelt 데 after a modifier. The ending -는데 (A2) gives background or soft contrast and is written together. The dependent noun 데 means 'place, case, the doing of something' and is written with a space: -는 데.`,
+      `Korean has two things spelt 데 after a modifier. The ending -는데 (Elementary) gives background or soft contrast and is written together. The dependent noun 데 means 'place, case, the doing of something' and is written with a space: -는 데.`,
       `Natives mix these up in writing all the time, so getting them right makes your Korean look educated.`,
     ],
     sections: [

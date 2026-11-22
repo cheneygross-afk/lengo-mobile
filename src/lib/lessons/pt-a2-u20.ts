@@ -2455,7 +2455,7 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 13,
     title: "Spiral Review: Getting Things Done",
-    summary: "Cumulative practice of documents, money, transport, stores, appointments and problems with the A2 tenses, polite requests, ficar and indefinites.",
+    summary: "Cumulative practice of documents, money, transport, stores, appointments and problems with the Elementary tenses, polite requests, ficar and indefinites.",
     duration: "14 min",
     kind: "review",
     format: "Spiral review",
@@ -2463,7 +2463,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Requests and money",
         body: [
-          "No new grammar: mix the unit's survival chunks with everything from the earlier A2 units. Requests soften with \"eu queria\", \"eu gostaria de\", \"você poderia\" and \"pode\" + infinitive; indefinites need double negation (\"não tem nenhum\"); \"por\" and \"para\" merge with articles (\"pelo\", \"pela\", \"pro\").",
+          "No new grammar: mix the unit's survival chunks with everything from the earlier Elementary units. Requests soften with \"eu queria\", \"eu gostaria de\", \"você poderia\" and \"pode\" + infinitive; indefinites need double negation (\"não tem nenhum\"); \"por\" and \"para\" merge with articles (\"pelo\", \"pela\", \"pro\").",
         ],
         examples: [
           { es: "Você poderia me mandar a chave Pix?", en: "Could you send me the Pix key?" },

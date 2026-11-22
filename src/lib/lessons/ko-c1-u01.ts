@@ -104,7 +104,7 @@ export const KO_C1_U01: Lesson[] = [
       {
         heading: "그러더니: moving a story on",
         body: [
-          "-더니 also links two actions by the same person, one after the other, when the second is what caught your eye: 준호는 문자를 확인하더니 얼굴이 하얘졌다. -고 would simply list the two actions; -더니 tells the reader 'and then, as I watched, this happened'. Compare the B1 -자, which makes the first event a trigger for the second.",
+          "-더니 also links two actions by the same person, one after the other, when the second is what caught your eye: 준호는 문자를 확인하더니 얼굴이 하얘졌다. -고 would simply list the two actions; -더니 tells the reader 'and then, as I watched, this happened'. Compare the Intermediate level -자, which makes the first event a trigger for the second.",
           "When a writer wants a full stop between the two, the clause shrinks to 그러더니 at the start of the next sentence: 그는 잠시 망설였다. 그러더니 아무 말 없이 나가 버렸다. Spoken Korean uses 그러더니 too, often stretched to 그러더니만 in casual storytelling.",
         ],
         examples: [
@@ -464,7 +464,7 @@ export const KO_C1_U01: Lesson[] = [
         body: [
           "Put the past marker in front of -더니 and the viewpoint flips. -았 / 었더니 means 'I did X, and then (I found / it turned out) Y': 창문을 열었더니 시원한 바람이 들어왔다. The first clause is your own completed action; the second is what you met when it was done. The -더- still marks something experienced first-hand, but now the experience is the result.",
           "The stem changes as in any past tense: 열다 → 열었더니, 가다 → 갔더니, 하다 → 했더니, and irregulars too: 듣다 → 들었더니, 짓다 → 지었더니, 돕다 → 도왔더니. Try something out with -아 / 어 보다 and you get the very common 해 봤더니, 열어 봤더니.",
-          "A discovery often ends in -더라고요 or, for a state already completed, -았 / 었더라고요 (B1): 오랜만에 고향에 갔더니 동네가 많이 변했더라고요. In written narrative the result is a state with -아 / 어 있었다: 우유가 다 상해 있었다.",
+          "A discovery often ends in -더라고요 or, for a state already completed, -았 / 었더라고요 (Intermediate): 오랜만에 고향에 갔더니 동네가 많이 변했더라고요. In written narrative the result is a state with -아 / 어 있었다: 우유가 다 상해 있었다.",
         ],
         examples: [
           { es: "창문을 열었더니 시원한 바람이 들어왔다.", en: "I opened the window, and a cool breeze came in." },
@@ -549,7 +549,7 @@ export const KO_C1_U01: Lesson[] = [
         heading: "Not 'when', and not just 'so'",
         body: [
           "English says 'When I opened the window, a breeze came in', and learners translate the 'when' with -(으)ㄹ 때. But 창문을 열 때 means 'at the moment of opening': fine for 창문을 열 때 손가락이 끼었어요, wrong for what you found afterwards. -아서 (창문을 열어서) is grammatical but flatter: a cause, with no sense that the outcome met you.",
-          "The B1 discovery -(으)니까 is the closest neighbour: 창문을 여니까 바람이 들어왔어요. It feels immediate and spoken; -았 / 었더니 marks the action as finished first and suits telling a story afterwards.",
+          "The Intermediate discovery -(으)니까 is the closest neighbour: 창문을 여니까 바람이 들어왔어요. It feels immediate and spoken; -았 / 었더니 marks the action as finished first and suits telling a story afterwards.",
           "The result is always something that already happened or is true now. A future or a command can't follow: *문을 열었더니 바람이 들어올 거예요. For a prediction, use -(으)면: 문을 열면 바람이 들어올 거예요.",
         ],
         examples: [
@@ -2378,7 +2378,7 @@ export const KO_C1_U01: Lesson[] = [
         heading: "Step 1: the change you witnessed",
         body: [
           "Your mission: a short written account, about 300 characters including spaces (the length of TOPIK writing question 53), of someone you watched change, and of something you discovered when you went to see for yourself. Then you will tell the same story to a friend in 해요 speech.",
-          "Start with the person as they were, using -던 or 원래 'originally', then the turning point with -더니, since you are the witness: 작년에 연극 동아리에 들어가더니 사람이 완전히 달라졌다. A gradual cause takes -다 보니, and a guess about why can take B2's -(으)ㄴ 모양이다: 무대에 몇 번 서다 보니 자신감이 생긴 모양이다.",
+          "Start with the person as they were, using -던 or 원래 'originally', then the turning point with -더니, since you are the witness: 작년에 연극 동아리에 들어가더니 사람이 완전히 달라졌다. A gradual cause takes -다 보니, and a guess about why can take the Upper-intermediate level's -(으)ㄴ 모양이다: 무대에 몇 번 서다 보니 자신감이 생긴 모양이다.",
         ],
         examples: [
           { es: "대학 동기 수빈이는 원래 말수가 적은 친구였다.", en: "Subin, a friend from university, was always a quiet one." },

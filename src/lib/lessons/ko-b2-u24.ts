@@ -313,7 +313,7 @@ export const KO_B2_U24: Lesson[] = [
       {
         heading: "The 연습생 system as a debate topic",
         body: [
-          "The trainee system is a classic B2 discussion topic, so learn the words on both sides. Supporters say it produces polished performers: 체계적인 훈련 'systematic training'. Critics point to the very young age of many trainees, long and uncertain training with no guarantee of debut, and unfair contracts: 불공정한 계약. A 전속 계약 is an exclusive contract with an agency.",
+          "The trainee system is a classic Upper-intermediate discussion topic, so learn the words on both sides. Supporters say it produces polished performers: 체계적인 훈련 'systematic training'. Critics point to the very young age of many trainees, long and uncertain training with no guarantee of debut, and unfair contracts: 불공정한 계약. A 전속 계약 is an exclusive contract with an agency.",
           "In the debate you will need 경쟁 'competition', 사생활 'private life', 인권 'human rights' and 보호하다 'to protect'. Keep claims general and hedged, as Korean opinion writing does: 연습생들이 지나친 경쟁에 시달린다는 지적이 있다 'Some point out that trainees suffer from excessive competition'.",
         ],
         examples: [
@@ -1084,7 +1084,7 @@ export const KO_B2_U24: Lesson[] = [
       {
         heading: "Three ways to name a cause",
         body: [
-          "You met all three in Intermediate; at B2 the point is choosing. 덕분에 gives credit for a good result: 드라마 덕분에 한국어 공부를 시작했다. 탓에 puts blame for a bad one: 악플 탓에 활동을 중단했다 'stopped all activities because of hateful comments'. 때문에 is neutral and works for either; it simply names the cause, which is why news and essays use it most.",
+          "You met all three in Intermediate; at the Upper-intermediate level the point is choosing. 덕분에 gives credit for a good result: 드라마 덕분에 한국어 공부를 시작했다. 탓에 puts blame for a bad one: 악플 탓에 활동을 중단했다 'stopped all activities because of hateful comments'. 때문에 is neutral and works for either; it simply names the cause, which is why news and essays use it most.",
           "The forms differ. After nouns all three are simple: 친구 덕분에, 날씨 탓에, 비 때문에. After verbs and adjectives, 덕분에 and 탓에 take a modifier (도와준 덕분에, 늦게 일어난 탓에, 바쁜 탓에), but 때문에 needs -기: 바쁘기 때문에, 늦었기 때문에. *바쁜 때문에 is a classic slip. Each one can also end a sentence: 다 팬 여러분 덕분입니다, 제 탓이에요, 날씨 때문이에요.",
         ],
         examples: [

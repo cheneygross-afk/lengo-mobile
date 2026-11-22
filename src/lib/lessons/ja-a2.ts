@@ -647,7 +647,7 @@ export const JA_A2_LESSONS: Lesson[] = [
         "heading": "～ている for Actions in Progress",
         "body": [
           "The first new job is formed with te-form + います, the polite form of いる ('to exist,' used for people and animals). Because いる is an ichidan verb, ています conjugates exactly like any other ichidan verb you already know: ています for present/habitual, ていません for negative ('is not doing'), ていました for past ('was doing'), and ていませんでした for past negative.",
-          "Its main job is describing an action that is happening right now, in progress at the moment of speaking — much like English '-ing.' It's typically paired with 今 ('now') or answers the question 'what are you doing?' This is a different meaning from the plain ます form you learned in A1: 毎日、パンを食べます means 'I eat bread every day' (a habit or a general fact), while 今、パンを食べています means 'I am eating bread right now' (zoomed into the middle of the action).",
+          "Its main job is describing an action that is happening right now, in progress at the moment of speaking — much like English '-ing.' It's typically paired with 今 ('now') or answers the question 'what are you doing?' This is a different meaning from the plain ます form you learned in the Beginner level: 毎日、パンを食べます means 'I eat bread every day' (a habit or a general fact), while 今、パンを食べています means 'I am eating bread right now' (zoomed into the middle of the action).",
           "Questions work exactly like any other ですか/ますか question: 何をしていますか ('what are you doing?') can be answered はい、～ています or いいえ、～ていません, so this pattern slots neatly into conversations you can already have."
         ],
         "examples": [
@@ -1231,7 +1231,7 @@ export const JA_A2_LESSONS: Lesson[] = [
         "heading": "The Polite Past Negative: ～ませんでした",
         "body": [
           "Just as ません is the polite negative of ます (見ません, 'do not watch'), its past-tense counterpart is ませんでした. This single fixed ending replaces ません whenever the negated action is in the past: 見ません ('do not watch') becomes 見ませんでした ('did not watch').",
-          "ませんでした might look long, but it doesn't conjugate any further -- there's no separate 'negative past' stem to learn. You simply take the polite negative form you already know from A1 and add でした onto the end: verb-stem + ません + でした. 勉強しません → 勉強しませんでした (did not study), 会いません → 会いませんでした (did not meet).",
+          "ませんでした might look long, but it doesn't conjugate any further -- there's no separate 'negative past' stem to learn. You simply take the polite negative form you already know from the Beginner level and add でした onto the end: verb-stem + ません + でした. 勉強しません → 勉強しませんでした (did not study), 会いません → 会いませんでした (did not meet).",
           "This form pairs naturally with words like 全然 (not at all) and あまり (not much), which strengthen or soften the negation, though ませんでした works perfectly well on its own too. Notice that the particle after the verb's object or target doesn't change between affirmative and negative -- only the verb ending shifts."
         ],
         "examples": [
@@ -1461,7 +1461,7 @@ export const JA_A2_LESSONS: Lesson[] = [
         "heading": "The Past of い-Adjectives: ～かった and ～くなかった",
         "body": [
           "い-adjectives are unusual because they carry tense on their own, without needing です at all -- です just adds a layer of politeness on top. For the past affirmative, drop the final い and add かった: 高い ('expensive') → 高かった ('was expensive'), 暑い ('hot') → 暑かった ('was hot'). Add です afterward for the polite version most learners use day to day: 高かったです, 暑かったです.",
-          "The negative past follows the same logic, but starts from the negative form you learned in A1: ～くない. Change that ない to なかった: 高くない ('not expensive') → 高くなかった ('was not expensive'). Again, です can be added for politeness without changing the meaning: 高くなかったです.",
+          "The negative past follows the same logic, but starts from the negative form you learned in the Beginner level: ～くない. Change that ない to なかった: 高くない ('not expensive') → 高くなかった ('was not expensive'). Again, です can be added for politeness without changing the meaning: 高くなかったです.",
           "One important irregular case to memorize: いい ('good') does not become いかった. Its past form is よかった, because いい is itself an irregular spelling of the older adjective よい, and all of いい's conjugations are built from よ-, not い-. So 'the movie was good' is 映画はよかったです, never 映画はいかったです."
         ],
         "examples": [
@@ -1658,7 +1658,7 @@ export const JA_A2_LESSONS: Lesson[] = [
         "body": [
           "With all four past-tense patterns in hand -- verb ました/ませんでした, です's でした/じゃなかったです, and い-adjective かった/くなかった -- you can now describe a whole weekend, trip, or day in the past. Time words like 昨日 (yesterday), 先週 (last week), 先月 (last month), and 去年 (last year) set the scene, and you can string several past-tense sentences together to build a short narrative.",
           "To ask about the past politely, add か after でした or after a ました/ませんでした verb. 週末はどうでしたか ('How was the weekend?') is one of the most common past-tense questions in daily conversation: どう means 'how,' and でしたか turns it into a polite past-tense question. You could answer with an い-adjective (楽しかったです, 'it was fun') or with a fuller sentence about what you did (友達と映画を見ました, 'I watched a movie with a friend').",
-          "Mastering these forms means you can now talk naturally about anything that already happened -- meals, weather, trips, feelings, and plans that did or didn't happen -- entirely in the polite register you've been building since A1, with a first glimpse of the plain register still to come."
+          "Mastering these forms means you can now talk naturally about anything that already happened -- meals, weather, trips, feelings, and plans that did or didn't happen -- entirely in the polite register you've been building since the Beginner level, with a first glimpse of the plain register still to come."
         ],
         "examples": [
           {
@@ -2816,7 +2816,7 @@ export const JA_A2_LESSONS: Lesson[] = [
       {
         "heading": "Putting It Together: Birthday Gifts",
         "body": [
-          "All three verbs conjugate exactly like the other ます-verbs you already know: あげます/あげません/あげました/あげませんでした, もらいます/もらいません/もらいました/もらいませんでした, and くれます/くれません/くれました/くれませんでした follow the same present-negative-past-past-negative pattern from A1. Nothing new to learn there — the only new work is choosing the right verb in the first place.",
+          "All three verbs conjugate exactly like the other ます-verbs you already know: あげます/あげません/あげました/あげませんでした, もらいます/もらいません/もらいました/もらいませんでした, and くれます/くれません/くれました/くれませんでした follow the same present-negative-past-past-negative pattern from the Beginner level. Nothing new to learn there — the only new work is choosing the right verb in the first place.",
           "Two related words are worth recognizing even though they're not the focus of this lesson: さしあげる is the humble version of あげる, used when giving to someone clearly above you in status (先生に花をさしあげました, \"I gave my teacher flowers,\" humbly), and いただく is the humble version of もらう. You'll study both properly in a later lesson on polite speech levels — for now, just don't be surprised if you see them.",
           "Put all three together and a birthday party tells a complete story: 誕生日パーティーで、私は友達にケーキをあげました。そして、友達は私にプレゼントをくれました。(\"At the birthday party, I gave my friend cake. And my friend gave me a present.\")Notice how naturally the verb switches the moment the direction of the gift reverses — that switch is the entire grammar point of this lesson."
         ],
@@ -4640,8 +4640,8 @@ export const JA_A2_LESSONS: Lesson[] = [
     "slug": "a2-module-review-1",
     "level": "JA-A2",
     "number": 25,
-    "title": "A2 Module Review: Putting It All Together, Part 1 of 3",
-    "summary": "A cumulative review of everything from the A2 module: te-form and requests, ～ている, permission and prohibition, past tense, potential and たい forms, giving and receiving, comparison particles, and plain-form noun modification and register. Short refreshers followed by mixed practice that combines grammar points the way real sentences do。",
+    "title": "Module Review: Putting It All Together, Part 1 of 3",
+    "summary": "A cumulative review of everything from the Elementary module: te-form and requests, ～ている, permission and prohibition, past tense, potential and たい forms, giving and receiving, comparison particles, and plain-form noun modification and register. Short refreshers followed by mixed practice that combines grammar points the way real sentences do。",
     "duration": "9 min",
     "sections": [
       {
@@ -4869,8 +4869,8 @@ export const JA_A2_LESSONS: Lesson[] = [
     "slug": "a2-module-review-2",
     "level": "JA-A2",
     "number": 26,
-    "title": "A2 Module Review: Putting It All Together, Part 2 of 3",
-    "summary": "A cumulative review of everything from the A2 module: te-form and requests, ～ている, permission and prohibition, past tense, potential and たい forms, giving and receiving, comparison particles, and plain-form noun modification and register. Short refreshers followed by mixed practice that combines grammar points the way real sentences do。",
+    "title": "Module Review: Putting It All Together, Part 2 of 3",
+    "summary": "A cumulative review of everything from the Elementary module: te-form and requests, ～ている, permission and prohibition, past tense, potential and たい forms, giving and receiving, comparison particles, and plain-form noun modification and register. Short refreshers followed by mixed practice that combines grammar points the way real sentences do。",
     "duration": "9 min",
     "sections": [
       {
@@ -5079,8 +5079,8 @@ export const JA_A2_LESSONS: Lesson[] = [
     "slug": "a2-module-review-3",
     "level": "JA-A2",
     "number": 27,
-    "title": "A2 Module Review: Putting It All Together, Part 3 of 3",
-    "summary": "A cumulative review of everything from the A2 module: te-form and requests, ～ている, permission and prohibition, past tense, potential and たい forms, giving and receiving, comparison particles, and plain-form noun modification and register. Short refreshers followed by mixed practice that combines grammar points the way real sentences do。",
+    "title": "Module Review: Putting It All Together, Part 3 of 3",
+    "summary": "A cumulative review of everything from the Elementary module: te-form and requests, ～ている, permission and prohibition, past tense, potential and たい forms, giving and receiving, comparison particles, and plain-form noun modification and register. Short refreshers followed by mixed practice that combines grammar points the way real sentences do。",
     "duration": "8 min",
     "sections": [
       {
@@ -5242,7 +5242,7 @@ export const JA_A2_LESSONS: Lesson[] = [
             "right": "singles out the one that is more ~"
           }
         ],
-        "explanation": "These particles work together across A2 sentences describing ranges, example lists, and comparisons between two things。"
+        "explanation": "These particles work together across Elementary sentences describing ranges, example lists, and comparisons between two things。"
       },
       {
         "type": "fill-blank",

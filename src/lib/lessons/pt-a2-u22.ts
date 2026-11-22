@@ -915,7 +915,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Round 2: commands and requests",
         body: [
-          "Everyday commands come from the present ele form: \"fala\", \"come\", \"abre\", \"vem\", \"faz\", \"traz\", \"põe\", \"diz\", \"vai\". Standard commands, for writing, signs and politeness, take the opposite vowel: \"fale\", \"coma\", \"abra\", and the irregulars \"venha\", \"faça\", \"traga\", \"ponha\", \"diga\", \"vá\", \"seja\", \"esteja\". Learn these standard forms well: at B1 they become the subjunctive.",
+          "Everyday commands come from the present ele form: \"fala\", \"come\", \"abre\", \"vem\", \"faz\", \"traz\", \"põe\", \"diz\", \"vai\". Standard commands, for writing, signs and politeness, take the opposite vowel: \"fale\", \"coma\", \"abra\", and the irregulars \"venha\", \"faça\", \"traga\", \"ponha\", \"diga\", \"vá\", \"seja\", \"esteja\". Learn these standard forms well: at the Intermediate level they become the subjunctive.",
           "Negatives: \"não fala\" or \"não fale\". Softer still: \"pode\" + infinitive, or \"você poderia...?\".",
         ],
         examples: [
@@ -1091,7 +1091,7 @@ export const PT_A2_U22: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Exam Practice: Reading",
-    summary: "A2 reading tasks: signs and notices, messages, an apartment ad and a short article; find the key information and answer in English and Portuguese.",
+    summary: "Elementary reading tasks: signs and notices, messages, an apartment ad and a short article; find the key information and answer in English and Portuguese.",
     duration: "15 min",
     kind: "skills",
     format: "Exam practice",
@@ -1099,7 +1099,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Signs and notices",
         body: [
-          "A2 reading tasks test whether you can find information, not whether you understand every word. Read the question first, then scan for key words, numbers, days and times.",
+          "Elementary reading tasks test whether you can find information, not whether you understand every word. Read the question first, then scan for key words, numbers, days and times.",
           "Signs use fixed formulas. \"Proibido\" + infinitive bans something (\"proibido estacionar\", no parking). \"Aluga-se\" (for rent) and \"vende-se\" (for sale) are chunks; learn them whole. \"Favor\" + infinitive is a polite request (\"favor não fumar\"), and \"não funciona\" means out of order.",
         ],
         examples: [
@@ -1307,7 +1307,7 @@ export const PT_A2_U22: Lesson[] = [
     level: "PT-A2",
     number: 7,
     title: "Exam Practice: Listening",
-    summary: "A2 listening tasks: announcements at the rodoviária and the airport, voice messages, short dialogues in stores and at the doctor; catching numbers, times, prices and names.",
+    summary: "Elementary listening tasks: announcements at the rodoviária and the airport, voice messages, short dialogues in stores and at the doctor; catching numbers, times, prices and names.",
     duration: "15 min",
     kind: "skills",
     format: "Exam practice",
@@ -1524,7 +1524,7 @@ export const PT_A2_U22: Lesson[] = [
     level: "PT-A2",
     number: 8,
     title: "Exam Practice: Writing a Message and an Email",
-    summary: "A short message to a friend and a longer email to a landlord or host family, with the purpose, the reader and a checklist of A2 structures.",
+    summary: "A short message to a friend and a longer email to a landlord or host family, with the purpose, the reader and a checklist of Elementary structures.",
     duration: "16 min",
     kind: "skills",
     format: "Exam practice",
@@ -1611,7 +1611,7 @@ export const PT_A2_U22: Lesson[] = [
         ],
       },
       {
-        heading: "The A2 checklist",
+        heading: "The Elementary checklist",
         body: [
           "Before you finish, check that the text shows the range of the level: a past event in the perfeito with a background in the imperfeito, a plan with \"vou\" + infinitive, a comparison, a relative (\"que\", \"onde\"), two or three connectors (\"porque\", \"mas\", \"então\"), and a polite request.",
           "Then check the classic slips: agreement (\"a casa é bonita\"), \"para mim\", \"há\" for how long, double negatives, \"obrigado\" or \"obrigada\" matching you, and the register matching the reader.",
@@ -1842,7 +1842,7 @@ export const PT_A2_U22: Lesson[] = [
         heading: "Write it in the right register",
         body: [
           "The reader is the síndico, so: \"Prezado senhor Carlos\" or \"Bom dia, seu Carlos\", \"o senhor\", \"nós\" for the residents, \"para\" not \"pra\", and a closing with \"Atenciosamente\" plus your apartment number (\"apartamento 302\").",
-          "Join the parts with connectors: \"além disso\" (also, in addition), \"mas\", \"por isso\". A good A2 reply is 60-80 words and answers all three points.",
+          "Join the parts with connectors: \"além disso\" (also, in addition), \"mas\", \"por isso\". A good Elementary reply is 60-80 words and answers all three points.",
         ],
         examples: [
           { es: "Prezado senhor Carlos,", en: "Dear Mr. Carlos," },
@@ -1978,7 +1978,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Introducing yourself",
         body: [
-          "A2 speaking tests start with you: name, origin, where you live and for how long, work or study, family and free time. Prepare five or six sentences that use several tenses, not just the present: \"moro em Londres há seis anos\", \"antes eu morava em Bristol\", \"ano que vem vou mudar de emprego\".",
+          "Elementary speaking tests start with you: name, origin, where you live and for how long, work or study, family and free time. Prepare five or six sentences that use several tenses, not just the present: \"moro em Londres há seis anos\", \"antes eu morava em Bristol\", \"ano que vem vou mudar de emprego\".",
           "Examiners reward range and keeping going, not perfection. A short sentence said smoothly beats a long one that stops halfway.",
         ],
         examples: [
@@ -2198,7 +2198,7 @@ export const PT_A2_U22: Lesson[] = [
     level: "PT-A2",
     number: 11,
     title: "Final Drill: Are You Ready for the Intermediate Level?",
-    summary: "A last mixed drill of the twenty structures most needed at B1, from perfeito vs imperfeito to há and faz, ficar and relatives, with targeted feedback.",
+    summary: "A last mixed drill of the twenty structures most needed at the Intermediate level, from perfeito vs imperfeito to há and faz, ficar and relatives, with targeted feedback.",
     duration: "15 min",
     kind: "drill",
     format: "Drill circuit",
@@ -2206,8 +2206,8 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "The past, under control",
         body: [
-          "B1 builds new tenses on top of the A2 past, so these must be automatic: the perfeito for events, the imperfeito for background and habits, \"estava\" + gerund for interrupted actions, \"ia\" + infinitive for plans, and the irregular pasts (\"fiz\", \"tive\", \"disse\", \"trouxe\", \"pude\", \"vim\").",
-          "If any item here feels slow, go back to the past-tense units at the start of A2 before starting B1: the next level assumes these forms without thinking.",
+          "The Intermediate level builds new tenses on top of the Elementary past, so these must be automatic: the perfeito for events, the imperfeito for background and habits, \"estava\" + gerund for interrupted actions, \"ia\" + infinitive for plans, and the irregular pasts (\"fiz\", \"tive\", \"disse\", \"trouxe\", \"pude\", \"vim\").",
+          "If any item here feels slow, go back to the past-tense units at the start of Elementary before starting Intermediate: the next level assumes these forms without thinking.",
         ],
         examples: [
           { es: "Ele disse que trouxe tudo.", en: "He said he brought everything." },
@@ -2239,7 +2239,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Pronouns, commands, por and para",
         body: [
-          "Object pronouns before the verb (\"ele me deu\"), \"mim\" and \"comigo\" after prepositions, \"ele\" in speech and \"o\" in writing. The standard command forms (\"fale\", \"coma\", \"faça\", \"venha\", \"seja\", \"traga\") matter more than they seem: at B1 the same forms become the present subjunctive (\"espero que você venha\").",
+          "Object pronouns before the verb (\"ele me deu\"), \"mim\" and \"comigo\" after prepositions, \"ele\" in speech and \"o\" in writing. The standard command forms (\"fale\", \"coma\", \"faça\", \"venha\", \"seja\", \"traga\") matter more than they seem: at the Intermediate level the same forms become the present subjunctive (\"espero que você venha\").",
           "\"Por\" for cause, exchange, thanks, through and per; \"para\" for purpose, destination, recipient and deadlines.",
         ],
         examples: [
@@ -2257,7 +2257,7 @@ export const PT_A2_U22: Lesson[] = [
             source: "Please come early.",
             answer: "Venha cedo, por favor.",
             altAnswers: ["Por favor, venha cedo.", "Por favor, chegue cedo.", "Chegue cedo, por favor."],
-            explanation: "The standard command of \"vir\" is \"venha\": this form returns at B1 as the subjunctive.",
+            explanation: "The standard command of \"vir\" is \"venha\": this form returns at Intermediate as the subjunctive.",
           },
           {
             type: "translate",
@@ -2385,7 +2385,7 @@ export const PT_A2_U22: Lesson[] = [
         en: "[Do] the exercise at home.",
         sentence: "___ o exercício em casa.",
         answer: "Faça",
-        explanation: "The standard command of \"fazer\" is \"faça\"; it returns at B1 as the subjunctive.",
+        explanation: "The standard command of \"fazer\" is \"faça\"; it returns at Intermediate as the subjunctive.",
       },
       {
         type: "multiple-choice",
@@ -2420,7 +2420,7 @@ export const PT_A2_U22: Lesson[] = [
     level: "PT-A2",
     number: 12,
     title: "Elementary Level Test, Part 1 of 2",
-    summary: "A2 exit test: grammar and vocabulary in context, and reading (notices, messages, a short article).",
+    summary: "Elementary exit test: grammar and vocabulary in context, and reading (notices, messages, a short article).",
     duration: "18 min",
     kind: "review",
     format: "Level test",
@@ -2428,7 +2428,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Part 1: grammar in context",
         body: [
-          "This test teaches nothing new: it checks the whole level. Read each text, then answer. Work without notes, and read the feedback afterwards; anything you miss tells you which unit to revisit before B1.",
+          "This test teaches nothing new: it checks the whole level. Read each text, then answer. Work without notes, and read the feedback afterwards; anything you miss tells you which unit to revisit before the Intermediate level.",
           "The first text is a message from Lucas to his friends about his week. Notice how the tenses carry the story: the interview and the call are events, his nerves are background, and the new job is a plan.",
         ],
         examples: [
@@ -2639,7 +2639,7 @@ export const PT_A2_U22: Lesson[] = [
     level: "PT-A2",
     number: 13,
     title: "Elementary Level Test, Part 2 of 2",
-    summary: "A2 exit test: listening-style dialogues and announcements, writing a message and an email, and speaking prompts.",
+    summary: "Elementary exit test: listening-style dialogues and announcements, writing a message and an email, and speaking prompts.",
     duration: "20 min",
     kind: "review",
     format: "Level test",

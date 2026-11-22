@@ -248,7 +248,7 @@ export const KO_C1_U03: Lesson[] = [
       {
         heading: "The 'how much more' argument",
         body: [
-          "-(으)ㄹ진대 presents a premise as granted ('given that, since it is so') so the speaker can draw a stronger conclusion from it. At C1 you will meet it almost always in one frame: A도 -(으)ㄹ진대 하물며 B은 / 는 어떻겠는가? 'If even A is so, how much more B?' 어른도 견디기 힘들진대 하물며 아이들은 어떻겠는가 'If even adults find it hard to bear, how much harder must it be for children?' English philosophy calls this arguing a fortiori; English speech says 'let alone' or 'never mind'.",
+          "-(으)ㄹ진대 presents a premise as granted ('given that, since it is so') so the speaker can draw a stronger conclusion from it. At the Advanced level you will meet it almost always in one frame: A도 -(으)ㄹ진대 하물며 B은 / 는 어떻겠는가? 'If even A is so, how much more B?' 어른도 견디기 힘들진대 하물며 아이들은 어떻겠는가 'If even adults find it hard to bear, how much harder must it be for children?' English philosophy calls this arguing a fortiori; English speech says 'let alone' or 'never mind'.",
           "Three parts make it work. The first clause puts 도 'even' on the strong case: 어른도, 전문가도, 한국 사람도. 하물며 'all the more, let alone' opens the second clause and names the weaker case. The sentence ends in a rhetorical question, -겠는가 or 어찌 -겠는가 in writing and -겠습니까 in a speech. Remove the 도 or the 하물며 and the logic falls apart, because -(으)ㄹ진대 on its own does not mean plain 'because'.",
           "The order matters. The case that should cope best comes first: experts before amateurs, adults before children, family before strangers. Reverse it and the sentence is grammatical but nonsensical, like 'if even children find it hard, how much harder for adults'.",
         ],

@@ -2239,7 +2239,7 @@ export const KO_C2_U26: Lesson[] = [
         heading: "The genuine errors: spelling and spacing",
         body: [
           "Six of the stars are mechanical. 되 / 돼: 돼 is 되어 contracted, so 되어서 is 돼서, never *되서. If you are unsure, swap in 하 / 해: you would write 해서, not 하서, so write 돼서. Spacing: dependent nouns stand apart from the modifier before them, so 할 수 and 재미있는 것 같아요, never *할수 or *재미있는것. 며칠 is always 며칠, even though it looks like 몇 + 일; *몇일 does not exist. 왠지 comes from 왜인지; 웬 means 'what kind of' (웬 사람, 웬일).",
-          "The last pair is the C2 version of an Upper-intermediate point, and the writer gets it wrong in both directions. -대요 is -다고 해요 contracted: you pass on what someone else said (친구가 충분하대요). -데요 recalls what you yourself saw or felt, like -더라고요 (가 봤는데 정말 맛있데요, or more commonly 맛있더라고요). The writer went to the restaurant herself, so *맛있대요 tells the reader 'they say it's good', a strange thing to say about a meal you ate.",
+          "The last pair is the Mastery version of an Upper-intermediate point, and the writer gets it wrong in both directions. -대요 is -다고 해요 contracted: you pass on what someone else said (친구가 충분하대요). -데요 recalls what you yourself saw or felt, like -더라고요 (가 봤는데 정말 맛있데요, or more commonly 맛있더라고요). The writer went to the restaurant herself, so *맛있대요 tells the reader 'they say it's good', a strange thing to say about a meal you ate.",
         ],
         examples: [
           { es: "처음 며칠 동안은 은행 일도 혼자서 할 수 없었어요.", en: "For the first few days I couldn't even do my banking on my own." },

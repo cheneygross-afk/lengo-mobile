@@ -374,7 +374,7 @@ export const KO_B2_U07_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: The Way You Said",
-    summary: "Mixed practice with -(으)ㄴ / 는 대로 'the way' (말씀하신 대로, 배운 대로, 시키는 대로) against B1's -는 대로 'as soon as' (도착하는 대로, 끝나는 대로).",
+    summary: "Mixed practice with -(으)ㄴ / 는 대로 'the way' (말씀하신 대로, 배운 대로, 시키는 대로) against the Intermediate level's -는 대로 'as soon as' (도착하는 대로, 끝나는 대로).",
     duration: "15 min",
     sections: [
       {
@@ -410,9 +410,9 @@ export const KO_B2_U07_EXTRA: Lesson[] = [
         ],
       },
       {
-        heading: "As soon as: the B1 대로",
+        heading: "As soon as: the Intermediate level 대로",
         body: [
-          "B1's 대로 means 'as soon as' and is easy to spot: present -는 after an event verb (도착하다, 끝나다, 나오다, 정해지다), followed by a promise or a request. It never takes the past modifier and never reports a past fact: *도착하는 대로 전화했어요 is wrong; use -자마자 for the past.",
+          "The Intermediate level's 대로 means 'as soon as' and is easy to spot: present -는 after an event verb (도착하다, 끝나다, 나오다, 정해지다), followed by a promise or a request. It never takes the past modifier and never reports a past fact: *도착하는 대로 전화했어요 is wrong; use -자마자 for the past.",
         ],
         examples: [
           { es: "일이 끝나는 대로 바로 갈게요.", en: "I'll head over as soon as I finish work." },

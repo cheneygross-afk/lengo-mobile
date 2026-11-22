@@ -1555,7 +1555,7 @@ export const PT_B2_U24: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Spiral Review: Translation Relay",
-    summary: "Translate short English messages and paragraphs into Portuguese, choosing among the B2 structures so far: subjunctives, conditions, the passive, reported speech and register.",
+    summary: "Translate short English messages and paragraphs into Portuguese, choosing among the Upper-intermediate structures so far: subjunctives, conditions, the passive, reported speech and register.",
     duration: "15 min",
     kind: "review",
     format: "Spiral Review",
@@ -1563,7 +1563,7 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "Messages to friends",
         body: [
-          "A relay: each English message hides one or two B2 structures, and part of the job is spotting them. 'I wish', 'if only' and 'as if' point to the imperfect subjunctive; 'when' and 'if' about the future point to the future subjunctive; 'I was told' usually becomes an active \"me disseram\". For messages to friends, keep the spoken register: \"a gente\", \"pra\", pronoun first.",
+          "A relay: each English message hides one or two Upper-intermediate structures, and part of the job is spotting them. 'I wish', 'if only' and 'as if' point to the imperfect subjunctive; 'when' and 'if' about the future point to the future subjunctive; 'I was told' usually becomes an active \"me disseram\". For messages to friends, keep the spoken register: \"a gente\", \"pra\", pronoun first.",
         ],
         examples: [
           { es: "Quem dera eu pudesse ir com vocês!", en: "If only I could go with you!" },
