@@ -23,6 +23,7 @@ import { gustarVerbsUnitReview } from "./unit-review-gustar-verbs";
 import { houseDemonstrativesUnitReview } from "./unit-review-house-demonstratives";
 import { beginnerFinalUnitReview } from "./unit-review-beginner-final";
 import { preteriteRegularUnitReview } from "./unit-review-preterite-regular";
+import { preteriteIrregularUnitReview } from "./unit-review-preterite-irregular";
 import { A2_UNIT_WRITING } from "./unit-writing-a2";
 import { B1_UNIT_WRITING } from "./unit-writing-b1";
 import { B2_UNIT_WRITING } from "./unit-writing-b2";
@@ -676,6 +677,7 @@ const HAND_REVIEWS: Record<string, (generated: Lesson) => Lesson> = {
   "a1r-word-web-house": houseDemonstrativesUnitReview,
   "a1-final-review-1": beginnerFinalUnitReview,
   "preterite-regular-verbs-1": preteriteRegularUnitReview,
+  "preterite-irregular-verbs-1": preteriteIrregularUnitReview,
 };
 
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
