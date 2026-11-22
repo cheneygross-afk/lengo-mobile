@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "db82b6cfce1ba8cde406a0ace85e7271ef4d90d1",
+  "commit": "5169265e818f36b2291d995d67a2e712297f8105",
   "files": {
     "src/lib/lessons/a1-additions.ts": "2c6980e1ecfd53e0062758bb07d6370e64a61db53c3e2237b8d84ec86638809f",
     "src/lib/lessons/a1-core.ts": "09d9c01a671d34fdb43c8512649527f14a5959a39277a333dbd37a0249076cd0",
@@ -704,6 +704,7 @@
     "src/lib/lessons/en-unit-writing-c1.ts": "d6a1fe4dae287d51f73f35f206fcc3268b5191b046987674239ac9db3556a79d",
     "src/lib/lessons/en-unit-writing-c2.ts": "56e6e670e21b99bdb46ca4ad1238964a30407554cc3c2a4cd0d771009770c33c",
     "src/lib/lessons/en-units.ts": "f07736806acc2fc37f86d1076c3e1b08d9c64fdfc39d2525d8bf5f012dac06cf",
+    "src/lib/lessons/es-concepts.ts": "7ff2e80911c207d3e3d261cecc2ec8f92a432844fdb29ff180a1ae053bf9928c",
     "src/lib/lessons/extra-drills-a1-1.ts": "584e753e427dc25b627976e5d77fc8209396b5720d2e1463a8b4b094fc0d29d8",
     "src/lib/lessons/extra-drills-a1-2.ts": "c965b1a9de4b64d02fe3a55d04ec505a039e59beaf2f9cad3322f7f83e00120b",
     "src/lib/lessons/extra-drills-a1-3.ts": "1fd063495cf6ffeb5addaacd970b243aa3c2282ffdde7e7f9fbf1b76bb465e10",
