@@ -27,6 +27,8 @@ import {
 import { todaysReviewTotal } from "@/lib/dailyReview";
 import { SPANISH_LEVEL_ORDER, nextLessonToContinue, type ContinueLesson, type LearnerPrefs } from "@/lib/learnerPlan";
 import { formatMinutes } from "@/lib/duration";
+import { getSpanishVariety } from "@/lib/spanishVariety";
+import { VOSOTROS_ONLY_LESSONS } from "@/lib/vosotrosOnlyLessons";
 import { courseOfLevelPath } from "@/lib/courses";
 import { FRENCH_LEVELS, loadFrenchLevel, nextFrenchLesson } from "@/lib/lessons/french";
 import { GERMAN_LEVELS, loadGermanLevel, nextGermanLesson } from "@/lib/lessons/german";
@@ -172,7 +174,16 @@ async function loadSummary(fromCloud: boolean): Promise<Summary> {
   if (fromCloud) await seedScheduleFromCompletions();
   return {
     prefs,
-    next: nextLessonToContinue(SPANISH_LESSONS_BY_LEVEL, completed, prefs.startLevel),
+    // A Latin America learner never gets the lessons about vosotros.
+    next: nextLessonToContinue(
+      getSpanishVariety() === "latam"
+        ? Object.fromEntries(
+            Object.entries(SPANISH_LESSONS_BY_LEVEL).map(([lp, ls]) => [lp, ls?.filter((l) => !VOSOTROS_ONLY_LESSONS.has(l.slug))]),
+          )
+        : SPANISH_LESSONS_BY_LEVEL,
+      completed,
+      prefs.startLevel
+    ),
     hasSpanishProgress: maps.some((m) => Object.values(m).some(Boolean)),
     dueByLang: {
       es: todaysReviewTotal(await getTodaysReviewCounts()),

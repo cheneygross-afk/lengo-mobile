@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import { useSpanishVariety } from "@/lib/spanishVariety";
+import { scrubTitle, scrubVosotros, touchesVosotros } from "@/lib/vosotros";
+import { VOSOTROS_ONLY_LESSONS } from "@/lib/vosotrosOnlyLessons";
 import { View, Text, Pressable, StyleSheet, ScrollView, ActivityIndicator } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
@@ -59,8 +62,33 @@ type GuideBody = Pick<GrammarGuide, "title" | "intro" | "sections" | "faqs"> & {
   mistakes: (GrammarGuide["mistakes"][number] & { register?: boolean })[];
 };
 
+// A learner who picked Latin America never sees vosotros: the guide
+// loses the lines, rows, examples and questions about it (vosotros.ts).
+function guideForLatam<G extends (typeof GRAMMAR_GUIDES)[number]>(g: G): G {
+  const t = touchesVosotros;
+  const lines = (ls: string[]) => ls.map(scrubVosotros).filter(Boolean);
+  return {
+    ...g,
+    title: scrubTitle(g.title),
+    intro: lines(g.intro),
+    sections: g.sections
+      .filter((sec) => !!scrubVosotros(sec.heading))
+      .map((sec) => ({
+        ...sec,
+        heading: scrubVosotros(sec.heading),
+        body: lines(sec.body),
+        table: sec.table ? { ...sec.table, rows: sec.table.rows.filter((r) => !r.some((c) => t(c))) } : sec.table,
+        examples: sec.examples?.filter((ex) => !t(ex.es) && !t(ex.en)),
+      })),
+    mistakes: g.mistakes.filter((m) => !t(m.wrong) && !t(m.right) && !t(m.why)),
+    faqs: g.faqs.filter((f) => !t(f.q)).map((f) => ({ ...f, a: scrubVosotros(f.a) })),
+  };
+}
+
 function SpanishGrammarGuideScreen({ route, navigation }: Props) {
-  const guide = GRAMMAR_GUIDES.find((g) => g.slug === route.params.slug);
+  const latam = useSpanishVariety() === "latam";
+  const found = GRAMMAR_GUIDES.find((g) => g.slug === route.params.slug);
+  const guide = found && latam ? guideForLatam(found) : found;
   if (!guide) {
     return (
       <View style={s.screen}>
@@ -71,6 +99,7 @@ function SpanishGrammarGuideScreen({ route, navigation }: Props) {
   // The first lesson that teaches this topic (see grammarLinks.ts); the
   // level's lesson list when none is linked.
   const firstLesson = lessonsForGuide(guide.slug)
+    .filter((ref) => !(latam && VOSOTROS_ONLY_LESSONS.has(ref.slug)))
     .map((ref) => findLessonBySlug(ref.slug))
     .find((l) => !!l);
   const related = guide.related

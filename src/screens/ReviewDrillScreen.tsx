@@ -18,7 +18,7 @@ import { creditStudy } from "@/lib/studyDays";
 import { QUESTION_MINUTES, STREAK_MIN_REVIEW_QUESTIONS } from "@/lib/studyCredit";
 import { langForLevelPath } from "@/lib/speech";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
-import { requiresVosotros } from "@/lib/vosotros";
+import { touchesVosotros } from "@/lib/vosotros";
 import { courseOfLevelPath } from "@/lib/courses";
 import { recordAttempt } from "@/lib/attempts";
 import { lessonConceptId } from "@/lib/curriculum/items";
@@ -74,7 +74,7 @@ export default function ReviewDrillScreen({ route, navigation }: Props) {
       const skipVosotros = v === "latam" && courseOfLevelPath(levelPath) === "es";
       // Everything due: new misses are due immediately, older ones come
       // back on their spaced schedule.
-      const pool = all.filter((q) => isMissedQuestionDue(q, now) && !(skipVosotros && requiresVosotros(q.exercise)));
+      const pool = all.filter((q) => isMissedQuestionDue(q, now) && !(skipVosotros && touchesVosotros(JSON.stringify(q.exercise))));
       setQueue(pool);
       setTotalQuestions(pool.length);
       setPhase("intro");

@@ -10,6 +10,7 @@ import { conjugate, specFor } from "@/lib/conjugation/conjugate";
 import { describeHit, searchVerbs, warmUpLookup } from "@/lib/conjugation/lookup";
 import { VERB_SPECS } from "@/lib/conjugation/verbs";
 import { TENSES, personLabel, personsOf, type Person, type TenseId } from "@/lib/conjugation/types";
+import { useSpanishVariety } from "@/lib/spanishVariety";
 import {
   DRILL_PERSONS,
   DRILL_TENSES,
@@ -142,12 +143,14 @@ function Form({ form, mark }: { form: string | null | undefined; mark?: "irregul
 function TenseCard({ verb, tense }: { verb: NonNullable<ReturnType<typeof conjugate>>; tense: TenseId }) {
   const info = TENSES.find((t) => t.id === tense)!;
   const marks = verb.marks[tense] ?? {};
+  // Latin America learners don't see the vosotros row (see vosotros.ts).
+  const latam = useSpanishVariety() === "latam";
   return (
     <View style={s.card}>
       <Text style={s.cardTitle}>{info.en}</Text>
       <TapText text={info.es} lang={SPANISH_LANG} mode="target" style={s.small} />
       <View style={{ marginTop: 8, gap: 3 }}>
-        {personsOf(tense).map((p: Person) => (
+        {personsOf(tense).filter((p) => !(latam && p === "vosotros")).map((p: Person) => (
           <View key={p} style={s.row}>
             <TapText text={personLabel(p, tense)} lang={SPANISH_LANG} mode="target" style={s.person} />
             <View style={s.flex}>
@@ -286,6 +289,8 @@ function toggle<T>(list: T[], item: T): T[] {
 function Drill() {
   const [tenses, setTenses] = useState<TenseId[]>(["pres", "pret"]);
   const [persons, setPersons] = useState<Person[]>(["yo", "tu", "el", "nos", "ellos"]);
+  // Latin America learners don't practise vosotros (see vosotros.ts).
+  const latamDrill = useSpanishVariety() === "latam";
   const [set, setSet] = useState<SetChoice>("top50");
   const [count, setCount] = useState(20);
   const [questions, setQuestions] = useState<DrillQuestion[] | null>(null);
@@ -308,7 +313,7 @@ function Drill() {
   ]);
 
   function start() {
-    const qs = makeDrill({ tenses, persons, verbs, count, seed: Date.now() });
+    const qs = makeDrill({ tenses, persons: latamDrill ? persons.filter((p) => p !== "vosotros") : persons, verbs, count, seed: Date.now() });
     setEmpty(qs.length === 0);
     if (qs.length === 0) return;
     setDrillId((n) => n + 1);
@@ -435,7 +440,7 @@ function Drill() {
       </View>
       <Text style={s.section}>PERSONS</Text>
       <View style={s.chips}>
-        {DRILL_PERSONS.map((p) => (
+        {DRILL_PERSONS.filter((p) => !(latamDrill && p === "vosotros")).map((p) => (
           <Chip key={p} on={persons.includes(p)} onPress={() => setPersons((v) => toggle(v, p))} label={personLabel(p)} />
         ))}
       </View>

@@ -8,6 +8,10 @@ import type { Lesson } from "@/lib/lessons/types";
 import { LESSON_SOURCES, type LessonModuleKey, type LessonSource, type ModuleUnit } from "@/lib/lessons/registry";
 import { getCompletedMap, syncCompletedMapFromCloud } from "@/lib/lessons/completion";
 import { displayTitle, firstIncompleteRequired, requiredLessons } from "@/lib/lessons/levels";
+import { useSpanishVariety } from "@/lib/spanishVariety";
+import { isSpanishLessonLevel } from "@/lib/lessons/registry";
+import { scrubTitle, scrubVosotros, touchesVosotros } from "@/lib/vosotros";
+import { VOSOTROS_ONLY_LESSONS } from "@/lib/vosotrosOnlyLessons";
 import { isUnitLevelPath, unitsFor } from "@/lib/lessons/units";
 import { getPendingReviewBatch, type PendingReviewBatch } from "@/lib/lessons/reviewCadence";
 import { parseDurationMinutes, formatMinutes } from "@/lib/duration";
@@ -185,11 +189,31 @@ export default function LessonListScreen({ navigation, route }: Props) {
     if (isLazy || (hasUnits && moduleKey !== "cosas-coloquiales")) navigation.setOptions({ title: source.title });
   }, [navigation, moduleKey, hasUnits, source.title, isLazy]);
 
-  const lessons = source.lessons;
-  const units: ModuleUnit[] | null = useMemo(
-    () => (hasUnits ? unitsFor(moduleKey as Parameters<typeof unitsFor>[0]).map((u) => ({ ...u, testOut: true })) : source.units ?? null),
-    [moduleKey, hasUnits, source.units]
+  // A learner who picked Latin America never sees vosotros: the lessons
+  // about it are left out, and titles lose it (see vosotros.ts).
+  const variety = useSpanishVariety();
+  const latam = variety === "latam" && source.lessons.some((l) => isSpanishLessonLevel(l.level));
+  const keepForLatam = (l: Lesson) => !VOSOTROS_ONLY_LESSONS.has(l.slug);
+  const forLatam = (l: Lesson) => (touchesVosotros(l.title) ? { ...l, title: scrubTitle(l.title) } : l);
+  const lessons = useMemo(
+    () => (latam ? source.lessons.filter(keepForLatam).map(forLatam) : source.lessons),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [source.lessons, latam]
   );
+  const units: ModuleUnit[] | null = useMemo(() => {
+    const all = hasUnits ? unitsFor(moduleKey as Parameters<typeof unitsFor>[0]).map((u) => ({ ...u, testOut: true })) : source.units ?? null;
+    if (!latam || !all) return all;
+    return all
+      .map((u) => ({
+        ...u,
+        label: scrubTitle(u.label),
+        description: scrubVosotros(u.description),
+        required: u.required.filter(keepForLatam).map(forLatam),
+        optional: u.optional.filter(keepForLatam).map(forLatam),
+      }))
+      .filter((u) => u.required.length + u.optional.length > 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [moduleKey, hasUnits, source.units, latam]);
   const titles = useMemo(() => new Map(lessons.map((l) => [l.slug, displayTitle(l, lessons)])), [lessons]);
 
   // Counts the required path only -- optional Extra Practice lessons (see

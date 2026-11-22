@@ -79,7 +79,8 @@ import {
 import { highlightMarkColor } from "@/lib/highlightColors";
 import { LESSON_PASS_PERCENT, lessonPassed } from "@/lib/grading";
 import { getSpanishVariety, loadSpanishVariety, type SpanishVariety } from "@/lib/spanishVariety";
-import { isVosotrosFocused, requiresVosotros, vosotrosNote } from "@/lib/vosotros";
+import { exerciseForLatam, isVosotrosOnlyLesson, scrubTitle, teachingForLatam } from "@/lib/vosotros";
+import { VOSOTROS_ONLY_LESSONS } from "@/lib/vosotrosOnlyLessons";
 import { setListenFirst, useListenFirst } from "@/lib/listenFirstPref";
 import { isLazyLevelPath, lazyLevelIfLoaded, loadLazyLevel, type LazyLevelData } from "@/lib/lessons/lazyLevels";
 import LevelDownload from "@/components/LevelDownload";
@@ -188,7 +189,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     const source = LESSON_SOURCES[moduleKeyForLesson(found)];
     return { levelPath: source.levelPath, lessons: source.lessons };
   }, [slug, lazyPath, lazyData]);
-  const lesson = useMemo(
+  const rawLesson = useMemo(
     () => (lazyPath ? track?.lessons.find((l) => l.slug === slug) : findLessonBySlug(slug)),
     [slug, lazyPath, track]
   );
@@ -203,15 +204,15 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const lessonInTrack = (s: string) => (lazyPath ? trackLessons.find((l) => l.slug === s) : findLessonBySlug(s));
   // The title as the lesson list shows it (one "Part X of Y", see
   // levels.ts displayTitle), and the unit it belongs to.
-  const shownTitle = useMemo(() => (lesson ? displayTitle(lesson, trackLessons) : ""), [lesson, trackLessons]);
-  const unitLabel = useMemo(
+  const rawShownTitle = useMemo(() => (rawLesson ? displayTitle(rawLesson, trackLessons) : ""), [rawLesson, trackLessons]);
+  const rawUnitLabel = useMemo(
     () =>
-      lesson
+      rawLesson
         ? lazyData && lazyPath
-          ? lazyData.units.find((u) => [...u.required, ...u.optional].some((l) => l.slug === lesson.slug))?.label
-          : unitOf(levelPath, lesson.slug)?.label
+          ? lazyData.units.find((u) => [...u.required, ...u.optional].some((l) => l.slug === rawLesson.slug))?.label
+          : unitOf(levelPath, rawLesson.slug)?.label
         : undefined,
-    [lesson, levelPath, lazyData, lazyPath]
+    [rawLesson, levelPath, lazyData, lazyPath]
   );
 
   // Missed questions from this track that are due again, read once when
@@ -242,9 +243,18 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     };
   }, [levelPath, slug]);
 
+  // Latin America learners never see vosotros (see vosotros.ts): the
+  // teaching cards lose it here, each question goes through
+  // exerciseForLatam as it's asked (null = not asked), and a lesson about
+  // vosotros is skipped altogether.
+  const latam = variety === "latam" && !!rawLesson && isSpanishLessonLevel(rawLesson.level);
+  const lesson = useMemo(() => (rawLesson && latam ? teachingForLatam(rawLesson) : rawLesson), [rawLesson, latam]);
+  const shownTitle = latam ? scrubTitle(rawShownTitle) : rawShownTitle;
+  const unitLabel = latam && rawUnitLabel ? scrubTitle(rawUnitLabel) : rawUnitLabel;
+  const skipForLatam = latam && !!rawLesson && (VOSOTROS_ONLY_LESSONS.has(rawLesson.slug) || isVosotrosOnlyLesson(rawLesson));
   const skipExercise = useMemo(
-    () => (variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) ? requiresVosotros : () => false),
-    [variety, lesson]
+    () => (latam ? (e: Exercise) => exerciseForLatam(e) === null : () => false),
+    [latam]
   );
   // At most 20 questions (practiceCap.ts, shared with the website); the
   // rest wait as keep-practicing questions. Same question objects as the
@@ -253,7 +263,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   const baseSteps = useMemo<Step[]>(() => {
     if (!lesson || !capped || dueMissed === null || variety === null) return [];
     const core = capped.core;
-    const idOf = new Map(authoredQuestions(lesson).map((e, i) => [e, i] as const));
+    const idOf = new Map(authoredQuestions(rawLesson ?? lesson).map((e, i) => [e, i] as const));
     const own: QuestionSource = { slug: lesson.slug, number: lesson.number, title: lesson.title };
     const out: Step[] = [];
     // q numbers the questions shown; authored counts every question in
@@ -264,10 +274,11 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     const pushOwn = (exercise: Exercise, passage?: string[], unitQuiz?: boolean, at?: number, stage?: Stage | "try", section?: number | null) => {
       const index = at ?? idOf.get(exercise) ?? authored;
       authored++;
-      if (skipExercise(exercise)) return;
+      const shown = latam ? exerciseForLatam(exercise) : exercise;
+      if (!shown) return;
       out.push({
         kind: "exercise",
-        exercise,
+        exercise: shown,
         id: `${lesson.slug}#${index}`,
         key: `q-${index}`,
         number: q + 1,
@@ -321,7 +332,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     review.forEach((r, i) => {
       out.push({
         kind: "exercise",
-        exercise: r.exercise,
+        exercise: latam ? exerciseForLatam(r.exercise) ?? r.exercise : r.exercise,
         id: r.id,
         key: `review-${i}`,
         number: q + 1,
@@ -331,7 +342,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
       q++;
     });
     return out;
-  }, [lesson, capped, trackLessons, dueMissed, variety, skipExercise]);
+  }, [lesson, rawLesson, latam, capped, trackLessons, dueMissed, variety, skipExercise]);
   // Keep-practicing rounds the learner chose, inserted before the choice.
   const [extraSteps, setExtraSteps] = useState<Step[]>([]);
   const practiced = useRef(new Set<Exercise>());
@@ -356,10 +367,7 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
   // beside warm-up questions and behind a peek button in guided practice.
   const allTables = useMemo(() => (lesson ? lessonTables(lesson) : []), [lesson]);
   const [peek, setPeek] = useState(false);
-  const lessonNote =
-    variety === "latam" && lesson && isSpanishLessonLevel(lesson.level) && isVosotrosFocused(lesson)
-      ? vosotrosNote(lesson.level)
-      : null;
+  const lessonNote: string | null = null;
   const questionCount = steps.filter((st) => st.kind === "exercise" && !st.extra).length;
   // The lesson after this one in its track, for "continue anyway" when
   // the learner didn't reach the pass mark.
@@ -368,6 +376,13 @@ export default function LessonRunnerScreen({ route, navigation }: Props) {
     const i = trackLessons.findIndex((l) => l.slug === lesson.slug);
     return i >= 0 ? trackLessons[i + 1] ?? null : null;
   }, [lesson, trackLessons]);
+  // A lesson about vosotros, opened by a Latin America learner: go
+  // straight on to the next one.
+  useEffect(() => {
+    if (!skipForLatam) return;
+    if (nextLesson) navigation.replace("LessonRunner", lazyPath ? { slug: nextLesson.slug, levelPath } : { slug: nextLesson.slug });
+    else navigation.goBack();
+  }, [skipForLatam, nextLesson, lazyPath, levelPath, navigation]);
   // Answers to review questions that came from the missed-questions
   // pool, written back in one go when the lesson finishes.
   const poolResultsRef = useRef<Map<string, boolean>>(new Map());
