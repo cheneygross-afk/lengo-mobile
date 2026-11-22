@@ -41,7 +41,7 @@ export default function SpanishVarietyPicker() {
       </View>
       <Text style={s.sub}>
         {variety === "latam"
-          ? "Latin American voice. Vosotros forms are shown for recognition only; you won't be asked to produce them."
+          ? "Latin American voice, and ustedes for every \"you all\". Forms only Spain uses are left out of your lessons."
           : "Castilian voice, and vosotros forms are practised along with everything else."}
       </Text>
       {error && <Text style={s.error}>{error}</Text>}

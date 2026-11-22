@@ -14,8 +14,11 @@
 // país, sentaos) only count when the exercise itself talks about
 // vosotros. scripts/vosotros-report.ts prints what it flags per level.
 // Hermes has no \p{L}, so letters are matched with explicit ranges.
-import type { Exercise, Lesson } from "./lessons/types";
+import type { Exercise, Lesson, LessonSection } from "./lessons/types";
 import { isKnownSpanishWord } from "./grading";
+// The app bundles the word list (grading.ts), so it is always loaded;
+// the website fetches it (spanishKnownWords.ts). The only line that differs.
+const knownSpanishWords = () => true;
 
 export type SpanishVarietyValue = "spain" | "latam";
 
@@ -73,8 +76,10 @@ function stripStemAccent(stem: string): string {
   return stem.replace(/á$/, "a").replace(/é$/, "e").replace(/í$/, "i");
 }
 
-/** A word whose shape only a vosotros verb form has. */
-function isClearVosotrosWord(w: string): boolean {
+/** A word whose shape only a vosotros verb form has. `commands: false`
+ * leaves out the -d / -os commands, whose shape English past tenses
+ * share (placed, moved), for text that may be English. */
+function isClearVosotrosWord(w: string, commands = true): boolean {
   if (NOT_VOSOTROS.has(w)) return false;
   if (PRONOUNS.has(w) || SHORT_FORMS.has(w)) return true;
   // Present / subjunctive / future: habláis, coméis, hablaréis, estéis.
@@ -85,7 +90,7 @@ function isClearVosotrosWord(w: string): boolean {
   if (/(bais|íais)$/.test(w)) return true;
   // Imperfect subjunctive: hablarais, comierais, fuerais, hablaseis.
   if (/(arais|erais|aseis|eseis)$/.test(w)) return true;
-  return isVosotrosCommand(w);
+  return commands && isVosotrosCommand(w);
 }
 
 // Endings that are vosotros forms often enough to count only when the
@@ -221,20 +226,288 @@ export function isVosotrosFocused(lesson: Lesson): boolean {
   return all.filter(requiresVosotros).length * 2 >= all.length;
 }
 
-/** The lesson as a learner of `variety` practises it: for Latin America,
- * without the exercises that require a vosotros form. The teaching
- * sections (body and examples) are untouched. */
-export function lessonForVariety(lesson: Lesson, variety: SpanishVarietyValue): Lesson {
-  if (variety !== "latam" || lesson.level.startsWith("JA")) return lesson;
-  let changed = false;
-  const keep = (list: Exercise[]) => {
-    const kept = list.filter((ex) => !requiresVosotros(ex));
-    if (kept.length !== list.length) changed = true;
-    return kept;
+// ---- Latin America: no vosotros at all ------------------------------
+// A learner who picked Latin America never meets vosotros: not in the
+// teaching cards, the examples, the tables, the questions or the
+// feedback. Lists lose their vosotros item ("soy, eres, es, somos, sois,
+// son" reads "soy, eres, es, somos, son"), a sentence that is still about
+// vosotros after that is left out, and a question that uses a vosotros
+// form anywhere is skipped (or loses just that wrong option).
+
+function isVosWord(w: string): boolean {
+  return /^(vosotr[oa]s|vuestr[oa]?s?-?)$/.test(w) || isClearVosotrosWord(w, false);
+}
+
+// Endings written on their own in a list: -áis, -éis, -ís, -asteis...
+const VOS_ENDING = /^[-–‑](áis|éis|ís|ais|eis|asteis|isteis|steis|abais|íais|aréis|eréis|iréis|ríais|aríais|eríais|iríais|ad|ed|id|aos|eos|íos|ásteis)$/;
+
+/** True if `text` mentions vosotros, vuestro or uses a vosotros form.
+ * `spanish`: the text is a Spanish answer or sentence, so the -d / -os
+ * commands (hablad, sentaos) count too. A lone -ís ending doesn't count,
+ * because the voseo lessons use it (vivís, querís). */
+export function touchesVosotros(text: string | undefined | null, spanish = false): boolean {
+  if (!text) return false;
+  if (/vosotr[oa]s|vuestr/i.test(text)) return true;
+  if ((text.match(/[-–‑][a-záéíóú]+/g) ?? []).some((e) => VOS_ENDING.test(e) && !/[-–‑](ís|ad|ed|id|aos|eos|íos)$/.test(e))) return true;
+  return wordsOf(text).some((w) => isClearVosotrosWord(w, spanish));
+}
+
+/** One list item ("sois", "vosotros os", "-áis", "vosotros (sois)"). */
+function isVosItem(piece: string, about: boolean): boolean {
+  const core = piece
+    .replace(/[*"“”«»‘’'¡!¿?.:;]/g, " ")
+    .replace(/[()]/g, " ")
+    .trim();
+  if (!core) return false;
+  const tokens = core.split(/\s+/);
+  return tokens.every((t) => {
+    const w = t.toLowerCase().normalize("NFC");
+    return VOS_ENDING.test(t) || isVosWord(w) || (about && /^[a-záéíóúüñ]+$/.test(w) && isContextVosotrosWord(w));
+  });
+}
+
+function dropListItems(text: string, about: boolean): string {
+  // "nosotros and vosotros (-éis / -ís)" -> "nosotros"
+  const out = text.replace(
+    /\s*,?\s+(?:and|or|y|o|e|ni|&)\s+(?:vosotr[oa]s|vuestr[oa]s?)(?:\s*\/\s*vosotr[oa]s)?(?:\s*\([^)]*\))?/gi,
+    "",
+  );
+  const parts = out.split(/(\s*,\s*|\s*\/\s*|\s+·\s+|\s+\|\s+)/);
+  if (parts.length < 3) return out;
+  let result = "";
+  let any = false;
+  let tail = "";
+  for (let i = 0; i < parts.length; i += 2) {
+    const piece = parts[i];
+    if (isVosItem(piece, about)) {
+      tail = piece.match(/[.;:!?)]+\s*$/)?.[0] ?? "";
+      continue;
+    }
+    result += (any ? parts[i - 1] : "") + piece;
+    any = true;
+    tail = "";
+  }
+  if (tail && !/[.;:!?)]\s*$/.test(result)) result += tail;
+  return result;
+}
+
+/** `text` without vosotros: list items dropped, then any sentence that
+ * still mentions it left out. Empty when nothing is left. */
+export function scrubVosotros(text: string): string {
+  if (!touchesVosotros(text)) return text;
+  const listed = dropListItems(text, /vosotr[oa]s/i.test(text));
+  if (!touchesVosotros(listed)) return tidy(listed);
+  const sentences = listed.match(/[^.!?]+(?:[.!?]+["”»)]*|$)\s*/g) ?? [listed];
+  return tidy(sentences.filter((s) => !touchesVosotros(s)).join(""));
+}
+
+// A heading or line that lost its last item: "Trap 2: Ustedes vs." -> "Trap 2: Ustedes".
+function tidy(text: string): string {
+  return text
+    .trim()
+    .replace(/\s+(?:vs\.?|or|and|y|o|e|ni|&)$/i, "")
+    .replace(/[,:;/]$/, "")
+    .trim();
+}
+
+/** A title or label without vosotros. Never empty: "Unit 27 · Vosotros
+ * commands" reads "Unit 27 · Commands". */
+export function scrubTitle(title: string): string {
+  if (!touchesVosotros(title)) return title;
+  const t = scrubVosotros(title);
+  if (t) return t;
+  return title
+    .replace(/\b(?:de\s+)?vosotr[oa]s\s+([a-záéíóúñ])/i, (_, c: string) => c.toUpperCase())
+    .replace(/\s+(?:de|for)\s+vosotr[oa]s\b/i, "")
+    .replace(/\s*(?:&|and|y)\s+vosotr[oa]s\b[^,:·]*/i, "");
+}
+
+function scrubOptional(text: string | undefined): string | undefined {
+  if (text === undefined) return undefined;
+  const t = scrubVosotros(text);
+  return t ? t : undefined;
+}
+
+/** Options without the vosotros ones, for a question whose right answer
+ * doesn't need vosotros. Returns null when the question can't stay. */
+function pruneOptions(options: string[], correct: number[]): { options: string[]; map: number[] } | null {
+  const map: number[] = [];
+  const kept: string[] = [];
+  options.forEach((o, i) => {
+    if (touchesVosotros(o)) {
+      if (correct.includes(i)) map.push(-2);
+      else map.push(-1);
+    } else {
+      map.push(kept.length);
+      kept.push(o);
+    }
+  });
+  if (map.includes(-2) || kept.length < 2) return null;
+  return { options: kept, map };
+}
+
+/** A plain "The answer: ..." line, for when an explanation was all
+ * about vosotros. */
+function answerLine(ex: Exercise): string {
+  const spanishInstructions = /[¿¡]|ñ|ción\b/.test(JSON.stringify(ex).slice(0, 400)) && !/[A-Za-z]+ the /.test(ex.explanation ?? "");
+  const label = spanishInstructions ? "Respuesta" : "The answer";
+  switch (ex.type) {
+    case "multiple-choice":
+    case "listen-choose":
+      return `${label}: ${ex.options[ex.correctIndex]}`;
+    case "multi-select":
+      return `${label}: ${ex.correctIndexes.map((i) => ex.options[i]).join(" · ")}`;
+    case "fill-blank":
+      return `${label}: ${ex.sentence.replace("___", ex.answer)}`;
+    case "translate":
+      return `${label}: ${ex.answer}`;
+    case "word-order":
+      return `${label}: ${ex.words.join(" ")}`;
+    case "dictation":
+      return `${label}: ${ex.answer ?? ex.audio}`;
+    case "speak":
+      return `${label}: ${ex.text}`;
+    case "write":
+      return `${label}: ${ex.modelAnswer}`;
+    case "matching":
+      return "";
+  }
+}
+
+/** The exercise as a Latin America learner gets it, or null to skip it. */
+export function exerciseForLatam(ex: Exercise): Exercise | null {
+  const t = touchesVosotros;
+  const explanation = scrubVosotros(ex.explanation ?? "") || answerLine(ex);
+  const base = { ...ex, explanation } as Exercise;
+  switch (ex.type) {
+    case "multiple-choice":
+    case "listen-choose": {
+      if (t(ex.question) || (ex.type === "listen-choose" && t(ex.audio, true))) return null;
+      const pruned = pruneOptions(ex.options, [ex.correctIndex]);
+      if (!pruned) return null;
+      const out = { ...base, options: pruned.options, correctIndex: pruned.map[ex.correctIndex] } as Exercise;
+      if (ex.type === "multiple-choice" && ex.optionNotes) {
+        (out as typeof ex).optionNotes = ex.optionNotes.filter((_, i) => pruned.map[i] >= 0).map((n) => scrubVosotros(n));
+      }
+      return out;
+    }
+    case "multi-select": {
+      if (t(ex.question)) return null;
+      const pruned = pruneOptions(ex.options, ex.correctIndexes);
+      if (!pruned) return null;
+      return { ...base, options: pruned.options, correctIndexes: ex.correctIndexes.map((i) => pruned.map[i]) } as Exercise;
+    }
+    case "fill-blank": {
+      if (t(ex.prompt) || t(ex.sentence, true) || t(ex.answer, true) || t(ex.hint) || t(ex.en)) return null;
+      return { ...base, altAnswers: ex.altAnswers?.filter((a) => !t(a, true)) } as Exercise;
+    }
+    case "translate": {
+      if (t(ex.prompt) || t(ex.source, ex.direction === "es-en") || t(ex.answer, ex.direction === "en-es")) return null;
+      return { ...base, altAnswers: ex.altAnswers?.filter((a) => !t(a, ex.direction === "en-es")) } as Exercise;
+    }
+    case "word-order": {
+      if (t(ex.prompt) || t(ex.words.join(" "), true) || t(ex.translation)) return null;
+      return { ...base, altOrders: ex.altOrders?.filter((o) => !t(o.join(" "), true)) } as Exercise;
+    }
+    case "matching": {
+      if (t(ex.instructions)) return null;
+      const pairs = ex.pairs.filter((p) => !t(p.left) && !t(p.right));
+      if (pairs.length < Math.min(3, ex.pairs.length)) return null;
+      return { ...base, pairs } as Exercise;
+    }
+    case "dictation": {
+      if (t(ex.audio, true) || t(ex.answer, true)) return null;
+      return { ...base, altAnswers: ex.altAnswers?.filter((a) => !t(a, true)) } as Exercise;
+    }
+    case "speak": {
+      if (t(ex.text, true) || t(ex.prompt)) return null;
+      return { ...base, altAnswers: ex.altAnswers?.filter((a) => !t(a, true)), tip: scrubOptional(ex.tip) } as Exercise;
+    }
+    case "write": {
+      if (t(ex.prompt) || t(ex.modelAnswer)) return null;
+      return { ...base, rubric: ex.rubric.map(scrubVosotros).filter(Boolean) } as Exercise;
+    }
+  }
+}
+
+function sectionForLatam(s: LessonSection, keepQuestions = false): LessonSection | null {
+  const heading = scrubVosotros(s.heading);
+  if (!heading) return null;
+  const body = s.body.map(scrubVosotros).filter(Boolean);
+  const examples = s.examples
+    ?.filter((e) => !touchesVosotros(e.es, true))
+    .map((e) => (e.en && touchesVosotros(e.en) ? { ...e, en: scrubOptional(e.en) } : e));
+  const tables = s.tables
+    ?.map((tb) => {
+      const drop = tb.head.map((h) => touchesVosotros(h));
+      const keepCol = (row: string[]) => row.filter((_, i) => !drop[i]);
+      const rows = tb.rows.filter((r) => !r.some((c) => touchesVosotros(c.replace(/^\*/, "")))).map(keepCol);
+      return { ...tb, head: keepCol(tb.head), rows, caption: scrubOptional(tb.caption), note: scrubOptional(tb.note) };
+    })
+    .filter((tb) => tb.rows.length > 0 && tb.head.length > 0);
+  const build = s.build?.some((b) => touchesVosotros(b.text) || touchesVosotros(b.note)) ? undefined : s.build;
+  const checkpoint = keepQuestions ? s.checkpoint : s.checkpoint?.map(exerciseForLatam).filter((e): e is Exercise => e !== null);
+  if (body.length === 0 && !examples?.length && !tables?.length && !checkpoint?.length) return null;
+  return { ...s, heading, body, examples, tables, build, reteach: scrubOptional(s.reteach), checkpoint };
+}
+
+function countQuestions(lesson: Lesson): number {
+  return lesson.exercises.length + lesson.sections.reduce((n, s) => n + (s.checkpoint?.length ?? 0), 0);
+}
+
+const latamCache = new WeakMap<Lesson, Lesson | null>();
+
+/** The lesson with every trace of vosotros taken out, or null when the
+ * lesson is about vosotros (too little would be left): a Latin America
+ * learner doesn't see that lesson at all. */
+export function lessonForLatam(lesson: Lesson): Lesson | null {
+  if (latamCache.has(lesson)) return latamCache.get(lesson)!;
+  const sections = lesson.sections.map((s) => sectionForLatam(s)).filter((s): s is LessonSection => s !== null);
+  const exercises = lesson.exercises.map(exerciseForLatam).filter((e): e is Exercise => e !== null);
+  const out: Lesson = {
+    ...lesson,
+    title: scrubVosotros(lesson.title) || lesson.title,
+    summary: scrubVosotros(lesson.summary),
+    goal: scrubOptional(lesson.goal),
+    sections,
+    exercises,
   };
-  const sections = lesson.sections.map((s) => (s.checkpoint ? { ...s, checkpoint: keep(s.checkpoint) } : s));
-  const exercises = keep(lesson.exercises);
-  return changed ? { ...lesson, sections, exercises } : lesson;
+  const before = countQuestions(lesson);
+  const after = countQuestions(out);
+  const result = after < before && (after < 3 || after * 2 < before) ? null : out;
+  // The -d commands are only recognised once the word list has loaded.
+  if (knownSpanishWords()) latamCache.set(lesson, result);
+  return result;
+}
+
+/** Only the teaching side of lessonForLatam: sections, examples and
+ * tables without vosotros, but every question the same object as before
+ * (the app numbers questions by object, and maps each one through
+ * exerciseForLatam as it asks it). */
+export function teachingForLatam(lesson: Lesson): Lesson {
+  return {
+    ...lesson,
+    title: scrubTitle(lesson.title),
+    summary: scrubVosotros(lesson.summary),
+    goal: scrubOptional(lesson.goal),
+    sections: lesson.sections.map((s) => sectionForLatam(s, true)).filter((s): s is LessonSection => s !== null),
+  };
+}
+
+/** True when a Latin America learner doesn't get this lesson at all. */
+export function isVosotrosOnlyLesson(lesson: Lesson): boolean {
+  if (/^(JA|ZH|EN|FR|DE|PT|IT|KO)-/.test(lesson.level)) return false;
+  return lessonForLatam(lesson) === null;
+}
+
+/** The lesson as a learner of `variety` practises it: for Latin America,
+ * without any vosotros (see lessonForLatam). A vosotros-only lesson comes
+ * back as it is; callers skip it with isVosotrosOnlyLesson(). */
+export function lessonForVariety(lesson: Lesson, variety: SpanishVarietyValue): Lesson {
+  // Only the Spanish course has vosotros; the Japanese, Chinese and English
+  // courses are left as they are.
+  if (variety !== "latam" || /^(JA|ZH|EN)-/.test(lesson.level)) return lesson;
+  return lessonForLatam(lesson) ?? lesson;
 }
 
 /** The note shown at the top of a vosotros-focused lesson for a Latin

@@ -290,7 +290,7 @@ export default function OnboardingScreen({ navigation }: Props) {
 
           <Text style={s.varietyHeading}>Which Spanish do you want to learn?</Text>
           <Text style={s.varietyBody}>
-            This sets the voice you hear. Latin America skips producing vosotros forms, but you'll still learn to recognise them.
+            This sets the voice you hear and the forms you practise. You can change it any time in Settings.
           </Text>
           <SpanishVarietyPicker />
 

@@ -20,7 +20,7 @@ import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import StudyCreditNote from "@/components/StudyCreditNote";
 import TroubleSpots from "@/components/TroubleSpots";
 import { getSpanishVariety, loadSpanishVariety } from "@/lib/spanishVariety";
-import { requiresVosotros } from "@/lib/vosotros";
+import { touchesVosotros } from "@/lib/vosotros";
 import {
   applyMixResult,
   pickDailyMix,
@@ -85,7 +85,7 @@ async function buildUnifiedQueue(): Promise<Item[]> {
   const variety = getSpanishVariety();
   const picked = await buildUnifiedReview("es");
   return picked
-    .filter((c) => !(variety === "latam" && requiresVosotros(c.exercise)))
+    .filter((c) => !(variety === "latam" && touchesVosotros(JSON.stringify(c.exercise))))
     .map((c) => {
       const missed = /^missed:([^:]+):(.+)$/.exec(c.id);
       return {
@@ -129,7 +129,7 @@ async function buildQueue(): Promise<{ items: Item[]; mixLeft: Record<string, { 
     loadSpanishVariety(),
     new Promise<string>((resolve) => setTimeout(() => resolve(getSpanishVariety()), 1500)),
   ]).catch(() => getSpanishVariety());
-  const skip = (e: Exercise) => variety === "latam" && requiresVosotros(e);
+  const skip = (e: Exercise) => variety === "latam" && touchesVosotros(JSON.stringify(e));
   const now = Date.now();
   const items: Item[] = [];
   const pools = await Promise.all(SPANISH_REVIEW_TRACKS.map((lp) => getMissedQuestions(lp)));
