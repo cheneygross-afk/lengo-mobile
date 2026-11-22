@@ -303,6 +303,9 @@ export const LEVEL_WATCH_VIDEOS: Partial<Record<SpanishLevelPath, LessonVideo[]>
     { videoId: "CTHoo_eIiIA", title: "Oaxaca vs Mexico City", source: "Easy Spanish · Intermediate", topic: "culture-travel", variety: "Mexico" },
     { videoId: "3nb_hjv5Y24", title: "LEARN SPANISH with This VLOG (w/ subtitles!)", source: "Spanish After Hours · Vlogs", topic: "daily-life" },
     { videoId: "RksAhxQd2-o", title: "Answering Google's Most Asked Questions About Spain || Spanish After Hours", source: "Spanish After Hours · Vlogs", topic: "culture-travel", variety: "Spain" },
+    { videoId: "a6G1bmXayls", title: "What's Your Favorite Sport? | Easy Spanish 305", source: "Easy Spanish · Street Interviews", topic: "interviews", variety: "Mexico" },
+    { videoId: "ISBxZXSDgWE", title: "We Asked People in Barcelona About Football and the Barça team! | Easy Spanish 236", source: "Easy Spanish · Street Interviews", topic: "interviews", variety: "Spain" },
+    { videoId: "E1R1P_NyvF8", title: "How Do Barcelona Locals Stay In Shape? | Easy Spanish 379", source: "Easy Spanish · Street Interviews", topic: "interviews", variety: "Spain" },
   ],
   b2: [
     { videoId: "YBE5WPt9JBg", title: "Los guerrilleros (The Guerrillas) I Duolingo Spanish Podcast I Episode #10", source: "Duolingo Spanish Podcast", topic: "podcasts" },
@@ -344,6 +347,7 @@ export const LEVEL_WATCH_VIDEOS: Partial<Record<SpanishLevelPath, LessonVideo[]>
     { videoId: "nW4VX2Ke_pc", title: "La soledad del estudiante de español", source: "Español con Juan · Intermediate", topic: "language-tips", variety: "Spain" },
     { videoId: "BHPBQMwrsT8", title: "Me gusta viajar, pero...", source: "Español con Juan · Intermediate", topic: "culture-travel", variety: "Spain" },
     { videoId: "tAQntx85G78", title: "Best Way to Learn Spanish: Make a Fool of Yourself", source: "Español con Juan · Intermediate", topic: "language-tips", variety: "Spain" },
+    { videoId: "6C_G5NXJajU", title: "What Argentinians Think About Maradona | Easy Spanish 262", source: "Easy Spanish · Street Interviews", topic: "interviews", variety: "Argentina" },
   ],
   c1: [
     { videoId: "Nvcr_dvP-S0", title: "How do low-cost airlines make money? - Advanced Spanish", source: "Dreaming Spanish · Advanced", topic: "news-ideas" },
@@ -394,6 +398,7 @@ export const LEVEL_WATCH_VIDEOS: Partial<Record<SpanishLevelPath, LessonVideo[]>
     { videoId: "W6Jex5PJrKo", title: "Los misteriosos componentes de los que está hecho el 95% del universo", source: "BBC News Mundo · Native media", topic: "news-ideas" },
     { videoId: "x0wLs3fz2_U", title: "Las soluciones de Escandinavia para luchar contra el cambio climático", source: "BBC News Mundo · Native media", topic: "news-ideas" },
     { videoId: "M2ERw9vCBwI", title: "\"Una puerta a otro mundo\": dentro de las bellas y peligrosas cuevas de un glaciar", source: "BBC News Mundo · Native media", topic: "news-ideas" },
+    { videoId: "jpeNrCCm4ZU", title: "La explicación física del “gol imposible” de Roberto Carlos con el Real Madrid hace 20 años", source: "BBC News Mundo · Native media", topic: "news-ideas" },
   ],
 };
 

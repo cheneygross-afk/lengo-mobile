@@ -171,11 +171,27 @@ export function keepsAuthoredOrder(l: Lesson): boolean {
   return !!l.unitReview || /(^|-)(test|exam|final|placement)(-|$)/.test(l.slug);
 }
 
-export function lessonFlow(l: Lesson): FlowStep[] {
+export type FlowOptions = {
+  /** CRRT: never more than this many teaching cards in a row. A long
+   * section gets an easy practice question on it (or the easiest one left)
+   * between its cards. Off unless given. */
+  checkEvery?: number;
+};
+
+export function lessonFlow(l: Lesson, opts: FlowOptions = {}): FlowStep[] {
   const out: FlowStep[] = [];
   const practice = l.exercises.map((exercise, index) => ({ exercise, index, stage: stageOf(exercise) }));
   const ordered = keepsAuthoredOrder(l);
   const borrowed = new Set<number>();
+  const borrow = (si: number) => {
+    const free = (p: (typeof practice)[number]) => !borrowed.has(p.index);
+    const onIt = (p: (typeof practice)[number]) => p.exercise.meta?.section === si;
+    return (
+      practice.find((p) => free(p) && onIt(p) && p.stage !== "run") ??
+      practice.find((p) => free(p) && p.stage === "crawl") ??
+      practice.find((p) => free(p) && p.stage === "walk")
+    );
+  };
   l.sections.forEach((s, si) => {
     const cards = chunkBody(s.body);
     // Examples show with the card they follow; a long list spreads out.
@@ -186,15 +202,20 @@ export function lessonFlow(l: Lesson): FlowStep[] {
       const tables = part === cards.length - 1 ? s.tables ?? [] : [];
       const last = part === cards.length - 1;
       out.push({ kind: "learn", section: si, part, parts: cards.length, heading: s.heading, body, examples, tables, watchOut: !!s.watchOut, build: last ? s.build ?? [] : [] });
+      if (opts.checkEvery && !last && !ordered && (part + 1) % opts.checkEvery === 0) {
+        const pick = borrow(si);
+        if (pick) {
+          borrowed.add(pick.index);
+          out.push({ kind: "exercise", stage: "try", exercise: pick.exercise, ref: { section: null, index: pick.index }, section: si });
+        }
+      }
     });
     const own = s.checkpoint ?? [];
     own.forEach((exercise, index) => out.push({ kind: "exercise", stage: "try", exercise, ref: { section: si, index }, section: si }));
     // A section with no check of its own borrows an easy practice item, so
     // nothing is taught without being tried straight away.
     if (!own.length && !ordered) {
-      const pick =
-        practice.find((p) => !borrowed.has(p.index) && p.stage === "crawl") ??
-        practice.find((p) => !borrowed.has(p.index) && p.stage === "walk");
+      const pick = borrow(si);
       if (pick) {
         borrowed.add(pick.index);
         out.push({ kind: "exercise", stage: "try", exercise: pick.exercise, ref: { section: null, index: pick.index }, section: si });

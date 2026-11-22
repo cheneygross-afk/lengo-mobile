@@ -671,6 +671,15 @@ function buildReview({ level, number, start, title, lessons }: UnitInput, writin
  * the level test (`exitSlug`). `lessons` is the level in final course
  * order; numbers are left for the caller to redo.
  */
+/** The unit check that closes a redesigned Spanish unit (es-redesign): the
+ * same build as a unit review (listening, speaking and a quiz or
+ * translations, all from sentences the unit's own lessons use), made from
+ * the new unit's lessons. Builds what it can; null when there is nothing. */
+export function buildRedesignUnitCheck(level: Level, unit: { number: number; title: string; lessons: Lesson[] }): Lesson | null {
+  const start = `es-${level.toLowerCase()}-unit-${unit.number}`;
+  return buildUnitReview({ ...spanishProfile(level, start), strict: false }, { number: unit.number, title: unit.title, lessons: unit.lessons.filter((l) => !l.unitReview) }, undefined);
+}
+
 export function withUnitReviews(level: Level, lessons: Lesson[], exitSlug: string): Lesson[] {
   const defs = UNIT_DEFS[level.toLowerCase() as Lowercase<Level>];
   const writing = WRITING[level];
