@@ -902,6 +902,10 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "mover", en: "to move", forms: ["mueve"] },
   ],
   "el-equipo-de-baloncesto": [
+    { es: "el baloncesto", en: "basketball", forms: ["baloncesto"] },
+    { es: "la canasta", en: "basket (hoop)", forms: ["canasta"] },
+    { es: "sonreír", en: "to smile", forms: ["sonríe"] },
+    { es: "la velocidad", en: "speed", forms: ["velocidad"] },
     { es: "el equipo", en: "team", forms: ["equipo"] },
     { es: "la prueba", en: "tryout", forms: ["pruebas"] },
     { es: "el balón", en: "ball", forms: ["balón"] },
@@ -1005,6 +1009,8 @@ export const A1_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "el sillón", en: "armchair", forms: ["sillones"] },
   ],
   "el-desfile-del-pueblo": [
+    { es: "saludar", en: "to greet, to wave to", forms: ["saludan"] },
+    { es: "varios", en: "several", forms: ["varias"] },
     { es: "el desfile", en: "parade", forms: ["desfile"] },
     { es: "el bombero", en: "firefighter", forms: ["bomberos"] },
     { es: "el tambor", en: "drum", forms: ["tambor", "tambores"] },
