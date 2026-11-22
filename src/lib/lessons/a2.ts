@@ -13,6 +13,7 @@ import { withUnitWriting } from "./unitWriting";
 import { carryWhole, splitLongLessons } from "./questionCap";
 import { withA2Unit1Fixes, withA2Unit1SpokenFixes } from "./a2-unit1-fixes";
 import { withA2Unit2Fixes, withA2Unit2SpokenFixes } from "./a2-unit2-fixes";
+import { withA2Unit3Fixes, withA2Unit3SpokenFixes } from "./a2-unit3-fixes";
 
 const A2_BASE_LESSONS: Lesson[] = [
   {
@@ -20993,4 +20994,4 @@ const A2_BASE_LESSONS: Lesson[] = [
 // sequencing.ts applies the course order (moved topics, spread-out
 // vocabulary, optional Extra Practice) after weaving.
 // Every lesson then gets its spoken questions (speaking.ts).
-export const A2_LESSONS: Lesson[] = withA2Unit2SpokenFixes(withA2Unit1SpokenFixes(withSpeaking(splitLongLessons(withUnitWriting(withA2Unit2Fixes(withA2Unit1Fixes(buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS]))), A2_WRITING_TASKS))), carryWhole), carryWhole);
+export const A2_LESSONS: Lesson[] = withA2Unit3SpokenFixes(withA2Unit2SpokenFixes(withA2Unit1SpokenFixes(withSpeaking(splitLongLessons(withUnitWriting(withA2Unit3Fixes(withA2Unit2Fixes(withA2Unit1Fixes(buildLevel("A2", A2_BASE_LESSONS, [...A2_REINFORCEMENT, ...A2_DRILLS, ...A2_COMMON_WORDS, ...A2_GAPS, ...A2_SURVIVAL, ...A2_PERFECT_PRONOUNS])))), A2_WRITING_TASKS))), carryWhole), carryWhole), carryWhole);
