@@ -1,83 +1,13 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/a1-unit3-fixes.ts by scripts/sync-content.mjs -- edit it there, not here.
-import type { Exercise, FillBlankExercise, Lesson, LessonSection, TranslateExercise } from "./types";
+import type { Lesson } from "./types";
+import { alts, applyLessonFixes, applySpokenFixes, choose, chooseSentence, drop, edit, fbIs, keepMeta, mc, mcIs, spIs, trIs, warmUp, type LessonFix } from "./unit-fixes";
 
 // A1 Unit 3 (Present-tense verbs): content fixes from Claude's audit in
 // Ricardo's format (ES-A1-U03_CL_2026-11-22). Content only: answer keys,
 // accepted answers, item types, wording, warm-ups, summaries and goals.
-// The answer checker is unchanged.
-//
-// Why so many items become choices: the checker forgives a one-letter slip
-// in a word that isn't a real Spanish word ("small typo"), and the mistakes
-// this unit teaches are exactly that kind of slip (escribemos, penso,
-// cerras, juga, repeto). A typed item can't catch them (nor can a spoken one:
-// the speech check is just as lenient), so every item whose point is that
-// letter is now a choice with the mistake as an option. Typed items stay where the ending itself is the test (the
-// checker never forgives a changed ending).
-//
-// Applied to the woven lessons, before they are split into parts.
-
-type Ex = Exercise;
-type Fix = { find: (e: Ex) => boolean; to: (e: Ex) => Ex | null };
-
-const fbIs = (sentence: string) => (e: Ex) => e.type === "fill-blank" && e.sentence === sentence;
-const trIs = (source: string) => (e: Ex) => e.type === "translate" && e.source === source;
-const spIs = (text: string) => (e: Ex) => e.type === "speak" && e.text === text;
-const mcIs = (start: string) => (e: Ex) => (e.type === "multiple-choice" || e.type === "multi-select") && e.question.startsWith(start);
-
-const keepMeta = (from: Ex, to: Ex): Ex => (from.meta ? { ...to, meta: from.meta } : to);
-
-/** A fill-in whose mistake the checker would forgive, as a choice with the mistake among the options (right one first; the player shuffles). */
-const choose = (sentence: string, wrong: string[], swap?: Partial<FillBlankExercise>): Fix => ({
-  find: fbIs(sentence),
-  to: (raw) => {
-    const e = { ...(raw as FillBlankExercise), ...swap };
-    const meaning = e.en ? ` (${e.en.replace(/[[\]]/g, "")})` : "";
-    const cue = e.en ? "Which word fills the blank?" : e.prompt;
-    return keepMeta(raw, {
-      type: "multiple-choice",
-      question: `${cue}\n"${e.sentence}"${meaning}`,
-      options: [e.answer, ...wrong],
-      correctIndex: 0,
-      explanation: e.explanation,
-    });
-  },
-});
-
-/** A typed sentence whose mistake the checker would forgive, as a choice. */
-const chooseSentence = (source: string, wrong: string[]): Fix => ({
-  find: trIs(source),
-  to: (raw) => {
-    const e = raw as TranslateExercise;
-    return keepMeta(raw, {
-      type: "multiple-choice",
-      question: `${e.prompt}\n"${e.source}"`,
-      options: [e.answer, ...wrong],
-      correctIndex: 0,
-      explanation: e.explanation,
-    });
-  },
-});
-
-const alts = (find: (e: Ex) => boolean, more: string[]): Fix => ({
-  find,
-  to: (e) => {
-    if (e.type !== "translate" && e.type !== "speak" && e.type !== "fill-blank" && e.type !== "dictation") return e;
-    const have = new Set([...(e.altAnswers ?? [])]);
-    return { ...e, altAnswers: [...have, ...more.filter((m) => !have.has(m))] } as Ex;
-  },
-});
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any -- the edits below reach into fields of one known item type
-const edit = (find: (e: Ex) => boolean, fn: (e: any) => Ex): Fix => ({ find, to: (e) => keepMeta(e, fn({ ...e })) });
-
-/** Removed to keep the lesson within 30 questions after its warm-up (it would otherwise be split into parts). */
-const drop = (find: (e: Ex) => boolean): Fix => ({ find, to: () => null });
-
-const mc = (question: string, options: string[], explanation: string): Ex => ({ type: "multiple-choice", question, options, correctIndex: 0, explanation });
-
-const warmUp = (heading: string, body: string, checkpoint: Ex[]): LessonSection => ({ heading, body: [body], checkpoint });
-
-type LessonFix = { goal?: string; title?: string; summary?: string; warmUp?: LessonSection; items?: Fix[] };
+// See unit-fixes.ts for why many items become choices. Applied to the
+// woven lessons before they are split into parts, and again after the
+// spoken questions are made.
 
 const FIXES: Record<string, LessonFix> = {
   // L01
@@ -272,60 +202,10 @@ const FIXES: Record<string, LessonFix> = {
   },
 };
 
-// Spoken items that open with a subject pronoun also accept the sentence
-// without it (Spanish drops it; the ending already says who).
-const PRONOUN = /^(Yo|Tú|Él|Ella|Usted|Nosotros|Nosotras|Ellos|Ellas|Ustedes) (?=[a-záéíóúñ])/;
-const dropPronoun: Fix = {
-  find: (e) => e.type === "speak" && PRONOUN.test(e.text),
-  to: (e) => {
-    if (e.type !== "speak") return e;
-    const bare = e.text.replace(PRONOUN, "");
-    const without = bare.charAt(0).toUpperCase() + bare.slice(1);
-    const have = e.altAnswers ?? [];
-    return have.includes(without) ? e : { ...e, altAnswers: [...have, without] };
-  },
-};
-
-function mapItems(l: Lesson, fixes: Fix[]): Lesson {
-  const run = (e: Ex): Ex | null => {
-    let out: Ex | null = e;
-    for (const f of fixes) if (out && f.find(out)) out = f.to(out);
-    return out;
-  };
-  const list = (xs: Ex[]) => xs.map(run).filter((x): x is Ex => x !== null);
-  return {
-    ...l,
-    sections: l.sections.map((s) => (s.checkpoint ? { ...s, checkpoint: list(s.checkpoint) } : s)),
-    exercises: list(l.exercises),
-  };
-}
-
-export const UNIT3_SLUGS = Object.keys(FIXES);
-
-/**
- * The same item fixes once more after the spoken questions are made
- * (speaking.ts turns some typed items into spoken ones), so generated
- * spoken items get their accepted answers too. Parts of a split lesson
- * use the whole lesson's fixes.
- */
-export function withUnit3SpokenFixes(lessons: Lesson[], keep: (from: Lesson, to: Lesson) => Lesson): Lesson[] {
-  return lessons.map((l) => {
-    const fix = FIXES[l.slug.replace(/-part-\d+$/, "")];
-    return fix ? keep(l, mapItems(l, [...(fix.items ?? []), dropPronoun])) : l;
-  });
-}
-
 export function withUnit3Fixes(lessons: Lesson[]): Lesson[] {
-  return lessons.map((l) => {
-    const fix = FIXES[l.slug];
-    if (!fix) return l;
-    let out = mapItems(l, [...(fix.items ?? []), dropPronoun]);
-    if (fix.warmUp) out = { ...out, sections: [fix.warmUp, ...out.sections] };
-    return {
-      ...out,
-      ...(fix.title ? { title: fix.title } : {}),
-      ...(fix.summary ? { summary: fix.summary } : {}),
-      ...(fix.goal ? { goal: fix.goal } : {}),
-    };
-  });
+  return applyLessonFixes(lessons, FIXES);
+}
+
+export function withUnit3SpokenFixes(lessons: Lesson[], keep: (from: Lesson, to: Lesson) => Lesson): Lesson[] {
+  return applySpokenFixes(lessons, FIXES, keep);
 }

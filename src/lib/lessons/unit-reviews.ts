@@ -15,6 +15,7 @@ import { pickUnitTestQuestions } from "./unitTest";
 import { A1_UNIT_WRITING } from "./unit-writing-a1";
 import { soundsUnitReview } from "./unit-review-sounds";
 import { verbsUnitReview } from "./unit-review-verbs";
+import { irregularsUnitReview } from "./unit-review-irregulars";
 import { A2_UNIT_WRITING } from "./unit-writing-a2";
 import { B1_UNIT_WRITING } from "./unit-writing-b1";
 import { B2_UNIT_WRITING } from "./unit-writing-b2";
@@ -660,6 +661,7 @@ const ES_UNIT_TITLES: Record<string, string> = {
 const HAND_REVIEWS: Record<string, (generated: Lesson) => Lesson> = {
   "sounds-vowels": soundsUnitReview,
   "present-tense-ar-verbs": verbsUnitReview,
+  "a1-irregulars-yo-go": irregularsUnitReview,
 };
 
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {

@@ -285,7 +285,7 @@ export const A1_UNIT_TASKS: UnitTask[] = [
     topics: {
       food: v(
         "A day at Rosa's restaurant",
-        "llega (arrives), clientes (customers), juntos (together)",
+        "cocineros (cooks), meseros (waiters), llega (arrives), clientes (customers), cenan (they have dinner), juntos (together)",
         ["En el restaurante hay diez mesas.", "Hay tres cocineros y dos meseros.", "Rosa llega a las ocho de la mañana.", "Cocina tacos y prepara ensaladas.", "Mateo habla con los clientes.", "Cenan juntos a las diez."],
         "In the restaurant there are ten tables. There are three cooks and two waiters. Rosa arrives at eight in the morning. She cooks tacos and makes salads. Mateo talks with the customers. They have dinner together at ten.",
         [
@@ -298,7 +298,7 @@ export const A1_UNIT_TASKS: UnitTask[] = [
       ),
       sports: v(
         "A day with Diego's team",
-        "jugadores (players), entrenadores (coaches), partido (game), descansan (they rest)",
+        "equipo (team), jugadores (players), entrenadores (coaches), entrena (trains), pelota (ball), partido (game), descansan (they rest)",
         ["En el equipo hay once jugadores.", "Hay dos entrenadores y un doctor.", "Diego llega a las nueve de la mañana.", "Entrena mucho y practica con la pelota.", "Carla mira el partido.", "Descansan juntos a las cinco."],
         "On the team there are eleven players. There are two coaches and a doctor. Diego arrives at nine in the morning. He trains a lot and practices with the ball. Carla watches the game. They rest together at five.",
         [
@@ -311,7 +311,7 @@ export const A1_UNIT_TASKS: UnitTask[] = [
       ),
       travel: v(
         "A day on Elena's tour",
-        "turistas (tourists), autobús (bus), regresan (they come back)",
+        "grupo (group), guías (guides), turistas (tourists), autobús (bus), explica (explains), toma fotos (takes photos), regresan (they come back)",
         ["En el grupo hay doce turistas.", "Hay dos guías y un autobús.", "Elena llega a las siete de la mañana.", "Habla inglés y explica la historia.", "Tomás toma muchas fotos.", "Regresan juntos a las seis."],
         "In the group there are twelve tourists. There are two guides and a bus. Elena arrives at seven in the morning. She speaks English and explains the history. Tomás takes a lot of photos. They come back together at six.",
         [
@@ -324,7 +324,7 @@ export const A1_UNIT_TASKS: UnitTask[] = [
       ),
       arts: v(
         "A day at Luna's music school",
-        "toca (plays), pinta (paints), terminan (they finish)",
+        "guitarras (guitars), toca (plays), pinta (paints), otra (another), terminan (they finish)",
         ["En la escuela hay quince estudiantes.", "Hay cuatro guitarras y dos pianos.", "Luna llega a las tres de la tarde.", "Canta y toca la guitarra.", "Andrés pinta en otra clase.", "Terminan juntos a las seis."],
         "At the school there are fifteen students. There are four guitars and two pianos. Luna arrives at three in the afternoon. She sings and plays the guitar. Andrés paints in another class. They finish together at six.",
         [
@@ -337,7 +337,7 @@ export const A1_UNIT_TASKS: UnitTask[] = [
       ),
       work: v(
         "A day at Marta's office",
-        "empleados (employees), salas (rooms), clientes (customers), terminan (they finish)",
+        "empleados (employees), salas (rooms), clientes (customers), prepara (makes), terminan (they finish)",
         ["En la oficina hay veinte empleados.", "Hay cinco salas y una cocina.", "Marta llega a las nueve de la mañana.", "Trabaja mucho y habla con los clientes.", "Luis prepara el café.", "Terminan juntos a las seis."],
         "In the office there are twenty employees. There are five rooms and a kitchen. Marta arrives at nine in the morning. She works a lot and talks with the customers. Luis makes the coffee. They finish together at six.",
         [
@@ -350,7 +350,7 @@ export const A1_UNIT_TASKS: UnitTask[] = [
       ),
       "daily-life": v(
         "A day at Ana's house",
-        "cuartos (bedrooms), jardín (yard), desayuna (has breakfast), limpia (cleans)",
+        "cuartos (bedrooms), jardín (yard), desayuna (has breakfast), limpia (cleans), cenan (they have dinner), juntas (together)",
         ["En la casa hay cuatro personas.", "Hay tres cuartos y un jardín.", "Ana desayuna a las siete de la mañana.", "Estudia en casa y limpia la cocina.", "Sofía trabaja en el hospital.", "Cenan juntas a las ocho."],
         "In the house there are four people. There are three bedrooms and a yard. Ana has breakfast at seven in the morning. She studies at home and cleans the kitchen. Sofía works at the hospital. They have dinner together at eight.",
         [

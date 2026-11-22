@@ -9,6 +9,7 @@ import { GAP_RECUTS } from "./recuts-gaps";
 import { A1_UNIT1_PATCHES } from "./a1-unit1";
 import { A1_UNIT2_PATCHES } from "./a1-unit2";
 import { A1_UNIT3_PATCHES } from "./a1-unit3";
+import { A1_UNIT4_PATCHES } from "./a1-unit4";
 
 /** Two patches for one lesson, the second one winning (sections merged one by one). */
 function mergePatch(a: LessonPatch | undefined, b: LessonPatch): LessonPatch {
@@ -20,7 +21,7 @@ function mergePatch(a: LessonPatch | undefined, b: LessonPatch): LessonPatch {
 const mergeAll = (base: Record<string, LessonPatch>, more: Record<string, LessonPatch>) =>
   Object.fromEntries([...new Set([...Object.keys(base), ...Object.keys(more)])].map((k) => [k, more[k] ? mergePatch(base[k], more[k]) : base[k]]));
 
-export const ES_PATCHES: Record<string, LessonPatch> = mergeAll(mergeAll(mergeAll({ ...A1_PATCHES, ...MISC_PATCHES }, A1_UNIT1_PATCHES), A1_UNIT2_PATCHES), A1_UNIT3_PATCHES);
+export const ES_PATCHES: Record<string, LessonPatch> = mergeAll(mergeAll(mergeAll(mergeAll({ ...A1_PATCHES, ...MISC_PATCHES }, A1_UNIT1_PATCHES), A1_UNIT2_PATCHES), A1_UNIT3_PATCHES), A1_UNIT4_PATCHES);
 export const ES_RECUTS: Recut[] = [...A1_RECUTS, ...GAP_RECUTS];
 export { applyPatch, checkPatch } from "./patch";
 export { buildRecut } from "./recut";

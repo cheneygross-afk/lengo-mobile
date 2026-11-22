@@ -102,6 +102,32 @@ const A1_U3: Exercise[] = [
   say("Say it in Spanish: \"The school is far away.\"", "La escuela está lejos.", [], "Where a place is takes estar, even a building that never moves: está lejos."),
 ];
 
+const A1_U4: Exercise[] = [
+  // Listening and reading: recognise.
+  { type: "listen-choose", audio: "Son las ocho menos cuarto.", question: "Listen. What time is it?", options: ["7:45", "8:15", "8:45", "4:08"], correctIndex: 0, explanation: "Ocho menos cuarto counts a quarter back from eight: 7:45. 8:15 would be las ocho y cuarto." },
+  { type: "listen-choose", audio: "Hay quinientas personas en el concierto.", question: "Listen. How many people are at the concert?", options: ["500", "50", "5,000", "105"], correctIndex: 0, explanation: "Quinientas is 500, the irregular hundred, in the feminine to agree with personas. 50 is cincuenta." },
+  { type: "listen-choose", audio: "Mi cumpleaños es el primero de julio.", question: "Listen. When is the birthday?", options: ["July 1", "June 1", "July 4", "January 7"], correctIndex: 0, explanation: "El primero de julio is July 1: the day comes first, then de + the month. Junio is June." },
+  { type: "multiple-choice", question: "\"There are two banks on my street.\"", options: ["Hay dos bancos en mi calle.", "Están dos bancos en mi calle.", "Son dos bancos en mi calle.", "Hay los bancos en mi calle."], correctIndex: 0, explanation: "A number brings in new things, so hay, and hay never changes for the plural.", optionNotes: ["", "Están says where known things are; dos bancos is new.", "Son says what things are, not that they exist.", "Hay never takes el, la, los or las."] },
+  { type: "multiple-choice", question: "Which one means \"my friends and I cook\"?", options: ["Mis amigos y yo cocinamos.", "Mis amigos y yo cocinan.", "Mis amigos y yo cocino.", "Mis amigos y yo cocinas."], correctIndex: 0, explanation: "A group that includes yo is nosotros, so -amos: cocinamos.", optionNotes: ["", "Cocinan leaves you out: that's ellos.", "Cocino is only yo; the group is nosotros.", "Cocinas is the tú form."] },
+  { type: "multiple-choice", question: "\"The class is at one in the afternoon.\"", options: ["La clase es a la una de la tarde.", "La clase es a las una de la tarde.", "La clase es la una de la tarde.", "La clase es a la una en la tarde."], correctIndex: 0, explanation: "When something happens takes a, one o'clock is singular (a la una), and the part of the day takes de.", optionNotes: ["", "One o'clock takes la, not las.", "When something happens needs a: a la una.", "After a clock time, use de la tarde."] },
+  // Guided: write what you hear, complete, put in order, correct.
+  { type: "dictation", audio: "Hoy es el quince de marzo.", explanation: "Hoy es el quince de marzo: \"Today is March fifteenth.\" A plain number for the day, de, and the month in lowercase." },
+  { type: "dictation", audio: "Hay veintiún libros en la mesa.", explanation: "Hay veintiún libros en la mesa: \"There are twenty-one books on the table.\" Veintiuno shortens to veintiún, with an accent, before a masculine noun." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Tú ___ inglés y francés.", en: "You [speak] English and French. (tú)", answer: "hablas", explanation: "Tú always takes -as with -ar verbs: habl- + -as = hablas." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "La chaqueta cuesta ___ pesos.", en: "The jacket costs [one hundred and twenty] pesos.", answer: "ciento veinte", explanation: "With a number after it, cien becomes ciento, and no y follows the hundreds: ciento veinte." },
+  { type: "word-order", prompt: "Put the words in order.", words: ["Los", "sábados", "mi", "padre", "cocina", "la", "cena"], translation: "On Saturdays my father cooks dinner", explanation: "Los sábados means every Saturday, with no word for \"on\". Mi padre = él, so cocina." },
+  { type: "translate", prompt: "Correct the sentence.", direction: "en-es", source: "Hay el supermercado al lado del banco.", answer: "El supermercado está al lado del banco.", altAnswers: ["Hay un supermercado al lado del banco."], explanation: "Hay never takes el. A known place takes estar (el supermercado está...), or bring in a new one with un (hay un supermercado...)." },
+  { type: "translate", prompt: "Correct the sentence.", direction: "en-es", source: "Ustedes trabaja mucho.", answer: "Ustedes trabajan mucho.", explanation: "Ustedes takes the ellos ending, -an: trabajan." },
+  // On your own: translate and speak.
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "It's 3:30 and the train arrives at four.", answer: "Son las tres y media y el tren llega a las cuatro.", altAnswers: ["Son las tres y treinta y el tren llega a las cuatro."], explanation: "The time now: son las tres y media. When something happens: a las cuatro. Llegar → llega for el tren." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "My grandmother is ninety-one years old.", answer: "Mi abuela tiene noventa y un años.", altAnswers: ["Mi abuela tiene 91 años."], explanation: "Age takes tiene + años. Años is masculine, so noventa y uno shortens to noventa y un." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "On Mondays we study at the library.", answer: "Los lunes estudiamos en la biblioteca.", altAnswers: ["Estudiamos en la biblioteca los lunes.", "Los lunes nosotros estudiamos en la biblioteca.", "Los lunes nosotras estudiamos en la biblioteca."], explanation: "Every Monday is los lunes, with no word for \"on\". Nosotros → estudiamos." },
+  say("Say it in Spanish: \"Is there a pharmacy near here?\"", "¿Hay una farmacia cerca de aquí?", ["¿Hay una farmacia cerca?", "¿Hay una farmacia por aquí?"], "Asking whether one exists takes hay + una. The question is the same sentence with question marks."),
+  say("Say it in Spanish: \"What time is it? It's a quarter past ten.\"", "¿Qué hora es? Son las diez y cuarto.", ["¿Qué hora es? Son las diez y quince."], "¿Qué hora es? never changes. Ten is plural (son las), and quarter past is y cuarto."),
+  say("Say it in Spanish: \"My birthday is in October.\"", "Mi cumpleaños es en octubre.", [], "A month on its own takes en, written in lowercase: en octubre."),
+  say("Say it in Spanish: \"I work in an office and my sister studies at the university.\"", "Trabajo en una oficina y mi hermana estudia en la universidad.", ["Yo trabajo en una oficina y mi hermana estudia en la universidad."], "Each verb takes its own subject's ending: trabajo (yo, -o), estudia (mi hermana, -a)."),
+];
+
 const check = (slug: string, level: Level, title: string, summary: string, body: string, exercises: Exercise[]): Lesson => ({
   slug,
   level,
@@ -139,5 +165,13 @@ export const ES_UNIT_CHECKS: Record<string, Lesson> = {
     "Twenty new questions on the whole unit: ser for who, what and whose, estar for where and how, events, and the words that change meaning.",
     "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
     A1_U3,
+  ),
+  "a1/4": check(
+    "es-a1-unit-4-unit-review",
+    "A1",
+    "Unit 4 check: There is, there are · Numbers, prices, time and dates · Regular -ar verbs now",
+    "Twenty new questions on the whole unit: hay or está, numbers and prices, the time, days and dates, and regular -ar verbs.",
+    "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
+    A1_U4,
   ),
 };
