@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "d02dccc4c537111680b3a30ecad616f3e2bd35c3",
+  "commit": "6f7ab83ec587f328962acc4f5fde4a6cfc7eb524",
   "files": {
     "src/lib/lessons/a1-additions.ts": "aa502ae0a7915653459334e5d1f3c7d665a105d15ae77a380e8e87f266cbd43d",
     "src/lib/lessons/a1-core.ts": "09d9c01a671d34fdb43c8512649527f14a5959a39277a333dbd37a0249076cd0",
@@ -2022,7 +2022,7 @@
     "src/lib/lessons/skills-dictation.ts": "d99b65a7794142d220ff005aaf8837fc78eeac4c8738853cd02d6d7defb03491",
     "src/lib/lessons/skills-samples.ts": "68728a22a3b6686e94ddecc9e5fdffd0031e7c326aaf6d0749ad750151e046fa",
     "src/lib/lessons/skills.ts": "fb4ef61f4b9c8c646a9f57a5d470578be5e4700572dee1f2c42f67eb81707780",
-    "src/lib/lessons/sounds-of-spanish.ts": "a12482488318e567533304f8a6481e90d60b883e1129f5ab1bcfa09bc45cd4ce",
+    "src/lib/lessons/sounds-of-spanish.ts": "9863395e9856c767d441ad67e2e18688e7e2d7024e16a11894b7a56b0bfbb806",
     "src/lib/lessons/speaking.ts": "a227a8cb22881433dc5c56e3f0310df645456c2eb69fa02cc9d75de040066626",
     "src/lib/lessons/survival-a2.ts": "9e689c5d0d149409bc76eb2825f128a534e36be9af1e9cf0481fc01ba78bffab",
     "src/lib/lessons/survival-b1.ts": "3b534548b4eae6fcfa3028acb29f3ceb68d49efb2447826973978b8195d4d3ee",

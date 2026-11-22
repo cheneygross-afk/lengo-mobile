@@ -561,7 +561,7 @@ const LESSONS: AnchoredLesson[] = [
       },
       sayIt("Tres tristes tigres.", "Three sad tigers.", "A tongue twister with taps: tr puts your tongue right where the trill starts too. Go slowly first.", "Tres tristes tigres -- \"three sad tigers\", the start of a famous tongue twister."),
       sayIt("Enrique es de Puerto Rico.", "Enrique is from Puerto Rico.", "After n the r is trilled (Enrique); Puerto has a tap; Rico is trilled.", "Enrique es de Puerto Rico -- \"Enrique is from Puerto Rico.\""),
-      sayIt("Es caro, pero me gusta.", "It's expensive, but I like it.", "Tap in caro, tap in pero -- no trills here at all.", "Es caro, pero me gusta -- \"It's expensive, but I like it.\""),
+      sayIt("Es caro, pero es muy bonito.", "It's expensive, but it's very pretty.", "Tap in caro, tap in pero -- no trills here at all.", "Es caro, pero es muy bonito -- \"It's expensive, but it's very pretty.\""),
       mc("Which word means \"expensive\"?", ["caro", "carro"], 0, "Caro (one r, a tap) = expensive; carro (rr, a trill) = car. Between vowels, one letter changes the word."),
       mc(
         "Why is the r in Enrique trilled?",
@@ -939,6 +939,12 @@ const LESSONS: AnchoredLesson[] = [
     "Lápices, queso, guitarra, pingüino: why z turns into c, when the u is silent, when it's heard, and how Spanish spells the k and hard g sounds.",
     "10 min",
     [
+      warmUp([
+        lc("Vivo en una casa grande.", "Listen. Where does the person live?", ["In a big house (casa)", "In a big hunt (caza)"], 0, "Casa and caza sound the same with seseo; only \"house\" fits. (Lesson 6.)"),
+        lc("yo", "Listen. How does the y sound?", ["Like the y in \"yes\"", "Like the vowel i, \"ee\""], 0, "Before a vowel, y is the y of \"yes\". (Lesson 6.)"),
+        spell("hola", ["hola", "jola"], "H is silent but always written; j would be the breathy back sound. (Lesson 5.)"),
+        lc("Las chicas son simpáticas.", "Listen. Who is nice?", ["The girls", "The girl", "The boys"], 0, "Las chicas son: plural and feminine. (Unit 1.)"),
+      ]),
       sec(
         "Why z turns into c",
         [
@@ -1036,8 +1042,6 @@ const LESSONS: AnchoredLesson[] = [
       lc("pingüino", "Listen. How is the word spelled?", ["pingüino", "pinguino", "pingino"], 0, "You hear \"gwi\", so the u needs dots: pingüino. Without them, pinguino would be \"pin-gi-no\", and pingino would sound like \"pin-hi-no\"."),
       lc("queso", "Listen. How is the word spelled?", ["queso", "keso", "cueso"], 0, "\"Ke\" is written que: queso. K is only used in a few borrowed words, and cueso would be \"kwe-so\"."),
       lc("Miguel", "Listen. How is the name spelled?", ["Miguel", "Migel", "Migüel"], 0, "Miguel: hard g before e needs gu, u silent. Migel would sound like \"mi-hel\", and Migüel would add a \"w\"."),
-      lc("aquí", "Listen. How is the word spelled?", ["aquí", "akí", "ací"], 0, "\"Ki\" is written qui: aquí, \"here\". Akí isn't Spanish spelling, and ací would sound like \"a-si\"."),
-      dict("queso", "Queso (cheese): qu before e, silent u."),
       spell("la guerra", ["la guerra", "la gerra", "la güerra"], "Guerra (war): gu before e keeps the g hard, and the u is silent. Ge would sound like \"he\", and güe would add a \"w\"."),
       spell("bilingüe", ["bilingüe", "bilingue", "bilinge"], "Bilingüe (bilingual): you hear the u (\"bi-lin-gwe\"), so it needs the two dots."),
       dict("¿Quién quiere queso?", "¿Quién quiere queso? -- \"Who wants cheese?\" Three qu's, three silent u's. Quién has an accent because it's a question word."),
@@ -1046,22 +1050,10 @@ const LESSONS: AnchoredLesson[] = [
       sayIt("El pingüino es bilingüe.", "The penguin is bilingual.", "Here the dots mean you say the u: \"pin-gwi-no\", \"bi-lin-gwe\".", "El pingüino es bilingüe -- \"The penguin is bilingual.\""),
       { ...sayIt("Aquí hay quince cosas.", "There are fifteen things here.", "Aquí and quince both have the silent u of qu.", "Aquí hay quince cosas -- \"There are fifteen things here.\""), altAnswers: ["Hay quince cosas aquí."] },
       mc(
-        "How is guerra pronounced?",
-        ["ge-rra: the u is silent", "gwe-rra", "je-rra", "gu-e-rra"],
-        0,
-        "No dots means a silent u; it only keeps the g hard. With gue the g sounds like the g of \"get\", never like j."
-      ),
-      mc(
         "Química (chemistry) starts with a k sound before i. How is it spelled?",
         ["química", "kímica", "címica", "cuímica"],
         0,
         "Ki is written qui: química. K is only for a few borrowed words, ci would sound like \"si\", and cui would say \"kwi\"."
-      ),
-      ms(
-        "Which spellings are correct?",
-        ["quiero", "kiero", "guerra", "gerra", "cigüeña"],
-        [0, 2, 4],
-        "Ke/ki is written que/qui (quiero), hard ge/gi is written gue/gui (guerra), and ü marks a u you hear (cigüeña). Kiero uses k, and gerra would sound like \"he-rra\"."
       ),
       spell("los lápices", ["los lápices", "los lápizes", "los lápises"], "Lápiz adds -es, and because ce already makes the s sound, the z is written c: lápices. Same sound, other letter."),
       fixSpelling("Tengo dos lápizes.", "Tengo dos lápices.", "Same sound, but z isn't written before e: lápiz → lápices."),
@@ -1077,8 +1069,7 @@ const LESSONS: AnchoredLesson[] = [
         0,
         "Before i, g would sound like j, so the hard g is written gu: amiguito, with a silent u. Amigito would say \"a-mi-hi-to\", and ü would add a \"w\"."
       ),
-
-      fixSpelling("Me gusta el keso.", "Me gusta el queso.", "Ke is written que in Spanish: queso. The u is silent."),
+      fixSpelling("El keso es rico.", "El queso es rico.", "Ke is written que in Spanish: queso. The u is silent."),
       fixSpelling("El pinguino es negro y blanco.", "El pingüino es negro y blanco.", "You hear the u (\"pin-gwi-no\"), so it needs the dots: pingüino. Without them it would say \"pin-gi-no\"."),
       fixSpelling("Mi amigo toca la gitarra.", "Mi amigo toca la guitarra.", "Hard g before i is written gui. Gi would sound like \"hi\"."),
       spell("¿Quién es Miguel?", ["¿Quién es Miguel?", "¿Quién es Migel?", "¿Kién es Miguel?"], "Quién: k sound before ie, written qu. Miguel: hard g before e, written gu. Both u's are silent."),
