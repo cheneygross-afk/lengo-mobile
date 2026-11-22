@@ -19,6 +19,7 @@ import { irregularsUnitReview } from "./unit-review-irregulars";
 import { serEstarUnitReview } from "./unit-review-ser-estar";
 import { possessivesTimeUnitReview } from "./unit-review-possessives-time";
 import { datesQuestionsUnitReview } from "./unit-review-dates-questions";
+import { gustarVerbsUnitReview } from "./unit-review-gustar-verbs";
 import { A2_UNIT_WRITING } from "./unit-writing-a2";
 import { B1_UNIT_WRITING } from "./unit-writing-b1";
 import { B2_UNIT_WRITING } from "./unit-writing-b2";
@@ -668,6 +669,7 @@ const HAND_REVIEWS: Record<string, (generated: Lesson) => Lesson> = {
   "a1r-word-web-jobs": serEstarUnitReview,
   "possessives-prepositions": possessivesTimeUnitReview,
   "days-months-dates": datesQuestionsUnitReview,
+  "gustar-1": gustarVerbsUnitReview,
 };
 
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
