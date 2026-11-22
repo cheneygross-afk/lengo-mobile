@@ -239,7 +239,11 @@ function finish(l: Lesson): Lesson {
  * runs past 8 cards (split.ts), each part grown back to 5 cards if the cut
  * left it short and given the concept's table if the cut took it away. */
 export function redesignParts(l: Lesson, patch: LessonPatch | undefined, concept?: string | null, place: LessonPlace = {}): Lesson[] {
-  const parts = splitLesson(redesignLesson(l, patch, concept, place));
+  const own = (part: Lesson, i: number): Lesson => {
+    const o = patch?.parts?.[i];
+    return o ? { ...part, summary: o.summary ?? part.summary, goal: o.goal ?? part.goal } : part;
+  };
+  const parts = splitLesson(redesignLesson(l, patch, concept, place)).map(own);
   if (parts.length < 2) return parts.map(finish);
   const table = concept ? (CONCEPT_TABLES[concept] ?? [])[0] : undefined;
   return parts.map((part) => {

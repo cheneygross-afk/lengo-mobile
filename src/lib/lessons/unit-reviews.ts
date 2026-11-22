@@ -14,6 +14,7 @@ import { UNIT_DEFS } from "./unit-defs";
 import { pickUnitTestQuestions } from "./unitTest";
 import { A1_UNIT_WRITING } from "./unit-writing-a1";
 import { soundsUnitReview } from "./unit-review-sounds";
+import { verbsUnitReview } from "./unit-review-verbs";
 import { A2_UNIT_WRITING } from "./unit-writing-a2";
 import { B1_UNIT_WRITING } from "./unit-writing-b1";
 import { B2_UNIT_WRITING } from "./unit-writing-b2";
@@ -293,7 +294,7 @@ export const EN_COPY: Copy = {
   readExpl: (s) => `"${quoted(s.es)}"${s.en ? ` ("${quoted(s.en)}")` : ""}. Play the model again and copy its rhythm.`,
   respondPrompt: (en) => `Say it in Spanish: "${en}"`,
   respondOnly: true,
-  respondExpl: (s) => `One way to say it: "${quoted(s.es)}". Another correct way counts too: check the meaning first, then the sound.`,
+  respondExpl: (s) => `One way to say it: "${quoted(s.es)}". Said it another correct way? Tap \"I said it right\".`,
 };
 
 /** Unit-specific summaries (Spanish) for units where the generic line says too little. */
@@ -658,6 +659,7 @@ const ES_UNIT_TITLES: Record<string, string> = {
 // Units whose review is written by hand, keyed by the unit's first lesson.
 const HAND_REVIEWS: Record<string, (generated: Lesson) => Lesson> = {
   "sounds-vowels": soundsUnitReview,
+  "present-tense-ar-verbs": verbsUnitReview,
 };
 
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {

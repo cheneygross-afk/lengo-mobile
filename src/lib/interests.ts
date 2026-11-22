@@ -14,7 +14,12 @@
  * there is nothing for the answers to change yet. */
 export const INTEREST_SURVEY_LIVE = false;
 
-export const INTEREST_TOPICS = ["food", "sports", "travel", "arts", "work", "daily-life"] as const;
+/** The first six topics: every unit has a reading for each of these. */
+export const CORE_TOPICS = ["food", "sports", "travel", "arts", "work", "daily-life"] as const;
+export type CoreTopic = (typeof CORE_TOPICS)[number];
+/** Every topic a learner can pick. A unit may not have a reading yet for
+ * one of the newer six; pickVersion then moves to the learner's next topic. */
+export const INTEREST_TOPICS = [...CORE_TOPICS, "history", "science", "tech", "health", "festivals", "animals"] as const;
 export type InterestTopic = (typeof INTEREST_TOPICS)[number];
 
 export const TOPIC_LABELS: Record<InterestTopic, string> = {
@@ -22,10 +27,16 @@ export const TOPIC_LABELS: Record<InterestTopic, string> = {
   sports: "Sports & fitness",
   travel: "Travel & places",
   arts: "Music, film & art",
-  work: "Work, business & tech",
+  work: "Work & business",
   "daily-life": "Family, friends & daily life",
+  history: "History",
+  science: "Science & nature",
+  tech: "Tech & gaming",
+  health: "Health & wellbeing",
+  festivals: "Festivals & traditions",
+  animals: "Animals & pets",
 };
-export const TOPIC_EMOJI: Record<InterestTopic, string> = { food: "🍳", sports: "⚽", travel: "✈️", arts: "🎬", work: "💼", "daily-life": "🏡" };
+export const TOPIC_EMOJI: Record<InterestTopic, string> = { food: "🍳", sports: "⚽", travel: "✈️", arts: "🎬", work: "💼", "daily-life": "🏡", history: "🏛️", science: "🔬", tech: "🎮", health: "🧘", festivals: "🎉", animals: "🐾" };
 
 export const LEARNING_REASONS = ["travel", "work", "family", "school", "heritage", "fun"] as const;
 export type LearningReason = (typeof LEARNING_REASONS)[number];

@@ -1,5 +1,5 @@
 // Synced from cheneygross-afk/lengo:src/lib/lessons/videoInterests.ts by scripts/sync-content.mjs -- edit it there, not here.
-// Which of the six interest topics (interests.ts) each linked video is
+// Which of the interest topics (interests.ts) each linked video is
 // about, so a learner's videos can lead with what they are into. Only
 // videos whose title is clearly about a topic are tagged; the rest stay
 // where they are. Used by the level watch list and, in the redesign
@@ -40,6 +40,24 @@ const BY_TOPIC: Record<InterestTopic, string[]> = {
     "ybfyLfI5Ml0", "hC-zjqsDYcE", "xyVZDmzt6HY", "LDjkk6fWTQ8", "eWEHnBjI6Gc", "WCoBT1x1abk", "mECAxJYzj0Y", "AAs42Kh-m5g",
     "vBBX139AClA", "relDmMP55wM", "SDcJPk62qG0", "tdp_dz24bWc", "92PMSjsf3Ss", "x95lZUdAdCc", "FD3cN1rUOYo", "jrRJQBB4oKs",
   ],
+  history: [
+    "APzZ2qBAbxU", "imbFYo4Tl3o", "nVAP0GYxAs4", "M4CdEs1w6S4", "YqdB_7C7oMk", "C_Yj822xE-o", "kvJEn1JsB4c", "YBE5WPt9JBg",
+    "HluqO7sbe2c", "s_3qdy9S5Ks", "MxKwIcQMGWw", "TKPR5GFF4qQ", "7-liwRPKbbg", "iHew_Vgtw5Q", "Fr5zTsLiCkI", "KD1_rWvZnzg", "Fy15p9swnV4",
+  ],
+  science: [
+    "3_9sn6AERDM", "kI3PuL07a5Q", "jIkLe1fX1WA", "_g32ammZzRI", "pXHZC5kIAss", "W6Jex5PJrKo", "x0wLs3fz2_U", "M2ERw9vCBwI",
+    "jpeNrCCm4ZU", "KD1_rWvZnzg", "Fr5zTsLiCkI",
+  ],
+  tech: ["IpD2dWWU2XM", "69GMzS27FH4", "nOYnyu97lR4", "RWo2MYVUPzM", "wM6cvUcnvTk", "JXs0wpiaaTw", "WCoBT1x1abk", "4LR0WiVtBx4", "jrbaw0aYmrc"],
+  health: [
+    "pWtxyAWRLiI", "kvBrWssATAc", "UPHmXouXHdM", "vze5FzNpPsQ", "0rMUfn7BA8Y", "hC-zjqsDYcE", "3LrZQjEcneI", "E1R1P_NyvF8",
+    "I5IuM5kXXW0", "qeVONnXobOY", "mECAxJYzj0Y",
+  ],
+  festivals: [
+    "relDmMP55wM", "iUdr4TKO65E", "Iup1-H1ryes", "S9WahQFFAw4", "N0v2qauFV6s", "KvSxhLryGP0", "xWagYlGeRp0", "e193zgEqmCU",
+    "0kk2H2TxEDY", "LTXWPfNhXzI",
+  ],
+  animals: ["aelWcJxodNw", "kI3PuL07a5Q", "kULTE5Mrw2I", "pXHZC5kIAss"],
 };
 
 /** videoId -> the interest topics it is about. */

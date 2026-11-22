@@ -5,6 +5,7 @@
 // sections and questions of existing lessons. Only "Saying no" needed new
 // teaching and questions, because the old course never taught it directly.
 import type { Recut } from "./recut";
+import { A1_UNIT3_PATCHES } from "./a1-unit3";
 
 export const GAP_RECUTS: Recut[] = [
   {
@@ -18,6 +19,8 @@ export const GAP_RECUTS: Recut[] = [
       { lesson: "review-pronouns-ser-gender-articles", exercises: [4, 12, 15, 16, 17, 18, 20, 21, 22, 25] },
     ],
     patch: {
+      // Fixes from Claude's Unit 3 audit (a1-unit3.ts): a recut takes no other patch.
+      ...A1_UNIT3_PATCHES["es-ser-who-you-are"],
       goal: "say who someone is, what they do, where they're from and what they're like.",
       sections: {
         0: { reteach: "Ser changes with the person: soy, eres, es, somos, son. The form already says who, so the pronoun is usually dropped: Soy de Chile." },
@@ -37,6 +40,7 @@ export const GAP_RECUTS: Recut[] = [
       { lesson: "a1r-mission-around-town", exercises: [8, 17, 21, 22] },
     ],
     patch: {
+      ...A1_UNIT3_PATCHES["es-estar-how-and-where"],
       goal: "say how you feel right now and where a person or place is.",
       sections: {
         0: { reteach: "Estar says how or where something is right now: feelings, conditions and location. Estoy, estás, está, estamos, están." },
