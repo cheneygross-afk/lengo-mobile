@@ -114,23 +114,6 @@ export const SOUNDS_OF_SPANISH: AnchoredLesson[] = [
         ]
       ),
     ],
-        [
-          ["casa", "house -- ca-sa"],
-          ["mesa", "table -- me-sa"],
-          ["pala", "shovel -- pa-la"],
-          ["ventana", "window -- ven-ta-na"],
-          ["zapato", "shoe -- za-pa-to"],
-        ],
-        [
-          mc(
-            "Ventana (window) is a new word. How does it split into syllables?",
-            ["ven-ta-na", "ve-nta-na", "vent-a-na", "ven-tan-a"],
-            0,
-            "Most syllables are a consonant plus a vowel, and two consonants side by side split up: n goes with ven, t starts ta. So: ven-ta-na, three syllables, one vowel each."
-          ),
-        ]
-      ),
-    ],
     [
       lc(
         "piso",
