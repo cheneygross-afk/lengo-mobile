@@ -971,31 +971,6 @@ const LESSONS: AnchoredLesson[] = [
         ]
       ),
       sec(
-        "Why z turns into c",
-        [
-          "Spelling follows from the sound: ce and ci already make the s sound, so z is normally written only before a, o and u. That's why lápiz becomes lápices and vez becomes veces.",
-        ],
-        [
-          ["gracias", "thank you -- \"gra-sias\""],
-          ["la cena", "dinner -- \"se-na\""],
-          ["el lápiz, los lápices", "the pencil, the pencils -- z before e becomes c"],
-        ],
-        [
-          mc(
-            "Which of these new words has an s sound, though it's not written with s?",
-            ["zorro (fox)", "cama (bed)", "coche (car)", "cuna (cradle)"],
-            0,
-            "Z always sounds like s, so zorro is \"so-rro\". C before a, o or u is a k: cama, coche, cuna."
-          ),
-          mc(
-            "Un pez (a fish), dos... Which plural is spelled right?",
-            ["peces", "pezes", "pesez"],
-            0,
-            "Plural -es puts an e after the z, and z isn't written before e: ce already makes the sound. Same sound, so pez becomes peces, like lápiz, lápices."
-          ),
-        ]
-      ),
-      sec(
         "The k sound: ca, que, qui, co, cu",
         [
           "Before e and i, c changes sound (cena, cine), so Spanish needs another way to write \"ke\" and \"ki\": que and qui. The u is silent -- it's only a spelling signal.",
