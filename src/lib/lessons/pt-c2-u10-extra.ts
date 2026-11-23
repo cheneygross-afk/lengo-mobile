@@ -9,7 +9,7 @@ export const PT_C2_U10_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Extra Practice: Mastery Review, Part 1 of 2",
-    summary: "Mixed C2 practice of precision and style: agreement, regência, spelling pairs, figures of speech, avoiding pleonasm, and rhetorical devices.",
+    summary: "Mixed Mastery practice of precision and style: agreement, regência, spelling pairs, figures of speech, avoiding pleonasm, and rhetorical devices.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -172,7 +172,7 @@ export const PT_C2_U10_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Extra Practice: Mastery Review, Part 2 of 2",
-    summary: "Mixed C2 practice of culture and mediation: proverbs, idioms, humor, false friends, localization, specialist registers in plain language and sociolinguistic awareness.",
+    summary: "Mixed Mastery practice of culture and mediation: proverbs, idioms, humor, false friends, localization, specialist registers in plain language and sociolinguistic awareness.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -344,7 +344,7 @@ export const PT_C2_U10_EXTRA: Lesson[] = [
         heading: "Up the ladder: pull every lever at once",
         body: [
           "Going up, the levers move together. \"A gente\" becomes \"nós\" or the impersonal \"se\"; \"tem\" becomes \"há\"; \"tá\" and \"pra\" become \"está\" and \"para\"; \"me disseram\" becomes \"fomos informados\"; \"pedir\" becomes \"solicitar\" and \"acabar\" becomes \"encerrar\". Object pronouns follow the norm (\"eu o vi\"), \"ir no\" becomes \"ir ao\", and impersonal \"haver\" stays singular.",
-          "The strongest lever is nominalization: \"porque cortaram o dinheiro\" becomes \"em decorrência do corte orçamentário\". Use it, but stop at two links of \"de\". The C2 slip is sliding between rungs inside one text: \"Prezados moradores, a gente vem informar\" starts formal and falls in the next breath.",
+          "The strongest lever is nominalization: \"porque cortaram o dinheiro\" becomes \"em decorrência do corte orçamentário\". Use it, but stop at two links of \"de\". The Mastery slip is sliding between rungs inside one text: \"Prezados moradores, a gente vem informar\" starts formal and falls in the next breath.",
         ],
         examples: [
           { es: "A gente vai fazer um abaixo-assinado.", en: "We're going to do a petition. (colloquial)" },
@@ -606,7 +606,7 @@ export const PT_C2_U10_EXTRA: Lesson[] = [
         heading: "Switching rungs out loud",
         body: [
           "Speech moves between rungs faster than writing. The same speaker says \"a gente\", \"tá\" and \"pra\" in a voice note, then \"nós\" and full forms in a presentation, and keeps \"você\" for the TV viewer while calling the guest \"o senhor\". The slip to avoid is switching treatment halfway: after \"a senhora\", say \"concordo com a senhora\", not \"com você\".",
-          "Listen for the cues that place a recording: \"cara\", \"né\" and a topic up front mark a chat; \"prezados\", \"informamos\" and nouns in -ção mark a formal notice; \"em uma frase\" and \"se há um consenso nesta mesa, é que...\" mark a closing mediator. Speaking well at C2 means choosing the rung and holding it.",
+          "Listen for the cues that place a recording: \"cara\", \"né\" and a topic up front mark a chat; \"prezados\", \"informamos\" and nouns in -ção mark a formal notice; \"em uma frase\" and \"se há um consenso nesta mesa, é que...\" mark a closing mediator. Speaking well at the Mastery level means choosing the rung and holding it.",
         ],
         examples: [
           { es: "Cara, a reunião mudou pra quinta, tá?", en: "Dude, the meeting's moved to Thursday, OK? (voice note)" },

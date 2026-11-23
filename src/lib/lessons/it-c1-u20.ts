@@ -86,7 +86,7 @@ export const IT_C1_U20: Lesson[] = [
         body: [
           "Reminder: \"cerco una casa che ha il giardino\" (I'm looking for a specific house) vs \"che abbia il giardino\" (any house, if one exists); \"capisco che sei stanco\" (I realize) vs \"capisco che tu sia stanco\" (I sympathize); \"non dico che è vero\" vs \"non dico che sia vero\" (more doubtful). Independent subjunctive: \"Che sia già partito?\" (could he have left already?), \"Venga pure!\" (do come in!). \"Il fatto che\" + subjunctive.",
           "New contexts. Apartment hunting: \"Cerchiamo un appartamento che abbia almeno due bagni e che non costi più di mille euro.\" A colleague: \"Capisco che tu sia arrabbiato, ma il fatto che nessuno ti abbia avvisato non è colpa mia.\"",
-          "More pairs to keep apart: \"Ho l'impressione che sia tardi\" (an impression takes the subjunctive) vs \"Sono sicuro che è tardi\" (certainty takes the indicative); \"Spero che venga\" vs \"So che verrà\"; \"Prima che arrivi\" (always subjunctive) vs \"Dopo che è arrivato\" (\"dopo che\" takes the indicative). In speech many Italians use the indicative after \"penso che\"; in C1 writing, use the subjunctive.",
+          "More pairs to keep apart: \"Ho l'impressione che sia tardi\" (an impression takes the subjunctive) vs \"Sono sicuro che è tardi\" (certainty takes the indicative); \"Spero che venga\" vs \"So che verrà\"; \"Prima che arrivi\" (always subjunctive) vs \"Dopo che è arrivato\" (\"dopo che\" takes the indicative). In speech many Italians use the indicative after \"penso che\"; in Advanced writing, use the subjunctive.",
         ],
         examples: [
           { es: "Cerchiamo un appartamento che abbia almeno due bagni.", en: "We're looking for an apartment with at least two bathrooms." },
@@ -215,7 +215,7 @@ export const IT_C1_U20: Lesson[] = [
     level: "IT-C1",
     number: 4,
     title: "Spiral Review: Idioms",
-    summary: "Use C1 idioms and proverbs in new situations: money trouble, a sleepless night, a job interview, a betrayal and a hasty decision.",
+    summary: "Use Advanced idioms and proverbs in new situations: money trouble, a sleepless night, a job interview, a betrayal and a hasty decision.",
     duration: "20 min",
     sections: [
       {
@@ -283,7 +283,7 @@ export const IT_C1_U20: Lesson[] = [
           { left: "alzare il gomito", right: "to drink too much" },
           { left: "passare la notte in bianco", right: "not to sleep a wink" },
         ],
-        explanation: "C1 idioms.",
+        explanation: "Advanced idioms.",
       },
       { type: "dictation", audio: "Sono al verde fino a fine mese.", explanation: "\"Essere al verde\"." },
       { type: "speak", text: "Sono al verde fino a fine mese e ho passato la notte in bianco, ma non vedo tutto nero!", prompt: "Say it in Italian: I'm broke until the end of the month and I didn't sleep a wink, but I'm not being pessimistic!", tip: "Light, self-ironic tone.", explanation: "Three idioms with colors." },
@@ -293,8 +293,8 @@ export const IT_C1_U20: Lesson[] = [
     slug: "c1-drill-c1-final",
     level: "IT-C1",
     number: 5,
-    title: "Drill: C1 Final",
-    summary: "High-repetition translation of mixed C1 structures: literary tenses, subjunctive nuance, modals, register, idioms and translation traps.",
+    title: "Drill: Final",
+    summary: "High-repetition translation of mixed Advanced structures: literary tenses, subjunctive nuance, modals, register, idioms and translation traps.",
     duration: "25 min",
     kind: "drill",
     sections: [
@@ -354,7 +354,7 @@ export const IT_C1_U20: Lesson[] = [
     slug: "c1-reading-lab-c1-final",
     level: "IT-C1",
     number: 6,
-    title: "Reading Lab: C1 Final",
+    title: "Reading Lab: Final",
     summary: "Read a long original essay on Italian piazzas and public space, follow its argument, and analyze its register and devices.",
     duration: "19 min",
     sections: [
@@ -418,7 +418,7 @@ export const IT_C1_U20: Lesson[] = [
     slug: "c1-listening-lab-c1-final",
     level: "IT-C1",
     number: 7,
-    title: "Listening Lab: C1 Final",
+    title: "Listening Lab: Final",
     summary: "Follow a long radio feature on an invented island where the last school almost closed, with interviews, figures and the reporter's commentary.",
     duration: "19 min",
     sections: [
@@ -546,8 +546,8 @@ export const IT_C1_U20: Lesson[] = [
     slug: "c1-mission-c1-essay",
     level: "IT-C1",
     number: 9,
-    title: "Real-World Mission: A C1 Essay",
-    summary: "Write a 300-word essay that brings together C1 Italian: a clear thesis, nuanced argument, subjunctive and conditional, varied register and a strong conclusion.",
+    title: "Real-World Mission: An Advanced Essay",
+    summary: "Write a 300-word essay that brings together Advanced Italian: a clear thesis, nuanced argument, subjunctive and conditional, varied register and a strong conclusion.",
     duration: "19 min",
     kind: "review",
     sections: [
@@ -555,7 +555,7 @@ export const IT_C1_U20: Lesson[] = [
         heading: "The task and the toolkit",
         body: [
           "Your final task: a 300-word essay for an Italian cultural magazine on the question \"La tecnologia ci rende più soli?\" (Does technology make us lonelier?). Choose a position, or a nuanced middle ground, and defend it.",
-          "Your C1 toolkit: an opening that frames the debate (\"Si sente spesso dire che...\"); a thesis with nuance (\"Credo che la risposta sia meno semplice di quanto sembri\"); arguments with \"innanzitutto\", \"d'altra parte\", \"non va dimenticato che\"; evidence or an example (\"basti pensare a\"); a concession (\"è innegabile che... tuttavia\"); a hypothetical (\"se usassimo... potremmo\"); a conclusion (\"in definitiva\", \"spetta a noi\" + infinitive).",
+          "Your Advanced toolkit: an opening that frames the debate (\"Si sente spesso dire che...\"); a thesis with nuance (\"Credo che la risposta sia meno semplice di quanto sembri\"); arguments with \"innanzitutto\", \"d'altra parte\", \"non va dimenticato che\"; evidence or an example (\"basti pensare a\"); a concession (\"è innegabile che... tuttavia\"); a hypothetical (\"se usassimo... potremmo\"); a conclusion (\"in definitiva\", \"spetta a noi\" + infinitive).",
         ],
         examples: [
           { es: "Si sente spesso dire che la tecnologia ci isola.", en: "You often hear it said that technology isolates us." },
@@ -595,8 +595,8 @@ export const IT_C1_U20: Lesson[] = [
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "[On the other hand], it shouldn't be forgotten that...", sentence: "___, non va dimenticato che...", answer: "D'altra parte", altAnswers: ["D'altronde", "Dall'altro lato"], explanation: "Balancing connector." },
       { type: "fill-blank", prompt: "Write the Italian for the bold words.", en: "The answer is less simple [than it seems].", sentence: "La risposta è meno semplice ___.", answer: "di quanto sembri", altAnswers: ["di quanto sembra", "di quello che sembra"], explanation: "Comparison with a clause." },
       { type: "word-order", prompt: "Put the words in order to say: It's up to us to decide.", words: ["Spetta", "a", "noi", "decidere."], translation: "It's up to us to decide.", explanation: "\"Spettare a\"." },
-      { type: "multiple-choice", question: "Which is the best thesis for a C1 essay?", options: ["Credo che la risposta sia meno semplice di quanto sembri.", "Secondo me sì.", "La tecnologia è brutta.", "Boh, dipende."], correctIndex: 0, explanation: "Nuanced and grammatically rich." },
-      { type: "multiple-choice", question: "Your checklist before handing in includes ...", options: ["thesis, concession, subjunctives, a hypothetical, word count", "only the title", "only the spelling of names", "a long quotation"], correctIndex: 0, explanation: "The C1 toolkit." },
+      { type: "multiple-choice", question: "Which is the best thesis for an Advanced essay?", options: ["Credo che la risposta sia meno semplice di quanto sembri.", "Secondo me sì.", "La tecnologia è brutta.", "Boh, dipende."], correctIndex: 0, explanation: "Nuanced and grammatically rich." },
+      { type: "multiple-choice", question: "Your checklist before handing in includes ...", options: ["thesis, concession, subjunctives, a hypothetical, word count", "only the title", "only the spelling of names", "a long quotation"], correctIndex: 0, explanation: "The Advanced toolkit." },
       { type: "dictation", audio: "Spetta a noi decidere come usarla.", explanation: "Closing line." },
       { type: "speak", text: "In definitiva, la tecnologia non ci rende né più soli né meno soli: spetta a noi decidere come usarla.", prompt: "Read your conclusion: All things considered, technology makes us neither lonelier nor less lonely: it's up to us to decide how to use it.", tip: "Balance \"né più... né meno\".", explanation: "Conclusion with \"né... né\"." },
     ],
@@ -605,7 +605,7 @@ export const IT_C1_U20: Lesson[] = [
     slug: "c1-translation-final",
     level: "IT-C1",
     number: 10,
-    title: "Translation Lab: C1 Final",
+    title: "Translation Lab: Final",
     summary: "Translate a mixed English text, narrative, formal and colloquial, into natural Italian, choosing tense, register and idiom for each part.",
     duration: "20 min",
     sections: [
@@ -670,13 +670,13 @@ export const IT_C1_U20: Lesson[] = [
 
 export const IT_C1_U20_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Final C1 essay: write about 300 words for an Italian cultural magazine on the question \"La tecnologia ci rende più soli?\" Take a clear or nuanced position, support it with arguments and examples, concede one point, include a hypothetical sentence, and end with a strong conclusion.",
+  prompt: "Final Advanced essay: write about 300 words for an Italian cultural magazine on the question \"La tecnologia ci rende più soli?\" Take a clear or nuanced position, support it with arguments and examples, concede one point, include a hypothetical sentence, and end with a strong conclusion.",
   minWords: 250,
   maxWords: 350,
   rubric: [
     "States a clear or nuanced thesis early and develops it logically with varied connectors",
     "Supports arguments with examples and includes a fair concession (è innegabile che... tuttavia)",
-    "Shows C1 range: subjunctive after verbs and conjunctions, a hypothetical sentence, impersonal and passive structures",
+    "Shows Advanced range: subjunctive after verbs and conjunctions, a hypothetical sentence, impersonal and passive structures",
     "Keeps a consistent formal-essayistic register, precise vocabulary and a memorable conclusion",
   ],
   modelAnswer: "Si sente spesso dire che la tecnologia ci isola: cene in cui ognuno guarda il proprio telefono, ragazzi che preferiscono scriversi piuttosto che vedersi, anziani lasciati soli davanti alla televisione. Credo però che la risposta sia meno semplice di quanto sembri.\n\nÈ innegabile che passiamo troppo tempo davanti agli schermi, e che molte piattaforme siano progettate proprio per trattenerci il più a lungo possibile. Il rischio è che le relazioni diventino rapide e superficiali, fatte di reazioni più che di conversazioni.\n\nD'altra parte, non va dimenticato che la stessa tecnologia ha accorciato distanze un tempo enormi. Basti pensare ai nonni che vedono crescere i nipoti emigrati all'estero, o a chi, malato o con una disabilità, trova in rete una comunità che nel proprio paese non avrebbe mai incontrato. Per queste persone lo schermo non è un muro, ma una finestra.\n\nIl problema, quindi, non è lo strumento, ma l'uso che ne facciamo. Se usassimo la tecnologia per organizzare incontri invece che per evitarli, potremmo ridurre la solitudine anziché aumentarla. Alcune iniziative lo dimostrano già: gruppi di quartiere nati in chat che si ritrovano poi in piazza, associazioni che coordinano volontari con un'app.\n\nIn definitiva, la tecnologia non ci rende né più soli né meno soli. Amplifica ciò che siamo: chi cerca rapporti autentici trova nuovi modi per coltivarli, chi tende a chiudersi trova nuovi modi per farlo. Spetta a noi, e soprattutto a chi educa i più giovani, decidere quale di queste due strade percorrere.",

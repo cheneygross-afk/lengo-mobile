@@ -1035,7 +1035,7 @@ export const PT_B1_U08: Lesson[] = [
       {
         heading: "Se eu tivesse sabido, eu teria ido",
         body: [
-          "To say what would have happened, Portuguese uses two forms you'll study properly at B2. For now, learn them as a pair: \"se eu tivesse sabido\" (if I had known) and \"eu teria ido\" (I would have gone). \"Teria\" is the conditional of \"ter\", so \"teria\" + participle means would have: \"teria ligado\", \"teria vindo\".",
+          "To say what would have happened, Portuguese uses two forms you'll study properly at the Upper-intermediate level. For now, learn them as a pair: \"se eu tivesse sabido\" (if I had known) and \"eu teria ido\" (I would have gone). \"Teria\" is the conditional of \"ter\", so \"teria\" + participle means would have: \"teria ligado\", \"teria vindo\".",
           "The trap is copying English had into the if-part. \"Se eu tinha sabido\" is wrong; it must be \"tivesse\". The other half is freer. In speech, \"tinha\" often replaces \"teria\", just as \"ia\" replaces \"iria\", and \"se eu soubesse\" often stands in for \"se eu tivesse sabido\".",
         ],
         examples: [

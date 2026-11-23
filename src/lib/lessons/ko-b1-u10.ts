@@ -758,7 +758,7 @@ export const KO_B1_U10: Lesson[] = [
       {
         heading: "Passive -어지다 or 'become' -어지다?",
         body: [
-          "In A2 you put -아 / 어지다 on adjectives to mean 'become': 따뜻해졌어요 'it got warmer'. On a verb the same ending is a passive: 만들어졌어요 'was made'. With an adjective something changes; with a verb something is done to the subject.",
+          "In the Elementary level you put -아 / 어지다 on adjectives to mean 'become': 따뜻해졌어요 'it got warmer'. On a verb the same ending is a passive: 만들어졌어요 'was made'. With an adjective something changes; with a verb something is done to the subject.",
           "Likewise, 회의가 취소됐어요 is not 'became a cancellation' like 의사가 됐어요. 취소 takes no 가, because 취소되다 is one verb.",
         ],
         examples: [
@@ -1705,8 +1705,8 @@ export const KO_B1_U10: Lesson[] = [
       {
         heading: "Sound focus: 닫히다 [다치다], 갇히다 [가치다]",
         body: [
-          "In A2 you met palatalization: ㄷ before 이 is said [ㅈ] (굳이 [구지]) and ㅌ before 이 [ㅊ] (같이 [가치]). Passives add one more case: ㄷ before 히 merges with the ㅎ into [ㅊ]. So 닫히다 is [다치다], 묻히다 'be buried' [무치다], 걷히다 'clear (of clouds)' [거치다], 갇히다 'be trapped' [가치다]. In the 요 forms 쳐 is said [처]: 닫혀요 [다처요], 갇혔어요 [가처써요].",
-          "Compare 막히다 [마키다]: ㄱ + ㅎ is the plain aspiration you know from A1. Only ㄷ turns into [ㅊ]. The spelling never changes.",
+          "In the Elementary level you met palatalization: ㄷ before 이 is said [ㅈ] (굳이 [구지]) and ㅌ before 이 [ㅊ] (같이 [가치]). Passives add one more case: ㄷ before 히 merges with the ㅎ into [ㅊ]. So 닫히다 is [다치다], 묻히다 'be buried' [무치다], 걷히다 'clear (of clouds)' [거치다], 갇히다 'be trapped' [가치다]. In the 요 forms 쳐 is said [처]: 닫혀요 [다처요], 갇혔어요 [가처써요].",
+          "Compare 막히다 [마키다]: ㄱ + ㅎ is the plain aspiration you know from the Beginner level. Only ㄷ turns into [ㅊ]. The spelling never changes.",
         ],
         examples: [
           { es: "문이 닫혔어요.", en: "The door closed. [다처써요]" },
@@ -2230,7 +2230,7 @@ export const KO_B1_U10: Lesson[] = [
         source: "Inside the wallet were a credit card and a student ID.",
         answer: "지갑 안에는 신용카드와 학생증이 들어 있었습니다.",
         altAnswers: ["지갑 안에는 신용카드와 학생증이 있었습니다.", "지갑 안에 신용카드와 학생증이 들어 있었습니다.", "지갑 안에 신용카드와 학생증이 있었습니다.", "지갑 안에는 신용카드하고 학생증이 들어 있었습니다."],
-        explanation: "들어 있다 'be inside' is the -아 있다 state from A2; 와 links the two nouns in writing.",
+        explanation: "들어 있다 'be inside' is the -아 있다 state from the Elementary level; 와 links the two nouns in writing.",
       },
       {
         type: "dictation",

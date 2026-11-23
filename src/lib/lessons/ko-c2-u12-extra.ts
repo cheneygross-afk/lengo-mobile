@@ -178,7 +178,7 @@ export const KO_C2_U12_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Spelling Slips Online",
-    summary: "Tell playful misspellings (넘, 어케, 조아) from real spelling slips, and get five trap pairs right every time: 어떡해 / 어떻게, 금세 (never *금새), 일부러 (never *일부로), 어이없다 (never *어의없다), 웬 / 왠지 (spiral of B2 Unit 28).",
+    summary: "Tell playful misspellings (넘, 어케, 조아) from real spelling slips, and get five trap pairs right every time: 어떡해 / 어떻게, 금세 (never *금새), 일부러 (never *일부로), 어이없다 (never *어의없다), 웬 / 왠지 (spiral of Upper-intermediate Unit 28).",
     duration: "20 min",
     sections: [
       {

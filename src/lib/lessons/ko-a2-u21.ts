@@ -916,7 +916,7 @@ export const KO_A2_U21: Lesson[] = [
         heading: "-아 / 어 오다: all this time, up to now",
         body: [
           "오다 'come' does the opposite: it brings an action from the past up to now. 십 년 동안 이 동네에서 살아 왔어요 is 'I've lived in this neighborhood for ten years' (and still do). English uses 'have been doing'; Korean says 왔어요 with 지금까지 'until now' or a 동안 phrase.",
-          "A plain past, 살았어요, can sound finished: 'I lived there'. 살아 왔어요 stresses the long stretch up to today. This is a preview; both patterns get full treatment in B1.",
+          "A plain past, 살았어요, can sound finished: 'I lived there'. 살아 왔어요 stresses the long stretch up to today. This is a preview; both patterns get full treatment in the Intermediate level.",
         ],
         examples: [
           { es: "십 년 동안 이 동네에서 살아 왔어요.", en: "I've lived in this neighborhood for ten years." },

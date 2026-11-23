@@ -626,8 +626,8 @@ export const PT_B2_U15: Lesson[] = [
       {
         heading: "From direct to indirect: reporting words and commands",
         body: [
-          "Indirect speech folds the words into the narration with \"que\", \"se\" or a question word. As at B1, a past reporting verb shifts everything back: \"vou\" → \"ia\", \"fiz\" → \"tinha feito\", \"amanhã\" → \"no dia seguinte\", \"aqui\" → \"lá\".",
-          "What's new at B2 is reporting commands. After a past verb, an imperative becomes \"que\" + imperfect subjunctive: \"— Fecha a janela!\" turns into \"Ela pediu que eu fechasse a janela.\" In lighter prose, \"pediu para eu fechar\" says the same.",
+          "Indirect speech folds the words into the narration with \"que\", \"se\" or a question word. As at the Intermediate level, a past reporting verb shifts everything back: \"vou\" → \"ia\", \"fiz\" → \"tinha feito\", \"amanhã\" → \"no dia seguinte\", \"aqui\" → \"lá\".",
+          "What's new at Upper-intermediate is reporting commands. After a past verb, an imperative becomes \"que\" + imperfect subjunctive: \"— Fecha a janela!\" turns into \"Ela pediu que eu fechasse a janela.\" In lighter prose, \"pediu para eu fechar\" says the same.",
           "Vary the reporting verb, because a page where everyone just \"disse\" goes flat. \"Murmurou\", \"retrucou\", \"insistiu\", \"admitiu\" and \"garantiu\" tell the reader how the line was said, in direct and indirect speech alike.",
         ],
         examples: [
@@ -2429,7 +2429,7 @@ export const PT_B2_U15: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Storytelling",
-    summary: "Tell one rainy-day story from start to finish, mixing the narrative tenses, dialogue, reported speech, description and the B2 subjunctives.",
+    summary: "Tell one rainy-day story from start to finish, mixing the narrative tenses, dialogue, reported speech, description and the Upper-intermediate subjunctives.",
     duration: "15 min",
     kind: "review",
     sections: [
@@ -2513,7 +2513,7 @@ export const PT_B2_U15: Lesson[] = [
         heading: "Description and what might have been",
         body: [
           "A participle or gerund paints an image without a new clause: \"sentada no fundo, olhando a chuva\". The participle agrees with the person it describes, while the gerund never changes.",
-          "Good stories also glance at what didn't happen, and this is where your B2 subjunctives come in. Use \"se tivesse saído mais cedo, não teria...\" for a missed chance. Use \"como se\" + imperfect subjunctive for how things looked, and \"embora\" + imperfect subjunctive to concede in the past.",
+          "Good stories also glance at what didn't happen, and this is where your Upper-intermediate subjunctives come in. Use \"se tivesse saído mais cedo, não teria...\" for a missed chance. Use \"como se\" + imperfect subjunctive for how things looked, and \"embora\" + imperfect subjunctive to concede in the past.",
         ],
         examples: [
           { es: "Sentada no fundo do ônibus, ela ficou olhando a chuva pela janela.", en: "Sitting at the back of the bus, she stayed there watching the rain through the window." },

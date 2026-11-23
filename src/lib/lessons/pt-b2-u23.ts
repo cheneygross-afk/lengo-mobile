@@ -122,7 +122,7 @@ export const PT_B2_U23: Lesson[] = [
             type: "speak",
             text: "Que pena que você não possa vir!",
             tip: "Stress the open o of \"possa\" (PÓ-sa), and let the closed e of \"pena\" sound nasal: PẼ-na.",
-            explanation: "The subjunctive after \"que pena que\" is the B2 detail Brazilians notice.",
+            explanation: "The subjunctive after \"que pena que\" is the Upper-intermediate detail Brazilians notice.",
           },
         ],
       },
@@ -241,7 +241,7 @@ export const PT_B2_U23: Lesson[] = [
       {
         heading: "Desculpa te interromper: getting in",
         body: [
-          "Brazilian conversations overlap a lot: people finish each other's sentences and jump in before a pause. That isn't rude in itself, but at B2 you want ways to get in smoothly. The polite opener is \"Desculpa te interromper, mas...\" (Sorry to interrupt, but...). Among friends, a short \"Só um parêntese\" (just a quick aside) or \"Posso falar uma coisa?\" works, and \"rapidinho\" (really quickly) promises you'll be brief.",
+          "Brazilian conversations overlap a lot: people finish each other's sentences and jump in before a pause. That isn't rude in itself, but at the Upper-intermediate level you want ways to get in smoothly. The polite opener is \"Desculpa te interromper, mas...\" (Sorry to interrupt, but...). Among friends, a short \"Só um parêntese\" (just a quick aside) or \"Posso falar uma coisa?\" works, and \"rapidinho\" (really quickly) promises you'll be brief.",
           "Notice the spoken grammar: \"desculpa\" (not \"desculpe\") and \"te interromper\" with \"te\", even though you'd write \"interrompê-lo\" in a formal email. In a meeting with your boss, \"Com licença, posso fazer uma observação?\" sounds more careful.",
         ],
         examples: [
@@ -2459,13 +2459,13 @@ export const PT_B2_U23: Lesson[] = [
     level: "PT-B2",
     number: 13,
     title: "Spiral Review: Conversation in Real Time",
-    summary: "Mix the unit's spoken strategies with B2 grammar: reactions with the subjunctive, kind refusals with hypotheticals, hearsay with reported speech, and fast speech written in full.",
+    summary: "Mix the unit's spoken strategies with Upper-intermediate grammar: reactions with the subjunctive, kind refusals with hypotheticals, hearsay with reported speech, and fast speech written in full.",
     duration: "14 min",
     kind: "review",
     format: "Spiral Review",
     sections: [
       {
-        heading: "Reactions and refusals with B2 grammar",
+        heading: "Reactions and refusals with Upper-intermediate grammar",
         body: [
           "Conversation strategies get their polish from the grammar you already have. A reaction can carry a past subjunctive (\"Que pena que você não tenha conseguido\"), a refusal can carry an unreal condition (\"Se eu não tivesse prova amanhã, eu iria\"), and a soft request uses the imperfect (\"Será que dava pra...\").",
         ],

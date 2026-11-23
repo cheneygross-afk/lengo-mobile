@@ -130,8 +130,8 @@ export const ZH_B1_LESSONS_U5 = [
   lesson(
     L,
     "zh-b1-review",
-    "B1 Review: A Year Abroad",
-    "Everything from B1 in one story: opinions, 是…的, potential complements, 被 and 把, linking words, feelings and study.",
+    "Review: A Year Abroad",
+    "Everything from Independent Chinese in one story: opinions, 是…的, potential complements, 被 and 把, linking words, feelings and study.",
     "10 min",
     [
       sec(
@@ -150,7 +150,7 @@ export const ZH_B1_LESSONS_U5 = [
         ]
       ),
       sec(
-        "What B1 added",
+        "What Independent Chinese added",
         [
           "Opinions and comparisons: 最, 比较, 觉得, 认为, 又…又, 对…感兴趣, 关于.",
           "Ability and timing: 看得懂/看不懂, 起来, 看看/一下, 一…就, 刚/刚才, 又/再.",

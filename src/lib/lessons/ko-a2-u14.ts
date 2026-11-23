@@ -730,7 +730,7 @@ export const KO_A2_U14: Lesson[] = [
         heading: "같아요, 비슷해요, 달라요 with 하고",
         body: [
           "To say two things are the same, similar or different, link them with 'and': 이거랑 그거는 같아요 'this one and that one are the same'. Or make one the topic and attach the particle to the other: 서울 날씨는 뉴욕하고 비슷해요 'Seoul's weather is similar to New York's'. English switches between 'similar to' and 'different from'; Korean uses the same 'with' particle for all three, never 보다 or 에서.",
-          "The particles are the ones from A1: 하고 for everyday speech, (이)랑 for casual, warm speech, and 와 after a vowel / 과 after a consonant for writing and formal talk (언니와, 동생과). 다르다 is a 르 irregular from Unit 9: 달라요, 달랐어요. 같아요 is said [가타요].",
+          "The particles are the ones from the Beginner level: 하고 for everyday speech, (이)랑 for casual, warm speech, and 와 after a vowel / 과 after a consonant for writing and formal talk (언니와, 동생과). 다르다 is a 르 irregular from Unit 9: 달라요, 달랐어요. 같아요 is said [가타요].",
           "When the difference is in one quality, name it with 이 / 가: 저는 언니하고 성격이 달라요 'my sister and I have different personalities'.",
         ],
         examples: [

@@ -28,7 +28,7 @@ export type FrenchLevelInfo = {
   /** "A1" ... "C2", "Culture". */
   code: string;
   name: string;
-  /** What the level cards show: "Beginner (A1)". */
+  /** What the level cards show: "Beginner". */
   label: string;
   exam: string | null;
   description: string;
@@ -42,7 +42,7 @@ export const FRENCH_LEVELS: FrenchLevelInfo[] = [
     levelPath: "fr/a1",
     code: "A1",
     name: "Beginner",
-    label: "Beginner (A1)",
+    label: "Beginner",
     exam: "DELF A1",
     description:
       "Être and avoir, articles and gender, the sounds of French, present-tense verbs, questions and negation, numbers, time and dates, and everyday conversations.",
@@ -52,7 +52,7 @@ export const FRENCH_LEVELS: FrenchLevelInfo[] = [
     levelPath: "fr/a2",
     code: "A2",
     name: "Elementary",
-    label: "Elementary (A2)",
+    label: "Elementary",
     exam: "DELF A2",
     description:
       "The passé composé and imparfait, object pronouns, y and en, pronominal verbs, comparisons, the future, the imperative, and survival situations from restaurants to doctors.",
@@ -62,7 +62,7 @@ export const FRENCH_LEVELS: FrenchLevelInfo[] = [
     levelPath: "fr/b1",
     code: "B1",
     name: "Intermediate",
-    label: "Intermediate (B1)",
+    label: "Intermediate",
     exam: "DELF B1",
     description:
       "The subjunctive, the conditional and si-clauses, the plus-que-parfait, relative pronouns, the passive, spoken French, and real situations at the bank, the office and home.",
@@ -72,7 +72,7 @@ export const FRENCH_LEVELS: FrenchLevelInfo[] = [
     levelPath: "fr/b2",
     code: "B2",
     name: "Upper-intermediate",
-    label: "Upper-intermediate (B2)",
+    label: "Upper-intermediate",
     exam: "DELF B2",
     description:
       "Subjunctive after conjunctions and in relative clauses, past hypotheticals, reported speech, the gérondif, causative faire, connectors for arguing a point, and emphasis.",
@@ -82,7 +82,7 @@ export const FRENCH_LEVELS: FrenchLevelInfo[] = [
     levelPath: "fr/c1",
     code: "C1",
     name: "Advanced",
-    label: "Advanced (C1)",
+    label: "Advanced",
     exam: "DALF C1",
     description:
       "Concession, nominalization, literary tenses, registers from soutenu to argot and verlan, French around the world, formal letters and academic writing.",
@@ -92,7 +92,7 @@ export const FRENCH_LEVELS: FrenchLevelInfo[] = [
     levelPath: "fr/c2",
     code: "C2",
     name: "Mastery",
-    label: "Mastery (C2)",
+    label: "Mastery",
     exam: "DALF C2",
     description:
       "Legal, medical and business French, idioms and proverbs, humour and wordplay, rhetoric, debate and negotiation, and writing about history, science, art and ideas.",

@@ -288,7 +288,7 @@ export const PT_B1_U05: Lesson[] = [
         heading: "Ninguém que, nada que: when it doesn't exist",
         body: [
           "In Part 1 the subjunctive described something you're looking for that may not exist. The same logic covers things you say don't exist at all. After \"ninguém\", \"nada\" and \"nenhum\" / \"nenhuma\", the description takes the subjunctive. \"Não há ninguém que saiba a senha\" means there's no one who knows the password. That person isn't real, so the verb isn't either.",
-          "The double negative from A2 still applies: \"não\" goes before the verb and \"ninguém\" or \"nada\" after it. In speech \"não tem\" replaces \"não há\", and \"não tem nada que eu possa fazer\" is a set phrase you'll hear every day. The classic slip is the indicative, as in \"não tem ninguém que sabe\". It sounds as if you're describing a real person.",
+          "The double negative from Elementary still applies: \"não\" goes before the verb and \"ninguém\" or \"nada\" after it. In speech \"não tem\" replaces \"não há\", and \"não tem nada que eu possa fazer\" is a set phrase you'll hear every day. The classic slip is the indicative, as in \"não tem ninguém que sabe\". It sounds as if you're describing a real person.",
         ],
         examples: [
           { es: "Não há ninguém que saiba a senha do wi-fi.", en: "There's nobody who knows the Wi-Fi password." },

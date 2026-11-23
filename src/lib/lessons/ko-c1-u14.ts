@@ -237,7 +237,7 @@ export const KO_C1_U14: Lesson[] = [
     level: "KO-C1",
     number: 2,
     title: "-을 / 를 앞두고 and -에 즈음하여",
-    summary: "Frame news events in time with -을 / 를 앞두고 (with an event ahead, in the run-up to) and the ceremonial -에 즈음하여 (on the occasion of), and set the scene of a report with -(으)ㄴ / 는 가운데 (spiral of B2).",
+    summary: "Frame news events in time with -을 / 를 앞두고 (with an event ahead, in the run-up to) and the ceremonial -에 즈음하여 (on the occasion of), and set the scene of a report with -(으)ㄴ / 는 가운데 (spiral of Upper-intermediate).",
     duration: "21 min",
     sections: [
       {
@@ -316,7 +316,7 @@ export const KO_C1_U14: Lesson[] = [
       {
         heading: "Setting the scene: -는 가운데",
         body: [
-          "Political reports open by stacking context before the news: what is coming up (앞두고), what situation surrounds it (-는 가운데), then the event. You met -(으)ㄴ / 는 가운데 'amid, while' at B2: 여야가 대립하는 가운데 'with the parties at loggerheads'. With adjectives and completed changes it takes -(으)ㄴ: 긴장이 높아진 가운데, 날씨가 추운 가운데.",
+          "Political reports open by stacking context before the news: what is coming up (앞두고), what situation surrounds it (-는 가운데), then the event. You met -(으)ㄴ / 는 가운데 'amid, while' at the Upper-intermediate level: 여야가 대립하는 가운데 'with the parties at loggerheads'. With adjectives and completed changes it takes -(으)ㄴ: 긴장이 높아진 가운데, 날씨가 추운 가운데.",
           "A typical lead: 총선을 앞두고 여야가 대립하는 가운데 정부가 새 대책을 발표했다. The main event is always the last clause; English often puts it first ('The government announced new measures on Monday, amid ...'), so reorder when you translate.",
         ],
         examples: [
@@ -449,7 +449,7 @@ export const KO_C1_U14: Lesson[] = [
         heading: "-을 / 를 둘러싸고: the issue at the centre",
         body: [
           "둘러싸다 is 'to surround'. In news it pictures people gathered around an issue and arguing over it: 예산안을 둘러싸고 여야가 대립하고 있다 'the parties are at odds over the budget'. The issue takes 을 / 를, and the main clause must describe a disagreement: a controversy, a clash, a standoff, a battle of claims.",
-          "This is the classic English-speaker trap. 'About' in a neutral sense is -에 대해 (B2): 예산안에 대해 설명했다 'explained the budget'. Use 둘러싸고 only when there is a fight. *날씨를 둘러싸고 이야기를 나눴다 sounds as if the weather had become a political battle. Ask yourself: are two sides pulling against each other? If not, 에 대해.",
+          "This is the classic English-speaker trap. 'About' in a neutral sense is -에 대해 (Upper-intermediate): 예산안에 대해 설명했다 'explained the budget'. Use 둘러싸고 only when there is a fight. *날씨를 둘러싸고 이야기를 나눴다 sounds as if the weather had become a political battle. Ask yourself: are two sides pulling against each other? If not, 에 대해.",
           "Reports often add who disagrees and how long: 연금 개혁을 둘러싸고 정부와 노동계가 몇 달째 맞서고 있다. In speech, 두고 is a lighter equivalent: 그 문제를 두고 말이 많아요 'people are saying a lot about it'.",
         ],
         examples: [
@@ -482,7 +482,7 @@ export const KO_C1_U14: Lesson[] = [
         heading: "-을 / 를 둘러싼 + noun",
         body: [
           "Before a noun the connective becomes 둘러싼: 의대 정원 확대를 둘러싼 갈등 'the conflict over expanding medical school places'. This noun phrase is everywhere in headlines and lead sentences, because Korean news likes to pack the issue and the dispute into one subject: 의대 정원을 둘러싼 갈등이 장기화되고 있다 'the conflict over medical school places is dragging on'.",
-          "In headlines the 을 / 를 drops and the phrase stacks with other nouns (spiral of B2): 예산안 둘러싼 여야 공방 격화 = 예산안을 둘러싼 여야의 공방이 격화되었다. Read it back by restoring the particles and turning the last Sino noun into a 되다 or 하다 verb.",
+          "In headlines the 을 / 를 drops and the phrase stacks with other nouns (spiral of Upper-intermediate): 예산안 둘러싼 여야 공방 격화 = 예산안을 둘러싼 여야의 공방이 격화되었다. Read it back by restoring the particles and turning the last Sino noun into a 되다 or 하다 verb.",
         ],
         examples: [
           { es: "의대 정원 확대를 둘러싼 갈등이 장기화되고 있다.", en: "The conflict over expanding medical school places is dragging on." },
@@ -647,7 +647,7 @@ export const KO_C1_U14: Lesson[] = [
     level: "KO-C1",
     number: 4,
     title: "Policy Plans: -(으)ㄹ 방침이다 and -기로 합의하다",
-    summary: "Report what institutions intend with -(으)ㄹ 방침이다, what they have decided or agreed with -기로 결정하다 / 합의하다 (spiral of A2 -기로 하다), and how far a policy has got with 검토하다, 추진하다, 발표하다 and 시행하다.",
+    summary: "Report what institutions intend with -(으)ㄹ 방침이다, what they have decided or agreed with -기로 결정하다 / 합의하다 (spiral of the Elementary level -기로 하다), and how far a policy has got with 검토하다, 추진하다, 발표하다 and 시행하다.",
     duration: "21 min",
     sections: [
       {
@@ -686,7 +686,7 @@ export const KO_C1_U14: Lesson[] = [
       {
         heading: "-기로 결정하다 / 합의하다",
         body: [
-          "At A2 you learned -기로 하다 'decide to, agree to': 토요일에 만나기로 했어요. News splits it by who decides. One body 결정하다 or, after a formal vote, 의결하다: 위원회는 회의를 연기하기로 결정했다. Two or more parties 합의하다: 양국은 협력을 강화하기로 합의했다. A noun can replace the -기 clause: 협력 강화에 합의했다, 연기를 결정했다.",
+          "At the Elementary level you learned -기로 하다 'decide to, agree to': 토요일에 만나기로 했어요. News splits it by who decides. One body 결정하다 or, after a formal vote, 의결하다: 위원회는 회의를 연기하기로 결정했다. Two or more parties 합의하다: 양국은 협력을 강화하기로 합의했다. A noun can replace the -기 clause: 협력 강화에 합의했다, 연기를 결정했다.",
           "Two traps. First, 'agree with an opinion' is 동의하다, not 합의하다: 그 의견에 동의해요. 합의 is a deal reached together. Second, failing to agree is 합의에 이르지 못했다 or, in headlines, 합의 불발 / 협상 결렬; 'talks broke down' is 결렬되다 in news; 깨지다 is the casual word.",
         ],
         examples: [
@@ -858,7 +858,7 @@ export const KO_C1_U14: Lesson[] = [
     level: "KO-C1",
     number: 5,
     title: "-다는 입장이다: Reporting Positions",
-    summary: "Report where each side stands with -다는 입장이다 and -다는 입장을 밝혔다 across verbs, adjectives, nouns, the past and intentions; say who holds, changes or withdraws a position; and put earlier statements on the record with -(으)ㄴ 바 있다 (spiral of B2).",
+    summary: "Report where each side stands with -다는 입장이다 and -다는 입장을 밝혔다 across verbs, adjectives, nouns, the past and intentions; say who holds, changes or withdraws a position; and put earlier statements on the record with -(으)ㄴ 바 있다 (spiral of Upper-intermediate).",
     duration: "21 min",
     sections: [
       {
@@ -908,7 +908,7 @@ export const KO_C1_U14: Lesson[] = [
         heading: "Holding, changing, withdrawing",
         body: [
           "Positions move, and each move has its verb: 고수하다 'stick to' (stubbornly), 유지하다 'maintain' (neutral), 바꾸다 / 선회하다 'change, swing round', 철회하다 'withdraw', 한발 물러서다 'back down a step'. The gap between sides is 입장 차이, which negotiators 좁히다 'narrow' or which 크다 'is wide'.",
-          "입장 also keeps its everyday sense 'standpoint, someone's shoes' (B2): 소비자 입장에서는 'from the consumer's point of view', 제 입장도 좀 이해해 주세요 'please see it from my side too'. In political reports it is almost always the formal stance.",
+          "입장 also keeps its everyday sense 'standpoint, someone's shoes' (Upper-intermediate): 소비자 입장에서는 'from the consumer's point of view', 제 입장도 좀 이해해 주세요 'please see it from my side too'. In political reports it is almost always the formal stance.",
         ],
         examples: [
           { es: "정부는 기존 입장을 고수하고 있다.", en: "The government is sticking to its existing position." },
@@ -944,7 +944,7 @@ export const KO_C1_U14: Lesson[] = [
       {
         heading: "On the record: -(으)ㄴ 바 있다",
         body: [
-          "Reports often remind readers what someone said before. B2's -(으)ㄴ 바 있다 'has (previously) done' is the tool: 야당은 지난해에도 같은 입장을 밝힌 바 있다. It is the written, institutional counterpart of -(으)ㄴ 적이 있다, used for officials and organisations rather than personal experience. 바 is a dependent noun, so write 밝힌 바 있다 with spaces.",
+          "Reports often remind readers what someone said before. The Upper-intermediate level's -(으)ㄴ 바 있다 'has (previously) done' is the tool: 야당은 지난해에도 같은 입장을 밝힌 바 있다. It is the written, institutional counterpart of -(으)ㄴ 적이 있다, used for officials and organisations rather than personal experience. 바 is a dependent noun, so write 밝힌 바 있다 with spaces.",
           "A complete position paragraph therefore runs: current statement (-다는 입장을 밝혔다), reason (-다며 or -(이)라며), and the record (-(으)ㄴ 바 있다). The record is often introduced by 앞서 'earlier' or 이미 'already'.",
         ],
         examples: [
@@ -1163,7 +1163,7 @@ export const KO_C1_U14: Lesson[] = [
             source: "The international community tightened sanctions on North Korea.",
             answer: "국제 사회는 북한에 대한 제재를 강화했다.",
             altAnswers: ["국제 사회가 북한에 대한 제재를 강화했다.", "국제 사회는 대북 제재를 강화했다.", "국제 사회가 대북 제재를 강화했다.", "국제 사회는 북한에 대한 제재를 강화하였다.", "국제 사회는 북한에 대한 제재 수위를 높였다.", "국제 사회는 대북 제재 수위를 높였다.", "국제 사회는 북한 제재를 강화했다."],
-            explanation: "Noun-before-noun 'on' is 에 대한 (spiral of B2): 북한에 대한 제재, compressed in news to 대북 제재.",
+            explanation: "Noun-before-noun 'on' is 에 대한 (spiral of Upper-intermediate): 북한에 대한 제재, compressed in news to 대북 제재.",
           },
           {
             type: "fill-blank",

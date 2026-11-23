@@ -771,7 +771,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Aunque: concesión conocida vs. hipotética",
         "body": [
           "\"Aunque\" con indicativo reconoce un hecho conocido. \"Aunque\" con subjuntivo presenta la concesión como hipotética o desconocida para el hablante.",
-          "Matiz de B2: el subjuntivo también se usa con un hecho conocido cuando el hablante le quita importancia: «Aunque sea tu jefe, no tiene razón» (sí, es tu jefe, pero da igual). En inglés la diferencia suele ser even though (indicativo) frente a even if (subjuntivo)."
+          "Matiz del nivel Advanced: el subjuntivo también se usa con un hecho conocido cuando el hablante le quita importancia: «Aunque sea tu jefe, no tiene razón» (sí, es tu jefe, pero da igual). En inglés la diferencia suele ser even though (indicativo) frente a even if (subjuntivo)."
         ],
         "examples": [
           {
@@ -16285,7 +16285,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Familias de palabras: del verbo al sustantivo",
         "body": [
           "Gran parte del vocabulario del debate se aprende de dos en dos, porque el español forma sustantivos y adjetivos a partir de verbos con unas pocas terminaciones fijas. Si conoces el verbo, puedes deducir la palabra de la misma familia aunque nunca la hayas visto.",
-          "¿Por qué importa? En un texto formal se prefiere el sustantivo al verbo («La polarización del debate preocupa» en lugar de «Que el debate se polarice preocupa»), y en el registro de B2 ese cambio es constante."
+          "¿Por qué importa? En un texto formal se prefiere el sustantivo al verbo («La polarización del debate preocupa» en lugar de «Que el debate se polarice preocupa»), y en el registro del nivel Advanced ese cambio es constante."
         ],
         "checkpoint": [
           {
@@ -16672,7 +16672,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "heading": "Familias de palabras en el escenario",
         "body": [
           "El vocabulario de la música y del teatro se aprende mejor por familias, porque el español forma la persona, la acción y el contrario con unas pocas terminaciones fijas. Si conoces una palabra, puedes deducir las demás aunque nunca las hayas visto.",
-          "¿Por qué importa? Porque así pasas de un verbo que conoces («el público aplaudió») a un sustantivo formal («el aplauso del público»), que es lo que se espera en una crítica o una reseña de B2. Cuidado: componer da compositor, no «componedor»."
+          "¿Por qué importa? Porque así pasas de un verbo que conoces («el público aplaudió») a un sustantivo formal («el aplauso del público»), que es lo que se espera en una crítica o una reseña del nivel Advanced. Cuidado: componer da compositor, no «componedor»."
         ],
         "checkpoint": [
           {

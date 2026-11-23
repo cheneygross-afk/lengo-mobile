@@ -609,7 +609,7 @@ export const KO_B2_U17: Lesson[] = [
         source: "To prevent people dying alone, local governments have started check-in services.",
         answer: "고독사를 막기 위해 지자체들이 안부 확인 서비스를 시작했다.",
         altAnswers: ["고독사를 막기 위해서 지자체들이 안부 확인 서비스를 시작했다.", "고독사를 예방하기 위해 지자체들이 안부 확인 서비스를 시작했다.", "고독사를 막기 위해 지방 자치 단체들이 안부 확인 서비스를 시작했다.", "고독사를 막기 위해 지자체가 안부 확인 서비스를 시작했다.", "고독사를 방지하기 위해 지자체들이 안부 확인 서비스를 시작했다.", "고독사를 예방하기 위해서 지자체들이 안부 확인 서비스를 시작했다."],
-        explanation: "-기 위해(서) 'in order to' (B1); 지자체 is the short form of 지방 자치 단체 'local government'.",
+        explanation: "-기 위해(서) 'in order to' (Intermediate); 지자체 is the short form of 지방 자치 단체 'local government'.",
       },
       {
         type: "dictation",
@@ -848,7 +848,7 @@ export const KO_B2_U17: Lesson[] = [
       {
         heading: "Just because A doesn't mean B",
         body: [
-          "-다고 해서 takes a fact and blocks the conclusion people jump to from it: 혼자 산다고 해서 다 외로운 것은 아니다 'Just because someone lives alone doesn't mean they're lonely.' Literally it is 'even if you say that A': the reported -다고 (B1 Unit 1) plus 해서.",
+          "-다고 해서 takes a fact and blocks the conclusion people jump to from it: 혼자 산다고 해서 다 외로운 것은 아니다 'Just because someone lives alone doesn't mean they're lonely.' Literally it is 'even if you say that A': the reported -다고 (Intermediate Unit 1) plus 해서.",
           "The second half almost always denies or doubts. The standard frame is -는 것은 아니다, in speech -는 건 아니에요, often with 다, 꼭, 반드시 or 항상 to show what is being overgeneralised: 나이가 많다고 해서 일을 못 하는 건 아니에요.",
           "The trap for English speakers: 'just because' contains 'because', but -다고 해서 gives no reason. It denies that A leads to B. To say A causes B, use -기 때문에 or -아 / 어서.",
         ],
@@ -926,7 +926,7 @@ export const KO_B2_U17: Lesson[] = [
         body: [
           "Besides -는 것은 아니다, two endings are common. A doubting question: 비싸다고 해서 꼭 좋은 거예요? 'Does expensive necessarily mean good?' And a warning: 나이가 어리다고 해서 무시하면 안 돼요 'You mustn't look down on someone for being young.'",
           "Careful: the same words can be plain reported speech. 비가 온다고 해서 우산을 가져왔어요 means 'They said it would rain, so I brought an umbrella': someone said it, and you acted on it. The ending tells you which: a denial, doubt or warning means 'just because'; a normal result means 'because someone said'.",
-          "Compare -아 / 어도 (B1). 혼자 살아도 외롭지 않아요 is a plain statement about yourself. 혼자 산다고 해서 다 외로운 건 아니에요 corrects an assumption someone holds, so it often sounds like a reply to a stereotype.",
+          "Compare -아 / 어도 (Intermediate). 혼자 살아도 외롭지 않아요 is a plain statement about yourself. 혼자 산다고 해서 다 외로운 건 아니에요 corrects an assumption someone holds, so it often sounds like a reply to a stereotype.",
         ],
         examples: [
           { es: "비싸다고 해서 꼭 좋은 거예요?", en: "Does expensive necessarily mean good?" },
@@ -1003,7 +1003,7 @@ export const KO_B2_U17: Lesson[] = [
         source: "A low birth rate doesn't mean the future is all doom and gloom.",
         answer: "출산율이 낮다고 해서 미래가 어둡기만 한 것은 아니다.",
         altAnswers: ["출산율이 낮다고 해서 미래가 어둡기만 한 건 아니다.", "출산율이 낮다고 해서 미래가 꼭 어두운 것은 아니다.", "출산율이 낮다고 해서 미래가 어두운 것은 아니다.", "출산율이 낮다고 해서 미래가 반드시 어두운 것은 아니다.", "출산율이 낮다고 해서 미래가 어둡기만 하지는 않다.", "출산율이 낮다고 미래가 어둡기만 한 것은 아니다."],
-        explanation: "-기만 하다 'be only' (B1 Unit 21): 어둡기만 한 것은 아니다 'it isn't only dark'.",
+        explanation: "-기만 하다 'be only' (Intermediate Unit 21): 어둡기만 한 것은 아니다 'it isn't only dark'.",
       },
       {
         type: "word-order",
@@ -1059,7 +1059,7 @@ export const KO_B2_U17: Lesson[] = [
         heading: "-는 경향이 있다: there is a tendency to",
         body: [
           "경향 is a tendency, a pattern you can observe. -는 경향이 있다 says a group, or sometimes a person, tends to do something: 젊은 세대는 결혼을 미루는 경향이 있다 'The younger generation tends to put off marriage.' Verbs take -는, adjectives -(으)ㄴ (높은 경향이 있다). For the past, put the tense on 있다: 미루는 경향이 있었다.",
-          "Written reports also say 경향을 보이다 'show a tendency' and 경향이 강하다 'the tendency is strong'. Compare -는 편이다 from B1: 저는 일찍 자는 편이에요 places one person on a scale ('rather', 'on the whole'). -는 경향이 있다 describes a pattern, often in a population, and sounds more analytical.",
+          "Written reports also say 경향을 보이다 'show a tendency' and 경향이 강하다 'the tendency is strong'. Compare -는 편이다 from the Intermediate level: 저는 일찍 자는 편이에요 places one person on a scale ('rather', 'on the whole'). -는 경향이 있다 describes a pattern, often in a population, and sounds more analytical.",
         ],
         examples: [
           { es: "젊은 세대는 결혼을 미루는 경향이 있다.", en: "The younger generation tends to put off marriage." },
@@ -1126,7 +1126,7 @@ export const KO_B2_U17: Lesson[] = [
       {
         heading: "Linked trends: -(으)ㄹ수록",
         body: [
-          "-(으)ㄹ수록 from B1 'the more ..., the more ...' joins two trends into one claim, and in reports it often ends with -는 경향이 있다: 교육 수준이 높을수록 결혼이 늦어지는 경향이 있다. 수록 is attached: 높을수록, 비쌀수록, 늘수록.",
+          "-(으)ㄹ수록 from Intermediate 'the more ..., the more ...' joins two trends into one claim, and in reports it often ends with -는 경향이 있다: 교육 수준이 높을수록 결혼이 늦어지는 경향이 있다. 수록 is attached: 높을수록, 비쌀수록, 늘수록.",
           "For emphasis use -(으)면 -(으)ㄹ수록 (집값이 오르면 오를수록), and 갈수록 'as time goes on' with -아 / 어지다: 갈수록 결혼이 늦어지고 있다.",
         ],
         examples: [
@@ -1283,7 +1283,7 @@ export const KO_B2_U17: Lesson[] = [
       {
         heading: "-아 / 어도: even if, and general truths",
         body: [
-          "-아 / 어도 (B1) covers what -는데도 can't: imagined situations (내일 비가 와도 나갈 거예요 'Even if it rains tomorrow, I'll go out'), general rules (아무리 바빠도 밥은 먹어야 해요), and commands or suggestions (비가 와도 가세요). It can describe a real past fact too (비가 와도 나갔어요), but with less surprise than -는데도.",
+          "-아 / 어도 (Intermediate) covers what -는데도 can't: imagined situations (내일 비가 와도 나갈 거예요 'Even if it rains tomorrow, I'll go out'), general rules (아무리 바빠도 밥은 먹어야 해요), and commands or suggestions (비가 와도 가세요). It can describe a real past fact too (비가 와도 나갔어요), but with less surprise than -는데도.",
           "Quick test: if the first half might not happen, or the sentence is a rule or request, you need -아 / 어도.",
         ],
         examples: [
@@ -1498,7 +1498,7 @@ export const KO_B2_U17: Lesson[] = [
             sentence: "청년들이 ___ 마을이 늙어 가고 있다.",
             answer: "떠나는 가운데",
             altAnswers: ["떠나고 있는 가운데"],
-            explanation: "떠나다 → 떠나는 가운데. 늙어 가다 'grow old' (B1 -아 / 어 가다).",
+            explanation: "떠나다 → 떠나는 가운데. 늙어 가다 'grow old' (Intermediate -아 / 어 가다).",
           },
         ],
       },
@@ -1802,7 +1802,7 @@ export const KO_B2_U17: Lesson[] = [
             source: "Statistics Korea explained that the main cause was the rise in marriages.",
             answer: "통계청은 결혼 건수가 늘어난 것이 주요 원인이라고 설명했습니다.",
             altAnswers: ["통계청은 결혼 건수가 증가한 것이 주요 원인이라고 설명했습니다.", "통계청은 결혼 건수 증가가 주요 원인이라고 설명했습니다.", "통계청은 결혼이 늘어난 것이 주요 원인이라고 설명했습니다.", "통계청은 결혼 건수가 늘어난 것이 주된 원인이라고 설명했습니다.", "통계청은 주요 원인이 결혼 건수 증가라고 설명했습니다.", "통계청은 결혼 건수가 늘어난 것이 가장 큰 원인이라고 설명했습니다."],
-            explanation: "Reported speech -(이)라고 설명하다 (B1 Unit 1): 원인 + 이라고. The cause is a -(으)ㄴ 것 clause.",
+            explanation: "Reported speech -(이)라고 설명하다 (Intermediate Unit 1): 원인 + 이라고. The cause is a -(으)ㄴ 것 clause.",
           },
           {
             type: "fill-blank",
@@ -1982,7 +1982,7 @@ export const KO_B2_U17: Lesson[] = [
             sentence: "나는 서울에서 혼자 산 지 ___.",
             answer: "8년째다",
             altAnswers: ["팔 년째다", "8년이 되었다", "팔 년이 되었다", "8년이 됐다", "팔 년이 됐다"],
-            explanation: "-(으)ㄴ 지 + time (A2), and 째 'the nth': 8년째 [팔 련째]. 째 attaches to the counter.",
+            explanation: "-(으)ㄴ 지 + time (Elementary), and 째 'the nth': 8년째 [팔 련째]. 째 attaches to the counter.",
           },
         ],
       },

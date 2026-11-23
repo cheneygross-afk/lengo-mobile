@@ -632,7 +632,7 @@ export const KO_B1_U03: Lesson[] = [
         heading: "Commands: -(으)라고 해요 → -(으)래요",
         body: [
           "A reported command, -(으)라고 해요 (Unit 2), shrinks to -(으)래요: 빨리 오라고 해요 → 빨리 오래요 'he says to come quickly'. After a vowel it is -래요 (오래요, 기다리래요), after a consonant -으래요 (먹으래요, 앉으래요). Irregulars behave as before -(으)세요: 듣다 → 들으래요, 돕다 → 도우래요.",
-          "ㄹ stems keep their ㄹ and add 래요 directly: 만들래요, 열래요. These look exactly like -(으)ㄹ래요 'I want to' from A2, so 창문 열래요 can mean 'I'll open the window' or 'He says to open the window'; the situation tells you which. The negative is -지 말래요: 늦지 말래요 'they say not to be late'.",
+          "ㄹ stems keep their ㄹ and add 래요 directly: 만들래요, 열래요. These look exactly like -(으)ㄹ래요 'I want to' from the Elementary level, so 창문 열래요 can mean 'I'll open the window' or 'He says to open the window'; the situation tells you which. The negative is -지 말래요: 늦지 말래요 'they say not to be late'.",
         ],
         examples: [
           { es: "과장님이 빨리 오래요.", en: "The section chief says to come quickly." },
@@ -856,7 +856,7 @@ export const KO_B1_U03: Lesson[] = [
         body: [
           "When you heard something from a third person and want the person it concerns to confirm it, add -면서요? to the -다고 form: 다음 달에 결혼한다면서요? 'I heard you're getting married next month. Is that right?'. One ending carries the whole English 'I heard ... is that true?'.",
           "The stem rules are those of -다고: 바쁘다면서요?, 결혼한다면서요?, 먹는다면서요?, 갔다면서요?, 이사 갈 거라면서요?. The voice rises at the end.",
-          "Compare -죠? from A2, which checks something both of you already know. -다면서요? signals that the information came from someone else, so it's the natural way to bring up news politely: you show where you heard it rather than claiming to know.",
+          "Compare -죠? from the Elementary level, which checks something both of you already know. -다면서요? signals that the information came from someone else, so it's the natural way to bring up news politely: you show where you heard it rather than claiming to know.",
         ],
         examples: [
           { es: "다음 달에 결혼한다면서요?", en: "I heard you're getting married next month. Is that right?" },
@@ -1206,7 +1206,7 @@ export const KO_B1_U03: Lesson[] = [
         question: "What does it mean?",
         options: ["You said you don't eat this!", "You're not eating this?", "They say you don't eat this.", "You told me not to eat this."],
         correctIndex: 0,
-        explanation: "안 먹는댔잖아 = 안 먹는다고 했잖아: -잖아 (A2) reminds the friend of their own words.",
+        explanation: "안 먹는댔잖아 = 안 먹는다고 했잖아: -잖아 (Elementary) reminds the friend of their own words.",
       },
       {
         type: "translate",
@@ -1621,7 +1621,7 @@ export const KO_B1_U03: Lesson[] = [
       {
         heading: "Sound: ㄹ after ㄱ and ㅂ",
         body: [
-          "A review from A2: when ㄹ follows a syllable ending in ㄱ or ㅂ, the ㄹ is said [ㄴ], and that ㄴ then makes ㄱ nasal [ㅇ] and ㅂ nasal [ㅁ]. 독립 is [동닙], 국립 [궁닙], 협력 [혐녁], 식료품 [싱뇨품] 'groceries', 대학로 [대항노]. News and announcements are full of these Sino-Korean words, and the spelling never changes.",
+          "A review from the Elementary level: when ㄹ follows a syllable ending in ㄱ or ㅂ, the ㄹ is said [ㄴ], and that ㄴ then makes ㄱ nasal [ㅇ] and ㅂ nasal [ㅁ]. 독립 is [동닙], 국립 [궁닙], 협력 [혐녁], 식료품 [싱뇨품] 'groceries', 대학로 [대항노]. News and announcements are full of these Sino-Korean words, and the spelling never changes.",
         ],
         examples: [
           { es: "주말에 국립공원에 비가 많이 온대요.", en: "They say it'll rain a lot in the national park at the weekend." },
@@ -1658,7 +1658,7 @@ export const KO_B1_U03: Lesson[] = [
       {
         heading: "A rumour about a new café",
         body: [
-          "Rumours travel in short forms. Listen for who is the source (수빈 씨가 그러는데 'Subin was saying...'), then what kind of report it is: -대요 for a fact, -래요 after a noun, -재요 for a plan. 그러는데 is 그러다 'to say so' + -는데 for background, from A2.",
+          "Rumours travel in short forms. Listen for who is the source (수빈 씨가 그러는데 'Subin was saying...'), then what kind of report it is: -대요 for a fact, -래요 after a noun, -재요 for a plan. 그러는데 is 그러다 'to say so' + -는데 for background, from the Elementary level.",
         ],
         examples: [
           { es: "수빈 씨가 그러는데 케이크가 진짜 맛있대요.", en: "Subin was saying the cake is really good." },
@@ -2171,7 +2171,7 @@ export const KO_B1_U03: Lesson[] = [
         source: "Oh, so that's why he's been busy lately.",
         answer: "아, 그래서 요즘 바쁘셨구나.",
         altAnswers: ["아, 그래서 요즘 바쁘셨군요.", "아, 그래서 요즘 바쁘셨네요.", "그래서 요즘 바쁘셨구나."],
-        explanation: "-구나 / -군요 is the 'I see now' ending from A2, with -시- for the section chief.",
+        explanation: "-구나 / -군요 is the 'I see now' ending from the Elementary level, with -시- for the section chief.",
       },
       {
         type: "dictation",

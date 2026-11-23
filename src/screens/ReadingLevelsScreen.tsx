@@ -34,7 +34,6 @@ function SpanishReadingLevels({ navigation }: Props) {
             onPress={() => navigation.navigate("ReadingsList", { levelPath: lvl.levelPath })}
           >
             <View style={styles.cardTop}>
-              <Text style={styles.cardCode}>{lvl.code}</Text>
               <Text style={styles.cardName}>{lvl.name}</Text>
             </View>
             <Text style={styles.cardDescription}>{lvl.description}</Text>
@@ -111,8 +110,7 @@ function CourseStoryLevels({ navigation, course }: Props & { course: StoryCourse
             }
           >
             <View style={styles.cardTop}>
-              <Text style={styles.cardCode}>{lvl.label}</Text>
-              {config.namedLevels ? null : <Text style={styles.cardName}>{lvl.name}</Text>}
+              <Text style={styles.cardName}>{config.namedLevels ? lvl.label : lvl.name}</Text>
             </View>
             <Text style={styles.cardMeta}>{lvl.stories.length} stories</Text>
           </Pressable>

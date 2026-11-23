@@ -60,7 +60,7 @@ export const PT_B2_U10: Lesson[] = [
         body: [
           "Most nouns in -a are feminine, but a family of -ma nouns came from Greek and stayed masculine: \"o problema\", \"o sistema\", \"o tema\", \"o clima\", \"o programa\", \"o idioma\", \"o poema\", \"o diploma\", \"o dilema\", \"o telefonema\". Most have English cousins ending in -m or -me (problem, system, theme, poem), which makes a handy test.",
           "The gender ripples through the whole phrase: \"um problema sério\", \"esse sistema é novo\", \"os temas principais\". \"Uma problema\" or \"a sistema nova\" is the classic learner slip, and Brazilians notice it at once.",
-          "Everyday -ma words with no Greek past are feminine, as expected: \"a cama\", \"a forma\", \"a arma\", \"a alma\". Put the masculine -a nouns from A1 on the same mental list: \"o dia\", \"o mapa\", \"o planeta\".",
+          "Everyday -ma words with no Greek past are feminine, as expected: \"a cama\", \"a forma\", \"a arma\", \"a alma\". Put the masculine -a nouns from the Beginner level on the same mental list: \"o dia\", \"o mapa\", \"o planeta\".",
         ],
         examples: [
           { es: "Temos um problema sério com o sistema novo.", en: "We have a serious problem with the new system." },
@@ -2213,7 +2213,7 @@ export const PT_B2_U10: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Precise Description",
-    summary: "Mixed practice of gender traps, compound plurals, adjective position, word families and attitude suffixes in fresh sentences alongside the B2 tenses.",
+    summary: "Mixed practice of gender traps, compound plurals, adjective position, word families and attitude suffixes in fresh sentences alongside the Upper-intermediate tenses.",
     duration: "15 min",
     kind: "review",
     format: "Spiral Review",
@@ -2221,7 +2221,7 @@ export const PT_B2_U10: Lesson[] = [
       {
         heading: "Gender and plurals in fresh sentences",
         body: [
-          "This lesson adds nothing new. It puts the unit's traps into fresh sentences alongside the rest of B2. Start with gender. Greek \"-ma\" nouns are masculine (\"o problema\", \"o sistema\", \"o tema\", \"o clima\"). A few nouns change meaning with gender: \"o capital\" is money and \"a capital\" is a city; \"o rádio\" is the set and \"a rádio\" is the station; \"o grama\" is a gram and \"a grama\" is grass.",
+          "This lesson adds nothing new. It puts the unit's traps into fresh sentences alongside the rest of the Upper-intermediate level. Start with gender. Greek \"-ma\" nouns are masculine (\"o problema\", \"o sistema\", \"o tema\", \"o clima\"). A few nouns change meaning with gender: \"o capital\" is money and \"a capital\" is a city; \"o rádio\" is the set and \"a rádio\" is the station; \"o grama\" is a gram and \"a grama\" is grass.",
           "The article controls every adjective and pronoun that refers back, so one wrong gender spreads through the whole sentence: \"o sistema novo... ele está lento\". In compounds, nouns and adjectives take the plural and verbs don't: \"segundas-feiras\", \"cachorros-quentes\", but \"guarda-chuvas\", \"beija-flores\".",
         ],
         examples: [
@@ -2309,7 +2309,7 @@ export const PT_B2_U10: Lesson[] = [
         heading: "Size, attitude and the whole toolkit",
         body: [
           "\"-ão\" and \"-inho\" carry attitude as well as size. \"Um carrão\" impresses, \"um filminho\" belittles, \"um cafezinho\" is hospitality, and \"o jeitinho\" is the art of getting around an obstacle.",
-          "Watch the plural of \"-zinho\" words. Both parts go plural, built on the noun's own plural minus the s: \"pães\" → \"pãezinhos\", \"cafés\" → \"cafezinhos\". The noun's gender and number still control agreement inside the B2 tenses: \"se eu tivesse um carrão desses\", \"espero que os problemas sejam resolvidos\".",
+          "Watch the plural of \"-zinho\" words. Both parts go plural, built on the noun's own plural minus the s: \"pães\" → \"pãezinhos\", \"cafés\" → \"cafezinhos\". The noun's gender and number still control agreement inside the Upper-intermediate tenses: \"se eu tivesse um carrão desses\", \"espero que os problemas sejam resolvidos\".",
         ],
         examples: [
           { es: "Se eu tivesse um carrão desses, viajaria até Porto Alegre.", en: "If I had a car like that, I'd drive all the way to Porto Alegre." },

@@ -92,7 +92,7 @@ const UNITS: KoreanUnitDef[] = [
   { id: "u25", title: "Advanced Listening: Debates, Regional Speech, Fast Casual Speech", description: "Follow Korean at its hardest: heated debates, regional speakers, fast casual talk, poor phone lines and long lectures.", lessons: KO_C2_U25, extra: KO_C2_U25_EXTRA, writing: KO_C2_U25_WRITING },
   { id: "u26", title: "Writing With Style: Concision, Rhythm, Avoiding Translationese", description: "Write Korean that reads as if a skilled native wrote it: concise, well-paced and free of 번역투.", lessons: KO_C2_U26, extra: KO_C2_U26_EXTRA, writing: KO_C2_U26_WRITING },
   { id: "u27", title: "Mastery Projects", description: "Carry out native-level tasks from start to finish: ceremonies, official writing, negotiation, moderation and interpreting.", lessons: KO_C2_U27, extra: KO_C2_U27_EXTRA, writing: KO_C2_U27_WRITING },
-  { id: "u28", title: "C2 Review and TOPIK 6 Practice", description: "Bring the whole Mastery level together and practise TOPIK II at level 6 in all three sections.", lessons: KO_C2_U28, extra: KO_C2_U28_EXTRA, writing: KO_C2_U28_WRITING },
+  { id: "u28", title: "Review and TOPIK 6 Practice", description: "Bring the whole Mastery level together and practise TOPIK II at level 6 in all three sections.", lessons: KO_C2_U28, extra: KO_C2_U28_EXTRA, writing: KO_C2_U28_WRITING },
 ];
 
 const LEVEL = buildKoreanLevel("C2", UNITS);

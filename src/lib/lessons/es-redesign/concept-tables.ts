@@ -604,7 +604,7 @@ export const PARTICIPLES: LessonTable = {
     ["escribir", "*escrito", "He escrito una carta."],
     ["abrir", "*abierto", "Han abierto la tienda."],
     ["volver", "*vuelto", "Ha vuelto a casa."],
-    ["romper", "*roto", "Se ha roto."],
+    ["romper", "*roto", "Ha roto el vaso."],
   ],
 };
 

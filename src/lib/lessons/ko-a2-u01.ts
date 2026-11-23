@@ -320,7 +320,7 @@ export const KO_A2_U01: Lesson[] = [
       {
         heading: "Future, and never 요",
         body: [
-          "-(으)ㄹ 거예요 becomes -(으)ㄹ 겁니다 in speech and -(으)ㄹ 것입니다 in writing and on the news: 출발할 겁니다, 출발할 것입니다. ㄹ stems as in A1: 만들 겁니다. Like 해요, the present can also cover a scheduled future: 내일 출발합니다.",
+          "-(으)ㄹ 거예요 becomes -(으)ㄹ 겁니다 in speech and -(으)ㄹ 것입니다 in writing and on the news: 출발할 겁니다, 출발할 것입니다. ㄹ stems as in the Beginner level: 만들 겁니다. Like 해요, the present can also cover a scheduled future: 내일 출발합니다.",
           "합니다 forms are complete on their own. Never add 요: *학생입니다요 or *감사합니다요 sounds like a joke or a mistake. 요 belongs to 해요 only.",
         ],
         examples: [
@@ -1056,7 +1056,7 @@ export const KO_A2_U01: Lesson[] = [
       {
         heading: "The weather report",
         body: [
-          "Forecasters add -겠- to give a prediction: 서울은 맑겠습니다 'Seoul will be clear'. Recognise it for now; guessing with -겠- comes later in A2. 기온 is temperature, 지역 region, 전국 the whole country and 도 degrees, counted in Sino-Korean numbers.",
+          "Forecasters add -겠- to give a prediction: 서울은 맑겠습니다 'Seoul will be clear'. Recognise it for now; guessing with -겠- comes later in the Elementary level. 기온 is temperature, 지역 region, 전국 the whole country and 도 degrees, counted in Sino-Korean numbers.",
         ],
         examples: [
           { es: "오늘 서울은 맑겠습니다.", en: "Seoul will be clear today." },

@@ -1126,7 +1126,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "A gente: a pronoun still being born",
         body: [
-          "You've used \"a gente\" since A1. What's new at C2 is how it got there. \"Gente\" meant people, and \"a gente\" (roughly 'the folks, me included') slid into a first-person plural pronoun, a textbook case of grammaticalization. Studies of Rio speech recorded decades apart show it overtaking \"nós\" in conversation, led by younger urban speakers. In formal writing \"nós\" still holds.",
+          "You've used \"a gente\" since the Beginner level. What's new at the Mastery level is how it got there. \"Gente\" meant people, and \"a gente\" (roughly 'the folks, me included') slid into a first-person plural pronoun, a textbook case of grammaticalization. Studies of Rio speech recorded decades apart show it overtaking \"nós\" in conversation, led by younger urban speakers. In formal writing \"nós\" still holds.",
           "Because it began as a noun, \"a gente\" keeps the third-person singular verb (\"a gente vai\", \"a gente se vê\"), but meaning pulls against form. The possessive is usually \"nosso\", not \"seu\" (\"a gente vendeu nosso carro\"). An adjective tends to follow the real speakers: two women say \"a gente ficou exausta\", and a mixed group says \"exausto\" or even \"exaustos\". The hybrid \"a gente fomos\" is common in some communities but heavily stigmatized: recognize it, don't produce it.",
           "Speakers who say \"a gente\" at the dinner table switch to \"nós\" in an interview or a report, so the choice is about register, not correctness.",
         ],
@@ -1169,7 +1169,7 @@ export const PT_C2_U08: Lesson[] = [
         heading: "The vanishing o: empty objects and \"ele\"",
         body: [
           "The third-person clitic \"o / a / os / as\" has nearly vanished from spoken Brazilian Portuguese. Children rarely produce it before school teaches it, so for many Brazilians it is a learned, written form, almost a second grammar. Two strategies have replaced it. With things, the object simply disappears: \"Cadê o bolo? Eu comi.\" English needs 'it'; Portuguese finds the gap perfectly clear.",
-          "With people, the subject pronoun moves into object position (\"eu vi ele\", \"chama ela\"), as you saw at A2. The pattern is the C2 point: people favor \"ele\", things favor the empty object, and \"o\" survives in the press, in formal speech and after infinitives in writing (\"vou ajudá-lo\").",
+          "With people, the subject pronoun moves into object position (\"eu vi ele\", \"chama ela\"), as you saw at the Elementary level. The pattern is the Mastery point: people favor \"ele\", things favor the empty object, and \"o\" survives in the press, in formal speech and after infinitives in writing (\"vou ajudá-lo\").",
           "The rest of the system is moving too. With \"você\" as the default you, \"te\" has become its object (\"você sabe que eu te adoro\"), mixing persons the norm keeps apart. In much of the Nordeste \"lhe\" is a polite you, even as a direct object (\"eu lhe vi na feira\").",
         ],
         examples: [
@@ -2131,7 +2131,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "The question and the thesis",
         body: [
-          "Language essays in Brazil answer questions people really argue about. Should schools correct \"a gente\" in compositions? Do anglicisms like \"deletar\" threaten Portuguese? Is \"os menino chegou\" simply wrong? The trap is to answer in dinner-table terms, \"certo\" and \"errado\". A C2 essay reframes the question the way this unit has: \"adequado\" or \"inadequado\" to a situation, \"norma padrão\" set against \"variedades\", and prestige rather than purity.",
+          "Language essays in Brazil answer questions people really argue about. Should schools correct \"a gente\" in compositions? Do anglicisms like \"deletar\" threaten Portuguese? Is \"os menino chegou\" simply wrong? The trap is to answer in dinner-table terms, \"certo\" and \"errado\". A Mastery essay reframes the question the way this unit has: \"adequado\" or \"inadequado\" to a situation, \"norma padrão\" set against \"variedades\", and prestige rather than purity.",
           "Open with a fact or a scene, not a definition. \"Basta abrir qualquer rede social para...\" pulls the reader in. \"Desde os primórdios da humanidade\" is the cliché Brazilian teachers circle in red. Then state the thesis in one sentence, with \"defende-se que\" or \"este texto sustenta que\". Use \"eu\" only if the piece is a column rather than an academic text.",
           "Keep the thesis arguable. \"O português está mudando\" is a truism nobody disputes. \"Corrigir a fala do aluno ensina pouco sobre escrita\" is a claim someone could challenge, and that is what makes it worth defending.",
         ],
@@ -2185,7 +2185,7 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Evidence: forms, data and voices",
         body: [
           "Evidence comes in three kinds: the forms themselves, data and named voices. Put every form you discuss in quotation marks and name it with metalanguage: \"a concordância variável\", \"o empréstimo\", \"o pronome de primeira pessoa\". The essay itself stays in the norma culta even when it defends \"os menino\". Quoting a variant is not the same as writing in it.",
-          "Attribute voices with the right verb. As in your C1 work on the media, \"segundo\" and \"conforme\" report a source at a distance, while \"como mostra\" signals that you accept it. The conditional (\"empobreceriam\") distances you further from a claim you're about to attack.",
+          "Attribute voices with the right verb. As in your Advanced work on the media, \"segundo\" and \"conforme\" report a source at a distance, while \"como mostra\" signals that you accept it. The conditional (\"empobreceriam\") distances you further from a claim you're about to attack.",
           "Don't invent precision. Without a real figure, write \"na fala de praticamente todas as classes sociais\" or \"em boa parte do país\", not a percentage you couldn't defend.",
         ],
         examples: [

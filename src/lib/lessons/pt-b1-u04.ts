@@ -1173,7 +1173,7 @@ export const PT_B1_U04: Lesson[] = [
       {
         heading: "Se + indicative: facts and habits",
         body: [
-          "\"Se\" + the present indicative, which you know from A2, states what is generally true or true right now: \"se chove, a feira fecha mais cedo\" (whenever it rains), \"se você está cansado, vai dormir\" (you're tired at this moment).",
+          "\"Se\" + the present indicative, which you know from the Elementary level, states what is generally true or true right now: \"se chove, a feira fecha mais cedo\" (whenever it rains), \"se você está cansado, vai dormir\" (you're tired at this moment).",
           "\"Caso\" can't do this job: it only looks at uncertain possibilities. And \"se\" never takes the present subjunctive: \"se você precise\" is a classic learner error. Keep the pairs straight: \"caso\" + subjunctive, \"se\" + indicative for facts and habits.",
         ],
         examples: [
@@ -1758,7 +1758,7 @@ export const PT_B1_U04: Lesson[] = [
       {
         heading: "Packing: caso and embora",
         body: [
-          "\"Caso\" + present subjunctive means in case: \"leva uma blusa caso esfrie à noite\". In much of Brazil a \"blusa\" is any warm top, such as a sweater or a light jacket, not just a blouse. \"Leva\" and \"traz\" are the everyday commands you learned at A2.",
+          "\"Caso\" + present subjunctive means in case: \"leva uma blusa caso esfrie à noite\". In much of Brazil a \"blusa\" is any warm top, such as a sweater or a light jacket, not just a blouse. \"Leva\" and \"traz\" are the everyday commands you learned at the Elementary level.",
           "\"Embora\" (although) concedes a point and takes the subjunctive: \"embora seja longe, vale a pena\" (although it's far, it's worth it). Before a noun or an infinitive, use \"apesar de\" instead: \"apesar da distância\".",
         ],
         examples: [
@@ -2516,7 +2516,7 @@ export const PT_B1_U04: Lesson[] = [
         heading: "So that, before, until, without",
         body: [
           "One rule runs through this unit. If the second verb has a different subject, use the conjunction with \"que\" and the subjunctive (\"para que você entenda\"). If the subject is the same, use the preposition and the infinitive (\"para entender\", \"antes de sair\"). English blurs this with to and before -ing, so check who does each action.",
-          "These sentences also recycle A2 commands and pronouns: \"me avisa antes que eles cheguem\". In speech the pronoun still goes before the verb. The conjunction changes only the mood of the verb after it.",
+          "These sentences also recycle Elementary commands and pronouns: \"me avisa antes que eles cheguem\". In speech the pronoun still goes before the verb. The conjunction changes only the mood of the verb after it.",
         ],
         examples: [
           { es: "Vou deixar a chave com a vizinha para que você possa entrar.", en: "I'll leave the key with the neighbor so you can get in." },

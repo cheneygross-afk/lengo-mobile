@@ -109,7 +109,7 @@ export const ZH_A1_SPEC: LevelSpec = {
       "zh-ability-hui-neng",
       "zh-le-completed-actions",
     ]),
-    unit("zh-a1-u7", "Out and about", "Transport and suggestions with 吧, the weather and likes, then the whole of A1 together.", [
+    unit("zh-a1-u7", "Out and about", "Transport and suggestions with 吧, the weather and likes, then the whole of Foundations together.", [
       "zh-getting-around",
       "zh-weather-likes",
       "zh-a1-review",
@@ -212,7 +212,7 @@ export const ZH_A2_SPEC: LevelSpec = {
       "zh-a2-before-after",
       "zh-a2-directions",
     ]),
-    unit("zh-a2-u5", "Reasons, conditions and advice", "因为…所以, 虽然…但是, 如果…就, health and the doctor, should/may/must, and the whole of A2 together.", [
+    unit("zh-a2-u5", "Reasons, conditions and advice", "因为…所以, 虽然…但是, 如果…就, health and the doctor, should/may/must, and the whole of Everyday Chinese together.", [
       "zh-a2-yinwei-suoyi",
       "zh-a2-suiran-danshi",
       "zh-a2-ruguo",
@@ -299,7 +299,7 @@ export const ZH_B1_SPEC: LevelSpec = {
       "zh-b1-zhiyou-cai",
       "zh-b1-indefinite",
     ]),
-    unit("zh-b1-u5", "Life and study", "Feelings, telling things in order, school and study, and the whole of B1 together.", [
+    unit("zh-b1-u5", "Life and study", "Feelings, telling things in order, school and study, and the whole of Independent Chinese together.", [
       "zh-b1-feelings",
       "zh-b1-sequencing",
       "zh-b1-education",
@@ -377,7 +377,7 @@ export const ZH_B2_SPEC: LevelSpec = {
       "zh-b2-suizhe",
       "zh-b2-chengyu",
     ]),
-    unit("zh-b2-u5", "Society and the world", "The environment, life online, festivals and customs, and the whole of B2 together.", [
+    unit("zh-b2-u5", "Society and the world", "The environment, life online, festivals and customs, and the whole of Upper-Intermediate Chinese together.", [
       "zh-b2-environment",
       "zh-b2-internet",
       "zh-b2-customs",
@@ -483,7 +483,7 @@ export const ZH_C1_SPEC: LevelSpec = {
       "zh-c1-interview",
       "zh-c1-politeness",
     ]),
-    unit("zh-c1-u5", "新闻与社会", "看新闻、读数据、谈社会问题, 以及 C1 总复习。", [
+    unit("zh-c1-u5", "新闻与社会", "看新闻、读数据、谈社会问题, 以及总复习。", [
       "zh-c1-news",
       "zh-c1-data",
       "zh-c1-society",
@@ -557,7 +557,7 @@ export const ZH_C2_SPEC: LevelSpec = {
       "zh-c2-internet-slang",
       "zh-c2-register",
     ]),
-    unit("zh-c2-u5", "文学与思想", "古诗、《论语》名句、议论文的写法，以及 C2 总复习。", [
+    unit("zh-c2-u5", "文学与思想", "古诗、《论语》名句、议论文的写法，以及总复习。", [
       "zh-c2-poetry",
       "zh-c2-classics",
       "zh-c2-essay",

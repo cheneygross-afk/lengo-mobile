@@ -20,8 +20,8 @@ export const KO_B2_U25: Lesson[] = [
       {
         heading: "거: 것 in speech",
         body: [
-          "것 'thing, the fact that' runs through Korean grammar: 먹을 것이다 'will eat', 이것 'this', 좋아하는 것 'what I like'. In speech it is almost always 거. The future you learnt at A2, 먹을 거예요, is already a contraction: the full form is 먹을 것이에요, written 먹을 것이다 or 먹을 것입니다. Likewise 이거, 그거, 저거 'this, that, that over there' are 이것, 그것, 저것 in writing.",
-          "With the copula, 거 takes the vowel forms: 거예요 in 해요 and 거야 in 반말, as in 내 거야 'It's mine'. Spell it 거예요, because 거 ends in a vowel (the A1 rule for 이에요 / 예요); *거에요 is a slip you will see everywhere online, and it is not the standard spelling.",
+          "것 'thing, the fact that' runs through Korean grammar: 먹을 것이다 'will eat', 이것 'this', 좋아하는 것 'what I like'. In speech it is almost always 거. The future you learnt at the Elementary level, 먹을 거예요, is already a contraction: the full form is 먹을 것이에요, written 먹을 것이다 or 먹을 것입니다. Likewise 이거, 그거, 저거 'this, that, that over there' are 이것, 그것, 저것 in writing.",
+          "With the copula, 거 takes the vowel forms: 거예요 in 해요 and 거야 in 반말, as in 내 거야 'It's mine'. Spell it 거예요, because 거 ends in a vowel (the Beginner rule for 이에요 / 예요); *거에요 is a slip you will see everywhere online, and it is not the standard spelling.",
         ],
         examples: [
           { es: "뭐 먹을 거예요?", en: "What are you going to eat?" },
@@ -64,7 +64,7 @@ export const KO_B2_U25: Lesson[] = [
         body: [
           "When a particle follows 것, the two merge into one syllable: 것이 → 게, 것을 → 걸, 것은 → 건, and 것으로 → 걸로. So 이것이 is 이게, 이것을 is 이걸, 이것은 is 이건, and the same with 그 and 저: 그게, 저걸, 그건. 이걸로 할게요 'I'll go with this one' is the sentence for choosing in any shop or café.",
           "After a modifier they work the same way: 좋아하는 게 뭐예요? 'What is it you like?', 먹을 걸 샀어요 'I bought something to eat', 그런 건 몰라요 'I don't know about that kind of thing'. At speed these are the forms you will actually hear, so learn to unpack them: 게 is the thing as subject, 걸 the thing as object, 건 the thing as topic. Because the particle is already inside, never add another one: 걸 already holds 을.",
-          "Keep the object 걸 apart from the ending -(으)ㄹ걸 (B1): 먹을 걸 샀어 'I bought something to eat' is 것을 and spaced, while 더 먹을걸 'I should have eaten more' is one word. Both are said [머글껄], so at speed only the meaning tells you which one you heard.",
+          "Keep the object 걸 apart from the ending -(으)ㄹ걸 (Intermediate): 먹을 걸 샀어 'I bought something to eat' is 것을 and spaced, while 더 먹을걸 'I should have eaten more' is one word. Both are said [머글껄], so at speed only the meaning tells you which one you heard.",
         ],
         examples: [
           { es: "이게 뭐예요?", en: "What's this?" },
@@ -746,7 +746,7 @@ export const KO_B2_U25: Lesson[] = [
       {
         heading: "Sequence: 사 가지고 가다",
         body: [
-          "The literal meaning of 가지다 is 'to hold, have', and it shows in the second use: the first action produces something you carry into the second. 김밥을 사 가지고 갔어요 'I bought gimbap and took it along', 반찬을 만들어 가지고 왔어요 'made side dishes and brought them'. This is the sequence -아 / 어서 of A2 with an object, and one person does both actions.",
+          "The literal meaning of 가지다 is 'to hold, have', and it shows in the second use: the first action produces something you carry into the second. 김밥을 사 가지고 갔어요 'I bought gimbap and took it along', 반찬을 만들어 가지고 왔어요 'made side dishes and brought them'. This is the sequence -아 / 어서 of Elementary with an object, and one person does both actions.",
           "In fast speech 가지고 often shrinks to 갖고 (사 갖고 와 'buy it and bring it'), and the final 고 is often heard as [구]: [가지구]. Whatever you hear, write 가지고 or 갖고.",
           "Keep it apart from N을 가지고 'with N, using N' (이 돈을 가지고 뭘 할 수 있어? 'What can you do with this money?') and from plain 가지다 'to have' (차를 가지고 있어요). The connective always follows a verb's -아 / 어 form directly.",
         ],
@@ -1683,7 +1683,7 @@ export const KO_B2_U25: Lesson[] = [
         heading: "Part 1: Catching up",
         body: [
           "수빈 and 하준 were at university together and meet in a café in 홍대 after a few months. They speak 반말, the way close friends of the same age do, and at full speed. Almost every line has a contraction from this unit, so listen for the short forms first and unpack them afterwards.",
-          "Gossip in Korean leans on reported speech: 그만뒀대 'he says he quit' is -았 / 었다고 해 shortened (B1). Listen for -대 and -래 at the end of a line: they tell you the news comes from someone else.",
+          "Gossip in Korean leans on reported speech: 그만뒀대 'he says he quit' is -았 / 었다고 해 shortened (Intermediate). Listen for -대 and -래 at the end of a line: they tell you the news comes from someone else.",
         ],
         examples: [
           { es: "수빈: 야, 오랜만이다! 요즘 뭐 하고 지내?", en: "Subin: Hey, long time no see! What have you been up to?" },
@@ -1953,7 +1953,7 @@ export const KO_B2_U25: Lesson[] = [
             sentence: "기차표가 ___.",
             answer: "벌써 다 팔렸더라고요",
             altAnswers: ["이미 다 팔렸더라고요", "벌써 매진됐더라고요", "벌써 다 매진됐더라고요", "이미 매진됐더라고요"],
-            explanation: "-더라고요 reports what you found out yourself (B1). 매진되다 'be sold out' is the ticket-office word.",
+            explanation: "-더라고요 reports what you found out yourself (Intermediate). 매진되다 'be sold out' is the ticket-office word.",
           },
           {
             type: "translate",

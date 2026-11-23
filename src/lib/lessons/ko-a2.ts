@@ -74,7 +74,7 @@ const UNITS: KoreanUnitDef[] = [
   { id: "u19", title: "Guessing and Seeming", description: "Guess and say how things seem or look, and soften opinions the Korean way.", lessons: KO_A2_U19, extra: KO_A2_U19_EXTRA, writing: KO_A2_U19_WRITING },
   { id: "u20", title: "Turning Verbs into Nouns", description: "Turn actions into nouns to talk about hobbies, what is easy or hard, and the reasons for things.", lessons: KO_A2_U20, extra: KO_A2_U20_EXTRA, writing: KO_A2_U20_WRITING },
   { id: "u21", title: "Change and Becoming", description: "Describe how things and people change, what you have come to do, and how something is done.", lessons: KO_A2_U21, extra: KO_A2_U21_EXTRA, writing: KO_A2_U21_WRITING },
-  { id: "u22", title: "Everyday Life in Korea and A2 Review", description: "Handle the bank, the hospital, the post office, a phone call, a delivery app and a subway transfer, and sit TOPIK I style questions.", lessons: KO_A2_U22, extra: KO_A2_U22_EXTRA, writing: KO_A2_U22_WRITING },
+  { id: "u22", title: "Everyday Life in Korea and Elementary Review", description: "Handle the bank, the hospital, the post office, a phone call, a delivery app and a subway transfer, and sit TOPIK I style questions.", lessons: KO_A2_U22, extra: KO_A2_U22_EXTRA, writing: KO_A2_U22_WRITING },
 ];
 
 const LEVEL = buildKoreanLevel("A2", UNITS);

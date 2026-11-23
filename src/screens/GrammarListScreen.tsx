@@ -64,7 +64,7 @@ function CourseGrammarList({ navigation, course }: Props & { course: GuideCourse
       };
     }),
   ].filter((s) => s.data.length > 0);
-  const range = config.levelNames ? `${config.levelNames.A1} to ${config.levelNames.C2}` : "A1 to C2";
+  const range = config.levelNames ? `${config.levelNames.A1} to ${config.levelNames.C2}` : "Beginner to Professional & Academic";
   return (
     <SectionList
       style={styles.container}
@@ -177,7 +177,7 @@ function SpanishGrammarList({ navigation }: Props) {
       stickySectionHeadersEnabled={false}
       ListHeaderComponent={
         <Text style={styles.subtitle}>
-          Clear explanations of Spanish grammar from A1 to C2, with tables, examples and the mistakes to avoid.
+          Clear explanations of Spanish grammar from beginner to advanced, with tables, examples and the mistakes to avoid.
         </Text>
       }
       renderSectionHeader={({ section }) => <Text style={styles.sectionHeader}>{section.title}</Text>}

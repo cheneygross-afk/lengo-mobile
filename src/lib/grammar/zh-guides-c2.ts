@@ -105,7 +105,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
     level: "C2",
     hsk: "HSK 7–9",
     intro: [
-      "Classical final particles carry tone the way 吗, 吧 and 啊 do today, and they live on in proverbs, quotations and chengyu. 之 and 以 are more active: they appear in modern formal prose every day, in meanings that go well beyond what you met at C1.",
+      "Classical final particles carry tone the way 吗, 吧 and 啊 do today, and they live on in proverbs, quotations and chengyu. 之 and 以 are more active: they appear in modern formal prose every day, in meanings that go well beyond what you met at the Advanced Chinese level.",
     ],
     sections: [
       {
@@ -132,7 +132,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "之 as a pronoun and in fixed phrases",
         body: [
-          "Besides its C1 role as a written 的, 之 (zhī) can be an object pronoun meaning 'it, him, them': 取而代之 (take its place), 总而言之 (to sum it up), 久而久之 (over time), 置之不理 (ignore it). It also links a subject and verb into a noun phrase: 大道之行也 (when the Great Way prevails), where 之 turns 'the Great Way prevails' into 'the prevailing of the Great Way'.",
+          "Besides its Advanced Chinese role as a written 的, 之 (zhī) can be an object pronoun meaning 'it, him, them': 取而代之 (take its place), 总而言之 (to sum it up), 久而久之 (over time), 置之不理 (ignore it). It also links a subject and verb into a noun phrase: 大道之行也 (when the Great Way prevails), where 之 turns 'the Great Way prevails' into 'the prevailing of the Great Way'.",
         ],
         examples: [
           { zh: "他每天熬夜，久而久之身体就垮了。", pinyin: "Tā měi tiān áo yè, jiǔ'érjiǔzhī shēntǐ jiù kuǎ le.", en: "He stayed up late every night, and over time his health broke down." },
@@ -540,7 +540,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
     level: "C2",
     hsk: "HSK 7–9",
     intro: [
-      "At C2 the question is rarely 'is this grammatical?' and usually 'does this fit?'. Chinese has a wide gap between spoken (口语) and written (书面语) vocabulary, and a third, even more formal register in official documents (公文). Mixing them is the commonest flaw in advanced learners' writing.",
+      "At the Proficient Chinese level the question is rarely 'is this grammatical?' and usually 'does this fit?'. Chinese has a wide gap between spoken (口语) and written (书面语) vocabulary, and a third, even more formal register in official documents (公文). Mixing them is the commonest flaw in advanced learners' writing.",
     ],
     sections: [
       {
@@ -645,7 +645,7 @@ export const ZH_GUIDES_C2: ZhGrammarGuide[] = [
       {
         heading: "Reframing and conceding",
         body: [
-          "与其说 A，不如说 B (yǔqí shuō A, bùrú shuō B) means 'it's less A than B, it would be truer to say B': 与其说他是老师，不如说他是朋友. Unlike 与其…不如 (a choice between actions, C1), this one is about how to describe something; you met it briefly in the C1 与其 lesson, and at C2 it becomes a standard tool for correcting a label in an argument.",
+          "与其说 A，不如说 B (yǔqí shuō A, bùrú shuō B) means 'it's less A than B, it would be truer to say B': 与其说他是老师，不如说他是朋友. Unlike 与其…不如 (a choice between actions, Advanced Chinese), this one is about how to describe something; you met it briefly in the Advanced Chinese level 与其 lesson, and at the Proficient Chinese level it becomes a standard tool for correcting a label in an argument.",
           "诚然 (chéngrán) concedes a point before countering it, like a formal 固然: 诚然，…，但是…. 不可否认 (bùkě fǒurèn, it's undeniable that) and 尽管如此 (jǐnguǎn rúcǐ, even so) serve the same structure.",
         ],
         examples: [

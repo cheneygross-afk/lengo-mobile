@@ -245,7 +245,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Opening: Bom dia a todos",
         body: [
-          "A Brazilian presentation opens with a greeting, thanks, and your name and role: \"Bom dia a todos, obrigado pela presença. Meu nome é Rafael e sou gerente de vendas.\" Jobs take no article, as at A1. A woman says \"obrigada pela presença\".",
+          "A Brazilian presentation opens with a greeting, thanks, and your name and role: \"Bom dia a todos, obrigado pela presença. Meu nome é Rafael e sou gerente de vendas.\" Jobs take no article, as at the Beginner level. A woman says \"obrigada pela presença\".",
           "Next, state the purpose and the plan. \"Gostaria de apresentar...\" sounds polished; \"vou falar sobre...\" suits a relaxed team meeting. \"O objetivo desta apresentação é...\" and \"vou dividir a apresentação em três partes\" tell the room what's coming.",
           "Don't translate I'll be presenting as \"vou estar apresentando\". Brazilians call this \"gerundismo\", a call-center habit that managers wince at. Just say \"vou apresentar\".",
         ],
@@ -576,7 +576,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Estaríamos dispostos a: offering without committing",
         body: [
-          "The futuro do pretérito, which you know from B1, does the diplomatic work here. It presents an offer as a possibility, so you can make it without committing. The key phrase is \"estar disposto a\" (to be willing to) + infinitive. \"Estaríamos dispostos a reduzir o preço\" keeps the door open, while \"estamos dispostos a\" is already a promise.",
+          "The futuro do pretérito, which you know from the Intermediate level, does the diplomatic work here. It presents an offer as a possibility, so you can make it without committing. The key phrase is \"estar disposto a\" (to be willing to) + infinitive. \"Estaríamos dispostos a reduzir o preço\" keeps the door open, while \"estamos dispostos a\" is already a promise.",
           "\"Disposto\" agrees with whoever is willing. Say \"dispostos\" for a company or a mixed team and \"dispostas\" for a team of women. A woman speaking alone says \"eu estaria disposta\". The preposition is always \"a\". Don't confuse the word with \"disponível\" (available).",
           "Brazilians rarely say a flat \"não\" at the table. \"Seria difícil\" or \"fica complicado para nós\" usually means no, and \"vamos ver\" rarely means yes. Answer a soft no with a contraproposta, not with pressure.",
         ],
@@ -616,7 +616,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Desde que, caso: setting conditions",
         body: [
-          "\"Desde que\" (provided that, as long as) takes the present subjunctive, as in B1: \"aceitamos, desde que vocês paguem à vista\". It turns the condition into a requirement, firmer than a plain \"se\". With the indicative it means since in time (\"desde que cheguei\"), so the mood matters.",
+          "\"Desde que\" (provided that, as long as) takes the present subjunctive, as in the Intermediate level: \"aceitamos, desde que vocês paguem à vista\". It turns the condition into a requirement, firmer than a plain \"se\". With the indicative it means since in time (\"desde que cheguei\"), so the mood matters.",
           "\"Caso\" (if, should) is the formal \"se\" of emails and contracts. It takes the present subjunctive where \"se\" takes the future subjunctive, so \"caso vocês aceitem\" means the same as \"se vocês aceitarem\". A very common slip mixes the two: never \"caso vocês aceitarem\".",
           "For a more tentative offer, shift both clauses back, as with unreal conditions: \"caso vocês assinassem por dois anos, daríamos dez por cento de desconto\".",
         ],
@@ -1949,7 +1949,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Register: the wrong voice in the email",
         body: [
-          "A first email to a client or recruiter keeps the formal frame you met at B1: \"Prezado\", \"o senhor\" / \"a senhora\", \"Atenciosamente\". \"Oi, tudo bem?\", \"valeu\" and \"beleza\" belong in chats with colleagues you already know.",
+          "A first email to a client or recruiter keeps the formal frame you met at the Intermediate level: \"Prezado\", \"o senhor\" / \"a senhora\", \"Atenciosamente\". \"Oi, tudo bem?\", \"valeu\" and \"beleza\" belong in chats with colleagues you already know.",
           "The opposite slip also costs you: \"venho por meio deste\" or \"solicito a gentileza de\" in a quick message to your team sounds stiff or ironic. Match the channel: Slack and WhatsApp take \"você\" and \"a gente\"; contracts, complaints and first contacts take the written norm.",
         ],
         examples: [
@@ -2351,7 +2351,7 @@ export const PT_B2_U13: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Working in Portuguese",
-    summary: "Mixed practice of meetings, presentations, negotiation, diplomatic disagreement and minutes, with the B2 subjunctives and the written norm working underneath.",
+    summary: "Mixed practice of meetings, presentations, negotiation, diplomatic disagreement and minutes, with the Upper-intermediate subjunctives and the written norm working underneath.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",
@@ -2359,7 +2359,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "In the meeting: pauta, palavra, combinados",
         body: [
-          "This review mixes the unit's professional language with the B2 grammar underneath it. Meetings run on chunks: \"a pauta\" (the agenda), \"passo a palavra para\" (I'll hand over to), \"voltando à pauta\" (back to the agenda; crase, because \"pauta\" is feminine) and \"ficou combinado que\" (it was agreed that) + indicative.",
+          "This review mixes the unit's professional language with the Upper-intermediate grammar underneath it. Meetings run on chunks: \"a pauta\" (the agenda), \"passo a palavra para\" (I'll hand over to), \"voltando à pauta\" (back to the agenda; crase, because \"pauta\" is feminine) and \"ficou combinado que\" (it was agreed that) + indicative.",
           "Action points are future events, so they take the future subjunctive after \"assim que\", \"quando\" and open relatives: \"assim que o cliente aprovar\", \"quem tiver dúvidas\". The present indicative (\"assim que o cliente aprova\") describes a routine, not a one-off next step.",
         ],
         examples: [

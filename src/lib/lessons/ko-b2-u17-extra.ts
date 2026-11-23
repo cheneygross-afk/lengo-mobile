@@ -273,7 +273,7 @@ export const KO_B2_U17_EXTRA: Lesson[] = [
             sentence: "___ 모두 디지털 기기를 어려워하는 건 아니에요.",
             answer: "노인이라고 해서",
             altAnswers: ["노인이라고", "나이가 많다고 해서", "어르신이라고 해서", "나이가 들었다고 해서"],
-            explanation: "Noun → 이라고 해서. 어려워하다 'find hard' (B1 -아 / 어하다) for someone else's feeling.",
+            explanation: "Noun → 이라고 해서. 어려워하다 'find hard' (Intermediate -아 / 어하다) for someone else's feeling.",
           },
           {
             type: "multiple-choice",

@@ -661,7 +661,7 @@ export const IT_A2_U01: Lesson[] = [
     slug: "a2-spiral-a1-review",
     level: "IT-A2",
     number: 11,
-    title: "Spiral Review: A1 in the Past",
+    title: "Spiral Review: Beginner in the Past",
     summary: "Retell Beginner situations in the past: the bar, prices, family and times, all with the passato prossimo.",
     duration: "16 min",
     kind: "review",

@@ -322,11 +322,11 @@ const ES_UNIT_FOCUS: Record<string, string> = {
   "Would have: past hypotheticals":
     "Escucha, habla y escribe con lo que has aprendido en «Habría + participio: hipótesis sobre el pasado»",
   "Proverbs & sayings":
-    "Escucha, habla y escribe con los refranes y los adjetivos de carácter C2 de esta unidad",
+    "Escucha, habla y escribe con los refranes y los adjetivos de carácter de nivel Professional & Academic de esta unidad",
   "Idioms":
-    "Escucha, habla y escribe con los modismos y los verbos y colocaciones C2 de esta unidad",
+    "Escucha, habla y escribe con los modismos y los verbos y colocaciones de nivel Professional & Academic de esta unidad",
   "Medical Spanish":
-    "Escucha, habla y escribe con el español médico y el vocabulario C2 de verbos precisos de esta unidad",
+    "Escucha, habla y escribe con el español médico y el vocabulario de nivel Professional & Academic de verbos precisos de esta unidad",
   "Psychology & complex emotions":
     "Repasa el vocabulario de la unidad (alivio, desazón, ambivalencia) junto con verbos de cambio y léxico coloquial de lecciones recientes, escuchando frases, hablando y escribiendo un texto sobre emociones contradictorias",
   "Art, film & literary criticism":

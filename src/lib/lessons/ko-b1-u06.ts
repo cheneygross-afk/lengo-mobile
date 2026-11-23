@@ -18,7 +18,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         heading: "The forms: -는데요 without the 요",
         body: [
-          "In A2 you ended sentences with -는데요 and left the rest hanging. Drop the 요 and the sentence carries on: -(으)ㄴ / 는데 joins a background clause to the main point. The forms are the ones you already know. Adjectives take -(으)ㄴ데: 바쁜데, 좋은데, 추운데, and ㄹ stems lose their ㄹ: 멀다 → 먼데. Action verbs and every word with 있다 / 없다 take -는데: 가는데, 먹는데, 맛있는데, 시간이 없는데; 살다 → 사는데.",
+          "In the Elementary level you ended sentences with -는데요 and left the rest hanging. Drop the 요 and the sentence carries on: -(으)ㄴ / 는데 joins a background clause to the main point. The forms are the ones you already know. Adjectives take -(으)ㄴ데: 바쁜데, 좋은데, 추운데, and ㄹ stems lose their ㄹ: 멀다 → 먼데. Action verbs and every word with 있다 / 없다 take -는데: 가는데, 먹는데, 맛있는데, 시간이 없는데; 살다 → 사는데.",
           "The past is -았는데 / -었는데 for every word, adjective or verb: 갔는데, 바빴는데, 먹었는데. Nouns take 인데 after any letter: 학생인데, 친구인데, 회의 중인데; in the past 학생이었는데, 친구였는데. The two classic slips are an adjective with -는데 (*좋는데) and the past with 은 (*갔은데).",
         ],
         examples: [
@@ -438,7 +438,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         heading: "-지만, quickly",
         body: [
-          "You know -지만 from A2: 지만 goes straight on any stem, with no vowel change and no irregulars (어렵지만, 바쁘지만, 멀지만), the past goes inside (추웠지만), and nouns take 이지만 / 지만 (학생이지만, 의사지만). 죄송하지만, 미안하지만 and 실례지만 open a request or a question politely.",
+          "You know -지만 from the Elementary level: 지만 goes straight on any stem, with no vowel change and no irregulars (어렵지만, 바쁘지만, 멀지만), the past goes inside (추웠지만), and nouns take 이지만 / 지만 (학생이지만, 의사지만). 죄송하지만, 미안하지만 and 실례지만 open a request or a question politely.",
         ],
         examples: [
           { es: "한국어는 어렵지만 재미있어요.", en: "Korean is difficult, but it's fun." },
@@ -659,7 +659,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         heading: "The form: the 요 form, then 도",
         body: [
-          "Take the polite 요 form, drop 요 and add 도: 가요 → 가도, 먹어요 → 먹어도, 해요 → 해도. Every irregular behaves as it does in the 요 form: 바빠도, 추워도, 들어도, 몰라도, 나아도. You met this ending inside -아도 되다 in A2: 가도 돼요 is literally 'even if you go, it's fine'.",
+          "Take the polite 요 form, drop 요 and add 도: 가요 → 가도, 먹어요 → 먹어도, 해요 → 해도. Every irregular behaves as it does in the 요 form: 바빠도, 추워도, 들어도, 몰라도, 나아도. You met this ending inside -아도 되다 in the Elementary level: 가도 돼요 is literally 'even if you go, it's fine'.",
           "Nouns take 이어도 after a consonant and 여도 after a vowel: 학생이어도, 의사여도. In speech you'll also hear 학생이라도, 의사라도, which mean the same here. The negative is 안 가도 or 가지 않아도.",
         ],
         examples: [
@@ -1634,7 +1634,7 @@ export const KO_B1_U06: Lesson[] = [
       {
         heading: "Sound focus: 신지만 [신찌만], 앉더라도 [안떠라도]",
         body: [
-          "You met this rule in A2 with 신고 [신꼬]. After a verb or adjective stem ending in ㄴ or ㅁ (and the pairs ㄵ, ㄻ), an ending that starts with ㄱ, ㄷ, ㅅ or ㅈ is said tense. So -지만 and -더라도 change too: 신지만 [신찌만], 젊지만 [점찌만], 앉더라도 [안떠라도], 참더라도 [참떠라도], 감고 [감꼬]. The spelling never changes.",
+          "You met this rule in Elementary with 신고 [신꼬]. After a verb or adjective stem ending in ㄴ or ㅁ (and the pairs ㄵ, ㄻ), an ending that starts with ㄱ, ㄷ, ㅅ or ㅈ is said tense. So -지만 and -더라도 change too: 신지만 [신찌만], 젊지만 [점찌만], 앉더라도 [안떠라도], 참더라도 [참떠라도], 감고 [감꼬]. The spelling never changes.",
           "It only happens on stems. In a noun or with a separate word nothing changes: 신발 [신발], 안 가요 [안가요]. And -는데 starts with ㄴ, so 신는데 stays [신는데].",
         ],
         examples: [

@@ -698,7 +698,7 @@ export const PT_B1_U30: Lesson[] = [
         heading: "Violência, moradia, and respectful words",
         body: [
           "Other big issues: \"violência\" and \"segurança pública\", and the \"falta de moradia\" (housing shortage). Words matter here. For homeless people, the respectful term is \"pessoa em situação de rua\" (person living on the street), used by the government and the press; \"morador de rua\" is common and neutral, while \"mendigo\" (beggar) sounds harsh.",
-          "In the same way, say \"comunidade\" or \"favela\" rather than terms that blame residents. A good rule for B1 texts: describe the problem, not the people.",
+          "In the same way, say \"comunidade\" or \"favela\" rather than terms that blame residents. A good rule for Intermediate texts: describe the problem, not the people.",
         ],
         examples: [
           { es: "O número de pessoas em situação de rua aumentou.", en: "The number of people living on the street has gone up." },

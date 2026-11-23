@@ -658,7 +658,7 @@ export const KO_B2_U21: Lesson[] = [
         question: "Your colleague says: 그거 오보래요. What does she mean?",
         options: ["The report turned out to be wrong.", "The report was exaggerated a little.", "The report was published early.", "The report is getting lots of views."],
         correctIndex: 0,
-        explanation: "오보 is a false report; exaggeration is 과장 보도. -래요 passes on what she heard (reported speech, B1).",
+        explanation: "오보 is a false report; exaggeration is 과장 보도. -래요 passes on what she heard (reported speech, Intermediate).",
       },
       {
         type: "translate",
@@ -707,7 +707,7 @@ export const KO_B2_U21: Lesson[] = [
             source: "Notifications kept going off all day, so I switched them off.",
             answer: "알림이 하루 종일 울려 대서 꺼 버렸어요.",
             altAnswers: ["알림이 하루 종일 울려 대서 껐어요.", "알림이 하루 종일 울려 대서 알림을 꺼 버렸어요.", "알림이 하루 종일 울려 대서 알림을 껐어요.", "하루 종일 알림이 울려 대서 꺼 버렸어요.", "하루 종일 알림이 울려 대서 껐어요.", "알림이 하루 종일 계속 울려 대서 꺼 버렸어요.", "알림이 하루 종일 울려 대길래 꺼 버렸어요.", "알림이 종일 울려 대서 꺼 버렸어요."],
-            explanation: "울리다 → 울려 + 대다, and -아 / 어서 gives the reason: 울려 대서. 꺼 버렸어요 adds the relief of finally turning them off (B1 -아 / 어 버리다).",
+            explanation: "울리다 → 울려 + 대다, and -아 / 어서 gives the reason: 울려 대서. 꺼 버렸어요 adds the relief of finally turning them off (Intermediate -아 / 어 버리다).",
           },
           {
             type: "fill-blank",
@@ -731,7 +731,7 @@ export const KO_B2_U21: Lesson[] = [
         heading: "Action verbs only, and two look-alikes",
         body: [
           "-아 / 어 대다 needs an action someone can repeat, so it joins action verbs only: *추워 대다 and *바빠 대다 are not Korean (say 너무 추워요, 계속 바빠요). It describes other people and things far more often than yourself; about yourself it sounds self-critical, as in 과자를 먹어 댔어요 'I pigged out on snacks'.",
-          "Two look-alikes from B1. The -대다 of sound-and-shape verbs joins a mimetic root with no -아 / 어: 투덜대다 'grumble', 반짝대다 'twinkle'. The reported ending -대요 'they say' joins the plain form: 비가 온대요 'they say it's raining'. So 떠들어 대요 'he keeps chattering' and 떠든대요 'they say he's noisy' are two different sentences; listen for the 어 before 대.",
+          "Two look-alikes from the Intermediate level. The -대다 of sound-and-shape verbs joins a mimetic root with no -아 / 어: 투덜대다 'grumble', 반짝대다 'twinkle'. The reported ending -대요 'they say' joins the plain form: 비가 온대요 'they say it's raining'. So 떠들어 대요 'he keeps chattering' and 떠든대요 'they say he's noisy' are two different sentences; listen for the 어 before 대.",
         ],
         examples: [
           { es: "동생이 하기 싫다고 계속 투덜대요.", en: "My younger brother keeps grumbling that he doesn't want to do it." },
@@ -755,7 +755,7 @@ export const KO_B2_U21: Lesson[] = [
             source: "The child keeps pestering me to buy him a toy.",
             answer: "아이가 장난감을 사 달라고 졸라 대요.",
             altAnswers: ["아이가 장난감을 사 달라고 계속 졸라 대요.", "아이가 계속 장난감을 사 달라고 졸라 대요.", "애가 장난감을 사 달라고 졸라 대요.", "애가 장난감을 사 달라고 계속 졸라 대요.", "아이가 저한테 장난감을 사 달라고 졸라 대요.", "아이가 장난감 사 달라고 졸라 대요.", "애가 장난감 사 달라고 졸라 대요.", "아이가 장난감을 사 달라고 자꾸 졸라 대요."],
-            explanation: "사 달라고 'asking me to buy (for him)' is the B1 quoted request; 조르다 → 졸라 대다 'keep pestering'.",
+            explanation: "사 달라고 'asking me to buy (for him)' is the Intermediate quoted request; 조르다 → 졸라 대다 'keep pestering'.",
           },
           {
             type: "speak",
@@ -825,7 +825,7 @@ export const KO_B2_U21: Lesson[] = [
         source: "The upstairs neighbours kept thumping around all night, so I couldn't sleep.",
         answer: "윗집이 밤새 쿵쿵 뛰어 대서 잠을 못 잤어요.",
         altAnswers: ["윗집이 밤새 뛰어 대서 잠을 못 잤어요.", "윗집에서 밤새 쿵쿵 뛰어 대서 잠을 못 잤어요.", "윗집에서 밤새 뛰어 대서 잠을 못 잤어요.", "윗집 사람들이 밤새 쿵쿵 뛰어 대서 잠을 못 잤어요.", "윗집 사람들이 밤새 뛰어 대서 잠을 못 잤어요.", "윗집이 밤새 쿵쿵 뛰어 대서 못 잤어요.", "윗집이 밤새도록 뛰어 대서 잠을 못 잤어요.", "윗집이 밤새 쿵쿵 뛰어 대서 잠을 한숨도 못 잤어요."],
-        explanation: "뛰다 → 뛰어 대다 'keep jumping around'; 쿵쿵 is the thudding sound (B1 mimetics). This is the classic 층간 소음 complaint.",
+        explanation: "뛰다 → 뛰어 대다 'keep jumping around'; 쿵쿵 is the thudding sound (Intermediate mimetics). This is the classic 층간 소음 complaint.",
       },
       {
         type: "word-order",
@@ -841,7 +841,7 @@ export const KO_B2_U21: Lesson[] = [
         source: "The car behind me kept honking, and I got a real fright.",
         answer: "뒤차가 경적을 눌러 대서 깜짝 놀랐어요.",
         altAnswers: ["뒤차가 계속 경적을 눌러 대서 깜짝 놀랐어요.", "뒤차가 경적을 울려 대서 깜짝 놀랐어요.", "뒤차가 계속 경적을 울려 대서 깜짝 놀랐어요.", "뒤차가 클랙슨을 눌러 대서 깜짝 놀랐어요.", "뒤차가 클랙슨을 울려 대서 깜짝 놀랐어요.", "뒤에 있는 차가 경적을 눌러 대서 깜짝 놀랐어요.", "뒤차가 경적을 눌러 대서 많이 놀랐어요."],
-        explanation: "경적을 누르다 / 울리다 'honk' + 대다 for doing it again and again. 깜짝 놀라다 'get a fright' (B1 mimetic spiral).",
+        explanation: "경적을 누르다 / 울리다 'honk' + 대다 for doing it again and again. 깜짝 놀라다 'get a fright' (Intermediate mimetic spiral).",
       },
       {
         type: "matching",
@@ -906,7 +906,7 @@ export const KO_B2_U21: Lesson[] = [
       {
         heading: "Recap: -다 보면 looks ahead",
         body: [
-          "In B1 you met -다 보면 'if you keep doing it': 계속 연습하다 보면 익숙해질 거예요. It joins the plain stem, never a past form (*연습했다 보면), and its second half is general or still to come: -(으)ㄹ 거예요, -게 되다, or a present truth (살다 보면 그럴 수도 있어요 'these things happen in life').",
+          "In the Intermediate level you met -다 보면 'if you keep doing it': 계속 연습하다 보면 익숙해질 거예요. It joins the plain stem, never a past form (*연습했다 보면), and its second half is general or still to come: -(으)ㄹ 거예요, -게 되다, or a present truth (살다 보면 그럴 수도 있어요 'these things happen in life').",
           "Use it to encourage and advise: 매일 쓰다 보면 늘 거예요, 그 앱을 쓰다 보면 시간 가는 줄 몰라요. This lesson's new ending is its partner, which looks back instead of forward.",
         ],
         examples: [
@@ -980,7 +980,7 @@ export const KO_B2_U21: Lesson[] = [
       {
         heading: "-다 보면, -다 보니, -다가",
         body: [
-          "One verb, three meanings. 쓰다 보면 익숙해질 거예요 'keep using it and you'll get used to it' looks ahead. 쓰다 보니 익숙해졌어요 'I kept using it and got used to it' looks back. 쓰다가 그만뒀어요 'I was using it and then quit' is B1's -다가: one action broken off or switched for another, with no sense of repetition.",
+          "One verb, three meanings. 쓰다 보면 익숙해질 거예요 'keep using it and you'll get used to it' looks ahead. 쓰다 보니 익숙해졌어요 'I kept using it and got used to it' looks back. 쓰다가 그만뒀어요 'I was using it and then quit' is the Intermediate level's -다가: one action broken off or switched for another, with no sense of repetition.",
           "A quick test: if 'over time' or 'the more I did it' fits the English, choose -다 보니; if 'and then' or 'in the middle of' fits, choose -다가. English speakers often use -다가 for everything because it looks like 'while', so check whether the first action led to the second.",
         ],
         examples: [
@@ -1142,7 +1142,7 @@ export const KO_B2_U21: Lesson[] = [
             sentence: "앱이 안 열리네. 서버가 ___.",
             answer: "다운된 모양이다",
             altAnswers: ["다운된 모양이야", "다운됐나 보다", "다운됐나 봐"],
-            explanation: "The crash has already happened, so past -(으)ㄴ: 다운된 모양이다. To a friend, 모양이야 or B1's 다운됐나 봐 also work.",
+            explanation: "The crash has already happened, so past -(으)ㄴ: 다운된 모양이다. To a friend, 모양이야 or the Intermediate level's 다운됐나 봐 also work.",
           },
           {
             type: "listen-choose",
@@ -1157,7 +1157,7 @@ export const KO_B2_U21: Lesson[] = [
       {
         heading: "Not about yourself, and a little more formal",
         body: [
-          "Like B1's -나 보다, 모양이다 reports a conclusion, not something you know firsthand, so it is about other people and the world. Said of your own hunger, 제가 배가 고픈 모양이에요 sounds odd, as if you were watching yourself from outside. The exception is a discovery about yourself from evidence: 시계를 보니 깜빡 잠이 든 모양이에요 'Looking at the clock, I must have dozed off.'",
+          "Like the Intermediate level's -나 보다, 모양이다 reports a conclusion, not something you know firsthand, so it is about other people and the world. Said of your own hunger, 제가 배가 고픈 모양이에요 sounds odd, as if you were watching yourself from outside. The exception is a discovery about yourself from evidence: 시계를 보니 깜빡 잠이 든 모양이에요 'Looking at the clock, I must have dozed off.'",
           "모양이다 is a shade more formal and detached than -나 보다. It suits 한다체 writing and news (사고 현장에는 아무도 없었다. 운전자는 이미 병원으로 옮겨진 모양이다.), and in speech it sounds calm and observant. Trap: 모양 still means 'shape' in other sentences (하트 모양 케이크), and -(으)ㄹ 모양이다 can also read someone's intentions: 회사를 그만둘 모양이에요 'it looks like he's going to quit'.",
         ],
         examples: [
@@ -1222,7 +1222,7 @@ export const KO_B2_U21: Lesson[] = [
             sentence: "택배 상자가 많은 걸 보니 ___.",
             answer: "이사 온 모양이에요",
             altAnswers: ["이사 왔나 봐요", "이사 온 모양이네요", "이사를 온 모양이에요"],
-            explanation: "Moving in has already happened: past -(으)ㄴ, 온 모양이에요. B1's 이사 왔나 봐요 means the same with a lighter touch.",
+            explanation: "Moving in has already happened: past -(으)ㄴ, 온 모양이에요. The Intermediate level's 이사 왔나 봐요 means the same with a lighter touch.",
           },
         ],
       },
@@ -1346,7 +1346,7 @@ export const KO_B2_U21: Lesson[] = [
             source: "Junho isn't picking up. He must be busy.",
             answer: "준호 씨가 전화를 안 받네. 바쁜가 봐.",
             altAnswers: ["준호가 전화를 안 받네. 바쁜가 봐.", "준호 씨가 전화를 안 받네. 많이 바쁜가 봐.", "준호가 전화를 안 받네. 많이 바쁜가 봐.", "준호 씨가 전화 안 받네. 바쁜가 봐.", "준호가 전화 안 받네. 바쁜가 봐.", "준호 씨 전화 안 받네. 바쁜가 봐.", "준호 전화 안 받네. 바쁜가 봐.", "준호 씨가 전화를 안 받네. 바쁘나 봐.", "준호가 전화를 안 받네. 바쁘나 봐."],
-            explanation: "바쁘다 is an adjective, so B1's -(으)ㄴ가 보다: 바쁜가 봐 (바쁘나 봐 is also common in casual speech). -네 marks the clue you've just noticed.",
+            explanation: "바쁘다 is an adjective, so the Intermediate level's -(으)ㄴ가 보다: 바쁜가 봐 (바쁘나 봐 is also common in casual speech). -네 marks the clue you've just noticed.",
           },
           {
             type: "fill-blank",
@@ -1622,7 +1622,7 @@ export const KO_B2_U21: Lesson[] = [
             en: "[If you keep doing it], you'll get better.",
             sentence: "계속 ___ 잘하게 될 거예요.",
             answer: "하다 보면",
-            explanation: "A result still to come: -다 보면, the B1 spiral.",
+            explanation: "A result still to come: -다 보면, the Intermediate spiral.",
           },
           {
             type: "translate",
@@ -2283,7 +2283,7 @@ export const KO_B2_U21: Lesson[] = [
       {
         heading: "Rules in notice style",
         body: [
-          "You run the 팬카페 (fan community) of a singer, and the 게시판 (message board) has been full of fights. The 운영진 (admins) have asked you to post five rules. Korean rule lists use the short styles from B1: a -기 list for what to do or not do (서로 존중하기, 욕설하지 않기), noun + 금지 for bans (악플 금지, 광고 글 금지, 도배 금지 'no spamming'), and -(으)ㅁ for consequences stated as facts (위반 시 강퇴됨 'violators will be removed').",
+          "You run the 팬카페 (fan community) of a singer, and the 게시판 (message board) has been full of fights. The 운영진 (admins) have asked you to post five rules. Korean rule lists use the short styles from the Intermediate level: a -기 list for what to do or not do (서로 존중하기, 욕설하지 않기), noun + 금지 for bans (악플 금지, 광고 글 금지, 도배 금지 'no spamming'), and -(으)ㅁ for consequences stated as facts (위반 시 강퇴됨 'violators will be removed').",
           "Keep one style per list. Mixing a -기 line with a 해요 sentence looks careless in a notice. Note 및 'and' (Unit 14) and 시 'when, in case of' (위반 시, 적발 시): both belong to written notices, not speech.",
         ],
         examples: [
@@ -2323,7 +2323,7 @@ export const KO_B2_U21: Lesson[] = [
       {
         heading: "-지 마십시오 and -시기 바랍니다",
         body: [
-          "Under the list, notices switch to full formal sentences: -지 마십시오 'do not' and -(으)시기 바랍니다 'please' (B1). They are firm but polite, the voice of an official notice. Requests to report go with 신고하다: 악플을 발견하시면 신고해 주십시오. Blocking is the members' own choice, so offer it with -(으)셔도 됩니다 'you may'.",
+          "Under the list, notices switch to full formal sentences: -지 마십시오 'do not' and -(으)시기 바랍니다 'please' (Intermediate). They are firm but polite, the voice of an official notice. Requests to report go with 신고하다: 악플을 발견하시면 신고해 주십시오. Blocking is the members' own choice, so offer it with -(으)셔도 됩니다 'you may'.",
           "Avoid 반말 and -세요 in the notice itself. -세요 is not wrong, but it sounds like a friendly shop sign rather than community rules.",
         ],
         examples: [
@@ -2453,7 +2453,7 @@ export const KO_B2_U21: Lesson[] = [
         prompt: "Put the words in order to say: We ask for your cooperation so everyone can enjoy cheering together.",
         words: ["모두가", "즐겁게", "응원할 수", "있도록", "협조", "부탁드립니다."],
         translation: "We ask for your cooperation so everyone can enjoy cheering together.",
-        explanation: "-도록 'so that' (B1) gives the purpose; 협조 부탁드립니다 is the set closing request of notices.",
+        explanation: "-도록 'so that' (Intermediate) gives the purpose; 협조 부탁드립니다 is the set closing request of notices.",
       },
       {
         type: "dictation",

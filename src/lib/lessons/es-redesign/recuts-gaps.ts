@@ -6,6 +6,7 @@
 // teaching and questions, because the old course never taught it directly.
 import type { Recut } from "./recut";
 import { A1_UNIT3_PATCHES } from "./a1-unit3";
+import { CAR_SLEPT, order } from "./a2-unit5";
 
 export const GAP_RECUTS: Recut[] = [
   {
@@ -138,8 +139,18 @@ export const GAP_RECUTS: Recut[] = [
     summary: "Use verbs like pedir, servir and repetir, whose e becomes i in every form but nosotros.",
     concept: "stem-e-i",
     from: [
-      { lesson: "stem-changing-verbs-o-ue-e-i", sections: [2], exercises: [3, 12, 16] },
-      { lesson: "a1r-contrast-stem-changers", sections: [1], exercises: [2, 10, 15, 20, 24] },
+      // Sections and questions as numbered after the warm-up card those
+      // lessons gained (lengo #417): E → I is section 3; pido, piden.
+      { lesson: "stem-changing-verbs-o-ue-e-i", sections: [3], exercises: [3, 11, 14] },
+      { lesson: "a1r-contrast-stem-changers", sections: [1], exercises: [2, 9, 10, 15, 20, 24] },
+    ],
+    add: [
+      { type: "multiple-choice", question: "\"We serve dinner at eight.\"", options: ["Servimos la cena a las ocho.", "Sirvimos la cena a las ocho.", "Sirven la cena a las ocho.", "Servemos la cena a las ocho."], correctIndex: 0, explanation: "Nosotros is outside the boot, so servir keeps its e: servimos.", optionNotes: ["", "The change never goes into nosotros.", "Sirven is they.", "Servir is an -ir verb: -imos."] },
+      { type: "multiple-choice", question: "Seguir (to keep going) is an e → i verb. \"I keep going straight.\"", options: ["Sigo recto.", "Sego recto.", "Siguo recto.", "Seguimos recto."], correctIndex: 0, explanation: "Yo is inside the boot, so e → i, and the u drops before o to keep the hard g: sigo.", optionNotes: ["", "Yo is inside the boot: i, not e.", "The u drops before o: sigo.", "Seguimos is we."] },
+      { type: "speak", prompt: "Say it in Spanish: \"I always order water with my meal\"", text: "Siempre pido agua con la comida.", altAnswers: ["Yo siempre pido agua con la comida.", "Siempre pido agua con mi comida."], explanation: "Yo is inside the boot, so pedir changes e to i: pido." },
+      { type: "speak", prompt: "Say it in Spanish: \"They serve Peruvian food here\"", text: "Aquí sirven comida peruana.", altAnswers: ["Sirven comida peruana aquí.", "Aquí ellos sirven comida peruana."], explanation: "Ellos is inside the boot, so servir changes e to i: sirven." },
+      { type: "speak", prompt: "Say it in Spanish: \"We ask for the bill\"", text: "Pedimos la cuenta.", altAnswers: ["Nosotros pedimos la cuenta.", "Nosotras pedimos la cuenta."], explanation: "Nosotros is outside the boot, so pedir keeps its e: pedimos." },
+      { type: "speak", prompt: "Say it in Spanish: \"Can you (tú) repeat the question?\"", text: "¿Puedes repetir la pregunta?", altAnswers: ["¿Tú puedes repetir la pregunta?"], explanation: "After puedes, repetir stays in the infinitive, so it keeps its e." },
     ],
     patch: {
       goal: "use pedir, servir and repetir: pido, sirves, repite, but pedimos.",
@@ -166,6 +177,13 @@ export const GAP_RECUTS: Recut[] = [
     ],
     patch: {
       goal: "say what he, she or they ordered, served, repeated or slept: pidió, sirvieron, durmió.",
+      // A2 Unit 5 audit: el carro (Latin America), and no imperfect (tenía) before it is taught.
+      exercises: {
+        replace: {
+          2: CAR_SLEPT,
+          9: order(["Mi", "hermana", "pidió", "la", "cuenta", "al", "final"], "My sister asked for the bill at the end", "Pedir: e → i in ella: pidió."),
+        },
+      },
       sections: {
         0: { reteach: "Pedir and dormir change only for he, she and they: pidió, pidieron, durmió, durmieron. Yo, tú and nosotros stay regular: pedí, dormimos." },
       },

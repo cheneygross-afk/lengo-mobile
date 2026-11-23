@@ -2437,7 +2437,7 @@ export const PT_C2_U17: Lesson[] = [
     level: "PT-C2",
     number: 11,
     title: "Spiral Review: Culture and Style",
-    summary: "A final cumulative check of the first half of C2: style, humor, idiom, subtext, literature, feeling and criticism.",
+    summary: "A final cumulative check of the first half of the Mastery level: style, humor, idiom, subtext, literature, feeling and criticism.",
     duration: "20 min",
     kind: "review",
     format: "Spiral Review",
@@ -2641,7 +2641,7 @@ export const PT_C2_U17: Lesson[] = [
           { left: "trocadilho", right: "pun" },
           { left: "microconto", right: "very short story" },
         ],
-        explanation: "Words from five different units of the first half of C2.",
+        explanation: "Words from five different units of the first half of the Mastery level.",
       },
       {
         type: "dictation",

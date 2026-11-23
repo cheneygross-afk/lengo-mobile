@@ -1463,8 +1463,8 @@ export const PT_A2_U14: Lesson[] = [
     slug: "a2-error-hunt-a2",
     level: "PT-A2",
     number: 7,
-    title: "Error Hunt: The Whole A2",
-    summary: "Find and fix the typical A2 mistakes: wrong past forms and tenses, pronoun placement, por and para, comparatives and double negatives.",
+    title: "Error Hunt: The Whole Elementary Level",
+    summary: "Find and fix the typical Elementary mistakes: wrong past forms and tenses, pronoun placement, por and para, comparatives and double negatives.",
     duration: "12 min",
     sections: [
       {
@@ -1697,7 +1697,7 @@ export const PT_A2_U14: Lesson[] = [
     slug: "a2-transform-a2",
     level: "PT-A2",
     number: 8,
-    title: "Transformations: The A2 Toolkit",
+    title: "Transformations: The Elementary Toolkit",
     summary: "Rewrite short texts by changing the tense, the person and the register, and turn a message to a friend into a polite email to a landlord.",
     duration: "12 min",
     kind: "reinforce",
@@ -2181,7 +2181,7 @@ export const PT_A2_U14: Lesson[] = [
       {
         heading: "Telling what happened",
         body: [
-          "Every A2 story runs on two past tenses. The imperfeito sets the scene and describes habits (\"era\", \"tinha\", \"estava chovendo\"). The perfeito moves the action on (\"fui\", \"fiz\", \"chegou\"). Quando + perfeito interrupts a background action: \"eu estava dormindo quando o telefone tocou\".",
+          "Every Elementary story runs on two past tenses. The imperfeito sets the scene and describes habits (\"era\", \"tinha\", \"estava chovendo\"). The perfeito moves the action on (\"fui\", \"fiz\", \"chegou\"). Quando + perfeito interrupts a background action: \"eu estava dormindo quando o telefone tocou\".",
           "Watch the irregular eu forms, which usually end in -i: \"fui\", \"tive\", \"fiz\", \"disse\", \"trouxe\", \"pude\", \"vim\". English present perfect usually becomes the perfeito: \"você já comeu acarajé?\" A plan that fell through is \"ia\" + infinitive: \"eu ia ligar, mas esqueci\".",
         ],
         examples: [
@@ -2392,7 +2392,7 @@ export const PT_A2_U14: Lesson[] = [
           { left: "Passei por Curitiba.", right: "I went through Curitiba." },
           { left: "Ela se arrumou rapidinho.", right: "She got ready really quickly." },
         ],
-        explanation: "Five A2 workhorses: \"ficar\" + gerúndio, \"ficar\" for suit, the everyday negative command, \"por\" for a route, and a reflexive verb with a diminutive (\"rapidinho\").",
+        explanation: "Five Elementary workhorses: \"ficar\" + gerúndio, \"ficar\" for suit, the everyday negative command, \"por\" for a route, and a reflexive verb with a diminutive (\"rapidinho\").",
       },
     ],
   },

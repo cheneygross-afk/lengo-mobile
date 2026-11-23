@@ -461,7 +461,7 @@ export const KO_C1_U12: Lesson[] = [
         heading: "-에 힘입어: boosted by",
         body: [
           "힘입다 means 'to receive strength from', and N에 힘입어 is the news's 'boosted by, on the back of': 반도체 수출 호조에 힘입어 경기가 회복되었다 'the economy recovered on the back of strong chip exports'. 호조 'strong performance' and 호황 'boom' are its usual nouns, and before a noun it becomes 힘입은: 수출 호조에 힘입은 성장 'export-led growth'.",
-          "The result must be good for the subject. 힘입어 is a written 덕분에, and like 덕분에 it sounds sarcastic with a bad outcome: 경기 침체에 힘입어 실업률이 올랐다 reads as a sneer. For a neutral or bad cause use (으)로 인해 (B2) or 여파로 'in the aftermath of': 경기 침체의 여파로 실업률이 올랐다. Note that the cause itself need not be good news: 원화 약세에 힘입어 수출 기업의 실적이 개선되었다 works, because exporters gain from a weak won.",
+          "The result must be good for the subject. 힘입어 is a written 덕분에, and like 덕분에 it sounds sarcastic with a bad outcome: 경기 침체에 힘입어 실업률이 올랐다 reads as a sneer. For a neutral or bad cause use (으)로 인해 (Upper-intermediate) or 여파로 'in the aftermath of': 경기 침체의 여파로 실업률이 올랐다. Note that the cause itself need not be good news: 원화 약세에 힘입어 수출 기업의 실적이 개선되었다 works, because exporters gain from a weak won.",
         ],
         examples: [
           { es: "반도체 수출 호조에 힘입어 경기가 회복되었다.", en: "The economy recovered on the back of strong semiconductor exports." },
@@ -2245,7 +2245,7 @@ export const KO_C1_U12: Lesson[] = [
         source: "If this trend continues, housing is expected to reach 22% of spending by 2035.",
         answer: "이러한 추세가 이어진다면 2035년에는 주거비 비중이 22%에 달할 전망이다.",
         altAnswers: ["이러한 추세가 이어진다면 이천삼십오 년에는 주거비 비중이 이십이 퍼센트에 달할 전망이다.", "이러한 추세가 계속된다면 2035년에는 주거비 비중이 22%에 달할 전망이다.", "이러한 추세가 이어진다면 2035년에는 주거비 비중이 22%에 달할 것으로 전망된다.", "이러한 추세가 이어진다면 2035년에는 주거비 비중이 22%에 달할 것으로 예상된다.", "이러한 추세가 이어진다면 2035년에는 주거비의 비중이 22%에 달할 전망이다.", "이러한 추세가 지속된다면 2035년에는 주거비 비중이 22%에 달할 전망이다.", "이러한 추세가 이어진다면 2035년에는 주거비 비중이 22%까지 높아질 전망이다.", "이러한 추세가 계속된다면 2035년에는 주거비 비중이 22%에 이를 것으로 예상된다.", "이 추세가 이어진다면 2035년에는 주거비 비중이 22%에 달할 전망이다."],
-        explanation: "-다면 'if' (B1) links the trend to the forecast; 에 달할 전망이다 frames 22% as high.",
+        explanation: "-다면 'if' (Intermediate) links the trend to the forecast; 에 달할 전망이다 frames 22% as high.",
       },
       {
         type: "translate",

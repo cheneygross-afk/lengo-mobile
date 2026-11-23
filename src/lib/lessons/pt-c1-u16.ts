@@ -2807,7 +2807,7 @@ export const PT_C1_U16: Lesson[] = [
     slug: "c1-spiral-survival",
     level: "PT-C1",
     number: 12,
-    title: "Spiral Review: Survival at C1",
+    title: "Spiral Review: Survival at the Advanced Level",
     summary: "Mixed practice of official register, reported speech and conditions in fresh crises: a canceled flight, a wrong electricity bill, a garage that overcharges.",
     duration: "16 min",
     sections: [

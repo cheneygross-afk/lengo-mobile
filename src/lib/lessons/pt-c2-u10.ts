@@ -15,9 +15,9 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "One message, five rungs",
         body: [
-          "This review takes one piece of news and moves it along the register ladder you have built since B2: the neighborhood library is closing in December for lack of money. Five rungs cover almost every situation: \"íntimo\" (a voice note to a close friend), \"coloquial\" (a chat with a colleague), \"neutro\" (a news item or internal email), \"formal\" (a letter to residents or clients) and \"oficial\" (a notice from an institution).",
+          "This review takes one piece of news and moves it along the register ladder you have built since the Upper-intermediate level: the neighborhood library is closing in December for lack of money. Five rungs cover almost every situation: \"íntimo\" (a voice note to a close friend), \"coloquial\" (a chat with a colleague), \"neutro\" (a news item or internal email), \"formal\" (a letter to residents or clients) and \"oficial\" (a notice from an institution).",
           "The facts never change. The reader, the relationship and the channel do. Read the five versions in order and watch what each step up removes. First the slang goes, then the contractions and the warmth, then the speaker. By the end the official notice has no visible author at all, and the money has become \"restrições orçamentárias\".",
-          "At C2 the typical slip is not choosing the wrong rung but sliding between rungs inside one text. A formal letter that suddenly says \"a gente\" sounds careless. A message to a friend written like a decree sounds ironic, and a Brazilian friend will read it as a joke, which is sometimes exactly the point.",
+          "At the Mastery level the typical slip is not choosing the wrong rung but sliding between rungs inside one text. A formal letter that suddenly says \"a gente\" sounds careless. A message to a friend written like a decree sounds ironic, and a Brazilian friend will read it as a joke, which is sometimes exactly the point.",
         ],
         examples: [
           { es: "Cara, a biblioteca do bairro vai fechar em dezembro. Acabou a grana, acredita?", en: "(intimate) Dude, the neighborhood library's closing in December. The money's run out, can you believe it?" },
@@ -343,7 +343,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "Regência: when the preposition carries the meaning",
         body: [
-          "At C2 the preposition after a verb is often the only clue to its meaning. \"Aspirar a\" is to aspire to. With a direct object, \"aspirar\" means to breathe in or to vacuum. \"Assistir a\" is to watch, while \"assistir alguém\" is to attend to them. \"Implicar\" meaning to entail takes a direct object (\"implica mudanças\"). \"Implica em\" is everywhere in speech and the press, but the norm still rejects it. \"Implicar com\" means to pick on.",
+          "At the Mastery level the preposition after a verb is often the only clue to its meaning. \"Aspirar a\" is to aspire to. With a direct object, \"aspirar\" means to breathe in or to vacuum. \"Assistir a\" is to watch, while \"assistir alguém\" is to attend to them. \"Implicar\" meaning to entail takes a direct object (\"implica mudanças\"). \"Implica em\" is everywhere in speech and the press, but the norm still rejects it. \"Implicar com\" means to pick on.",
           "\"Visar\" meaning to aim at takes \"a\" in the strict norm (\"visa ao lucro\"), though a direct object is now widely accepted. \"Proceder a\" means to carry out (\"procedeu à leitura\"). \"Preferir\" compares with \"a\", never \"do que\": \"prefiro o teatro ao cinema\". \"Obedecer a\" keeps its preposition where English has none.",
         ],
         examples: [
@@ -860,7 +860,7 @@ export const PT_C2_U10: Lesson[] = [
     level: "PT-C2",
     number: 4,
     title: "Error Hunt: Mastery",
-    summary: "Edit one colleague's report and fix the errors that survive into C2: impersonal verbs, agreement, regência, crase, pronoun placement, mood and spelling pairs.",
+    summary: "Edit one colleague's report and fix the errors that survive into the Mastery level: impersonal verbs, agreement, regência, crase, pronoun placement, mood and spelling pairs.",
     duration: "18 min",
     kind: "review",
     format: "Error Hunt",
@@ -1123,7 +1123,7 @@ export const PT_C2_U10: Lesson[] = [
           { left: "um mau planejamento", right: "poor planning" },
           { left: "começou mal", right: "got off to a bad start" },
         ],
-        explanation: "These are the pairs that still trip up C2 writers: two connectors, two time words, and adjective \"mau\" vs adverb \"mal\".",
+        explanation: "These are the pairs that still trip up Mastery writers: two connectors, two time words, and adjective \"mau\" vs adverb \"mal\".",
       },
     ],
   },
@@ -1141,7 +1141,7 @@ export const PT_C2_U10: Lesson[] = [
         heading: "Condensing: nouns and reduced clauses",
         body: [
           "To condense, turn verbs into nouns. \"Os juros subiram, e por isso o consumo caiu\" becomes \"A alta dos juros derrubou o consumo\". Follow the ripple. The old subject becomes a \"de\" complement (\"dos juros\"). An adverb becomes an adjective: \"subiram rapidamente\" turns into \"a rápida alta\". The logical link (\"por isso\") disappears into a stronger verb such as \"derrubar\", \"provocar\" or \"elevar\".",
-          "The second tool is the reduced clause you met at C1: \"ao\" + infinitive, the gerund and the absolute participle. The participle agrees with the noun it introduces, and that noun normally follows it: \"terminada a reunião\", \"feitos os ajustes\", \"assinadas as atas\".",
+          "The second tool is the reduced clause you met at the Advanced level: \"ao\" + infinitive, the gerund and the absolute participle. The participle agrees with the noun it introduces, and that noun normally follows it: \"terminada a reunião\", \"feitos os ajustes\", \"assinadas as atas\".",
           "Know when to stop. Three nominalizations in a row produce a chain of \"de\" (\"a análise da proposta de revisão do plano da empresa\") that no reader can parse. Two links is the comfortable maximum; after that, bring a verb back.",
         ],
         examples: [
@@ -1213,7 +1213,7 @@ export const PT_C2_U10: Lesson[] = [
         body: [
           "Moving a text from speech to the norm sets off a predictable chain. \"A gente foi\" becomes \"nós fomos\", and the verb changes with it. \"Vi ele\" becomes \"eu o vi\", \"tinha\" (there was) becomes \"havia\", \"ir no\" becomes \"ir ao\" and \"pra\" becomes \"para\". Everyday verbs give way to \"adquirir\", \"solicitar\" and \"residir\". Impersonal \"haver\" stays singular whatever follows: \"houve muitas reclamações\", never \"houveram\".",
           "Going down a register is not about adding slang. Casual Portuguese is mostly syntax: shorter sentences, a topic up front (\"esse relatório, ninguém leu\"), \"né\" and \"tá\" as tags, and pronouns before the verb. One \"gente\" in a team message does more than three slang words.",
-          "The usual C2 slip is overshooting. \"Venho por meio desta\" in a note to a colleague, or a mesóclise in a text message, is as wrong as \"tipo\" in a court petition. Match the reader, not your vocabulary.",
+          "The usual Mastery slip is overshooting. \"Venho por meio desta\" in a note to a colleague, or a mesóclise in a text message, is as wrong as \"tipo\" in a court petition. Match the reader, not your vocabulary.",
         ],
         examples: [
           { es: "A gente foi no banco, mas não tinha ninguém pra atender.", en: "We went to the bank, but there was nobody to serve us." },
@@ -1679,7 +1679,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "The introduction: from repertoire to thesis",
         body: [
-          "This lesson builds one essay on a theme that Brazilian courts, Congress and ENEM candidates keep returning to: work through apps, the delivery and ride-hailing platforms. A C2 introduction places the theme in a context the reader recognizes, narrows it to a problem and ends on a thesis that takes a side without pretending the question is simple. Open with precise \"repertório\" tied to the theme (a law, a statistic, a thinker). Avoid the openings examiners have learned to distrust: \"Desde os primórdios da humanidade\", \"Hoje em dia, cada vez mais\".",
+          "This lesson builds one essay on a theme that Brazilian courts, Congress and ENEM candidates keep returning to: work through apps, the delivery and ride-hailing platforms. A Mastery introduction places the theme in a context the reader recognizes, narrows it to a problem and ends on a thesis that takes a side without pretending the question is simple. Open with precise \"repertório\" tied to the theme (a law, a statistic, a thinker). Avoid the openings examiners have learned to distrust: \"Desde os primórdios da humanidade\", \"Hoje em dia, cada vez mais\".",
           "The thesis is usually the paragraph's last sentence, and at this level it carries its own tension. A concession built into the claim (\"embora ofereçam...\") shows you have weighed the other side before arguing. Then announce the two lines of development, so the reader knows what the next paragraphs will prove: \"tanto... quanto...\", \"seja pela..., seja pela...\".",
           "Register is set in the first line. Impersonal structures (\"observa-se\", \"cabe questionar\") and \"ênclise\" at the start of a sentence belong to the \"norma culta\". \"A gente\", \"tem\" for there is and \"pra\" do not, however natural they sound in speech.",
         ],
@@ -2295,7 +2295,7 @@ export const PT_C2_U10: Lesson[] = [
       {
         heading: "Memory, regret and the self you were",
         body: [
-          "Reflection lives on tense contrast. \"Tenho sonhado em português\" describes a process that is still going on; English 'I have learned' is usually the simple \"aprendi\". That B1 trap still catches advanced writers.",
+          "Reflection lives on tense contrast. \"Tenho sonhado em português\" describes a process that is still going on; English 'I have learned' is usually the simple \"aprendi\". That Intermediate trap still catches advanced writers.",
           "Regrets take the pluperfect subjunctive and the conditional perfect: \"Se eu tivesse ouvido mais música, teria perdido o medo antes.\" Keep \"teria\" in the narration; the spoken \"tinha perdido\" belongs in quoted thought.",
           "Two tools let you look at your past self from outside. \"Como se\" + imperfect subjunctive gives the image (\"falava como se pedisse desculpas\"), and the future perfect of probability lets you doubt your own memory (\"terá sido o sotaque?\").",
         ],

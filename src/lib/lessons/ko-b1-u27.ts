@@ -671,7 +671,7 @@ export const KO_B1_U27: Lesson[] = [
       {
         heading: "-(으)ㄹ 때마다: every time, whenever",
         body: [
-          "You know -(으)ㄹ 때 'when' (A2) and 마다 'every' (주말마다, 날마다). Together they mean 'every time, whenever': 이 노래를 들을 때마다 고향 생각이 나요, 'every time I hear this song, I think of home'. The form is that of -(으)ㄹ 때: 갈 때마다, 먹을 때마다, 들을 때마다 (듣다), 만들 때마다 (ㄹ stems add nothing), 뵐 때마다 (뵙다).",
+          "You know -(으)ㄹ 때 'when' (Elementary) and 마다 'every' (주말마다, 날마다). Together they mean 'every time, whenever': 이 노래를 들을 때마다 고향 생각이 나요, 'every time I hear this song, I think of home'. The form is that of -(으)ㄹ 때: 갈 때마다, 먹을 때마다, 들을 때마다 (듣다), 만들 때마다 (ㄹ stems add nothing), 뵐 때마다 (뵙다).",
           "The form stays -(으)ㄹ 때마다 for past, present and future; the last verb sets the time: 할머니를 뵐 때마다 용돈을 주셨어요 (back then), 고향에 갈 때마다 길이 막혀요 (always). English speakers reach for 갔을 때마다; it is heard, but the plain -(으)ㄹ 때마다 is the usual form, so leave the tense to the end.",
           "때마다 says what triggers each event; -곤 하다 says that it kept happening. They combine well: 할머니 댁에 갈 때마다 송편을 빚곤 했어요.",
         ],

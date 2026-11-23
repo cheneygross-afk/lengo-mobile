@@ -53,7 +53,7 @@ export default function ChineseLevelsScreen({ navigation }: Props) {
       <Pressable style={styles.reviewCard} onPress={() => navigation.navigate("ChinesePlacement")}>
         <Text style={styles.reviewTitle}>Placement test →</Text>
         <Text style={styles.reviewBody}>
-          {placement ? `Your placement: start at ${placement.code} ${placement.name}. Take it again any time.` : "Not sure where to start? Find your level."}
+          {placement ? `Your placement: start at ${placement.name}. Take it again any time.` : "Not sure where to start? Find your level."}
         </Text>
       </Pressable>
       <View style={styles.cards}>
@@ -64,7 +64,6 @@ export default function ChineseLevelsScreen({ navigation }: Props) {
             onPress={() => navigation.navigate("LessonList", { moduleKey: mod.key })}
           >
             <View style={styles.cardTop}>
-              <Text style={styles.cardCode}>{mod.code}</Text>
               <Text style={styles.cardName}>{mod.name}</Text>
             </View>
             <Text style={styles.cardDescription}>{mod.description}</Text>

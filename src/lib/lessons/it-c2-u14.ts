@@ -115,7 +115,7 @@ export const IT_C2_U14: Lesson[] = [
           "\"La paratassi\" places clauses side by side, joined by commas or \"e\", \"ma\", \"poi\": \"Entrò, si tolse il cappotto, non disse nulla.\" \"L'ipotassi\" subordinates them, showing which clause depends on which: \"Quando entrò, dopo essersi tolto il cappotto, non disse nulla perché era ancora offeso.\"",
           "Italian prose grew up hypotactic, on the model of Latin and Boccaccio. School still rewards it, and bureaucratic and academic Italian love it. Twentieth-century narrative and modern journalism moved toward parataxis: shorter sentences, fewer connectives, more implication. Neither is better; each says something different.",
           "A useful test: read your paragraph and count the main verbs per sentence. One per sentence over a whole page is monotonous; four levels of subordination in every sentence is exhausting. Good Italian prose alternates, often within the same paragraph.",
-          "Parataxis leaves the logical link to the reader and creates speed, tension or flatness. Hypotaxis makes the logic explicit and creates nuance, but it can bury the main point. The C2 skill is to choose consciously, and to switch within one text when the content changes.",
+          "Parataxis leaves the logical link to the reader and creates speed, tension or flatness. Hypotaxis makes the logic explicit and creates nuance, but it can bury the main point. The Mastery skill is to choose consciously, and to switch within one text when the content changes.",
         ],
         examples: [
           { es: "Entrò, si tolse il cappotto, non disse nulla.", en: "He came in, took off his coat, said nothing." },

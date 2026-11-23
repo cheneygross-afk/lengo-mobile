@@ -543,7 +543,7 @@ export const KO_C1_U19: Lesson[] = [
         heading: "What comes after, and two near-synonyms",
         body: [
           "Because 이상 sets up a necessary consequence, the second clause is firm: obligation (-아 / 어야 한다), impossibility (-(으)ㄹ 수 없다), no alternative (-(으)ㄹ 수밖에 없다), a resolution (-겠습니다) or a proposal (-(으)ㅂ시다). A tentative question breaks the logic: 시작한 이상 끝까지 할까요? sounds as if the speaker hasn't understood their own premise. If you want a question, make it rhetorical: 시작한 이상 끝까지 해야 하지 않겠습니까?",
-          "Two B2 neighbours overlap. -(으)ㄴ / 는 만큼 'since, to the extent that' gives a softer reason, often with an expectation (기대가 큰 만큼 최선을 다하겠습니다). -는 한 'as long as' sets a condition that lasts (제가 회장으로 있는 한 이 약속은 지킵니다). 이상 is the logical, no-way-out version, which is why negotiators like it: 계약서에 서명하신 이상 조건을 지키셔야 합니다.",
+          "Two Upper-intermediate neighbours overlap. -(으)ㄴ / 는 만큼 'since, to the extent that' gives a softer reason, often with an expectation (기대가 큰 만큼 최선을 다하겠습니다). -는 한 'as long as' sets a condition that lasts (제가 회장으로 있는 한 이 약속은 지킵니다). 이상 is the logical, no-way-out version, which is why negotiators like it: 계약서에 서명하신 이상 조건을 지키셔야 합니다.",
         ],
         examples: [
           { es: "계약서에 서명하신 이상 조건을 지키셔야 합니다.", en: "Now that you've signed the contract, you must keep to its terms." },
@@ -676,13 +676,13 @@ export const KO_C1_U19: Lesson[] = [
     level: "KO-C1",
     number: 4,
     title: "Calls to Action",
-    summary: "End a speech by moving people to act: -(으)ㅂ시다 to an audience (spiral of A2) and 함께 ... -아 / 어 나갑시다, urgency with 이제는 -아 / 어야 합니다 and -아 / 어야 할 때입니다, and the weight of 결코 and 절대(로) with a negative: 결코 포기해서는 안 됩니다.",
+    summary: "End a speech by moving people to act: -(으)ㅂ시다 to an audience (spiral of Elementary) and 함께 ... -아 / 어 나갑시다, urgency with 이제는 -아 / 어야 합니다 and -아 / 어야 할 때입니다, and the weight of 결코 and 절대(로) with a negative: 결코 포기해서는 안 됩니다.",
     duration: "21 min",
     sections: [
       {
         heading: "-(으)ㅂ시다 from the podium, and -아 / 어 나갑시다",
         body: [
-          "At A2 you learned that -(으)ㅂ시다 'let's' is risky with a single senior: 같이 갑시다 said to your boss sounds like an order. A speech is different. The speaker addresses a group that includes themselves, and -(으)ㅂ시다 is the standard call to action even with the principal or the CEO in the front row: 함께 시작합시다, 다 같이 힘을 모읍시다. What you still avoid is -(으)ㅂ시다 aimed at one named senior.",
+          "At the Elementary level you learned that -(으)ㅂ시다 'let's' is risky with a single senior: 같이 갑시다 said to your boss sounds like an order. A speech is different. The speaker addresses a group that includes themselves, and -(으)ㅂ시다 is the standard call to action even with the principal or the CEO in the front row: 함께 시작합시다, 다 같이 힘을 모읍시다. What you still avoid is -(으)ㅂ시다 aimed at one named senior.",
           "The auxiliary 나가다 after -아 / 어 adds 'carry it forward, keep doing it from now on': 만들어 나가다, 지켜 나가다, 극복해 나가다. So 함께 만들어 나갑시다 is 'let's build it together, step by step, from here', a closing line you will hear at almost every ceremony. -아 / 어 갑시다 is similar and a little plainer. English speakers often stop at 만듭시다, which sounds like a single task rather than a shared future.",
         ],
         examples: [
@@ -1115,7 +1115,7 @@ export const KO_C1_U19: Lesson[] = [
         heading: "Quote them first: 상대 측에서는 ...다고 하셨는데",
         body: [
           "A rebuttal starts by restating the opponent's point fairly, so the judges know exactly what you are answering. The frame is 상대 측에서는 + reported speech + 하셨는데: 상대 측에서는 주 4일제가 생산성을 높인다고 하셨는데, ... 에서는 treats the team as a body (as with 정부에서는), -셨- keeps you polite towards opponents, and -는데 sets up the contrast that follows.",
-          "Choose the reported-speech ending by what they said (spiral of B1): a verb statement -ㄴ / 는다고 (높인다고), an adjective -다고 (어렵다고), a noun -(이)라고 (차별이라고), a proposal -자고 (도입하자고), a question -냐고. Then turn: 저는 생각이 다릅니다, 동의하기 어렵습니다, or 사실과 다릅니다 'that's not accurate'. Never say 상대 측은 틀렸어요: it is 해요 in a 하십시오체 setting and attacks the people, not the argument.",
+          "Choose the reported-speech ending by what they said (spiral of Intermediate): a verb statement -ㄴ / 는다고 (높인다고), an adjective -다고 (어렵다고), a noun -(이)라고 (차별이라고), a proposal -자고 (도입하자고), a question -냐고. Then turn: 저는 생각이 다릅니다, 동의하기 어렵습니다, or 사실과 다릅니다 'that's not accurate'. Never say 상대 측은 틀렸어요: it is 해요 in a 하십시오체 setting and attacks the people, not the argument.",
         ],
         examples: [
           { es: "상대 측에서는 주 4일제가 생산성을 높인다고 하셨는데, 저는 생각이 다릅니다.", en: "The other side said the four-day week raises productivity, but I see it differently." },
@@ -1888,7 +1888,7 @@ export const KO_C1_U19: Lesson[] = [
         source: "Don't we always walk with our eyes on the map, afraid of getting lost?",
         answer: "우리는 길을 잃을까 봐 늘 지도만 보며 걷지 않습니까?",
         altAnswers: ["우리는 길을 잃을까 봐 늘 지도만 보면서 걷지 않습니까?", "우리는 길을 잃을까 봐 항상 지도만 보며 걷지 않습니까?", "우리는 길을 잃을까 봐 항상 지도만 보면서 걷지 않습니까?", "우리는 늘 길을 잃을까 봐 지도만 보며 걷지 않습니까?", "우리는 길을 잃을까 두려워 늘 지도만 보며 걷지 않습니까?", "우리는 길을 잃을까 봐 언제나 지도만 보며 걷지 않습니까?", "길을 잃을까 봐 우리는 늘 지도만 보며 걷지 않습니까?"],
-        explanation: "-(으)ㄹ까 봐 'for fear that' (spiral of B1) inside a rhetorical -지 않습니까?. -(으)며 is the written-formal 'while'.",
+        explanation: "-(으)ㄹ까 봐 'for fear that' (spiral of Intermediate) inside a rhetorical -지 않습니까?. -(으)며 is the written-formal 'while'.",
       },
       {
         type: "word-order",
@@ -2063,7 +2063,7 @@ export const KO_C1_U19: Lesson[] = [
         source: "The negative side talked about the cost burden, but you haven't counted the cost of long working hours.",
         answer: "반대 측에서는 비용 부담을 말씀하셨는데, 장시간 노동으로 인한 비용은 계산하지 않으셨습니다.",
         altAnswers: ["반대 측에서는 비용 부담을 말씀하셨는데, 장시간 노동에 따른 비용은 계산하지 않으셨습니다.", "반대 측에서는 비용 부담을 말씀하셨는데, 장시간 노동으로 생기는 비용은 계산하지 않으셨습니다.", "반대 측에서는 비용 부담을 말씀하셨는데, 장시간 노동의 비용은 계산하지 않으셨습니다.", "반대 측에서는 비용 부담에 대해 말씀하셨는데, 장시간 노동으로 인한 비용은 계산하지 않으셨습니다.", "반대 측은 비용 부담을 말씀하셨는데, 장시간 노동으로 인한 비용은 계산하지 않으셨습니다.", "반대 측에서는 비용 부담을 말씀하셨는데, 장시간 노동으로 인한 비용은 고려하지 않으셨습니다.", "반대 측에서는 비용 부담을 말씀하셨는데, 장시간 노동으로 인한 비용은 따지지 않으셨습니다."],
-        explanation: "말씀하셨는데 sets up the turn; -(으)로 인한 'caused by' (spiral of B2). 은 contrasts the cost they ignored.",
+        explanation: "말씀하셨는데 sets up the turn; -(으)로 인한 'caused by' (spiral of Upper-intermediate). 은 contrasts the cost they ignored.",
       },
       {
         type: "multiple-choice",

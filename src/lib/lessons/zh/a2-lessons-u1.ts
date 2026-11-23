@@ -256,7 +256,7 @@ export const ZH_A2_LESSONS_U1 = [
         "已经 … 了",
         [
           `${zh("已经", "yǐjīng")} (already) goes before the verb, and the sentence usually ends with 了: ${zh("我已经吃饭了。", "Wǒ yǐjīng chī fàn le.")} (I've already eaten.)`,
-          "Its opposite is 还没 (not yet), which you know from A1: 我已经吃了 / 我还没吃.",
+          "Its opposite is 还没 (not yet), which you know from the Foundations level: 我已经吃了 / 我还没吃.",
         ],
         [ex("他已经走了。", "Tā yǐjīng zǒu le.", "He's already left."), ex("我已经买了票。", "Wǒ yǐjīng mǎi le piào.", "I've already bought the tickets.")],
         [mc("I've already eaten:", ["我已经吃了。", "我已经吃。", "我吃已经了。", "已经我吃。"], 0, "已经 + verb + 了.")]

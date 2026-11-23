@@ -2061,7 +2061,7 @@ export const KO_C2_U23: Lesson[] = [
         heading: "The presenter answers",
         body: [
           "정수빈 answers in the order of the questions, a courtesy the audience expects. She opens with 좋은 질문 감사합니다, the reflex reply to any question, and signals each answer: 먼저 'first', 두 번째로 말씀하신 부분은 'regarding the second point you raised'. Note 말씀하신, with honorific -시- on the discussant's speech, and that she calls her own earlier thinking 고민했던 부분 'a point I struggled with', which makes the concession sound considered rather than caught out.",
-          "Her second answer is a model of the C2 skill this unit has been building: admit, hedge, defer. She admits the limitation (학습 기간을 통제 변인으로 넣어 분석해 보았지만), hedges the conclusion (표본이 작아서 단정하기는 어렵습니다) and defers the rest (그 부분은 후속 연구에서 다루고자 합니다). That last sentence is so common at Korean conferences that it has become a joke among graduate students, but used once and backed by a plan, it is exactly right.",
+          "Her second answer is a model of the Mastery skill this unit has been building: admit, hedge, defer. She admits the limitation (학습 기간을 통제 변인으로 넣어 분석해 보았지만), hedges the conclusion (표본이 작아서 단정하기는 어렵습니다) and defers the rest (그 부분은 후속 연구에서 다루고자 합니다). That last sentence is so common at Korean conferences that it has become a joke among graduate students, but used once and backed by a plan, it is exactly right.",
         ],
         examples: [
           { es: "좋은 질문 감사합니다. 먼저 과제 유형은 모든 참여자에게 같은 그림 묘사 과제를 사용하였습니다.", en: "Thank you for a good question. First, for task type, I used the same picture-description task with all participants." },

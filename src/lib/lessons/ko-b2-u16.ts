@@ -2324,7 +2324,7 @@ export const KO_B2_U16: Lesson[] = [
       {
         heading: "The self-check list",
         body: [
-          "Before time runs out, spend three minutes on this list. Content: are all three questions answered? Structure: four paragraphs, each indented, with a 결론 that restates your position? Register: no -요, no 습니다, no 저 or 제, no 근데? Range: at least a few B2 forms, such as -는 것이 바람직하다, -(으)ㄹ 필요가 있다, -기 위해서는, 물론 ... 측면도 있다? Accuracy: spacing in 할 것이다, 할 수 있다, -기 때문이다, and a total between 600 and 700?",
+          "Before time runs out, spend three minutes on this list. Content: are all three questions answered? Structure: four paragraphs, each indented, with a 결론 that restates your position? Register: no -요, no 습니다, no 저 or 제, no 근데? Range: at least a few Upper-intermediate forms, such as -는 것이 바람직하다, -(으)ㄹ 필요가 있다, -기 위해서는, 물론 ... 측면도 있다? Accuracy: spacing in 할 것이다, 할 수 있다, -기 때문이다, and a total between 600 and 700?",
         ],
         examples: [
           { es: "세 가지 질문에 모두 답했는가?", en: "Have I answered all three questions?" },

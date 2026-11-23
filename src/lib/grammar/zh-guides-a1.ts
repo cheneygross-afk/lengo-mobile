@@ -207,7 +207,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
     slug: "question-words",
     title: "Question Words: 什么, 谁, 哪儿, 几, 多少 and 怎么",
     description:
-      "Chinese question words stay where the answer goes, with no change of word order. The full A1 set, from 什么 and 谁 to 几 vs 多少 and 怎么 vs 怎么样.",
+      "Chinese question words stay where the answer goes, with no change of word order. The full Foundations set, from 什么 and 谁 to 几 vs 多少 and 怎么 vs 怎么样.",
     level: "A1",
     hsk: "HSK 1",
     intro: [
@@ -228,7 +228,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
         ],
       },
       {
-        heading: "The A1 question words",
+        heading: "The Foundations question words",
         body: [
           "哪 (nǎ, which) needs a measure word after it (哪个, 哪本), while 哪儿 and 哪里 both mean where. 哪儿 is typical of the north, 哪里 of the south; both are standard.",
         ],
@@ -382,7 +382,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
         wrong: "我一点儿累。",
         right: "我有点儿累。",
         rightPinyin: "Wǒ yǒudiǎnr lèi.",
-        why: "一点儿 goes after an adjective, not before. For \"a bit (too) tired\" Chinese uses 有点儿 before the adjective, covered at A2.",
+        why: "一点儿 goes after an adjective, not before. For \"a bit (too) tired\" Chinese uses 有点儿 before the adjective, covered at the Everyday Chinese level.",
       },
     ],
     faqs: [
@@ -495,7 +495,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Can I just use 个 for everything?",
-        a: "You'll be understood, and native speakers fall back on 个 too. But the common specific ones (本, 杯, 口, and at B1 张, 条, 辆) sound natural, so learn each noun with its measure word.",
+        a: "You'll be understood, and native speakers fall back on 个 too. But the common specific ones (本, 杯, 口, and at the Independent Chinese level 张, 条, 辆) sound natural, so learn each noun with its measure word.",
       },
       {
         q: "Do I need a measure word after 这 and 那 every time?",
@@ -513,7 +513,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
     level: "A1",
     hsk: "HSK 1",
     intro: [
-      "的 (de, neutral tone) is the most common character in Chinese. At A1 it does one job in two flavours: it attaches something to the front of a noun. That something can be an owner (我的书, my book) or a description (很大的房子, a very big house).",
+      "的 (de, neutral tone) is the most common character in Chinese. At the Foundations level it does one job in two flavours: it attaches something to the front of a noun. That something can be an owner (我的书, my book) or a description (很大的房子, a very big house).",
       "The order is always the same: the extra information first, then 的, then the noun. It's like English 's, which also puts the owner first: Li Ming's mum is 李明的妈妈.",
     ],
     sections: [
@@ -580,7 +580,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
       },
       {
         q: "Are there other characters pronounced de?",
-        a: "Yes: 地 (how something is done) and 得 (how well something is done), both at A2. All three are said de; only the writing differs.",
+        a: "Yes: 地 (how something is done) and 得 (how well something is done), both at the Everyday Chinese level. All three are said de; only the writing differs.",
       },
     ],
     related: ["measure-words-and-numbers", "adjectives-and-hen", "you-have-and-there-is"],
@@ -765,7 +765,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
       },
       {
         q: "Can 在 mean \"in the middle of doing\"?",
-        a: "Yes, at A2: 我在吃饭 means \"I'm eating (right now)\". That's 在 before a verb with no place. See the A2 guide on actions in progress.",
+        a: "Yes, at the Everyday Chinese level: 我在吃饭 means \"I'm eating (right now)\". That's 在 before a verb with no place. See the Everyday Chinese guide on actions in progress.",
       },
     ],
     related: ["you-have-and-there-is", "word-order-time-and-place", "question-words"],
@@ -956,7 +956,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "What about \"again\" for something that already happened?",
-        a: "That's 又 (yòu): 他又来了 (he came again). 再 looks forward, 又 looks back. The two are compared in the B1 guide on 又 and 再.",
+        a: "That's 又 (yòu): 他又来了 (he came again). 再 looks forward, 又 looks back. The two are compared in the Independent Chinese guide on 又 and 再.",
       },
       {
         q: "Is 再 in 再见 the same word?",
@@ -1049,7 +1049,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
       },
       {
         q: "Can a sentence have two 了?",
-        a: "Yes: 我学了两年了 means \"I've been studying for two years (and still am)\". That's a B1 pattern; see the B1 guide on time spans.",
+        a: "Yes: 我学了两年了 means \"I've been studying for two years (and still am)\". That's an Independent Chinese pattern; see the Independent Chinese guide on time spans.",
       },
     ],
     related: ["you-have-and-there-is", "first-then-again-still", "verbs-and-their-objects"],
@@ -1059,7 +1059,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
     slug: "wanting-ability-likes",
     title: "想, 要, 会, 能, 喜欢 and 觉得: Wanting, Ability, Likes and Opinions",
     description:
-      "The A1 helping verbs: 想 vs 要 for wanting, 会 vs 能 for can, 喜欢 + noun or verb for likes, and 觉得 for giving an opinion.",
+      "The Foundations helping verbs: 想 vs 要 for wanting, 会 vs 能 for can, 喜欢 + noun or verb for likes, and 觉得 for giving an opinion.",
     level: "A1",
     hsk: "HSK 1",
     intro: [
@@ -1136,7 +1136,7 @@ export const ZH_GUIDES_A1: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Can 会 mean \"will\"?",
-        a: "Yes: 明天会下雨 means \"it will (probably) rain tomorrow\". That use of 会 for predictions is taught at A2.",
+        a: "Yes: 明天会下雨 means \"it will (probably) rain tomorrow\". That use of 会 for predictions is taught at the Everyday Chinese level.",
       },
       {
         q: "Is 要 rude when ordering?",

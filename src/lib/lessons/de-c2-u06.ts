@@ -16,7 +16,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "The simplest German pun is the same as in English: one word with two unrelated meanings. \"Die Bank\" is both a bench and a bank, \"das Schloss\" is a castle and a lock, \"der Hahn\" is a rooster and a tap, \"die Birne\" is a pear, a light bulb and (colloquially) your head, \"das Gericht\" is a court of law and a dish. A joke sets up one meaning and then lands on the other.",
           "German adds a twist English does not have: grammatical gender can separate the two meanings. \"Der Leiter\" is the head of a department, \"die Leiter\" is a ladder; \"das Steuer\" is the steering wheel, \"die Steuer\" is a tax; \"der Kiefer\" is the jaw, \"die Kiefer\" is a pine tree; \"der See\" is a lake, \"die See\" is the sea. In speech the article gives the game away, so puns often hide it in the plural or in a case where both genders look the same.",
-          "Watch the plurals too: \"die Bänke\" are benches but \"die Banken\" are banks, \"die Mütter\" are mothers but \"die Muttern\" are nuts (for bolts). Native speakers enjoy exactly these collisions, and recognising them is a Mastery-level skill: C2 reading texts often play on them.",
+          "Watch the plurals too: \"die Bänke\" are benches but \"die Banken\" are banks, \"die Mütter\" are mothers but \"die Muttern\" are nuts (for bolts). Native speakers enjoy exactly these collisions, and recognising them is a Mastery-level skill: Mastery reading texts often play on them.",
         ],
         examples: [
           { es: "Ich sitze auf der Bank und warte auf mein Geld.", en: "I'm sitting on the bench (bank) waiting for my money." },

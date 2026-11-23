@@ -2513,7 +2513,7 @@ export const PT_B2_U30: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Spiral Review: Task by Task",
-    summary: "Cumulative practice: a short integrated task on food waste in restaurants, plus fresh sentences for each genre and the interview, using the whole B2 toolkit.",
+    summary: "Cumulative practice: a short integrated task on food waste in restaurants, plus fresh sentences for each genre and the interview, using the whole Upper-intermediate toolkit.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",

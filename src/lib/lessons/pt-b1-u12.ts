@@ -329,7 +329,7 @@ export const PT_B1_U12: Lesson[] = [
       {
         heading: "Cansado, sentado: participles you already use",
         body: [
-          "Many adjectives you've used since A1 are participles: \"cansado\" (from \"cansar\"), \"preocupado\", \"animado\", \"sentado\", \"deitado\". That's why they take \"estar\": \"estou cansado\" works exactly like \"a loja está fechada\".",
+          "Many adjectives you've used since the Beginner level are participles: \"cansado\" (from \"cansar\"), \"preocupado\", \"animado\", \"sentado\", \"deitado\". That's why they take \"estar\": \"estou cansado\" works exactly like \"a loja está fechada\".",
           "For positions, English uses -ing and Portuguese uses the participle: 'I'm sitting' is \"estou sentado\", 'she's lying down' is \"ela está deitada\". \"Estou sentando\" means I'm in the act of sitting down.",
           "With \"ser\", some of these become personality words: \"ele é fechado\" means he's a reserved person, not that he's shut. Useful chunks: \"está incluído\" (it's included), \"está resolvido\" (it's settled), \"está combinado\" (it's agreed).",
         ],

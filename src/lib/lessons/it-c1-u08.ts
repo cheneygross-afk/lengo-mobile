@@ -18,7 +18,7 @@ export const IT_C1_U08: Lesson[] = [
         heading: "Deduction: must be, must have",
         body: [
           "Besides obligation, \"dovere\" expresses a confident deduction, like English 'must'. For the present, use \"dovere\" + infinitive: \"Deve essere stanco\" (he must be tired), \"Devono essere già a casa\" (they must be home already). For the past, use \"dovere\" in the present + past infinitive: \"Deve aver capito\" (he must have understood), \"Deve essere partita\" (she must have left).",
-          "This is a key C1 point: English 'must have' does not become \"*ha dovuto\". \"Ha dovuto partire\" means she had to leave (an obligation fulfilled). For a deduction about the past, keep \"deve\" and move the past into the infinitive: \"deve essere partita\". Many speakers shorten \"avere\" to \"aver\" before a participle.",
+          "This is a key Advanced point: English 'must have' does not become \"*ha dovuto\". \"Ha dovuto partire\" means she had to leave (an obligation fulfilled). For a deduction about the past, keep \"deve\" and move the past into the infinitive: \"deve essere partita\". Many speakers shorten \"avere\" to \"aver\" before a participle.",
           "Italian has a scale of certainty here. \"Deve essere stanco\" is a firm conclusion; the future of supposition, \"Sarà stanco\" or \"Avrà perso il treno\", is a likely guess; \"Potrebbe essere stanco\" is a mere possibility. Don't use \"dovrebbe\" for a deduction: \"Dovrebbe essere stanco\" sounds like an expectation (he ought to be tired by now).",
         ],
         examples: [

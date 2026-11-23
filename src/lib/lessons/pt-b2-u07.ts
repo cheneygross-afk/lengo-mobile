@@ -15,7 +15,7 @@ export const PT_B2_U07: Lesson[] = [
       {
         heading: "Embora and ainda que: although, even if",
         body: [
-          "You met \"embora\" at B1. It introduces a fact that doesn't stop the main clause, and it always takes the subjunctive, even when the fact is true: \"embora seja caro, eu vou comprar\" (although it's expensive, I'm going to buy it). English uses a plain is here, which is why learners slip into *\"embora é caro\".",
+          "You met \"embora\" at the Intermediate level. It introduces a fact that doesn't stop the main clause, and it always takes the subjunctive, even when the fact is true: \"embora seja caro, eu vou comprar\" (although it's expensive, I'm going to buy it). English uses a plain is here, which is why learners slip into *\"embora é caro\".",
           "\"Ainda que\" works the same way and sounds a little more formal. It can also mean even if, for something that may never happen: \"ainda que chova, o show vai acontecer\" (even if it rains, the show will go ahead).",
           "The tense follows the time you mean. Use the present subjunctive for now or later (\"embora ele trabalhe muito\") and the imperfect for the past (\"embora ele trabalhasse muito\"). Use \"tenha\" + participle for something already done (\"embora tenha chovido\").",
         ],
@@ -522,7 +522,7 @@ export const PT_B2_U07: Lesson[] = [
       {
         heading: "Já que, uma vez que, visto que, dado que + a clause",
         body: [
-          "You met \"já que\" (since, given that) at B1. \"Uma vez que\", \"visto que\" and \"dado que\" do the same job in a more formal key. All four introduce a full clause with a conjugated verb, and all take the indicative, because the cause is presented as fact: \"já que você está aqui\", never \"já que você esteja aqui\".",
+          "You met \"já que\" (since, given that) at the Intermediate level. \"Uma vez que\", \"visto que\" and \"dado que\" do the same job in a more formal key. All four introduce a full clause with a conjugated verb, and all take the indicative, because the cause is presented as fact: \"já que você está aqui\", never \"já que você esteja aqui\".",
           "Like English since, they usually come first, cause before result. \"Porque\" sits more naturally after the main clause. To open a sentence, pick one of these or \"como\".",
           "Register: \"já que\" suits any conversation; \"uma vez que\" and \"visto que\" belong in emails and reports; \"dado que\" leans academic. Careful with \"uma vez que\" + subjunctive: it means once (\"uma vez que você assine\" 'once you sign'). Keep the indicative when you mean since.",
         ],

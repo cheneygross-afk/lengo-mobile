@@ -17,7 +17,7 @@ const MODULES: { key: LessonModuleKey; code: string; name: string; description: 
     key: "ja-alphabets",
     code: "Alphabets",
     name: "Hiragana & Katakana",
-    description: "The two phonetic scripts every other Japanese lesson assumes you can already read -- learned before A1.",
+    description: "The two phonetic scripts every other Japanese lesson assumes you can already read -- learned before the Beginner level.",
   },
   {
     key: "ja-a1",
@@ -114,7 +114,6 @@ export default function JapaneseLevelsScreen({ navigation }: Props) {
               onPress={() => navigation.navigate("LessonList", { moduleKey: mod.key })}
             >
               <View style={styles.cardTop}>
-                <Text style={styles.cardCode}>{mod.code}</Text>
                 <Text style={styles.cardName}>{mod.name}</Text>
               </View>
               <Text style={styles.cardDescription}>{mod.description}</Text>

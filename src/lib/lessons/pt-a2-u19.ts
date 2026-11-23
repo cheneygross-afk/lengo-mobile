@@ -2326,7 +2326,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "Regions and food, with comparatives",
         body: [
-          "No new grammar here: mix the unit's culture with everything from the earlier A2 units. Remember the article with states (\"na Bahia\", \"em Minas\"), lowercase gentílicos and months, and comparatives with \"mais... do que\", \"melhor\", \"maior\".",
+          "No new grammar here: mix the unit's culture with everything from the earlier Elementary units. Remember the article with states (\"na Bahia\", \"em Minas\"), lowercase gentílicos and months, and comparatives with \"mais... do que\", \"melhor\", \"maior\".",
         ],
         examples: [
           { es: "O Nordeste é mais quente do que o Sul.", en: "The Northeast is hotter than the South." },

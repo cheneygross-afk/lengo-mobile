@@ -460,7 +460,7 @@ export const KO_B1_U26: Lesson[] = [
       {
         heading: "Step by step: -(으)ㄴ 다음에 and -(으)ㄴ 뒤에",
         body: [
-          "You know -(으)ㄴ 후에 from A2. Recipes and spoken instructions use -(으)ㄴ 다음에 and -(으)ㄴ 뒤에 the same way: past modifier + 다음에 'after doing'. The first step goes in the past modifier even when the whole sentence is an instruction for later: 양파를 볶은 다음에 김치를 넣어 주세요.",
+          "You know -(으)ㄴ 후에 from the Elementary level. Recipes and spoken instructions use -(으)ㄴ 다음에 and -(으)ㄴ 뒤에 the same way: past modifier + 다음에 'after doing'. The first step goes in the past modifier even when the whole sentence is an instruction for later: 양파를 볶은 다음에 김치를 넣어 주세요.",
           "English 'after frying' tempts learners into *볶다 다음에 or *볶는 다음에. It has to be the completed form, so the irregulars show up: 썬 다음에 (썰다), 구운 다음에 (굽다), 자른 다음에 (자르다). In a recipe the 에 is often dropped: 볶은 다음 김치를 넣는다.",
         ],
         examples: [
@@ -1074,7 +1074,7 @@ export const KO_B1_U26: Lesson[] = [
         heading: "Eating with elders",
         body: [
           "At a family meal or with seniors, the youngest wait until the eldest has picked up their spoon: 어른이 수저를 드신 다음에 먹어요. Here 드신 comes from 들다 'lift' with -시-. Before eating everyone says 잘 먹겠습니다, and afterwards 잘 먹었습니다; it is thanks to whoever cooked or paid.",
-          "Honorific speech is part of the meal (spiral of A2): 할아버지, 진지 드세요; 많이 드세요; 맛있게 드셨어요? A host modestly says 차린 건 없지만 많이 드세요 'it's nothing special, but eat plenty', even after cooking for hours. And it's polite not to leave the table before the elders finish.",
+          "Honorific speech is part of the meal (spiral of Elementary): 할아버지, 진지 드세요; 많이 드세요; 맛있게 드셨어요? A host modestly says 차린 건 없지만 많이 드세요 'it's nothing special, but eat plenty', even after cooking for hours. And it's polite not to leave the table before the elders finish.",
         ],
         examples: [
           { es: "어른이 수저를 드신 다음에 먹기 시작해요.", en: "We start eating after the elders pick up their spoons." },

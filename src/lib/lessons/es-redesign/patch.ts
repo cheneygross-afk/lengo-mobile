@@ -28,6 +28,8 @@ export type SectionPatch = {
   examples?: LessonExample[];
   /** The section's own tables, rewritten (addTables still adds). */
   tables?: LessonTable[];
+  /** More accepted answers for the checkpoint's questions, by position. */
+  checkAlts?: Record<number, string[]>;
 };
 
 export type LessonPatch = {
@@ -37,6 +39,8 @@ export type LessonPatch = {
   insert?: { before?: number; section: LessonSection }[];
   /** "Why not" notes by exercise index, one per option ("" for the right one). */
   optionNotes?: Record<number, string[]>;
+  /** More accepted answers (other correct Spanish) for practice questions, by index. */
+  alts?: Record<number, string[]>;
   /** Wording fixes inside questions and their explanations: [old, new] pairs. */
   reword?: [string, string][];
   /** The lesson's summary, rewritten. */
@@ -57,6 +61,16 @@ export type LessonPatch = {
   dropSections?: number[];
 };
 
+/** A question with more accepted answers (translate, fill-blank and speak only). */
+function addAlts(e: Exercise, more: string[] | undefined): Exercise {
+  if (!more?.length || (e.type !== "translate" && e.type !== "fill-blank" && e.type !== "speak")) return e;
+  const have = e.altAnswers ?? [];
+  return { ...e, altAnswers: [...have, ...more.filter((a) => !have.includes(a))] };
+}
+function withAlts(cp: Exercise[] | undefined, alts: Record<number, string[]> | undefined): Exercise[] | undefined {
+  return cp && alts ? cp.map((e, i) => addAlts(e, alts[i])) : cp;
+}
+
 export function applyPatch(l: Lesson, p: LessonPatch | undefined): Lesson {
   if (!p) return l;
   let sections = l.sections.map((s, i) => {
@@ -71,7 +85,7 @@ export function applyPatch(l: Lesson, p: LessonPatch | undefined): Lesson {
       body: [...(sp.body ?? s.body), ...(sp.addBody ?? [])],
       tables: sp.tables || sp.addTables ? [...(sp.tables ?? s.tables ?? []), ...(sp.addTables ?? [])] : s.tables,
       examples: sp.examples ?? s.examples,
-      checkpoint: sp.check || sp.addCheck ? [...(sp.check ?? s.checkpoint ?? []), ...(sp.addCheck ?? [])] : s.checkpoint,
+      checkpoint: withAlts(sp.check || sp.addCheck ? [...(sp.check ?? s.checkpoint ?? []), ...(sp.addCheck ?? [])] : s.checkpoint, sp.checkAlts),
     };
   });
   const dropped = new Set(sections.filter((_, i) => p.dropSections?.includes(i)));
@@ -81,7 +95,7 @@ export function applyPatch(l: Lesson, p: LessonPatch | undefined): Lesson {
   }
   let exercises = l.exercises.map((e, i) => {
     const r = p.exercises?.replace?.[i] ?? e;
-    const withNotes = p.optionNotes?.[i] && r.type === "multiple-choice" ? { ...r, optionNotes: p.optionNotes[i] } : r;
+    const withNotes = addAlts(p.optionNotes?.[i] && r.type === "multiple-choice" ? { ...r, optionNotes: p.optionNotes[i] } : r, p.alts?.[i]);
     const sec = p.exercises?.section?.[i];
     return sec === undefined ? withNotes : { ...withNotes, meta: { ...withNotes.meta, section: sec } };
   });
@@ -111,6 +125,10 @@ export function checkPatch(l: Lesson, p: LessonPatch): string[] {
   for (const [i, sp] of Object.entries(p.sections ?? {})) {
     if (!l.sections[+i]) bad.push(`section ${i} does not exist`);
     if (sp.reteach && sp.reteach.length > 300) bad.push(`section ${i}: reteach is ${sp.reteach.length} characters`);
+  }
+  for (const i of Object.keys(p.alts ?? {})) {
+    const e = l.exercises[+i];
+    if (!e || (e.type !== "translate" && e.type !== "fill-blank" && e.type !== "speak")) bad.push(`question ${i} can't take more answers`);
   }
   for (const [i, notes] of Object.entries(p.optionNotes ?? {})) {
     const e = l.exercises[+i];

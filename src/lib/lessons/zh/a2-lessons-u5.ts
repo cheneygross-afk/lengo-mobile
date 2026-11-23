@@ -203,8 +203,8 @@ export const ZH_A2_LESSONS_U5 = [
   lesson(
     L,
     "zh-a2-review",
-    "A2 Review: A Week in Shanghai",
-    "Everything from A2 in one story: experiences, comparisons, complements, 把, reasons, conditions, time and directions.",
+    "Review: A Week in Shanghai",
+    "Everything from Everyday Chinese in one story: experiences, comparisons, complements, 把, reasons, conditions, time and directions.",
     "10 min",
     [
       sec(
@@ -225,7 +225,7 @@ export const ZH_A2_LESSONS_U5 = [
         ]
       ),
       sec(
-        "What A2 added",
+        "What Everyday Chinese added",
         [
           "Aspect: 过 (ever), 在…呢 (right now), 着 (a state), 已经…了 (already), 要…了 (about to).",
           "Describing: 比 and 没有…那么, 一样, 越来越, verb + 得 + how well, adjective + 地 + verb.",

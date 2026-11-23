@@ -770,7 +770,7 @@ export const PT_C2_U31: Lesson[] = [
     level: "PT-C2",
     number: 4,
     title: "Celpe-Bras Practice: Tarefas 3 and 4, the Readings",
-    summary: "Two reading tasks: a report on e-waste turned into an article for a school newspaper, and an opinion piece on the four-day week answered with a reader's letter, with C2 techniques for transforming a source instead of copying it.",
+    summary: "Two reading tasks: a report on e-waste turned into an article for a school newspaper, and an opinion piece on the four-day week answered with a reader's letter, with Mastery techniques for transforming a source instead of copying it.",
     duration: "18 min",
     kind: "skills",
     sections: [
@@ -821,7 +821,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "Transform, don't copy",
         body: [
-          "Copying stretches of the source is the fastest way to lose the top band: it shows neither comprehension nor production. But synonyms swapped word by word are not enough either. At C2, rebuild the sentence with one of four moves. Change the word class: \"celulares descartados liberam\" becomes \"o descarte de celulares libera\". Change the point of view, so the reader is inside the sentence: \"Sabe aquele celular antigo esquecido na gaveta?\" Condense: three facts become one clause. Or reframe: the fact becomes an argument (\"o que parece lixo é, na verdade, uma pequena mina\").",
+          "Copying stretches of the source is the fastest way to lose the top band: it shows neither comprehension nor production. But synonyms swapped word by word are not enough either. At the Mastery level, rebuild the sentence with one of four moves. Change the word class: \"celulares descartados liberam\" becomes \"o descarte de celulares libera\". Change the point of view, so the reader is inside the sentence: \"Sabe aquele celular antigo esquecido na gaveta?\" Condense: three facts become one clause. Or reframe: the fact becomes an argument (\"o que parece lixo é, na verdade, uma pequena mina\").",
           "Short exact expressions can stay if they are technical (\"logística reversa\", \"metais pesados\") or if you quote them deliberately. What must never stay is the reporter's sentence architecture.",
         ],
         examples: [
@@ -1202,7 +1202,7 @@ export const PT_C2_U31: Lesson[] = [
           "Desculpa, não falo português muito bem.",
         ],
         correctIndex: 0,
-        explanation: "Paraphrasing the part you did understand checks the question and shows range. A bare \"Hã?\" or a guess loses the chance, and apologizing for your Portuguese undercuts a C2 performance.",
+        explanation: "Paraphrasing the part you did understand checks the question and shows range. A bare \"Hã?\" or a guess loses the chance, and apologizing for your Portuguese undercuts a Mastery performance.",
       },
       {
         type: "dictation",
@@ -1517,7 +1517,7 @@ export const PT_C2_U31: Lesson[] = [
     slug: "c2-exit-reading",
     level: "PT-C2",
     number: 7,
-    title: "C2 Exit Test, Part 1: Reading",
+    title: "Exit Test, Part 1: Reading",
     summary: "The exit test's reading part: an ironic narrator in the manner of Machado de Assis, press reports that keep their distance from a claim, an old newspaper advertisement and a legal text, read for inference, irony, allusion and attribution.",
     duration: "18 min",
     kind: "level-test",
@@ -1526,7 +1526,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "Literary prose: reading between the lines",
         body: [
-          "At C2 the reading questions are rarely about what a text says. They ask what it implies, whose voice is speaking and what it alludes to. The first passage is written in the manner of Machado de Assis, whose irony you studied in Unit 12. Read it once for the story and once for the narrator.",
+          "At the Mastery level the reading questions are rarely about what a text says. They ask what it implies, whose voice is speaking and what it alludes to. The first passage is written in the manner of Machado de Assis, whose irony you studied in Unit 12. Read it once for the story and once for the narrator.",
           "The narrator never criticizes Doutor Bastos. He praises him, and the praise does the damage: a man with so many principles that he always has one to justify the opposite of yesterday. The dowry arrives \"por coincidência\", the widow's grief is measured by the will. Each sentence sets up a noble frame and lets one word undercut it. That is the irony test: find the word that turns the sentence against its subject.",
           "The fourth line is an allusion: the closing words of \"Memórias Póstumas de Brás Cubas\". An educated Brazilian reader recognizes it at once, the way an English reader hears Shakespeare inside a newspaper headline.",
         ],
@@ -1779,7 +1779,7 @@ export const PT_C2_U31: Lesson[] = [
     slug: "c2-exit-listening",
     level: "PT-C2",
     number: 8,
-    title: "C2 Exit Test, Part 2: Listening",
+    title: "Exit Test, Part 2: Listening",
     summary: "The exit test's listening part: fast colloquial speech, slang and regional voices from Porto Alegre to Belém, and the formulas of TV news and formal speeches.",
     duration: "17 min",
     kind: "level-test",
@@ -2061,7 +2061,7 @@ export const PT_C2_U31: Lesson[] = [
     slug: "c2-exit-writing",
     level: "PT-C2",
     number: 9,
-    title: "C2 Exit Test, Part 3: Writing",
+    title: "Exit Test, Part 3: Writing",
     summary: "The exit test's two writing tasks, a formal nota oficial after a data leak and a crônica about a bakery that closed, and the last ten minutes of revision that protect a top-band text.",
     duration: "18 min",
     kind: "level-test",
@@ -2071,7 +2071,7 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Task A: a nota oficial",
         body: [
           "Task A: \"Você é responsável pela comunicação de um museu em São Paulo. O sistema de venda de ingressos sofreu um acesso indevido, e dados de parte dos visitantes foram expostos. Redija uma nota oficial para o site do museu.\" The genre has a known shape: the institution comes forward (\"vem a público\"), states the fact, takes responsibility, lists the measures taken and offers a channel for questions.",
-          "The register is formal but accountable. Crisis texts are tempted by the agentless passive, \"erros foram cometidos\", \"houve uma falha\", which the reader hears as evasion. At C2 you choose: the impersonal for procedures (\"os visitantes afetados serão contatados\"), the first person plural for responsibility (\"lamentamos profundamente\", \"assumimos\"). Be precise about what was and wasn't exposed: vagueness in a nota oficial reads as concealment.",
+          "The register is formal but accountable. Crisis texts are tempted by the agentless passive, \"erros foram cometidos\", \"houve uma falha\", which the reader hears as evasion. At the Mastery level you choose: the impersonal for procedures (\"os visitantes afetados serão contatados\"), the first person plural for responsibility (\"lamentamos profundamente\", \"assumimos\"). Be precise about what was and wasn't exposed: vagueness in a nota oficial reads as concealment.",
         ],
         examples: [
           { es: "O Museu de Arte da Cidade vem a público esclarecer o incidente ocorrido em seu sistema de venda de ingressos.", en: "The City Art Museum wishes to clarify publicly the incident that occurred in its ticketing system." },
@@ -2302,7 +2302,7 @@ export const PT_C2_U31: Lesson[] = [
     slug: "c2-exit-speaking",
     level: "PT-C2",
     number: 10,
-    title: "C2 Exit Test, Part 4: Speaking",
+    title: "Exit Test, Part 4: Speaking",
     summary: "The exit test's speaking part: a sustained spoken argument on distance learning, an oral mediation of an English report for Brazilian colleagues, and a spontaneous anecdote told with the markers of Brazilian storytelling.",
     duration: "17 min",
     kind: "level-test",
@@ -2554,7 +2554,7 @@ export const PT_C2_U31: Lesson[] = [
     slug: "c2-exit-precision",
     level: "PT-C2",
     number: 11,
-    title: "C2 Exit Test, Part 5: Precision",
+    title: "Exit Test, Part 5: Precision",
     summary: "The norma culta without hints: agreement, regência, crase, clitic placement, tricky verb forms, hyphens and punctuation, each hidden in a fresh professional sentence.",
     duration: "18 min",
     kind: "level-test",
@@ -2820,7 +2820,7 @@ export const PT_C2_U31: Lesson[] = [
     slug: "c2-exit-final",
     level: "PT-C2",
     number: 12,
-    title: "C2 Exit Test, Part 6: The Final Challenge",
+    title: "Exit Test, Part 6: The Final Challenge",
     summary: "One integrated task to close the course: read an English engineering report and listen to the stallholders of a market in Belém, write a formal recommendation to City Hall, and speak at a public hearing.",
     duration: "20 min",
     kind: "level-test",

@@ -2021,7 +2021,7 @@ export const PT_B1_U23: Lesson[] = [
       {
         heading: "What happened",
         body: [
-          "Tell the story in the A2 past tenses: the perfeito for events (\"comprei\", \"chegou\", \"liguei\") and the imperfeito for the background (\"a caixa estava amassada\", \"não ligava\"). Give dates with \"no dia\": \"no dia 5 de março\".",
+          "Tell the story in the Elementary past tenses: the perfeito for events (\"comprei\", \"chegou\", \"liguei\") and the imperfeito for the background (\"a caixa estava amassada\", \"não ligava\"). Give dates with \"no dia\": \"no dia 5 de março\".",
           "Be specific about the defect: \"o produto veio com defeito: não liga\", \"veio sem o cabo\", \"veio um modelo diferente\". Then say what the company did or didn't do: \"me prometeram uma troca, mas ninguém entrou em contato\".",
         ],
         examples: [

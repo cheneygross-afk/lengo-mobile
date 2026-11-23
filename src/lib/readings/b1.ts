@@ -84,7 +84,7 @@ export const B1_READINGS: Reading[] = [
     title: "¿Me voy o me quedo?",
     author: "Juan Fernández",
     description:
-      "A story written specifically for B1 learners about a young Englishman trying to decide whether to stay in Spain, working through the culture shock and everyday decisions that come with it.",
+      "A story written specifically for Intermediate learners about a young Englishman trying to decide whether to stay in Spain, working through the culture shock and everyday decisions that come with it.",
     amazonUrl: amazonSearchUrl("¿Me voy o me quedo?", "Juan Fernández"),
   },
   {

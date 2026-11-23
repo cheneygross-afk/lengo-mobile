@@ -18,7 +18,7 @@ export const KO_B2_U06: Lesson[] = [
       {
         heading: "-아 / 어야: a gate the first clause has to pass",
         body: [
-          "You already know -아 / 어야 from -아 / 어야 하다, 'have to' (A2). Drop 하다 and a second clause can follow: A-아 / 어야 B means 'B happens only if A happens first'. 표가 있어야 들어갈 수 있어요: you can get in only if you have a ticket. Where -(으)면 simply opens a possibility, -아 / 어야 turns the first clause into a gate.",
+          "You already know -아 / 어야 from -아 / 어야 하다, 'have to' (Elementary). Drop 하다 and a second clause can follow: A-아 / 어야 B means 'B happens only if A happens first'. 표가 있어야 들어갈 수 있어요: you can get in only if you have a ticket. Where -(으)면 simply opens a possibility, -아 / 어야 turns the first clause into a gate.",
           "The form is the 해요 form without 요: 가야, 와야, 봐야, 해야, 있어야, and 되다 contracts to 돼야. Irregular stems change exactly as in 해요: 들어야 (듣다), 도와야 (돕다), 추워야 (춥다), 나아야 (낫다).",
           "The trap for English speakers is that English rarely says 'only if'. It says 'you need X to Y', 'you won't know until you ...', 'you can't ... without ...'. Each of these is -아 / 어야 in Korean. 직접 가 봐야 알 수 있어요 is the natural Korean for 'You won't know until you go and see for yourself'. Translating with -(으)면 (가 보면 알 수 있어요) is fine Korean, but it only says 'if you go, you'll know' and loses the sense of a requirement.",
         ],
@@ -233,7 +233,7 @@ export const KO_B2_U06: Lesson[] = [
       {
         heading: "-아 / 어서야: not until",
         body: [
-          "-아 / 어서 links an earlier event to a later one (A2). Add 야 and the later event becomes late, reached only once the first was over: 밤 12시가 넘어서야 집에 도착했어요. English usually says this with a negative, 'I didn't get home until after midnight'. Korean says it positively. Translating word for word (12시까지 집에 도착 안 했어요) gives a bare fact and loses the sense of 'finally, so late'.",
+          "-아 / 어서 links an earlier event to a later one (Elementary). Add 야 and the later event becomes late, reached only once the first was over: 밤 12시가 넘어서야 집에 도착했어요. English usually says this with a negative, 'I didn't get home until after midnight'. Korean says it positively. Translating word for word (12시까지 집에 도착 안 했어요) gives a bare fact and loses the sense of 'finally, so late'.",
           "Time is the commonest first clause, with 넘다 (pass a time), 지나다 (go by) and 되다 (become, reach): 한 시간이 지나서야, 월요일이 돼서야. With a noun use N이 / 가 돼서야: 서른 살이 돼서야 운전을 배웠다, 'I didn't learn to drive until I was thirty'.",
           "Spelling: 되다 + -어서야 is 되어서야, contracted 돼서야. *되서야 is a very common mistake: 되 can't take -서야 directly, because the 어 is still there inside 돼. If you can say 되어서야, write 돼서야.",
         ],
@@ -438,8 +438,8 @@ export const KO_B2_U06: Lesson[] = [
       {
         heading: "-고 나서야 and -고서야: only after it was over",
         body: [
-          "-고 나서 'after finishing' (A2) takes 야 just as -아 / 어서 did: 설명을 듣고 나서야 이해가 됐어요, 'I didn't understand until I'd heard the explanation'. -고서야 is a shorter form with the same meaning, common in writing: 직접 겪고서야 알았어요. Both stress that one whole action had to be finished before the second could happen.",
-          "Their favourite partner is a realisation: 알다, 깨닫다, 후회하다, or -게 되다 (A2) for 'came to': 아프고 나서야 건강의 소중함을 알게 됐다. This is the Korean shape of the English 'It wasn't until I got sick that I realised ...'. Learners often write 아프기 전에는 몰랐어요, 'I didn't know before I got sick'. That's correct, but it puts the stress on the ignorance; -고 나서야 puts it on how late the lesson came.",
+          "-고 나서 'after finishing' (Elementary) takes 야 just as -아 / 어서 did: 설명을 듣고 나서야 이해가 됐어요, 'I didn't understand until I'd heard the explanation'. -고서야 is a shorter form with the same meaning, common in writing: 직접 겪고서야 알았어요. Both stress that one whole action had to be finished before the second could happen.",
+          "Their favourite partner is a realisation: 알다, 깨닫다, 후회하다, or -게 되다 (Elementary) for 'came to': 아프고 나서야 건강의 소중함을 알게 됐다. This is the Korean shape of the English 'It wasn't until I got sick that I realised ...'. Learners often write 아프기 전에는 몰랐어요, 'I didn't know before I got sick'. That's correct, but it puts the stress on the ignorance; -고 나서야 puts it on how late the lesson came.",
         ],
         examples: [
           { es: "설명을 듣고 나서야 이해가 됐어요.", en: "I didn't understand until I'd heard the explanation." },
@@ -497,7 +497,7 @@ export const KO_B2_U06: Lesson[] = [
             source: "I didn't know how hard it was until I tried it myself.",
             answer: "직접 해 보고서야 얼마나 어려운지 알았어요.",
             altAnswers: ["직접 해 보고 나서야 얼마나 어려운지 알았어요.", "직접 해 보고서야 얼마나 어려운지 알게 됐어요.", "직접 해 보고 나서야 얼마나 어려운지 알게 됐어요.", "직접 해 봐서야 얼마나 어려운지 알았어요.", "직접 해 보고서야 얼마나 힘든지 알았어요.", "직접 해 보고 나서야 얼마나 힘든지 알았어요."],
-            explanation: "Trying it was the experience that taught the lesson, so -고서야 or -고 나서야 after 해 보다. 얼마나 어려운지 is 'how hard it is' (B1).",
+            explanation: "Trying it was the experience that taught the lesson, so -고서야 or -고 나서야 after 해 보다. 얼마나 어려운지 is 'how hard it is' (Intermediate).",
           },
           {
             type: "listen-choose",
@@ -596,7 +596,7 @@ export const KO_B2_U06: Lesson[] = [
       {
         type: "dictation",
         audio: "직접 해 보고서야 얼마나 어려운지 알았어요.",
-        explanation: "보고서야 is one word: -고서야 joins the stem. 얼마나 어려운지 'how hard it is' (B1) is also written attached: 어려운지.",
+        explanation: "보고서야 is one word: -고서야 joins the stem. 얼마나 어려운지 'how hard it is' (Intermediate) is also written attached: 어려운지.",
       },
       {
         type: "fill-blank",
@@ -915,7 +915,7 @@ export const KO_B2_U06: Lesson[] = [
       {
         heading: "-거든: the friendly 'if ..., then do this'",
         body: [
-          "-거든 (A2) is a casual 'if' whose main clause must be a command, a suggestion or the speaker's intention: 도착하거든 전화해, 시간 있거든 들러. It's warm and spoken, used to friends and family, and sounds a little old-fashioned in writing. Don't confuse it with -거든요 'you see' at the end of a sentence.",
+          "-거든 (Elementary) is a casual 'if' whose main clause must be a command, a suggestion or the speaker's intention: 도착하거든 전화해, 시간 있거든 들러. It's warm and spoken, used to friends and family, and sounds a little old-fashioned in writing. Don't confuse it with -거든요 'you see' at the end of a sentence.",
           "So one rule can be said four ways. A sign: 표가 있어야 입장할 수 있습니다. Terms: 유효한 표를 소지하는 한 재입장이 가능합니다. A staff member: 표가 있으면 먼저 들어가세요. A text to a friend: 표 있거든 먼저 들어가.",
         ],
         examples: [
@@ -1485,7 +1485,7 @@ export const KO_B2_U06: Lesson[] = [
             source: "It was only after reading all the terms that I realised I had to pay for shipping.",
             answer: "약관을 다 읽고 나서야 배송비를 내야 한다는 걸 알았어요.",
             altAnswers: ["약관을 다 읽고서야 배송비를 내야 한다는 걸 알았어요.", "약관을 다 읽고 나서야 배송비를 내야 한다는 것을 알았어요.", "약관을 다 읽고서야 배송비를 내야 한다는 것을 알았어요.", "약관을 다 읽고 나서야 배송비를 내야 하는 걸 알았어요.", "약관을 다 읽고 나서야 배송비를 제가 내야 한다는 걸 알았어요."],
-            explanation: "-고 나서야 for the late realisation, and -다는 걸 알았어요 for 'realised that' (B1 reported speech).",
+            explanation: "-고 나서야 for the late realisation, and -다는 걸 알았어요 for 'realised that' (Intermediate reported speech).",
           },
           {
             type: "listen-choose",
@@ -1705,7 +1705,7 @@ export const KO_B2_U06: Lesson[] = [
       {
         heading: "Passing the news on in 해요",
         body: [
-          "Nobody repeats an announcement word for word. To a friend or a colleague you'd turn it into everyday Korean: -대요 reports what was said (B1), the Sino-Korean nouns become verbs, and the honorifics for passengers disappear. 운행이 재개될 예정입니다 becomes 기차가 다시 다닌대요; 결항되었습니다 becomes 비행기가 안 뜬대요.",
+          "Nobody repeats an announcement word for word. To a friend or a colleague you'd turn it into everyday Korean: -대요 reports what was said (Intermediate), the Sino-Korean nouns become verbs, and the honorifics for passengers disappear. 운행이 재개될 예정입니다 becomes 기차가 다시 다닌대요; 결항되었습니다 becomes 비행기가 안 뜬대요.",
           "The conditions survive the switch: 3시 넘어서야 기차가 다닌대요, 날씨가 좋아져야 비행기가 뜬대요.",
         ],
         examples: [

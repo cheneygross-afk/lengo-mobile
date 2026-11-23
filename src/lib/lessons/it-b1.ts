@@ -110,7 +110,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u31", title: "Word Formation", description: "Understand and build new words with suffixes and prefixes.", lessons: IT_B1_U31, extra: IT_B1_U31_EXTRA, writing: IT_B1_U31_WRITING },
   { id: "u32", title: "Reported Speech, Part 1", description: "Report what people said, asked and told you to do.", lessons: IT_B1_U32, extra: IT_B1_U32_EXTRA, writing: IT_B1_U32_WRITING },
   { id: "u33", title: "Reading and Listening Lab, CILS UNO Tasks", description: "Practice the reading, listening and writing tasks of CILS UNO (B1).", lessons: IT_B1_U33, extra: IT_B1_U33_EXTRA, writing: IT_B1_U33_WRITING },
-  { id: "u34", title: "Living in Italy and B1 Review", description: "Handle Italian bureaucracy as a resident and bring B1 together.", lessons: IT_B1_U34, extra: IT_B1_U34_EXTRA, writing: IT_B1_U34_WRITING },
+  { id: "u34", title: "Living in Italy and Intermediate Review", description: "Handle Italian bureaucracy as a resident and bring the Intermediate level together.", lessons: IT_B1_U34, extra: IT_B1_U34_EXTRA, writing: IT_B1_U34_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("B1", UNITS);

@@ -312,7 +312,7 @@ export const JA_A1_LESSONS: Lesson[] = [
         "heading": "A note on bowing and register",
         "body": [
           "A slight bow of the head or shoulders often accompanies greetings, thanks, and introductions -- the depth and formality of the bow scales with the situation, but as a beginner, a small nod is a perfectly natural accompaniment to any of the phrases in this lesson.",
-          "Everything in this lesson is in the polite (ます/です) register, appropriate for strangers, teachers, service situations, and anyone you don't have an established casual relationship with. That's the safest default register for a beginner, and it's what the rest of this A1 module will build on."
+          "Everything in this lesson is in the polite (ます/です) register, appropriate for strangers, teachers, service situations, and anyone you don't have an established casual relationship with. That's the safest default register for a beginner, and it's what the rest of this Beginner module will build on."
         ],
         "checkpoint": [
           {
@@ -2569,7 +2569,7 @@ export const JA_A1_LESSONS: Lesson[] = [
         "body": [
           "い-adjective (大きい, big): before a noun, attach directly (大きい本); negate by dropping い and adding くない (大きくない); past by dropping い and adding かった (大きかった).",
           "な-adjective (静か, quiet): before a noun, insert な (静かな図書館); negate and go to the past exactly like です (静かじゃありません, 静かでした).",
-          "With verbs, particles, adjectives, and numbers now all covered, you have the core grammar toolkit of this entire A1 module. The final lesson ties everything together with time expressions, daily routine vocabulary, and a full review."
+          "With verbs, particles, adjectives, and numbers now all covered, you have the core grammar toolkit of this entire Beginner module. The final lesson ties everything together with time expressions, daily routine vocabulary, and a full review."
         ],
         "checkpoint": [
           {
@@ -2644,8 +2644,8 @@ export const JA_A1_LESSONS: Lesson[] = [
     "slug": "time-days-daily-routine-review-1",
     "level": "JA-A1",
     "number": 19,
-    "title": "Time, Days, and Daily Routine (A1 Module Review), Part 1 of 3",
-    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this A1 module.",
+    "title": "Time, Days, and Daily Routine (Beginner Module Review), Part 1 of 3",
+    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this Beginner module.",
     "duration": "8 min",
     "sections": [
       {
@@ -2769,8 +2769,8 @@ export const JA_A1_LESSONS: Lesson[] = [
     "slug": "time-days-daily-routine-review-2",
     "level": "JA-A1",
     "number": 20,
-    "title": "Time, Days, and Daily Routine (A1 Module Review), Part 2 of 3",
-    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this A1 module.",
+    "title": "Time, Days, and Daily Routine (Beginner Module Review), Part 2 of 3",
+    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this Beginner module.",
     "duration": "8 min",
     "sections": [
       {
@@ -2893,15 +2893,15 @@ export const JA_A1_LESSONS: Lesson[] = [
     "slug": "time-days-daily-routine-review-3",
     "level": "JA-A1",
     "number": 21,
-    "title": "Time, Days, and Daily Routine (A1 Module Review), Part 3 of 3",
-    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this A1 module.",
+    "title": "Time, Days, and Daily Routine (Beginner Module Review), Part 3 of 3",
+    "summary": "Telling time, naming days of the week, describing a daily routine -- and a full review pulling together everything from this Beginner module.",
     "duration": "7 min",
     "sections": [
       {
         "heading": "Module review: what you've covered",
         "body": [
-          "Across this A1 module: greetings and self-introductions; the X は Y です pattern with its negative, question, and past forms; pronouns, demonstratives (これ/それ/あれ, この/その/あの), and question words; the six core particles (は, が, を, に, で, と); two number systems plus counters; ます-form verbs with their negatives, motion verbs with に, and あります/います for existence; and both adjective families (い and な) with their full conjugation patterns.",
-          "That's a genuinely functional A1 foundation -- enough to introduce yourself, describe your day, count and ask about basic quantities, and form simple negative and past-tense statements and questions across nouns, verbs, and adjectives alike."
+          "Across this Beginner module: greetings and self-introductions; the X は Y です pattern with its negative, question, and past forms; pronouns, demonstratives (これ/それ/あれ, この/その/あの), and question words; the six core particles (は, が, を, に, で, と); two number systems plus counters; ます-form verbs with their negatives, motion verbs with に, and あります/います for existence; and both adjective families (い and な) with their full conjugation patterns.",
+          "That's a genuinely functional Beginner foundation -- enough to introduce yourself, describe your day, count and ask about basic quantities, and form simple negative and past-tense statements and questions across nouns, verbs, and adjectives alike."
         ],
         "checkpoint": [
           {
@@ -2929,11 +2929,11 @@ export const JA_A1_LESSONS: Lesson[] = [
                 "right": "past tense of です"
               }
             ],
-            "explanation": "A cumulative recap of the core particles and conjugation endings covered across this A1 module."
+            "explanation": "A cumulative recap of the core particles and conjugation endings covered across this Beginner module."
           },
           {
             "type": "multi-select",
-            "question": "Which of these are true about this A1 module's grammar?",
+            "question": "Which of these are true about this Beginner module's grammar?",
             "options": [
               "い-adjectives conjugate on their own (くない, かった)",
               "な-adjectives conjugate exactly like です",
@@ -2952,7 +2952,7 @@ export const JA_A1_LESSONS: Lesson[] = [
       {
         "heading": "Where to go from here",
         "body": [
-          "From this foundation, A2-level Japanese would typically continue into the te-form (て form) -- a single verb conjugation that unlocks requests, ongoing actions, sequences of actions, and permission-asking, all from one shape -- along with more particles, more natural conversational patterns, and casual (plain) speech alongside the polite ます/です forms this module focused on exclusively.",
+          "From this foundation, Elementary-level Japanese would typically continue into the te-form (て form) -- a single verb conjugation that unlocks requests, ongoing actions, sequences of actions, and permission-asking, all from one shape -- along with more particles, more natural conversational patterns, and casual (plain) speech alongside the polite ます/です forms this module focused on exclusively.",
           "For now, revisit any lesson in this module that still feels shaky before moving on -- the grammar here (especially です, ます, and the two adjective families) is genuinely foundational, and it's worth it being solid rather than rushed."
         ]
       }

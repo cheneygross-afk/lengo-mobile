@@ -231,7 +231,7 @@ export const KO_B1_U13: Lesson[] = [
       {
         heading: "-지 말걸 그랬어요: I shouldn't have",
         body: [
-          "For something you did and now regret, put -지 말걸 after the verb stem: 먹지 말걸 그랬어요 'I shouldn't have eaten (so much)'. It's built from -지 말다, the 'don't' of 먹지 마세요 (A2), plus the -(으)ㄹ걸 of lesson 1: 말다 + -ㄹ걸 → 말걸.",
+          "For something you did and now regret, put -지 말걸 after the verb stem: 먹지 말걸 그랬어요 'I shouldn't have eaten (so much)'. It's built from -지 말다, the 'don't' of 먹지 마세요 (Elementary), plus the -(으)ㄹ걸 of lesson 1: 말다 + -ㄹ걸 → 말걸.",
           "English speakers often try to put 안 in front: 'I should have not eaten'. The standard form is -지 말걸, and that's the one to use in polite speech and on TOPIK. As in lesson 1, the verb never takes the past: 사지 말걸, not *샀지 말걸.",
         ],
         examples: [
@@ -410,7 +410,7 @@ export const KO_B1_U13: Lesson[] = [
         source: "It's okay even if you fail.",
         answer: "실패해도 괜찮아요.",
         altAnswers: ["실패해도 돼요."],
-        explanation: "실패하다 + -아도 괜찮아요 (A2): 'even if you fail, it's fine'.",
+        explanation: "실패하다 + -아도 괜찮아요 (Elementary): 'even if you fail, it's fine'.",
       },
       {
         type: "dictation",
@@ -436,7 +436,7 @@ export const KO_B1_U13: Lesson[] = [
       {
         heading: "Should have, with more weight",
         body: [
-          "You know -아 / 어야 하다 'must, have to' from A2: 출발해야 해요 'I have to leave'. Put the past into both halves and add the -는데 of Unit 6, and you get 'should have (but didn't)': 출발했어야 했는데. The trailing -는데 leaves the rest unsaid: '... and I didn't, and here we are'. Add 요 for polite speech: 했어야 했는데요.",
+          "You know -아 / 어야 하다 'must, have to' from the Elementary level: 출발해야 해요 'I have to leave'. Put the past into both halves and add the -는데 of Unit 6, and you get 'should have (but didn't)': 출발했어야 했는데. The trailing -는데 leaves the rest unsaid: '... and I didn't, and here we are'. Add 요 for polite speech: 했어야 했는데요.",
           "Unlike -(으)ㄹ걸, the main verb does take the past here: 갔어야, 먹었어야, 확인했어야. The tone is heavier too. -(으)ㄹ걸 그랬어요 is a light sigh; -았 / 었어야 했는데 sounds like real regret, which is why it suits a serious mistake. In speech many people say 됐는데 for 했는데: 출발했어야 됐는데.",
         ],
         examples: [
@@ -1054,7 +1054,7 @@ export const KO_B1_U13: Lesson[] = [
       {
         heading: "Notes to self: -아 / 어야지",
         body: [
-          "-아 / 어야지 is -아 / 어야 하다 'must' (A2) cut short. Said to yourself, it's a resolution: 다음엔 꼭 우산을 챙겨야지 'next time I'll definitely bring an umbrella'. It often follows a regret: 우산을 가져올걸. 다음엔 꼭 챙겨야지.",
+          "-아 / 어야지 is -아 / 어야 하다 'must' (Elementary) cut short. Said to yourself, it's a resolution: 다음엔 꼭 우산을 챙겨야지 'next time I'll definitely bring an umbrella'. It often follows a regret: 우산을 가져올걸. 다음엔 꼭 챙겨야지.",
           "It's also how you announce to yourself what you're about to do: 이제 가야지 'right, time I got going'. These are casual: you're talking to yourself or a friend. Telling someone else your plan politely, use 해요 with -아 / 어야죠: 다음부터는 꼭 챙겨야죠.",
         ],
         examples: [
@@ -1677,7 +1677,7 @@ export const KO_B1_U13: Lesson[] = [
       {
         heading: "Sound focus: 할걸 [할껄], 먹을걸 [머글껄]",
         body: [
-          "In A2 you heard the consonant after the ㄹ of -(으)ㄹ게요 said tense but written plain: 할게요 [할께요]. 걸 works the same way: 할걸 [할껄], 갈걸 [갈껄], 먹을걸 [머글껄], 말걸 [말껄], 쓸걸 [쓸껄]. Only the question ending -(으)ㄹ까 is written with ㄲ; everything else keeps plain ㄱ.",
+          "In the Elementary level you heard the consonant after the ㄹ of -(으)ㄹ게요 said tense but written plain: 할게요 [할께요]. 걸 works the same way: 할걸 [할껄], 갈걸 [갈껄], 먹을걸 [머글껄], 말걸 [말껄], 쓸걸 [쓸껄]. Only the question ending -(으)ㄹ까 is written with ㄲ; everything else keeps plain ㄱ.",
           "So when you hear [껄] after an ㄹ, write 걸, joined to the verb. Writing *할껄 is one of the most common spelling mistakes Koreans make themselves, and TOPIK marks it wrong.",
         ],
         examples: [

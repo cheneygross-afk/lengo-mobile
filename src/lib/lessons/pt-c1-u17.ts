@@ -16,7 +16,7 @@ export const PT_C1_U17: Lesson[] = [
         body: [
           "English needs an object after a transitive verb: 'I bought it but didn't use it.' Brazilian speech leaves the slot empty as soon as the thing is clear from context: \"Comprei, mas não usei.\" This is not laziness but the default. The clitics \"o\" and \"a\" have almost vanished from conversation, and the gap has taken their place.",
           "The gap works best for things and ideas. For people, speakers prefer the spoken pronoun: \"Convidei ela\" sounds more natural than a bare \"Convidei\". Verbs with a preposition can't leave a gap at all: \"Gostei dele\", \"Preciso disso\".",
-          "The C1 trap is the opposite of a beginner's. You know \"comprei-o\" and \"vou buscá-la\" from formal texts, and they creep into your speech. Out loud they sound like a news anchor reading the headlines. Keep them for writing; in conversation, drop the object or use \"ele\" / \"ela\".",
+          "The Advanced trap is the opposite of a beginner's. You know \"comprei-o\" and \"vou buscá-la\" from formal texts, and they creep into your speech. Out loud they sound like a news anchor reading the headlines. Keep them for writing; in conversation, drop the object or use \"ele\" / \"ela\".",
         ],
         examples: [
           { es: "Comprei um tênis novo, mas ainda não usei.", en: "I bought new sneakers but haven't worn them yet." },
@@ -330,7 +330,7 @@ export const PT_C1_U17: Lesson[] = [
         body: [
           "Brazilian speech often closes a negative with a second \"não\": \"Não sei não\", \"Não vou não\". The second one doesn't cancel the first; it reinforces or softens, depending on tone. Said gently, \"Acho que não vai chover não\" is friendly reassurance. Said firmly, \"Não vou pagar isso não\" closes the matter. You met it in Unit 12 as emphasis.",
           "Some speakers, especially in the Northeast, keep only the final one: \"Sei não\", \"Quero não\". Recognize it, but \"não sei não\" is the safer choice in your own speech. None of these belong in writing, where one \"não\" does the job.",
-          "That's the pattern of the whole lesson. These forms are not mistakes, and if you avoid all of them you'll sound like a textbook. The C1 skill is switching: the same person who says \"Tem que ver isso aí, não sei não\" writes \"É preciso analisar a questão com cautela\".",
+          "That's the pattern of the whole lesson. These forms are not mistakes, and if you avoid all of them you'll sound like a textbook. The Advanced skill is switching: the same person who says \"Tem que ver isso aí, não sei não\" writes \"É preciso analisar a questão com cautela\".",
         ],
         examples: [
           { es: "Não sei não, acho que vai chover.", en: "I'm not so sure, I think it's going to rain." },
@@ -1974,7 +1974,7 @@ export const PT_C1_U17: Lesson[] = [
       {
         heading: "Too formal for the bar",
         body: [
-          "At C1, your mistakes in speech are rarely grammatical errors. They're register errors: correct sentences in the wrong place. At a boteco in São Paulo, a learner says \"Disseram-me que este bar é ótimo.\" Nothing is wrong on paper, but the sentence-initial clitic sounds European and the whole thing sounds read aloud. A Brazilian says \"Me falaram que esse bar é ótimo.\"",
+          "At the Advanced level, your mistakes in speech are rarely grammatical errors. They're register errors: correct sentences in the wrong place. At a boteco in São Paulo, a learner says \"Disseram-me que este bar é ótimo.\" Nothing is wrong on paper, but the sentence-initial clitic sounds European and the whole thing sounds read aloud. A Brazilian says \"Me falaram que esse bar é ótimo.\"",
           "The usual suspects are enclitics (\"encontrei-o\" instead of \"encontrei ele\" or just \"encontrei\"), \"haver\" (\"há muita gente\" instead of \"tem muita gente\") and \"este\" for this, where speech uses \"esse\" for both. Two more: \"nós\" with every verb, when \"a gente\" is the default, and written connectors like \"todavia\", \"ademais\" or \"no entanto\" in a casual chat, where speech says \"mas\", \"e outra\" or \"só que\".",
         ],
         examples: [

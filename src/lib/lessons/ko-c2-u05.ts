@@ -1383,7 +1383,7 @@ export const KO_C2_U05: Lesson[] = [
     level: "KO-C2",
     number: 7,
     title: "Reading Lab: Folk Tales for Adults",
-    summary: "Read course-written retellings of 구렁덩덩 신선비, 우렁각시 and the ghost tale 장화홍련전 at full C2 density, tell 설화, 신화, 전설 and 민담 apart, and name the motifs of taboo (금기), transformation (변신) and repaid kindness (보은).",
+    summary: "Read course-written retellings of 구렁덩덩 신선비, 우렁각시 and the ghost tale 장화홍련전 at full Mastery density, tell 설화, 신화, 전설 and 민담 apart, and name the motifs of taboo (금기), transformation (변신) and repaid kindness (보은).",
     duration: "20 min",
     sections: [
       {
@@ -2228,7 +2228,7 @@ export const KO_C2_U05: Lesson[] = [
         heading: "A sung line and its 추임새",
         body: [
           "In the recording, a sung line is followed by the drummer's 추임새. 추임새 are not random. Listen for four triggers: a long held high note (the voice climbs and holds, then 얼씨구!), a heartbreaking line in slow 진양조 (a quiet 그렇지 or 좋다), a clever joke in the 아니리 (laughter and 잘한다!), and the end of a breathless fast passage (a loud 얼쑤!). The words of the sung line below were written for this course.",
-          "Pay attention to the timing as well as the word. 추임새 come in the gap after a phrase, almost on the beat, and the drummer's are short and low, the audience's longer and louder. Being able to say why a 추임새 came where it did is the C2 skill: it shows you are following the music's structure, not just the words.",
+          "Pay attention to the timing as well as the word. 추임새 come in the gap after a phrase, almost on the beat, and the drummer's are short and low, the audience's longer and louder. Being able to say why a 추임새 came where it did is the Mastery skill: it shows you are following the music's structure, not just the words.",
         ],
         examples: [
           { es: "심 봉사가 눈을 번쩍 뜨니 온 세상이 환하구나!", en: "심 봉사 opens his eyes, and the whole world is bright! (course-written, sung line)" },

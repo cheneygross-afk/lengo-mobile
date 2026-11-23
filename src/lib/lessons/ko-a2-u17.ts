@@ -491,7 +491,7 @@ export const KO_A2_U17: Lesson[] = [
       {
         heading: "Asking: -아 / 어 주세요 and -아 / 어 주시겠어요?",
         body: [
-          "You met -아 / 어 주세요 in A1: 사진 좀 찍어 주세요 'Please take a photo (for me)'. 좀 softens it. With a stranger, a clerk or a senior, go one step softer with -아 / 어 주시겠어요?: 창문 좀 열어 주시겠어요? 'Would you open the window?'. Here -겠- doesn't mean 'will'; it asks whether the person would be willing, like English 'would you'.",
+          "You met -아 / 어 주세요 in the Beginner level: 사진 좀 찍어 주세요 'Please take a photo (for me)'. 좀 softens it. With a stranger, a clerk or a senior, go one step softer with -아 / 어 주시겠어요?: 창문 좀 열어 주시겠어요? 'Would you open the window?'. Here -겠- doesn't mean 'will'; it asks whether the person would be willing, like English 'would you'.",
           "To a friend, drop the honorific and 요: 이것 좀 봐 줘, 문 좀 열어 줘.",
         ],
         examples: [
@@ -965,7 +965,7 @@ export const KO_A2_U17: Lesson[] = [
       {
         heading: "Sound focus: written 게, said [께]",
         body: [
-          "After the ㄹ of -(으)ㄹ, the next consonant turns tense, as in 갈 거예요 [갈 꺼예요] (A1). So 드릴게요 is said [드릴께요], 먹을게요 [머글께요], 만날게요 [만날께요], and 할게요 has the same tense ㄲ sound. In -(으)ㄹ까요 the tense letter is written (할까요), but -(으)ㄹ게요 is always written with plain ㄱ. *할께요 is the most common spelling slip Koreans themselves make.",
+          "After the ㄹ of -(으)ㄹ, the next consonant turns tense, as in 갈 거예요 [갈 꺼예요] (Beginner). So 드릴게요 is said [드릴께요], 먹을게요 [머글께요], 만날게요 [만날께요], and 할게요 has the same tense ㄲ sound. In -(으)ㄹ까요 the tense letter is written (할까요), but -(으)ㄹ게요 is always written with plain ㄱ. *할께요 is the most common spelling slip Koreans themselves make.",
         ],
         examples: [
           { es: "제가 드릴게요.", en: "I'll give it to you." },

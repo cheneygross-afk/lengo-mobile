@@ -136,7 +136,7 @@ export const IT_B2_U10: Lesson[] = [
       {
         heading: "Choosing the structure",
         body: [
-          "The same idea has several forms: \"Nonostante la stanchezza\" (noun), \"Pur essendo stanco\" (gerund, same subject), \"Benché fosse stanco\" (subjunctive), \"Anche se era stanco\" (indicative, everyday). Using a variety in writing, especially in an exam like the CILS, shows a strong B2.",
+          "The same idea has several forms: \"Nonostante la stanchezza\" (noun), \"Pur essendo stanco\" (gerund, same subject), \"Benché fosse stanco\" (subjunctive), \"Anche se era stanco\" (indicative, everyday). Using a variety in writing, especially in an exam like the CILS, shows a strong Upper-intermediate level.",
         ],
         examples: [
           { es: "Nonostante la stanchezza, ha finito il turno.", en: "Despite his tiredness, he finished the shift." },

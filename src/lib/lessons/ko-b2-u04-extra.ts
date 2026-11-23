@@ -64,7 +64,7 @@ export const KO_B2_U04_EXTRA: Lesson[] = [
             source: "You say thank you even to close friends.",
             answer: "친한 친구한테도 고맙다고 말하는 법이에요.",
             altAnswers: ["친한 친구에게도 고맙다고 말하는 법이에요.", "친한 친구한테도 고맙다고 하는 법이에요.", "친한 친구에게도 고맙다고 하는 법이에요.", "친한 친구한테도 고맙다는 말은 하는 법이에요.", "친한 친구라도 고맙다고 말하는 법이에요."],
-            explanation: "A rule of manners: 말하는 법이에요, with the reported 고맙다고 (B1).",
+            explanation: "A rule of manners: 말하는 법이에요, with the reported 고맙다고 (Intermediate).",
           },
           {
             type: "speak",
@@ -452,7 +452,7 @@ export const KO_B2_U04_EXTRA: Lesson[] = [
         source: "If I call now, Mum will obviously ask when I'm coming again.",
         answer: "지금 전화하면 엄마가 또 언제 오냐고 물어보실 게 뻔해.",
         altAnswers: ["지금 전화하면 엄마가 또 언제 오냐고 물어볼 게 뻔해.", "지금 전화하면 엄마가 또 언제 오냐고 물으실 게 뻔해.", "지금 전화하면 엄마가 또 언제 오냐고 하실 게 뻔해.", "지금 전화하면 엄마가 또 언제 오냐고 할 게 뻔해.", "지금 전화하면 엄마가 언제 오냐고 또 물어보실 게 뻔해.", "지금 전화하면 엄마가 또 언제 오냐고 물어볼 것이 뻔해."],
-        explanation: "A reported question (-냐고, B1) inside the prediction: 물어보실 게 뻔해.",
+        explanation: "A reported question (-냐고, Intermediate) inside the prediction: 물어보실 게 뻔해.",
       },
       {
         type: "fill-blank",

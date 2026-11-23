@@ -60,7 +60,7 @@ export const PT_B1_U17: Lesson[] = [
         heading: "Cê, pra, pro: smaller words",
         body: [
           "\"Você\" often shrinks to \"cê\": \"cê vem hoje?\" (are you coming today?). \"Cê\" is unstressed, so it only works as the subject right before a verb. Alone, stressed or after a preposition, keep \"você\": \"e você?\", \"pra você\", \"com você\".",
-          "You met \"pra\" and \"pro\" at A2. The full set swallows the article: \"para o\" → \"pro\", \"para a\" → \"pra\", \"para os\" → \"pros\", \"para as\" → \"pras\". So \"vou pra praia\" already contains the \"a\"; don't add another one.",
+          "You met \"pra\" and \"pro\" at Elementary. The full set swallows the article: \"para o\" → \"pro\", \"para a\" → \"pra\", \"para os\" → \"pros\", \"para as\" → \"pras\". So \"vou pra praia\" already contains the \"a\"; don't add another one.",
         ],
         examples: [
           { es: "Cê sabe onde fica a padaria?", en: "Do you know where the bakery is?" },
@@ -1959,7 +1959,7 @@ export const PT_B1_U17: Lesson[] = [
         heading: "Combinando os detalhes: time, place, who brings what",
         body: [
           "Then come the details: the time (\"tipo umas oito?\", around eight?), the meeting point (\"a gente se encontra onde?\") and who brings what. For small promises the present tense is enough: \"eu levo a carne\" means I'll bring the meat.",
-          "Your B1 grammar fits casual messages too: \"caso chova, a gente vê um filme\". Close with a recap so nobody gets lost, \"então fica assim:\" followed by day, time and place, and someone answers \"combinado!\" or \"fechado!\".",
+          "Your Intermediate grammar fits casual messages too: \"caso chova, a gente vê um filme\". Close with a recap so nobody gets lost, \"então fica assim:\" followed by day, time and place, and someone answers \"combinado!\" or \"fechado!\".",
         ],
         examples: [
           { es: "Tipo umas oito? Aí dá tempo de pegar a estrada cedo.", en: "Around eight? That way we can hit the road early." },

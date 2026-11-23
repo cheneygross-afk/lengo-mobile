@@ -106,7 +106,7 @@ export const KO_B1_U30: Lesson[] = [
         heading: "귀찮다, and the ㅎ that makes [ㅋ ㅌ ㅊ]",
         body: [
           "귀찮다 means 'can't be bothered' or 'what a hassle': 요리하기 귀찮아요. It's an everyday, honest word, not rude in itself; but calling a person 귀찮다 to their face is. 귀찮게 해서 죄송해요 is the polite 'sorry to bother you'.",
-          "Sound review from A2: an ㅎ at the end of a stem, alone or in ㄶ and ㅀ, merges with a following ㄱ, ㄷ or ㅈ into ㅋ, ㅌ, ㅊ: 귀찮다 [귀찬타], 귀찮게 [귀찬케], 괜찮지 [괜찬치], 좋다 [조타], 싫고 [실코]. Before a vowel the ㅎ goes silent instead: 귀찮아요 [귀차나요], 좋아요 [조아요], 싫어요 [시러요]. The spelling never changes.",
+          "Sound review from the Elementary level: an ㅎ at the end of a stem, alone or in ㄶ and ㅀ, merges with a following ㄱ, ㄷ or ㅈ into ㅋ, ㅌ, ㅊ: 귀찮다 [귀찬타], 귀찮게 [귀찬케], 괜찮지 [괜찬치], 좋다 [조타], 싫고 [실코]. Before a vowel the ㅎ goes silent instead: 귀찮아요 [귀차나요], 좋아요 [조아요], 싫어요 [시러요]. The spelling never changes.",
         ],
         examples: [
           { es: "오늘은 요리하기 귀찮아요.", en: "I can't be bothered to cook today." },
@@ -300,7 +300,7 @@ export const KO_B1_U30: Lesson[] = [
       {
         heading: "좋다 and 좋아하다, 싫다 and 싫어하다",
         body: [
-          "Now the pair you've used since A1 makes sense. 좋다 is an adjective, 'to be good, pleasing'; 좋아하다 is its -아하다 verb, 'to like'. So 저는 이 노래가 좋아요 is literally 'to me this song is good', with 이 / 가, and 저는 이 노래를 좋아해요 is 'I like this song', with 을 / 를. For yourself both are right: 좋아요 is the feeling now, 좋아해요 a lasting preference. For other people, use 좋아하다.",
+          "Now the pair you've used since Beginner makes sense. 좋다 is an adjective, 'to be good, pleasing'; 좋아하다 is its -아하다 verb, 'to like'. So 저는 이 노래가 좋아요 is literally 'to me this song is good', with 이 / 가, and 저는 이 노래를 좋아해요 is 'I like this song', with 을 / 를. For yourself both are right: 좋아요 is the feeling now, 좋아해요 a lasting preference. For other people, use 좋아하다.",
           "싫다 and 싫어하다 work the same way. Mixing the two patterns is the classic trap: *저는 커피가 좋아해요 and *저는 커피를 좋아요 are both wrong. Say them as [조아해요] and [시러해요]: the ㅎ is silent before a vowel.",
         ],
         examples: [
@@ -905,7 +905,7 @@ export const KO_B1_U30: Lesson[] = [
       {
         heading: "Looks tired, acts tired: 피곤해 보여요 and 피곤해해요",
         body: [
-          "Korean has several ways to talk about a feeling you can't see from inside, and each one tells the listener what your evidence is. -아 / 어 보이다 (A2) is what you see in someone's face or appearance right now: 민수 씨가 피곤해 보여요 'Minsu looks tired'. It's the one you can say to the person: 오늘 좀 피곤해 보여요.",
+          "Korean has several ways to talk about a feeling you can't see from inside, and each one tells the listener what your evidence is. -아 / 어 보이다 (Elementary) is what you see in someone's face or appearance right now: 민수 씨가 피곤해 보여요 'Minsu looks tired'. It's the one you can say to the person: 오늘 좀 피곤해 보여요.",
           "-아 / 어하다 reports what someone shows by behaviour or tells you, as a fact: 민수 씨가 요즘 많이 피곤해해요 'Minsu has been really tired lately (he keeps saying so, he acts it)'. It suits general tendencies and people you know well, but said to the person about themselves it sounds odd: to their face, use 피곤해 보여요.",
         ],
         examples: [

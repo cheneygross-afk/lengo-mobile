@@ -312,7 +312,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "Eufemismo and lítotes: saying less",
         body: [
-          "The \"eufemismo\" softens what is painful, rude or awkward. You met the polite ones (\"faleceu\", \"acima do peso\") at C1. As a style it goes further: someone who has died \"nos deixou\", \"descansou\" or \"partiu\". Tone matters here. \"Foi dessa para melhor\" is jokey: fine for a broken fridge, not at a wake.",
+          "The \"eufemismo\" softens what is painful, rude or awkward. You met the polite ones (\"faleceu\", \"acima do peso\") at the Advanced level. As a style it goes further: someone who has died \"nos deixou\", \"descansou\" or \"partiu\". Tone matters here. \"Foi dessa para melhor\" is jokey: fine for a broken fridge, not at a wake.",
           "Institutions live on euphemism. A company \"desliga\" staff during a \"reestruturação\". A government announces a \"readequação de tarifas\" rather than a price rise, and employees become \"colaboradores\". Reading Brazilian news well means translating these back into plain facts.",
           "A close relative is the \"lítotes\": denying the opposite to make a point gently. \"Ele não é nada bobo\" means he's sharp, \"não foi das melhores ideias\" means it was a bad idea, and \"nada mal\" is real praise. English understatement works the same way, but Brazilians use lítotes even more to criticize without sounding harsh.",
         ],
@@ -791,7 +791,7 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Assonância: repeating vowel sounds",
         body: [
           "\"Assonância\" repeats vowel sounds, above all stressed ones, without full rhyme. Rhyme repeats everything from the stressed vowel to the end (\"amor\", \"dor\"). Assonance repeats only the vowel, so it can work inside a line, where rhymes would sound like a jingle. Chico Buarque's \"Ana de Amsterdam\" stacks nasal a's: \"da cama, da cana, fulana, bacana\". In Brazil a stressed a before m or n is nasal, so the whole line hums.",
-          "Open and closed vowels count as different sounds. This is the distinction from A1, now doing poetic work. \"Só a avó viu o sol\" rings with open ó, while \"o povo do avô morava no morro\" murmurs with closed ô. Open vowels tend to sound bright and loud, and closed and nasal ones muffled or melancholic. That is only a tendency, though: the meaning of the words always outweighs the sound.",
+          "Open and closed vowels count as different sounds. This is the distinction from the Beginner level, now doing poetic work. \"Só a avó viu o sol\" rings with open ó, while \"o povo do avô morava no morro\" murmurs with closed ô. Open vowels tend to sound bright and loud, and closed and nasal ones muffled or melancholic. That is only a tendency, though: the meaning of the words always outweighs the sound.",
         ],
         examples: [
           { es: "Sou Ana, da cama, da cana, fulana, bacana", en: "I'm Ana, of the bed, of the booze, a nobody, a cool one (Chico Buarque)" },
@@ -1088,7 +1088,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "Pleonasmo: emphasis or padding",
         body: [
-          "\"Pleonasmo\" repeats an idea already expressed. Done on purpose, it is a figure of emphasis. \"Vi com meus próprios olhos\" insists on the testimony. The objeto pleonástico \"A mim, ninguém me engana\" fronts the object and then repeats it with \"me\", the left dislocation you met at C1. Literature uses pleonasm for intensity: \"chorou lágrimas amargas\".",
+          "\"Pleonasmo\" repeats an idea already expressed. Done on purpose, it is a figure of emphasis. \"Vi com meus próprios olhos\" insists on the testimony. The objeto pleonástico \"A mim, ninguém me engana\" fronts the object and then repeats it with \"me\", the left dislocation you met at the Advanced level. Literature uses pleonasm for intensity: \"chorou lágrimas amargas\".",
           "\"Pleonasmo vicioso\" adds nothing. Common examples are \"subir para cima\", \"descer para baixo\", \"entrar para dentro\", \"sair para fora\", \"elo de ligação\" (an \"elo\" is already a link), \"há dez anos atrás\", \"surpresa inesperada\" and \"repetir de novo\". Many pass unnoticed in speech. In an edited text, an ENEM essay or a speech, they read as carelessness. The fix is to cut one half: \"subir\", \"o elo\", \"há dez anos\" or \"dez anos atrás\".",
           "English speakers add pleonasms of their own by calque. A free gift becomes \"brinde grátis\", though a \"brinde\" is free by definition. A few phrases that look redundant are fixed by usage and fine. \"Voltar atrás\" means to go back on a decision, and \"ver com os próprios olhos\" is idiomatic.",
         ],
@@ -1553,7 +1553,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "One idea, two ways of saying it",
         body: [
-          "Almost any idea can be said plainly or through an image. \"O projeto atrasou muito\" informs, while \"o projeto andou a passo de tartaruga\" makes you see it. The plain version is faster and harder to misread. The figurative one sticks in the memory and carries an attitude, here impatience. Neither is better in the abstract. The C2 skill is choosing on purpose, for this reader and this text.",
+          "Almost any idea can be said plainly or through an image. \"O projeto atrasou muito\" informs, while \"o projeto andou a passo de tartaruga\" makes you see it. The plain version is faster and harder to misread. The figurative one sticks in the memory and carries an attitude, here impatience. Neither is better in the abstract. The Mastery skill is choosing on purpose, for this reader and this text.",
           "As you saw with metonymy and hyperbole, worn figures run through everyday speech (\"tomar um copo\", \"morrer de rir\", \"o pé da mesa\") and pass as plain language. A fresh image is different: it draws attention to itself, so it has to repay that attention. Suppose the reader stops to decode \"a reunião foi um deserto de ideias\" and finds only 'the meeting was unproductive'. Then the figure has cost more than it gave.",
         ],
         examples: [
@@ -1793,7 +1793,7 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Mixed metaphors: one image at a time",
         body: [
           "A mixed metaphor starts in one image and ends in another. \"O governo precisa pegar o touro pelos chifres antes que o barco afunde\" puts a bull on a sinking ship. Brazilian editors call this a \"metáfora incoerente\". To fix it, choose one image and stay inside it, or drop the second figure and say the thing plainly.",
-          "The trap at C2 is fusing two idioms you know well. \"Jogar a toalha\" and \"entregar os pontos\" both mean to give up, but \"jogar os pontos\" is neither. Treat each idiom's verb and noun as a fixed pair. Then check that the verbs around a metaphor belong to its world: you close a box, you don't prune it.",
+          "The trap at the Mastery level is fusing two idioms you know well. \"Jogar a toalha\" and \"entregar os pontos\" both mean to give up, but \"jogar os pontos\" is neither. Treat each idiom's verb and noun as a fixed pair. Then check that the verbs around a metaphor belong to its world: you close a box, you don't prune it.",
           "Dead metaphors (catacreses) are exempt. \"O pé da serra\" and \"o braço do rio\" no longer call up a body, so they combine freely with anything.",
         ],
         examples: [

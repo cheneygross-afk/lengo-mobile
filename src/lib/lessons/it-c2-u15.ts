@@ -18,7 +18,7 @@ export const IT_C2_U15: Lesson[] = [
         heading: "Apostrophes: elision or truncation?",
         body: [
           "Most Italian spelling errors are not about sounds but about two little signs, the apostrophe and the accent. The rule behind the apostrophe: it marks \"l'elisione\" (a vowel dropped before another vowel: \"l'amico\", \"un'amica\", \"d'accordo\") or a truncation that cannot stand alone (\"po'\" from \"poco\", \"mo'\" from \"modo\", the imperatives \"da'\", \"fa'\", \"di'\").",
-          "\"Qual è\" has no apostrophe because \"qual\" is a truncated form that exists independently (\"qual buon vento\", \"tal quale\"); compare \"nessun altro\", \"un altro\", \"buon anno\": all without apostrophes. The errors you will see everywhere, from shop windows to official websites: *qual'è, *un pò, *un'altro, *daccordo. A C2 writer never makes them, and an editor corrects them on sight.",
+          "\"Qual è\" has no apostrophe because \"qual\" is a truncated form that exists independently (\"qual buon vento\", \"tal quale\"); compare \"nessun altro\", \"un altro\", \"buon anno\": all without apostrophes. The errors you will see everywhere, from shop windows to official websites: *qual'è, *un pò, *un'altro, *daccordo. A Mastery writer never makes them, and an editor corrects them on sight.",
           "Masculine \"un\" never takes an apostrophe (\"un amico\", \"un uomo\", \"un errore\"); feminine \"un'\" always does before a vowel (\"un'idea\", \"un'ora\", \"un'altra volta\"). This means the apostrophe tells the reader the gender: \"un artista\" is a man, \"un'artista\" a woman.",
         ],
         examples: [
@@ -487,7 +487,7 @@ export const IT_C2_U15: Lesson[] = [
         body: [
           "A blog post by an enthusiastic home cook: *Ieri ho provato una ricetta che me l'ha data mia nonna, e devo dire che è venuta più meglio del previsto. *Ho usato pomodori freschi piuttosto che pelati piuttosto che passata, dipende cosa avete in casa. *Se lo sapevo prima, la facevo tutte le domeniche!",
           "Corrections: \"una ricetta che mi ha dato mia nonna\" (the \"che\" is the object; \"me l'ha\" doubles it); \"è venuta meglio del previsto\" (no \"più\"); \"pomodori freschi, pelati o passata\" (\"piuttosto che\" as or); \"dipende da cosa avete\" (\"dipendere da\"); and \"Se l'avessi saputo prima, l'avrei fatta\" in edited prose. In a chatty blog, the last one may be left as a deliberate spoken touch; the others are errors in any register.",
-          "This is the editor's judgment at C2: separate real errors from informal choices that suit the genre.",
+          "This is the editor's judgment at the Mastery level: separate real errors from informal choices that suit the genre.",
         ],
         examples: [
           { es: "Ieri ho provato una ricetta che mi ha dato mia nonna.", en: "Yesterday I tried a recipe my grandmother gave me." },
@@ -814,7 +814,7 @@ export const IT_C2_U15: Lesson[] = [
         heading: "Informal but accepted",
         body: [
           "Spoken Italian tolerates many forms that edited writing doesn't: \"se lo sapevo, venivo\" (imperfect in hypotheses), \"gli\" for to them, \"a me mi\", the dislocation \"il caffè lo prendo amaro\", \"cosa\" for \"che cosa\", \"c'ho\" (written informally for \"ci ho\", I've got). Recognize them; don't copy them into formal writing.",
-          "In this lab you hear native speakers in everyday situations. Your job is to understand them and, when asked, give the standard written version. Remember that a C2 speaker can use informal forms deliberately; the point is choice, not avoidance.",
+          "In this lab you hear native speakers in everyday situations. Your job is to understand them and, when asked, give the standard written version. Remember that a Mastery speaker can use informal forms deliberately; the point is choice, not avoidance.",
         ],
         examples: [
           { es: "Se lo sapevo, venivo anch'io.", en: "If I'd known, I'd have come too." },
@@ -831,7 +831,7 @@ export const IT_C2_U15: Lesson[] = [
         heading: "Regional forms and real errors",
         body: [
           "Some forms are regional: Tuscan \"noi si va\" (we go), southern \"stare\" for \"essere\" (\"sto stanco\"), \"tenere\" for \"avere\" (\"tengo fame\"), northern \"la Giulia\" (article with names). They are part of Italian's richness and sound natural in their area; in standard writing use \"andiamo\", \"sono stanco\", \"ho fame\", \"Giulia\".",
-          "Real errors heard in speech: \"se sarebbe\", \"vadi\", \"dasse\", \"gli\" for to her, \"più meglio\". They mark the speaker socially; a C2 learner should recognize them without being thrown by them.",
+          "Real errors heard in speech: \"se sarebbe\", \"vadi\", \"dasse\", \"gli\" for to her, \"più meglio\". They mark the speaker socially; a Mastery learner should recognize them without being thrown by them.",
         ],
         examples: [
           { es: "Domani noi si va al mare.", en: "Tomorrow we're going to the seaside. (Tuscan)" },

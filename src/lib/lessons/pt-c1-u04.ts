@@ -1708,7 +1708,7 @@ export const PT_C1_U04: Lesson[] = [
       {
         heading: "Scene 2: Naming the problems, gently",
         body: [
-          "Then come the weaknesses. Cláudia softens each one with the conditional and the imperfect subjunctive. She says \"eu sugeriria que você revisasse o segundo parágrafo\" and \"seria interessante que você detalhasse o meio\". This is the B2 sequence of tenses: conditional in the main clause, imperfect subjunctive after \"que\".",
+          "Then come the weaknesses. Cláudia softens each one with the conditional and the imperfect subjunctive. She says \"eu sugeriria que você revisasse o segundo parágrafo\" and \"seria interessante que você detalhasse o meio\". This is the Upper-intermediate sequence of tenses: conditional in the main clause, imperfect subjunctive after \"que\".",
           "Her criticism stays concrete. \"A sociedade deve agir\" is a vague agent: who exactly? \"Desde os primórdios\" is a cliché that earns nothing. \"A coesão se perdeu\" means the link between paragraphs broke. Teachers often frame a gap as what was missing: \"o que faltou foi o detalhamento\" (what was missing was the detail).",
           "Watch the false friend \"eventualmente\": it means occasionally or possibly, never eventually (\"no fim\"). \"Deixar a desejar\" (to fall short) is the standard polite verdict: \"a conclusão deixou um pouco a desejar\".",
         ],

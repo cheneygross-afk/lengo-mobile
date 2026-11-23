@@ -316,7 +316,7 @@ export const KO_B2_U03_EXTRA: Lesson[] = [
         text: "주말 내내 집에서 노느니 봉사 활동이라도 하려고요.",
         prompt: "Say it in Korean (polite): Rather than lounge around at home all weekend, I'm thinking of doing some volunteering at least.",
         tip: "활동이라도 is [활똥이라도]: the ㄷ after ㄹ is tensed in this word.",
-        explanation: "노느니 rejects idling; (이)라도 'at least' (B1) and -려고요 'I'm planning to'.",
+        explanation: "노느니 rejects idling; (이)라도 'at least' (Intermediate) and -려고요 'I'm planning to'.",
       },
     ],
   },

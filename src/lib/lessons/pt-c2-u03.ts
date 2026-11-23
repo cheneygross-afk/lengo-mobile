@@ -1972,7 +1972,7 @@ export const PT_C2_U03: Lesson[] = [
       {
         heading: "The crônica: start with a scene, not a thesis",
         body: [
-          "Brazil's light newspaper column is the \"crônica\": 400 to 600 words that start from something small (a line at the \"padaria\", a broken elevator, a neighbor's parrot) and end somewhere larger. The voice is first person, warm and slightly ironic. It is closer to a chat with the reader than to the C1 \"dissertação\". Rubem Braga, Fernando Sabino, Luis Fernando Verissimo and Martha Medeiros made reading one over breakfast a national habit.",
+          "Brazil's light newspaper column is the \"crônica\": 400 to 600 words that start from something small (a line at the \"padaria\", a broken elevator, a neighbor's parrot) and end somewhere larger. The voice is first person, warm and slightly ironic. It is closer to a chat with the reader than to the Advanced level \"dissertação\". Rubem Braga, Fernando Sabino, Luis Fernando Verissimo and Martha Medeiros made reading one over breakfast a national habit.",
           "Open inside the scene, with one concrete detail and a past tense: \"o elevador do meu prédio resolveu tirar férias\". The essay opening (\"Hoje em dia, muitas pessoas...\") kills the tone before the second line, and so does announcing the topic. Personification and understatement, from Unit 1, do most of the work.",
           "The register is the written norm with some speech let in: \"a gente\", a neighbor's \"né?\" inside dialogue, a diminutive. The narrator still makes every verb agree and places pronouns as an editor would. The ease is crafted, not careless.",
         ],

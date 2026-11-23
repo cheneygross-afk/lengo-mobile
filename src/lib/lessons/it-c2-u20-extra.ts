@@ -69,7 +69,7 @@ export const IT_C2_U20_EXTRA: Lesson[] = [
         body: [
           "Four invented speakers describe their morning. Giulia from Milan: \"Prendo un caffè al volo e poi via, in metro.\" Lorenzo from Florence: \"La mattina un caffè e una bella schiacciata, e via a lavorare.\" Teresa from Naples: \"Prima di tutto un caffè, poi si vede.\" Salvo from Palermo: \"Al bar mi prendo una granita con la brioche.\"",
           "The audio in this app uses a standard voice, so listen for the words that point to a region rather than the sounds: \"schiacciata\" (a Tuscan flatbread), \"granita con la brioche\" (a Sicilian breakfast), \"metro\" and \"al volo\" (busy city life). In real recordings, the Florentine speaker would breathe the \"c\" between vowels, the gorgia toscana, so that \"a casa\" sounds close to \"a hasa\", and the Neapolitan would weaken many final vowels to a neutral sound.",
-          "What stays the same everywhere is the grammar and most of the vocabulary. A C2 listener uses these to follow any accent: hold on to verbs, numbers and names, and treat regional color as information about the speaker, not as noise.",
+          "What stays the same everywhere is the grammar and most of the vocabulary. A Mastery listener uses these to follow any accent: hold on to verbs, numbers and names, and treat regional color as information about the speaker, not as noise.",
         ],
         examples: [
           { es: "Prendo un caffè al volo e poi via.", en: "I grab a quick coffee and then I'm off." },

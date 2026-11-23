@@ -315,7 +315,7 @@ export const KO_B2_U06_EXTRA: Lesson[] = [
         source: "It was only after changing jobs that I saw the good points of my old one.",
         answer: "회사를 옮기고 나서야 전 직장의 장점을 알게 됐어요.",
         altAnswers: ["회사를 옮기고서야 전 직장의 장점을 알게 됐어요.", "이직하고 나서야 전 직장의 장점을 알게 됐어요.", "이직하고서야 전 직장의 장점을 알게 됐어요.", "회사를 옮기고 나서야 전 회사의 장점을 알게 됐어요.", "직장을 옮기고 나서야 전 직장의 장점을 알게 됐어요.", "회사를 옮기고 나서야 전 직장의 장점을 알았어요."],
-        explanation: "-고 나서야 + -게 되다: you came to see it only afterwards. 장점 'good point' (B2 Unit 1).",
+        explanation: "-고 나서야 + -게 되다: you came to see it only afterwards. 장점 'good point' (Upper-intermediate Unit 1).",
       },
       {
         type: "word-order",

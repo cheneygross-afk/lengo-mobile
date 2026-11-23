@@ -2245,7 +2245,7 @@ export const PT_B2_U09: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Varieties of Portuguese",
-    summary: "Mixed practice recognizing regional and European Portuguese, adapting them to standard Brazilian usage, and talking about accents with your B2 grammar.",
+    summary: "Mixed practice recognizing regional and European Portuguese, adapting them to standard Brazilian usage, and talking about accents with your Upper-intermediate grammar.",
     duration: "15 min",
     sections: [
       {
@@ -2348,7 +2348,7 @@ export const PT_B2_U09: Lesson[] = [
         body: [
           "Brazilians talk openly about \"preconceito linguístico\". Mocking a Nordeste accent or a caipira r is a social judgment, not a point of grammar. The norma culta is the standard for formal writing, but that doesn't make any accent wrong.",
           "Accents differ in sound, not in correctness. The carioca s sounds like sh before a consonant. The caipira r curls back. In much of the Nordeste the t before i stays a plain t.",
-          "These debates are a good place for your B2 tools. Use \"embora\" + subjunctive to concede, \"como se\" + imperfect subjunctive for an attitude you reject, and \"se eu morasse...\" to imagine. In formal writing, impersonal \"havia\" stays singular.",
+          "These debates are a good place for your Upper-intermediate tools. Use \"embora\" + subjunctive to concede, \"como se\" + imperfect subjunctive for an attitude you reject, and \"se eu morasse...\" to imagine. In formal writing, impersonal \"havia\" stays singular.",
         ],
         examples: [
           { es: "Embora o sotaque dela seja forte, todo mundo entende o que ela diz.", en: "Although her accent is strong, everyone understands what she says." },

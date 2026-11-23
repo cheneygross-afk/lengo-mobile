@@ -1090,7 +1090,7 @@ export const EN_B2_U29: Lesson[] = [
     level: "EN-B2",
     number: 5,
     title: "Key Word Transformations",
-    summary: "Cambridge B2-style transformations: rewrite a sentence with the word in capitals so that it means the same, using every grammar topic of the level.",
+    summary: "Cambridge Intermedio alto-style transformations: rewrite a sentence with the word in capitals so that it means the same, using every grammar topic of the level.",
     duration: "12 min",
     sections: [
       {

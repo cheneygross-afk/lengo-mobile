@@ -307,7 +307,7 @@ export const PT_B1_U19: Lesson[] = [
         heading: "Deixar and proibir + infinitive",
         body: [
           "In everyday speech Brazilians avoid the subjunctive here and use \"deixar\" (to let) + person + infinitive: \"o síndico não deixa a gente fazer festa\" (the building manager won't let us have parties). You know it from \"deixa eu ver\". \"Proibir\" works the same way, usually with \"de\": \"meu pai me proibiu de sair\".",
-          "Notice what happens to the subject: it sits between the two verbs and the second verb stays an infinitive. With a plural noun you'll often hear the infinitive take -em, \"deixa as crianças brincarem\"; that's the personal infinitive, coming later at B1. For now, \"deixa a gente\" and \"me deixa\" keep it simple.",
+          "Notice what happens to the subject: it sits between the two verbs and the second verb stays an infinitive. With a plural noun you'll often hear the infinitive take -em, \"deixa as crianças brincarem\"; that's the personal infinitive, coming later at the Intermediate level. For now, \"deixa a gente\" and \"me deixa\" keep it simple.",
           "How strong is each verb? From softest to strongest: \"sugerir\", \"recomendar\", \"aconselhar\", \"pedir\", \"insistir\", \"exigir\", \"proibir\".",
         ],
         examples: [
@@ -2335,7 +2335,7 @@ export const PT_B1_U19: Lesson[] = [
     level: "PT-B1",
     number: 12,
     title: "Spiral Review: Advice, Rules and Reactions",
-    summary: "Cumulative practice of the present subjunctive from Units 1-3 with verbs of influence, the A2 past tenses and object pronouns.",
+    summary: "Cumulative practice of the present subjunctive from Units 1-3 with verbs of influence, the Elementary past tenses and object pronouns.",
     duration: "13 min",
     kind: "review",
     sections: [

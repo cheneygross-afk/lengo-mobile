@@ -99,7 +99,7 @@ export const KO_C1_GUIDES: KoGrammarGuide[] = [
       "Advanced concession and reasons: -(으)ㄴ들 (even if ..., what use?), -(으)ㄹ지언정 (I'd rather X than Y), -(으)ㄹ지라도 (even though), -거니와 (and what's more), and -기에 / -길래 (seeing that, because I noticed).",
     level: "C1",
     intro: [
-      `By B2 you can say 'even if' with -아 / 어도 and -더라도. C1 adds endings with a sharper attitude: the rhetorical 'what's the use?' of -(으)ㄴ들, the defiant 'I'd sooner ...' of -(으)ㄹ지언정, and the observational reasons -기에 and -길래.`,
+      `By the Upper-intermediate level you can say 'even if' with -아 / 어도 and -더라도. The Advanced level adds endings with a sharper attitude: the rhetorical 'what's the use?' of -(으)ㄴ들, the defiant 'I'd sooner ...' of -(으)ㄹ지언정, and the observational reasons -기에 and -길래.`,
     ],
     sections: [
       {
@@ -278,7 +278,7 @@ export const KO_C1_GUIDES: KoGrammarGuide[] = [
       "The advanced picture of 은 / 는 vs 이 / 가: new vs known information, exhaustive 이 / 가 ('it was me'), contrastive 은 / 는 on any phrase, 이 / 가 inside clauses, double-subject sentences, 은 / 는 and the scope of negation, and topic flow in a paragraph.",
     level: "C1",
     intro: [
-      `At A1 you learned that 은 / 는 marks the topic and 이 / 가 the subject. At C1 you need the full picture, because the choice shapes meaning and flow, not just grammar. The same sentence with a different particle can say something quite different.`,
+      `At the Beginner level you learned that 은 / 는 marks the topic and 이 / 가 the subject. At the Advanced level you need the full picture, because the choice shapes meaning and flow, not just grammar. The same sentence with a different particle can say something quite different.`,
     ],
     sections: [
       {
@@ -700,7 +700,7 @@ export const KO_C1_GUIDES: KoGrammarGuide[] = [
       "Honorifics at native level: the three layers (subject, listener, object), 압존법 (talking about a senior to someone more senior), indirect honorifics (할머니께서 다리가 아프세요), the overuse in *커피 나오셨습니다, humble verbs, honorifics on compound verbs, and writing to superiors.",
     level: "C1",
     intro: [
-      `By now you know -시-, the special honorific verbs and the humble ones. C1 is about judgement: when to raise whom when several people are involved, which things can be honoured, and where natives themselves overdo it.`,
+      `By now you know -시-, the special honorific verbs and the humble ones. The Advanced level is about judgement: when to raise whom when several people are involved, which things can be honoured, and where natives themselves overdo it.`,
     ],
     sections: [
       {
@@ -1188,10 +1188,10 @@ export const KO_C1_GUIDES: KoGrammarGuide[] = [
     slug: "advanced-idioms-and-allusions",
     title: "Advanced Idioms, Allusions and Figurative Language",
     description:
-      "Four-character idioms beyond B2 and the stories behind them (새옹지마, 형설지공), advanced body and emotion idioms, action metaphors (첫 단추를 끼우다, 물꼬를 트다), harder proverbs, and the figurative language of news headlines (빨간불이 켜지다, 직격탄을 맞다).",
+      "Four-character idioms beyond the Upper-intermediate level and the stories behind them (새옹지마, 형설지공), advanced body and emotion idioms, action metaphors (첫 단추를 끼우다, 물꼬를 트다), harder proverbs, and the figurative language of news headlines (빨간불이 켜지다, 직격탄을 맞다).",
     level: "C1",
     intro: [
-      `At C1, idioms move from decoration to necessity: editorials, speeches and news headlines rely on them. Many four-character idioms come with a story, and knowing it makes the idiom stick.`,
+      `At the Advanced level, idioms move from decoration to necessity: editorials, speeches and news headlines rely on them. Many four-character idioms come with a story, and knowing it makes the idiom stick.`,
     ],
     sections: [
       {
@@ -1281,7 +1281,7 @@ export const KO_C1_GUIDES: KoGrammarGuide[] = [
       "Choosing the right register: the four speech levels in use today (하십시오체, 해요체, 해체, 한다체), spoken vs written word choice (되게 / 매우, 근데 / 그런데), lecture and broadcast style, reformulation markers (즉, 다시 말해), translationese (번역투), and softening or sharpening tone.",
     level: "C1",
     intro: [
-      `At C1 the question is rarely 'is this grammatical?' and more often 'is this right for this listener and this medium?'. The same message to a friend, a parent, a boss, a client and a newspaper reader needs five different versions.`,
+      `At the Advanced level the question is rarely 'is this grammatical?' and more often 'is this right for this listener and this medium?'. The same message to a friend, a parent, a boss, a client and a newspaper reader needs five different versions.`,
     ],
     sections: [
       {

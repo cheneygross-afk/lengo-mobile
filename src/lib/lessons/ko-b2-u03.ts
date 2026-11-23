@@ -19,7 +19,7 @@ export const KO_B2_U03: Lesson[] = [
         heading: "은 / 는커녕: not even the lower bar",
         body: [
           "When something fell short of even a low bar, Korean names the higher bar first with 은 / 는커녕 and then says the lower bar didn't happen either: 밥은커녕 물도 못 마셨어요, 'I couldn't even drink water, let alone eat.' 커녕 rides on 은 after a consonant (밥은커녕) and on 는 after a vowel (휴가는커녕), all glued to the noun with no space.",
-          "The second clause is negative and puts 도, 조차 or 마저 (B1 Unit 21) on the lower bar: 물도, 물조차. 도 is the everyday choice; 조차 sounds more indignant and more written. The pattern carries disappointment, so it lives in complaints about work, service and people, not in neutral reports.",
+          "The second clause is negative and puts 도, 조차 or 마저 (Intermediate Unit 21) on the lower bar: 물도, 물조차. 도 is the everyday choice; 조차 sounds more indignant and more written. The pattern carries disappointment, so it lives in complaints about work, service and people, not in neutral reports.",
         ],
         examples: [
           { es: "밥은커녕 물도 못 마셨어요.", en: "I couldn't even drink water, let alone eat." },
@@ -97,7 +97,7 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "The words nobody said: -다는 말은커녕",
         body: [
-          "Complaints often name the words someone failed to say. Quote them with -다는 말 (B1 reported speech) and put 커녕 on 말: 고맙다는 말은커녕, 미안하다는 말은커녕. The second clause gives the smaller courtesy that was missing too: 인사도 안 했어요, 쳐다보지도 않았어요. With a verb, 도 sits on the -지 form: -지도 않았어요.",
+          "Complaints often name the words someone failed to say. Quote them with -다는 말 (Intermediate reported speech) and put 커녕 on 말: 고맙다는 말은커녕, 미안하다는 말은커녕. The second clause gives the smaller courtesy that was missing too: 인사도 안 했어요, 쳐다보지도 않았어요. With a verb, 도 sits on the -지 form: -지도 않았어요.",
           "In 한다체 the pattern becomes a firm written complaint: 사과는커녕 답변조차 받지 못했다. With a friend, 반말 and 도 sound more natural: 축하한다는 말은커녕 연락도 없었어. The grammar is the same; only the ending and the particle's weight change.",
           "커녕 itself attaches only to nouns. For an action, Korean first turns the verb into a noun with -기, which is Part 2: 쉬기는커녕. Until then, reach for a noun: 휴식은커녕, 운동은커녕, 청소는커녕. *쉬는커녕, with a bare verb ending, is not Korean.",
         ],
@@ -239,7 +239,7 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "-기는커녕: let alone doing it",
         body: [
-          "커녕 needs a noun, so a verb first becomes one with -기 (B1): 쉬다 → 쉬기는커녕, 운동하다 → 운동하기는커녕. The rest works exactly as in Part 1: the bigger hope first, then the lower bar, negated, with 도 or 조차. When the lower bar is itself an action, 도 lands on the -지 form (읽지도 않았어요) or on a -기 noun (내기도 힘들어요).",
+          "커녕 needs a noun, so a verb first becomes one with -기 (Intermediate): 쉬다 → 쉬기는커녕, 운동하다 → 운동하기는커녕. The rest works exactly as in Part 1: the bigger hope first, then the lower bar, negated, with 도 or 조차. When the lower bar is itself an action, 도 lands on the -지 form (읽지도 않았어요) or on a -기 noun (내기도 힘들어요).",
           "Tense goes on the last verb only. 쉬기는커녕 stays the same whether you're talking about last weekend or every weekend; the past lives in the final verb: 운동하기는커녕 집 밖에도 안 나갔어요. A past form before 기는커녕, as in *쉬었기는커녕, sounds wrong to Koreans.",
         ],
         examples: [
@@ -456,7 +456,7 @@ export const KO_B2_U03: Lesson[] = [
         body: [
           "-(으)ㄹ 바에야 sets up a bad option that someone is facing or considering, and the second clause names the alternative the speaker judges better: 이렇게 비싸게 주고 살 바에야 차라리 안 사는 게 나아요, 'If I have to pay this much for it, I'd rather not buy it at all.' It's a strong personal judgement, often with a sigh behind it.",
           "Build it like any -(으)ㄹ modifier: 살 바에야, 먹을 바에야, 기다릴 바에야; ㄹ-stems keep their ㄹ (만들 바에야). 바 is a dependent noun meaning 'the way, the case', so it stands apart: 살 바에야, never *살바에야. The first clause is often softened or sharpened by 이렇게 or 그렇게: 이렇게 기다릴 바에야 'if I have to wait like this'.",
-          "Compare the neutral -는 것보다 -는 게 낫다 (A2): 택시를 타는 것보다 걷는 게 나아요 simply ranks two options. 바에야 is emotional: the first option is so bad that even an unattractive second one wins. That makes it perfect for complaints and blunt advice among equals, and a little too strong for suggesting a plan to your boss.",
+          "Compare the neutral -는 것보다 -는 게 낫다 (Elementary): 택시를 타는 것보다 걷는 게 나아요 simply ranks two options. 바에야 is emotional: the first option is so bad that even an unattractive second one wins. That makes it perfect for complaints and blunt advice among equals, and a little too strong for suggesting a plan to your boss.",
         ],
         examples: [
           { es: "이렇게 비싸게 주고 살 바에야 차라리 안 사는 게 나아요.", en: "If I have to pay this much for it, I'd rather not buy it at all." },
@@ -739,7 +739,7 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "Watch the tone",
         body: [
-          "-느니 and 바에야 both say that one option is bad, which can sound like a complaint about whoever proposed it. Among friends that's fine. To a manager, Koreans soften it into the neutral comparison from A2 and a hedge: 이렇게 기다리는 것보다 다른 업체를 알아보는 게 나을 것 같습니다. Keep the sharp forms for your own choices and for venting.",
+          "-느니 and 바에야 both say that one option is bad, which can sound like a complaint about whoever proposed it. Among friends that's fine. To a manager, Koreans soften it into the neutral comparison from the Elementary level and a hedge: 이렇게 기다리는 것보다 다른 업체를 알아보는 게 나을 것 같습니다. Keep the sharp forms for your own choices and for venting.",
         ],
         examples: [
           { es: "이렇게 기다리느니 다른 데 알아보자.", en: "Rather than wait like this, let's look somewhere else." },
@@ -943,7 +943,7 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "-는 것보다 ... -는 게 낫다: the neutral ranking",
         body: [
-          "When you just compare two options without drama, use the A2 pattern: 택시를 타는 것보다 걷는 게 나아요, 'Walking is better than taking a taxi.' No option is painted as awful, so it's the safe choice with people above you, in advice and in writing. Add 차라리 and it turns into a lesser-evil choice: 택시를 타는 것보다 차라리 걷는 게 나아요.",
+          "When you just compare two options without drama, use the Elementary pattern: 택시를 타는 것보다 걷는 게 나아요, 'Walking is better than taking a taxi.' No option is painted as awful, so it's the safe choice with people above you, in advice and in writing. Add 차라리 and it turns into a lesser-evil choice: 택시를 타는 것보다 차라리 걷는 게 나아요.",
         ],
         examples: [
           { es: "택시를 타는 것보다 걷는 게 나아요.", en: "Walking is better than taking a taxi." },
@@ -1495,7 +1495,7 @@ export const KO_B2_U03: Lesson[] = [
         heading: "Venting: 바에야 and -느니",
         body: [
           "Then the talk turns to quitting. 서연 says 이렇게 매일 야근할 바에야 차라리 이직하는 게 낫겠어: 이직 is changing jobs, and 바에야 makes it sound like a decision forced on her. 하준 answers with the lighter -느니, which suits casual talk: 주말에 출근하느니 차라리 월급 좀 적게 받는 게 낫지.",
-          "Two more words: 워라밸, from 'work-life balance', is everyday Korean now, and 야근 수당 is overtime pay. 하긴 'well, true' concedes a point, and -잖아 (A2) reminds the listener of something you both know.",
+          "Two more words: 워라밸, from 'work-life balance', is everyday Korean now, and 야근 수당 is overtime pay. 하긴 'well, true' concedes a point, and -잖아 (Elementary) reminds the listener of something you both know.",
         ],
         examples: [
           { es: "서연: 이렇게 매일 야근할 바에야 차라리 이직하는 게 낫겠어.", en: "Seoyeon: If it's going to be overtime every day like this, I'd be better off changing jobs." },
@@ -1535,7 +1535,7 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "Next morning: telling a senior",
         body: [
-          "The next morning 서연 tells her senior colleague 민수 about the night. She switches to polite 해요 and calls her 동기 하준 씨 when talking to a senior. The 커녕 sentence survives unchanged except for the ending. For the quitting thought she wraps it in -다는 생각이 들었어요 (B1 quoted speech), which reports the feeling instead of announcing a plan.",
+          "The next morning 서연 tells her senior colleague 민수 about the night. She switches to polite 해요 and calls her 동기 하준 씨 when talking to a senior. The 커녕 sentence survives unchanged except for the ending. For the quitting thought she wraps it in -다는 생각이 들었어요 (Intermediate quoted speech), which reports the feeling instead of announcing a plan.",
           "민수 replies with advice: 혼자 고민하느니 팀장님께 한번 말씀드려 보는 게 나아요. A senior can use -느니 kindly to a junior, because the bad option is her silent worrying, not anything she proposed.",
         ],
         examples: [
@@ -1645,7 +1645,7 @@ export const KO_B2_U03: Lesson[] = [
         source: "Still, they say lots of companies have a good work-life balance.",
         answer: "그래도 워라밸이 좋은 회사도 많대.",
         altAnswers: ["그래도 워라밸이 좋은 회사도 많다던데.", "그래도 워라밸이 좋은 회사도 많다고 하더라.", "그래도 워라밸이 좋은 회사가 많대.", "그래도 워라밸이 좋은 회사가 많다던데.", "그래도 워라밸이 좋은 회사가 많다고 하더라.", "그래도 워라밸 좋은 회사도 많대.", "그래도 워라밸 좋은 회사도 많다던데.", "그래도 워라밸 좋은 회사도 많다고 하더라.", "그래도 워라밸 좋은 회사가 많대.", "그래도 워라밸 좋은 회사가 많다던데.", "그래도 워라밸 좋은 회사가 많다고 하더라."],
-        explanation: "-대 is the casual 'they say', short for -다고 해 (B1). 워라밸 is a common clipped loanword.",
+        explanation: "-대 is the casual 'they say', short for -다고 해 (Intermediate). 워라밸 is a common clipped loanword.",
       },
       {
         type: "translate",
@@ -1688,7 +1688,7 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "Part 1: Four hours on the road",
         body: [
-          "This essay is written in 한다체, the plain style of columns and blogs (B1). The writer lives in a 신도시, one of the planned 'new towns' around Seoul, and works in 강남. Many such commuters ride a 광역버스, an express bus between 경기도 and 서울, and then 환승하다 'transfer' to the subway. 왕복 means 'round trip', and 붐비다 'be crowded'.",
+          "This essay is written in 한다체, the plain style of columns and blogs (Intermediate). The writer lives in a 신도시, one of the planned 'new towns' around Seoul, and works in 강남. Many such commuters ride a 광역버스, an express bus between 경기도 and 서울, and then 환승하다 'transfer' to the subway. 왕복 means 'round trip', and 붐비다 'be crowded'.",
           "Watch how the writer uses 커녕 to show that even modest plans failed: reading on the bus was the hope, and even standing turned out to be hard.",
         ],
         examples: [
@@ -1731,7 +1731,7 @@ export const KO_B2_U03: Lesson[] = [
         heading: "Part 2: Two bad options",
         body: [
           "After a year, the writer weighs two unattractive choices: keep losing four hours a day, or pay much higher rent in Seoul. Notice the two ways of saying 'I'd rather'. Thinking on the bus, the writer uses 이럴 바에야, from 이러다 'be like this'; deciding, the writer uses -느니 차라리. 지치다 is 'be worn out', 피로가 풀리다 'recover from fatigue', and 판단하다 'judge, conclude'.",
-          "-다고 생각했다 and -다고 판단했다 (B1 quoted speech) report the writer's thoughts in written style. In 한다체, 낫다 stays 낫다 inside the quote.",
+          "-다고 생각했다 and -다고 판단했다 (Intermediate quoted speech) report the writer's thoughts in written style. In 한다체, 낫다 stays 낫다 inside the quote.",
         ],
         examples: [
           { es: "이런 생활을 일 년쯤 하자 몸이 먼저 지쳤다.", en: "After about a year of this, my body gave out first." },
@@ -2345,8 +2345,8 @@ export const KO_B2_U03: Lesson[] = [
       {
         heading: "Step 1: the facts, in order",
         body: [
-          "You ordered running shoes online on October 5. Delivery kept slipping, so on the 12th you asked for a refund (환불 신청) and were told it would be processed within a week. Two weeks later, nothing. Your message goes to the 고객센터 through the app's 1:1 문의 (B1), in formal 합니다.",
-          "Start with who you are and the facts, dates included, before any emotion. 처리되다 'be processed' and -다고 안내받았습니다 'I was informed that' (B1 quoted speech) keep it factual and put the promise on record. Dates and order numbers are written in digits.",
+          "You ordered running shoes online on October 5. Delivery kept slipping, so on the 12th you asked for a refund (환불 신청) and were told it would be processed within a week. Two weeks later, nothing. Your message goes to the 고객센터 through the app's 1:1 문의 (Intermediate), in formal 합니다.",
+          "Start with who you are and the facts, dates included, before any emotion. 처리되다 'be processed' and -다고 안내받았습니다 'I was informed that' (Intermediate quoted speech) keep it factual and put the promise on record. Dates and order numbers are written in digits.",
         ],
         examples: [
           { es: "제목: 환불 지연 문의", en: "Subject: Enquiry about a delayed refund" },

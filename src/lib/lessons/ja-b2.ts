@@ -375,7 +375,7 @@ export const JA_B2_LESSONS: Lesson[] = [
         "body": [
           "Move beyond polite teineigo into full respectful (尊敬語) and humble (謙譲語) Japanese, with the special honorific verbs, お～になる/お～する, and how to choose the right direction.",
           "By the end of this lesson you will be able to: (1) Raise someone else's action with sonkeigo, using both special verbs and the お～になる pattern. (2) Lower your own action with kenjougo, the same way. (3) Choose correctly between the two, instead of mixing them up.",
-          "This builds on Polite Service Japanese (Keigo I) from B1, which covered everyday polite teineigo for service settings -- this lesson is the fuller, more formal system underneath it."
+          "This builds on Polite Service Japanese (Keigo I) from the Intermediate level, which covered everyday polite teineigo for service settings -- this lesson is the fuller, more formal system underneath it."
         ]
       },
       {
@@ -1188,7 +1188,7 @@ export const JA_B2_LESSONS: Lesson[] = [
         "body": [
           "Tell apart the four ways Japanese marks 'it seems/I heard' -- ~ようだ, ~みたいだ, ~らしい and ~そうだ -- by where the information came from, and relay news formally with ~ということだ.",
           "By the end of this lesson you will be able to: (1) Say what you infer from your own eyes and ears. (2) Say what you infer from something typical, or from indirect/secondhand information. (3) Formally relay news or clarify what something means.",
-          "This builds on News, Hearsay and Impressions from B1, which introduced these patterns individually -- this lesson is about choosing correctly between them."
+          "This builds on News, Hearsay and Impressions from the Intermediate level, which introduced these patterns individually -- this lesson is about choosing correctly between them."
         ]
       },
       {
@@ -4076,13 +4076,13 @@ export const JA_B2_LESSONS: Lesson[] = [
     "level": "JA-B2",
     "number": 60,
     "title": "Consolidation and Capstone, Part 1 of 5",
-    "summary": "Bring every B2 pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
+    "summary": "Bring every Upper-intermediate pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
     "duration": "9 min",
     "sections": [
       {
         "heading": "What This Lesson Covers",
         "body": [
-          "Bring every B2 pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
+          "Bring every Upper-intermediate pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
           "This lesson introduces no new grammar. Instead, it's built to show you how naturally these patterns mix in a single piece of real Japanese, and to check that you can recognize and choose each one correctly when they're not neatly separated by topic anymore.",
           "Read the passage below in full first, then work through the review questions -- each one draws on a different pattern from this level."
         ]
@@ -4120,7 +4120,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     "level": "JA-B2",
     "number": 61,
     "title": "Consolidation and Capstone, Part 2 of 5",
-    "summary": "Bring every B2 pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
+    "summary": "Bring every Upper-intermediate pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
     "duration": "8 min",
     "sections": [
       {
@@ -4194,7 +4194,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     "level": "JA-B2",
     "number": 62,
     "title": "Consolidation and Capstone, Part 3 of 5",
-    "summary": "Bring every B2 pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
+    "summary": "Bring every Upper-intermediate pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
     "duration": "8 min",
     "sections": [
       {
@@ -4262,7 +4262,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     "level": "JA-B2",
     "number": 63,
     "title": "Consolidation and Capstone, Part 4 of 5",
-    "summary": "Bring every B2 pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
+    "summary": "Bring every Upper-intermediate pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
     "duration": "6 min",
     "sections": [
       {
@@ -4319,7 +4319,7 @@ export const JA_B2_LESSONS: Lesson[] = [
     "level": "JA-B2",
     "number": 64,
     "title": "Consolidation and Capstone, Part 5 of 5",
-    "summary": "Bring every B2 pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
+    "summary": "Bring every Upper-intermediate pattern together in one long reading passage and mixed review: obligation and assumption, contrast and conditionals, honorifics, and reported speech, all working together the way they do in real Japanese.",
     "duration": "9 min",
     "sections": [
       {

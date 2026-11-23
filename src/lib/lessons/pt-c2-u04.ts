@@ -877,7 +877,7 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "Desver, transver, achadouro: inventing by the rules",
         body: [
-          "His neologisms are rarely random. Barros attaches real Portuguese affixes, the word formation you studied at B2, to bases that never take them. \"Des-\" undoes: \"desver\" (to unsee) and \"descomeço\" (an un-beginning). \"Trans-\" goes through and beyond. He writes that the eye sees, memory re-sees (\"revê\") and imagination \"transvê\": \"é preciso transver o mundo\".",
+          "His neologisms are rarely random. Barros attaches real Portuguese affixes, the word formation you studied at the Upper-intermediate level, to bases that never take them. \"Des-\" undoes: \"desver\" (to unsee) and \"descomeço\" (an un-beginning). \"Trans-\" goes through and beyond. He writes that the eye sees, memory re-sees (\"revê\") and imagination \"transvê\": \"é preciso transver o mundo\".",
           "Suffixes work the same way. \"-douro\" names a place or device for an action, as in \"bebedouro\" (drinking fountain) and \"ancoradouro\" (anchorage). So \"achadouro\" is a place where things are found, and his \"achadouros de infância\" are spots where childhood can be dug up.",
           "To read a coinage, strip the affix, find the base and ask what the deviation adds. To translate one, coin an English equivalent ('unsee', 'trans-see', 'findery') rather than explaining it in a footnote. A paraphrase keeps the meaning but loses the invention, and the invention is the poem.",
         ],
@@ -1098,7 +1098,7 @@ export const PT_C2_U04: Lesson[] = [
         body: [
           "This literature often lives first in the voice. The \"sarau\" was once an elite salon evening, and it was reinvented in the bars of the periferia. The Cooperifa, started by the poet Sérgio Vaz in São Paulo's zona sul in 2001, turned a weekly open mic into an institution. You \"declamar\" or \"recitar\" a poem; casually, you \"mandar um poema\".",
           "The \"slam\" is the competitive form, imported from the United States. Poets perform original poems of about three minutes, with no props or music, and jurors picked from the audience give the scores. Brazilian slam is fiercely political: racism, police violence, gender. Rap belongs to the same ecosystem. The Racionais MC's album \"Sobrevivendo no Inferno\" was set as required reading for the Unicamp entrance exam.",
-          "On the page, these texts keep the marks of speech you met at B1 and B2: \"tô\", \"cê\", \"os mano\" without plural agreement, and direct address (\"tá ligado?\"). Describe them as choices (\"o poema incorpora a oralidade\"), not as errors to be excused.",
+          "On the page, these texts keep the marks of speech you met at Intermediate and Upper-intermediate: \"tô\", \"cê\", \"os mano\" without plural agreement, and direct address (\"tá ligado?\"). Describe them as choices (\"o poema incorpora a oralidade\"), not as errors to be excused.",
         ],
         examples: [
           { es: "Toda quarta-feira, o bar vira palco e qualquer um pode mandar um poema.", en: "Every Wednesday the bar becomes a stage and anyone can get up and perform a poem." },

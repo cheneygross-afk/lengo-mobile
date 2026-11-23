@@ -202,7 +202,7 @@ export const KO_C1_U14_EXTRA: Lesson[] = [
             source: "Support for government policy has fallen in the polls.",
             answer: "여론 조사에서 정부 정책에 대한 지지가 떨어졌다.",
             altAnswers: ["여론 조사에서 정부 정책에 대한 지지율이 떨어졌다.", "여론 조사에서 정부 정책에 대한 지지가 하락했다.", "여론 조사에서 정부 정책에 대한 지지율이 하락했다.", "여론 조사 결과 정부 정책에 대한 지지가 떨어졌다.", "여론 조사 결과 정부 정책에 대한 지지율이 하락했다.", "여론 조사에서 정부 정책 지지율이 떨어졌다.", "여론 조사에서 정부 정책에 대한 지지가 낮아졌다.", "여론 조사에서 정부의 정책에 대한 지지가 떨어졌다."],
-            explanation: "에 대한 links two nouns (spiral of B2): 정책에 대한 지지. 여론 조사 'opinion poll'.",
+            explanation: "에 대한 links two nouns (spiral of Upper-intermediate): 정책에 대한 지지. 여론 조사 'opinion poll'.",
           },
           {
             type: "dictation",

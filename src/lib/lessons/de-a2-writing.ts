@@ -449,7 +449,7 @@ export const DE_A2_WRITING: UnitWriting = {
         "Gives a short reason with \"weil\" or \"dass\"",
         "Writes in the formal register with \"Sehr geehrte Damen und Herren\" and \"Mit freundlichen Grüßen\""
       ],
-      "modelAnswer": "Sehr geehrte Damen und Herren,\nich interessiere mich für einen Deutschkurs im Juli, weil ich im Herbst in München studieren möchte. Können Sie mir sagen, wann die Kurse beginnen und wie viel ein Kurs kostet? Ich möchte auch wissen, ob es einen Kurs für das Niveau A2 gibt. Außerdem habe ich gelesen, dass Sie Zimmer bei Gastfamilien anbieten. Wissen Sie, ob noch ein Zimmer frei ist?\nMit freundlichen Grüßen\nLaura Martín",
+      "modelAnswer": "Sehr geehrte Damen und Herren,\nich interessiere mich für einen Deutschkurs im Juli, weil ich im Herbst in München studieren möchte. Können Sie mir sagen, wann die Kurse beginnen und wie viel ein Kurs kostet? Ich möchte auch wissen, ob es einen Kurs für das Niveau Elementary gibt. Außerdem habe ich gelesen, dass Sie Zimmer bei Gastfamilien anbieten. Wissen Sie, ob noch ein Zimmer frei ist?\nMit freundlichen Grüßen\nLaura Martín",
       "explanation": "Indirect questions are polite: the question word or \"ob\" starts a subordinate clause and the verb goes to the end (\"wann die Kurse beginnen\", \"ob es einen Kurs ... gibt\"). \"Weil\" and \"dass\" also send the verb to the end."
     }
   ],

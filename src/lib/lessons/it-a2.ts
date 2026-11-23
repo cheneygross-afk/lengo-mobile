@@ -74,7 +74,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u19", title: "Relative Pronouns", description: "Join sentences with che, cui and chi.", lessons: IT_A2_U19, extra: IT_A2_U19_EXTRA, writing: IT_A2_U19_WRITING },
   { id: "u20", title: "Indefinites and Negatives", description: "Talk about someone, something, nobody and nothing, and build double negatives.", lessons: IT_A2_U20, extra: IT_A2_U20_EXTRA, writing: IT_A2_U20_WRITING },
   { id: "u21", title: "Travel and Bureaucracy", description: "Handle trains, hotels, banks and offices in Italy.", lessons: IT_A2_U21, extra: IT_A2_U21_EXTRA, writing: IT_A2_U21_WRITING },
-  { id: "u22", title: "Everyday Life in Italy and A2 Review", description: "Bring A2 together in everyday situations and practice the CILS A2 formats.", lessons: IT_A2_U22, extra: IT_A2_U22_EXTRA, writing: IT_A2_U22_WRITING },
+  { id: "u22", title: "Everyday Life in Italy and Elementary Review", description: "Bring the Elementary level together in everyday situations and practice the CILS A2 formats.", lessons: IT_A2_U22, extra: IT_A2_U22_EXTRA, writing: IT_A2_U22_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("A2", UNITS);

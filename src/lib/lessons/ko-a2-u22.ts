@@ -711,7 +711,7 @@ export const KO_A2_U22: Lesson[] = [
         heading: "Wrong numbers and calling back",
         body: [
           "Making a call is 전화를 걸다 (an ㄹ stem: 거세요, 거셨어요) and answering is 전화를 받다. A wrong number gets 전화 잘못 거셨어요 'you've dialled wrong', or a check: 몇 번에 거셨어요?",
-          "End a call with a promise in -(으)ㄹ게요: 나중에 다시 전화할게요, 이따가 연락드릴게요. Both are written 게 but said [께]. Listen for two more A2 sound changes: 전화 is [저놔], because ㅎ fades after ㄴ (Unit 2), and 연락 is [열락] (Unit 6).",
+          "End a call with a promise in -(으)ㄹ게요: 나중에 다시 전화할게요, 이따가 연락드릴게요. Both are written 게 but said [께]. Listen for two more Elementary sound changes: 전화 is [저놔], because ㅎ fades after ㄴ (Unit 2), and 연락 is [열락] (Unit 6).",
         ],
         examples: [
           { es: "전화 잘못 거셨어요.", en: "You've got the wrong number." },
@@ -967,7 +967,7 @@ export const KO_A2_U22: Lesson[] = [
       {
         heading: "Leaving a review",
         body: [
-          "After eating, the app asks for stars (별점) and a review (리뷰). Korean reviews are short and lean on A2 endings: 양이 많네요 (noticing), 맛있었는데 좀 짰어요 (a soft 'but'), 배달이 빨라서 좋았어요, and a promise: 다음에 또 시킬게요.",
+          "After eating, the app asks for stars (별점) and a review (리뷰). Korean reviews are short and lean on Elementary endings: 양이 많네요 (noticing), 맛있었는데 좀 짰어요 (a soft 'but'), 배달이 빨라서 좋았어요, and a promise: 다음에 또 시킬게요.",
           "빨라서 comes from 빠르다, a 르 irregular (Unit 9). Keep the reason clause without past tense; the tense goes at the end: *빨랐어서 is wrong.",
         ],
         examples: [
@@ -1213,7 +1213,7 @@ export const KO_A2_U22: Lesson[] = [
         source: "Where do I have to change to get to Seoul Station?",
         answer: "서울역에 가려면 어디에서 갈아타야 돼요?",
         altAnswers: ["서울역에 가려면 어디서 갈아타야 돼요?", "서울역에 가려면 어디에서 갈아타야 해요?", "서울역에 가려면 어디서 갈아타야 해요?", "서울역에 가려면 어디에서 환승해야 돼요?", "서울역에 가려면 어디서 환승해야 돼요?", "서울역에 가려면 어디에서 환승해야 해요?", "서울역에 가려면 어디서 환승해야 해요?"],
-        explanation: "-(으)려면 'if you want to' + -아야 되다 'have to': two A2 endings in one question.",
+        explanation: "-(으)려면 'if you want to' + -아야 되다 'have to': two Elementary endings in one question.",
       },
       {
         type: "fill-blank",
@@ -1310,8 +1310,8 @@ export const KO_A2_U22: Lesson[] = [
     slug: "a2-drill-all-a2-endings",
     level: "KO-A2",
     number: 7,
-    title: "Drill: Every A2 Ending",
-    summary: "High-speed production of every A2 ending and irregular class: 합니다, 반말, -(으)시-, modifiers, -아서, -(으)면, -아야 되다, -(으)ㄹ게요, -는 것 같다 and more.",
+    title: "Drill: Every Elementary Ending",
+    summary: "High-speed production of every Elementary ending and irregular class: 합니다, 반말, -(으)시-, modifiers, -아서, -(으)면, -아야 되다, -(으)ㄹ게요, -는 것 같다 and more.",
     duration: "20 min",
     sections: [
       {

@@ -427,7 +427,7 @@ export default function HomeScreen({ navigation }: Props) {
             ) : language === "zh" ? (
               <NavCard icon="lessons" title="Lessons" body="Pinyin and tones, then lessons from HSK 1 to HSK 9." onPress={() => navigation.navigate("CourseLevels", { course: "zh" })} />
             ) : (
-              <NavCard icon="lessons" title="Lecciones" body="Inglés para hispanohablantes, de A1 a C2." onPress={() => navigation.navigate("CourseLevels", { course: "en" })} />
+              <NavCard icon="lessons" title="Lecciones" body="Inglés para hispanohablantes, de principiante a maestría." onPress={() => navigation.navigate("CourseLevels", { course: "en" })} />
             )}
 
             <NavCard

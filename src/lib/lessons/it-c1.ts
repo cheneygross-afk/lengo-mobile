@@ -68,7 +68,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u17", title: "Rhetoric and Persuasion", description: "Analyze and use persuasive language in speeches, advertising and politics.", lessons: IT_C1_U17, extra: IT_C1_U17_EXTRA, writing: IT_C1_U17_WRITING },
   { id: "u18", title: "Translation Lab", description: "Translate the hardest English structures into natural Italian.", lessons: IT_C1_U18, extra: IT_C1_U18_EXTRA, writing: IT_C1_U18_WRITING },
   { id: "u19", title: "CILS TRE Lab", description: "Practice the CILS TRE (C1) exam.", lessons: IT_C1_U19, extra: IT_C1_U19_EXTRA, writing: IT_C1_U19_WRITING },
-  { id: "u20", title: "C1 Review", description: "Bring C1 together.", lessons: IT_C1_U20, extra: IT_C1_U20_EXTRA, writing: IT_C1_U20_WRITING },
+  { id: "u20", title: "Advanced Review", description: "Bring the whole Advanced level together.", lessons: IT_C1_U20, extra: IT_C1_U20_EXTRA, writing: IT_C1_U20_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("C1", UNITS);

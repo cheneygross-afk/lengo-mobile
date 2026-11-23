@@ -56,7 +56,7 @@ export const PT_C1_U06: Lesson[] = [
       {
         heading: "Tu and its own verb forms",
         body: [
-          "In Portugal \"tu\" is the normal informal you with friends, family and colleagues, and it takes its own verb form ending in -s: \"tu estás\", \"tu vais\", \"tu queres\"; in the perfeito, -ste: \"tu fizeste\", \"tu disseste\". In the South of Brazil, as you saw at B2, speakers mostly pair \"tu\" with the \"você\" form: \"tu vai\".",
+          "In Portugal \"tu\" is the normal informal you with friends, family and colleagues, and it takes its own verb form ending in -s: \"tu estás\", \"tu vais\", \"tu queres\"; in the perfeito, -ste: \"tu fizeste\", \"tu disseste\". In the South of Brazil, as you saw at the Upper-intermediate level, speakers mostly pair \"tu\" with the \"você\" form: \"tu vai\".",
           "The trap is \"você\". Face to face in Portugal it can sound distant or even condescending, so people avoid it with the name or a title plus the third person (\"A Ana quer um café?\", \"O senhor precisa de ajuda?\"), or drop the subject altogether. \"Vocês\" is standard in both countries.",
         ],
         examples: [

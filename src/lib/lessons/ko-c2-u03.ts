@@ -489,7 +489,7 @@ export const KO_C2_U03: Lesson[] = [
       {
         heading: "-(으)리라 and -노라: resolve and solemn declaration",
         body: [
-          "You met both in C1 on monuments and in speeches. -(으)리라 is the plain written (해라체) ending of will and conjecture. With 나 it is resolve, 반드시 돌아오리라 'I will surely return'; with a third-person subject it is prophecy, 봄은 다시 오리라 'spring will come again'. Poets love it for endings because it closes a line with a promise to no one in particular. ㄹ-stems drop nothing and take -리라 directly: 살리라, 만들리라.",
+          "You met both in the Advanced level on monuments and in speeches. -(으)리라 is the plain written (해라체) ending of will and conjecture. With 나 it is resolve, 반드시 돌아오리라 'I will surely return'; with a third-person subject it is prophecy, 봄은 다시 오리라 'spring will come again'. Poets love it for endings because it closes a line with a promise to no one in particular. ㄹ-stems drop nothing and take -리라 directly: 살리라, 만들리라.",
           "-노라 declares, solemnly and in the first person, what the speaker does or did: 나는 이 길을 가노라 'this is the road I walk', 왔노라 보았노라 이겼노라 'I came, I saw, I conquered'. It attaches to action verbs, with the past -았 / 었- for completed acts (지켰노라), and ㄹ-stems lose their ㄹ before ㄴ: 살다 → 사노라, as in 산유화's 사노라네. Today -노라 sounds grand, so a modern writer uses it for weight or for a joke, never for neutral reporting.",
         ],
         examples: [

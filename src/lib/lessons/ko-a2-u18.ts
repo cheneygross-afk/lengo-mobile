@@ -271,7 +271,7 @@ export const KO_A2_U18: Lesson[] = [
         heading: "Sound focus: the tune, and 그렇죠 [그러초]",
         body: [
           "The written form is the same; only the tune differs. 덥죠? with the voice rising at the end asks 'It's hot, isn't it?'. 덥죠. with the voice falling agrees: 'Yeah, it is hot.' Get it wrong and a question sounds like a statement.",
-          "ㅎ before ㅈ merges into [ㅊ], the rule you learned in A1: 그렇죠 [그러초], 좋죠 [조초], 괜찮죠 [괜찬초], 많죠 [만초].",
+          "ㅎ before ㅈ merges into [ㅊ], the rule you learned in the Beginner level: 그렇죠 [그러초], 좋죠 [조초], 괜찮죠 [괜찬초], 많죠 [만초].",
         ],
         examples: [
           { es: "날씨 좋죠?", en: "Nice weather, isn't it?" },

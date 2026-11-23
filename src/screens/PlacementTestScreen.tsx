@@ -225,7 +225,7 @@ export default function PlacementTestScreen({ navigation }: Props) {
                       hitSlop={6}
                     >
                       <Text style={s.missedLink}>
-                        {question.level} · Lesson {lesson.number}: {lesson.title} →
+                        {LEVEL_NAME[question.level as PlacementLevel] ?? question.level} · Lesson {lesson.number}: {lesson.title} →
                       </Text>
                     </Pressable>
                   ) : (

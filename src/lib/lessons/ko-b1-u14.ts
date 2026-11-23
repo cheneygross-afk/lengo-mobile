@@ -19,7 +19,7 @@ export const KO_B1_U14: Lesson[] = [
         heading: "A guess from what you just noticed",
         body: [
           "-나 보다 turns something you have just noticed into a guess. People walk in with wet umbrellas, so you say 밖에 비가 오나 봐요 'It must be raining outside'. English says 'it must be', 'it looks like' or 'I guess'; Korean adds -나 봐요 to the verb stem. The 보다 here has nothing to do with seeing: it only marks the sentence as a guess, and it conjugates as 봐요.",
-          "The key is evidence. -나 보다 is for a conclusion you draw from something in front of you or something you just heard: a light that's off, a phone nobody answers, a long queue. For a hunch or an opinion with no evidence, use -는 것 같다 (A2 Unit 19); lesson 3 compares the two.",
+          "The key is evidence. -나 보다 is for a conclusion you draw from something in front of you or something you just heard: a light that's off, a phone nobody answers, a long queue. For a hunch or an opinion with no evidence, use -는 것 같다 (Elementary Unit 19); lesson 3 compares the two.",
         ],
         examples: [
           { es: "밖에 비가 오나 봐요. 다들 우산을 들고 있네요.", en: "It must be raining outside. Everyone's carrying an umbrella." },
@@ -807,7 +807,7 @@ export const KO_B1_U14: Lesson[] = [
       {
         heading: "Wishes: -(으)면 좋을 텐데(요)",
         body: [
-          "-(으)면 좋을 텐데요 is a wish that probably won't come true: 시간이 있으면 좋을 텐데요 'if only I had time'. -(으)면 좋겠어요 (A2) is a hope that might; 좋을 텐데요 adds a sigh. 민수 씨도 같이 가면 좋을 텐데 'It'd be nice if Minsu came too (but he can't)'.",
+          "-(으)면 좋을 텐데요 is a wish that probably won't come true: 시간이 있으면 좋을 텐데요 'if only I had time'. -(으)면 좋겠어요 (Elementary) is a hope that might; 좋을 텐데요 adds a sigh. 민수 씨도 같이 가면 좋을 텐데 'It'd be nice if Minsu came too (but he can't)'.",
         ],
         examples: [
           { es: "시간이 있으면 좋을 텐데요.", en: "If only I had time." },
@@ -1733,7 +1733,7 @@ export const KO_B1_U14: Lesson[] = [
       {
         heading: "Sound focus: the ㅅ between compound parts",
         body: [
-          "When two words join into a compound, Korean sometimes writes a ㅅ under the first half: 해 + 빛 → 햇빛, 비 + 소리 → 빗소리 (A2 Unit 20). That ㅅ is not said as [ㅅ]. Before a plain consonant it makes it tense: 햇빛 [해삗], 빗소리 [비쏘리], 바닷가 [바다까]. Before ㄴ or ㅁ it becomes [ㄴ]: 콧물 [콘물]. Before 이 or 잎 it adds two [ㄴ]s: 깻잎 [깬닙].",
+          "When two words join into a compound, Korean sometimes writes a ㅅ under the first half: 해 + 빛 → 햇빛, 비 + 소리 → 빗소리 (Elementary Unit 20). That ㅅ is not said as [ㅅ]. Before a plain consonant it makes it tense: 햇빛 [해삗], 빗소리 [비쏘리], 바닷가 [바다까]. Before ㄴ or ㅁ it becomes [ㄴ]: 콧물 [콘물]. Before 이 or 잎 it adds two [ㄴ]s: 깻잎 [깬닙].",
           "So when you hear [비쏘리], write 빗소리, with ㅅ, never *비쏘리. The weather, faces and food are full of these words, which is why they turn up whenever people guess at what's going on.",
         ],
         examples: [
@@ -2214,7 +2214,7 @@ export const KO_B1_U14: Lesson[] = [
         source: "Can I change this for a bigger one?",
         answer: "큰 걸로 바꿀 수 있어요?",
         altAnswers: ["더 큰 걸로 바꿀 수 있어요?", "큰 사이즈로 바꿀 수 있어요?", "더 큰 사이즈로 바꿀 수 있어요?", "큰 것으로 바꿀 수 있어요?", "이거 큰 걸로 바꿀 수 있어요?", "큰 걸로 교환할 수 있어요?", "큰 걸로 바꿔 주실 수 있어요?", "큰 걸로 바꿀 수 있을까요?"],
-        explanation: "걸로 is the spoken 것으로 (A2 Unit 20).",
+        explanation: "걸로 is the spoken 것으로 (Elementary Unit 20).",
       },
       {
         type: "word-order",

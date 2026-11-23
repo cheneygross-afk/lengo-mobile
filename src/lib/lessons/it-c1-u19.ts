@@ -17,7 +17,7 @@ export const IT_C1_U19: Lesson[] = [
       {
         heading: "How the listening test works",
         body: [
-          "The CILS TRE (the Advanced exam, level C1) has five sections: listening (\"ascolto\"), reading (\"comprensione della lettura\"), grammar and vocabulary (\"analisi delle strutture di comunicazione\"), writing and speaking. Each section is marked separately. In the listening section you hear several recordings, usually twice: interviews, radio programs, announcements, and you answer multiple-choice or information-finding questions.",
+          "The CILS TRE (the Advanced exam, level Advanced) has five sections: listening (\"ascolto\"), reading (\"comprensione della lettura\"), grammar and vocabulary (\"analisi delle strutture di comunicazione\"), writing and speaking. Each section is marked separately. In the listening section you hear several recordings, usually twice: interviews, radio programs, announcements, and you answer multiple-choice or information-finding questions.",
           "Read the questions before the audio starts and underline the key words. The recording rarely uses the same words as the question: \"in aumento\" in the question may be \"sempre più persone\" in the audio. Listen for signals: \"il motivo principale è\", \"in realtà\", \"non tanto... quanto\" (not so much... as), \"a differenza di\". The correct option is often the one that paraphrases; the distractors repeat words you heard but change the meaning.",
           "The instructions are in Italian and use the formal \"Lei\" imperative, so learn their verbs: \"Ascolti il testo e risponda alle domande\", \"Scelga la risposta corretta\", \"Indichi quali informazioni sono presenti nel testo\", \"Completi la tabella\". Take quick notes: numbers as digits, names by their initials, arrows for causes and consequences. Between the first and the second hearing, check which questions are still open and listen only for those.",
         ],
@@ -171,7 +171,7 @@ export const IT_C1_U19: Lesson[] = [
       {
         heading: "Inference and opinion",
         body: [
-          "C1 questions go beyond facts: \"Secondo l'autore...\", \"Che cosa si può dedurre da...?\", \"Con quale intento l'autore cita...?\". The answer is in the text but not in the same words. \"Eppure\" (and yet) marks the writer's own position after the objections: here, the social value matters more than the problems.",
+          "Advanced questions go beyond facts: \"Secondo l'autore...\", \"Che cosa si può dedurre da...?\", \"Con quale intento l'autore cita...?\". The answer is in the text but not in the same words. \"Eppure\" (and yet) marks the writer's own position after the objections: here, the social value matters more than the problems.",
           "Watch for \"a sentire\" (if you listen to), \"c'è chi\" (some people), \"finire per\" + infinitive (to end up doing). The quote from the pensioner is chosen to show the change in relations, not to describe the books.",
         ],
         examples: [
@@ -276,9 +276,9 @@ export const IT_C1_U19: Lesson[] = [
       {
         heading: "Verb cloze",
         body: [
-          "The grammar section (\"analisi delle strutture di comunicazione\") tests forms in context: a text with gaps where you write the right tense and mood, choose a preposition or connector, or transform a sentence. At C1 the usual targets are the subjunctive after conjunctions and verbs of opinion, the sequence of tenses, hypothetical sentences, the passato remoto in narrative, and pronoun combinations.",
+          "The grammar section (\"analisi delle strutture di comunicazione\") tests forms in context: a text with gaps where you write the right tense and mood, choose a preposition or connector, or transform a sentence. At the Advanced level the usual targets are the subjunctive after conjunctions and verbs of opinion, the sequence of tenses, hypothetical sentences, the passato remoto in narrative, and pronoun combinations.",
           "Strategy: read the whole sentence before filling the gap. Look left for the trigger (\"benché\", \"prima che\", \"era necessario che\", \"se\") and at the main verb's tense to choose present or imperfect subjunctive. Write the form in full and check agreement.",
-          "Transformation items give a sentence and a word to use. Typical C1 rewrites: explicit to implicit clause (\"Dopo che ebbe finito, uscì\" → \"Dopo aver finito, uscì\"); concession with \"pur\" + gerund when the subject is the same (\"Benché fosse stanco, continuò\" → \"Pur essendo stanco, continuò\"); direct to reported speech, where a future in the past becomes the past conditional (\"Tornerò domani\" → \"Disse che sarebbe tornato il giorno dopo\"); active to passive.",
+          "Transformation items give a sentence and a word to use. Typical Advanced rewrites: explicit to implicit clause (\"Dopo che ebbe finito, uscì\" → \"Dopo aver finito, uscì\"); concession with \"pur\" + gerund when the subject is the same (\"Benché fosse stanco, continuò\" → \"Pur essendo stanco, continuò\"); direct to reported speech, where a future in the past becomes the past conditional (\"Tornerò domani\" → \"Disse che sarebbe tornato il giorno dopo\"); active to passive.",
         ],
         examples: [
           { es: "Benché fosse stanco, continuò a lavorare.", en: "Although he was tired, he kept working." },
@@ -338,8 +338,8 @@ export const IT_C1_U19: Lesson[] = [
     slug: "c1-drill-c1-grammar",
     level: "IT-C1",
     number: 6,
-    title: "Drill: C1 Grammar",
-    summary: "High-repetition translation across C1 grammar: subjunctive, sequence of tenses, hypotheticals, passato remoto, passive, gerunds and pronoun combinations.",
+    title: "Drill: Grammar",
+    summary: "High-repetition translation across Advanced grammar: subjunctive, sequence of tenses, hypotheticals, passato remoto, passive, gerunds and pronoun combinations.",
     duration: "25 min",
     kind: "drill",
     sections: [
@@ -469,7 +469,7 @@ export const IT_C1_U19: Lesson[] = [
         heading: "The task and the model letter",
         body: [
           "A sample task: \"Ha frequentato un corso di lingua a pagamento, ma molte lezioni sono state annullate senza preavviso. Scriva una lettera alla direzione della scuola per esprimere il suo disappunto e chiedere un rimborso.\"",
-          "Model answer (invented school): \"Spettabile Direzione, mi chiamo Anna Weber e dal 3 febbraio al 28 marzo ho frequentato il corso intensivo di livello C1 presso la Vostra scuola. Vi scrivo per esprimere il mio disappunto riguardo all'organizzazione del corso. Delle trentadue lezioni previste, ben nove sono state annullate senza alcun preavviso, e solo tre sono state recuperate. Inoltre, nonostante le mie ripetute richieste, non ho mai ricevuto spiegazioni da parte della segreteria.\"",
+          "Model answer (invented school): \"Spettabile Direzione, mi chiamo Anna Weber e dal 3 febbraio al 28 marzo ho frequentato il corso intensivo di livello Advanced presso la Vostra scuola. Vi scrivo per esprimere il mio disappunto riguardo all'organizzazione del corso. Delle trentadue lezioni previste, ben nove sono state annullate senza alcun preavviso, e solo tre sono state recuperate. Inoltre, nonostante le mie ripetute richieste, non ho mai ricevuto spiegazioni da parte della segreteria.\"",
           "\"Considerato che il corso mi è costato 640 euro, ritengo legittimo chiedere il rimborso delle lezioni non svolte, pari a 120 euro. Resto in attesa di un Vostro cortese riscontro e confido in una rapida soluzione. Distinti saluti, Anna Weber.\"",
         ],
         examples: [

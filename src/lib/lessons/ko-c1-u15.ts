@@ -680,7 +680,7 @@ export const KO_C1_U15: Lesson[] = [
       {
         heading: "-(으)로 말미암아: because of, in writing",
         body: [
-          "Noun + (으)로 말미암아 means 'because of, owing to'. It is the most formal cause marker you will meet: heavier than (으)로 인해 (B2) and far from spoken 때문에. It attaches only to nouns: 전쟁으로 말미암아, 몽골의 침입으로 말미암아, and 이로 말미암아 'because of this'. Before a noun it becomes (으)로 말미암은: 전쟁으로 말미암은 피해 'damage caused by the war'.",
+          "Noun + (으)로 말미암아 means 'because of, owing to'. It is the most formal cause marker you will meet: heavier than (으)로 인해 (Upper-intermediate) and far from spoken 때문에. It attaches only to nouns: 전쟁으로 말미암아, 몽골의 침입으로 말미암아, and 이로 말미암아 'because of this'. Before a noun it becomes (으)로 말미암은: 전쟁으로 말미암은 피해 'damage caused by the war'.",
           "Because it needs a noun, a clause must be turned into one first: not *전쟁이 일어나서 말미암아 but 전쟁으로 말미암아, or 정치가 혼란해져서 → 정치적 혼란으로 말미암아. Never double the cause: *전쟁 때문에 말미암아. It usually introduces loss, damage or conflict, and in conversation it would sound like reading a textbook aloud.",
           "For a cause with a good result, Korean switches markers: 덕분에 'thanks to' in speech and writing alike, or 에 힘입어 'boosted by' in formal prose (Unit 12). 경제 성장에 힘입어 생활 수준이 높아졌다 reads naturally; 경제 성장으로 말미암아 생활 수준이 높아졌다 is not wrong, but it sounds oddly gloomy.",
         ],
@@ -2358,7 +2358,7 @@ export const KO_C1_U15: Lesson[] = [
             sentence: "___ 원래 모습대로 복원할 수 있었다.",
             answer: "공사 과정이 자세히 기록되어 있었기에",
             altAnswers: ["공사 과정이 자세히 기록되어 있었기 때문에", "공사 과정이 자세히 기록되어 있어서", "공사 과정이 상세히 기록되어 있었기에", "공사 과정이 자세히 기록돼 있었기에", "공사 과정이 자세하게 기록되어 있었기에"],
-            explanation: "-기에 gives the reason in written style (C1 Unit 2); -어 있었다 for the resulting state of the record.",
+            explanation: "-기에 gives the reason in written style (Advanced Unit 2); -어 있었다 for the resulting state of the record.",
           },
         ],
       },

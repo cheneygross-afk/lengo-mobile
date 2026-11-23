@@ -108,6 +108,8 @@ export const A1_UNIT3_PATCHES: Record<string, LessonPatch> = {
         14: speak(`${SAY} "The supermarket is near my house."`, "El supermercado está cerca de mi casa.", [], "Where a place is takes estar: está cerca de. De doesn't join with mi: de mi casa."),
       },
     },
+    // Whole-course sweep (cross-unit.ts): "sanos" had not been shown yet.
+    reword: [["My grandparents are healthy.", "My grandparents are healthy (sanos)."]],
   },
   "ser-vs-estar-1": {
     summary: "Spanish has two verbs for \"to be\": ser for what something is, estar for how or where it is right now.",

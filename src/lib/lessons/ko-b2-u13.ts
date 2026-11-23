@@ -1373,8 +1373,8 @@ export const KO_B2_U13: Lesson[] = [
       {
         heading: "-다고 하죠, -(이)라고 하잖아요",
         body: [
-          "In conversation, Koreans usually quote a proverb with reported speech (B1): the proverb + 고 하다. Verb or adjective: 세 살 버릇 여든까지 간다고 해요; noun: 티끌 모아 태산이라고 하잖아요. -죠 invites agreement ('as they say, right?'), and -잖아요 reminds the listener of something everyone knows.",
-          "Speech shortens it further: 간다잖아요, 태산이래요 (B1 contractions). Unlike in writing, the proverb often comes after the point: 그러니까 조심하세요. 낮말은 새가 듣고 밤말은 쥐가 듣는다고 하잖아요.",
+          "In conversation, Koreans usually quote a proverb with reported speech (Intermediate): the proverb + 고 하다. Verb or adjective: 세 살 버릇 여든까지 간다고 해요; noun: 티끌 모아 태산이라고 하잖아요. -죠 invites agreement ('as they say, right?'), and -잖아요 reminds the listener of something everyone knows.",
+          "Speech shortens it further: 간다잖아요, 태산이래요 (Intermediate contractions). Unlike in writing, the proverb often comes after the point: 그러니까 조심하세요. 낮말은 새가 듣고 밤말은 쥐가 듣는다고 하잖아요.",
         ],
         examples: [
           { es: "가는 말이 고와야 오는 말이 곱다고 하죠.", en: "Kind words get kind words back, as they say." },
@@ -2299,7 +2299,7 @@ export const KO_B2_U13: Lesson[] = [
             source: "My friends told me several times to save a backup, but I didn't listen.",
             answer: "친구들이 파일을 따로 저장해 두라고 여러 번 말했지만 나는 귀담아듣지 않았다.",
             altAnswers: ["친구들이 파일을 따로 저장해 두라고 여러 번 말했지만 귀담아듣지 않았다.", "친구들이 파일을 따로 저장하라고 여러 번 말했지만 나는 귀담아듣지 않았다.", "친구들이 백업을 해 두라고 여러 번 말했지만 나는 귀담아듣지 않았다.", "친구들이 파일을 따로 저장해 두라고 여러 번 말했지만 나는 듣지 않았다.", "친구들이 파일을 따로 저장해 두라고 여러 번 말했으나 나는 귀담아듣지 않았다.", "친구들이 여러 번 파일을 따로 저장해 두라고 말했지만 나는 귀담아듣지 않았다."],
-            explanation: "Reported command -(으)라고 (B1). 귀담아듣다 'listen carefully, take to heart' is written as one word. 한다체 past: 않았다.",
+            explanation: "Reported command -(으)라고 (Intermediate). 귀담아듣다 'listen carefully, take to heart' is written as one word. 한다체 past: 않았다.",
           },
           {
             type: "multiple-choice",

@@ -339,7 +339,7 @@ export const IT_C2_U22: Lesson[] = [
     slug: "c2-drill-c2-final",
     level: "IT-C2",
     number: 5,
-    title: "Drill: C2 Final",
+    title: "Drill: Final",
     summary: "High-repetition translation of the hardest structures of the whole course, from articles and prepositions to the subjunctive and literary forms.",
     duration: "25 min",
     kind: "drill",
@@ -387,7 +387,7 @@ export const IT_C2_U22: Lesson[] = [
     slug: "c2-reading-lab-c2-final",
     level: "IT-C2",
     number: 6,
-    title: "Reading Lab: C2 Final",
+    title: "Reading Lab: Final",
     summary: "Read a long original literary text about a translator's last day at work, and analyze its narrative, style and meaning.",
     duration: "19 min",
     sections: [
@@ -467,7 +467,7 @@ export const IT_C2_U22: Lesson[] = [
     slug: "c2-listening-lab-c2-final",
     level: "IT-C2",
     number: 7,
-    title: "Listening Lab: C2 Final",
+    title: "Listening Lab: Final",
     summary: "Follow a long original radio talk about how Italian has changed in a lifetime, with notes, inference and a summary.",
     duration: "19 min",
     sections: [
@@ -627,7 +627,7 @@ export const IT_C2_U22: Lesson[] = [
     slug: "c2-translation-lab-c2-final",
     level: "IT-C2",
     number: 9,
-    title: "Translation Lab: C2 Final",
+    title: "Translation Lab: Final",
     summary: "Translate a mixed text, a travel memoir with dialogue, description and reflection, choosing register, tense and idiom at every step.",
     duration: "19 min",
     sections: [

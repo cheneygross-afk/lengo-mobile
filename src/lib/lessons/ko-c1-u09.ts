@@ -56,7 +56,7 @@ export const KO_C1_U09: Lesson[] = [
         heading: "Inviting views, moving on, postponing",
         body: [
           "To invite comment, the chair honours the listeners with -(으)시-: 이 건에 대해 의견 있으십니까? 다른 의견 있으신 분 계십니까? Notice the split: 의견 있으십니까 (the people have opinions, so 있으시다), but 분 계십니까 (a person is present, so 계시다). When nobody speaks, 의견이 없으시면 이대로 진행하겠습니다 closes the item.",
-          "Moving through the agenda is a fixed set of 하십시오체 lines: 다음 안건으로 넘어가겠습니다 'let's move to the next item', 시간 관계상 'for reasons of time', and for postponing, -도록 하겠습니다: 이 건은 다음 회의 때 다시 논의하도록 하겠습니다. -도록 하다 (B1) here turns a decision into a polite commitment, softer than 논의하겠습니다. To shelve a matter formally, Korean uses 보류하다: 이 안건은 일단 보류하겠습니다.",
+          "Moving through the agenda is a fixed set of 하십시오체 lines: 다음 안건으로 넘어가겠습니다 'let's move to the next item', 시간 관계상 'for reasons of time', and for postponing, -도록 하겠습니다: 이 건은 다음 회의 때 다시 논의하도록 하겠습니다. -도록 하다 (Intermediate) here turns a decision into a polite commitment, softer than 논의하겠습니다. To shelve a matter formally, Korean uses 보류하다: 이 안건은 일단 보류하겠습니다.",
           "Participants speak differently. Addressing the whole room or a senior, they use 하십시오체; in the back-and-forth with a peer, 해요체 is normal and not rude: 저도 그 부분이 좀 걱정돼요. Mixing the two within a meeting is how Koreans really talk. What breaks the frame is 반말 or a bare 아니요 to a senior, which the next lesson tackles.",
         ],
         examples: [
@@ -272,7 +272,7 @@ export const KO_C1_U09: Lesson[] = [
         heading: "Objecting: acknowledge first, then disagree",
         body: [
           "A Korean objection has two moves: acknowledge the other person's view, then add your concern after -지만 or -(으)나. 말씀은 충분히 이해하지만 예산 문제가 있습니다 'I fully understand your point, but there's a budget issue'. 좋은 의견이라고 생각합니다만 and the short 조금 다른 의견입니다만 do the same; the trailing -만 on 입니다만 is formal 'but', and the sentence often continues: 조금 다른 의견입니다만, 일정이 너무 촉박하지 않을까요?",
-          "-기는 하지만 (B2) concedes part of the point before turning: 취지는 좋기는 하지만 현실적으로 어렵습니다. And -지 않을까요? turns a flat 'that won't work' into a question the senior can answer: 비용이 너무 많이 들지 않을까요?",
+          "-기는 하지만 (Upper-intermediate) concedes part of the point before turning: 취지는 좋기는 하지만 현실적으로 어렵습니다. And -지 않을까요? turns a flat 'that won't work' into a question the senior can answer: 비용이 너무 많이 들지 않을까요?",
           "What not to say: a bare 아니요 or 그건 아니에요 to a senior's idea, and 틀렸어요 'that's wrong' about anyone's opinion. Opinions in Korean are 다르다 'different', not 틀리다 'wrong'; 제 생각은 좀 다릅니다 disagrees without attacking. Using 틀리다 for 'different' is common in casual speech but is marked as non-standard, and in a meeting it sounds like a verdict.",
         ],
         examples: [
@@ -454,8 +454,8 @@ export const KO_C1_U09: Lesson[] = [
       {
         heading: "-(으)ㄴ / 는 바와 같이: as I said, as you can see",
         body: [
-          "You met -(으)ㄴ / 는 바와 같이 in B2 report writing: 앞서 언급한 바와 같이. In a meeting or presentation it is the speaker's way of pointing: back to what was said, or at what the audience is looking at. The modifier carries the time. Something already said is past: 앞서 말씀드린 바와 같이 'as I mentioned earlier'. Something the listeners are seeing now is present: 보시는 바와 같이 'as you can see'. Something they already know takes 아시는: 다들 아시는 바와 같이.",
-          "B2 also gave you the spoken 보시다시피 and 아시다시피. They mean the same, and both appear in meetings, but -는 바와 같이 is a notch more formal and is the presentation default. 바 is a dependent noun, so it is spaced: 말씀드린 바와 같이. The fixed partner is 와 같이; 바처럼 is sometimes heard, but it sounds unidiomatic in a formal talk.",
+          "You met -(으)ㄴ / 는 바와 같이 in Upper-intermediate report writing: 앞서 언급한 바와 같이. In a meeting or presentation it is the speaker's way of pointing: back to what was said, or at what the audience is looking at. The modifier carries the time. Something already said is past: 앞서 말씀드린 바와 같이 'as I mentioned earlier'. Something the listeners are seeing now is present: 보시는 바와 같이 'as you can see'. Something they already know takes 아시는: 다들 아시는 바와 같이.",
+          "Upper-intermediate also gave you the spoken 보시다시피 and 아시다시피. They mean the same, and both appear in meetings, but -는 바와 같이 is a notch more formal and is the presentation default. 바 is a dependent noun, so it is spaced: 말씀드린 바와 같이. The fixed partner is 와 같이; 바처럼 is sometimes heard, but it sounds unidiomatic in a formal talk.",
           "The English-speaker slip is the tense. 'As I said' is past, so 말씀드린, not 말씀드리는. And the verb inside follows honorific logic: you 말씀드리다 (humble), the director 말씀하시다: 부장님께서 말씀하신 바와 같이.",
         ],
         examples: [
@@ -496,7 +496,7 @@ export const KO_C1_U09: Lesson[] = [
       {
         heading: "-다는 점에서: in that",
         body: [
-          "-다는 점에서 'in that ...' gives the ground on which you judge something. The clause before 점 is built like the B1 quoted clause, then joined with -는: adjective 저렴하다는 점에서; action verb in the present 줄인다는, 늘어난다는; past 개선되었다는; possibility 줄일 수 있다는; noun (이)라는: 처음이라는 점에서. The judgement follows: 의미가 있습니다, 장점이 있습니다, 주목할 만합니다, 문제가 있습니다.",
+          "-다는 점에서 'in that ...' gives the ground on which you judge something. The clause before 점 is built like the Intermediate quoted clause, then joined with -는: adjective 저렴하다는 점에서; action verb in the present 줄인다는, 늘어난다는; past 개선되었다는; possibility 줄일 수 있다는; noun (이)라는: 처음이라는 점에서. The judgement follows: 의미가 있습니다, 장점이 있습니다, 주목할 만합니다, 문제가 있습니다.",
           "The ungrammatical slip is the noun or -적 word copied in dictionary form: *효과적이다는 점에서 should be 효과적이라는 점에서, and *원인이다는 should be 원인이라는. The second slip is a bare stem on an action verb: *줄이다는 점 for 줄인다는 점. Both mistakes are the ones you fixed in Unit 5's -다고 볼 수 있다, because the quoted clause is the same.",
           "Two spoken-meeting relatives are worth knowing: -다는 점을 고려하면 'considering that' and -다는 점이 ...입니다 'the point is that': 가장 큰 장점은 설치가 간단하다는 점입니다.",
         ],
@@ -754,7 +754,7 @@ export const KO_C1_U09: Lesson[] = [
       {
         heading: "-(으)ㄴ / 는 만큼 in formal requests",
         body: [
-          "B2 taught -(으)ㄴ / 는 만큼 'since, given that'. In meetings and notices it grounds a request in a shared fact, which makes the request hard to refuse: 중요한 회의인 만큼 한 분도 빠짐없이 참석해 주시기 바랍니다 'since this is an important meeting, please make sure everyone attends'. Noun 인 만큼, adjective -(으)ㄴ 만큼 (촉박한 만큼), action verb now -는 만큼 (처음 진행하는 만큼), past -(으)ㄴ 만큼 (결정된 만큼). 만큼 is a dependent noun and is spaced.",
+          "The Upper-intermediate level taught -(으)ㄴ / 는 만큼 'since, given that'. In meetings and notices it grounds a request in a shared fact, which makes the request hard to refuse: 중요한 회의인 만큼 한 분도 빠짐없이 참석해 주시기 바랍니다 'since this is an important meeting, please make sure everyone attends'. Noun 인 만큼, adjective -(으)ㄴ 만큼 (촉박한 만큼), action verb now -는 만큼 (처음 진행하는 만큼), past -(으)ㄴ 만큼 (결정된 만큼). 만큼 is a dependent noun and is spaced.",
           "The request after it is in the Unit 8 ladder: 부탁드립니다, -아 / 어 주시기 바랍니다, -아 / 어 주십시오.",
         ],
         examples: [
@@ -1166,7 +1166,7 @@ export const KO_C1_U09: Lesson[] = [
         heading: "Moving through: slides and graphs",
         body: [
           "Transitions are short fixed lines: 다음으로 'next', 이어서 'following on', 그럼 다음 장을 보시겠습니다 'let's look at the next slide'. Pointing at a graph uses -(으)면 with 보시다: 이 그래프를 보시면 20대 이용자가 꾸준히 증가하고 있습니다 'if you look at this graph, users in their twenties are rising steadily'. The 보시면 clause does not need to match the main clause grammatically; it simply directs the eyes.",
-          "Graph verbs come from B2: 증가하다 / 늘다, 감소하다 / 줄다, 차지하다 'take up (a share)'. 차지하다 takes the whole with 의 and the share with 을 / 를: 20대가 전체 이용자의 40%를 차지합니다. Keep numbers precise; save 것으로 보입니다 for your interpretation.",
+          "Graph verbs come from the Upper-intermediate level: 증가하다 / 늘다, 감소하다 / 줄다, 차지하다 'take up (a share)'. 차지하다 takes the whole with 의 and the share with 을 / 를: 20대가 전체 이용자의 40%를 차지합니다. Keep numbers precise; save 것으로 보입니다 for your interpretation.",
         ],
         examples: [
           { es: "다음으로 서비스 내용을 소개하겠습니다.", en: "Next, I'll introduce the service." },

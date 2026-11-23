@@ -14,14 +14,14 @@ export const KO_C1_U18: Lesson[] = [
     slug: "c1-body-idioms-advanced",
     level: "KO-C1",
     number: 1,
-    title: "Body Idioms Beyond B2",
+    title: "Body Idioms Beyond the Upper-intermediate Level",
     summary: "Use ten body idioms of news, dramas and office talk (발목을 잡다, 눈 밖에 나다, 등을 돌리다, 입에 오르내리다, 어깨가 무겁다, 코웃음을 치다, 귀에 못이 박이다, 혀를 내두르다, 눈에 밟히다, 간에 기별도 안 가다) with their fixed particles, and switch 발목을 잡다 to its passive 발목이 잡히다.",
     duration: "21 min",
     sections: [
       {
         heading: "Held back, pushed out, talked about",
         body: [
-          "The body idioms of B2 mostly described a person (발이 넓다, 입이 무겁다). These describe what happens between people. 발목을 잡다 'grab the ankle' is to hold someone or something back; 눈 밖에 나다 'go outside someone's eye' is to fall out of their favour, with the person before 눈 (부장님 눈 밖에 나다); 등을 돌리다 is to turn your back on someone; and 입에 오르내리다 'go up and down in people's mouths' is to be talked about, usually as gossip.",
+          "The body idioms of Upper-intermediate mostly described a person (발이 넓다, 입이 무겁다). These describe what happens between people. 발목을 잡다 'grab the ankle' is to hold someone or something back; 눈 밖에 나다 'go outside someone's eye' is to fall out of their favour, with the person before 눈 (부장님 눈 밖에 나다); 등을 돌리다 is to turn your back on someone; and 입에 오르내리다 'go up and down in people's mouths' is to be talked about, usually as gossip.",
           "The particles belong to the idiom. In 발목을 잡다 the obstacle is the subject and the ankle the object: 부상이 그의 발목을 잡았다. To say you were the one held back, switch to the passive 잡히다 and mark the cause with 에: 규제에 발목이 잡혔다 (발목을 잡혔다 is also heard). The typical learner sentence mixes the two, *발목이 잡았다, a subject particle with the active verb, which Korean ears hear as a broken sentence.",
         ],
         examples: [
@@ -65,7 +65,7 @@ export const KO_C1_U18: Lesson[] = [
         body: [
           "어깨가 무겁다 is the weight of responsibility, said by someone newly trusted with a job: 팀장을 맡게 되어 어깨가 무겁습니다 is almost a set phrase in a promotion speech. Its pair, 어깨가 가볍다, is the lightness once a burden is gone.",
           "Two idioms react to what others do. 코웃음을 치다 is to scoff, a snort through the nose that dismisses an idea; the verb is 치다, not 웃다. 혀를 내두르다 'swing the tongue about' is open amazement at someone's skill or nerve, often as -(으)ㄹ 정도로 or in the past: 혀를 내둘렀다. English speakers sometimes read it as 'talk too much'; it never means that.",
-          "귀에 못이 박이다 'calluses form in the ears' is being told the same thing so often you're sick of it, nearly always as 귀에 못이 박이도록 듣다. 못 here is a callus and 박이다 [바기다] means 'form, set in'; most people say and write 박히다 'be hammered in', as if the 못 were a nail, and you will see 귀에 못이 박히도록 everywhere, but the dictionary spelling is 박이다. B2 귀가 따갑다 is milder and describes the nagging as it happens; 귀에 못이 박이다 sums up years of it.",
+          "귀에 못이 박이다 'calluses form in the ears' is being told the same thing so often you're sick of it, nearly always as 귀에 못이 박이도록 듣다. 못 here is a callus and 박이다 [바기다] means 'form, set in'; most people say and write 박히다 'be hammered in', as if the 못 were a nail, and you will see 귀에 못이 박히도록 everywhere, but the dictionary spelling is 박이다. Upper-intermediate 귀가 따갑다 is milder and describes the nagging as it happens; 귀에 못이 박이다 sums up years of it.",
         ],
         examples: [
           { es: "팀장을 맡게 되어 어깨가 무겁습니다.", en: "Having been made team leader, I feel the weight of responsibility." },
@@ -251,13 +251,13 @@ export const KO_C1_U18: Lesson[] = [
     level: "KO-C1",
     number: 2,
     title: "Emotion Idioms",
-    summary: "Describe worry, shock, being moved, guilt, passion, struggle and relief the way Korean novels and dramas do: 애가 타다, 가슴이 철렁하다, 가슴이 찡하다, 마음이 무겁다, 피가 끓다, 진땀을 빼다, 속이 후련하다, with B2 속이 타다 as a spiral.",
+    summary: "Describe worry, shock, being moved, guilt, passion, struggle and relief the way Korean novels and dramas do: 애가 타다, 가슴이 철렁하다, 가슴이 찡하다, 마음이 무겁다, 피가 끓다, 진땀을 빼다, 속이 후련하다, with Upper-intermediate 속이 타다 as a spiral.",
     duration: "21 min",
     sections: [
       {
         heading: "Worry and shock: 애가 타다, 가슴이 철렁하다",
         body: [
-          "Korean rarely names an emotion with an adjective alone; it locates it in the body. 애가 타다 'the insides burn' is anxious, desperate waiting, usually for someone else's news or for something you badly want: 연락이 없어서 애가 탔다. Make someone else feel it with the causative 애를 태우다 (연락도 없이 부모님 애를 태웠다), and use the adverb 애타게 for longing: 애타게 기다리다. B2 속이 타다 is close, but leans toward your own frustration while things go wrong; 애가 타다 leans toward yearning and concern.",
+          "Korean rarely names an emotion with an adjective alone; it locates it in the body. 애가 타다 'the insides burn' is anxious, desperate waiting, usually for someone else's news or for something you badly want: 연락이 없어서 애가 탔다. Make someone else feel it with the causative 애를 태우다 (연락도 없이 부모님 애를 태웠다), and use the adverb 애타게 for longing: 애타게 기다리다. Upper-intermediate 속이 타다 is close, but leans toward your own frustration while things go wrong; 애가 타다 leans toward yearning and concern.",
           "가슴이 철렁하다 is the sudden drop of the heart at bad news or a near miss: a phone ringing at 3 a.m., a child out of sight in a crowd. 철렁 is a sound word for something heavy dropping, so you'll also read 가슴이 철렁 내려앉았다. It is momentary; for fear that lasts, Korean says 무섭다 or 불안하다.",
         ],
         examples: [
@@ -717,7 +717,7 @@ export const KO_C1_U18: Lesson[] = [
     level: "KO-C1",
     number: 4,
     title: "-(으)ㄴ / 는 양: Acting As If",
-    summary: "Describe pretence and outward show in written and narrative Korean with -(으)ㄴ / 는 양 (아무것도 모르는 양 시치미를 뗐다, 자기가 주인인 양 행동한다, 큰일이라도 난 양), choose between 양, B1 -(으)ㄴ / 는 척하다 and -는 것처럼, and use fixed similes with 처럼, 같이 and -듯(이) (쥐 죽은 듯이, 가뭄에 콩 나듯).",
+    summary: "Describe pretence and outward show in written and narrative Korean with -(으)ㄴ / 는 양 (아무것도 모르는 양 시치미를 뗐다, 자기가 주인인 양 행동한다, 큰일이라도 난 양), choose between 양, Intermediate -(으)ㄴ / 는 척하다 and -는 것처럼, and use fixed similes with 처럼, 같이 and -듯(이) (쥐 죽은 듯이, 가뭄에 콩 나듯).",
     duration: "21 min",
     sections: [
       {
@@ -767,7 +767,7 @@ export const KO_C1_U18: Lesson[] = [
         body: [
           "After a noun, use 인 양: 자기가 주인인 양 행동한다 'acts as if he owned the place'. This is the commonest critical use of 양: someone acting above their station, which the writer clearly disapproves of. 큰일이라도 난 양 'as if something terrible had happened' adds (이)라도 'or something', exaggerating an overreaction.",
           "In literary prose 양 also makes a simile with no pretence at all: 벚꽃잎이 눈인 양 흩날렸다 'cherry petals drifted down like snow'. So read the context: with people's behaviour 양 usually hints at falseness; with nature and images it is simply poetic 'as if'.",
-          "마치 'just as if' often opens the comparison, as it does with 처럼 and -듯이 (B2): 마치 자기가 주인인 양. Within a sentence, 양 and -듯이 are often interchangeable (큰일이라도 난 듯이), but -듯이 carries less disapproval, so a writer who wants to criticise someone's act reaches for 양.",
+          "마치 'just as if' often opens the comparison, as it does with 처럼 and -듯이 (Upper-intermediate): 마치 자기가 주인인 양. Within a sentence, 양 and -듯이 are often interchangeable (큰일이라도 난 듯이), but -듯이 carries less disapproval, so a writer who wants to criticise someone's act reaches for 양.",
         ],
         examples: [
           { es: "처음 온 손님이 자기가 주인인 양 행동한다.", en: "A first-time customer is acting as if he owned the place." },
@@ -829,7 +829,7 @@ export const KO_C1_U18: Lesson[] = [
       {
         heading: "Fixed similes with 처럼, 같이 and -듯(이)",
         body: [
-          "Ordinary similes follow B2: 처럼 or 같이 after a noun (눈처럼 하얗다, 돌같이 굳은 표정), -듯(이) after a verb stem. What C1 adds is the fixed similes Koreans use as idioms, which must be learned whole: 쥐 죽은 듯이 조용하다 'quiet as a dead mouse', i.e. dead silent; 가뭄에 콩 나듯 'like beans sprouting in a drought', i.e. very rarely; 손바닥 뒤집듯 'like flipping your palm', said of someone who changes their word with no effort; 땀이 비 오듯 흐르다 'sweat pours like rain'.",
+          "Ordinary similes follow Upper-intermediate: 처럼 or 같이 after a noun (눈처럼 하얗다, 돌같이 굳은 표정), -듯(이) after a verb stem. What Advanced adds is the fixed similes Koreans use as idioms, which must be learned whole: 쥐 죽은 듯이 조용하다 'quiet as a dead mouse', i.e. dead silent; 가뭄에 콩 나듯 'like beans sprouting in a drought', i.e. very rarely; 손바닥 뒤집듯 'like flipping your palm', said of someone who changes their word with no effort; 땀이 비 오듯 흐르다 'sweat pours like rain'.",
           "Their images rarely match English ones, so translate the meaning, not the animal: 'quiet as a mouse' is not 쥐처럼 조용하다, which sounds odd, but 쥐 죽은 듯이 조용하다.",
         ],
         examples: [
@@ -968,15 +968,15 @@ export const KO_C1_U18: Lesson[] = [
     level: "KO-C1",
     number: 5,
     title: "-(으)ㄹ 법하다: Only Natural, Plausible",
-    summary: "Say that something is plausible or only natural with -(으)ㄹ 법하다 (그럴 법한 이야기다, 화가 날 법도 하다, 한 번쯤 들어 봤을 법한 노래), complain that something you'd expect hasn't happened with -(으)ㄹ 법도 한데, and keep it apart from B2 -는 법이다 and -(으)ㄴ / 는 셈치다.",
+    summary: "Say that something is plausible or only natural with -(으)ㄹ 법하다 (그럴 법한 이야기다, 화가 날 법도 하다, 한 번쯤 들어 봤을 법한 노래), complain that something you'd expect hasn't happened with -(으)ㄹ 법도 한데, and keep it apart from the Upper-intermediate level -는 법이다 and -(으)ㄴ / 는 셈치다.",
     duration: "21 min",
     sections: [
       {
         heading: "Plausible: -(으)ㄹ 법하다, -(으)ㄹ 법한",
         body: [
-          "-(으)ㄹ 법하다 says that something is likely or believable given the circumstances: 그럴 법한 이야기다 'that's a plausible story'. It is the speaker's judgement, not a fact, and it sits between the neutral -(으)ㄹ 것 같다 and the firm -(으)ㄹ 게 뻔하다 (B2). It is most often used as a modifier, -(으)ㄹ 법한 + noun: 있을 법한 일 'something that could well happen', 나올 법한 질문 'a question that's likely to come up'.",
+          "-(으)ㄹ 법하다 says that something is likely or believable given the circumstances: 그럴 법한 이야기다 'that's a plausible story'. It is the speaker's judgement, not a fact, and it sits between the neutral -(으)ㄹ 것 같다 and the firm -(으)ㄹ 게 뻔하다 (Upper-intermediate). It is most often used as a modifier, -(으)ㄹ 법한 + noun: 있을 법한 일 'something that could well happen', 나올 법한 질문 'a question that's likely to come up'.",
           "For something that would plausibly have happened or been experienced already, use -았 / 었을 법하다: 한 번쯤 들어 봤을 법한 노래 'a song you've probably heard at least once', a favourite phrase of radio DJs and advertising copy. Spacing: the verb's modifier stands apart and 법하다 is one word: 그럴 법하다, 있을 법한.",
-          "Don't confuse it with -(으)ㄹ 만하다 (B1) 'worth doing': 볼 만한 영화 is a film worth seeing, 봤을 법한 영화 a film you've probably seen. The two meet only in -(으)ㄹ 만도 하다, a spoken near-synonym of 법도 하다 that you'll meet in the next section's answers.",
+          "Don't confuse it with -(으)ㄹ 만하다 (Intermediate) 'worth doing': 볼 만한 영화 is a film worth seeing, 봤을 법한 영화 a film you've probably seen. The two meet only in -(으)ㄹ 만도 하다, a spoken near-synonym of 법도 하다 that you'll meet in the next section's answers.",
         ],
         examples: [
           { es: "듣고 보니 그럴 법한 이야기네요.", en: "Now that I've heard it, it's a plausible story." },
@@ -1057,8 +1057,8 @@ export const KO_C1_U18: Lesson[] = [
       {
         heading: "법하다, 법이다, 셈치다",
         body: [
-          "Three B2-C1 forms look alike. -는 법이다 (B2) states a general truth or rule of life: 사람은 누구나 실수하는 법이다. -(으)ㄹ 법하다 judges one case as plausible: 그 사람이라면 실수할 법하다. So 법이다 is about everyone, always; 법하다 is about this case, probably. The modifier differs too: -는 법이다, but -(으)ㄹ 법하다.",
-          "-(으)ㄴ / 는 셈치다 (B2) is different again: you choose to treat something as if it were so, often to cut your losses: 잃어버린 셈치고 잊어버려. It says nothing about likelihood.",
+          "Three Upper-intermediate to Advanced forms look alike. -는 법이다 (Upper-intermediate) states a general truth or rule of life: 사람은 누구나 실수하는 법이다. -(으)ㄹ 법하다 judges one case as plausible: 그 사람이라면 실수할 법하다. So 법이다 is about everyone, always; 법하다 is about this case, probably. The modifier differs too: -는 법이다, but -(으)ㄹ 법하다.",
+          "-(으)ㄴ / 는 셈치다 (Upper-intermediate) is different again: you choose to treat something as if it were so, often to cut your losses: 잃어버린 셈치고 잊어버려. It says nothing about likelihood.",
         ],
         examples: [
           { es: "사람은 누구나 실수하는 법이에요.", en: "Everyone makes mistakes; that's how people are." },
@@ -1306,7 +1306,7 @@ export const KO_C1_U18: Lesson[] = [
             source: "You know what they say, food comes first. Let's eat before anything else.",
             answer: "금강산도 식후경이라고 하잖아요. 일단 밥부터 먹어요.",
             altAnswers: ["금강산도 식후경이라잖아요. 일단 밥부터 먹어요.", "금강산도 식후경이라고 하잖아요. 우선 밥부터 먹어요.", "금강산도 식후경이라고 하잖아요. 밥부터 먹어요.", "금강산도 식후경이라고 하잖아요. 일단 밥부터 먹읍시다.", "금강산도 식후경이잖아요. 일단 밥부터 먹어요.", "금강산도 식후경이라고, 일단 밥부터 먹어요."],
-            explanation: "A B2 proverb ending in a noun (식후경), so -이라고 하잖아요 'as you know they say'.",
+            explanation: "An Upper-intermediate proverb ending in a noun (식후경), so -이라고 하잖아요 'as you know they say'.",
           },
         ],
       },
@@ -2487,7 +2487,7 @@ export const KO_C1_U18: Lesson[] = [
       {
         heading: "Plan the arc: an idiom for every stage",
         body: [
-          "A comeback story has five stages, and Korean has idioms ready for each. The bad start: 첫 단추를 잘못 끼우다. The blow: 직격탄을 맞다, 발목이 잡히다. The low point: 사면초가, 속수무책 (Unit 17), 발등에 불이 떨어지다, 애가 타다. The turn: 와신상담, 칠전팔기 (B2), 한 우물을 파다. The ending: 숨통이 트이다, 전화위복, 공든 탑이 무너지랴.",
+          "A comeback story has five stages, and Korean has idioms ready for each. The bad start: 첫 단추를 잘못 끼우다. The blow: 직격탄을 맞다, 발목이 잡히다. The low point: 사면초가, 속수무책 (Unit 17), 발등에 불이 떨어지다, 애가 타다. The turn: 와신상담, 칠전팔기 (Upper-intermediate), 한 우물을 파다. The ending: 숨통이 트이다, 전화위복, 공든 탑이 무너지랴.",
           "Pick five or six, not twelve. A story where every sentence is an idiom sounds like a parody; Korean storytellers put one idiom at each turning point and tell the rest in plain words. Use the idiom where the feeling peaks, and let a plain sentence before it set it up: 월세 낼 날은 다가오는데 통장은 비어 있었고 돈을 빌릴 데도 없었다. 그야말로 사면초가였다.",
         ],
         examples: [
@@ -2552,7 +2552,7 @@ export const KO_C1_U18: Lesson[] = [
             prompt: "Say it in Korean (polite): Looking back, that failure turned out to be a blessing in disguise.",
             text: "돌이켜 보면 그때의 실패가 전화위복이 된 셈이에요.",
             tip: "Pause briefly before 전화위복: it is the punchline. 셈이에요 is [세미에요].",
-            explanation: "-(으)ㄴ 셈이다 (B2) 'it amounts to': 전화위복이 된 셈이에요.",
+            explanation: "-(으)ㄴ 셈이다 (Upper-intermediate) 'it amounts to': 전화위복이 된 셈이에요.",
           },
           {
             type: "listen-choose",
@@ -2592,7 +2592,7 @@ export const KO_C1_U18: Lesson[] = [
             sentence: "역시 공든 탑은 ___.",
             answer: "무너지지 않는 법이다",
             altAnswers: ["무너지지 않는다", "무너지지 않는 법이에요", "무너지지 않는 법이야"],
-            explanation: "The proverb's -랴 rewritten as a general truth with -는 법이다 (B2).",
+            explanation: "The proverb's -랴 rewritten as a general truth with -는 법이다 (Upper-intermediate).",
           },
         ],
       },
@@ -2646,7 +2646,7 @@ export const KO_C1_U18: Lesson[] = [
         prompt: "Put the words in order to say: Looking back, that failure turned out to be a blessing in disguise.",
         words: ["돌이켜", "보면", "그때의", "실패가", "전화위복이", "된", "셈이다."],
         translation: "Looking back, that failure turned out to be a blessing in disguise.",
-        explanation: "돌이켜 보면 opens the reflection; 전화위복이 된 셈이다 closes it with B2 -(으)ㄴ 셈이다.",
+        explanation: "돌이켜 보면 opens the reflection; 전화위복이 된 셈이다 closes it with Upper-intermediate -(으)ㄴ 셈이다.",
       },
       {
         type: "translate",

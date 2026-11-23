@@ -459,7 +459,7 @@ export const KO_B1_U17: Lesson[] = [
       {
         heading: "With -아 / 어지다: gradual change",
         body: [
-          "Combine it with -아 / 어지다 'become' (A2) and you get -아 / 어져 가다 for slow change towards a new state: 한국 생활에 익숙해져 가요 'I'm getting used to life in Korea', 날씨가 따뜻해져 가요 'It's getting warmer.' -아 / 어지고 있어요 says the same change is happening now; -아 / 어져 가요 adds the feeling of moving step by step towards the end, and sounds a little more reflective.",
+          "Combine it with -아 / 어지다 'become' (Elementary) and you get -아 / 어져 가다 for slow change towards a new state: 한국 생활에 익숙해져 가요 'I'm getting used to life in Korea', 날씨가 따뜻해져 가요 'It's getting warmer.' -아 / 어지고 있어요 says the same change is happening now; -아 / 어져 가요 adds the feeling of moving step by step towards the end, and sounds a little more reflective.",
         ],
         examples: [
           { es: "한국 생활에 익숙해져 가요.", en: "I'm getting used to life in Korea." },
@@ -1766,7 +1766,7 @@ export const KO_B1_U17: Lesson[] = [
       {
         heading: "Sound focus: 갈수록 [갈쑤록], 먹을수록 [머글쑤록]",
         body: [
-          "You met this rule in A2: after the -(으)ㄹ modifier, the next consonant is said tense (갈 곳 [갈 꼳], 먹을 거 [머글 꺼]). 수록 behaves the same way: its ㅅ is said [ㅆ]. 갈수록 [갈쑤록], 볼수록 [볼쑤록], 먹을수록 [머글쑤록], 많을수록 [마늘쑤록] (the ㅎ is silent, so ㄴ links forward).",
+          "You met this rule in the Elementary level: after the -(으)ㄹ modifier, the next consonant is said tense (갈 곳 [갈 꼳], 먹을 거 [머글 꺼]). 수록 behaves the same way: its ㅅ is said [ㅆ]. 갈수록 [갈쑤록], 볼수록 [볼쑤록], 먹을수록 [머글쑤록], 많을수록 [마늘쑤록] (the ㅎ is silent, so ㄴ links forward).",
           "The spelling never shows it: always write plain ㅅ, and write it joined to the stem. When you hear [쑤록], write 수록.",
         ],
         examples: [
@@ -2324,7 +2324,7 @@ export const KO_B1_U17: Lesson[] = [
       {
         heading: "Up to now: what you've done",
         body: [
-          "Learner communities and language-exchange apps are full of short posts about people's Korean journeys, written in polite 해요. Open with how long you've been at it, using -(으)ㄴ 지 from A2: 한국어를 공부한 지 이 년이 됐어요. Then say what you've kept up with -아 / 어 왔어요: 그동안 매일 단어를 외워 왔어요, 일주일에 두 번 언어 교환을 해 왔어요. 그동안 and 지금까지 tell the reader the habit runs right up to today.",
+          "Learner communities and language-exchange apps are full of short posts about people's Korean journeys, written in polite 해요. Open with how long you've been at it, using -(으)ㄴ 지 from the Elementary level: 한국어를 공부한 지 이 년이 됐어요. Then say what you've kept up with -아 / 어 왔어요: 그동안 매일 단어를 외워 왔어요, 일주일에 두 번 언어 교환을 해 왔어요. 그동안 and 지금까지 tell the reader the habit runs right up to today.",
         ],
         examples: [
           { es: "한국어를 공부한 지 이 년이 됐어요.", en: "It's been two years since I started studying Korean." },

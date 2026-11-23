@@ -177,7 +177,7 @@ export const B2_WRITING_TASKS: UnitWriting = {
         "Sería mejor que + imperfecto de subjuntivo",
         "Saludo y despedida formales"
       ],
-      "modelAnswer": "Estimada señora Ruiz: Le escribo porque soy alumno del grupo B2 de los lunes y miércoles por la tarde. Desde este mes tengo un horario de trabajo nuevo y ya no llego a tiempo a clase. Quisiera cambiarme al grupo de los martes y jueves por la mañana, si todavía quedan plazas. Le agradecería mucho que me informara de las opciones disponibles. En caso de que no haya plazas, me gustaría que me pusieran en lista de espera para el próximo trimestre. Quizá sería mejor que lo habláramos en persona. Atentamente, Javier Molina.",
+      "modelAnswer": "Estimada señora Ruiz: Le escribo porque soy alumno del grupo de nivel Advanced de los lunes y miércoles por la tarde. Desde este mes tengo un horario de trabajo nuevo y ya no llego a tiempo a clase. Quisiera cambiarme al grupo de los martes y jueves por la mañana, si todavía quedan plazas. Le agradecería mucho que me informara de las opciones disponibles. En caso de que no haya plazas, me gustaría que me pusieran en lista de espera para el próximo trimestre. Quizá sería mejor que lo habláramos en persona. Atentamente, Javier Molina.",
       "explanation": "Quisiera, le agradecería que y me gustaría que suavizan una petición. Tras un condicional, la subordinada va en imperfecto de subjuntivo: le agradecería que me informara, sería mejor que lo habláramos."
     }
   ],

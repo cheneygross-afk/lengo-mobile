@@ -17,7 +17,7 @@ export const PT_B2_U05: Lesson[] = [
         heading: "Não, nunca, ninguém: negatives pull first",
         body: [
           "In everyday Brazilian speech the object pronoun almost always comes before the verb, so this rule will feel natural. The written norm is stricter. Certain words, called \"palavras atrativas\", make próclise compulsory. After them, a pronoun hooked onto the end of the verb with a hyphen is a real error, not a style choice.",
-          "Negative words pull hardest: \"não\", \"nunca\", \"jamais\", \"nem\", \"ninguém\", \"nada\". Write \"não o vi\" (I didn't see him), never \"não vi-o\". As you saw at A2, \"o\" and \"a\" are the written forms for him, her and it. In speech Brazilians say \"não vi ele\".",
+          "Negative words pull hardest: \"não\", \"nunca\", \"jamais\", \"nem\", \"ninguém\", \"nada\". Write \"não o vi\" (I didn't see him), never \"não vi-o\". As you saw at the Elementary level, \"o\" and \"a\" are the written forms for him, her and it. In speech Brazilians say \"não vi ele\".",
           "The pull works whatever job the negative word does. \"Ninguém\" as the subject (\"ninguém me avisou\") pulls just as hard as \"não\" in front of the verb.",
         ],
         examples: [
@@ -59,7 +59,7 @@ export const PT_B2_U05: Lesson[] = [
         heading: "Que, quem, onde, quando: linking words",
         body: [
           "Words that open a subordinate clause also attract the pronoun. These are the relatives \"que\", \"quem\" and \"onde\", and conjunctions like \"quando\", \"se\", \"como\", \"porque\", \"embora\" and \"para que\". The pronoun then sits right before the verb of that clause: \"o livro que me emprestaram\", \"quando nos encontramos\".",
-          "This includes the \"se\" of impersonal and passive sentences. You know \"fala-se português\" from signs, but after a linking word the hyphen goes: \"o que se diz por aí\" (what people say), \"uma cidade onde se fala alemão\". English speakers who learned the sign form tend to copy the hyphen into every clause. The subjunctive clauses of the earlier B2 units follow the same rule: \"embora me custe admitir\", \"se o encontrarem\".",
+          "This includes the \"se\" of impersonal and passive sentences. You know \"fala-se português\" from signs, but after a linking word the hyphen goes: \"o que se diz por aí\" (what people say), \"uma cidade onde se fala alemão\". English speakers who learned the sign form tend to copy the hyphen into every clause. The subjunctive clauses of the earlier Upper-intermediate units follow the same rule: \"embora me custe admitir\", \"se o encontrarem\".",
         ],
         examples: [
           { es: "O livro que me emprestaram é ótimo.", en: "The book they lent me is great." },
@@ -266,7 +266,7 @@ export const PT_B2_U05: Lesson[] = [
       {
         heading: "Trata-se de, vende-se: the se that comes after",
         body: [
-          "The impersonal \"se\" follows the same rule, and Brazilian signs are full of it: \"Vende-se\", \"Aluga-se\", \"Precisa-se de\". You know from B1 that the norm makes the verb agree with a plural noun (\"alugam-se salas\") but not after a preposition (\"precisa-se de garçons\").",
+          "The impersonal \"se\" follows the same rule, and Brazilian signs are full of it: \"Vende-se\", \"Aluga-se\", \"Precisa-se de\". You know from the Intermediate level that the norm makes the verb agree with a plural noun (\"alugam-se salas\") but not after a preposition (\"precisa-se de garçons\").",
           "\"Trata-se de\" means it's a matter of, or what we have here is. It has no subject and stays singular whatever follows: \"Trata-se de dois casos\". English speakers and many Brazilians write \"O livro trata-se de...\" to mean the book is about. With a subject, drop the \"se\": \"O livro trata de...\".",
         ],
         examples: [
@@ -2066,7 +2066,7 @@ export const PT_B2_U05: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Pronouns Everywhere",
-    summary: "Mixed practice placing object pronouns with the B2 subjunctives, the conditional and compound tenses, in formal writing and in everyday speech.",
+    summary: "Mixed practice placing object pronouns with the Upper-intermediate subjunctives, the conditional and compound tenses, in formal writing and in everyday speech.",
     duration: "15 min",
     kind: "review",
     format: "Spiral review",
@@ -2074,7 +2074,7 @@ export const PT_B2_U05: Lesson[] = [
       {
         heading: "Magnets inside subjunctive clauses",
         body: [
-          "A reminder: in the written norm, every subordinating conjunction pulls the pronoun before the verb, just like \"não\" and \"que\". \"Se\", \"quando\", \"embora\", \"caso\", \"assim que\" and \"para que\" all do it, so the B2 subjunctives change nothing: \"que me ligue\", \"que me ligasse\", \"quando me ligar\".",
+          "A reminder: in the written norm, every subordinating conjunction pulls the pronoun before the verb, just like \"não\" and \"que\". \"Se\", \"quando\", \"embora\", \"caso\", \"assim que\" and \"para que\" all do it, so the Upper-intermediate subjunctives change nothing: \"que me ligue\", \"que me ligasse\", \"quando me ligar\".",
           "In a compound tense, the pronoun that is pulled forward goes before the auxiliary: \"embora o tenham convidado\", \"se eu a tivesse visto\". Speech puts \"ele\" / \"ela\" after the whole verb (\"se eu tivesse visto ela\"). That is fine in a message to a friend but out of place in a report.",
           "The main clause that follows starts fresh. With no magnet in front, formal writing goes back to ênclise: \"quando o encontrar, entregue-lhe a carta\".",
         ],

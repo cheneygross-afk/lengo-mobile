@@ -1979,7 +1979,7 @@ export const PT_B1_U34: Lesson[] = [
         source: "If I were the mayor, I would build more parks.",
         answer: "No lugar do prefeito, eu construiria mais parques.",
         altAnswers: ["No lugar do prefeito, construiria mais parques.", "Se eu fosse o prefeito, construiria mais parques.", "Se eu fosse o prefeito, eu construiria mais parques.", "No lugar do prefeito, eu faria mais parques.", "Se eu fosse prefeito, eu construiria mais parques.", "No lugar do prefeito, eu ia construir mais parques."],
-        explanation: "\"No lugar do prefeito\" + conditional is the B1 way to hypothesize. \"Se eu fosse\" is the chunk you know from \"se eu fosse você\".",
+        explanation: "\"No lugar do prefeito\" + conditional is the Intermediate way to hypothesize. \"Se eu fosse\" is the chunk you know from \"se eu fosse você\".",
       },
       {
         type: "speak",
@@ -2502,7 +2502,7 @@ export const PT_B1_U34: Lesson[] = [
         heading: "Step 2: Write (25 minutes)",
         body: [
           "Open by naming the story and your role: \"Em relação à reportagem sobre a biblioteca do Boqueirão, gostaria de manifestar a minha preocupação. Moro no bairro e frequento a biblioteca todos os sábados.\" Then the argument, with the facts reworded: \"Como a maior parte dos cerca de 400 visitantes do fim de semana é de estudantes, são eles os mais prejudicados.\"",
-          "Then concede and propose, using the B1 toolkit: \"Embora a falta de funcionários seja um problema real, existem outras soluções.\" \"Sugiro que a prefeitura feche a biblioteca às segundas, quando o movimento é menor.\" Close with your name and neighborhood, as readers' letters do.",
+          "Then concede and propose, using the Intermediate toolkit: \"Embora a falta de funcionários seja um problema real, existem outras soluções.\" \"Sugiro que a prefeitura feche a biblioteca às segundas, quando o movimento é menor.\" Close with your name and neighborhood, as readers' letters do.",
         ],
         examples: [
           { es: "Em relação à reportagem sobre a biblioteca do Boqueirão, gostaria de manifestar a minha preocupação.", en: "Regarding the article on the Boqueirão library, I'd like to express my concern." },

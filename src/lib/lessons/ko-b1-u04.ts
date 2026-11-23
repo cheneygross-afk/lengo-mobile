@@ -701,7 +701,7 @@ export const KO_B1_U04: Lesson[] = [
       {
         heading: "Linking the events of the day",
         body: [
-          "A list of one-clause sentences reads like a child's diary. Join two events with the A2 linkers, keeping the tense only on the final verb: -고 for 'and then' (구경하고 먹었다), -아서 / -어서 for a reason or a linked sequence (가서 샀다, 많아서 기다렸다), -(으)ㄴ 후에 and -기 전에 for order.",
+          "A list of one-clause sentences reads like a child's diary. Join two events with the Elementary linkers, keeping the tense only on the final verb: -고 for 'and then' (구경하고 먹었다), -아서 / -어서 for a reason or a linked sequence (가서 샀다, 많아서 기다렸다), -(으)ㄴ 후에 and -기 전에 for order.",
           "Three or four linked sentences in the past, a feeling and a look ahead make a complete entry of the length TOPIK and Korean schools expect.",
         ],
         examples: [
@@ -1910,7 +1910,7 @@ export const KO_B1_U04: Lesson[] = [
       {
         heading: "Sound focus: double finals before -는다, -고 and -다",
         body: [
-          "You know that a double final before a consonant keeps only one letter (A2): 넓다 [널따], 짧다 [짤따], 앉다 [안따], 읽다 [익따], with 밟다 [밥따] as the exception that keeps ㅂ. The written style puts these stems before -는다 all the time, and that adds a second step: the kept consonant meets ㄴ and turns nasal. 읽는다 → [익는다] → [잉는다]; 밟는다 → [밥는다] → [밤는다]; 앉는다 keeps ㄴ: [안는다].",
+          "You know that a double final before a consonant keeps only one letter (Elementary): 넓다 [널따], 짧다 [짤따], 앉다 [안따], 읽다 [익따], with 밟다 [밥따] as the exception that keeps ㅂ. The written style puts these stems before -는다 all the time, and that adds a second step: the kept consonant meets ㄴ and turns nasal. 읽는다 → [익는다] → [잉는다]; 밟는다 → [밥는다] → [밤는다]; 앉는다 keeps ㄴ: [안는다].",
           "Before -고, ㄺ keeps ㄹ instead: 읽고 [일꼬], 맑고 [말꼬]. Before a vowel nothing is lost: 넓은 [널븐], 읽어 [일거]. Spelling never changes, so announcers say [잉는다] but the script says 읽는다.",
         ],
         examples: [

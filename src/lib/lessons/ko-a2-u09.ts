@@ -1208,13 +1208,13 @@ export const KO_A2_U09: Lesson[] = [
     level: "KO-A2",
     number: 6,
     title: "으 Drop Review: 바빠요, 써요, 꺼요",
-    summary: "Take the A1 으-drop rule through every ending: 바빠서, 아파서, 예뻤어요, 편지를 써요, 불을 꺼요, 커서.",
+    summary: "Take the Beginner level 으-drop rule through every ending: 바빠서, 아파서, 예뻤어요, 편지를 써요, 불을 꺼요, 커서.",
     duration: "14 min",
     sections: [
       {
         heading: "Two syllables: 바빠요 or 예뻐요?",
         body: [
-          "You met this in A1: when a stem ends in 으, the 으 drops before 아 / 어. Which one? Look at the syllable before: ㅏ or ㅗ gives 아 (바쁘다 → 바빠요, 아프다 → 아파요, 고프다 → 고파요), anything else gives 어 (예쁘다 → 예뻐요, 슬프다 → 슬퍼요, 기쁘다 → 기뻐요).",
+          "You met this in the Beginner level: when a stem ends in 으, the 으 drops before 아 / 어. Which one? Look at the syllable before: ㅏ or ㅗ gives 아 (바쁘다 → 바빠요, 아프다 → 아파요, 고프다 → 고파요), anything else gives 어 (예쁘다 → 예뻐요, 슬프다 → 슬퍼요, 기쁘다 → 기뻐요).",
           "This works in every 아 / 어 ending, not only 아요: 바빠서, 아파서, 예뻤어요, 슬펐어요, 바빠야 돼요. Learners write *바쁘어요 or *바뻐요; 바 has ㅏ, so it's 바빠요.",
         ],
         examples: [

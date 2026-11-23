@@ -647,7 +647,7 @@ export const PT_C1_U02: Lesson[] = [
       {
         heading: "Different subjects: the personal infinitive",
         body: [
-          "When the infinitive's subject differs from the main verb's, inflect it (the personal infinitive from B1): \"sem os filhos saberem\", \"apesar de termos avisado\". With the same subject the plain form is usual. Brazilians often inflect a clause that comes first anyway, so the reader knows who it's about: \"ao chegarem ao Rio, os turistas...\".",
+          "When the infinitive's subject differs from the main verb's, inflect it (the personal infinitive from Intermediate): \"sem os filhos saberem\", \"apesar de termos avisado\". With the same subject the plain form is usual. Brazilians often inflect a clause that comes first anyway, so the reader knows who it's about: \"ao chegarem ao Rio, os turistas...\".",
           "Two points of written style. First, keep \"de\" apart from an article that belongs to the infinitive's subject: \"apesar de os preços terem subido\", \"antes de o avião decolar\". Speech contracts it (\"dos preços\"), but careful writing doesn't. Second, after \"ao\" either leave the subject out or put it after the verb: \"ao chegarem os convidados\". *\"Ao eles chegarem\" is a speech habit to keep out of writing.",
         ],
         examples: [

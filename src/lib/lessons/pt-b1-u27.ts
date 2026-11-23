@@ -1755,7 +1755,7 @@ export const PT_B1_U27: Lesson[] = [
       {
         heading: "Start small, then add a relative",
         body: [
-          "Start with six words: \"A minha prima abriu um café.\" Good B1 writing is not about rare words; it's about packing more information into a clear sentence. The first tool is a relative clause, which tells us which café or which cousin.",
+          "Start with six words: \"A minha prima abriu um café.\" Good Intermediate writing is not about rare words; it's about packing more information into a clear sentence. The first tool is a relative clause, which tells us which café or which cousin.",
           "Attach it straight after the noun it describes: \"um café no bairro onde a gente cresceu\", \"a minha prima, que morou dez anos em São Paulo,\". Commas around the clause mean extra information about someone already identified; no commas mean it picks out which one.",
         ],
         examples: [

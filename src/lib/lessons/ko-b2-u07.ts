@@ -529,7 +529,7 @@ export const KO_B2_U07: Lesson[] = [
       {
         heading: "-듯이 or 처럼, and 'as if'",
         body: [
-          "처럼 (A2) follows a noun: 물처럼, 아이처럼, 꿈처럼. -듯이 follows a verb: 물 쓰듯이, 아이가 웃듯이. If you want 처럼 with a verb, you need 것: 물을 쓰는 것처럼, which is correct but heavier. Don't stack both: one comparison per image.",
+          "처럼 (Elementary) follows a noun: 물처럼, 아이처럼, 꿈처럼. -듯이 follows a verb: 물 쓰듯이, 아이가 웃듯이. If you want 처럼 with a verb, you need 것: 물을 쓰는 것처럼, which is correct but heavier. Don't stack both: one comparison per image.",
           "A related pattern spaces 듯이 after a modifier: 죽은 듯이 잤다 'slept like the dead', 미친 듯이 웃었다 'laughed like mad', 날아갈 듯이 기뻤다 'was so happy I could fly'. This one means 'as if'. Spelling rule: stem + 듯이 is joined (오듯이), modifier + 듯이 is spaced (올 듯이).",
         ],
         examples: [
@@ -661,7 +661,7 @@ export const KO_B2_U07: Lesson[] = [
       {
         heading: "듯하다: the written 것 같다",
         body: [
-          "You have used -(으)ㄴ / 는 / (으)ㄹ 것 같다 since A2 to say 'it seems' or 'I think'. In essays, news, novels and formal emails, Koreans often swap 것 같다 for 듯하다, with exactly the same modifier in front: 올 것 같다 → 올 듯하다, 아는 것 같다 → 아는 듯하다, 바쁜 것 같다 → 바쁜 듯하다.",
+          "You have used -(으)ㄴ / 는 / (으)ㄹ 것 같다 since Elementary to say 'it seems' or 'I think'. In essays, news, novels and formal emails, Koreans often swap 것 같다 for 듯하다, with exactly the same modifier in front: 올 것 같다 → 올 듯하다, 아는 것 같다 → 아는 듯하다, 바쁜 것 같다 → 바쁜 듯하다.",
           "The modifier tells the time, as with 것 같다. Action verbs take -는 for now (알고 있는 듯하다), -(으)ㄴ for the past (이미 떠난 듯하다) and -(으)ㄹ for a guess about what will happen (곧 비가 올 듯하다). Adjectives and 이다 take -(으)ㄴ for now (피곤한 듯하다, 학생인 듯하다) and -았 / 었던 for a past state (시험이 어려웠던 듯하다).",
           "Spacing: 듯하다 is one word, spaced from the modifier: 올 듯하다. Writing it joined (올듯하다) is also allowed, but splitting 듯 from 하다 (*올 듯 하다) is a mistake.",
         ],
@@ -862,7 +862,7 @@ export const KO_B2_U07: Lesson[] = [
     level: "KO-B2",
     number: 5,
     title: "In the Way That: -(으)ㄴ / 는 대로",
-    summary: "Do things exactly the way someone said, heard or planned with -(으)ㄴ / 는 대로 (들은 대로, 시키는 대로, 말씀하신 대로) and N대로, and keep it apart from B1's -는 대로 'as soon as'.",
+    summary: "Do things exactly the way someone said, heard or planned with -(으)ㄴ / 는 대로 (들은 대로, 시키는 대로, 말씀하신 대로) and N대로, and keep it apart from the Intermediate level's -는 대로 'as soon as'.",
     duration: "17 min",
     sections: [
       {
@@ -912,7 +912,7 @@ export const KO_B2_U07: Lesson[] = [
       {
         heading: "N대로, joined",
         body: [
-          "After a noun, 대로 works like a particle and is written joined: 계획대로 'according to plan', 마음대로 'as you like', 순서대로 'in order', 예상대로 'as expected', 약속대로 'as promised'. You met several in B1. Many have a verb twin: 예상대로 = 예상한 대로, 약속대로 = 약속한 대로.",
+          "After a noun, 대로 works like a particle and is written joined: 계획대로 'according to plan', 마음대로 'as you like', 순서대로 'in order', 예상대로 'as expected', 약속대로 'as promised'. You met several in the Intermediate level. Many have a verb twin: 예상대로 = 예상한 대로, 약속대로 = 약속한 대로.",
           "So spacing tells you the grammar: joined after a noun (계획대로), spaced after a verb (계획한 대로). Typed answers here forgive spacing slips, but Korean readers notice them.",
         ],
         examples: [
@@ -944,7 +944,7 @@ export const KO_B2_U07: Lesson[] = [
       {
         heading: "The way, or as soon as?",
         body: [
-          "In B1 you learned another -는 대로: 도착하는 대로 연락할게요, 'I'll call as soon as I arrive'. Same spelling, different meaning. Three clues decide. 'As soon as' always uses the present -는, never -(으)ㄴ: 들은 대로 can only be 'the way'. It follows an event that happens at a moment (도착하다, 끝나다, 나오다, 받다). And the second clause is a plan, promise or request, never a past fact.",
+          "In the Intermediate level you learned another -는 대로: 도착하는 대로 연락할게요, 'I'll call as soon as I arrive'. Same spelling, different meaning. Three clues decide. 'As soon as' always uses the present -는, never -(으)ㄴ: 들은 대로 can only be 'the way'. It follows an event that happens at a moment (도착하다, 끝나다, 나오다, 받다). And the second clause is a plan, promise or request, never a past fact.",
           "'The way' -는 대로 follows verbs of telling, wanting and doing (시키다, 원하다, 하다, 말하다) and the main verb copies the model: 시키는 대로 하세요. Compare 회의가 끝나는 대로 오세요 'come as soon as the meeting ends' with 제가 하는 대로 하세요 'do it the way I do'.",
         ],
         examples: [
@@ -974,7 +974,7 @@ export const KO_B2_U07: Lesson[] = [
             type: "speak",
             text: "결과가 나오는 대로 알려 드릴게요.",
             tip: "알려 드릴게요 is said [알려 드릴께요], but it is always spelled 게.",
-            explanation: "나오는 대로 + a promise: here 대로 is B1's 'as soon as'.",
+            explanation: "나오는 대로 + a promise: here 대로 is the Intermediate level's 'as soon as'.",
           },
         ],
       },
@@ -1043,7 +1043,7 @@ export const KO_B2_U07: Lesson[] = [
         source: "Come as soon as the meeting ends.",
         answer: "회의가 끝나는 대로 오세요.",
         altAnswers: ["회의가 끝나는 대로 와 주세요.", "회의 끝나는 대로 오세요.", "회의가 끝나자마자 오세요.", "회의 끝나자마자 오세요."],
-        explanation: "끝나다 is a moment-event and a request follows, so this 대로 is 'as soon as' (B1).",
+        explanation: "끝나다 is a moment-event and a request follows, so this 대로 is 'as soon as' (Intermediate).",
       },
       {
         type: "fill-blank",
@@ -1607,7 +1607,7 @@ export const KO_B2_U07: Lesson[] = [
         sentence: "___ 전화할게요.",
         answer: "도착하는 대로",
         altAnswers: ["도착하자마자"],
-        explanation: "B1's -는 대로 'as soon as': a moment-event plus a promise.",
+        explanation: "The Intermediate level's -는 대로 'as soon as': a moment-event plus a promise.",
       },
       {
         type: "translate",
@@ -1896,7 +1896,7 @@ export const KO_B2_U07: Lesson[] = [
         heading: "Watch and copy",
         body: [
           "You have joined a cooking class in 전주, the city best known for 비빔밥. The teacher, 박 선생님, speaks polite 해요 to a group of visitors. Teachers who demonstrate love two forms from this unit: 제가 하는 대로 따라 하세요 'do what I do', and 보시다시피 'as you can see', said while showing the pan.",
-          "Cooking verbs from B1 come back: 볶다 'stir-fry', 데치다 'blanch', 무치다 'season by hand', 썰다 'slice', 비비다 'mix'. 나물 are the seasoned vegetables that go on top, and each one is cooked separately: 따로.",
+          "Cooking verbs from Intermediate come back: 볶다 'stir-fry', 데치다 'blanch', 무치다 'season by hand', 썰다 'slice', 비비다 'mix'. 나물 are the seasoned vegetables that go on top, and each one is cooked separately: 따로.",
         ],
         examples: [
           { es: "오늘은 전주 비빔밥을 만들어 볼 거예요.", en: "Today we're going to make Jeonju bibimbap." },
@@ -1938,7 +1938,7 @@ export const KO_B2_U07: Lesson[] = [
         heading: "By the recipe, or to taste?",
         body: [
           "Seasoning is where 대로 splits in two. 레시피에 쓰인 대로 means 'exactly as written in the recipe': no improvising. 입맛대로 means 'to your own taste': improvise as you like. 고추장은 입맛대로 넣으세요 hands the choice back to you.",
-          "When something goes wrong, learners use 대로 to defend themselves: 말씀하신 대로 했는데 좀 짠 것 같아요, 'I did what you said, but it seems a bit salty'. -는데 (B1) sets up the surprise politely.",
+          "When something goes wrong, learners use 대로 to defend themselves: 말씀하신 대로 했는데 좀 짠 것 같아요, 'I did what you said, but it seems a bit salty'. -는데 (Intermediate) sets up the surprise politely.",
         ],
         examples: [
           { es: "간장은 레시피에 쓰인 대로 한 숟가락만 넣으세요.", en: "Add just one spoonful of soy sauce, exactly as the recipe says." },
@@ -2159,7 +2159,7 @@ export const KO_B2_U07: Lesson[] = [
         heading: "The right form for the meaning",
         body: [
           "*먹다시피 does not mean 'as we ate'. -다시피 in its 'as you know' sense works only with verbs of knowing, seeing and saying; on an action verb it means 'practically': 먹다시피 했다 'practically ate'. For 'as' with other verbs, use 대로 (먹은 대로 'the way we ate') or a time word (먹으면서 'while eating').",
-          "With -다시피 하다, tense goes on 하다: *살았다시피 했어요 → 살다시피 했어요. And B1's 'as soon as' 대로 only takes present -는: *도착한 대로 연락할게요 → 도착하는 대로 연락할게요. 도착한 대로 could only mean 'the way I arrived', which makes no sense here.",
+          "With -다시피 하다, tense goes on 하다: *살았다시피 했어요 → 살다시피 했어요. And the Intermediate level's 'as soon as' 대로 only takes present -는: *도착한 대로 연락할게요 → 도착하는 대로 연락할게요. 도착한 대로 could only mean 'the way I arrived', which makes no sense here.",
           "제가 알다시피 isn't a grammar slip but it sounds odd: -다시피 reminds others of what they know. Say 제가 알기로는 or Unit 6's 제가 아는 한 for 'as far as I know'.",
         ],
         examples: [

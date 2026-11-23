@@ -15,7 +15,7 @@ export const KO_C1_U04: Lesson[] = [
     level: "KO-C1",
     number: 1,
     title: "Spiral Review: Topic vs New Information",
-    summary: "Re-test the core 은 / 는 vs 이 / 가 rules at C1 speed (known topic vs new information, question words and their answers, scenes you report as they happen) and learn the word root 주 with the Korean names for the parts of a sentence.",
+    summary: "Re-test the core 은 / 는 vs 이 / 가 rules at Advanced speed (known topic vs new information, question words and their answers, scenes you report as they happen) and learn the word root 주 with the Korean names for the parts of a sentence.",
     duration: "21 min",
     sections: [
       {
@@ -56,7 +56,7 @@ export const KO_C1_U04: Lesson[] = [
         heading: "Questions and their answers",
         body: [
           "Question words are never topics, because they are the unknown part of the sentence: 누가 왔어요?, 뭐가 제일 맛있어요?, 어디가 아파요? The word that answers the question takes 이 / 가 too, because it is the new information: 민수가 왔어요, 이 집은 냉면이 제일 맛있어요. Remember the fused forms: 누구 + 가 = 누가, 나 + 가 = 내가, 저 + 가 = 제가.",
-          "The question's topic, on the other hand, stays a topic in the answer, or disappears: 민수 씨는 어디 있어요? 민수 씨는 회의실에 있어요, or just 회의실에 있어요. A common C1 slip is to keep 은 / 는 on a person who has become the answer: asked 누가 이 책을 썼어요?, the reply is 김 교수님이 쓰셨어요, not 김 교수님은 쓰셨어요, which suggests 'Professor Kim did, but others didn't'.",
+          "The question's topic, on the other hand, stays a topic in the answer, or disappears: 민수 씨는 어디 있어요? 민수 씨는 회의실에 있어요, or just 회의실에 있어요. A common Advanced slip is to keep 은 / 는 on a person who has become the answer: asked 누가 이 책을 썼어요?, the reply is 김 교수님이 쓰셨어요, not 김 교수님은 쓰셨어요, which suggests 'Professor Kim did, but others didn't'.",
         ],
         examples: [
           { es: "누가 왔어요? 민수가 왔어요.", en: "Who came? Minsu did." },
@@ -2005,7 +2005,7 @@ export const KO_C1_U04: Lesson[] = [
     level: "KO-C1",
     number: 10,
     title: "Error Hunt: Advanced Particle Slips",
-    summary: "Find and fix the particle slips English speakers still make at C1: 은 / 는 on question words, topics stranded inside clauses, objects on adjectives like 무섭다 and 필요하다, lost contrasts, and 이 / 가 at the start of a definition.",
+    summary: "Find and fix the particle slips English speakers still make at the Advanced level: 은 / 는 on question words, topics stranded inside clauses, objects on adjectives like 무섭다 and 필요하다, lost contrasts, and 이 / 가 at the start of a definition.",
     duration: "21 min",
     sections: [
       {

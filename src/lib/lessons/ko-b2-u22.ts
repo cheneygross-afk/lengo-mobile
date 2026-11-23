@@ -53,7 +53,7 @@ export const KO_B2_U22: Lesson[] = [
       {
         heading: "생활비 and 월세: what living costs",
         body: [
-          "생활비 is your living expenses: rent, food, transport, phone. Money is 들다 'needed, spent' and 생활비가 많이 들다 is 'it costs a lot to live'. You 아끼다 or 줄이다 생활비 to save, and when you run short it is 부족하다. 월세 (monthly rent, from B1) and 관리비 (the building's maintenance fee) are usually the biggest items.",
+          "생활비 is your living expenses: rent, food, transport, phone. Money is 들다 'needed, spent' and 생활비가 많이 들다 is 'it costs a lot to live'. You 아끼다 or 줄이다 생활비 to save, and when you run short it is 부족하다. 월세 (monthly rent, from Intermediate) and 관리비 (the building's maintenance fee) are usually the biggest items.",
           "Notice the verbs: you 내다 rent (월세를 내다 'pay the rent'), and rent itself 오르다. 월세가 올랐어요 is the news every tenant fears. 남다 'be left over' completes the picture: 월세를 내고 나면 남는 돈이 별로 없어요.",
         ],
         examples: [
@@ -727,7 +727,7 @@ export const KO_B2_U22: Lesson[] = [
       {
         heading: "Weighing it up: -는 대신에 (spiral)",
         body: [
-          "Money talk is full of trade-offs, and B1 gave you the tool: -는 대신(에) 'in exchange, but on the other hand'. Action verbs take -는 (할부로 사는 대신에), adjectives -(으)ㄴ (싼 대신에), and past actions -(으)ㄴ (야근을 한 대신에). The first clause is the advantage or the cost, the second what balances it: 이 집은 월세가 싼 대신에 역에서 멀어요.",
+          "Money talk is full of trade-offs, and Intermediate gave you the tool: -는 대신(에) 'in exchange, but on the other hand'. Action verbs take -는 (할부로 사는 대신에), adjectives -(으)ㄴ (싼 대신에), and past actions -(으)ㄴ (야근을 한 대신에). The first clause is the advantage or the cost, the second what balances it: 이 집은 월세가 싼 대신에 역에서 멀어요.",
           "It pairs naturally with this lesson's pattern: when you can't cut one thing, you cut something else instead. 외식은 줄이려야 줄일 수가 없어서 대신에 커피를 끊었어요.",
         ],
         examples: [
@@ -859,7 +859,7 @@ export const KO_B2_U22: Lesson[] = [
       {
         heading: "-는 데 돈이 들다, 시간이 걸리다",
         body: [
-          "In B1 you met 데 in -는 데 좋다 'good for doing'. Here the same 데 means 'in doing, for doing', and it is followed by what the action takes: 집을 사는 데 돈이 많이 든다 'Buying a house takes a lot of money.' 데 is a dependent noun, a small noun that can't stand alone, so it is written with a space: 사는 데, never *사는데 in this meaning.",
+          "In the Intermediate level you met 데 in -는 데 좋다 'good for doing'. Here the same 데 means 'in doing, for doing', and it is followed by what the action takes: 집을 사는 데 돈이 많이 든다 'Buying a house takes a lot of money.' 데 is a dependent noun, a small noun that can't stand alone, so it is written with a space: 사는 데, never *사는데 in this meaning.",
           "Match the verb to the resource. Money is 들다 (돈이 들다, 비용이 들다); time is 걸리다 (한 시간 걸리다), and 시간이 들다 is also fine when you mean 'it takes up time'; effort is 들다 too (노력이 많이 들다). Money never 걸리다: *돈이 한 시간 걸려요 is a mix-up English speakers make because English uses 'take' for both.",
           "The verb before 데 stays in the -는 form even when the whole sentence is past: 결혼식을 준비하는 데 돈이 많이 들었다. The past tense goes on 들다 or 걸리다 at the end. Formal writing sometimes adds 에: 준비하는 데에.",
         ],
@@ -1267,7 +1267,7 @@ export const KO_B2_U22: Lesson[] = [
       {
         heading: "Same sound, different words",
         body: [
-          "-는데 (A2) is an ending, written joined to the verb. It sets the scene or makes a contrast and then the sentence moves on: 공부하는데 전화가 왔어요 'I was studying when the phone rang.' -는 데 is the modifier -는 plus the noun 데 'in doing', written with a space, and it is always followed by what the doing takes: 공부하는 데 세 시간이 걸렸어요 'It took three hours to study.'",
+          "-는데 (Elementary) is an ending, written joined to the verb. It sets the scene or makes a contrast and then the sentence moves on: 공부하는데 전화가 왔어요 'I was studying when the phone rang.' -는 데 is the modifier -는 plus the noun 데 'in doing', written with a space, and it is always followed by what the doing takes: 공부하는 데 세 시간이 걸렸어요 'It took three hours to study.'",
           "In speech they are identical, so you decide by meaning, and Koreans themselves often get the spacing wrong in texts. A quick test: try adding 에. 공부하는 데에 세 시간이 걸렸어요 still works, because 데 is a noun and nouns take particles. *공부하는데에 전화가 왔어요 is nonsense, because an ending can't take 에.",
         ],
         examples: [

@@ -111,7 +111,7 @@ export const KO_B2_U23: Lesson[] = [
             source: "Mental health is as important as physical health.",
             answer: "정신 건강도 몸 건강만큼 중요해요.",
             altAnswers: ["정신 건강도 신체 건강만큼 중요해요.", "정신 건강은 몸 건강만큼 중요해요.", "정신 건강은 신체 건강만큼 중요해요.", "정신 건강도 몸의 건강만큼 중요해요.", "정신 건강도 육체 건강만큼 중요해요.", "정신 건강도 몸 건강처럼 중요해요.", "마음 건강도 몸 건강만큼 중요해요."],
-            explanation: "N만큼 'as ... as N' (A2). 정신 건강 is mental health; 몸 건강 or more formally 신체 건강 is physical health.",
+            explanation: "N만큼 'as ... as N' (Elementary). 정신 건강 is mental health; 몸 건강 or more formally 신체 건강 is physical health.",
           },
           {
             type: "fill-blank",
@@ -294,7 +294,7 @@ export const KO_B2_U23: Lesson[] = [
             source: "Instead of going to the gym, I work out at home.",
             answer: "헬스장 대신 집에서 홈트를 해요.",
             altAnswers: ["헬스장에 가는 대신 집에서 홈트를 해요.", "헬스장 대신에 집에서 홈트를 해요.", "헬스장에 가는 대신에 집에서 홈트를 해요.", "헬스장 대신 집에서 운동해요.", "헬스장에 가는 대신 집에서 운동해요.", "헬스장 대신 홈트를 해요.", "헬스장 대신 집에서 홈 트레이닝을 해요.", "헬스장 대신 집에서 홈트해요."],
-            explanation: "홈트 = 홈 트레이닝, home workouts. N 대신(에) or -는 대신(에) 'instead of' (spiral of B1).",
+            explanation: "홈트 = 홈 트레이닝, home workouts. N 대신(에) or -는 대신(에) 'instead of' (spiral of Intermediate).",
           },
           {
             type: "multiple-choice",
@@ -521,7 +521,7 @@ export const KO_B2_U23: Lesson[] = [
       {
         heading: "겸, -(으)러 or -(으)려고?",
         body: [
-          "You already know two purpose endings. -(으)러 (A1) gives one purpose and needs a movement verb after it: 운동하러 공원에 가요. -(으)려고 (A2) gives one intention and works with any verb: 살을 빼려고 저녁을 안 먹어요. 겸 is the one to choose when the action serves two goals at once, or when you want to say 'partly to'.",
+          "You already know two purpose endings. -(으)러 (Beginner) gives one purpose and needs a movement verb after it: 운동하러 공원에 가요. -(으)려고 (Elementary) gives one intention and works with any verb: 살을 빼려고 저녁을 안 먹어요. 겸 is the one to choose when the action serves two goals at once, or when you want to say 'partly to'.",
           "So 겸 clashes with a sentence that insists on a single purpose. 책만 돌려주러 왔어요 'I only came to return the book' is natural; putting 만 'only' together with 돌려줄 겸 contradicts itself, because 겸 means 'among other things'. And 겸 never takes a past ending: *쉬었을 겸 is wrong; say 쉴 겸 and put the tense on the main verb (쉴 겸 고향에 다녀왔어요).",
         ],
         examples: [

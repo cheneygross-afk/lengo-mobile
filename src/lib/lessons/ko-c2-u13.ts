@@ -1055,7 +1055,7 @@ export const KO_C2_U13: Lesson[] = [
         heading: "Setup with -는데, flip with 반전",
         body: [
           "Most Korean anecdotes that end in a laugh have two moves. The setup opens with -는데 (-(으)ㄴ데 after adjectives), which lays down background and makes the listener wait: 어제 소개팅을 했는데... Then comes the 반전 'reversal, twist', the last-line surprise that Koreans name as a technical term: 반전이 있어요 'there's a twist'. The twist is usually introduced by 알고 보니 'it turned out', 근데 'but then', or simply by a pause.",
-          "-더니 is the teller's other tool (C1). Attached to something you observed, it sets up a contrast or a consequence: 아침엔 그렇게 맑더니 오후엔 비가 쏟아졌다. With hearsay, -다더니 'after saying that ...' is a ready-made comic frame for hypocrisy: 다이어트한다더니 밤 열두 시에 치킨을 시켰다 'he said he was on a diet, then ordered chicken at midnight'. English speakers tend to tell the punch line first and explain afterwards; Korean holds the verb, and the joke, to the very end.",
+          "-더니 is the teller's other tool (Advanced). Attached to something you observed, it sets up a contrast or a consequence: 아침엔 그렇게 맑더니 오후엔 비가 쏟아졌다. With hearsay, -다더니 'after saying that ...' is a ready-made comic frame for hypocrisy: 다이어트한다더니 밤 열두 시에 치킨을 시켰다 'he said he was on a diet, then ordered chicken at midnight'. English speakers tend to tell the punch line first and explain afterwards; Korean holds the verb, and the joke, to the very end.",
         ],
         examples: [
           { es: "어제 소개팅을 했는데, 상대가 우리 회사 신입이었어요.", en: "I went on a blind date yesterday, and the other person turned out to be our company's new hire." },

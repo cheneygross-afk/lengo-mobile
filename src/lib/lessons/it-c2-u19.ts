@@ -39,7 +39,7 @@ export const IT_C2_U19: Lesson[] = [
         body: [
           "A few hundred words mark Swiss Italian, often called \"elvetismi\". In a Lugano shop, a special offer is \"un'azione\" (in Italy \"un'offerta\"); your cell phone may be \"il natel\" (in Italy \"il cellulare\"); and a driver's license is \"la licenza di condurre\" (in Italy \"la patente\"). A parking lot is usually \"il posteggio\", a word also heard in parts of Italy but standard in Ticino.",
           "Public life adds more: \"l'autopostale\" is the yellow post bus that serves the valleys; \"la cassa malati\" is the compulsory health insurance; \"il docente\" is the usual word for a teacher at any level. Many of these words are calques from German or French, the result of living in a multilingual state.",
-          "None of them is wrong: they are standard in Switzerland, used in newspapers and official documents. A careful Italian speaker who moves to Lugano adopts them, just as a British English speaker in New York learns to say ‘apartment’. Recognizing them is part of C2 competence.",
+          "None of them is wrong: they are standard in Switzerland, used in newspapers and official documents. A careful Italian speaker who moves to Lugano adopts them, just as a British English speaker in New York learns to say ‘apartment’. Recognizing them is part of Mastery competence.",
           "Pronunciation differs a little too. Ticino speakers have a northern accent, close to that of Como or Varese: open and closed vowels distributed as in Lombardy, and a single \"s\" between vowels pronounced voiced, as in \"casa\" with a z-like sound. None of this affects comprehension.",
         ],
         examples: [
@@ -152,7 +152,7 @@ export const IT_C2_U19: Lesson[] = [
         body: [
           "Italian also has official status in parts of Slovenia and Croatia, in the coastal towns of Istria, where historic Italian communities live and bilingual signs are common. In Malta and Corsica it was for centuries the language of culture and administration, and many words in Maltese and Corsican still show it.",
           "When you write about these places, use history verbs carefully: \"era la lingua della cultura\", \"rimase lingua ufficiale fino al...\", \"è tuttora riconosciuto\". \"Tuttora\" (still today) is formal and precise, and avoids the vague \"ancora\".",
-          "In all these places, Italian lives alongside other languages, and its status depends on history and law rather than on numbers of speakers. A C2 essay on the subject should distinguish \"lingua ufficiale\", \"lingua nazionale\", \"lingua minoritaria riconosciuta\" and \"lingua di cultura\", four statuses that are easily confused.",
+          "In all these places, Italian lives alongside other languages, and its status depends on history and law rather than on numbers of speakers. A Mastery essay on the subject should distinguish \"lingua ufficiale\", \"lingua nazionale\", \"lingua minoritaria riconosciuta\" and \"lingua di cultura\", four statuses that are easily confused.",
         ],
         examples: [
           { es: "In Istria l'italiano è tuttora riconosciuto come lingua ufficiale in alcuni comuni.", en: "In Istria, Italian is still recognized as an official language in some municipalities." },
@@ -302,7 +302,7 @@ export const IT_C2_U19: Lesson[] = [
         body: [
           "Italian merchants and bankers of the Middle Ages and Renaissance left words across Europe. English \"bank\" comes, through French, from Italian \"banca\" or \"banco\", the money-changer's bench; \"bankrupt\" recalls \"banca rotta\", the broken bench. \"Quarantine\" comes from Venetian \"quaranta giorni\", the forty days of isolation for ships during plagues.",
           "Military and social words too: \"soldier\" has a cousin in \"soldo\" (pay), \"ghetto\" comes from Venice, \"fiasco\" (a flask, and in theater slang a failure) and \"paparazzi\", from Paparazzo, a photographer in Fellini's \"La dolce vita\" (1960). Each word is a small history lesson.",
-          "Present such histories with the right hedges: \"deriva da\", \"risale a\", \"secondo l'etimologia più accreditata\". Etymology is full of popular legends, and a C2 writer distinguishes what is documented from what is merely repeated.",
+          "Present such histories with the right hedges: \"deriva da\", \"risale a\", \"secondo l'etimologia più accreditata\". Etymology is full of popular legends, and a Mastery writer distinguishes what is documented from what is merely repeated.",
           "Italian loanwords also live in other European languages: German has \"Konto\" and \"Bilanz\" from Italian banking, French has \"banque\", \"balcon\" and \"caleçon\", and Spanish took many terms of music and painting. Together they draw a map of where Italian culture was influential and when.",
         ],
         examples: [
@@ -322,7 +322,7 @@ export const IT_C2_U19: Lesson[] = [
         body: [
           "The traffic now flows the other way. Italian has absorbed \"il computer\", \"il weekend\", \"lo sport\", \"il marketing\". These loanwords don't change in the plural: \"i computer\", \"i weekend\". Adding an English \"-s\" (*i computers) is a common mistake, even among Italians.",
           "More curious are the \"pseudoanglicismi\", English-looking words that English doesn't use that way. Italians say \"lo smart working\" for remote work, \"il footing\" for jogging, \"il beauty case\" for a toiletry bag, \"il mister\" for a soccer coach. An English speaker who uses them in English will not be understood.",
-          "Language bodies such as the Accademia della Crusca regularly recommend Italian alternatives: \"lavoro agile\" (also the term used in Italian law) for \"smart working\", \"riscontro\" for \"feedback\". Whether to use them is a question of register and personal taste, but at C2 you should know both.",
+          "Language bodies such as the Accademia della Crusca regularly recommend Italian alternatives: \"lavoro agile\" (also the term used in Italian law) for \"smart working\", \"riscontro\" for \"feedback\". Whether to use them is a question of register and personal taste, but at the Mastery level you should know both.",
           "Loanwords also need a gender. Most English nouns become masculine (\"il computer\", \"il film\", \"lo sport\"), but some take the gender of the Italian word they replace or evoke: \"la mail\" (la posta, la lettera), \"la password\" (la parola d'ordine), \"la startup\" (l'impresa). The plural stays invariable, so the article does the work: \"le mail\", \"i film\", \"due startup\". The articles follow Italian sound rules: \"lo smartphone\", \"lo scanner\", \"l'hashtag\", since the h is silent in Italian.",
         ],
         examples: [
@@ -578,7 +578,7 @@ export const IT_C2_U19: Lesson[] = [
         body: [
           "In Italian communities in the United States, Canada and Australia, English words were adapted to Italian sounds and grammar, with a gender and an Italian ending. Scholars call the result \"italiese\" or Italglish. It is not \"wrong\" as a community language, but in standard Italian each form has a different word.",
           "Classic examples: \"la giobba\" (from job) is \"il lavoro\"; \"lo storo\" (store) is \"il negozio\"; \"il carro\" (car) is \"la macchina\"; \"la fenza\" (fence) is \"il recinto\" or \"lo steccato\"; \"il basamento\" (basement) is \"la cantina\" or \"il seminterrato\". Note that \"basamento\" and \"carro\" exist in standard Italian, but mean a plinth and a cart.",
-          "Recognizing these forms is a C2 skill: you may meet them in emigrant memoirs, interviews with descendants, or films about the diaspora. Understanding them, and knowing the standard equivalent, lets you read that history from the inside.",
+          "Recognizing these forms is a Mastery skill: you may meet them in emigrant memoirs, interviews with descendants, or films about the diaspora. Understanding them, and knowing the standard equivalent, lets you read that history from the inside.",
         ],
         examples: [
           { es: "Mio nonno cercava lavoro nei cantieri.", en: "My grandfather was looking for a job on construction sites." },
@@ -828,7 +828,7 @@ export const IT_C2_U19_WRITING: WriteExercise = {
     "Presents the place and its link with Italian, with accurate, hedged facts",
     "Describes how Italian is used today, including at least one local word or feature",
     "Includes a surprising detail and addresses the reader of a travel magazine",
-    "Uses varied C2 structures: passive with si or venire, historical tenses, relative clauses, a concessive",
+    "Uses varied Mastery structures: passive with si or venire, historical tenses, relative clauses, a concessive",
   ],
   modelAnswer: "L'italiano fuori dall'Italia: il Canton Ticino\n\nA meno di un'ora di treno da Milano si entra in un altro paese senza cambiare lingua. Il Ticino, l'unico cantone svizzero interamente di lingua italiana, è da secoli una terra di confine: fece parte dei domini dei duchi di Milano prima di diventare svizzero, e oggi è il ponte naturale tra le due culture.\n\nL'italiano che si parla a Lugano o a Bellinzona è lo stesso che si insegna nelle scuole italiane, ma il visitatore attento noterà qualche differenza. Al supermercato le offerte si chiamano «azioni», il cellulare è il «natel» e chi guida deve avere in tasca la «licenza di condurre». Sono parole nate dal contatto con il tedesco e il francese, le altre lingue nazionali, che i ticinesi imparano a scuola fin da piccoli.\n\nBenché la lingua sia la stessa, l'atmosfera è diversa: i treni partono al minuto, i prezzi vengono scritti con l'apostrofo per le migliaia e nei sentieri di montagna tutti si salutano.\n\nIl dettaglio che sorprende di più, però, è un altro. Molti ticinesi raccontano che a Zurigo li chiamano «gli italiani», mentre a Milano sono «gli svizzeri». Forse è proprio questo il fascino del Ticino: appartenere a due mondi senza rinunciare a nessuno dei due.",
   explanation: "The model introduces Ticino with a hook, gives hedged historical context (\"fece parte dei domini dei duchi di Milano\"), describes Swiss Italian with three Helvetisms, uses a concessive (\"Benché la lingua sia la stessa\"), passive forms (\"si parla\", \"vengono scritti\"), and closes with a surprising detail and a reflective final sentence suited to a travel magazine.",

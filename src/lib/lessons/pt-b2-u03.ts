@@ -734,7 +734,7 @@ export const PT_B2_U03: Lesson[] = [
         body: [
           "\"Sempre que\" (whenever) shows the split clearly. \"Sempre que posso, corro no parque\" reports a habit, while \"sempre que puder, venha nos visitar\" opens up future occasions. The conjunction is the same; the mood depends on whether the occasions are real or still to come.",
           "\"Depois que\" (after) and \"conforme\" (as, gradually as) follow the same pattern: \"depois que você terminar, me chama\"; \"conforme os convidados forem chegando, a gente serve os petiscos\". \"For\" + gerund adds that one-by-one sense.",
-          "\"Antes que\" is the exception. It never takes the future subjunctive, only the present subjunctive from B1: \"antes que você saia\", not \"antes que você sair\". Before and after look like a pair, but they take different moods.",
+          "\"Antes que\" is the exception. It never takes the future subjunctive, only the present subjunctive from the Intermediate level: \"antes que você saia\", not \"antes que você sair\". Before and after look like a pair, but they take different moods.",
         ],
         examples: [
           { es: "Sempre que puder, venha nos visitar em Recife.", en: "Whenever you can, come and visit us in Recife." },

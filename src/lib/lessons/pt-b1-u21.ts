@@ -2382,7 +2382,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         heading: "Concession and the full proposal: embora",
         body: [
-          "Finally, the honest objection: \"embora seja mais caro que o ônibus\". \"Embora\" admits the downside but keeps the plan. The A2 comparatives slot straight in: \"mais caro que\", \"mais confortável do que\".",
+          "Finally, the honest objection: \"embora seja mais caro que o ônibus\". \"Embora\" admits the downside but keeps the plan. The Elementary comparatives slot straight in: \"mais caro que\", \"mais confortável do que\".",
           "Rafael's final message: \"Gente, vamos alugar uma van para que todos caibam, desde que cada um pague sua parte. Embora seja mais caro que o ônibus, é bem mais confortável. A não ser que alguém tenha uma ideia melhor, eu reservo amanhã.\" Four subjunctives, one clear plan.",
         ],
         examples: [
@@ -2781,14 +2781,14 @@ export const PT_B1_U21: Lesson[] = [
     level: "PT-B1",
     number: 12,
     title: "Spiral Review: The Present Subjunctive and Beyond",
-    summary: "Mixed practice of the whole present subjunctive alongside the A2 past tenses, object pronouns and comparatives.",
+    summary: "Mixed practice of the whole present subjunctive alongside the Elementary past tenses, object pronouns and comparatives.",
     duration: "15 min",
     kind: "review",
     sections: [
       {
         heading: "The subjunctive next to the past",
         body: [
-          "This review mixes the present subjunctive with A2 grammar. The past tenses fit around it, as long as the trigger itself is in the present: \"ela me contou que vai se mudar; espero que dê tudo certo\". A past trigger (\"eu queria que...\") needs another subjunctive, taught at B2, so keep your triggers in the present.",
+          "This review mixes the present subjunctive with Elementary grammar. The past tenses fit around it, as long as the trigger itself is in the present: \"ela me contou que vai se mudar; espero que dê tudo certo\". A past trigger (\"eu queria que...\") needs another subjunctive, taught at the Upper-intermediate level, so keep your triggers in the present.",
           "A sentence can tell a past story in the indicative and still end with a present wish or request: \"ontem o João foi ao médico, e o médico quer que ele faça uns exames\".",
         ],
         examples: [
@@ -2868,7 +2868,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         heading: "The subjunctive with comparatives",
         body: [
-          "Comparatives slot into descriptions and judgments: \"procuro um apartamento que seja maior que este\", \"é melhor que você vá de metrô; é mais rápido do que de ônibus\". \"Melhor\", \"pior\", \"maior\" and \"menor\" are irregular, as at A2: never \"*mais bom\".",
+          "Comparatives slot into descriptions and judgments: \"procuro um apartamento que seja maior que este\", \"é melhor que você vá de metrô; é mais rápido do que de ônibus\". \"Melhor\", \"pior\", \"maior\" and \"menor\" are irregular, as at Elementary: never \"*mais bom\".",
         ],
         examples: [
           { es: "Procuro um apartamento que seja maior que este.", en: "I'm looking for an apartment that's bigger than this one." },

@@ -15,7 +15,7 @@ export const PT_A2_U08: Lesson[] = [
       {
         heading: "Vou viajar: plans with ir",
         body: [
-          "You met this in A1: the present of \"ir\" plus an infinitive is how Brazilians talk about the future. Say \"eu vou\", \"você/ele/ela vai\", \"nós vamos\" (or \"a gente vai\"), \"vocês/eles/elas vão\", then the second verb in its dictionary form: \"vou viajar\", \"ela vai trabalhar\", \"eles vão comer\".",
+          "You met this in the Beginner level: the present of \"ir\" plus an infinitive is how Brazilians talk about the future. Say \"eu vou\", \"você/ele/ela vai\", \"nós vamos\" (or \"a gente vai\"), \"vocês/eles/elas vão\", then the second verb in its dictionary form: \"vou viajar\", \"ela vai trabalhar\", \"eles vão comer\".",
           "Nothing links the two verbs. English says going to; Portuguese has no to: \"vou estudar\", never \"vou a estudar\" or \"vou estudo\". Only an object pronoun can sit between them, as in Unit 7: \"vou te ligar\".",
         ],
         examples: [

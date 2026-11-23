@@ -731,14 +731,14 @@ export const PT_B2_U16: Lesson[] = [
     slug: "b2-error-hunt-b2",
     level: "PT-B2",
     number: 4,
-    title: "Error Hunt: The Whole B2",
-    summary: "Find and fix the mistakes B2 learners make most often with subjunctives, conditions, the written norm, register and false friends.",
+    title: "Error Hunt: The Whole Upper-intermediate Level",
+    summary: "Find and fix the mistakes Upper-intermediate learners make most often with subjunctives, conditions, the written norm, register and false friends.",
     duration: "15 min",
     sections: [
       {
         heading: "Subjunctives: the right mood in the right tense",
         body: [
-          "Most B2 subjunctive slips are tense slips. A past main verb pulls the subjunctive into the past: \"*queria que você vem\" must be \"queria que você viesse\". \"Embora\" and \"por mais que\" always want the subjunctive: \"embora seja caro\", never \"*embora é caro\".",
+          "Most Upper-intermediate subjunctive slips are tense slips. A past main verb pulls the subjunctive into the past: \"*queria que você vem\" must be \"queria que você viesse\". \"Embora\" and \"por mais que\" always want the subjunctive: \"embora seja caro\", never \"*embora é caro\".",
           "For one future event after \"quando\", \"se\" or \"assim que\", use the future subjunctive, not the infinitive or the present: \"quando eu tiver tempo\", not \"*quando eu ter tempo\". Watch the famous pair: \"quando eu vir o João\" (from ver) but \"quando o João vier\" (from vir).",
         ],
         examples: [
@@ -1054,8 +1054,8 @@ export const PT_B2_U16: Lesson[] = [
     slug: "b2-transform-b2",
     level: "PT-B2",
     number: 5,
-    title: "Transformations: The B2 Toolkit",
-    summary: "Rewrite B2 sentences by shifting their tense, their mood and their register, and follow each change through the whole sentence.",
+    title: "Transformations: The Upper-intermediate Toolkit",
+    summary: "Rewrite Upper-intermediate sentences by shifting their tense, their mood and their register, and follow each change through the whole sentence.",
     duration: "15 min",
     kind: "review",
     format: "Transformations",
@@ -1721,8 +1721,8 @@ export const PT_B2_U16: Lesson[] = [
     slug: "b2-dialogue-celpe-b2",
     level: "PT-B2",
     number: 8,
-    title: "Dialogue Lab: The Celpe-Bras Interview at B2",
-    summary: "Follow a mock Celpe-Bras face-to-face interview, from the warm-up questions to a discussion of public transportation in São Paulo, and practice the answers that show B2 range.",
+    title: "Dialogue Lab: The Celpe-Bras Interview at the Upper-intermediate Level",
+    summary: "Follow a mock Celpe-Bras face-to-face interview, from the warm-up questions to a discussion of public transportation in São Paulo, and practice the answers that show Upper-intermediate range.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1730,7 +1730,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         heading: "Part one: talking about yourself",
         body: [
-          "The face-to-face part of the Celpe-Bras lasts about 20 minutes. In the first five, the examiner asks about you from the form you filled in: work, studies, why Portuguese, life in Brazil. Follow Daniel, a Canadian living in Belo Horizonte. Examiners usually say \"você\". Answer in full sentences: a B2 answer adds a reason, an example or a plan.",
+          "The face-to-face part of the Celpe-Bras lasts about 20 minutes. In the first five, the examiner asks about you from the form you filled in: work, studies, why Portuguese, life in Brazil. Follow Daniel, a Canadian living in Belo Horizonte. Examiners usually say \"você\". Answer in full sentences: an Upper-intermediate answer adds a reason, an example or a plan.",
           "Show range with tenses you already know. \"Moro aqui há dois anos\" says how long; \"comecei\" marks the start; \"tenho estudado\" means I've been studying lately, not I have studied. One imagined sentence with \"se eu tivesse\" is an easy way to show more.",
         ],
         examples: [
@@ -1752,7 +1752,7 @@ export const PT_B2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The examiner asks: \"Por que você decidiu estudar português?\" Which answer fits a B2 interview?",
+            question: "The examiner asks: \"Por que você decidiu estudar português?\" Which answer fits an Upper-intermediate interview?",
             options: ["Por trabalho.", "Decidi estudar porque trabalho com clientes brasileiros e queria falar com eles sem intérprete.", "Tenho decidido estudar porque trabalho com clientes brasileiros.", "Decidia estudar porque trabalhava com clientes brasileiros."],
             correctIndex: 1,
             explanation: "A decision is a single past event, so \"decidi\", and the answer adds a reason and a goal. \"Tenho decidido\" would mean deciding again and again, and \"decidia\" makes it a habit.",
@@ -1772,7 +1772,7 @@ export const PT_B2_U16: Lesson[] = [
         heading: "Part two: describing the card",
         body: [
           "Next comes the \"elemento provocador\": a picture with a short text, here a report about commuting in São Paulo. You read it for about a minute, then the examiner asks what it's about. Summarize first, in your own words; the opinion comes later.",
-          "Use the summary language from B1: \"o texto trata de\", \"segundo a reportagem\", \"a imagem mostra\". Don't read numbers off the card; rephrase them: \"mais da metade\", \"cerca de duas horas\". Reading the text aloud word for word loses points.",
+          "Use the summary language from the Intermediate level: \"o texto trata de\", \"segundo a reportagem\", \"a imagem mostra\". Don't read numbers off the card; rephrase them: \"mais da metade\", \"cerca de duas horas\". Reading the text aloud word for word loses points.",
         ],
         examples: [
           { es: "Você pode me contar do que trata esse texto?", en: "Can you tell me what this text is about?" },
@@ -2262,7 +2262,7 @@ export const PT_B2_U16: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: The Whole Upper-Intermediate Level",
-    summary: "A final cumulative check of B2 that mixes the three subjunctives, conditions and regrets, the written norm, connectors and register in fresh sentences.",
+    summary: "A final cumulative check of the Upper-intermediate level that mixes the three subjunctives, conditions and regrets, the written norm, connectors and register in fresh sentences.",
     duration: "15 min",
     kind: "review",
     sections: [

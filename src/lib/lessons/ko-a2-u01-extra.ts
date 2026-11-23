@@ -237,7 +237,7 @@ export const KO_A2_U01_EXTRA: Lesson[] = [
       {
         heading: "Airport and department store",
         body: [
-          "Staff announcements use -(으)십시오 for instructions and plain 합니다 statements for times and places. 지하 means basement: 지하 일 층 'B1'.",
+          "Staff announcements use -(으)십시오 for instructions and plain 합니다 statements for times and places. 지하 means basement: 지하 일 층 'Intermediate'.",
         ],
         examples: [
           { es: "탑승권을 보여 주십시오.", en: "Please show your boarding pass." },

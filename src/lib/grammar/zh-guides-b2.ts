@@ -24,7 +24,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         heading: "即使…也: even if (one supposition)",
         body: [
           "即使 (jíshǐ) introduces a single situation, real or imagined, and 也 (yě) says the result doesn't change. 也 is an adverb, so it sits after the subject of the main clause and right before the verb: 即使下雨，我们也去 (even if it rains, we're going).",
-          "即使 is neutral to slightly formal. In speech you'll also hear 就算 (jiùsuàn), which is more casual; you meet it properly at C1.",
+          "即使 is neutral to slightly formal. In speech you'll also hear 就算 (jiùsuàn), which is more casual; you meet it properly at the Advanced Chinese level.",
         ],
         examples: [
           { zh: "即使明天下雨，比赛也会照常进行。", pinyin: "Jíshǐ míngtiān xià yǔ, bǐsài yě huì zhàocháng jìnxíng.", en: "Even if it rains tomorrow, the match will go ahead as usual." },
@@ -103,11 +103,11 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     slug: "conditions-since-otherwise-unless",
     title: "Since, Otherwise, What If, Once and Unless: 既然, 否则, 万一, 一旦, 除非",
     description:
-      "The B2 condition words: 既然…就 (since that's so), 否则 and 不然 (otherwise), 万一 and 假如 (what if), 一旦…就 (once) and 除非…才 (unless, only if).",
+      "The Upper-Intermediate Chinese condition words: 既然…就 (since that's so), 否则 and 不然 (otherwise), 万一 and 假如 (what if), 一旦…就 (once) and 除非…才 (unless, only if).",
     level: "B2",
     hsk: "HSK 4",
     intro: [
-      "At B1 you used 如果…就 for 'if'. B2 adds conditions with a point of view: 既然 accepts a known fact and draws a conclusion; 万一 worries about something unlikely; 一旦 says that the moment something happens, something else follows; 除非 names the one condition that matters.",
+      "At the Independent Chinese level you used 如果…就 for 'if'. The Upper-Intermediate Chinese level adds conditions with a point of view: 既然 accepts a known fact and draws a conclusion; 万一 worries about something unlikely; 一旦 says that the moment something happens, something else follows; 除非 names the one condition that matters.",
       "Most of these pair with 就 (jiù) or 才 (cái) in the main clause, after the subject.",
     ],
     sections: [
@@ -195,13 +195,13 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
   // ------------------------------------------------------------------
   {
     slug: "concession-and-contrast-b2",
-    title: "Contrast at B2: 尽管, 却, 不是…而是, 既…又 and 相反",
+    title: "Contrast at the Upper-Intermediate Chinese Level: 尽管, 却, 不是…而是, 既…又 and 相反",
     description:
       "How to set two ideas against each other: 尽管 (even though), the adverb 却 (yet), 不是…而是 (not A but B), 既…又 (both … and) and 相反 (on the contrary).",
     level: "B2",
     hsk: "HSK 4",
     intro: [
-      "虽然…但是 is the B1 way to say 'although'. B2 adds 尽管, a slightly more formal 'even though'; 却, an adverb that marks the surprising half; 不是…而是 for correcting a wrong idea; and 相反 for saying the opposite is true.",
+      "虽然…但是 is the Independent Chinese way to say 'although'. The Upper-Intermediate Chinese level adds 尽管, a slightly more formal 'even though'; 却, an adverb that marks the surprising half; 不是…而是 for correcting a wrong idea; and 相反 for saying the opposite is true.",
       "The trap for English speakers is word order: 却 is an adverb, not a conjunction, so it goes after the subject like 也 and 都.",
     ],
     sections: [
@@ -268,7 +268,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       },
       {
         q: "Where does 然而 fit?",
-        a: "然而 is the written 'however', at the start of a sentence. It is covered with 而 in the C1 guide on contrast.",
+        a: "然而 is the written 'however', at the start of a sentence. It is covered with 而 in the Advanced Chinese guide on contrast.",
       },
     ],
     related: ["even-if-no-matter-what", "attitude-adverbs-b2"],
@@ -426,7 +426,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       },
       {
         q: "Is 竟然 the same as 居然?",
-        a: "Almost. 居然 is a little more colloquial and is covered at C1 alongside 不料.",
+        a: "Almost. 居然 is a little more colloquial and is covered at Advanced Chinese alongside 不料.",
       },
     ],
     related: ["concession-and-contrast-b2", "cause-result-and-luck", "even-especially-as-if"],
@@ -437,7 +437,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     slug: "potential-and-figurative-complements",
     title: "Can and Can't: V得了 / V不了, V得起 / V不起, 来得及, 过来 and 过去",
     description:
-      "The potential complements you need at B2: 了 (manage to), 起 (afford), 来得及 (be in time), plus figurative 过来 (come round) and 过去 (pass out).",
+      "The potential complements you need at the Upper-Intermediate Chinese level: 了 (manage to), 起 (afford), 来得及 (be in time), plus figurative 过来 (come round) and 过去 (pass out).",
     level: "B2",
     hsk: "HSK 4",
     intro: [
@@ -528,7 +528,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     level: "B2",
     hsk: "HSK 4",
     intro: [
-      "At B1 得 was followed by a short comment: 说得很好. At B2 it can be followed by a whole clause describing the effect, which is how Chinese says 'so … that'. The same idea combines with 把 when you do something to an object until it reaches a state. Two more spoken patterns round this off: V着V着 for something that happens in the middle of an activity, and paired question words for 'whatever you like'.",
+      "At the Independent Chinese level 得 was followed by a short comment: 说得很好. At the Upper-Intermediate Chinese level it can be followed by a whole clause describing the effect, which is how Chinese says 'so … that'. The same idea combines with 把 when you do something to an object until it reaches a state. Two more spoken patterns round this off: V着V着 for something that happens in the middle of an activity, and paired question words for 'whatever you like'.",
     ],
     sections: [
       {
@@ -600,7 +600,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
   // ------------------------------------------------------------------
   {
     slug: "written-chinese-b2",
-    title: "Written Chinese at B2: 是否, 与, 以及, 曾, 此, 作为 and 无法",
+    title: "Written Chinese at the Upper-Intermediate Chinese Level: 是否, 与, 以及, 曾, 此, 作为 and 无法",
     description:
       "The first step into formal written Mandarin: the written words for whether, and, as well as, once, this and cannot, plus 作为 (as) and the language of official notices.",
     level: "B2",
@@ -759,7 +759,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Is 对…来说 the same as 对…而言?",
-        a: "Yes in meaning. 对…而言 is the written version, covered at C1 with 就…而言.",
+        a: "Yes in meaning. 对…而言 is the written version, covered at Advanced Chinese with 就…而言.",
       },
       {
         q: "Can I drop 方面?",
@@ -842,7 +842,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     faqs: [
       {
         q: "Does 翻一番 mean the same as 增加一倍?",
-        a: "Yes: both mean 'double'. 翻一番 is common in economic writing and comes back at C1.",
+        a: "Yes: both mean 'double'. 翻一番 is common in economic writing and comes back at the Advanced Chinese level.",
       },
       {
         q: "Can 纷纷 describe one person?",
@@ -868,7 +868,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
         heading: "甚至: even",
         body: [
           "甚至 (shènzhì) adds a further, stronger or more surprising example, usually after a first one: 他忙得没时间吃饭，甚至没时间睡觉 (he's so busy he has no time to eat, even to sleep). It can stand before a noun or before the verb. It often pairs with 都 or 也.",
-          "Compare 连…都 (even), which you met at B1: 连 highlights a single item inside a sentence; 甚至 adds a new step to a list. The two often appear together: 甚至连…都.",
+          "Compare 连…都 (even), which you met at the Independent Chinese level: 连 highlights a single item inside a sentence; 甚至 adds a new step to a list. The two often appear together: 甚至连…都.",
         ],
         examples: [
           { zh: "这里的空气污染很严重，有时候甚至看不见对面的楼。", pinyin: "Zhèlǐ de kōngqì wūrǎn hěn yánzhòng, yǒu shíhou shènzhì kàn bu jiàn duìmiàn de lóu.", en: "Air pollution here is serious; sometimes you can't even see the building opposite." },
@@ -925,7 +925,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       },
       {
         q: "Will I see 甚至 again?",
-        a: "Yes: at C1 it returns alongside 何况 and 更不用说, in longer arguments.",
+        a: "Yes: at the Advanced Chinese level it returns alongside 何况 and 更不用说, in longer arguments.",
       },
     ],
     related: ["attitude-adverbs-b2", "spoken-patterns-b2"],
@@ -936,7 +936,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
     slug: "spoken-patterns-b2",
     title: "Spoken Patterns: 叫 and 让 Passives, 替 / 帮 / 给 and 随手",
     description:
-      "Everyday spoken alternatives at B2: the colloquial passives with 叫 and 让, and doing something for someone with 替, 帮 and 给.",
+      "Everyday spoken alternatives at the Upper-Intermediate Chinese level: the colloquial passives with 叫 and 让, and doing something for someone with 替, 帮 and 给.",
     level: "B2",
     hsk: "HSK 4",
     intro: [
@@ -955,7 +955,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
             ["被", "neutral, written and spoken", "no"],
             ["叫", "spoken", "yes"],
             ["让", "spoken", "yes"],
-            ["给", "spoken (covered at C1)", "no"],
+            ["给", "spoken (covered at Advanced Chinese)", "no"],
           ],
         },
         examples: [
@@ -1002,7 +1002,7 @@ export const ZH_GUIDES_B2: ZhGrammarGuide[] = [
       },
       {
         q: "Are 叫 and 让 passives used in writing?",
-        a: "Rarely. Writing uses 被, and at C1 the formal 为…所.",
+        a: "Rarely. Writing uses 被, and at the Advanced Chinese level the formal 为…所.",
       },
     ],
     related: ["descriptive-de-and-ba-de", "even-especially-as-if"],

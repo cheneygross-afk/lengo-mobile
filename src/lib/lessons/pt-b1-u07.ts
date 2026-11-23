@@ -531,7 +531,7 @@ export const PT_B1_U07: Lesson[] = [
         heading: "Side by side: já li or tenho lido?",
         body: [
           "Ask one question: is this a finished result, or a pattern that is still going on? \"Já li esse livro\" means you've read it and know the ending. \"Tenho lido muito\" describes your habits right now, and the reading continues.",
-          "Negatives follow the same logic: \"não dormi\" is one bad night, \"não tenho dormido\" a whole run of them. And English for + a length of time takes the present with \"há\", as in A2: \"trabalho aqui há cinco anos\", not the perfeito composto.",
+          "Negatives follow the same logic: \"não dormi\" is one bad night, \"não tenho dormido\" a whole run of them. And English for + a length of time takes the present with \"há\", as in the Elementary level: \"trabalho aqui há cinco anos\", not the perfeito composto.",
         ],
         examples: [
           { es: "Já li esse livro.", en: "I've read that book." },
@@ -1151,7 +1151,7 @@ export const PT_B1_U07: Lesson[] = [
         heading: "Quanto tempo!: the reunion",
         body: [
           "Camila and Rafael studied together and haven't met for years. They bump into each other at the Mercado Público in Porto Alegre. \"Quanto tempo!\" (literally 'how much time!') is the Brazilian way to say long time no see. It usually comes with \"que surpresa!\" and a hug.",
-          "To say how long it's been, use \"faz\" + time + \"que\" + the present: \"faz cinco anos que a gente não se vê\". English says we haven't seen each other for five years. Portuguese keeps the verb in the present, as with \"há\" and \"faz\" in A2.",
+          "To say how long it's been, use \"faz\" + time + \"que\" + the present: \"faz cinco anos que a gente não se vê\". English says we haven't seen each other for five years. Portuguese keeps the verb in the present, as with \"há\" and \"faz\" in the Elementary level.",
           "Compliments use \"estar\" for how someone looks today: \"você está ótima!\". \"Você não mudou nada\" (you haven't changed a bit) takes the simple perfeito, because it is one overall verdict and not something repeated.",
         ],
         examples: [

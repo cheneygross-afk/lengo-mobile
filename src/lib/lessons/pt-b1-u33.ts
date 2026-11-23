@@ -1098,7 +1098,7 @@ export const PT_B1_U33: Lesson[] = [
       {
         heading: "É isso, beijo, tchau: closing and recording your own",
         body: [
-          "To close, say \"é isso\" (that's it), ask for an answer, \"me responde quando puder\" (reply when you can), and sign off with \"beijo\", \"beijão\" or \"abraço\" and \"tchau\". \"Quando puder\" uses the future subjunctive, which you'll study at B2; for now, learn it as a fixed phrase.",
+          "To close, say \"é isso\" (that's it), ask for an answer, \"me responde quando puder\" (reply when you can), and sign off with \"beijo\", \"beijão\" or \"abraço\" and \"tchau\". \"Quando puder\" uses the future subjunctive, which you'll study at the Upper-intermediate level; for now, learn it as a fixed phrase.",
           "For your own voice notes, keep to one point and under a minute. If you ramble, Brazilians apologize for it: \"desculpa o áudio enorme\". And \"áudio\" is the everyday word for a voice message: \"te mandei um áudio\".",
         ],
         examples: [
@@ -2214,7 +2214,7 @@ export const PT_B1_U33: Lesson[] = [
     level: "PT-B1",
     number: 12,
     title: "Spiral Review: Talking Like a Local",
-    summary: "Mix spoken features with B1 grammar: the subjunctive, the past layers of a story, reported speech and the personal infinitive, as they sound in conversation.",
+    summary: "Mix spoken features with Intermediate grammar: the subjunctive, the past layers of a story, reported speech and the personal infinitive, as they sound in conversation.",
     duration: "14 min",
     kind: "review",
     sections: [

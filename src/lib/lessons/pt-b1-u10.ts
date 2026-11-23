@@ -829,7 +829,7 @@ export const PT_B1_U10: Lesson[] = [
       {
         heading: "Tudo o que, o que: everything that, what",
         body: [
-          "Without the comma, \"o que\" is the relative from A2 meaning what, the thing that: \"Não entendi o que ele disse.\" Put \"tudo\" in front and you get everything that, all: \"tudo o que eu sei\". Brazilians also say \"tudo que\", and both are correct.",
+          "Without the comma, \"o que\" is the relative from Elementary meaning what, the thing that: \"Não entendi o que ele disse.\" Put \"tudo\" in front and you get everything that, all: \"tudo o que eu sei\". Brazilians also say \"tudo que\", and both are correct.",
           "English drops that (everything I know); Portuguese never drops \"que\". And what is never a bare \"que\": \"não sei que ele quer\" is wrong; say \"não sei o que ele quer\".",
         ],
         examples: [

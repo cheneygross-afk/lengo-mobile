@@ -17,7 +17,7 @@ export const IT_C2_U09: Lesson[] = [
       {
         heading: "Greetings, people and approval",
         body: [
-          "Slang changes fast and varies by city, so this lesson labels each word: \"giovanile\" (young people's speech), \"colloquiale\" (informal, all ages), \"regionale\". Your goal at C2 is to understand slang and to use only what suits your age and the situation; an adult learner who overdoes it sounds like a parent trying too hard.",
+          "Slang changes fast and varies by city, so this lesson labels each word: \"giovanile\" (young people's speech), \"colloquiale\" (informal, all ages), \"regionale\". Your goal at the Mastery level is to understand slang and to use only what suits your age and the situation; an adult learner who overdoes it sounds like a parent trying too hard.",
           "Greetings and people: \"Bella!\" (hi!, giovanile, from Rome, now everywhere), \"raga\" (guys, from \"ragazzi\"), \"bro\" (giovanile), \"zio\" (dude, Milan, giovanile), \"un tipo / una tipa\" (a guy / a girl, colloquiale). Approval: \"figo\" (cool, colloquiale: \"che figo!\"; the feminine noun has a vulgar meaning, so say \"una ragazza carina\" or \"bella\"), \"ganzo\" (cool, Tuscan), \"top\", \"pazzesco\" and \"assurdo\" (amazing, unbelievable), \"spacca\" (it rocks), \"mi gasa\" (it gets me excited).",
         ],
         examples: [
@@ -511,7 +511,7 @@ export const IT_C2_U09: Lesson[] = [
       {
         heading: "Planning the guide",
         body: [
-          "Your mission: write a guide of about 250 words, in Italian, for a learner at B2 level arriving in Italy for an exchange year. Choose eight to ten expressions and, for each, give: the meaning in neutral Italian, a register label, an example, and when to avoid it.",
+          "Your mission: write a guide of about 250 words, in Italian, for a learner at Upper-intermediate level arriving in Italy for an exchange year. Choose eight to ten expressions and, for each, give: the meaning in neutral Italian, a register label, an example, and when to avoid it.",
           "Useful metalanguage: \"significa\", \"equivale a\", \"si usa tra amici\", \"è tipico di\", \"è diffuso soprattutto tra i giovani\", \"è volgare: meglio evitarlo\", \"suona ridicolo in bocca a un adulto\", \"in un contesto formale si dice invece ...\". Organize the guide by situation (saluti, reazioni, stati d'animo, chat) rather than alphabetically.",
         ],
         examples: [
@@ -622,7 +622,7 @@ export const IT_C2_U09: Lesson[] = [
 
 export const IT_C2_U09_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short guide (in Italian, about 250 words) to Italian slang for a B2 learner arriving in Italy for an exchange year. Choose eight to ten expressions (slang, texting, Anglicisms, exclamations), and for each give the meaning in neutral Italian, a register label, an example and a warning about when to avoid it. Organize the guide by situation and end with a piece of general advice.",
+  prompt: "Write a short guide (in Italian, about 250 words) to Italian slang for an Upper-intermediate learner arriving in Italy for an exchange year. Choose eight to ten expressions (slang, texting, Anglicisms, exclamations), and for each give the meaning in neutral Italian, a register label, an example and a warning about when to avoid it. Organize the guide by situation and end with a piece of general advice.",
   minWords: 220,
   maxWords: 330,
   rubric: [

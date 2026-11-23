@@ -396,7 +396,7 @@ export const KO_B2_U22_EXTRA: Lesson[] = [
         sentence: "이 크림은 피부를 ___.",
         answer: "보호하는 데 좋아요",
         altAnswers: ["보호하는 데에 좋아요", "보호하는 데 도움이 돼요", "보호하는 데 효과가 있어요"],
-        explanation: "-는 데 좋다 'good for doing' (B1): 데 is the spaced noun.",
+        explanation: "-는 데 좋다 'good for doing' (Intermediate): 데 is the spaced noun.",
       },
       {
         type: "fill-blank",

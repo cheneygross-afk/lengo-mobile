@@ -394,7 +394,7 @@ export const KO_C1_U20: Lesson[] = [
         source: "The more often we buy something, such as coffee, snacks and drinks, the more sensitive we are to discounts.",
         answer: "커피, 과자, 음료수 등 자주 사는 물건일수록 할인에 민감하다.",
         altAnswers: ["커피, 과자, 음료수 등 자주 사는 물건일수록 할인에 더 민감하다.", "커피, 과자, 음료수처럼 자주 사는 물건일수록 할인에 민감하다.", "커피, 과자, 음료수와 같이 자주 사는 물건일수록 할인에 민감하다.", "커피, 과자, 음료 등 자주 사는 물건일수록 할인에 민감하다.", "커피나 과자, 음료수 등 자주 사는 물건일수록 할인에 민감하다.", "커피, 과자, 음료수 등 자주 구입하는 물건일수록 할인에 민감하다.", "커피, 과자, 음료수 등 자주 사는 물건일수록 사람들은 할인에 민감하다."],
-        explanation: "등 closes a list of examples; noun + 일수록 'the more it is a ...' (B1 -(으)ㄹ수록).",
+        explanation: "등 closes a list of examples; noun + 일수록 'the more it is a ...' (Intermediate -(으)ㄹ수록).",
       },
       {
         type: "translate",
@@ -479,7 +479,7 @@ export const KO_C1_U20: Lesson[] = [
         heading: "-는 거죠 and -(으)ㄴ / 는 셈이죠: the conclusion",
         body: [
           "-는 거죠, short for -는 것이지요, presents a point as the explanation everything adds up to: 그러니까 결국 선택의 문제인 거죠. Nouns take 인 거죠, adjectives -(으)ㄴ 거죠, and the past is -(으)ㄴ 거죠: 그래서 더 많이 산 거죠. Said with a rising tone it checks understanding: 이해되시는 거죠?",
-          "-(으)ㄴ / 는 셈이죠 (B2 -(으)ㄴ / 는 셈이다) means 'it amounts to, effectively': 세 개 중 하나가 공짜니까 약 33% 할인을 받는 셈이죠. Lecturers use it to turn numbers into something you can feel, or to say a situation practically counts as something: 시작이 반이라니까 반쯤 이긴 셈이죠. With a completed event the modifier is past: 이긴 셈, 끝난 셈.",
+          "-(으)ㄴ / 는 셈이죠 (Upper-intermediate -(으)ㄴ / 는 셈이다) means 'it amounts to, effectively': 세 개 중 하나가 공짜니까 약 33% 할인을 받는 셈이죠. Lecturers use it to turn numbers into something you can feel, or to say a situation practically counts as something: 시작이 반이라니까 반쯤 이긴 셈이죠. With a completed event the modifier is past: 이긴 셈, 끝난 셈.",
           "A listening tip: lecturers speed up and drop their voice at the end of a sentence, exactly where these endings sit. Even if you catch only the ending, it tells you what the sentence is doing: -거든요 a reason, -잖아요 common ground, -는 거죠 the conclusion, -셈이죠 a calculation.",
         ],
         examples: [
@@ -722,7 +722,7 @@ export const KO_C1_U20: Lesson[] = [
         heading: "Speed, rhythm and headlines read aloud",
         body: [
           "News is read fast and evenly, in sentences that each end on a falling -습니다 and then reset the pitch for the next one. Use that rhythm: the falling ending marks a full stop, so you can segment a stream of sound into sentences even before you understand them. Sound changes are full and regular, 했습니다 [핻씀니다], 밝혔습니다 [발켜씀니다], and numbers are read out in full, which is where dictation goes wrong.",
-          "On screen the headline is a noun stack (B2): 수도권 폭우…출근길 혼잡. The anchor reads it as a sentence with the particles and verb restored: 수도권에 폭우가 쏟아지면서 출근길 혼잡이 이어졌습니다. Practise both directions: expand a headline into a spoken lead, and compress a lead into a headline for your notes. 정부, 내년 예산 5% 증액 becomes 정부가 내년 예산을 5% 늘리기로 했습니다.",
+          "On screen the headline is a noun stack (Upper-intermediate): 수도권 폭우…출근길 혼잡. The anchor reads it as a sentence with the particles and verb restored: 수도권에 폭우가 쏟아지면서 출근길 혼잡이 이어졌습니다. Practise both directions: expand a headline into a spoken lead, and compress a lead into a headline for your notes. 정부, 내년 예산 5% 증액 becomes 정부가 내년 예산을 5% 늘리기로 했습니다.",
           "Reports also cut to short interviews with ordinary people, who speak 해요체 and let sentences trail with -는데요 and -고요: 버스를 한 시간 넘게 기다렸는데요. These softeners leave a statement open instead of asserting it; when the reporter's voice returns, so does the falling -습니다.",
         ],
         examples: [
@@ -1331,7 +1331,7 @@ export const KO_C1_U20: Lesson[] = [
         heading: "Breath and the sea",
         body: [
           "The middle of the film describes the work, and its key words are worth learning as a set: 물질 (the diving), 숨을 참다 (hold your breath), 숨비소리 (the long whistle a diver makes as she surfaces and breathes out), 테왁 (the float she rests on), 망사리 (the net bag for the catch) and 불턱 (the stone shelter on the shore where divers warm up, change and talk). The narrator explains each new word with -(이)라고 부른다 or -는 것이다, so listen for those frames.",
-          "Narration also uses the B1 habit form -곤 한다 and the B2 -는 한 'as long as'. A sentence such as 숨비소리가 들리는 한 그녀는 살아 있다 can only be understood if you hear 한 as a separate word after -는.",
+          "Narration also uses the Intermediate habit form -곤 한다 and the Upper-intermediate level -는 한 'as long as'. A sentence such as 숨비소리가 들리는 한 그녀는 살아 있다 can only be understood if you hear 한 as a separate word after -는.",
         ],
         examples: [
           { es: "해녀들은 산소통 없이 숨을 참고 바닷속으로 들어간다.", en: "The haenyeo go down into the sea without oxygen tanks, holding their breath." },
@@ -1365,7 +1365,7 @@ export const KO_C1_U20: Lesson[] = [
             sentence: "숨비소리가 ___ 그녀는 살아 있다.",
             answer: "들리는 한",
             altAnswers: ["들리는 동안", "들리는 한은"],
-            explanation: "-는 한 'as long as' (B2): 한 is a separate word. 들리다 'be heard', so the sound is the subject.",
+            explanation: "-는 한 'as long as' (Upper-intermediate): 한 is a separate word. 들리다 'be heard', so the sound is the subject.",
           },
         ],
       },
@@ -1511,7 +1511,7 @@ export const KO_C1_U20: Lesson[] = [
     level: "KO-C1",
     number: 8,
     title: "Listening Lab: A Radio Call-In Show",
-    summary: "Follow listeners who call a late-night radio show about moving to Seoul for work: the DJ's formulas, callers' softeners (-는데요, -고요), fast-speech contractions (근데, 이건, 전, 걸; spiral of B2), fillers, overlapping backchannels and emotion.",
+    summary: "Follow listeners who call a late-night radio show about moving to Seoul for work: the DJ's formulas, callers' softeners (-는데요, -고요), fast-speech contractions (근데, 이건, 전, 걸; spiral of Upper-intermediate), fillers, overlapping backchannels and emotion.",
     duration: "21 min",
     sections: [
       {
@@ -1550,7 +1550,7 @@ export const KO_C1_U20: Lesson[] = [
       {
         heading: "Fast speech: contractions and fillers",
         body: [
-          "On the phone, words shrink (spiral of B2): 그런데 → 근데, 이것은 → 이건, 저는 → 전, 저를 → 절, 것을 → 걸, 것이 → 게, 무엇을 → 뭘. 근데 and the 이건 type are fine in casual writing too; in a 한다체 summary, write the full forms. Spoken 그래 가지고 means 그래서 and is never written in formal text.",
+          "On the phone, words shrink (spiral of Upper-intermediate): 그런데 → 근데, 이것은 → 이건, 저는 → 전, 저를 → 절, 것을 → 걸, 것이 → 게, 무엇을 → 뭘. 근데 and the 이건 type are fine in casual writing too; in a 한다체 summary, write the full forms. Spoken 그래 가지고 means 그래서 and is never written in formal text.",
           "Fillers buy the speaker time: 뭐, 막, 좀, 약간, 그냥, 이제, 뭐랄까 'how can I put it'. 이제 in filler use does not mean 'now', and 막 does not mean 'just now': 막 울었어요 is 'I cried and cried'. A good listening strategy is to let fillers wash past and keep the nouns and verbs. Write down a filler only if it changes the meaning, as 약간 'a bit' often does.",
         ],
         examples: [
@@ -1581,7 +1581,7 @@ export const KO_C1_U20: Lesson[] = [
       {
         heading: "Overlap and emotion",
         body: [
-          "On live radio the DJ talks over the caller with 네, 네, 아 그렇죠, 음 and 맞아요. These backchannels are not answers and do not interrupt the story; English listeners often think the caller has stopped. Ignore them and follow the caller's verbs. The DJ's real turns come when the caller's voice falls, and they are usually empathy: 아이고, 많이 힘드셨겠어요 'oh, that must have been hard', 고생 많으셨네요, with the honorific -시- and the guessing -겠- (spiral of B1).",
+          "On live radio the DJ talks over the caller with 네, 네, 아 그렇죠, 음 and 맞아요. These backchannels are not answers and do not interrupt the story; English listeners often think the caller has stopped. Ignore them and follow the caller's verbs. The DJ's real turns come when the caller's voice falls, and they are usually empathy: 아이고, 많이 힘드셨겠어요 'oh, that must have been hard', 고생 많으셨네요, with the honorific -시- and the guessing -겠- (spiral of Intermediate).",
           "Emotion shows in vocabulary and voice: 울컥하다 'a lump in the throat', 서럽다 'sad and hard done by', 그립다 'to miss', and a voice that breaks before the sentence ends. A caller who says 엄마 목소리 들으면 괜히 울컥해요 has told you the emotional centre of the call; the DJ's reply and the 신청곡 will be built around it.",
         ],
         examples: [
@@ -1695,7 +1695,7 @@ export const KO_C1_U20: Lesson[] = [
         prompt: "Put the words in order to say: This is something you only understand once you've lived alone.",
         words: ["이건", "진짜", "혼자", "살아", "봐야", "알아요."],
         translation: "This is something you only understand once you've lived alone.",
-        explanation: "-아 / 어 봐야 'only by trying' (B2); 이건 is the contraction of 이것은.",
+        explanation: "-아 / 어 봐야 'only by trying' (Upper-intermediate); 이건 is the contraction of 이것은.",
       },
       {
         type: "dictation",
@@ -2211,7 +2211,7 @@ export const KO_C1_U20: Lesson[] = [
         source: "I think a bookshop can only survive by becoming a place to meet people, not just a place to buy books.",
         answer: "책방이 책을 사는 곳이 아니라 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각해요.",
         altAnswers: ["책방이 책을 사는 곳이 아니라 사람을 만나는 곳이 돼야 살아남을 수 있다고 생각해요.", "책방이 책을 사는 곳이 아니라 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각하거든요.", "책방이 책을 사는 곳이 아니라 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각합니다.", "책방은 책을 사는 곳이 아니라 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각해요.", "책방이 책만 사는 곳이 아니라 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각해요.", "책방이 책을 사는 곳을 넘어 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각해요.", "서점이 책을 사는 곳이 아니라 사람을 만나는 곳이 되어야 살아남을 수 있다고 생각해요.", "책방이 책을 사는 곳이 아니라 사람을 만나는 공간이 되어야 살아남을 수 있다고 생각해요."],
-        explanation: "A이 아니라 B, then -아 / 어야 'only if' (B2) + 살아남을 수 있다, all quoted before 생각해요.",
+        explanation: "A이 아니라 B, then -아 / 어야 'only if' (Upper-intermediate) + 살아남을 수 있다, all quoted before 생각해요.",
       },
       {
         type: "word-order",

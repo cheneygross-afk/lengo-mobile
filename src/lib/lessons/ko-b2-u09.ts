@@ -399,7 +399,7 @@ export const KO_B2_U09: Lesson[] = [
         source: "The construction is going ahead according to plan.",
         answer: "계획에 따라 공사가 진행되고 있다.",
         altAnswers: ["계획에 따라서 공사가 진행되고 있다.", "공사가 계획에 따라 진행되고 있다.", "계획대로 공사가 진행되고 있다.", "공사가 계획대로 진행되고 있다.", "공사는 계획에 따라 진행되고 있다."],
-        explanation: "에 따라 'in accordance with' before the verb 진행되다. 계획대로 (B1 Unit 21) says the same more plainly.",
+        explanation: "에 따라 'in accordance with' before the verb 진행되다. 계획대로 (Intermediate Unit 21) says the same more plainly.",
       },
       {
         type: "dictation",
@@ -447,7 +447,7 @@ export const KO_B2_U09: Lesson[] = [
         heading: "에 비해: compared with",
         body: [
           "비하다 means 'to compare', so N에 비해 is 'compared with N'. It is the comparison of reports and news: 작년에 비해 관광객이 30% 늘었다, 'compared with last year, tourists increased by 30%'. The second half is usually a change or a degree: 늘다, 줄다, 높다, 낮다, 많다, 빠르다. In speech 에 비해서 is common.",
-          "You already know 보다 'than' (A2 Unit 14): 작년보다 관광객이 많다. Often both are correct, but they feel different. 보다 is a plain, everyday 'more than'; 에 비해 sets a reference point and measures against it, which is why it fills tables, charts and the news. The particle is always 에: 작년에 비해, never *작년을 비해. The size of the change follows as a bare number, with no particle: 30% 늘었다, 두 배 증가했다, 5도 떨어졌다.",
+          "You already know 보다 'than' (Elementary Unit 14): 작년보다 관광객이 많다. Often both are correct, but they feel different. 보다 is a plain, everyday 'more than'; 에 비해 sets a reference point and measures against it, which is why it fills tables, charts and the news. The particle is always 에: 작년에 비해, never *작년을 비해. The size of the change follows as a bare number, with no particle: 30% 늘었다, 두 배 증가했다, 5도 떨어졌다.",
         ],
         examples: [
           { es: "작년에 비해 관광객이 30% 늘었다.", en: "Compared with last year, the number of tourists rose by 30%." },
@@ -521,7 +521,7 @@ export const KO_B2_U09: Lesson[] = [
         heading: "-(으)ㄴ / 는 데 비해: compared with how much ...",
         body: [
           "To compare against a whole clause, use the modifier + 데 + 비해: 노력한 데 비해 결과가 좋지 않았다, 'the results weren't good for the effort made'. The second half is usually unexpected or disappointing. The forms are those of Unit 1's 데 반해: action verbs -는 데 비해 (많이 먹는 데 비해), adjectives -(으)ㄴ 데 비해 (비싼 데 비해), completed actions -(으)ㄴ 데 비해 (노력한 데 비해).",
-          "Spacing matters: 데 is a dependent noun ('the extent'), so it stands apart: 먹는 데 비해. Written together, 먹는데 is the B1 connective 'and / but', and 비해 would have nothing to attach to. In speech many people say -(으)ㄴ / 는 것에 비해 instead (노력한 것에 비해); it means the same.",
+          "Spacing matters: 데 is a dependent noun ('the extent'), so it stands apart: 먹는 데 비해. Written together, 먹는데 is the Intermediate connective 'and / but', and 비해 would have nothing to attach to. In speech many people say -(으)ㄴ / 는 것에 비해 instead (노력한 것에 비해); it means the same.",
         ],
         examples: [
           { es: "열심히 노력한 데 비해 결과가 좋지 않았다.", en: "For all the effort, the results were not good." },
@@ -635,7 +635,7 @@ export const KO_B2_U09: Lesson[] = [
         source: "Compared with Seoul, housing in Busan is fairly cheap.",
         answer: "서울에 비해 부산은 집값이 싼 편이에요.",
         altAnswers: ["서울에 비해서 부산은 집값이 싼 편이에요.", "서울에 비하면 부산은 집값이 싼 편이에요.", "서울보다 부산은 집값이 싼 편이에요.", "부산은 서울에 비해 집값이 싼 편이에요.", "부산은 서울보다 집값이 싼 편이에요.", "서울에 비해 부산은 집값이 저렴한 편이에요.", "부산은 서울에 비해 집값이 저렴한 편이에요.", "서울에 비해 부산은 집값이 싸요.", "부산은 서울에 비해 집값이 싸요."],
-        explanation: "서울에 비해 sets the reference point; -(으)ㄴ 편이다 (B1 Unit 16) softens 'cheap' to 'fairly cheap'.",
+        explanation: "서울에 비해 sets the reference point; -(으)ㄴ 편이다 (Intermediate Unit 16) softens 'cheap' to 'fairly cheap'.",
       },
       {
         type: "speak",
@@ -701,7 +701,7 @@ export const KO_B2_U09: Lesson[] = [
         heading: "(으)로 인한, and the other reasons",
         body: [
           "Before a noun, use 인한: 사고로 인한 피해 'damage caused by the accident', 스트레스로 인한 질병 'stress-related illness'. News writers love it because it packs a cause and an effect into one noun phrase.",
-          "Compare the reasons you know from B1. 때문에 is everyday and neutral; 덕분에 thanks someone for a good result; 탓에 blames; -는 바람에 is a sudden, unexpected cause. 인해 is neutral like 때문에, but written and formal: you'd say 비 때문에 to a friend and read 폭우로 인해 in the news. Never stack two of them: *비 때문에 인해 says 'because' twice.",
+          "Compare the reasons you know from the Intermediate level. 때문에 is everyday and neutral; 덕분에 thanks someone for a good result; 탓에 blames; -는 바람에 is a sudden, unexpected cause. 인해 is neutral like 때문에, but written and formal: you'd say 비 때문에 to a friend and read 폭우로 인해 in the news. Never stack two of them: *비 때문에 인해 says 'because' twice.",
         ],
         examples: [
           { es: "사고로 인한 피해가 컸다.", en: "The damage caused by the accident was severe." },
@@ -862,7 +862,7 @@ export const KO_B2_U09: Lesson[] = [
         heading: "을 / 를 통해: through",
         body: [
           "통하다 means 'to pass through', and N을 / 를 통해(서) is 'through N': the channel, the means or the experience that gets you somewhere. 인터넷을 통해 신청할 수 있다, 'you can apply online'; 사람은 경험을 통해 배운다, 'people learn through experience'.",
-          "Watch the particle. Every other phrase in this unit takes 에 (에 대해, 에 따라, 에 비해, 에 의해), but 통하다 takes an object, so it is 을 / 를: 인터넷을 통해, never *인터넷에 통해. 위해 'for' (B1 Unit 7) is the other member of the 을 / 를 club.",
+          "Watch the particle. Every other phrase in this unit takes 에 (에 대해, 에 따라, 에 비해, 에 의해), but 통하다 takes an object, so it is 을 / 를: 인터넷을 통해, never *인터넷에 통해. 위해 'for' (Intermediate Unit 7) is the other member of the 을 / 를 club.",
           "English often says this with 'by', 'via', 'online' or 'from'. 친구를 통해 알게 됐어요 is 'I got to know them through a friend'; 문자 메시지를 통해 알려 드리겠습니다 is 'we'll let you know by text'. In speech, 통해서 is common. Plain (으)로 is the everyday instrument (인터넷으로 신청했어요); 을 / 를 통해 sounds more formal and stresses the route or the process.",
         ],
         examples: [
@@ -896,7 +896,7 @@ export const KO_B2_U09: Lesson[] = [
       {
         heading: "을 / 를 통한 and 을 / 를 위한",
         body: [
-          "Before a noun, 통해 becomes 통한: 대화를 통한 해결 'a solution through dialogue', 이번 행사를 통한 수익 'the proceeds from this event'. The same rule held for 위해 and 위한 in B1: 건강을 위해 매일 걸어요, but 노인을 위한 프로그램.",
+          "Before a noun, 통해 becomes 통한: 대화를 통한 해결 'a solution through dialogue', 이번 행사를 통한 수익 'the proceeds from this event'. The same rule held for 위해 and 위한 in the Intermediate level: 건강을 위해 매일 걸어요, but 노인을 위한 프로그램.",
           "So the unit's six pairs line up neatly: 대해 / 대한, 따라 / 따른, 인해 / 인한, 통해 / 통한, 위해 / 위한, 의해 / 의한. The -해 / -라 form leads into a verb; the -ㄴ form leads into a noun.",
         ],
         examples: [
@@ -929,7 +929,7 @@ export const KO_B2_U09: Lesson[] = [
         heading: "에 의해: by (in a formal passive)",
         body: [
           "의하다 means 'to depend on, be due to', and N에 의해(서) names the doer of a passive in formal writing: 범인은 경찰에 의해 체포되었다, 'the criminal was arrested by the police'; 이 건물은 유명한 건축가에 의해 설계되었다. The verb must be passive, usually a 되다 verb (체포되다, 설계되다, 결정되다) or a passive like 만들어지다.",
-          "This is news and history-book Korean. In speech Koreans turn the sentence active: 경찰이 범인을 잡았어요. B1 warned that *민수 씨에 의해 읽혔어요 is English in disguise; 에 의해 belongs to formal writing about institutions, forces and processes. The modifier is 의한: 인간에 의한 환경 파괴 'environmental destruction caused by humans'.",
+          "This is news and history-book Korean. In speech Koreans turn the sentence active: 경찰이 범인을 잡았어요. Intermediate warned that *민수 씨에 의해 읽혔어요 is English in disguise; 에 의해 belongs to formal writing about institutions, forces and processes. The modifier is 의한: 인간에 의한 환경 파괴 'environmental destruction caused by humans'.",
         ],
         examples: [
           { es: "범인은 경찰에 의해 체포되었다.", en: "The criminal was arrested by the police." },
@@ -1672,7 +1672,7 @@ export const KO_B2_U09: Lesson[] = [
       {
         heading: "Telling a friend what the report said",
         body: [
-          "To pass on what you read, drop the noun phrases and go back to verbs, in 해요 with the B1 short quote -대요: 물가 상승으로 인해 식비가 늘었다 becomes 물가가 올라서 식비가 많이 늘었대요. 연령에 따라 can stay as 나이에 따라, which is fine in speech. A friend would find 물가 상승으로 인한 식비 증가 strange out loud: speech carries the same information in clauses, writing in noun phrases, and this unit is about moving between the two.",
+          "To pass on what you read, drop the noun phrases and go back to verbs, in 해요 with the Intermediate short quote -대요: 물가 상승으로 인해 식비가 늘었다 becomes 물가가 올라서 식비가 많이 늘었대요. 연령에 따라 can stay as 나이에 따라, which is fine in speech. A friend would find 물가 상승으로 인한 식비 증가 strange out loud: speech carries the same information in clauses, writing in noun phrases, and this unit is about moving between the two.",
         ],
         examples: [
           { es: "요즘 혼자 사는 사람들 생활비가 작년보다 많이 늘었대요.", en: "Apparently living costs for people who live alone have gone up a lot since last year." },
@@ -2104,7 +2104,7 @@ export const KO_B2_U09: Lesson[] = [
         heading: "한다체 to speech: unpack the noun phrases",
         body: [
           "Going back is just as important: when you tell a friend what you read, turn each noun phrase back into a clause, give it a subject, and make passives active. 범인은 경찰에 의해 체포되었다 becomes 경찰이 범인을 잡았대요; 폭설로 인해 도로가 통제되었다 becomes 눈이 많이 와서 길을 막았대요.",
-          "The B1 short quote -대요 (or -대 to a friend) is the natural way to pass on news. Keep only what the listener needs; numbers and formal labels like 연령 and 지출 usually turn into 나이 and 돈 쓰는 거.",
+          "The Intermediate short quote -대요 (or -대 to a friend) is the natural way to pass on news. Keep only what the listener needs; numbers and formal labels like 연령 and 지출 usually turn into 나이 and 돈 쓰는 거.",
         ],
         examples: [
           { es: "범인은 경찰에 의해 체포되었다. → 경찰이 범인을 잡았대요.", en: "The criminal was arrested by the police. → They say the police caught the guy." },
@@ -2451,7 +2451,7 @@ export const KO_B2_U09: Lesson[] = [
         source: "Apparently the police found the child thanks to people's reports.",
         answer: "사람들 신고 덕분에 경찰이 아이를 찾았대요.",
         altAnswers: ["시민들 신고 덕분에 경찰이 아이를 찾았대요.", "사람들의 신고 덕분에 경찰이 아이를 찾았대요.", "시민들의 신고 덕분에 경찰이 아이를 찾았대요.", "사람들이 신고해서 경찰이 아이를 찾았대요.", "시민들이 신고해서 경찰이 아이를 찾았대요.", "사람들 신고 덕분에 경찰이 아이를 찾았다고 해요.", "시민들의 신고 덕분에 경찰이 아이를 찾았다고 해요.", "사람들이 신고해 줘서 경찰이 아이를 찾았대요."],
-        explanation: "For a good result, speech uses 덕분에 'thanks to' (B1 Unit 8); 신고를 통해 is the news version.",
+        explanation: "For a good result, speech uses 덕분에 'thanks to' (Intermediate Unit 8); 신고를 통해 is the news version.",
       },
       {
         type: "speak",

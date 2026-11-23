@@ -1089,7 +1089,7 @@ export const KO_B1_U05: Lesson[] = [
       {
         heading: "-던데: what I saw, as background",
         body: [
-          "-던데 joins the looking-back 더 with the background -는데 you know from -는데요 (A2 Unit 18). You mention something you noticed earlier, then build on it: 어제 가 보니까 사람이 많던데 다른 데 갈까요? 'I went yesterday and it was packed, so shall we go somewhere else?'. The first half is your observation; the second is a suggestion, a question or a request.",
+          "-던데 joins the looking-back 더 with the background -는데 you know from -는데요 (Elementary Unit 18). You mention something you noticed earlier, then build on it: 어제 가 보니까 사람이 많던데 다른 데 갈까요? 'I went yesterday and it was packed, so shall we go somewhere else?'. The first half is your observation; the second is a suggestion, a question or a request.",
           "It goes straight on the stem, like -더라고요: 많던데, 오던데, 피곤해 보이던데, and it follows the same first-person rule: other people and things, or your own feelings, but not your own deliberate actions.",
         ],
         examples: [

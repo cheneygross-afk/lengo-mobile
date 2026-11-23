@@ -1962,7 +1962,7 @@ export const PT_A2_U16: Lesson[] = [
       {
         heading: "Saber or conhecer?",
         body: [
-          "A quick reminder from A1: \"saber\" is to know facts and how to do things (\"sei o endereço\", \"sei nadar\"); \"conhecer\" is to know people and places, to be familiar with them (\"conheço a Ana\", \"você conhece Salvador?\").",
+          "A quick reminder from the Beginner level: \"saber\" is to know facts and how to do things (\"sei o endereço\", \"sei nadar\"); \"conhecer\" is to know people and places, to be familiar with them (\"conheço a Ana\", \"você conhece Salvador?\").",
           "In the past they change meaning, as you saw in the \"perfeito or imperfeito\" unit: \"soube\" = found out, \"conheci\" = met, or visited for the first time.",
         ],
         examples: [
@@ -2302,7 +2302,7 @@ export const PT_A2_U16: Lesson[] = [
     level: "PT-A2",
     number: 12,
     title: "Spiral Review: Talking About Your Life",
-    summary: "The unit's everyday words with the A2 grammar so far: past stories about home and work, weekend plans, comparing neighborhoods and object pronouns.",
+    summary: "The unit's everyday words with the Elementary grammar so far: past stories about home and work, weekend plans, comparing neighborhoods and object pronouns.",
     duration: "12 min",
     kind: "review",
     sections: [

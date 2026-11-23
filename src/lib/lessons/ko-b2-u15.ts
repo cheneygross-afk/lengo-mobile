@@ -834,7 +834,7 @@ export const KO_B2_U15: Lesson[] = [
         source: "45% of respondents answered that they were very satisfied.",
         answer: "응답자의 45%가 '매우 만족한다'고 응답했다.",
         altAnswers: ["응답자의 45%가 매우 만족한다고 응답했다.", "응답자의 45%가 매우 만족한다고 답했다.", "응답자 중 45%가 매우 만족한다고 응답했다.", "응답자 중 45%가 매우 만족한다고 답했다.", "응답자의 45%가 '매우 만족한다'고 답했다.", "응답자의 45퍼센트가 매우 만족한다고 응답했다.", "응답자의 사십오 퍼센트가 매우 만족한다고 응답했다.", "응답자의 45%가 매우 만족한다고 응답하였다."],
-        explanation: "A quoted answer: -다고 응답했다 (B1 reported speech). 만족하다 is a verb, so 만족한다.",
+        explanation: "A quoted answer: -다고 응답했다 (Intermediate reported speech). 만족하다 is a verb, so 만족한다.",
       },
       {
         type: "fill-blank",
@@ -907,7 +907,7 @@ export const KO_B2_U15: Lesson[] = [
       {
         heading: "Hedging: -기 때문인 것으로 보인다",
         body: [
-          "A chart shows what happened, not why, so reports hedge their explanations: 이는 혼자 사는 노인이 늘었기 때문인 것으로 보인다 'this appears to be because more elderly people live alone'. It is built from -기 때문이다 (B1) + 인 것으로 보인다: 늘었기 때문 + 인 것으로 보인다. After a noun, use N 때문인 것으로 보인다 (물가 상승 때문인 것으로 보인다).",
+          "A chart shows what happened, not why, so reports hedge their explanations: 이는 혼자 사는 노인이 늘었기 때문인 것으로 보인다 'this appears to be because more elderly people live alone'. It is built from -기 때문이다 (Intermediate) + 인 것으로 보인다: 늘었기 때문 + 인 것으로 보인다. After a noun, use N 때문인 것으로 보인다 (물가 상승 때문인 것으로 보인다).",
           "Keep the tense inside: a past cause is -았 / 었기 때문인 것으로, a present one -기 때문인 것으로. 이는 'this' opens the sentence and points at the trend just described. Learners tend to write 왜냐하면 ... 때문이다, which is correct but heavy; question 53 answers prefer the shorter 이는 ... 때문인 것으로 보인다.",
         ],
         examples: [
@@ -948,7 +948,7 @@ export const KO_B2_U15: Lesson[] = [
         heading: "Looking ahead: 예상된다, 전망된다",
         body: [
           "The last sentence of a data report looks forward. -(으)ㄹ 것으로 예상된다 'is expected to' and -(으)ㄹ 것으로 전망된다 'is projected to' (more formal, the word of forecasts and the news) both take the future modifier -(으)ㄹ: 앞으로 1인 가구는 더 늘어날 것으로 예상된다, 2030년에는 그 비율이 40%에 달할 것으로 전망된다. The active verbs need a subject: 전문가들은 ... 것으로 전망했다.",
-          "To link the forecast to the trend, open with 이러한 추세가 계속된다면 'if this trend continues' (B1 -다면). A plain -(으)ㄹ 것이다 also works in 한다체, but -(으)ㄹ 것 같다 sounds like a personal guess.",
+          "To link the forecast to the trend, open with 이러한 추세가 계속된다면 'if this trend continues' (Intermediate -다면). A plain -(으)ㄹ 것이다 also works in 한다체, but -(으)ㄹ 것 같다 sounds like a personal guess.",
         ],
         examples: [
           { es: "앞으로 1인 가구는 더 늘어날 것으로 예상된다.", en: "Single-person households are expected to increase further." },

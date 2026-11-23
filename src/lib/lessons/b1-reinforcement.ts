@@ -358,7 +358,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "subjunctive-wishes-doubt-emotion-mastery-check",
     "b1r-error-hunt-creer-dudar",
     "Caza de errores: creo que, no creo que, dudo que",
-    "La trampa más común del B1: los verbos de opinión y de duda. Encuentra cada error.",
+    "La trampa más común del nivel Intermediate: los verbos de opinión y de duda. Encuentra cada error.",
     "7 min",
     [
       sec(
@@ -639,7 +639,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "subjunctive-impersonal-ojala-2",
     "b1r-spiral-subjunctive-foundations",
     "Repaso en espiral: los cimientos del subjuntivo",
-    "Formación, deseo, duda, emoción, expresiones impersonales y ojalá — todo junto, y con el pasado del A2.",
+    "Formación, deseo, duda, emoción, expresiones impersonales y ojalá — todo junto, y con el pasado del nivel Elementary.",
     "8 min",
     [
       sec(
@@ -1181,7 +1181,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
               ["podrías", "condicional de cortesía"],
               ["no llueva", "subjuntivo tras ojalá"],
             ],
-            "Cuatro estructuras del B1 en cuatro líneas: el afirmativo pega el pronombre, el negativo usa subjuntivo, el condicional suaviza y ojalá siempre pide subjuntivo."
+            "Cuatro estructuras del nivel Intermediate en cuatro líneas: el afirmativo pega el pronombre, el negativo usa subjuntivo, el condicional suaviza y ojalá siempre pide subjuntivo."
           ),
         ]
       ),
@@ -2470,7 +2470,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "vosotros-commands-2",
     "b1r-spiral-b1-first-half",
     "Repaso en espiral: el subjuntivo, los mandatos y el condicional",
-    "Repasa en una sola sesión mezclada lo esencial de la primera mitad del B1: el subjuntivo de deseo, duda y emoción, los mandatos y el condicional.",
+    "Repasa en una sola sesión mezclada lo esencial de la primera mitad del nivel Intermediate: el subjuntivo de deseo, duda y emoción, los mandatos y el condicional.",
     "9 min",
     [
       sec(
@@ -2532,7 +2532,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
           ["Me encantaría ir.", "condicional"],
           ["Si puedo, iré.", "si + presente + futuro"],
         ],
-        "Cuatro estructuras clave de la primera mitad del B1."
+        "Cuatro estructuras clave de la primera mitad del nivel Intermediate."
       ),
       toEs("Abre la maleta.", "No abras la maleta.", "Negativo de tú: no + subjuntivo, abrir → «abras».", [], "Cambia al negativo."),
       toEs("Vas a encontrar piso pronto.", "Ojalá encuentres piso pronto.", "«Ojalá» convierte la afirmación en un deseo y siempre va con subjuntivo: encontrar → «encuentres» (o → ue).", ["Ojalá que encuentres piso pronto."], "Transforma la frase en un deseo con «ojalá»."),
@@ -2548,7 +2548,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "vosotros-commands-2",
     "b1r-spiral-b1-second-half",
     "Repaso en espiral: los perfectos, los relativos y los pronombres",
-    "Repasa en una sola sesión la segunda mitad del B1 (pretérito perfecto y pluscuamperfecto, relativos, se pasivo y pronombres combinados), con guiños a la primera mitad.",
+    "Repasa en una sola sesión la segunda mitad del nivel Intermediate (pretérito perfecto y pluscuamperfecto, relativos, se pasivo y pronombres combinados), con guiños a la primera mitad.",
     "9 min",
     [
       sec(
@@ -2586,7 +2586,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
               ["decídmelo", "mandato de vosotros + dos pronombres"],
               ["se busca", "se pasivo"],
             ],
-            "Cuatro estructuras de la segunda mitad del B1."
+            "Cuatro estructuras de la segunda mitad del nivel Intermediate."
           ),
         ]
       ),
@@ -3928,7 +3928,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
       ),
       sec(
         "Buscar piso",
-        "Cuando buscas algo que no sabes si existe, la relativa va en subjuntivo (lo verás a fondo en el B2): Busco un piso que tenga ascensor.",
+        "Cuando buscas algo que no sabes si existe, la relativa va en subjuntivo (lo verás a fondo en el nivel Advanced): Busco un piso que tenga ascensor.",
         [
           ["Busco un piso que tenga jardín.", "I'm looking for an apartment that has a garden. (I don't know if one exists)"],
           ["Vivo en un piso que tiene jardín.", "I live in an apartment that has a garden. (it exists)"],
@@ -5110,14 +5110,14 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-big-error-hunt",
-    "Desafío B1: la gran caza de errores",
-    "Empieza el desafío final del B1: detecta y corrige errores, y traduce frases, de todos los temas del nivel.",
+    "Desafío: la gran caza de errores",
+    "Empieza el desafío final del nivel Intermediate: detecta y corrige errores, y traduce frases, de todos los temas del nivel.",
     "9 min",
     [
       sec(
         "Recuerda la regla: busca el error por su causa",
         [
-          "Casi todos los errores del B1 vienen de unas pocas decisiones. Repásalas en este orden para cada frase: ¿indicativo o subjuntivo? (hecho o deseo/duda/emoción) ¿mandato bien formado? (negativo = subjuntivo) ¿condicional o futuro? (hipótesis o plan) ¿perfecto, pretérito o pluscuamperfecto? (desde dónde se mira) ¿relativo correcto? (antecedente y preposición) ¿pronombres en orden? (persona antes que cosa; le → se) ¿se concordado? (con lo que se vende).",
+          "Casi todos los errores del nivel Intermediate vienen de unas pocas decisiones. Repásalas en este orden para cada frase: ¿indicativo o subjuntivo? (hecho o deseo/duda/emoción) ¿mandato bien formado? (negativo = subjuntivo) ¿condicional o futuro? (hipótesis o plan) ¿perfecto, pretérito o pluscuamperfecto? (desde dónde se mira) ¿relativo correcto? (antecedente y preposición) ¿pronombres en orden? (persona antes que cosa; le → se) ¿se concordado? (con lo que se vende).",
           "Corregir no es adivinar: nombra la regla que se ha roto y la corrección sale sola.",
         ],
         [
@@ -5164,7 +5164,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-dialogue-marathon",
-    "Desafío B1: maratón de diálogos",
+    "Desafío: maratón de diálogos",
     "Cuatro escenas seguidas: una entrevista, una queja, un consejo y una despedida.",
     "9 min",
     [
@@ -5235,8 +5235,8 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-translation-relay",
-    "Desafío B1: relevo de traducción",
-    "Traduce en las dos direcciones, un tema del B1 tras otro.",
+    "Desafío: relevo de traducción",
+    "Traduce en las dos direcciones, un tema del nivel Intermediate tras otro.",
     "9 min",
     [
       sec(
@@ -5267,14 +5267,14 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-build-a-sentence",
-    "Desafío B1: construye la frase",
-    "Frases largas del B1 con subjuntivo, pronombres dobles y relativos — pon cada pieza en su sitio.",
+    "Desafío: construye la frase",
+    "Frases largas del nivel Intermediate con subjuntivo, pronombres dobles y relativos — pon cada pieza en su sitio.",
     "8 min",
     [
       sec(
         "Recuerda la regla: cada pieza tiene su sitio",
         [
-          "Las frases largas del B1 se construyen uniendo cláusulas, y cada unión tiene sus reglas: principal de deseo, duda o emoción + que + subjuntivo; sustantivo + relativa (con la preposición delante); si + presente, y luego futuro, presente o imperativo. Dentro de cada cláusula, los pronombres van delante del verbo conjugado o pegados al infinitivo, gerundio o mandato afirmativo.",
+          "Las frases largas del nivel Intermediate se construyen uniendo cláusulas, y cada unión tiene sus reglas: principal de deseo, duda o emoción + que + subjuntivo; sustantivo + relativa (con la preposición delante); si + presente, y luego futuro, presente o imperativo. Dentro de cada cláusula, los pronombres van delante del verbo conjugado o pegados al infinitivo, gerundio o mandato afirmativo.",
         ],
         [
           ["Quiero que me expliques lo que pasó.", "I want you to explain to me what happened."],
@@ -5303,7 +5303,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-subjunctive-gauntlet",
-    "Desafío B1: el subjuntivo sin pistas",
+    "Desafío: el subjuntivo sin pistas",
     "Decisiones rápidas sin pistas: ¿indicativo o subjuntivo? Deseo, duda, emoción, necesidad y «cuando» + futuro frente a certeza y hábito.",
     "8 min",
     [
@@ -5341,7 +5341,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-past-perfects-gauntlet",
-    "Desafío B1: pasados y perfectos",
+    "Desafío: pasados y perfectos",
     "Pretérito, imperfecto, pretérito perfecto y pluscuamperfecto — elige el tiempo en cada frase.",
     "8 min",
     [
@@ -5381,8 +5381,8 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-pronoun-gauntlet",
-    "Desafío B1: pronombres de todo tipo",
-    "Pronombres dobles, relativos y posesivos — el trío que más cuesta del B1.",
+    "Desafío: pronombres de todo tipo",
+    "Pronombres dobles, relativos y posesivos — el trío que más cuesta del nivel Intermediate.",
     "8 min",
     [
       sec(
@@ -5422,7 +5422,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-seville-1",
-    "Desafío B1: una semana en Sevilla (1)",
+    "Desafío: una semana en Sevilla (1)",
     "Emma se muda a Sevilla para trabajar. Sigue sus primeros días: el piso, la oficina y los vecinos.",
     "8 min",
     [
@@ -5486,7 +5486,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-seville-2",
-    "Desafío B1: una semana en Sevilla (2)",
+    "Desafío: una semana en Sevilla (2)",
     "Termina la semana de Emma: la cena con los vecinos, una excursión y una llamada a casa.",
     "8 min",
     [
@@ -5539,7 +5539,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-formal-complaint",
-    "Desafío B1: escribe una reclamación",
+    "Desafío: escribe una reclamación",
     "Redacta un correo formal de queja a una aerolínea — hechos en pasado, emociones y exigencias en subjuntivo.",
     "8 min",
     [
@@ -5597,7 +5597,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-challenge-city-or-country",
-    "Desafío B1: debate — ¿ciudad o campo?",
+    "Desafío: debate — ¿ciudad o campo?",
     "Argumenta a favor y en contra: opiniones, dudas, condiciones e hipótesis en un solo debate.",
     "8 min",
     [
@@ -5641,15 +5641,15 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "b1-comprehensive-review-3",
     "b1r-exit-ticket",
-    "Billete de salida del B1: ¿listo para el B2?",
-    "La última lección del B1: diez destrezas que el B2 da por sabidas, una pregunta cada una, sin pistas.",
+    "Billete de salida del nivel Intermediate: ¿listo para el nivel Advanced?",
+    "La última lección del nivel Intermediate: diez destrezas que el nivel Advanced da por sabidas, una pregunta cada una, sin pistas.",
     "9 min",
     [
       sec(
         "Las diez destrezas",
         "(1) formación del subjuntivo (2) deseo/duda/emoción (3) expresiones impersonales y ojalá (4) mandatos (5) condicional (6) si + presente (7) perfecto (8) pluscuamperfecto (9) relativos (10) se, pronombres dobles y posesivos.",
         [
-          ["¡A por el B2!", "On to B2!"],
+          ["¡A por el nivel Advanced!", "On to the Advanced level!"],
         ],
         [
           fb("Destreza 1: formación.", "que nosotros ___ (dormir)", "durmamos", "-IR o→u en nosotros."),
@@ -7202,7 +7202,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "la-cena-de-los-martes",
     "b1r-tema-voluntariado",
     "Repaso temático: el voluntariado",
-    "Ayudar a los demás: motivos, experiencias y deseos — con todo el B1.",
+    "Ayudar a los demás: motivos, experiencias y deseos — con todo el nivel Intermediate.",
     "7 min",
     [
       sec(
@@ -7529,7 +7529,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "quince-dias-en-kioto",
     "b1r-tema-viajar-solo",
     "Repaso temático: viajar solo",
-    "Repaso B1: cuenta un primer viaje en solitario combinando imperfecto, indefinido, pluscuamperfecto y pretérito perfecto, y da consejos con mandatos y subjuntivo.",
+    "Repaso Intermediate: cuenta un primer viaje en solitario combinando imperfecto, indefinido, pluscuamperfecto y pretérito perfecto, y da consejos con mandatos y subjuntivo.",
     "7 min",
     [
       sec(
@@ -7757,7 +7757,7 @@ export const B1_REINFORCEMENT: AnchoredLesson[] = [
     "el-fotografo-accidental",
     "b1r-tema-talento-oculto",
     "Repaso temático: un talento inesperado",
-    "Repaso B1: reacciona con sorpresa (me sorprende que + subjuntivo), expresa certeza con indicativo y cuenta lo anterior con el pluscuamperfecto; repasa también la pasiva con ser.",
+    "Repaso Intermediate: reacciona con sorpresa (me sorprende que + subjuntivo), expresa certeza con indicativo y cuenta lo anterior con el pluscuamperfecto; repasa también la pasiva con ser.",
     "8 min",
     [
       sec(

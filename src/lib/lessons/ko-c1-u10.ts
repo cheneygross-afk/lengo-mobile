@@ -17,7 +17,7 @@ export const KO_C1_U10: Lesson[] = [
     level: "KO-C1",
     number: 1,
     title: "Spiral Review: Three Layers of Honorifics",
-    summary: "Re-test the three layers at C1 speed: speech level (해요 or 하십시오체) for the listener, -(으)시- in every tense for the person talked about, and honorific words such as 진지, 연세, 댁, 드시다, 주무시다 and 계시다; meet the word root 존 (respect) in 존경, 존중, 존댓말, 존칭 and 존대.",
+    summary: "Re-test the three layers at Advanced speed: speech level (해요 or 하십시오체) for the listener, -(으)시- in every tense for the person talked about, and honorific words such as 진지, 연세, 댁, 드시다, 주무시다 and 계시다; meet the word root 존 (respect) in 존경, 존중, 존댓말, 존칭 and 존대.",
     duration: "21 min",
     sections: [
       {
@@ -236,7 +236,7 @@ export const KO_C1_U10: Lesson[] = [
       {
         heading: "The rule, in the family",
         body: [
-          "In B1 you met 압존법 as something to recognise. Here is how it works. Honorifics usually look only at the person you talk about: father is older than you, so 아버지가 오셨어요. 압존법 adds the listener to the calculation: if the listener ranks above the person you mention, the person mentioned is 'pressed down' (압) and loses -시-. Speaking to your grandfather about your father, the traditional sentence is 할아버지, 아버지가 아직 안 왔습니다. Father is still above you, so you never use 반말 or humble words about him; you just stop raising him in front of his own parent.",
+          "In the Intermediate level you met 압존법 as something to recognise. Here is how it works. Honorifics usually look only at the person you talk about: father is older than you, so 아버지가 오셨어요. 압존법 adds the listener to the calculation: if the listener ranks above the person you mention, the person mentioned is 'pressed down' (압) and loses -시-. Speaking to your grandfather about your father, the traditional sentence is 할아버지, 아버지가 아직 안 왔습니다. Father is still above you, so you never use 반말 or humble words about him; you just stop raising him in front of his own parent.",
           "Today most families honour both: 할아버지, 아버지 아직 안 오셨어요. Grandparents almost never object, and some would find the plain form cold. You will still hear the traditional form from older speakers and in very traditional families, and in historical dramas it is the norm. Learners should understand it, and use the modern form unless a family clearly expects the old one.",
         ],
         examples: [
@@ -658,7 +658,7 @@ export const KO_C1_U10: Lesson[] = [
       {
         heading: "Why 커피 can't be honoured",
         body: [
-          "B1 showed you the cash-desk sentence *주문하신 커피 나오셨습니다. At C1 you should be able to say exactly what is wrong. The sentence has two verbs. 주문하신 is correct: the customer ordered, and the customer is honoured. 나오셨습니다 is the error: its subject is 커피, and a coffee is neither a person nor something closely tied to one, like a body part or a family member. Indirect honorification (Lesson 3) stretches to a senior's words or tie; it does not stretch to products, prices, stock or rules.",
+          "The Intermediate level showed you the cash-desk sentence *주문하신 커피 나오셨습니다. At the Advanced level you should be able to say exactly what is wrong. The sentence has two verbs. 주문하신 is correct: the customer ordered, and the customer is honoured. 나오셨습니다 is the error: its subject is 커피, and a coffee is neither a person nor something closely tied to one, like a body part or a family member. Indirect honorification (Lesson 3) stretches to a senior's words or tie; it does not stretch to products, prices, stock or rules.",
           "Staff use it because in service work any sentence without -시- feels risky: the customer might hear 나왔습니다 as curt, and a complaint costs more than a grammar slip. So -시- spreads from 'honour the subject' to 'sound polite in general'. 국립국어원 and Korean language guides have pointed this out for years and recommend the plain forms: 주문하신 커피 나왔습니다, 그 사이즈는 없습니다, 만 원입니다. The politeness is already carried by -습니다 or -어요 and by 주문하신.",
           "You will hear the overused forms constantly, from friendly staff who are doing their best. Recognise them without comment, and don't copy them when you are the one serving, writing customer emails or doing a TOPIK speaking task: there the standard form is expected.",
         ],
@@ -865,8 +865,8 @@ export const KO_C1_U10: Lesson[] = [
         heading: "여쭙다, 여쭤보다, 뵙다, 뵈다",
         body: [
           "Humble verbs lower the speaker's action toward a senior instead of raising the senior. 묻다 'ask' becomes 여쭙다 or 여쭈다 (both standard). In speech the everyday form is 여쭤보다: 선생님께 여쭤볼게요, 하나 여쭤봐도 될까요? 여쭙다 is the more formal choice before consonant endings: 여쭙고 싶은 것이 있습니다, 여쭙겠습니다, 여쭙고자 연락드렸습니다. Remember that 여쭙다 is about asking a question; asking a favour is 부탁드리다.",
-          "만나다 and 보다 (meet, see a person) become 뵙다 or 뵈다. Pick by the ending: 뵙- before a consonant (뵙겠습니다, 뵙고, 뵙게 되어), 뵈- before a vowel or ㄹ / ㄴ (뵈어요 → 봬요, 뵈었어요 → 뵀어요, 뵐게요, 뵈러). B2 drilled the spelling: 봬요 is 뵈 + 어요 contracted, so *뵈요 drops the 어, and *뵙어요 is not a form at all.",
-          "The trap for English speakers is direction. Humble verbs are only for an action toward a superior by someone lower, usually you. *교수님이 저에게 여쭤보셨어요 is wrong: the professor is the one asking, so 물어보셨어요. The B1 rule holds at C1 speed.",
+          "만나다 and 보다 (meet, see a person) become 뵙다 or 뵈다. Pick by the ending: 뵙- before a consonant (뵙겠습니다, 뵙고, 뵙게 되어), 뵈- before a vowel or ㄹ / ㄴ (뵈어요 → 봬요, 뵈었어요 → 뵀어요, 뵐게요, 뵈러). Upper-intermediate drilled the spelling: 봬요 is 뵈 + 어요 contracted, so *뵈요 drops the 어, and *뵙어요 is not a form at all.",
+          "The trap for English speakers is direction. Humble verbs are only for an action toward a superior by someone lower, usually you. *교수님이 저에게 여쭤보셨어요 is wrong: the professor is the one asking, so 물어보셨어요. The Intermediate rule holds at Advanced speed.",
         ],
         examples: [
           { es: "교수님, 하나 여쭤봐도 될까요?", en: "Professor, may I ask you something?" },

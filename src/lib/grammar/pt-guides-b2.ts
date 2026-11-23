@@ -10,7 +10,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       "How to form the Brazilian Portuguese imperfect subjunctive from the eles form of the perfeito (fizeram, fizesse; foram, fosse), the accent in -ássemos, and its uses after past triggers, in polite wishes and with quem dera.",
     level: "B2",
     intro: [
-      `The imperfect subjunctive is the subjunctive's past form: "eu queria que você viesse" (I wanted you to come), "ela pediu que a gente esperasse" (she asked us to wait), "embora fosse tarde, saímos" (although it was late, we went out). Every trigger you learned with the present subjunctive at B1 also works here, once the main verb moves into the past.`,
+      `The imperfect subjunctive is the subjunctive's past form: "eu queria que você viesse" (I wanted you to come), "ela pediu que a gente esperasse" (she asked us to wait), "embora fosse tarde, saímos" (although it was late, we went out). Every trigger you learned with the present subjunctive at Intermediate also works here, once the main verb moves into the past.`,
       `It is also the subjunctive of imagined situations: "se eu tivesse tempo" (if I had time), "como se nada fosse" (as if nothing were wrong). English often uses its simple past for this (if I had), which is why English speakers tend to write "se eu tinha" instead of "se eu tivesse".`,
     ],
     sections: [
@@ -772,7 +772,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       "Upper-intermediate Brazilian Portuguese connectors of concession (ainda que, por mais que, nem que, se bem que), cause (uma vez que, devido a, graças a), purpose and result (a fim de que, de modo que, tanto que), and the mood each one takes.",
     level: "B2",
     intro: [
-      `At B2 an argument needs more than "mas", "porque" and "para": it needs although, even though, no matter how, given that, thanks to, so that, so much so that. Portuguese has a rich set of these, and almost every one comes with a fixed mood: the subjunctive for concessions and purposes, the indicative for causes and results.`,
+      `At the Upper-intermediate level an argument needs more than "mas", "porque" and "para": it needs although, even though, no matter how, given that, thanks to, so that, so much so that. Portuguese has a rich set of these, and almost every one comes with a fixed mood: the subjunctive for concessions and purposes, the indicative for causes and results.`,
       `Learn each connector with its mood and its grammar: does it introduce a clause ("embora seja"), a noun ("apesar do frio") or an infinitive ("apesar de ser")? Most errors at this level come from mixing these up.`,
     ],
     sections: [
@@ -1190,7 +1190,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     level: "B2",
     intro: [
       `Brazil has an unusually wide gap between how educated people speak and how they write formally. In speech, "tinha muita gente na festa", "a gente encontrou ele", "pra mim fazer isso" are normal; in a report the same ideas become "havia muitas pessoas", "nós o encontramos", "para eu fazer isso". The written standard is called the norma culta (or norma-padrão).`,
-      `Neither register is wrong in its place. A B2 speaker shifts between them on purpose: relaxed in conversation and messages, standard in emails to clients, reports, the Celpe-Bras and anything published.`,
+      `Neither register is wrong in its place. An Upper-intermediate speaker shifts between them on purpose: relaxed in conversation and messages, standard in emails to clients, reports, the Celpe-Bras and anything published.`,
     ],
     sections: [
       {
@@ -1462,7 +1462,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Will I understand European Portuguese?`,
-        a: `Written texts, yes, with a few vocabulary surprises. Speech is harder at first: European Portuguese drops many unstressed vowels, so it sounds faster and more consonant-heavy. Exposure fixes this quickly; the C1 level of this course compares the two varieties in depth.`,
+        a: `Written texts, yes, with a few vocabulary surprises. Speech is harder at first: European Portuguese drops many unstressed vowels, so it sounds faster and more consonant-heavy. Exposure fixes this quickly; the Advanced level of this course compares the two varieties in depth.`,
       },
     ],
     related: ["spoken-brazilian-portuguese", "pronoun-placement-in-writing", "register-and-the-written-norm", "pronunciation-and-accents", "brazilian-vs-european-portuguese", "linguistic-variation"],
@@ -1489,8 +1489,8 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       "The trickier corners of Brazilian Portuguese nouns and adjectives: masculine -ma nouns, nouns whose gender changes their meaning, plurals in -ão and of compound nouns, adjectives that change meaning with position, and augmentatives with attitude.",
     level: "B2",
     intro: [
-      `By B2 your basic gender and agreement are solid; what remains are the traps. "O problema" is masculine although it ends in "-a"; "o capital" is money but "a capital" is a city; "um velho amigo" is an old friend you've known for years, while "um amigo velho" is a friend who is old.`,
-      `These details rarely block understanding, but they are exactly what separates a fluent B2 text from an intermediate one, and they are favorite targets in exams.`,
+      `By Upper-intermediate your basic gender and agreement are solid; what remains are the traps. "O problema" is masculine although it ends in "-a"; "o capital" is money but "a capital" is a city; "um velho amigo" is an old friend you've known for years, while "um amigo velho" is a friend who is old.`,
+      `These details rarely block understanding, but they are exactly what separates a fluent Upper-intermediate text from an intermediate one, and they are favorite targets in exams.`,
     ],
     sections: [
       {
@@ -1777,7 +1777,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
     level: "B2",
     intro: [
       `A good story in Portuguese moves between tenses with purpose: the imperfeito paints the scene ("era uma noite quente"), the perfeito pushes the action forward ("de repente, a luz acabou"), the mais-que-perfeito reaches back ("eu tinha esquecido a lanterna"), and "estava" + gerund catches actions in progress ("estávamos jantando").`,
-      `At B2 you also need the tools of style: the historical present that Brazilians use to make anecdotes vivid ("aí ele chega e fala..."), connectors that control pace ("mal", "de repente", "no instante em que"), and the conventions of dialogue in Portuguese texts, which uses a dash, not quotation marks.`,
+      `At the Upper-intermediate level you also need the tools of style: the historical present that Brazilians use to make anecdotes vivid ("aí ele chega e fala..."), connectors that control pace ("mal", "de repente", "no instante em que"), and the conventions of dialogue in Portuguese texts, which uses a dash, not quotation marks.`,
     ],
     sections: [
       {
@@ -1865,7 +1865,7 @@ export const PT_B2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What is a crônica?`,
-        a: `A short, personal prose piece about everyday life, a very Brazilian genre published in newspapers and collected in books (Rubem Braga, Fernando Sabino, Luis Fernando Verissimo). It's a great model for B2 narrative: conversational, precise and full of free indirect speech.`,
+        a: `A short, personal prose piece about everyday life, a very Brazilian genre published in newspapers and collected in books (Rubem Braga, Fernando Sabino, Luis Fernando Verissimo). It's a great model for Upper-intermediate narrative: conversational, precise and full of free indirect speech.`,
       },
       {
         q: `How do European Portuguese stories differ?`,

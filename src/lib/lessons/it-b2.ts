@@ -98,7 +98,7 @@ const UNITS: ItalianUnitDef[] = [
   { id: "u27", title: "Synonyms and Precision", description: "Choose the precise word instead of the generic one.", lessons: IT_B2_U27, extra: IT_B2_U27_EXTRA, writing: IT_B2_U27_WRITING },
   { id: "u28", title: "Listening Lab", description: "Understand radio, podcasts and interviews at natural speed.", lessons: IT_B2_U28, extra: IT_B2_U28_EXTRA, writing: IT_B2_U28_WRITING },
   { id: "u29", title: "Reading Lab", description: "Read newspaper editorials and long-form articles; practice CILS DUE reading and grammar.", lessons: IT_B2_U29, extra: IT_B2_U29_EXTRA, writing: IT_B2_U29_WRITING },
-  { id: "u30", title: "B2 Review", description: "Bring B2 together.", lessons: IT_B2_U30, extra: IT_B2_U30_EXTRA, writing: IT_B2_U30_WRITING },
+  { id: "u30", title: "Upper-intermediate Review", description: "Bring the whole Upper-intermediate level together.", lessons: IT_B2_U30, extra: IT_B2_U30_EXTRA, writing: IT_B2_U30_WRITING },
 ];
 
 const LEVEL = buildItalianLevel("B2", UNITS);

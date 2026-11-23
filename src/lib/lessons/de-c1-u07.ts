@@ -1345,7 +1345,7 @@ export const DE_C1_U07: Lesson[] = [
         heading: "The order",
         body: [
           "You work for a print shop in Hamburg. Ms Schneider from a café chain has ordered 5,000 flyers and 200 posters. Your order confirmation (\"Auftragsbestätigung\") must state: what was ordered and when, unit prices, discount, what's included, delivery date, payment terms. Every number needs the right preposition.",
-          "Opening: \"Vielen Dank für Ihren Auftrag vom 3. Mai.\" (\"vom\" + date of a document or order). \"Hiermit bestätigen wir Ihnen folgende Bestellung:\" Then the items: \"5.000 Flyer im Format A5 zum Preis von 0,12 Euro pro Stück\", \"200 Plakate (A2) à 3,50 Euro\".",
+          "Opening: \"Vielen Dank für Ihren Auftrag vom 3. Mai.\" (\"vom\" + date of a document or order). \"Hiermit bestätigen wir Ihnen folgende Bestellung:\" Then the items: \"5.000 Flyer im Format A5 zum Preis von 0,12 Euro pro Stück\", \"200 Plakate (Elementary) à 3,50 Euro\".",
           "Discount and total: \"Aufgrund der Auftragsmenge gewähren wir Ihnen einen Rabatt von 5 %\" (a discount of), \"Der Gesamtbetrag beläuft sich auf 1.235 Euro zuzüglich Mehrwertsteuer\" (amounts to). \"Sich belaufen auf\" + accusative is the business verb for totals.",
         ],
         examples: [

@@ -681,14 +681,14 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "legal-administrative-spanish-part-2-mastery-check",
     "c2r-spiral-legal-subjunctive-participle",
-    "Repaso en espiral: el jurídico con gramática del C1",
-    "El estilo legal concentra estructuras del C1: participio absoluto, se impersonal, futuro deóntico y subjuntivo en condiciones.",
+    "Repaso en espiral: el jurídico con gramática del nivel Mastery",
+    "El estilo legal concentra estructuras del nivel Mastery: participio absoluto, se impersonal, futuro deóntico y subjuntivo en condiciones.",
     "8 min",
     [
       sec(
         "Economía: participio absoluto y futuro deóntico",
         [
-          "Recuerda la regla: el texto legal busca dos cosas, economía e impersonalidad, y cuatro estructuras del C1 le sirven para eso. El participio absoluto condensa una subordinada temporal y concuerda con su sustantivo («Leída la presente…», «Vencido el plazo…»). El futuro deóntico formula obligaciones sin verbo modal («El arrendatario abonará…» = deberá abonar).",
+          "Recuerda la regla: el texto legal busca dos cosas, economía e impersonalidad, y cuatro estructuras del nivel Mastery le sirven para eso. El participio absoluto condensa una subordinada temporal y concuerda con su sustantivo («Leída la presente…», «Vencido el plazo…»). El futuro deóntico formula obligaciones sin verbo modal («El arrendatario abonará…» = deberá abonar).",
         ],
         [
           ["Leído el presente documento, las partes lo firman.","Having read this document, the parties sign it."],
@@ -5442,7 +5442,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "presentations-negotiation-8",
     "c2r-negotiation-spiral-register",
-    "Repaso en espiral: negociar con la gramática del C1",
+    "Repaso en espiral: negociar con la gramática del nivel Mastery",
     "Condicional de cortesía, subjuntivo condicional, eufemismo y atenuación: la gramática al servicio del acuerdo.",
     "8 min",
     [
@@ -5887,12 +5887,12 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "citations-references-8",
     "c2r-cite-spiral-reported-speech",
     "Repaso en espiral: citar es estilo indirecto",
-    "Las citas indirectas aplican las reglas del estilo indirecto del C1: tiempos, modos y verbos introductores.",
+    "Las citas indirectas aplican las reglas del estilo indirecto del nivel Mastery: tiempos, modos y verbos introductores.",
     "7 min",
     [
       sec(
         "Lo dicho queda en su momento: el retroceso",
-        ["Una cita indirecta no es más que estilo indirecto en registro académico, así que valen las reglas del C1, por una razón: lo que el autor dijo queda situado en el momento en que lo dijo, no en el tuyo. Si el verbo introductor está en pasado, los tiempos suelen retroceder (aunque puede mantenerse el presente si lo dicho sigue vigente): «Los datos confirman…» → El autor afirmó que los datos confirmaban…", "Con verbo en presente, no hay retroceso: El autor afirma que los datos confirman…"],
+        ["Una cita indirecta no es más que estilo indirecto en registro académico, así que valen las reglas del nivel Mastery, por una razón: lo que el autor dijo queda situado en el momento en que lo dijo, no en el tuyo. Si el verbo introductor está en pasado, los tiempos suelen retroceder (aunque puede mantenerse el presente si lo dicho sigue vigente): «Los datos confirman…» → El autor afirmó que los datos confirmaban…", "Con verbo en presente, no hay retroceso: El autor afirma que los datos confirman…"],
         [
           ["La autora afirmó que el fenómeno había comenzado antes.", "The author stated that the phenomenon had begun earlier."],
         ],
@@ -7753,7 +7753,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Cada género, su tiempo",
         [
           "Cronología: presente de cronología («1598: muere Felipe II en El Escorial»). Manual o ensayo: indefinido neutro («Felipe II murió en El Escorial en 1598»). Crónica o divulgación con intención dramática: imperfecto narrativo («El 13 de septiembre de 1598 moría en El Escorial Felipe II») o presente histórico («…muere Felipe II»). Novela histórica: indefinido e imperfecto de fondo, a menudo con estilo indirecto libre («El rey miraba el altar desde su lecho. Ya no vería otro verano»).",
-          "El hecho es el mismo; cambia la distancia entre el narrador y el lector. Elegir el tiempo según el género es una destreza de nivel C2.",
+          "El hecho es el mismo; cambia la distancia entre el narrador y el lector. Elegir el tiempo según el género es una destreza de nivel Professional & Academic.",
         ],
         [
           ["1598: muere Felipe II en El Escorial.", "1598: Philip II dies at El Escorial."],
@@ -7831,7 +7831,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
     "historical-narrative-2",
     "c2r-history-error-hunt-tenses",
     "Caza de errores: tiempos y registro en un texto historiográfico",
-    "Un párrafo de un trabajo universitario con errores de C2: pretérito anterior mal usado, presente histórico incoherente, condicional de rumor y «efeméride» mal empleada.",
+    "Un párrafo de un trabajo universitario con errores del nivel Professional & Academic: pretérito anterior mal usado, presente histórico incoherente, condicional de rumor y «efeméride» mal empleada.",
     "9 min",
     [
       sec(
@@ -8569,7 +8569,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "historical-narrative-10",
     "c2r-history-spiral-review",
-    "Repaso en espiral: narrar la historia con todo el C2",
+    "Repaso en espiral: narrar la historia con todo el nivel Professional & Academic",
     "Repasa el participio absoluto, la pasiva de acción y refleja, el estilo indirecto y el futuro del pasado al narrar un episodio histórico.",
     "8 min",
     [
@@ -13455,15 +13455,15 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-error-hunt",
-    "Desafío C2: la gran caza de errores",
-    "Empieza el desafío final del C2: cada frase esconde un error de un tema distinto del nivel.",
+    "Desafío: la gran caza de errores",
+    "Empieza el desafío final del nivel Professional & Academic: cada frase esconde un error de un tema distinto del nivel.",
     "8 min",
     [
       sec(
         "Cómo funciona el desafío",
         [
-          "Recuerda la regla: un error de nivel C2 casi nunca es de conjugación; suele ser una colocación que no existe («dictar un recurso»), un parónimo («infligir» / «infringir»), una forma fija alterada («de motu propio») o una concordancia que la norma no admite («hubieron heridos»). Para corregirlo, nombra primero qué regla se ha roto.",
-          "Las siete lecciones del Desafío C2 mezclan todo el nivel: lenguaje jurídico y médico, fraseología, refranes, humor, figuras retóricas, eufemismos, argumentación, negociación, citas, narración histórica y vocabulario culto. Aquí, cada frase tiene un único error: localízalo y corrígelo.",
+          "Recuerda la regla: un error de nivel Professional & Academic casi nunca es de conjugación; suele ser una colocación que no existe («dictar un recurso»), un parónimo («infligir» / «infringir»), una forma fija alterada («de motu propio») o una concordancia que la norma no admite («hubieron heridos»). Para corregirlo, nombra primero qué regla se ha roto.",
+          "Las siete lecciones del Desafío Professional & Academic mezclan todo el nivel: lenguaje jurídico y médico, fraseología, refranes, humor, figuras retóricas, eufemismos, argumentación, negociación, citas, narración histórica y vocabulario culto. Aquí, cada frase tiene un único error: localízalo y corrígelo.",
         ],
         [
           ["✗ Lo hizo de motu propio. → ✓ Lo hizo motu proprio.", "He did it of his own accord."],
@@ -13506,7 +13506,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-register-chameleon",
-    "Desafío C2: el camaleón del registro",
+    "Desafío: el camaleón del registro",
     "Un mismo hecho contado por un abogado, una médica, un periodista y un amigo: identifica y produce cada registro.",
     "8 min",
     [
@@ -13573,15 +13573,15 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-translation-relay",
-    "Desafío C2: relevo de traducción",
+    "Desafío: relevo de traducción",
     "Traduce en ambas direcciones frases que concentran fraseología, eufemismos, registro formal y gramática fina.",
     "9 min",
     [
       sec(
         "Traducir sentido, no palabras",
         [
-          "Recuerda la regla: en C2 se traduce la función, no la forma. Primero se identifica qué hace la frase (es un modismo, una fórmula contractual, un eufemismo, una atenuación) y después se busca la pieza española que hace lo mismo en el mismo registro. Un calco palabra por palabra suele ser gramatical, pero no es español.",
-          "A nivel C2 se traduce la función: «He kicked the bucket» → «Estiró la pata»; «Notwithstanding the foregoing» → «No obstante lo anterior»; «It's all Greek to me» → «Me suena a chino»; «The company let him go» → «La empresa prescindió de sus servicios».",
+          "Recuerda la regla: en el nivel Professional & Academic se traduce la función, no la forma. Primero se identifica qué hace la frase (es un modismo, una fórmula contractual, un eufemismo, una atenuación) y después se busca la pieza española que hace lo mismo en el mismo registro. Un calco palabra por palabra suele ser gramatical, pero no es español.",
+          "A nivel Professional & Academic se traduce la función: «He kicked the bucket» → «Estiró la pata»; «Notwithstanding the foregoing» → «No obstante lo anterior»; «It's all Greek to me» → «Me suena a chino»; «The company let him go» → «La empresa prescindió de sus servicios».",
         ],
         [
           ["No obstante lo anterior…", "Notwithstanding the foregoing…"],
@@ -13630,7 +13630,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-phraseology-no-hints",
-    "Desafío C2: fraseología sin pistas",
+    "Desafío: fraseología sin pistas",
     "Modismos, refranes, locuciones y colocaciones: completa, sustituye y corrige expresiones fijas con las mínimas ayudas.",
     "8 min",
     [
@@ -13638,7 +13638,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
         "Última ronda de fraseología",
         [
           "Recuerda la regla: una locución es una pieza única. Su sentido no sale solo de la suma de sus palabras y no suele admitir que se cambie ninguna (ni «cuenta limpia» por «cuenta nueva», ni «a cubos» por «a cántaros»): si se toca una pieza, deja de ser la locución y suena a error o a calco.",
-          "Sin pistas: cada hueco exige una palabra de una expresión fija del C2. Las formas fijas admiten muy poca variación (solo la que recoge el diccionario): «llover a cántaros», «de Pascuas a Ramos», «hacer borrón y cuenta nueva», «conciliar el sueño», «dar luz verde», «poner los puntos sobre las íes».",
+          "Sin pistas: cada hueco exige una palabra de una expresión fija del nivel Professional & Academic. Las formas fijas admiten muy poca variación (solo la que recoge el diccionario): «llover a cántaros», «de Pascuas a Ramos», «hacer borrón y cuenta nueva», «conciliar el sueño», «dar luz verde», «poner los puntos sobre las íes».",
         ],
         [
           ["Hicimos borrón y cuenta nueva.", "We wiped the slate clean."],
@@ -13671,7 +13671,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-text-detective",
-    "Desafío C2: detective de textos",
+    "Desafío: detective de textos",
     "Una columna de opinión con ironía, figuras retóricas, citas y argumentación: análisis completo.",
     "10 min",
     [
@@ -13754,7 +13754,7 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-argue-to-the-limit",
-    "Desafío C2: argumentar al límite",
+    "Desafío: argumentar al límite",
     "Un debate con falacias, preguntas retóricas y presión: responde en cada turno con la herramienta exacta.",
     "9 min",
     [
@@ -13808,13 +13808,13 @@ export const C2_REINFORCEMENT: AnchoredLesson[] = [
   L(
     "c1c2-comprehensive-review-3",
     "c2r-challenge-exit-ticket",
-    "Desafío C2: examen de maestría",
-    "La prueba final del curso: una pregunta por cada gran bloque del C2. Si la superas, dominas el español a nivel de maestría.",
+    "Desafío: examen de maestría",
+    "La prueba final del curso: una pregunta por cada gran bloque del nivel Professional & Academic. Si la superas, dominas el español a nivel de maestría.",
     "10 min",
     [
       sec(
         "La última prueba",
-        "Este examen recorre el C2 completo. Si fallas una pregunta, vuelve a la práctica extra o al repaso en espiral de ese bloque. Recuerda: el nivel de maestría no es la ausencia de errores, sino la capacidad de elegir, con intención, la forma exacta para cada situación.",
+        "Este examen recorre el nivel Professional & Academic completo. Si fallas una pregunta, vuelve a la práctica extra o al repaso en espiral de ese bloque. Recuerda: el nivel de maestría no es la ausencia de errores, sino la capacidad de elegir, con intención, la forma exacta para cada situación.",
         [
           ["Dominar una lengua es elegir con intención.", "Mastering a language is choosing with intent."],
         ],

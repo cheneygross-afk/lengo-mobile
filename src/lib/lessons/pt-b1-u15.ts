@@ -466,7 +466,7 @@ export const PT_B1_U15: Lesson[] = [
         heading: "Fale um pouco sobre você: presenting yourself",
         body: [
           "Almost every Brazilian interview opens with \"Fale um pouco sobre você\" or the warmer \"Me conta um pouco da sua trajetória\". Give a short professional story: what you studied, what you do now and for how long. \"Sou formado em Engenharia\" (\"formada\" for a woman) means I have a degree in engineering.",
-          "For how long, use the present with \"há\", as you learned at A2: \"trabalho como designer há cinco anos\". Don't copy the English present perfect. \"Tenho trabalhado\" means I've been working a lot lately, not I've worked there for five years.",
+          "For how long, use the present with \"há\", as you learned at the Elementary level: \"trabalho como designer há cinco anos\". Don't copy the English present perfect. \"Tenho trabalhado\" means I've been working a lot lately, not I've worked there for five years.",
           "\"Atualmente\" is a false friend: it means currently. Actually is \"na verdade\".",
         ],
         examples: [
@@ -2261,7 +2261,7 @@ export const PT_B1_U15: Lesson[] = [
     level: "PT-B1",
     number: 10,
     title: "Spiral Review: Working in Portuguese",
-    summary: "Mix the B1 grammar you know, from the subjunctive and conditional to the passive and reported speech, in formal emails, work reports and messages to colleagues.",
+    summary: "Mix the Intermediate grammar you know, from the subjunctive and conditional to the passive and reported speech, in formal emails, work reports and messages to colleagues.",
     duration: "12 min",
     kind: "review",
     format: "Spiral review",

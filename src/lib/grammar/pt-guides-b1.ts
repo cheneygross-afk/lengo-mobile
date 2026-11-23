@@ -168,7 +168,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       "When wanting, asking and hoping take the subjunctive in Brazilian Portuguese: quero sair vs quero que você saia, pedir para, espero que and tomara que, and wishes like que você seja feliz.",
     level: "B1",
     intro: [
-      `English builds wishes about other people with an object and an infinitive: I want you to come, she asked me to call. Portuguese cannot do that with "querer". It needs a new clause with "que" and the subjunctive: "Quero que você venha". Saying "quero você vir" is the single most common B1 mistake made by English speakers.`,
+      `English builds wishes about other people with an object and an infinitive: I want you to come, she asked me to call. Portuguese cannot do that with "querer". It needs a new clause with "que" and the subjunctive: "Quero que você venha". Saying "quero você vir" is the single most common Intermediate mistake made by English speakers.`,
       `The logic is simple once you see it. A verb of wanting, preferring, asking or hoping looks at something that is not yet real, so the action it points to goes into the subjunctive. If you are wishing for your own action, there is no second subject and you use the plain infinitive: "quero sair".`,
     ],
     sections: [
@@ -269,7 +269,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What tense comes after "eu queria que" or "eu gostaria que"?`,
-        a: `The imperfect subjunctive: "eu queria que você viesse", "eu gostaria que vocês soubessem". The main verb is in a past or conditional form, so the subjunctive moves into the past too. It is taught at B2; at B1 learn these as fixed polite phrases.`,
+        a: `The imperfect subjunctive: "eu queria que você viesse", "eu gostaria que vocês soubessem". The main verb is in a past or conditional form, so the subjunctive moves into the past too. It is taught at the Upper-intermediate level; at the Intermediate level learn these as fixed polite phrases.`,
       },
       {
         q: `Is any of this different in European Portuguese?`,
@@ -321,7 +321,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Emotions: fico feliz que, que pena que`,
         body: [
           `Feelings about another person's action take the subjunctive, even when the action is a known fact: "fico feliz que você esteja aqui" (I'm glad you're here; you obviously are). Portuguese marks the clause as the object of a feeling, not as information. Common triggers: "fico feliz que", "que bom que", "que pena que", "tenho medo que" (in careful writing "tenho medo de que"), "me preocupa que", "me incomoda que", "adoro que", "odeio que".`,
-          `With one subject, use "de" + infinitive: "fico feliz de te ver" (I'm glad to see you), "tenho medo de esquecer". For something already done you'll meet "tenha" + participle: "que bom que você tenha vindo" (it's great that you came), the perfect subjunctive, taught at B2. In speech "que bom que você veio" with the indicative is very common too.`,
+          `With one subject, use "de" + infinitive: "fico feliz de te ver" (I'm glad to see you), "tenho medo de esquecer". For something already done you'll meet "tenha" + participle: "que bom que você tenha vindo" (it's great that you came), the perfect subjunctive, taught at the Upper-intermediate level. In speech "que bom que você veio" with the indicative is very common too.`,
         ],
         examples: [
           { pt: "Fico feliz que vocês estejam gostando do Brasil.", en: "I'm glad you're enjoying Brazil." },
@@ -477,7 +477,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Embora, mas, apesar de; caso or se?`,
         body: [
           `Three ways to concede the same point. "Embora" + subjunctive: "embora esteja cansado, vou sair". "Mas" + indicative, joining two main clauses: "estou cansado, mas vou sair". "Apesar de" + noun or infinitive: "apesar do cansaço, vou sair", "apesar de estar cansado, vou sair". "Apesar de que" + clause exists but is heavier; "apesar que" is speech only.`,
-          `"Caso" + present subjunctive and "se" are near-synonyms for if. In speech "se" dominates, and for a future possibility it takes the future subjunctive: "se você precisar, me liga" (taught at B2; learn it as a chunk now). "Se" + present indicative is for general truths: "se você precisa de ajuda, é só pedir". "Caso" sounds a little more careful and is common in instructions.`,
+          `"Caso" + present subjunctive and "se" are near-synonyms for if. In speech "se" dominates, and for a future possibility it takes the future subjunctive: "se você precisar, me liga" (taught at the Upper-intermediate level; learn it as a chunk now). "Se" + present indicative is for general truths: "se você precisa de ajuda, é só pedir". "Caso" sounds a little more careful and is common in instructions.`,
         ],
         examples: [
           { pt: "Embora o apartamento seja pequeno, é muito bem localizado.", en: "Although the apartment is small, it's very well located." },
@@ -538,7 +538,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What about these conjunctions in the past?`,
-        a: `After a past main verb the subjunctive moves into the past: "expliquei para que ela entendesse", "embora fosse caro, comprei". That is the imperfect subjunctive, taught at B2.`,
+        a: `After a past main verb the subjunctive moves into the past: "expliquei para que ela entendesse", "embora fosse caro, comprei". That is the imperfect subjunctive, taught at the Upper-intermediate level.`,
       },
     ],
     related: ["present-subjunctive", "personal-infinitive", "connectors-for-writing", "concession-cause-purpose", "future-subjunctive"],
@@ -610,7 +610,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Qualquer, and open descriptions`,
         body: [
           `"Qualquer" means any, as in any at all: "qualquer pessoa", "qualquer coisa", "a qualquer hora", "qualquer um" (anyone). It doesn't change for gender, and its rare plural is "quaisquer". A clause after "qualquer" is open by definition, so it takes the subjunctive: "qualquer pessoa que queira participar".`,
-          `You will also meet open relatives with the future subjunctive: "o que você quiser" (whatever you want), "quem quiser" (whoever wants to), "onde você estiver" (wherever you are). Treat them as chunks for now; the forms come at B2. And in ads and signs, "procura-se", "aluga-se" and "precisa-se de" + a subjunctive description are standard: "Precisa-se de vendedor que tenha carro".`,
+          `You will also meet open relatives with the future subjunctive: "o que você quiser" (whatever you want), "quem quiser" (whoever wants to), "onde você estiver" (wherever you are). Treat them as chunks for now; the forms come at the Upper-intermediate level. And in ads and signs, "procura-se", "aluga-se" and "precisa-se de" + a subjunctive description are standard: "Precisa-se de vendedor que tenha carro".`,
         ],
         examples: [
           { pt: "Qualquer pessoa que queira participar pode se inscrever.", en: "Anyone who wants to take part can sign up." },
@@ -706,7 +706,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Four uses`,
         body: [
-          `Politeness: "você poderia...?", "eu gostaria de...", "seria possível...?", "você se importaria de...?" soften any request. Hypothesis: what would happen in an imagined situation ("eu compraria uma casa"); with an "if" clause it pairs with the imperfect subjunctive ("se eu ganhasse na loteria", B2; learn it as a chunk). Advice: "eu no seu lugar falaria com ela", "você deveria descansar", "seria bom você ir ao médico".`,
+          `Politeness: "você poderia...?", "eu gostaria de...", "seria possível...?", "você se importaria de...?" soften any request. Hypothesis: what would happen in an imagined situation ("eu compraria uma casa"); with an "if" clause it pairs with the imperfect subjunctive ("se eu ganhasse na loteria", Upper-intermediate; learn it as a chunk). Advice: "eu no seu lugar falaria com ela", "você deveria descansar", "seria bom você ir ao médico".`,
           `The future in the past: what was going to happen, seen from a past moment. "Ela disse que ligaria" (she said she would call) is the past of "ela diz que vai ligar". In speech "ela disse que ia ligar" is more common.`,
         ],
         examples: [
@@ -1042,7 +1042,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What about "se eu tivesse sabido"?`,
-        a: `That's the pluperfect subjunctive, used for regrets and past unreal conditions ("se eu tivesse sabido, eu teria ido"). Learn it as a chunk at B1; it's taught fully at B2.`,
+        a: `That's the pluperfect subjunctive, used for regrets and past unreal conditions ("se eu tivesse sabido, eu teria ido"). Learn it as a chunk at the Intermediate level; it's taught fully at the Upper-intermediate level.`,
       },
     ],
     related: ["preterito-perfeito-composto", "perfeito-vs-imperfeito", "compound-subjunctive-tenses", "reported-speech", "narrative-tenses", "literary-pluperfect"],
@@ -1165,7 +1165,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `Isn't "fazermos" the future subjunctive?`,
-        a: `For regular verbs the personal infinitive and the future subjunctive look the same ("quando chegarmos", "para chegarmos"). With irregular verbs they differ: "para fazermos" (personal infinitive) but "quando fizermos" (future subjunctive). The B2 guide on the future subjunctive goes through the pairs.`,
+        a: `For regular verbs the personal infinitive and the future subjunctive look the same ("quando chegarmos", "para chegarmos"). With irregular verbs they differ: "para fazermos" (personal infinitive) but "quando fizermos" (future subjunctive). The Upper-intermediate guide on the future subjunctive goes through the pairs.`,
       },
       {
         q: `Is it formal?`,
@@ -1200,7 +1200,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       "How to use Brazilian Portuguese relative pronouns after prepositions (a cidade em que nasci, a pessoa com quem falei), o qual and a qual, cujo for whose, o que for a whole idea, and onde vs aonde.",
     level: "B1",
     intro: [
-      `At A2 you met "que" and "onde": "o livro que eu comprei", "a cidade onde eu moro". At B1 relative clauses get longer and more precise, and the big difference from English shows up: Portuguese never leaves a preposition at the end. English says the person I spoke to; Portuguese must say "a pessoa com quem eu falei", the person with whom I spoke.`,
+      `At the Elementary level you met "que" and "onde": "o livro que eu comprei", "a cidade onde eu moro". At Intermediate relative clauses get longer and more precise, and the big difference from English shows up: Portuguese never leaves a preposition at the end. English says the person I spoke to; Portuguese must say "a pessoa com quem eu falei", the person with whom I spoke.`,
       `Five tools cover almost everything: "que" (things, and people without a preposition), "quem" (people after a preposition), "o qual" (after longer prepositions and in formal writing), "cujo" (whose) and "o que" (referring to a whole idea).`,
     ],
     sections: [
@@ -1257,7 +1257,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Cujo: whose`,
         body: [
           `"Cujo" means whose and agrees with the thing possessed, not with the owner: "o professor cujo livro usamos", "o professor cuja filha estuda comigo", "a vizinha cujos filhos são barulhentos". It never takes an article after it: "cujo o" is a classic error, even among Brazilians.`,
-          `"Cujo" is standard in writing; in speech many Brazilians avoid it with "que" + possessive ("o professor que a gente usa o livro dele"). Use "cujo" in anything written; it is one of the marks of a good B1 text.`,
+          `"Cujo" is standard in writing; in speech many Brazilians avoid it with "que" + possessive ("o professor que a gente usa o livro dele"). Use "cujo" in anything written; it is one of the marks of a good Intermediate text.`,
         ],
         examples: [
           { pt: "Conheci uma escritora cujo livro ganhou o prêmio Jabuti.", en: "I met a writer whose book won the Jabuti prize." },
@@ -1375,7 +1375,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
         heading: `Questions and requests`,
         body: [
           `Yes/no questions are reported with "se" (whether, if): "Você vem?" becomes "ele perguntou se eu ia". Questions with a question word keep it: "ela perguntou onde eu morava", "perguntou por que eu tinha saído". The word order is normal statement order, as in English.`,
-          `Requests and commands in speech use "pedir para" + subject + infinitive: "Me liga!" becomes "ela pediu pra eu ligar". "Mandar" works the same for orders: "o chefe mandou a gente refazer". In writing, "pedir que" + subjunctive: present if the request still holds ("ela pede que você ligue"), imperfect after a past verb ("ela pediu que eu ligasse", taught at B2).`,
+          `Requests and commands in speech use "pedir para" + subject + infinitive: "Me liga!" becomes "ela pediu pra eu ligar". "Mandar" works the same for orders: "o chefe mandou a gente refazer". In writing, "pedir que" + subjunctive: present if the request still holds ("ela pede que você ligue"), imperfect after a past verb ("ela pediu que eu ligasse", taught at Upper-intermediate).`,
         ],
         examples: [
           { pt: "Ele perguntou se a reunião ainda estava de pé.", en: "He asked whether the meeting was still on." },
@@ -1532,7 +1532,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Aluga-se, vende-se, and the spoken alternatives`,
         body: [
-          `Signs and ads use "se" + verb: "aluga-se apartamento", "vende-se esta casa", "fala-se inglês". The grammar treats this as a passive, so the verb agrees with a plural noun in careful writing: "vendem-se casas", "alugam-se quartos". With a preposition there is nothing to agree with, so it stays singular: "precisa-se de vendedores". Many Brazilians write "vende-se casas"; the B2 guide on "se" explains the debate.`,
+          `Signs and ads use "se" + verb: "aluga-se apartamento", "vende-se esta casa", "fala-se inglês". The grammar treats this as a passive, so the verb agrees with a plural noun in careful writing: "vendem-se casas", "alugam-se quartos". With a preposition there is nothing to agree with, so it stays singular: "precisa-se de vendedores". Many Brazilians write "vende-se casas"; the Upper-intermediate guide on "se" explains the debate.`,
           `Speech drops the "se" or rephrases: "aluga apartamento", "aqui vende pão de queijo", "eles dizem que vai chover", "a gente nunca sabe", "você não pode fumar aqui". Third person plural with no subject is the most common spoken passive of all: "roubaram minha bicicleta", "me disseram que ia ter greve".`,
         ],
         examples: [
@@ -1612,7 +1612,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       "The Brazilian Portuguese connectors that organize a paragraph (adding, contrasting, cause, result, examples, sequence, conclusion), their register, their position, and the mood each one takes.",
     level: "B1",
     intro: [
-      `A B1 text is judged less by its vocabulary than by how its ideas connect. The Celpe-Bras and every Brazilian workplace expect writing in which each sentence is linked to the last: "além disso" to add, "no entanto" to contrast, "já que" to give a cause, "portanto" to draw a conclusion.`,
+      `An Intermediate text is judged less by its vocabulary than by how its ideas connect. The Celpe-Bras and every Brazilian workplace expect writing in which each sentence is linked to the last: "além disso" to add, "no entanto" to contrast, "já que" to give a cause, "portanto" to draw a conclusion.`,
       `Many connectors come in pairs: a spoken one and a written one. "Mas" and "porque" are fine everywhere, but a formal text that uses only them sounds flat; "porém", "no entanto", "visto que" and "portanto" are what readers expect in an email to a client or an essay.`,
     ],
     sections: [
@@ -1825,7 +1825,7 @@ export const PT_B1_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `What is "tu vai"?`,
-        a: `In parts of the South, the North and the Nordeste people say "tu" with the "você" form of the verb: "tu vai", "tu quer". It's normal regional speech, but this course uses "você"; recognize it rather than copy it. The B2 guide on regional variation goes further.`,
+        a: `In parts of the South, the North and the Nordeste people say "tu" with the "você" form of the verb: "tu vai", "tu quer". It's normal regional speech, but this course uses "você"; recognize it rather than copy it. The Upper-intermediate guide on regional variation goes further.`,
       },
       {
         q: `Does European Portuguese reduce words the same way?`,

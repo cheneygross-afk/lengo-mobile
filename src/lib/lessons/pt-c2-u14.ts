@@ -680,7 +680,7 @@ export const PT_C2_U14: Lesson[] = [
       {
         heading: "Me incomoda, me dói: the feeling happens to you",
         body: [
-          "English says I mind the noise; Portuguese often says the noise bothers me: \"o barulho me incomoda\". The person who feels is the object, and the cause is the subject, which agrees with the verb and often comes after it: \"me incomodam esses comentários\", \"me dói a cabeça\". The common C2 set: \"incomodar\", \"doer\", \"pesar\" (to weigh on), \"comover\" (to move, touch), \"revoltar\" (to outrage), \"irritar\", \"preocupar\", \"encantar\", \"assustar\", \"emocionar\".",
+          "English says I mind the noise; Portuguese often says the noise bothers me: \"o barulho me incomoda\". The person who feels is the object, and the cause is the subject, which agrees with the verb and often comes after it: \"me incomodam esses comentários\", \"me dói a cabeça\". The common Mastery set: \"incomodar\", \"doer\", \"pesar\" (to weigh on), \"comover\" (to move, touch), \"revoltar\" (to outrage), \"irritar\", \"preocupar\", \"encantar\", \"assustar\", \"emocionar\".",
           "English speakers produce *\"eu incomodo com o barulho\" or *\"eu dói\". Turn the sentence around: what does the hurting? \"Me dói ver você assim\" (it hurts me to see you like this): the infinitive clause is the subject. In writing the pronoun goes before the verb in Brazil (\"isso me comove\"), and a full noun simply takes the object position: \"a notícia comoveu a cidade\".",
           "\"Pesar\" is the subtlest: \"me pesa ter que dizer isso\" (it weighs on me), \"o que mais me pesa é a distância\". As a noun, \"pesar\" is formal regret: \"com pesar, comunicamos\".",
         ],
@@ -716,7 +716,7 @@ export const PT_C2_U14: Lesson[] = [
         heading: "Pronominal verbs and their prepositions",
         body: [
           "Many emotion verbs flip into the pronominal form with a fixed preposition, and the preposition is where learners slip. With \"com\": \"magoar-se com\", \"comover-se com\", \"irritar-se com\", \"preocupar-se com\", \"encantar-se com\", \"emocionar-se com\". With \"de\": \"ressentir-se de\", \"arrepender-se de\", \"envergonhar-se de\", \"orgulhar-se de\", \"condoer-se de\" (to feel pity for, formal). With \"por\": \"apaixonar-se por\", \"interessar-se por\".",
-          "\"Condoer-se de\" is literary, but a C2 reader meets it in obituaries and speeches: \"condoeu-se do sofrimento alheio\". In speech you'd say \"ficou com pena de\" or \"ficou com dó de\".",
+          "\"Condoer-se de\" is literary, but a Mastery reader meets it in obituaries and speeches: \"condoeu-se do sofrimento alheio\". In speech you'd say \"ficou com pena de\" or \"ficou com dó de\".",
           "The two structures often coexist: \"a notícia me comoveu\" and \"eu me comovi com a notícia\" say the same thing from opposite ends.",
         ],
         examples: [
@@ -755,7 +755,7 @@ export const PT_C2_U14: Lesson[] = [
         heading: "Me dói que você tenha passado por isso: the subjunctive",
         body: [
           "When the cause is a clause with its own subject, it takes \"que\" + subjunctive: \"me incomoda que ele chegue atrasado\". The tense follows the main verb and the timing. Main verb in the present, event now or later: present subjunctive (\"me preocupa que ela esteja sozinha\"). Main verb in the present, event already past: perfect subjunctive (\"me dói que você tenha passado por isso\"). Main verb in the past: imperfect subjunctive (\"me incomodou que ele não ligasse\") or, for an earlier event, the pluperfect (\"me doeu que ele não tivesse ligado\").",
-          "Speech sometimes slips into the indicative (\"me incomoda que ele chega atrasado\"), but at C2, and in writing, keep the subjunctive. With the same subject, use the infinitive instead: \"me incomoda ter que esperar\". After \"o fato de que\", both moods occur, but the subjunctive is safer in writing.",
+          "Speech sometimes slips into the indicative (\"me incomoda que ele chega atrasado\"), but at the Mastery level, and in writing, keep the subjunctive. With the same subject, use the infinitive instead: \"me incomoda ter que esperar\". After \"o fato de que\", both moods occur, but the subjunctive is safer in writing.",
           "Pronominal verbs with \"de\" or \"com\" keep the preposition before \"que\" in careful writing (\"orgulho-me de que tenha vencido\"), though it is often dropped in speech; the infinitive is usually smoother: \"me orgulho de você ter vencido\".",
         ],
         examples: [

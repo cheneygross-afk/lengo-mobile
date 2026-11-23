@@ -8,7 +8,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 1,
     "title": "Classical Japanese Verb and Adjective Conjugation, Part 1 of 6",
-    "summary": "Go beyond C1's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
+    "summary": "Go beyond the Advanced level's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
     "duration": "7 min",
     "sections": [
       {
@@ -48,7 +48,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 2,
     "title": "Classical Japanese Verb and Adjective Conjugation, Part 2 of 6",
-    "summary": "Go beyond C1's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
+    "summary": "Go beyond the Advanced level's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
     "duration": "8 min",
     "sections": [
       {
@@ -92,7 +92,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 3,
     "title": "Classical Japanese Verb and Adjective Conjugation, Part 3 of 6",
-    "summary": "Go beyond C1's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
+    "summary": "Go beyond the Advanced level's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
     "duration": "6 min",
     "sections": [
       {
@@ -132,7 +132,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 4,
     "title": "Classical Japanese Verb and Adjective Conjugation, Part 4 of 6",
-    "summary": "Go beyond C1's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
+    "summary": "Go beyond the Advanced level's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
     "duration": "9 min",
     "sections": [
       {
@@ -176,7 +176,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 5,
     "title": "Classical Japanese Verb and Adjective Conjugation, Part 5 of 6",
-    "summary": "Go beyond C1's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
+    "summary": "Go beyond the Advanced level's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
     "duration": "6 min",
     "sections": [
       {
@@ -216,7 +216,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 6,
     "title": "Classical Japanese Verb and Adjective Conjugation, Part 6 of 6",
-    "summary": "Go beyond C1's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
+    "summary": "Go beyond the Advanced level's classical remnants (ず, べし, ごとし) into the actual classical conjugation system needed to read pre-modern texts, historical drama, and classical-influenced modern literature: the perfective auxiliaries き/けり/つ/ぬ/たり and the classical adjective conjugation pattern.",
     "duration": "8 min",
     "sections": [
       {
@@ -481,7 +481,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Signaling a Shift into Lyrical Narration in Modern Prose (cont'd)",
         "body": [
-          "Recognizing this shift is a C2 reading skill: a native reader feels the register change even without being able to name the specific device, and adjusting your reading pace and expectations at these moments -- rather than parsing them like ordinary expository prose -- is part of reading Japanese literature fluently."
+          "Recognizing this shift is a Mastery reading skill: a native reader feels the register change even without being able to name the specific device, and adjusting your reading pace and expectations at these moments -- rather than parsing them like ordinary expository prose -- is part of reading Japanese literature fluently."
         ],
         "checkpoint": [
           {
@@ -613,7 +613,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "What is the realistic C2 goal regarding dialects like Tohoku-ben and Hakata-ben?",
+        "question": "What is the realistic Mastery goal regarding dialects like Tohoku-ben and Hakata-ben?",
         "options": [
           "Perfect native-level production of each",
           "Recognizing them and understanding the characterization/regional cue they signal",
@@ -621,7 +621,7 @@ export const JA_C2_LESSONS: Lesson[] = [
           "Memorizing every regional variant's full grammar"
         ],
         "correctIndex": 1,
-        "explanation": "Recognition and cultural/narrative interpretation, not production, is the practical C2 target for most non-Kansai dialects."
+        "explanation": "Recognition and cultural/narrative interpretation, not production, is the practical Mastery target for most non-Kansai dialects."
       }
     ]
   },
@@ -636,12 +636,12 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Other Regional Markers You'll Encounter in Media (cont'd)",
         "body": [
-          "You are not expected to produce these dialects accurately at C2 -- the goal is recognition: when a character in a drama or anime suddenly shifts speech pattern, a fluent viewer immediately reads it as a regional cue (rural origin, local pride, a comedic beat) the way an English speaker reads a Southern American or Scottish accent in a film."
+          "You are not expected to produce these dialects accurately at the Mastery level -- the goal is recognition: when a character in a drama or anime suddenly shifts speech pattern, a fluent viewer immediately reads it as a regional cue (rural origin, local pride, a comedic beat) the way an English speaker reads a Southern American or Scottish accent in a film."
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "The C2 goal with dialects like Tohoku-ben or Hakata-ben is to:",
+            "question": "The Mastery goal with dialects like Tohoku-ben or Hakata-ben is to:",
             "options": [
               "Produce them fluently and indistinguishably from a native regional speaker",
               "Recognize them when encountered in media/conversation and understand what cue they signal (regional origin, characterization, comedic beat)",
@@ -649,7 +649,7 @@ export const JA_C2_LESSONS: Lesson[] = [
               "Translate them into Kansai-ben"
             ],
             "correctIndex": 1,
-            "explanation": "Recognition, not production, is the realistic and useful C2 target for most learners regarding non-Kansai dialects."
+            "explanation": "Recognition, not production, is the realistic and useful Mastery target for most learners regarding non-Kansai dialects."
           }
         ]
       }
@@ -716,7 +716,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Dialect as Characterization in Fiction (cont'd)",
         "body": [
-          "This means dialect in fiction is rarely just geographic flavor -- it's often doing real characterization work, and a C2 reader/viewer should notice when and why a character's speech shifts register or dialect, not just that it happened."
+          "This means dialect in fiction is rarely just geographic flavor -- it's often doing real characterization work, and a Mastery reader/viewer should notice when and why a character's speech shifts register or dialect, not just that it happened."
         ],
         "checkpoint": [
           {
@@ -747,7 +747,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Irony Without Vocal Sarcasm Markers",
         "body": [
-          "Spoken English often signals sarcasm through exaggerated tone. Japanese relies more on context, timing, and specific lexical choices than on tone alone. よくやるね (\"you really do that a lot, don't you\") can be sincere admiration or cutting sarcasm depending entirely on context -- there's no reliable prosodic marker distinguishing them, which is exactly why C1/C2 listening comprehension requires tracking the whole situational context, not just parsing the sentence."
+          "Spoken English often signals sarcasm through exaggerated tone. Japanese relies more on context, timing, and specific lexical choices than on tone alone. よくやるね (\"you really do that a lot, don't you\") can be sincere admiration or cutting sarcasm depending entirely on context -- there's no reliable prosodic marker distinguishing them, which is exactly why Advanced & Mastery listening comprehension requires tracking the whole situational context, not just parsing the sentence."
         ],
         "examples": [
           {
@@ -863,7 +863,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Weaponized Over-Politeness (cont'd)",
         "body": [
-          "This is why C2 listening comprehension includes tracking register shifts, not just vocabulary: a sudden jump in politeness level between two people who know each other well is itself the message, independent of what's actually being said."
+          "This is why Mastery listening comprehension includes tracking register shifts, not just vocabulary: a sudden jump in politeness level between two people who know each other well is itself the message, independent of what's actually being said."
         ],
         "checkpoint": [
           {
@@ -920,7 +920,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "What is the C2 skill being tested by weaponized over-politeness and ironic さすが?",
+        "question": "What is the Mastery skill being tested by weaponized over-politeness and ironic さすが?",
         "options": [
           "Vocabulary memorization alone",
           "Tracking situational context and register shifts to correctly interpret meaning beyond the literal words",
@@ -943,7 +943,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Understatement as Rhetorical Force (cont'd)",
         "body": [
-          "A C2 speaker needs to both decode this correctly when hearing it (not underestimate a \"small\" problem) and be able to produce it appropriately (not escalate language to match the true severity, which would read as alarmist or undiplomatic in many professional Japanese contexts)."
+          "A Mastery speaker needs to both decode this correctly when hearing it (not underestimate a \"small\" problem) and be able to produce it appropriately (not escalate language to match the true severity, which would read as alarmist or undiplomatic in many professional Japanese contexts)."
         ],
         "checkpoint": [
           {
@@ -1114,7 +1114,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Why Simple-Grammar Jokes Can Still Be Hard to Get",
         "body": [
-          "A joke can use only beginner-level vocabulary and grammar and still be essentially opaque without the cultural context to recognize what's being played with -- a reference to a specific commercial, a well-known manzai duo's catchphrase, a pun that only lands if you know a particular homophone pair natives absorb young. This is precisely why C2 fluency includes cultural literacy, not just linguistic mastery: grammatical comprehension and getting the joke are different skills."
+          "A joke can use only beginner-level vocabulary and grammar and still be essentially opaque without the cultural context to recognize what's being played with -- a reference to a specific commercial, a well-known manzai duo's catchphrase, a pun that only lands if you know a particular homophone pair natives absorb young. This is precisely why Mastery fluency includes cultural literacy, not just linguistic mastery: grammatical comprehension and getting the joke are different skills."
         ],
         "examples": [
           {
@@ -1150,7 +1150,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Why Simple-Grammar Jokes Can Still Be Hard to Get (cont'd)",
         "body": [
-          "A practical C2 habit: when a joke gets a laugh you don't understand, it's often worth asking directly what's funny about it rather than assuming you misheard the grammar -- native speakers are usually happy to explain a pun or reference, and doing so is one of the fastest ways to build the specific cultural vocabulary humor draws on."
+          "A practical Mastery habit: when a joke gets a laugh you don't understand, it's often worth asking directly what's funny about it rather than assuming you misheard the grammar -- native speakers are usually happy to explain a pun or reference, and doing so is one of the fastest ways to build the specific cultural vocabulary humor draws on."
         ],
         "checkpoint": [
           {
@@ -1171,7 +1171,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "A practical C2 strategy when a joke gets a laugh you don't understand is to:",
+        "question": "A practical Mastery strategy when a joke gets a laugh you don't understand is to:",
         "options": [
           "Pretend you understood and laugh along without ever asking",
           "Ask directly what's funny about it, since natives are usually happy to explain",
@@ -1234,7 +1234,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "本音 and 建前: True Feelings vs. Public Stance (cont'd)",
         "body": [
-          "This isn't \"Japanese people are dishonest\" -- it's an explicitly acknowledged, normal social mechanism: a business partner saying 前向きに検討します (\"we'll consider it positively\") as tatemae often means, as honne, \"this isn't happening,\" and both parties typically understand this. A C2 speaker needs to read tatemae for its social function without either being fooled by it or treating its use as a personal betrayal."
+          "This isn't \"Japanese people are dishonest\" -- it's an explicitly acknowledged, normal social mechanism: a business partner saying 前向きに検討します (\"we'll consider it positively\") as tatemae often means, as honne, \"this isn't happening,\" and both parties typically understand this. A Mastery speaker needs to read tatemae for its social function without either being fooled by it or treating its use as a personal betrayal."
         ],
         "checkpoint": [
           {
@@ -1457,7 +1457,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Hedging Claims in Research Writing",
         "body": [
-          "Japanese academic writing hedges claims even more consistently than the general formal register covered at C1. 〜と考えられる (thought to be) and 〜と推測される (surmised/conjectured to be) are standard for presenting a conclusion drawn from data without overclaiming certainty. 〜可能性が示唆される (\"the possibility is suggested that...\") is even more cautious, common in discussion sections when the data is suggestive but not conclusive."
+          "Japanese academic writing hedges claims even more consistently than the general formal register covered at the Advanced level. 〜と考えられる (thought to be) and 〜と推測される (surmised/conjectured to be) are standard for presenting a conclusion drawn from data without overclaiming certainty. 〜可能性が示唆される (\"the possibility is suggested that...\") is even more cautious, common in discussion sections when the data is suggestive but not conclusive."
         ],
         "examples": [
           {
@@ -1927,7 +1927,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Headline Compression Conventions",
         "body": [
-          "Newspaper headlines routinely drop particles, use 体言止め (noun-ending, covered at C1), and rely on standardized abbreviations for common institutions and countries: 米 for America (米国), 日 for Japan when paired with another country code, 英 for the UK, 中 for China, 露 for Russia. 首相、訪米へ (PM, toward a US visit) drops both the subject particle and most verb conjugation, relying on context and convention to fill in \"the Prime Minister is planning to visit America.\""
+          "Newspaper headlines routinely drop particles, use 体言止め (noun-ending, covered at Advanced), and rely on standardized abbreviations for common institutions and countries: 米 for America (米国), 日 for Japan when paired with another country code, 英 for the UK, 中 for China, 露 for Russia. 首相、訪米へ (PM, toward a US visit) drops both the subject particle and most verb conjugation, relying on context and convention to fill in \"the Prime Minister is planning to visit America.\""
         ],
         "examples": [
           {
@@ -2367,12 +2367,12 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Where Even Native Speakers Disagree (cont'd)",
         "body": [
-          "〜させていただく overuse -- attaching it to nearly any action regardless of whether genuine permission from the listener is conceptually involved -- is similarly a live point of native disagreement: some consider heavy させていただく use appropriately humble, others consider it an overused, slightly hollow verbal tic. A C2 speaker should recognize these as contested rather than settled \"correct vs. incorrect\" questions, and calibrate their own usage moderately rather than adopting either extreme."
+          "〜させていただく overuse -- attaching it to nearly any action regardless of whether genuine permission from the listener is conceptually involved -- is similarly a live point of native disagreement: some consider heavy させていただく use appropriately humble, others consider it an overused, slightly hollow verbal tic. A Mastery speaker should recognize these as contested rather than settled \"correct vs. incorrect\" questions, and calibrate their own usage moderately rather than adopting either extreme."
         ],
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "What is the C2-appropriate stance toward contested usages like よろしかったでしょうか or heavy させていただく overuse?",
+            "question": "What is the Mastery level-appropriate stance toward contested usages like よろしかったでしょうか or heavy させていただく overuse?",
             "options": [
               "Treat them as simply, objectively incorrect and avoid them entirely",
               "Recognize them as genuinely contested among native speakers and calibrate one's own usage moderately rather than adopting an extreme",
@@ -2388,7 +2388,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "A C2 speaker's appropriate approach to heavy させていただく overuse debates is to:",
+        "question": "A Mastery speaker's appropriate approach to heavy させていただく overuse debates is to:",
         "options": [
           "Adopt one extreme position and never reconsider it",
           "Recognize the usage is contested and calibrate their own use moderately",
@@ -2405,7 +2405,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 58,
     "title": "Register-Mixing in Authentic Modern Text, Part 1 of 3",
-    "summary": "Read the way modern Japanese actually gets written outside textbooks: a single magazine article, social media post, or novel passage often blends casual, formal, classical-flavored, and loanword-heavy registers within a few sentences, and a C2 reader needs to track every shift without losing the thread.",
+    "summary": "Read the way modern Japanese actually gets written outside textbooks: a single magazine article, social media post, or novel passage often blends casual, formal, classical-flavored, and loanword-heavy registers within a few sentences, and a Mastery reader needs to track every shift without losing the thread.",
     "duration": "10 min",
     "sections": [
       {
@@ -2431,7 +2431,7 @@ export const JA_C2_LESSONS: Lesson[] = [
               "It only happens in legal documents"
             ],
             "correctIndex": 1,
-            "explanation": "Skilled writers deliberately shift registers for narrative or tonal effect; recognizing this as intentional, not sloppy, is a C2 reading skill."
+            "explanation": "Skilled writers deliberately shift registers for narrative or tonal effect; recognizing this as intentional, not sloppy, is a Mastery reading skill."
           }
         ]
       }
@@ -2456,7 +2456,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 59,
     "title": "Register-Mixing in Authentic Modern Text, Part 2 of 3",
-    "summary": "Read the way modern Japanese actually gets written outside textbooks: a single magazine article, social media post, or novel passage often blends casual, formal, classical-flavored, and loanword-heavy registers within a few sentences, and a C2 reader needs to track every shift without losing the thread.",
+    "summary": "Read the way modern Japanese actually gets written outside textbooks: a single magazine article, social media post, or novel passage often blends casual, formal, classical-flavored, and loanword-heavy registers within a few sentences, and a Mastery reader needs to track every shift without losing the thread.",
     "duration": "10 min",
     "sections": [
       {
@@ -2492,7 +2492,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 60,
     "title": "Register-Mixing in Authentic Modern Text, Part 3 of 3",
-    "summary": "Read the way modern Japanese actually gets written outside textbooks: a single magazine article, social media post, or novel passage often blends casual, formal, classical-flavored, and loanword-heavy registers within a few sentences, and a C2 reader needs to track every shift without losing the thread.",
+    "summary": "Read the way modern Japanese actually gets written outside textbooks: a single magazine article, social media post, or novel passage often blends casual, formal, classical-flavored, and loanword-heavy registers within a few sentences, and a Mastery reader needs to track every shift without losing the thread.",
     "duration": "10 min",
     "sections": [
       {
@@ -2511,7 +2511,7 @@ export const JA_C2_LESSONS: Lesson[] = [
               "The text to become ungrammatical"
             ],
             "correctIndex": 1,
-            "explanation": "Register-tracking errors are comprehension errors distinct from vocabulary gaps -- a C2 reader must track voice boundaries precisely."
+            "explanation": "Register-tracking errors are comprehension errors distinct from vocabulary gaps -- a Mastery reader must track voice boundaries precisely."
           }
         ]
       }
@@ -2540,7 +2540,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "duration": "6 min",
     "sections": [
       {
-        "heading": "Reading: A Short Piece Layering Multiple C2 Registers",
+        "heading": "Reading: A Short Piece Layering Multiple Mastery Registers",
         "body": [
           "The following short passage imagines a magazine retrospective piece on a retiring craftsman, deliberately combining several devices from this level. Read it through once for overall meaning before the breakdown that follows.",
           "職人歴五十年。彼の手は、まさに『動く歴史』であった。「もうええわ、十分やった」--インタビューの最後、彼は関西弁でそう漏らした。もったいないと惜しむ声は多いが、本人の本音は違うのかもしれない。長年の労働がもたらした静かな満足感--それは、傍から見る「もったいない」とは、別の種類の豊かさであるように思われる。"
@@ -2581,7 +2581,7 @@ export const JA_C2_LESSONS: Lesson[] = [
     "duration": "10 min",
     "sections": [
       {
-        "heading": "Reading: A Short Piece Layering Multiple C2 Registers (cont'd)",
+        "heading": "Reading: A Short Piece Layering Multiple Mastery Registers (cont'd)",
         "body": [
           "This moves through: である調 formal opening (職人歴五十年〜であった) → a kakekotoba-adjacent metaphor (『動く歴史』, \"a moving history,\" framing his hands poetically) → a sudden shift into Kansai-ben direct quotation (もうええわ, 十分やった) → もったいない used in its full culturally-loaded sense → an academic-flavored hedge closing the paragraph (〜ように思われる)."
         ],
@@ -2693,7 +2693,7 @@ export const JA_C2_LESSONS: Lesson[] = [
       {
         "heading": "Unpacking the Final Sentence's Layered Hedge (cont'd)",
         "body": [
-          "Recognizing all of this at once -- the poetic metaphor, the dialect-marked authenticity, the implicit tatemae/honne contrast, and the academic hedge -- without any of it being explicitly labeled in the text is the actual target skill of C2 reading: doing this unpacking automatically and quickly, the way a native reader does, rather than working through the passage device-by-device as an exercise."
+          "Recognizing all of this at once -- the poetic metaphor, the dialect-marked authenticity, the implicit tatemae/honne contrast, and the academic hedge -- without any of it being explicitly labeled in the text is the actual target skill of Mastery reading: doing this unpacking automatically and quickly, the way a native reader does, rather than working through the passage device-by-device as an exercise."
         ],
         "checkpoint": [
           {
@@ -2710,7 +2710,7 @@ export const JA_C2_LESSONS: Lesson[] = [
           },
           {
             "type": "multiple-choice",
-            "question": "The actual C2 reading skill this passage tests is:",
+            "question": "The actual Mastery reading skill this passage tests is:",
             "options": [
               "Memorizing each device's name",
               "Automatically and quickly recognizing how multiple layered devices (register shift, cultural concept, hedging) combine to build meaning, the way a native reader does",
@@ -2718,7 +2718,7 @@ export const JA_C2_LESSONS: Lesson[] = [
               "Identifying only the kanji readings"
             ],
             "correctIndex": 1,
-            "explanation": "C2 fluency means this multi-device unpacking happens fluidly during ordinary reading, not as a separate deliberate analytical exercise."
+            "explanation": "Mastery fluency means this multi-device unpacking happens fluidly during ordinary reading, not as a separate deliberate analytical exercise."
           }
         ]
       }
@@ -2734,7 +2734,7 @@ export const JA_C2_LESSONS: Lesson[] = [
           "Identifying only unfamiliar vocabulary"
         ],
         "correctIndex": 1,
-        "explanation": "C2 mastery means integrating register-tracking, cultural concepts, and rhetorical hedging simultaneously and unconsciously during normal reading."
+        "explanation": "Mastery mastery means integrating register-tracking, cultural concepts, and rhetorical hedging simultaneously and unconsciously during normal reading."
       }
     ]
   },
@@ -2743,13 +2743,13 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 66,
     "title": "JA-C2 Vocabulary Practice, Part 1 of 6",
-    "summary": "Mixed review of C2 concepts and set expressions, part 1 of 6.",
+    "summary": "Mixed review of Mastery concepts and set expressions, part 1 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 1",
         "body": [
-          "Review the C2 concepts and expressions introduced across this level's topics. Set 1 of 6."
+          "Review the Mastery concepts and expressions introduced across this level's topics. Set 1 of 6."
         ],
         "examples": [
           {
@@ -2859,13 +2859,13 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 67,
     "title": "JA-C2 Vocabulary Practice, Part 2 of 6",
-    "summary": "Mixed review of C2 concepts and set expressions, part 2 of 6.",
+    "summary": "Mixed review of Mastery concepts and set expressions, part 2 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 2",
         "body": [
-          "Review the C2 concepts and expressions introduced across this level's topics. Set 2 of 6."
+          "Review the Mastery concepts and expressions introduced across this level's topics. Set 2 of 6."
         ],
         "examples": [
           {
@@ -2975,13 +2975,13 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 68,
     "title": "JA-C2 Vocabulary Practice, Part 3 of 6",
-    "summary": "Mixed review of C2 concepts and set expressions, part 3 of 6.",
+    "summary": "Mixed review of Mastery concepts and set expressions, part 3 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 3",
         "body": [
-          "Review the C2 concepts and expressions introduced across this level's topics. Set 3 of 6."
+          "Review the Mastery concepts and expressions introduced across this level's topics. Set 3 of 6."
         ],
         "examples": [
           {
@@ -3091,13 +3091,13 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 69,
     "title": "JA-C2 Vocabulary Practice, Part 4 of 6",
-    "summary": "Mixed review of C2 concepts and set expressions, part 4 of 6.",
+    "summary": "Mixed review of Mastery concepts and set expressions, part 4 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 4",
         "body": [
-          "Review the C2 concepts and expressions introduced across this level's topics. Set 4 of 6."
+          "Review the Mastery concepts and expressions introduced across this level's topics. Set 4 of 6."
         ],
         "examples": [
           {
@@ -3207,13 +3207,13 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 70,
     "title": "JA-C2 Vocabulary Practice, Part 5 of 6",
-    "summary": "Mixed review of C2 concepts and set expressions, part 5 of 6.",
+    "summary": "Mixed review of Mastery concepts and set expressions, part 5 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 5",
         "body": [
-          "Review the C2 concepts and expressions introduced across this level's topics. Set 5 of 6."
+          "Review the Mastery concepts and expressions introduced across this level's topics. Set 5 of 6."
         ],
         "examples": [
           {
@@ -3323,13 +3323,13 @@ export const JA_C2_LESSONS: Lesson[] = [
     "level": "JA-C2",
     "number": 71,
     "title": "JA-C2 Vocabulary Practice, Part 6 of 6",
-    "summary": "Mixed review of C2 concepts and set expressions, part 6 of 6.",
+    "summary": "Mixed review of Mastery concepts and set expressions, part 6 of 6.",
     "duration": "6 min",
     "sections": [
       {
         "heading": "Vocabulary Review, Set 6",
         "body": [
-          "Review the C2 concepts and expressions introduced across this level's topics. Set 6 of 6."
+          "Review the Mastery concepts and expressions introduced across this level's topics. Set 6 of 6."
         ],
         "examples": [
           {

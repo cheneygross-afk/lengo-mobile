@@ -660,7 +660,7 @@ export const KO_B2_U14: Lesson[] = [
       {
         heading: "-에 따르면: according to",
         body: [
-          "-에 따르면 'according to' names the source at the start of a sentence: 경찰에 따르면, 기상청에 따르면 'according to the weather agency', 업계에 따르면 'according to the industry'. It attaches to a noun. The end of the sentence then marks the claim as someone else's, usually with reported speech (B1): 경찰에 따르면 운전자는 졸음운전을 했다고 한다. The source at the front and -다고 at the end belong together; a plain 했다 would present the claim as the writer's own fact.",
+          "-에 따르면 'according to' names the source at the start of a sentence: 경찰에 따르면, 기상청에 따르면 'according to the weather agency', 업계에 따르면 'according to the industry'. It attaches to a noun. The end of the sentence then marks the claim as someone else's, usually with reported speech (Intermediate): 경찰에 따르면 운전자는 졸음운전을 했다고 한다. The source at the front and -다고 at the end belong together; a plain 했다 would present the claim as the writer's own fact.",
           "In conversation it sounds a little bookish but is perfectly natural when you cite something: 뉴스에 따르면 내일 첫눈이 온대요. Don't confuse it with 에 따라 'depending on, in line with': 지역에 따라 다르다 'it varies by region'. Without -면, it no longer names a source.",
         ],
         examples: [
@@ -1684,7 +1684,7 @@ export const KO_B2_U14: Lesson[] = [
             source: "Complaints that accommodation is expensive reportedly remain.",
             answer: "숙박비가 비싸다는 불만이 여전한 것으로 알려졌다.",
             altAnswers: ["숙박비가 비싸다는 불만도 여전한 것으로 알려졌다.", "숙박비가 비싸다는 불만이 여전히 있는 것으로 알려졌다.", "숙박비가 비싸다는 불만이 여전한 것으로 전해졌다.", "숙박비가 비싸다는 불만이 계속되고 있는 것으로 알려졌다.", "숙소가 비싸다는 불만이 여전한 것으로 알려졌다."],
-            explanation: "-다는 불만 'complaints that ...' (B1 -다는 modifier); 여전하다 'to remain as before' + -(으)ㄴ 것으로 알려졌다 'reportedly'.",
+            explanation: "-다는 불만 'complaints that ...' (Intermediate -다는 modifier); 여전하다 'to remain as before' + -(으)ㄴ 것으로 알려졌다 'reportedly'.",
           },
         ],
       },
@@ -1830,7 +1830,7 @@ export const KO_B2_U14: Lesson[] = [
       {
         heading: "Up and down: 뚝, 쑥, 껑충, 주춤",
         body: [
-          "Headline adverbs are mimetic words (B1 Unit 20) used as a whole verb, often in single quotation marks. 뚝 is a sudden drop: 기온 '뚝', 매출 '뚝'. 쑥 is something shooting up or growing fast. 껑충 is a big leap, used for prices and numbers: 집값 '껑충'. 주춤 is a pause or slowdown, the stumble of something that was moving: 상승세 '주춤' 'the rise slows'.",
+          "Headline adverbs are mimetic words (Intermediate Unit 20) used as a whole verb, often in single quotation marks. 뚝 is a sudden drop: 기온 '뚝', 매출 '뚝'. 쑥 is something shooting up or growing fast. 껑충 is a big leap, used for prices and numbers: 집값 '껑충'. 주춤 is a pause or slowdown, the stumble of something that was moving: 상승세 '주춤' 'the rise slows'.",
           "Read them as verbs: 뚝 = 크게 줄었다 or 떨어졌다, 쑥 and 껑충 = 크게 늘었다 or 올랐다, 주춤 = 주춤했다, 느려졌다 or 잠시 멈췄다. An option that keeps the topic but reverses the direction is the classic trap.",
         ],
         examples: [
@@ -2418,7 +2418,7 @@ export const KO_B2_U14: Lesson[] = [
         prompt: "Correct your friend in Korean (polite): No, 인상 means it went up.",
         text: "아니에요, 인상은 올랐다는 뜻이에요.",
         tip: "올랐다는 is said [올랃따는]; 뜻이에요 is [뜨시에요].",
-        explanation: "-다는 뜻이에요 'it means that' (B1) is handy for explaining a word.",
+        explanation: "-다는 뜻이에요 'it means that' (Intermediate) is handy for explaining a word.",
       },
     ],
   },

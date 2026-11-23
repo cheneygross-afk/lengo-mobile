@@ -55,7 +55,7 @@ export const PT_C1_U08: Lesson[] = [
       {
         heading: "Resumptive pronouns: o João, ninguém aguenta ele",
         body: [
-          "Speech often goes a step further and leaves a pronoun in the comment that points back to the topic: \"O João, ninguém aguenta ele.\" This resumptive pronoun is the spoken object \"ele\" / \"ela\" you've used since A2. With things, both the gap and the pronoun work. With people, Brazilians usually prefer the pronoun.",
+          "Speech often goes a step further and leaves a pronoun in the comment that points back to the topic: \"O João, ninguém aguenta ele.\" This resumptive pronoun is the spoken object \"ele\" / \"ela\" you've used since the Elementary level. With things, both the gap and the pronoun work. With people, Brazilians usually prefer the pronoun.",
           "Some topics can't leave a gap at all, because a gap couldn't show their role. A possessor needs \"dele\" / \"dela\": \"Meu irmão, a namorada dele mora em Recife.\" A prepositional object needs the preposition plus a pronoun: \"Esse assunto, ninguém fala dele.\" English does this in casual talk too ('My brother, his girlfriend...'), but Portuguese uses it far more freely.",
           "Learn to recognize one step beyond this, the topic-subject: \"Meu celular quebrou a tela\" (my phone's screen broke), \"Essa casa bate muito sol\" (this house gets a lot of sun). Here the topic has become the grammatical subject. You'll hear it everywhere in conversation, but careful writing avoids it.",
         ],

@@ -1289,7 +1289,7 @@ export const PT_C2_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `Is "assistir o jogo" wrong?`,
-        a: `In speech it's universal. In the written norm, exams and professional writing, "assistir a" is expected. Some modern grammars accept the direct object, but a C2 writer should know the norm and use it in formal texts.`,
+        a: `In speech it's universal. In the written norm, exams and professional writing, "assistir a" is expected. Some modern grammars accept the direct object, but a Mastery writer should know the norm and use it in formal texts.`,
       },
       {
         q: `"Chegar em casa" or "chegar a casa"?`,

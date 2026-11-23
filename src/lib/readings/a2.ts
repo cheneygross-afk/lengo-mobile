@@ -28,56 +28,56 @@ export const A2_READINGS: Reading[] = [
     title: "El ascensor",
     author: "José Luis Ocasar Ariza, Ana Isabel Blanco Picado y Abel Murcia Soriano",
     description:
-      "A slightly longer Edinumen graded reader about strangers trapped in an elevator, written for readers who've outgrown the very simplest A1 texts.",
+      "A slightly longer Edinumen graded reader about strangers trapped in an elevator, written for readers who've outgrown the very simplest Beginner texts.",
     amazonUrl: amazonSearchUrl("El ascensor", "José Luis Ocasar Ariza, Ana Isabel Blanco Picado y Abel Murcia Soriano"),
   },
   {
     title: "Manuela",
     author: "José Luis Ocasar Ariza, Abel Murcia Soriano, Eva García Rodríguez y Flavia Puppo",
     description:
-      "A character-driven A2 story from the Edinumen graded-reader series, with the same pre-reading activities and comprehension exercises that run through the whole collection.",
+      "A character-driven Elementary story from the Edinumen graded-reader series, with the same pre-reading activities and comprehension exercises that run through the whole collection.",
     amazonUrl: amazonSearchUrl("Manuela", "José Luis Ocasar Ariza, Abel Murcia Soriano, Eva García Rodríguez y Flavia Puppo"),
   },
   {
     title: "El paraguas blanco",
     author: "José Luis Ocasar Ariza, Abel Murcia Soriano y Pilar Díaz Ballesteros",
     description:
-      "A short A2 mystery built around a mysterious white umbrella and the questions it raises, from the same Edinumen graded-reader line.",
+      "A short Elementary mystery built around a mysterious white umbrella and the questions it raises, from the same Edinumen graded-reader line.",
     amazonUrl: amazonSearchUrl("El paraguas blanco", "José Luis Ocasar Ariza, Abel Murcia Soriano y Pilar Díaz Ballesteros"),
   },
   {
     title: "El secreto de Diana",
     author: "María Luisa Rodríguez Sordo, José Luis Ocasar Ariza y Abel Murcia Soriano",
     description:
-      "Another Edinumen A2 reader, following a young woman's secret with the same format of pre-reading support and comprehension checks as the rest of the series.",
+      "Another Edinumen Elementary reader, following a young woman's secret with the same format of pre-reading support and comprehension checks as the rest of the series.",
     amazonUrl: amazonSearchUrl("El secreto de Diana", "María Luisa Rodríguez Sordo, José Luis Ocasar Ariza y Abel Murcia Soriano"),
   },
   {
     title: "Sofía la Hipocondríaca",
     author: "Ana Martín",
     description:
-      "A short story about a hypochondriac named Sofía, written for \"upper-beginner\" A2 readers ready for longer, more varied sentences than true A1 texts.",
+      "A short story about a hypochondriac named Sofía, written for \"upper-beginner\" Elementary readers ready for longer, more varied sentences than true Beginner texts.",
     amazonUrl: amazonSearchUrl("Sofía la Hipocondríaca", "Ana Martín"),
   },
   {
     title: "El Asedio del Supermercado",
     author: "Ana Martín",
     description:
-      "A second A2 short story from the same author, following the same steady build in vocabulary and sentence complexity.",
+      "A second Elementary short story from the same author, following the same steady build in vocabulary and sentence complexity.",
     amazonUrl: amazonSearchUrl("El Asedio del Supermercado", "Ana Martín"),
   },
   {
     title: "Enigma en la playa",
     author: "María Danader",
     description:
-      "A beach mystery pitched at \"upper-beginner\" A2 level, with downloadable audio and a vocabulary index for readers moving past their first Spanish books.",
+      "A beach mystery pitched at \"upper-beginner\" Elementary level, with downloadable audio and a vocabulary index for readers moving past their first Spanish books.",
     amazonUrl: amazonSearchUrl("Enigma en la playa", "María Danader"),
   },
   {
     title: "La chica del bar",
     author: "Estefanía Quevedo Lusby",
     description:
-      "A short mystery about a bar regular and the puzzling woman he meets, explicitly marketed at A2 \"upper-beginner\" level, with illustrations and accompanying music.",
+      "A short mystery about a bar regular and the puzzling woman he meets, explicitly marketed at the Elementary level \"upper-beginner\" level, with illustrations and accompanying music.",
     amazonUrl: amazonSearchUrl("La chica del bar", "Estefanía Quevedo Lusby"),
   },
   {
@@ -112,7 +112,7 @@ export const A2_READINGS: Reading[] = [
     title: "Spanish Novels: Laura no está",
     author: "Paco Ardit",
     description:
-      "A pre-intermediate entry in Paco Ardit's popular series, keeping the short-chapter structure of the A1 books but stepping up the vocabulary and grammar.",
+      "A pre-intermediate entry in Paco Ardit's popular series, keeping the short-chapter structure of the Beginner books but stepping up the vocabulary and grammar.",
     amazonUrl: amazonSearchUrl("Spanish Novels: Laura no está", "Paco Ardit"),
   },
 ];

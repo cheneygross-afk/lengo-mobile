@@ -65,7 +65,7 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "혹시 and 좀: making it easy to say no",
         body: [
-          "혹시 'by any chance' (A2) turns a question into one the listener can easily answer with no: 혹시 시간 있으세요? sounds far gentler than 시간 있으세요?, because it assumes nothing. Koreans put it before almost any request to someone outside the family. It is closer to 'I was wondering if' than to 'perhaps'.",
+          "혹시 'by any chance' (Elementary) turns a question into one the listener can easily answer with no: 혹시 시간 있으세요? sounds far gentler than 시간 있으세요?, because it assumes nothing. Koreans put it before almost any request to someone outside the family. It is closer to 'I was wondering if' than to 'perhaps'.",
           "좀 is short for 조금, but in a request it rarely means 'a little'; it works like English 'please' or 'just': 이것 좀 봐 주세요 'could you have a look at this?'. It sits right after the object, which usually drops its 을 / 를: 물 좀 주세요, 문 좀 열어 주세요. A request without 좀 is grammatical but can sound like an order, especially in 반말: 이거 해 is an order, 이거 좀 해 줘 a request.",
         ],
         examples: [
@@ -235,8 +235,8 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "The ladder: 해 주세요 to 해 주시면 감사하겠습니다",
         body: [
-          "Korean has a ladder of request forms, and the higher you climb, the more the request sounds like a question the listener could refuse. 해 주세요 'please do' is polite but still an instruction: fine in shops and for small things anyone would do. 해 주시겠어요? 'would you do it?' asks about the listener's willingness, with -겠- softening it (A2).",
-          "해 주실 수 있을까요? 'I wonder if you could' is a step softer again: it asks whether doing it is even possible, and -(으)ㄹ까요 turns the question into a musing. 해 주시면 감사하겠습니다 'I would be grateful if you could' is the top rung: formal, used in emails, announcements and to customers or senior people (B1 Unit 19).",
+          "Korean has a ladder of request forms, and the higher you climb, the more the request sounds like a question the listener could refuse. 해 주세요 'please do' is polite but still an instruction: fine in shops and for small things anyone would do. 해 주시겠어요? 'would you do it?' asks about the listener's willingness, with -겠- softening it (Elementary).",
+          "해 주실 수 있을까요? 'I wonder if you could' is a step softer again: it asks whether doing it is even possible, and -(으)ㄹ까요 turns the question into a musing. 해 주시면 감사하겠습니다 'I would be grateful if you could' is the top rung: formal, used in emails, announcements and to customers or senior people (Intermediate Unit 19).",
           "Trap: English 'Can you...?' is not 할 수 있어요?, which asks about ability (영어 할 수 있어요? 'Can you speak English?'). A request needs -아 / 어 주다: 도와주실 수 있어요?, 확인해 주실 수 있을까요?",
         ],
         examples: [
@@ -312,7 +312,7 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "A wish as a hint: -았 / 었으면 좋겠는데요",
         body: [
-          "B1 taught -았 / 었으면 좋겠다 'I wish': 주말이었으면 좋겠어요. With -아 / 어 주다 it becomes a request: 조금 일찍 와 주셨으면 좋겠어요 'I'd like you to come a little early'. End it with -는데요 instead and the request fades into a hint: 조금만 조용히 해 주셨으면 좋겠는데요... The listener supplies the rest, so nobody has to give an order or refuse one.",
+          "The Intermediate level taught -았 / 었으면 좋겠다 'I wish': 주말이었으면 좋겠어요. With -아 / 어 주다 it becomes a request: 조금 일찍 와 주셨으면 좋겠어요 'I'd like you to come a little early'. End it with -는데요 instead and the request fades into a hint: 조금만 조용히 해 주셨으면 좋겠는데요... The listener supplies the rest, so nobody has to give an order or refuse one.",
           "Koreans use this hint with neighbours, colleagues and staff, especially when complaining: 다음부터는 미리 연락해 주셨으면 좋겠는데요. Without 주다 it is a wish about the situation: 오늘 안에 끝났으면 좋겠는데요. Say 좋겠는데요 as [조켄는데요].",
         ],
         examples: [
@@ -445,7 +445,7 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "-(으)ㄹ 것 같아요 for your own view",
         body: [
-          "In A2, -(으)ㄹ 것 같다 was a guess. Koreans also use it for things they actually think, because a flat statement of opinion can sound like a verdict. Compare 이 계획은 어려워요 'this plan is difficult' with 이 계획은 좀 어려울 것 같아요 'I think this plan might be a bit difficult'. The second leaves room for the other person to disagree.",
+          "In the Elementary level, -(으)ㄹ 것 같다 was a guess. Koreans also use it for things they actually think, because a flat statement of opinion can sound like a verdict. Compare 이 계획은 어려워요 'this plan is difficult' with 이 계획은 좀 어려울 것 같아요 'I think this plan might be a bit difficult'. The second leaves room for the other person to disagree.",
           "Typical frames are 제 생각에는 ... -(으)ㄹ 것 같아요 and 이게 더 좋을 것 같아요. For something in front of you now, use -(으)ㄴ / 는 것 같아요: 이 옷이 저한테 좀 작은 것 같아요. 그건 좀 힘들 것 같아요 is so soft that it often means no (lesson 5).",
           "Some teachers criticise 맛있는 것 같아요 about your own food as over-hedged. It is very common, especially among younger speakers, so it is not wrong; but in a TOPIK essay state your view with -다고 생각한다.",
         ],
@@ -488,8 +488,8 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "-지 않을까요? for soft suggestions",
         body: [
-          "A negative question invites agreement instead of announcing an opinion: 이게 더 낫지 않을까요? 'wouldn't this be better?'. The speaker means 'this is better', but frames it as a question the other person can answer. B1 taught -는 게 좋지 않을까요?; at B2 use the frame with any adjective or verb: 너무 비싸지 않을까요?, 시간이 부족하지 않을까요?, 부장님이 싫어하시지 않을까요?",
-          "낫다 'be better' keeps its ㅅ before -지: 낫지 않을까요? A natural reply agrees or adds: 그게 낫겠네요, 그렇네요. In a meeting, -지 않을까 싶어요 (B1) is an even gentler version: 금요일이 더 좋지 않을까 싶어요.",
+          "A negative question invites agreement instead of announcing an opinion: 이게 더 낫지 않을까요? 'wouldn't this be better?'. The speaker means 'this is better', but frames it as a question the other person can answer. The Intermediate level taught -는 게 좋지 않을까요?; at Upper-intermediate use the frame with any adjective or verb: 너무 비싸지 않을까요?, 시간이 부족하지 않을까요?, 부장님이 싫어하시지 않을까요?",
+          "낫다 'be better' keeps its ㅅ before -지: 낫지 않을까요? A natural reply agrees or adds: 그게 낫겠네요, 그렇네요. In a meeting, -지 않을까 싶어요 (Intermediate) is an even gentler version: 금요일이 더 좋지 않을까 싶어요.",
         ],
         examples: [
           { es: "이게 더 낫지 않을까요?", en: "Wouldn't this be better?" },
@@ -522,7 +522,7 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "-(으)ㄴ / 는 편이에요: on the whole",
         body: [
-          "-는 편이다 (B1) says 'tends to, on the whole', and it softens both criticism and self-description. 이 식당은 좀 비싼 편이에요 is kinder than 비싸요, and 제가 좀 예민한 편이라서요 explains a request without blaming anyone. It also keeps self-praise modest: 저는 요리를 잘하는 편이에요.",
+          "-는 편이다 (Intermediate) says 'tends to, on the whole', and it softens both criticism and self-description. 이 식당은 좀 비싼 편이에요 is kinder than 비싸요, and 제가 좀 예민한 편이라서요 explains a request without blaming anyone. It also keeps self-praise modest: 저는 요리를 잘하는 편이에요.",
           "Hedges stack, but don't overdo it. 제 생각에는 좀 비싼 편인 것 같아요 is fine in conversation; four hedges in one sentence sounds evasive, and when you must persuade, say it plainly: 저는 A안이 더 좋다고 생각합니다.",
         ],
         examples: [
@@ -653,13 +653,13 @@ export const KO_B2_U27: Lesson[] = [
     level: "KO-B2",
     number: 4,
     title: "Spiral: -기는 하다 for Yes-But, then -기는요",
-    summary: "Recap -기는 하다 from B1 (넓기는 넓은데 비싸요), use it to half-agree politely before adding your 'but' (맛있기는 한데 좀 비싸요, 그렇기는 한데요), and deflect praise with -기는요 (잘하기는요).",
+    summary: "Recap -기는 하다 from the Intermediate level (넓기는 넓은데 비싸요), use it to half-agree politely before adding your 'but' (맛있기는 한데 좀 비싸요, 그렇기는 한데요), and deflect praise with -기는요 (잘하기는요).",
     duration: "17 min",
     sections: [
       {
         heading: "Recap: -기는 하다 and -기는 -는데",
         body: [
-          "B1 Unit 25 taught 'admittedly' with -기는: 넓기는 넓은데 비싸요 'it's spacious, sure, but it's expensive'. There are two shapes. Repeat the verb: 넓기는 넓은데, 가기는 갔는데. Or replace the second verb with 하다: 넓기는 한데, 가기는 했는데. Both concede the first point and prepare the listener for a 'but'.",
+          "Intermediate Unit 25 taught 'admittedly' with -기는: 넓기는 넓은데 비싸요 'it's spacious, sure, but it's expensive'. There are two shapes. Repeat the verb: 넓기는 넓은데, 가기는 갔는데. Or replace the second verb with 하다: 넓기는 한데, 가기는 했는데. Both concede the first point and prepare the listener for a 'but'.",
           "In speech -기는 shrinks to -긴: 좋긴 좋네요, 맛있긴 한데요. Tense goes on the final verb, not on the -기 form: 가기는 갔어요 or 가기는 했어요 'I did go (but...)'. Nouns take 이기는 하다: 좋은 생각이기는 한데.",
           "Said alone, without the 'but', the concession still implies one. 가기는 갔어요 leaves the listener waiting for the problem, and answering 'Did you like it?' with 좋기는 했어요 is a lukewarm yes: Koreans will hear the reservation.",
         ],
@@ -869,7 +869,7 @@ export const KO_B2_U27: Lesson[] = [
       {
         heading: "The reason is the refusal: -아 / 어서요",
         body: [
-          "A flat 아니요, 안 가요 to an invitation is grammatical, but to Korean ears it rejects the person, not just the plan. The usual way is to give a reason and stop: 그날은 약속이 있어서요 'I have plans that day, so...'. The ending -아 / 어서요 (A2 Unit 18) leaves the conclusion, 'so I can't come', unsaid, and the listener understands it perfectly.",
+          "A flat 아니요, 안 가요 to an invitation is grammatical, but to Korean ears it rejects the person, not just the plan. The usual way is to give a reason and stop: 그날은 약속이 있어서요 'I have plans that day, so...'. The ending -아 / 어서요 (Elementary Unit 18) leaves the conclusion, 'so I can't come', unsaid, and the listener understands it perfectly.",
           "Start with a softener or regret and put 좀 into the reason: 아, 어떡하죠? 제가 요즘 좀 바빠서요. 죄송해요. Note the order: the apology can come before or after, but the reason carries the no. A reason does not have to be detailed; 일이 좀 있어서요 'something's come up' is enough, and pressing for details is rude.",
         ],
         examples: [
@@ -1074,13 +1074,13 @@ export const KO_B2_U27: Lesson[] = [
     level: "KO-B2",
     number: 6,
     title: "Spiral: -(으)ㄹ 테니(까) in Offers and Reassurance",
-    summary: "Recap -(으)ㄹ 테니까 from B1 (비가 올 테니까 우산 가져가세요), then use it as politeness: offer first so the other person can accept (제가 정리할 테니까 먼저 가세요) and reassure (곧 도착할 테니 조금만 기다려 주세요).",
+    summary: "Recap -(으)ㄹ 테니까 from the Intermediate level (비가 올 테니까 우산 가져가세요), then use it as politeness: offer first so the other person can accept (제가 정리할 테니까 먼저 가세요) and reassure (곧 도착할 테니 조금만 기다려 주세요).",
     duration: "17 min",
     sections: [
       {
         heading: "Recap: -(으)ㄹ 테니까, 'since it will' and 'since I will'",
         body: [
-          "B1 Unit 14 taught -(으)ㄹ 테니까 with two meanings. With someone else or the weather as subject it is a guess used as a reason: 비가 올 테니까 우산 가져가세요 'it'll probably rain, so take an umbrella'. With 제가 as subject it is your intention used as a reason: 제가 할 테니까 쉬세요 'I'll do it, so you rest'.",
+          "Intermediate Unit 14 taught -(으)ㄹ 테니까 with two meanings. With someone else or the weather as subject it is a guess used as a reason: 비가 올 테니까 우산 가져가세요 'it'll probably rain, so take an umbrella'. With 제가 as subject it is your intention used as a reason: 제가 할 테니까 쉬세요 'I'll do it, so you rest'.",
           "The second clause is almost always a request, a suggestion or an offer: -(으)세요, -(으)ㅂ시다, -지 마세요. A plain past report after it sounds unnatural: say 비가 올 것 같아서 우산을 가져갔어요, not 올 테니까 ... 가져갔어요. Spelling: 테 (from 터 + 이), spaced after -(으)ㄹ: 할 테니까. In writing and quick speech it shortens to 테니: 갈 테니 기다려.",
         ],
         examples: [
@@ -1781,7 +1781,7 @@ export const KO_B2_U27: Lesson[] = [
         source: "We'll set the next team dinner for a day that suits you, so let me know when's good.",
         answer: "다음 회식은 지은 씨 편한 날로 잡을 테니까 언제가 좋은지 알려 줘요.",
         altAnswers: ["다음 회식은 지은 씨가 편한 날로 잡을 테니까 언제가 좋은지 알려 줘요.", "다음 회식은 지은 씨 편한 날로 잡을 테니 언제가 좋은지 알려 줘요.", "다음 회식은 지은 씨 편한 날로 잡을 테니까 언제가 좋은지 말해 줘요.", "다음 회식은 지은 씨 편한 날로 잡을 테니까 언제가 좋은지 알려 주세요.", "다음 회식은 지은 씨 편한 날로 할 테니까 언제가 좋은지 알려 줘요.", "다음 회식은 지은 씨가 편한 날로 할 테니까 언제가 좋은지 알려 줘요."],
-        explanation: "날을 잡다 'set a date'; -(으)ㄹ 테니까 promises, and -는지 'whether, when' (B1) embeds the question.",
+        explanation: "날을 잡다 'set a date'; -(으)ㄹ 테니까 promises, and -는지 'whether, when' (Intermediate) embeds the question.",
       },
       {
         type: "translate",
@@ -2155,7 +2155,7 @@ export const KO_B2_U27: Lesson[] = [
             source: "Excuse me, may I ask you something?",
             answer: "실례지만 잠깐 여쭤봐도 될까요?",
             altAnswers: ["실례지만 뭐 좀 여쭤봐도 될까요?", "실례지만 하나 여쭤봐도 될까요?", "실례지만 잠깐 여쭤봐도 돼요?", "실례지만 잠깐 물어봐도 될까요?", "실례지만 뭐 좀 물어봐도 될까요?", "실례지만 하나 물어봐도 될까요?", "실례지만 잠깐 여쭤볼게요.", "실례지만 잠깐 여쭤보겠습니다."],
-            explanation: "실례 keeps the ㅖ of the root 례. 여쭤보다 is the humble 'ask' (B1 Unit 19).",
+            explanation: "실례 keeps the ㅖ of the root 례. 여쭤보다 is the humble 'ask' (Intermediate Unit 19).",
           },
         ],
       },
@@ -2281,7 +2281,7 @@ export const KO_B2_U27: Lesson[] = [
             source: "Hello. I live downstairs in flat 302.",
             answer: "안녕하세요. 저는 아랫집 302호에 사는 사람입니다.",
             altAnswers: ["안녕하세요. 저는 아래층 302호에 사는 사람입니다.", "안녕하세요. 아랫집 302호에 사는 사람입니다.", "안녕하세요. 저는 302호에 사는 사람입니다.", "안녕하세요. 저는 아랫집 302호에 살고 있습니다.", "안녕하십니까. 저는 아랫집 302호에 사는 사람입니다."],
-            explanation: "Neighbours identify themselves by flat number: 302호, read [삼배기 호]. 아랫집 [아래찝] 'the flat below' (B1).",
+            explanation: "Neighbours identify themselves by flat number: 302호, read [삼배기 호]. 아랫집 [아래찝] 'the flat below' (Intermediate).",
           },
           {
             type: "fill-blank",
@@ -2331,7 +2331,7 @@ export const KO_B2_U27: Lesson[] = [
             source: "I'm sorry to ask this when you're busy. Thank you for your understanding.",
             answer: "바쁘신데 이런 부탁을 드려서 죄송합니다. 이해해 주셔서 감사합니다.",
             altAnswers: ["바쁘신데 이런 부탁을 드려 죄송합니다. 이해해 주셔서 감사합니다.", "바쁘신데 이런 부탁을 드려서 죄송합니다. 이해해 주시면 감사하겠습니다.", "바쁘실 텐데 이런 부탁을 드려서 죄송합니다. 이해해 주셔서 감사합니다.", "바쁘신데 이런 부탁 드려서 죄송합니다. 이해해 주셔서 감사합니다.", "바쁘신데 이런 부탁을 드려서 죄송합니다. 양해해 주셔서 감사합니다.", "바쁘신데 이런 부탁을 드려서 죄송해요. 이해해 주셔서 감사해요."],
-            explanation: "Apologise for the request with -아 / 어서 죄송합니다; 부탁을 드리다 is the humble 'make a request'. 바쁘실 텐데 (B1) also works.",
+            explanation: "Apologise for the request with -아 / 어서 죄송합니다; 부탁을 드리다 is the humble 'make a request'. 바쁘실 텐데 (Intermediate) also works.",
           },
         ],
       },

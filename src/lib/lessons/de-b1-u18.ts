@@ -8,7 +8,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Intermediate Vocabulary Practice, Part 7 of 10",
-    summary: "Book and cancel a hotel room, complain about problems and talk about train connections with key B1 words (\"stornieren\", \"verpassen\", \"die Erstattung\").",
+    summary: "Book and cancel a hotel room, complain about problems and talk about train connections with key Intermediate words (\"stornieren\", \"verpassen\", \"die Erstattung\").",
     duration: "14 min",
     sections: [
       {

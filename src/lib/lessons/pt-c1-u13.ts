@@ -16,7 +16,7 @@ export const PT_C1_U13: Lesson[] = [
         heading: "Seja como for becomes fosse como fosse",
         body: [
           "The fixed expressions of Unit 1 are built from a present subjunctive, usually echoed by a future subjunctive: \"seja como for\", \"custe o que custar\", \"aconteça o que acontecer\", \"haja o que houver\". They look frozen, but they aren't. When you narrate in the past and the expression belongs to the story's own moment, both halves move to the imperfect subjunctive: \"fosse como fosse\", \"custasse o que custasse\", \"acontecesse o que acontecesse\", \"houvesse o que houvesse\".",
-          "This is the ordinary sequence of tenses. \"Ela decidiu que iria, custasse o que custasse\" works exactly like \"ela queria que eu fosse\": a past frame calls for the imperfect subjunctive. Leaving the present form inside a past story (\"ela decidiu que iria, custe o que custar\") is the classic C1 slip. It sounds as if the narrator were making the promise today.",
+          "This is the ordinary sequence of tenses. \"Ela decidiu que iria, custasse o que custasse\" works exactly like \"ela queria que eu fosse\": a past frame calls for the imperfect subjunctive. Leaving the present form inside a past story (\"ela decidiu que iria, custe o que custar\") is the classic Advanced slip. It sounds as if the narrator were making the promise today.",
           "In the past version the two halves are identical: \"fosse... fosse\", \"custasse... custasse\". There is no future subjunctive left, because the future subjunctive looks forward from now, and the story is already over.",
         ],
         examples: [

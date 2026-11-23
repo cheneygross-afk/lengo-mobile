@@ -911,7 +911,7 @@ export const KO_B1_U29: Lesson[] = [
       {
         heading: "-(으)ㄹ까 봐: for fear that",
         body: [
-          "-(으)ㄹ까 봐 ties a worry to what you did or how you feel: 'for fear that, in case'. 품절될까 봐 두 개 샀어요 'I bought two in case it sold out'. It is built from -(으)ㄹ까 'will it?' (A2 Unit 12) and 보다 'to judge', literally 'thinking it might sell out'. The second half says what you did about it, or how you feel: 배송이 늦을까 봐 걱정이에요.",
+          "-(으)ㄹ까 봐 ties a worry to what you did or how you feel: 'for fear that, in case'. 품절될까 봐 두 개 샀어요 'I bought two in case it sold out'. It is built from -(으)ㄹ까 'will it?' (Elementary Unit 12) and 보다 'to judge', literally 'thinking it might sell out'. The second half says what you did about it, or how you feel: 배송이 늦을까 봐 걱정이에요.",
           "The forms are those of -(으)ㄹ까: 갈까 봐, 먹을까 봐, 팔릴까 봐, with irregulars as usual (춥다 → 추울까 봐). Nouns take 일까 봐: 가짜일까 봐 'in case it's fake'. Trap: this 봐 is not the 'try' of 먹어 봐요; there's no -아 / 어 before it.",
         ],
         examples: [

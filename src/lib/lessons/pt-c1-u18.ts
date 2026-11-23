@@ -1039,7 +1039,7 @@ export const PT_C1_U18: Lesson[] = [
     level: "PT-C1",
     number: 6,
     title: "Error Hunt: Midpoint Check",
-    summary: "Find and fix the typical slips of the first half of C1: fixed expressions, participle agreement, gerundismo, haver, forms of address, anglicisms, commas, o mesmo, European forms and the wrong connotation.",
+    summary: "Find and fix the typical slips of the first half of the Advanced level: fixed expressions, participle agreement, gerundismo, haver, forms of address, anglicisms, commas, o mesmo, European forms and the wrong connotation.",
     duration: "16 min",
     sections: [
       {
@@ -1258,7 +1258,7 @@ export const PT_C1_U18: Lesson[] = [
     slug: "c1-translation-relay-midpoint",
     level: "PT-C1",
     number: 7,
-    title: "Translation Relay: English Traps at C1",
+    title: "Translation Relay: English Traps at the Advanced Level",
     summary: "Translate English sentences full of traps: -ing clauses, must have, whatever, the only one who, it was ... who, that is to say and laid off.",
     duration: "16 min",
     sections: [
@@ -2300,8 +2300,8 @@ export const PT_C1_U18: Lesson[] = [
     slug: "c1-spiral-midpoint",
     level: "PT-C1",
     number: 12,
-    title: "Spiral Review: The First Half of C1",
-    summary: "A fast, mixed review of everything in the first half of C1: subjunctive and probability, compression and punctuation, registers and address, nuance, emphasis and spoken grammar.",
+    title: "Spiral Review: The First Half of the Advanced Level",
+    summary: "A fast, mixed review of everything in the first half of the Advanced level: subjunctive and probability, compression and punctuation, registers and address, nuance, emphasis and spoken grammar.",
     duration: "18 min",
     sections: [
       {

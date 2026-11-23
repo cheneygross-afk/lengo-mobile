@@ -245,7 +245,7 @@ export const KO_B2_U04: Lesson[] = [
       {
         heading: "-는 법이다: the way of the world",
         body: [
-          "-는 법이다 also states a general truth, but with a moral, proverb-like ring: 'that's the way of the world', 'that's how it ought to be'. 법 here means 'the way things are'. Action verbs and 있다 / 없다 take -는 법이다: 급할수록 실수하는 법이에요 'the more you rush, the more mistakes you make' (-(으)ㄹ수록 from B1). Adjectives take -(으)ㄴ 법이다: 좋은 약은 입에 쓴 법이다 'good medicine tastes bitter'.",
+          "-는 법이다 also states a general truth, but with a moral, proverb-like ring: 'that's the way of the world', 'that's how it ought to be'. 법 here means 'the way things are'. Action verbs and 있다 / 없다 take -는 법이다: 급할수록 실수하는 법이에요 'the more you rush, the more mistakes you make' (-(으)ㄹ수록 from Intermediate). Adjectives take -(으)ㄴ 법이다: 좋은 약은 입에 쓴 법이다 'good medicine tastes bitter'.",
           "Compared with 마련이다, 법이다 carries a lesson: life's rules, manners, what a sensible person knows. Older people use it when they give advice, so said to a senior about their own behaviour it can sound like a lecture; keep it for life in general. Like 마련, 법 is a noun and takes 이다: 법이에요, 법이다, 법입니다.",
           "Trap: adjectives take -(으)ㄴ, so 비싼 법이다, never *비싸는 법이다. English has no ending to warn you, so check the word class every time.",
         ],
@@ -353,7 +353,7 @@ export const KO_B2_U04: Lesson[] = [
             sentence: "아직 ___ 몰라요.",
             answer: "운전하는 법을",
             altAnswers: ["운전하는 방법을", "운전하는 법", "운전할 줄"],
-            explanation: "'How to' is -는 법 + 을 before 모르다. 운전할 줄 몰라요 (A2) says the same thing.",
+            explanation: "'How to' is -는 법 + 을 before 모르다. 운전할 줄 몰라요 (Elementary) says the same thing.",
           },
         ],
       },
@@ -502,7 +502,7 @@ export const KO_B2_U04: Lesson[] = [
       {
         heading: "One event: -(으)ㄴ / 는 것 같다",
         body: [
-          "Neither pattern can talk about one event. 내일 비가 오기 마련이에요 sounds as if tomorrow's rain were a law of nature. For a single prediction or impression, use -(으)ㄹ 것 같다 or -(으)ㄴ / 는 것 같다 from A2: 내일은 비가 올 것 같아요, 민수 씨는 오늘 바쁜 것 같아요. English 'bound to' covers both jobs, which is why learners overreach with 마련이다.",
+          "Neither pattern can talk about one event. 내일 비가 오기 마련이에요 sounds as if tomorrow's rain were a law of nature. For a single prediction or impression, use -(으)ㄹ 것 같다 or -(으)ㄴ / 는 것 같다 from the Elementary level: 내일은 비가 올 것 같아요, 민수 씨는 오늘 바쁜 것 같아요. English 'bound to' covers both jobs, which is why learners overreach with 마련이다.",
           "것 같다 is personal and hedged: 'I think, it seems to me'. Koreans even use it for general truths to sound modest: 처음에는 누구나 힘든 것 같아요 is softer than 힘들기 마련이에요, which states it as a fact. In an essay, choose the confident form; in a chat with a colleague, 것 같다 is often the friendlier choice.",
         ],
         examples: [
@@ -1115,7 +1115,7 @@ export const KO_B2_U04: Lesson[] = [
         body: [
           "-(으)ㄹ 게 뻔하다 makes a confident prediction from what you know: 'it's obvious that, I just know that'. 뻔하다 means 'obvious, plain to see', and 게 is the spoken contraction of 것이: 지금 출발하면 늦을 게 뻔해요 'If we leave now, we'll obviously be late.' Consonant stems take -을 (늦을, 먹을), vowel and ㄹ stems take -ㄹ (갈, 팔), and irregulars change as usual (듣다 → 들을).",
           "The outcome is usually unwelcome, and the tone is resigned or exasperated: 또 잔소리를 들을 게 뻔해 'I'm obviously going to get nagged again.' It is about one situation, so it does the job learners wrongly give to 마련이다. In writing, use the full form: 회사가 어려워질 것이 뻔하다.",
-          "Trap: -(으)ㄹ 뻔했다 from B1 looks similar but means 'almost (and it didn't happen)': 늦을 뻔했어요 'I was almost late.' With 게 and present 뻔하다 you predict; without 게 and in the past you report a near miss.",
+          "Trap: -(으)ㄹ 뻔했다 from Intermediate looks similar but means 'almost (and it didn't happen)': 늦을 뻔했어요 'I was almost late.' With 게 and present 뻔하다 you predict; without 게 and in the past you report a near miss.",
         ],
         examples: [
           { es: "지금 출발하면 늦을 게 뻔해요.", en: "If we leave now, we'll obviously be late." },
@@ -1195,7 +1195,7 @@ export const KO_B2_U04: Lesson[] = [
       {
         heading: "Three kinds of certainty",
         body: [
-          "Recap from B1: -(으)ㄹ 수밖에 없다 means 'have no choice but to' (막차가 끊겨서 택시를 탈 수밖에 없었어요) or 'it can only be so' (서울은 집값이 비쌀 수밖에 없어요). 밖에 is 'only' and always takes a negative: 만 원밖에 없어요. Being a particle, it attaches: 수밖에, never *수 밖에.",
+          "Recap from the Intermediate level: -(으)ㄹ 수밖에 없다 means 'have no choice but to' (막차가 끊겨서 택시를 탈 수밖에 없었어요) or 'it can only be so' (서울은 집값이 비쌀 수밖에 없어요). 밖에 is 'only' and always takes a negative: 만 원밖에 없어요. Being a particle, it attaches: 수밖에, never *수 밖에.",
           "So: 마련이다 states a general truth (연말에는 길이 막히기 마련이에요). 수밖에 없다 says there is no alternative, or that the logic allows no other result. 게 뻔하다 says you can see this particular outcome coming, and usually that you don't like it.",
         ],
         examples: [
@@ -2261,7 +2261,7 @@ export const KO_B2_U04: Lesson[] = [
         source: "The more you work, the more used to it you'll get.",
         answer: "일을 하면 할수록 익숙해질 거예요.",
         altAnswers: ["일하면 할수록 익숙해질 거예요.", "일을 할수록 익숙해질 거예요.", "일할수록 익숙해질 거예요.", "하면 할수록 익숙해질 거예요.", "일을 하면 할수록 익숙해지기 마련이에요."],
-        explanation: "-(으)면 -(으)ㄹ수록 (B1): 하면 할수록, written 할수록 as one word.",
+        explanation: "-(으)면 -(으)ㄹ수록 (Intermediate): 하면 할수록, written 할수록 as one word.",
       },
       {
         type: "translate",
@@ -2288,7 +2288,7 @@ export const KO_B2_U04: Lesson[] = [
         source: "You moved to save money, right?",
         answer: "돈을 모으기 위해서 이사한 거지?",
         altAnswers: ["돈 모으기 위해서 이사한 거지?", "돈을 모으기 위해 이사한 거지?", "돈 모으기 위해 이사한 거지?", "돈을 모으려고 이사한 거지?", "돈 모으려고 이사한 거지?", "돈을 아끼기 위해서 이사한 거지?"],
-        explanation: "Purpose with -기 위해서 (B1); -(으)려고 works just as well in speech. -지? checks what you think is true.",
+        explanation: "Purpose with -기 위해서 (Intermediate); -(으)려고 works just as well in speech. -지? checks what you think is true.",
       },
       {
         type: "word-order",

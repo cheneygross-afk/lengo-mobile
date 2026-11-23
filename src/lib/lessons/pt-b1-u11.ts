@@ -607,7 +607,7 @@ export const PT_B1_U11: Lesson[] = [
         heading: "Pedir que + subjunctive: the written form",
         body: [
           "In emails, notices and the news, \"pedir que\" + subjunctive is preferred: \"o síndico pede que os moradores fechem o portão\". It's the same different-subject \"que\" + subjunctive you know from \"querer que\". In formal letters, \"solicitar que\" works the same way.",
-          "After \"pediu\", keep the present subjunctive when the request still holds: \"a escola pediu que os pais busquem as crianças às cinco\" (every day, from now on). For a one-off request that's already over, speech simply uses \"pedir para\". The past subjunctive you'll read in that case, \"pediu que eu ligasse\", comes at B2.",
+          "After \"pediu\", keep the present subjunctive when the request still holds: \"a escola pediu que os pais busquem as crianças às cinco\" (every day, from now on). For a one-off request that's already over, speech simply uses \"pedir para\". The past subjunctive you'll read in that case, \"pediu que eu ligasse\", comes at the Upper-intermediate level.",
         ],
         examples: [
           { es: "O síndico pede que os moradores fechem o portão.", en: "The building manager asks residents to close the gate." },

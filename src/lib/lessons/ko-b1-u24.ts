@@ -854,7 +854,7 @@ export const KO_B1_U24: Lesson[] = [
       {
         heading: "-게 되었습니다 and the set phrases",
         body: [
-          "-게 되다 (A2) says something came about through circumstances, and Korean self-presentation loves that tone: 이 경험을 통해 마케팅에 관심을 가지게 되었습니다 'Through this experience I came to be interested in marketing.' The key line of 지원 동기 is 그래서 저는 이 회사에 지원하게 되었습니다 'That is why I have applied to this company.' A plain 지원합니다 sounds abrupt here.",
+          "-게 되다 (Elementary) says something came about through circumstances, and Korean self-presentation loves that tone: 이 경험을 통해 마케팅에 관심을 가지게 되었습니다 'Through this experience I came to be interested in marketing.' The key line of 지원 동기 is 그래서 저는 이 회사에 지원하게 되었습니다 'That is why I have applied to this company.' A plain 지원합니다 sounds abrupt here.",
           "The 포부 section looks ahead with ...에 기여하고 싶습니다 'I want to contribute to ...' and -는 사원이 되겠습니다 'I will be an employee who ...', where -겠습니다 is a formal promise. In letters the company is often 귀사 'your company'.",
         ],
         examples: [

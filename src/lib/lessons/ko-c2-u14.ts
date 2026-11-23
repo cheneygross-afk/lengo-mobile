@@ -342,8 +342,8 @@ export const KO_C2_U14: Lesson[] = [
       {
         heading: "-기는요 and the context test",
         body: [
-          "You learnt -기는요 as modest denial (A2-B1): 잘하긴요, 아직 멀었어요 'Me, good? I've a long way to go'. Turned on someone else's claim in 반말, the same ending becomes a scornful denial: 바쁘긴, 하루 종일 휴대폰만 보던데 'Busy, my foot. He's been on his phone all day'. The ending denies the word just said; whether that is modesty or scorn depends on whose word it was. Deny your own praise with -기는요 and you are modest; deny someone else's excuse with -기는 and you are sneering.",
-          "-(으)ㄹ 리가 (B2) joins the sarcastic family as the rhetorical question: 그 사람이 사과할 리가 있겠어? 'As if he'd ever apologise'. It says the same thing as 퍽이나 사과하겠다, a notch less biting.",
+          "You learnt -기는요 as modest denial (Elementary to Intermediate): 잘하긴요, 아직 멀었어요 'Me, good? I've a long way to go'. Turned on someone else's claim in 반말, the same ending becomes a scornful denial: 바쁘긴, 하루 종일 휴대폰만 보던데 'Busy, my foot. He's been on his phone all day'. The ending denies the word just said; whether that is modesty or scorn depends on whose word it was. Deny your own praise with -기는요 and you are modest; deny someone else's excuse with -기는 and you are sneering.",
+          "-(으)ㄹ 리가 (Upper-intermediate) joins the sarcastic family as the rhetorical question: 그 사람이 사과할 리가 있겠어? 'As if he'd ever apologise'. It says the same thing as 퍽이나 사과하겠다, a notch less biting.",
           "The trap for readers is the transcript. Written down without context, 정말 대단하시네요, 잘한다 or 고맙기도 해라 look like praise, and machine translation renders them as praise. In novels and subtitles, Koreans signal sarcasm with the situation, a tilde (잘~한다), or a stage direction (비꼬듯이, 빈정거리며 'sarcastically'). Before you take a compliment at face value, ask what just happened.",
         ],
         examples: [
@@ -696,7 +696,7 @@ export const KO_C2_U14: Lesson[] = [
       {
         heading: "Mock praise: the grand ending for the small deed",
         body: [
-          "A Korean columnist's favourite weapon is praise too big for its object. You know the solemn endings from the essay unit and C1: -지 않을 수 없다 'one cannot but', -기 그지없다 'beyond measure', -(으)ㄹ 따름이다 'one can only'. Put them on something petty or harmful and they turn to irony: 보도블록을 해마다 새로 까는 그 성실함에 감탄하지 않을 수 없다 'one cannot help admiring the diligence with which they relay the pavement every year'. The bigger the gap between the high style and the low deed, the sharper the joke.",
+          "A Korean columnist's favourite weapon is praise too big for its object. You know the solemn endings from the essay unit and Advanced: -지 않을 수 없다 'one cannot but', -기 그지없다 'beyond measure', -(으)ㄹ 따름이다 'one can only'. Put them on something petty or harmful and they turn to irony: 보도블록을 해마다 새로 까는 그 성실함에 감탄하지 않을 수 없다 'one cannot help admiring the diligence with which they relay the pavement every year'. The bigger the gap between the high style and the low deed, the sharper the joke.",
           "The classic frame is 참으로 ... 이 / 가 아닐 수 없다 'it is truly nothing less than ...': 참으로 놀라운 행정이 아닐 수 없다 'truly a remarkable feat of administration'. Others are 기발하기 그지없다 'ingenious beyond words', 눈물겹다 'touching to the point of tears', 경의를 표한다 'we salute', 박수를 보낸다 'we applaud'. Read literally, the column is a eulogy; read with the facts in the same paragraph, it is an indictment.",
           "English speakers sometimes miss this because the endings are ones they learnt as sincere. They are sincere in an essay about your mother. Ask what is being praised: if it is a traffic jam, a fourth survey on the same question, or a sign nobody can read, the praise is ironic.",
         ],
@@ -772,7 +772,7 @@ export const KO_C2_U14: Lesson[] = [
       {
         heading: "Rhetorical questions, understatement and the twist",
         body: [
-          "The rhetorical question demands the answer 'no' (C1 and Unit 2): 이것을 개혁이라 부를 수 있단 말인가 'can this really be called reform?', 누가 이런 정책을 반기겠는가 'who would welcome such a policy?', 이보다 더한 낭비가 어디 있겠는가 'what greater waste could there be?'. -단 말인가 adds indignation; 누가 ...-겠는가 means 'nobody'; -(으)ㄹ 리가 있겠는가 'how could it possibly'. One per column lands; three in a paragraph sounds like shouting.",
+          "The rhetorical question demands the answer 'no' (Advanced and Unit 2): 이것을 개혁이라 부를 수 있단 말인가 'can this really be called reform?', 누가 이런 정책을 반기겠는가 'who would welcome such a policy?', 이보다 더한 낭비가 어디 있겠는가 'what greater waste could there be?'. -단 말인가 adds indignation; 누가 ...-겠는가 means 'nobody'; -(으)ㄹ 리가 있겠는가 'how could it possibly'. One per column lands; three in a paragraph sounds like shouting.",
           "Understatement is the reverse of mock praise: a disaster described as a slight inconvenience. 주민들이 한 시간쯤 돌아가야 하는 것 외에는 아무 문제가 없다 'apart from residents having to walk an hour round, there is no problem at all'. -(으)ㄹ 뿐이다 and 조금, 약간 do the work.",
           "Korean columns traditionally save the sharpest blow for the last paragraph, the 반전 'twist'. After paragraphs of mock praise, the writer either drops the mask (the plain proposal) or pushes the logic one step further into absurdity: 차라리 도로 이름을 “느림길”로 바꾸는 것은 어떨까 'why not just rename the road “Slow Lane”?'. When you read, go to the last paragraph to find out what the writer really wants.",
         ],

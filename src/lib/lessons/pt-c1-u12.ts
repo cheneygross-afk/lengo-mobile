@@ -15,7 +15,7 @@ export const PT_C1_U12: Lesson[] = [
       {
         heading: "Mood: asserting or not",
         body: [
-          "At C1 the question is not which word triggers the subjunctive but whether you are asserting something. The indicative presents it as fact; the subjunctive holds it at arm's length. \"Procuro um assistente que fala alemão\" means you have someone in mind; \"que fale alemão\" means anyone who does.",
+          "At the Advanced level the question is not which word triggers the subjunctive but whether you are asserting something. The indicative presents it as fact; the subjunctive holds it at arm's length. \"Procuro um assistente que fala alemão\" means you have someone in mind; \"que fale alemão\" means anyone who does.",
           "\"Talvez\" before the verb takes the subjunctive (\"talvez ele venha\"), and after it the indicative (\"ele vem, talvez\"). After superlatives and \"o único\", both moods are correct: formal writing often uses the subjunctive, while speech keeps the indicative for a plain fact. Fixed expressions like \"que eu saiba\", \"seja como for\" and \"aconteça o que acontecer\" are frozen: never *\"que eu sei\" or *\"aconteça o que acontece\".",
         ],
         examples: [
@@ -533,14 +533,14 @@ export const PT_C1_U12: Lesson[] = [
     slug: "c1-error-hunt-c1",
     level: "PT-C1",
     number: 3,
-    title: "Error Hunt: The Whole C1",
-    summary: "Find and fix the typical C1 mistakes: frozen subjunctives, reduced clauses, gerundismo, clefts and agreement, and register slips in academic, press and essay writing.",
+    title: "Error Hunt: The Whole Advanced Level",
+    summary: "Find and fix the typical Advanced mistakes: frozen subjunctives, reduced clauses, gerundismo, clefts and agreement, and register slips in academic, press and essay writing.",
     duration: "15 min",
     sections: [
       {
         heading: "Mood slips: frozen subjunctives",
         body: [
-          "Most C1 mood errors come from English, which has no subjunctive to signal doubt. The fixed expressions are frozen: \"que eu saiba\" (as far as I know), never *\"que eu sei\"; also \"seja como for\" and \"custe o que custar\". In the reduplicated concessive the second verb is a future subjunctive: \"digam o que disserem\", \"aconteça o que acontecer\", not *\"digam o que dizem\".",
+          "Most Advanced mood errors come from English, which has no subjunctive to signal doubt. The fixed expressions are frozen: \"que eu saiba\" (as far as I know), never *\"que eu sei\"; also \"seja como for\" and \"custe o que custar\". In the reduplicated concessive the second verb is a future subjunctive: \"digam o que disserem\", \"aconteça o que acontecer\", not *\"digam o que dizem\".",
           "\"Talvez\" before the verb takes the subjunctive: \"talvez ele venha\". After the verb it takes the indicative: \"ele vem, talvez\". *\"Talvez ele vem\" mixes the two. After a superlative or \"o único\", the subjunctive limits the claim to your experience (\"o melhor livro que eu já tenha lido\"), while the indicative states it as plain fact.",
         ],
         examples: [
@@ -818,7 +818,7 @@ export const PT_C1_U12: Lesson[] = [
     slug: "c1-transform-c1",
     level: "PT-C1",
     number: 4,
-    title: "Transformations: The C1 Toolkit",
+    title: "Transformations: The Advanced Toolkit",
     summary: "Rewrite sentences from speech to the written norm, from full clauses to reduced ones, from facts to reported guesses, and from neutral order to clefts, topics and the subjunctive.",
     duration: "15 min",
     format: "Transformations",
@@ -1118,7 +1118,7 @@ export const PT_C1_U12: Lesson[] = [
       {
         heading: "From script to page: stripping the spoken",
         body: [
-          "The speaker in the video is talking, not writing: \"tipo\", \"né\", \"a gente\", \"pra\", repetitions, sentences left halfway. Keep the information and rebuild each sentence in the written norm, the register shift you practiced at B2. \"Tem\" for existence becomes \"há\" or \"existem\". \"A gente\" becomes \"nós\" or an impersonal structure. \"Uns dois graus\" becomes \"cerca de dois graus\".",
+          "The speaker in the video is talking, not writing: \"tipo\", \"né\", \"a gente\", \"pra\", repetitions, sentences left halfway. Keep the information and rebuild each sentence in the written norm, the register shift you practiced at the Upper-intermediate level. \"Tem\" for existence becomes \"há\" or \"existem\". \"A gente\" becomes \"nós\" or an impersonal structure. \"Uns dois graus\" becomes \"cerca de dois graus\".",
           "Report rather than quote. One short quotation can give the expert a voice. Put the rest into reporting verbs that carry stance: \"afirma\", \"explica\", \"ressalta\", \"alerta\". Numbers are your strongest evidence, so keep them and keep their source.",
           "Compress with this level's tools: an infinitive clause (\"ao ocupar terrenos vazios\"), a nominalization (\"a ocupação dos terrenos\"), or the conditional where the speaker was only estimating.",
         ],
@@ -1644,7 +1644,7 @@ export const PT_C1_U12: Lesson[] = [
     slug: "c1-dialogue-celpe-c1",
     level: "PT-C1",
     number: 7,
-    title: "Dialogue Lab: The Celpe-Bras Interview at C1",
+    title: "Dialogue Lab: The Celpe-Bras Interview at the Advanced Level",
     summary: "Work through a mock Celpe-Bras face-to-face interview at the top band: develop answers about yourself, react to a text, take the discussion into the abstract and handle tough follow-ups.",
     duration: "15 min",
     kind: "reinforce",
@@ -1690,7 +1690,7 @@ export const PT_C1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The examiner asks: \"Você mora há muito tempo em Recife?\" Which answer shows C1-level development?",
+            question: "The examiner asks: \"Você mora há muito tempo em Recife?\" Which answer shows Advanced-level development?",
             options: [
               "Moro, sim.",
               "Há dois anos. Vim transferido pela empresa e, embora no início tenha sido difícil, hoje não me vejo morando em outro lugar.",
@@ -1803,7 +1803,7 @@ export const PT_C1_U12: Lesson[] = [
       {
         heading: "Part 4: Buying time, repairing, wrapping up",
         body: [
-          "Everyone stalls; at C1 you stall in Portuguese. \"É uma boa pergunta\", \"deixa eu pensar um pouquinho\" and \"como é que eu posso dizer...\" buy you a few seconds without breaking the exchange. If you lost the thread, don't just say \"não entendi\". Check by rephrasing: \"se eu entendi bem, você está perguntando se...\".",
+          "Everyone stalls; at the Advanced level you stall in Portuguese. \"É uma boa pergunta\", \"deixa eu pensar um pouquinho\" and \"como é que eu posso dizer...\" buy you a few seconds without breaking the exchange. If you lost the thread, don't just say \"não entendi\". Check by rephrasing: \"se eu entendi bem, você está perguntando se...\".",
           "Expect the examiner to play devil's advocate. Grant something before you disagree (\"faz sentido, só que...\", \"entendo o argumento, mas...\"). When time is nearly up, close with one sentence that ties back to your stance instead of opening a new idea.",
         ],
         examples: [
@@ -1950,7 +1950,7 @@ export const PT_C1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The examiner asks: \"Você acha que o trabalho remoto aumentou a desigualdade?\" Which answer is best at C1?",
+        question: "The examiner asks: \"Você acha que o trabalho remoto aumentou a desigualdade?\" Which answer is best at the Advanced level?",
         options: [
           "Sim, aumentou.",
           "Acho que sim, porque é verdade.",
@@ -2257,7 +2257,7 @@ export const PT_C1_U12: Lesson[] = [
     level: "PT-C1",
     number: 9,
     title: "Spiral Review: The Whole Advanced Level",
-    summary: "A final cumulative check of C1 that mixes mood, probability, reduced clauses, register, word order and nuance in fresh sentences.",
+    summary: "A final cumulative check of the Advanced level that mixes mood, probability, reduced clauses, register, word order and nuance in fresh sentences.",
     duration: "20 min",
     kind: "review",
     format: "Spiral review",
@@ -2529,7 +2529,7 @@ export const PT_C1_U12: Lesson[] = [
     slug: "c1-review-reading",
     level: "PT-C1",
     number: 10,
-    title: "Review: Reading at C1",
+    title: "Review: Reading at the Advanced Level",
     summary: "Read dense literary, academic and press Portuguese by tracking its tenses, its hedges and its voices, and say exactly what each text claims.",
     duration: "18 min",
     sections: [

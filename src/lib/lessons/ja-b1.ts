@@ -8316,7 +8316,7 @@ export const JA_B1_LESSONS: Lesson[] = [
         "heading": "What This Lesson Covers",
         "body": [
           "Combine patterns from all twelve units in a capstone reading and talk, and add ものだ, たものだ, ばかり, っぱなし and ついでに.",
-          "By the end of this lesson you will be able to: (1) Use patterns from all 12 units together in a connected essay and a spoken talk.  (2) Describe past habits, general truths and small regrets naturally.  (3) Show B1 ability on the final exam.",
+          "By the end of this lesson you will be able to: (1) Use patterns from all 12 units together in a connected essay and a spoken talk.  (2) Describe past habits, general truths and small regrets naturally.  (3) Show Intermediate ability on the final exam.",
           "Every lesson in this module follows the same path: a short dialogue that uses the patterns, one section per pattern with a quick check, a section on choosing between the patterns, a reading passage, and then the kanji and vocabulary that go with the unit."
         ]
       },

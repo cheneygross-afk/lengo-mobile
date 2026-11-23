@@ -1833,7 +1833,7 @@ export const PT_A2_U15: Lesson[] = [
         heading: "Day 3: memories",
         body: [
           "Slip 9: *quando eu fui criança. Childhood is a stage of life, description: \"quando eu era criança\". Slip 10: *eu era muito cansado. Tiredness is a state: \"eu estava muito cansado\".",
-          "These ten are the slips teachers see most at A2. Most come down to two questions: scene or event, and is the form irregular?",
+          "These ten are the slips teachers see most at the Elementary level. Most come down to two questions: scene or event, and is the form irregular?",
         ],
         examples: [
           { es: "Quando eu era criança, eu ia muito à praia.", en: "When I was a child, I went to the beach a lot." },

@@ -25,7 +25,7 @@ export type PortugueseLevelInfo = {
   /** "A1" ... "C2". */
   code: string;
   name: string;
-  /** What the level cards show: "Beginner (A1)". */
+  /** What the level cards show: "Beginner". */
   label: string;
   exam: string | null;
   description: string;
@@ -39,7 +39,7 @@ export const PORTUGUESE_LEVELS: PortugueseLevelInfo[] = [
     levelPath: "pt/a1",
     code: "A1",
     name: "Beginner",
-    label: "Beginner (A1)",
+    label: "Beginner",
     exam: null,
     description:
       "Greetings, ser and estar, the sounds of Brazilian Portuguese, articles and gender, present-tense verbs and ter, questions, numbers and time, family, places and the present progressive.",
@@ -49,7 +49,7 @@ export const PORTUGUESE_LEVELS: PortugueseLevelInfo[] = [
     levelPath: "pt/a2",
     code: "A2",
     name: "Elementary",
-    label: "Elementary (A2)",
+    label: "Elementary",
     exam: null,
     description:
       "The pretérito perfeito and imperfeito, object pronouns the Brazilian way, comparisons and diminutives, the future, commands, por and para, daily routines, health, shopping and travel.",
@@ -59,7 +59,7 @@ export const PORTUGUESE_LEVELS: PortugueseLevelInfo[] = [
     levelPath: "pt/b1",
     code: "B1",
     name: "Intermediate",
-    label: "Intermediate (B1)",
+    label: "Intermediate",
     exam: "Celpe-Bras Intermediário",
     description:
       "The present subjunctive, the conditional, compound and pluperfect tenses, the personal infinitive, relative clauses, reported speech, the passive, connectors, opinions, formal Portuguese and how Brazilians really talk.",
@@ -69,7 +69,7 @@ export const PORTUGUESE_LEVELS: PortugueseLevelInfo[] = [
     levelPath: "pt/b2",
     code: "B2",
     name: "Upper-intermediate",
-    label: "Upper-intermediate (B2)",
+    label: "Upper-intermediate",
     exam: "Celpe-Bras Intermediário Superior",
     description:
       "The imperfect and future subjunctive, hypothetical conditions, compound tenses, pronouns in writing, regência and crase, register, Brazil's varieties, idioms, the dissertative essay and professional Portuguese.",
@@ -79,7 +79,7 @@ export const PORTUGUESE_LEVELS: PortugueseLevelInfo[] = [
     levelPath: "pt/c1",
     code: "C1",
     name: "Advanced",
-    label: "Advanced (C1)",
+    label: "Advanced",
     exam: "Celpe-Bras Avançado",
     description:
       "Fine mood distinctions, reduced clauses, academic and official Portuguese, the ENEM-style essay, Brazil and Portugal, nuance and pragmatic particles, word order, the media, literature and history.",
@@ -89,7 +89,7 @@ export const PORTUGUESE_LEVELS: PortugueseLevelInfo[] = [
     levelPath: "pt/c2",
     code: "C2",
     name: "Mastery",
-    label: "Mastery (C2)",
+    label: "Mastery",
     exam: "Celpe-Bras Avançado Superior",
     description:
       "Style and figures of speech, humour and wordplay, proverbs and cultural references, poetry and song, translation and mediation, rhetoric, specialist registers, sociolinguistics and near-native precision.",

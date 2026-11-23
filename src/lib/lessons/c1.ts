@@ -7729,7 +7729,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Insistir en que: subjuntivo o indicativo",
         "body": [
-          "Un matiz de C1: «insistir en que» + subjuntivo pide algo («insistió en que fuéramos»); con indicativo reafirma un hecho («insistió en que era inocente»)."
+          "Un matiz del nivel Mastery: «insistir en que» + subjuntivo pide algo («insistió en que fuéramos»); con indicativo reafirma un hecho («insistió en que era inocente»)."
         ],
         "examples": [
           {
@@ -13903,7 +13903,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Elegir el foco",
         "body": [
-          "¿Por qué importa? Porque en un texto C1 elegir la construcción es elegir el foco: designar habla de la palabra; llamarse, de la cosa; resultar, de tu valoración. Y hace falta una atención fina (atención que capta matices) para mantener la concordancia: «hace falta» va con un sustantivo singular sin preposición («hace falta una atención fina»), y algo «resulta proverbial» cuando todo el mundo lo cita como ejemplo."
+          "¿Por qué importa? Porque en un texto de nivel Mastery elegir la construcción es elegir el foco: designar habla de la palabra; llamarse, de la cosa; resultar, de tu valoración. Y hace falta una atención fina (atención que capta matices) para mantener la concordancia: «hace falta» va con un sustantivo singular sin preposición («hace falta una atención fina»), y algo «resulta proverbial» cuando todo el mundo lo cita como ejemplo."
         ],
         "examples": [
           {
