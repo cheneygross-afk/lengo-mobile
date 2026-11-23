@@ -389,7 +389,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
         <Text style={s.premiumBtnSub}>
           {IS_LANGUAGES_APP
             ? "Every lesson and study tool for your language. Cancel anytime."
-            : "The whole Spanish course for $9/mo. Cancel anytime."}{" "}
+            : "The whole Spanish course for $9/mo or $90/yr. Cancel anytime."}{" "}
           Opens {APP_WEBSITE.replace("https://", "")} in your browser, already signed in.
         </Text>
       </Pressable>
