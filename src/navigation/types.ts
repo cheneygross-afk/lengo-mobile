@@ -11,6 +11,7 @@ import type { ItalianLevelKey } from "@/lib/lessons/italian";
 import type { PortugueseStoryLevel } from "@/lib/stories/pt";
 import type { KoreanStoryLevel } from "@/lib/stories/ko";
 import type { ItalianStoryLevel } from "@/lib/stories/it";
+import type { NewsLevel } from "@/lib/news/types";
 
 type FrenchStoryLevelPath = FrenchStoryLevel["path"];
 type GermanStoryLevelPath = GermanStoryLevel["path"];
@@ -104,6 +105,9 @@ export type AppStackParamList = {
   // levelPath is passed for French and German stories, whose slugs live in their own
   // (lazily loaded) collection.
   StoryReader: { slug: string; levelPath?: string };
+  // Readings > News (website /readings/news): the list, and one article at a level.
+  NewsList: undefined;
+  NewsReader: { slug: string; level?: NewsLevel };
   // Japanese beta's level picker (Alphabets/A1/A2/B1) -- see
   // JapaneseLevelsScreen. Only reachable from Home when the signed-in
   // account has japanese_beta_access.

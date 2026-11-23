@@ -27,6 +27,15 @@ function SpanishReadingLevels({ navigation }: Props) {
         Free original stories with comprehension questions, plus real Spanish books for every level.
       </Text>
       <View style={styles.cards}>
+        <Pressable style={[styles.card, styles.newsCard]} onPress={() => navigation.navigate("NewsList")}>
+          <View style={styles.cardTop}>
+            <Text style={styles.cardCode}>News</Text>
+            <Text style={styles.cardName}>Free · new every 2 days</Text>
+          </View>
+          <Text style={styles.cardDescription}>
+            Real news stories, each at four levels from Beginner to the original, picked for what you're into.
+          </Text>
+        </Pressable>
         {READING_LEVELS.map((lvl) => (
           <Pressable
             key={lvl.levelPath}
@@ -127,6 +136,7 @@ const styles = StyleSheet.create({
   subtitle: { fontSize: 15, lineHeight: 21, color: colors.inkSoft, marginBottom: 20 },
   cards: { gap: 14 },
   card: { ...card, padding: 18, paddingLeft: 20, borderLeftWidth: 5, borderLeftColor: colors.saffron },
+  newsCard: { borderLeftColor: colors.sea, backgroundColor: colors.saffronSoft },
   cardTop: { flexDirection: "row", flexWrap: "wrap", alignItems: "baseline", gap: 8, marginBottom: 6 },
   cardCode: { fontFamily: fonts.display, fontSize: 21, color: colors.foreground },
   cardName: { fontSize: 14, color: colors.inkSoft, flexShrink: 1 },
