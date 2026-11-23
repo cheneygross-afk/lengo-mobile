@@ -15,6 +15,7 @@ import {
 import type { DictationExercise, ListenChooseExercise, SpeakExercise, WriteExercise } from "@/lib/lessons/types";
 import { englishTaughtName, playOtherAudio, setRecordingMode, speak, stopSpeaking, type SpeechLang } from "@/lib/speech";
 import { AnswerCompare } from "@/components/AnswerCompare";
+import { useScriptKeyboard } from "@/components/ScriptKeyboard";
 import TapText, { isTargetText } from "@/components/TapText";
 import { RubyLabel } from "@/components/JaRuby";
 import { dictationAnswer, gradeDictation, optionOrder } from "@/lib/grading";
@@ -125,6 +126,7 @@ export function Dictation({
   submit: Submit;
 }) {
   const [value, setValue] = useState("");
+  const kb = useScriptKeyboard(lang, value, setValue, !checked);
   useEffect(() => {
     speak(exercise.audio, lang);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -136,7 +138,8 @@ export function Dictation({
       {/* No autocorrect: it would "fix" Spanish into English words. */}
       <TextInput
         value={value}
-        onChangeText={setValue}
+        onChangeText={kb.onChangeText}
+        showSoftInputOnFocus={kb.showSoftInputOnFocus}
         editable={!checked}
         autoCapitalize="none"
         autoCorrect={false}
@@ -145,6 +148,7 @@ export function Dictation({
         placeholder={englishTaughtName(lang) ? "Type what you hear…" : "Escribe lo que oyes…"}
         style={[s.textInput, checked && (correct ? s.inputCorrect : s.inputWrong)]}
       />
+      {kb.panel}
       {checked && !correct && (
         <AnswerCompare given={value} expected={dictationAnswer(exercise)} correct={correct} lang={lang} />
       )}
@@ -410,6 +414,7 @@ export function Write({
 }) {
   const [text, setText] = useState("");
   const [state, setState] = useState<WriteState>({ kind: "editing" });
+  const kb = useScriptKeyboard(lang, text, setText, !checked && state.kind !== "sending");
   const [ticked, setTicked] = useState<Set<number>>(new Set());
   const words = countWords(text);
   const inRange = words >= exercise.minWords && words <= exercise.maxWords;
@@ -432,7 +437,8 @@ export function Write({
       ))}
       <TextInput
         value={text}
-        onChangeText={setText}
+        onChangeText={kb.onChangeText}
+        showSoftInputOnFocus={kb.showSoftInputOnFocus}
         editable={!checked && state.kind !== "sending"}
         multiline
         autoCapitalize="sentences"
@@ -440,6 +446,7 @@ export function Write({
         placeholder={englishTaughtName(lang) ? "Write here…" : "Escribe aquí…"}
         style={[s.textInput, s.textArea]}
       />
+      {kb.panel}
       <Text style={[s.wordCount, !inRange && s.wordCountOff]}>
         {words} {words === 1 ? "word" : "words"} · aim for {exercise.minWords}–{exercise.maxWords}
       </Text>

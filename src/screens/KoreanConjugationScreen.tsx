@@ -3,6 +3,7 @@ import { View, Text, TextInput, Pressable, ScrollView, StyleSheet, Keyboard, Swi
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import TapText from "@/components/TapText";
+import { useScriptKeyboard } from "@/components/ScriptKeyboard";
 import { KOREAN_LANG, speak } from "@/lib/speech";
 import { COPULA_NOUNS, conjugate } from "@/lib/ko-conjugation/conjugate";
 import { KO_WORDS } from "@/lib/ko-conjugation/verbs";
@@ -381,6 +382,7 @@ function Drill() {
   const [typed, setTyped] = useState("");
   const [results, setResults] = useState<Result[]>([]);
   const [checked, setChecked] = useState<Result | null>(null);
+  const kb = useScriptKeyboard("ko", typed, setTyped, !checked);
 
   function start() {
     const qs = makeKoDrill({ forms, levels, set, count });
@@ -435,7 +437,8 @@ function Drill() {
           {q.word.en ? <Text style={s.muted}>{q.word.en}</Text> : null}
           <TextInput
             value={typed}
-            onChangeText={(t) => setTyped(t.normalize("NFC"))}
+            onChangeText={kb.onChangeText}
+            showSoftInputOnFocus={kb.showSoftInputOnFocus}
             editable={!checked}
             placeholder="Type the Korean"
             autoCapitalize="none"
@@ -446,6 +449,7 @@ function Drill() {
             onSubmitEditing={() => (checked ? next() : check())}
             submitBehavior="submit"
           />
+          {kb.panel}
           {checked && (
             <View style={[s.feedback, checked.correct ? s.feedbackRight : s.feedbackWrong]}>
               <Text style={s.feedbackTitle}>{checked.correct ? "Right!" : "The answer is:"}</Text>

@@ -24,7 +24,7 @@ const HAN = /[㐀-䶿一-鿿]/;
 
 // Punctuation and spacing ignored when comparing answers: ASCII and
 // full-width Chinese punctuation alike.
-const IGNORED = /[\s.,!?;:'"“”‘’()（）\[\]【】《》〈〉、，。！？；：…—\-·~～]/g;
+const IGNORED = /[\s.,!?;:'"“”‘’()（）\[\]【】《》〈〉「」『』、，。！？；：…—\-·~～]/g;
 
 /** True if `s` contains Chinese characters. */
 export function hasHanzi(s: string): boolean {
@@ -33,7 +33,9 @@ export function hasHanzi(s: string): boolean {
 
 /** Characters with punctuation and spaces removed: "你好！" -> "你好". */
 export function cleanHanzi(s: string): string {
-  return s.normalize("NFC").replace(IGNORED, "");
+  // 零 and 〇 are both right for a zero in a year or number (二〇二六 /
+  // 二零二六), and the pinyin keyboard offers either.
+  return s.normalize("NFC").replace(IGNORED, "").replace(/〇/g, "零");
 }
 
 /**

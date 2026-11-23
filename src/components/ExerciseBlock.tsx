@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { View, Text, Pressable, TextInput, StyleSheet, type StyleProp, type TextStyle } from "react-native";
+import { useScriptKeyboard } from "@/components/ScriptKeyboard";
 import type { Exercise } from "@/lib/lessons/types";
 import { englishTaughtName, speak, SPANISH_LANG, type SpeechLang } from "@/lib/speech";
 import TapText, { isTargetText } from "@/components/TapText";
@@ -365,6 +366,7 @@ function FillBlank({
   hidden,
 }: SubProps<Extract<Exercise, { type: "fill-blank" }>>) {
   const [value, setValue] = useState("");
+  const kb = useScriptKeyboard(lang, value, setValue, !checked);
   const [before, after] = useMemo(() => splitOnBlank(exercise.sentence), [exercise.sentence]);
 
   // The blank hides the answer, so this can't safely auto-play (or offer
@@ -393,7 +395,8 @@ function FillBlank({
         )}
         <TextInput
           value={value}
-          onChangeText={setValue}
+          onChangeText={kb.onChangeText}
+          showSoftInputOnFocus={kb.showSoftInputOnFocus}
           editable={!checked}
           autoCapitalize="none"
           autoCorrect={false}
@@ -412,6 +415,7 @@ function FillBlank({
           <TapText text={after} lang={lang} mode="target" style={s.blankText} />
         )}
       </View>
+      {kb.panel}
       {checked && <AnswerCompare given={value} expected={exercise.answer} correct={correct} lang={lang} />}
       {exercise.hint && !checked && <TapText text={`Hint: ${exercise.hint}`} lang={lang} style={s.hint} />}
       {!checked && (
@@ -437,6 +441,9 @@ function Translate({
 }: SubProps<Extract<Exercise, { type: "translate" }>>) {
   const [value, setValue] = useState("");
   const sourceIsTarget = exercise.direction === "es-en";
+  // Answers into the language being learned get its keyboard; answers in
+  // English get the phone's own.
+  const kb = useScriptKeyboard(sourceIsTarget ? "en" : lang, value, setValue, !checked);
   const sourceIsSpanishTask = !sourceIsTarget && (lang === "es-ES" || lang === "es-US") && isSpanishText(exercise.source);
   // The same kind of task in the other courses ("Make it negative." with a
   // target-language sentence): the source is target text, tap-to-hear.
@@ -477,7 +484,8 @@ function Translate({
       </View>
       <TextInput
         value={value}
-        onChangeText={setValue}
+        onChangeText={kb.onChangeText}
+        showSoftInputOnFocus={kb.showSoftInputOnFocus}
         editable={!checked}
         autoCapitalize="none"
         autoCorrect={false}
@@ -492,6 +500,7 @@ function Translate({
               : "Traduce al español…"
         }
       />
+      {kb.panel}
       {checked && (
         <AnswerCompare
           given={value}
