@@ -11,6 +11,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { FeedbackView, postWritingFeedback } from "@/components/SkillExercises";
+import { useScriptKeyboard } from "@/components/ScriptKeyboard";
 import { readJSON, writeJSON } from "@/lib/storage/asyncStore";
 import { englishTaughtName, type SpeechLang } from "@/lib/speech";
 import { countWords, type WritingFeedback } from "@/lib/writingFeedback";
@@ -43,6 +44,7 @@ export default function TryItYourself({
 }) {
   const [text, setText] = useState("");
   const [state, setState] = useState<State>({ kind: "editing" });
+  const kb = useScriptKeyboard(lang, text, setText, state.kind !== "sending");
   const loaded = useRef(false);
   const words = countWords(text);
   const stale = state.kind === "feedback" && state.text !== text;
@@ -93,7 +95,8 @@ export default function TryItYourself({
       </Text>
       <TextInput
         value={text}
-        onChangeText={setText}
+        onChangeText={kb.onChangeText}
+        showSoftInputOnFocus={kb.showSoftInputOnFocus}
         editable={state.kind !== "sending"}
         multiline
         autoCapitalize="sentences"
@@ -101,6 +104,7 @@ export default function TryItYourself({
         placeholder={englishTaughtName(lang) ? "Write here…" : "Escribe aquí…"}
         style={s.input}
       />
+      {kb.panel}
       {(state.kind !== "feedback" || stale) && (
         <Pressable disabled={!canSend} onPress={() => void check()} style={[s.btn, { backgroundColor: accent }, !canSend && s.btnOff]}>
           <Text style={s.btnText}>{state.kind === "sending" ? "Checking…" : stale ? "Check again" : "Check my writing"}</Text>
