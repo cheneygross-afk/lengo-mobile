@@ -84,6 +84,15 @@ function CourseWriting({ route, navigation }: Props) {
         and a check against what the task asks for.
       </Text>
 
+      <Pressable
+        onPress={() => navigation.navigate("MyWritings", { course: lang })}
+        accessibilityRole="link"
+        style={[styles.card, styles.mine]}
+      >
+        <Text style={styles.mineTitle}>📝 My writings</Text>
+        <Text style={styles.cardBody}>Everything you&apos;ve written, with its prompt, newest first.</Text>
+      </Pressable>
+
       <View style={styles.levels}>
         {LEVELS.map((l) => (
           <Pressable
@@ -220,6 +229,15 @@ function BetaWriting({ navigation, course: lang }: Props & { course: "ko" | "it"
         with reasons, and a check against what the task asks for. {BETA_WRITING[lang].keyboard}
       </Text>
 
+      <Pressable
+        onPress={() => navigation.navigate("MyWritings", { course: lang })}
+        accessibilityRole="link"
+        style={[styles.card, styles.mine]}
+      >
+        <Text style={styles.mineTitle}>📝 My writings</Text>
+        <Text style={styles.cardBody}>Everything you&apos;ve written, with its prompt, newest first.</Text>
+      </Pressable>
+
       <View style={styles.levels}>
         {KO_LEVELS.map((l) => (
           <Pressable
@@ -282,6 +300,8 @@ const styles = StyleSheet.create({
   chipText: { fontSize: 13, color: "#2A1513" },
   chipTextOn: { color: "#fff" },
   list: { gap: 10 },
+  mine: { marginBottom: 16, borderColor: "#E0A11B66" },
+  mineTitle: { fontSize: 16, fontWeight: "700", color: "#2A1513", marginBottom: 4 },
   card: { borderWidth: 1, borderColor: "#2A151318", borderRadius: 14, padding: 16, backgroundColor: "#fff" },
   meta: { fontSize: 12, color: "#2A151380", marginBottom: 4, textTransform: "uppercase", letterSpacing: 0.5 },
   cardBody: { fontSize: 14.5, color: "#2A1513", lineHeight: 20 },

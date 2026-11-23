@@ -209,6 +209,8 @@ export type AppStackParamList = {
   // Writing practice (the website's Writing page): open writing tasks per
   // level, marked by the AI writing feedback.
   Writing: { lang?: "es" | "fr" | "de" | "pt" | "ja" | "zh" | "ko" | "it" } | undefined;
+  // My writings: everything the learner has sent for writing feedback, for one course.
+  MyWritings: { course?: string } | undefined;
   Exam: { slug: string; course?: ExamCourse };
   ExamPaper: { slug: string; paperId: string; course?: ExamCourse };
 };
