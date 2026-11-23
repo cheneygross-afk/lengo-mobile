@@ -19,6 +19,7 @@ import ChineseReviewScreen from "@/screens/ChineseReviewScreen";
 import ChinesePlacementScreen from "@/screens/ChinesePlacementScreen";
 import SettingsScreen from "@/screens/SettingsScreen";
 import NotesScreen from "@/screens/NotesScreen";
+import MyWritingsScreen from "@/screens/MyWritingsScreen";
 import OnboardingScreen from "@/screens/OnboardingScreen";
 import LessonRunnerScreen from "@/screens/LessonRunnerScreen";
 import ReviewListScreen from "@/screens/ReviewListScreen";
@@ -152,6 +153,7 @@ function AppNavigator() {
       <AppStack.Screen name="ChinesePlacement" component={ChinesePlacementScreen} options={{ title: "Placement test" }} />
       <AppStack.Screen name="Settings" component={SettingsScreen} options={{ title: "Settings" }} />
       <AppStack.Screen name="Notes" component={NotesScreen} options={{ title: "My notes" }} />
+      <AppStack.Screen name="MyWritings" component={MyWritingsScreen} options={{ title: "My writings" }} />
       <AppStack.Screen name="Onboarding" component={OnboardingScreen} options={{ title: "Welcome" }} />
       <AppStack.Screen
         name="LessonRunner"
