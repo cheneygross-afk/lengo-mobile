@@ -33,6 +33,8 @@ const FIXES: Record<string, LessonFix> = {
       choose("___ edificios son muy altos. (far away)", ["Aquelos", "Aquellas", "Aquello"]),
       chooseSentence("Aquel árbol es muy alto.", ["Aquelos árboles son muy altos.", "Aquellos árboles es muy altos.", "Aquellos árboles son muy alto."]),
       edit(trIs("Aquello coche es rojo."), (e) => ({ ...e, source: "Aquello carro es rojo.", answer: "Aquel carro es rojo.", altAnswers: ["Aquel coche es rojo.", "Aquel auto es rojo."], explanation: carro(e.explanation) })),
+      // Keeps bella (top-2000 word) in the Beginner path: speak the bella version, hermosa and bonita still accepted.
+      edit(spIs("Aquellas montañas son hermosas."), (e) => ({ ...e, text: "Aquellas montañas son bellas.", explanation: e.explanation.replace("\"Aquellas montañas son hermosas\"", "\"Aquellas montañas son bellas\" (hermosas and bonitas work too)"), altAnswers: ["Aquellas montañas son hermosas.", "Aquellas montañas son bonitas."] })),
       drop(trIs("that car (near you)")),
       drop(trIs("that house over there")),
       drop(wordOrderStarts("Ese coche es de mi padre")),

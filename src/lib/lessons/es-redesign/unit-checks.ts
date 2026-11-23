@@ -1061,6 +1061,58 @@ const C2_U5: Exercise[] = [
   say("Say it in Spanish: \"My guitar? My parents gave it to me.\"", "¿Mi guitarra? Me la regalaron mis papás.", ["¿Mi guitarra? Me la regalaron mis padres.", "¿Mi guitarra? Mis papás me la regalaron.", "¿Mi guitarra? Mis padres me la regalaron."], "Object first, repeated with la."),
 ];
 
+const C2_U6: Exercise[] = [
+  // Listening and reading: recognise.
+  { type: "listen-choose", audio: "¡Menudo carrazo se ha comprado!", question: "Listen. What does she feel about the car?", options: ["She admires it: it's a great big car.", "She thinks it's a small car.", "Someone hit the car.", "She thinks the car is ugly and cheap."], correctIndex: 0, explanation: "Carro + -azo: admiration. A blow would be a portazo or a codazo." },
+  { type: "listen-choose", audio: "Vos sos de Montevideo, ¿no?", question: "Listen. Who is he talking to?", options: ["One friend, as tú.", "A group of people.", "An older stranger, as usted.", "Himself."], correctIndex: 0, explanation: "Vos sos = tú eres: one person, friendly." },
+  { type: "listen-choose", audio: "Llovía y no había nadie en la calle. De pronto, sonó el teléfono.", question: "Listen. Which part is the scene, and which is the event?", options: ["Llovía is the scene; sonó is the event.", "Sonó is the scene; llovía is the event.", "Both are the scene.", "Both are events."], correctIndex: 0, explanation: "Background past (llovía) paints the scene; finished past (sonó) moves the story." },
+  { type: "multiple-choice", question: "Your boss asks: «¿Le importa quedarse el sábado?» You refuse firmly but politely. You say:", options: ["De ninguna manera, lo siento.", "¡Ni loco!", "Qué va, tío.", "¡Ni de broma!"], correctIndex: 0, explanation: "De ninguna manera is strong but fine at work.", optionNotes: ["", "Ni loco is only for friends.", "Too casual for your boss.", "Ni de broma is only for friends."] },
+  { type: "multiple-choice", question: "«Señora, ¿quiere que ___ traiga un café?»", options: ["le", "te", "os", "lo"], correctIndex: 0, explanation: "Usted all the way through: quiere… le traiga.", optionNotes: ["", "Te is tú: it breaks the usted.", "Os is Spain's vosotros, for a group.", "Traer algo a alguien: le, not lo."] },
+  { type: "multiple-choice", question: "Which one is a mocking diminutive?", options: ["Es un politiquillo sin ideas.", "Mi abuelita cumple noventa.", "¿Me espera un momentito?", "Qué casita tan bonita."], correctIndex: 0, explanation: "-illo here belittles the person.", optionNotes: ["", "Abuelita is affection.", "Momentito is politeness.", "Casita is affection."] },
+  // Guided: write what you hear, complete, put in order, correct.
+  { type: "dictation", audio: "Cerró la puerta de un portazo.", explanation: "Cerró la puerta de un portazo: \"She slammed the door.\"" },
+  { type: "dictation", audio: "Quizás venga mañana, pero no lo sé.", explanation: "Quizás venga mañana, pero no lo sé: \"Maybe he'll come tomorrow, but I don't know.\"" },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Cuando llegó a la estación, el tren ya ___ salido.", en: "When she got to the station, the train [had] already left.", answer: "había", explanation: "Había + -ado: what happened before the story's moment." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "¿Vos ___ a la fiesta?", en: "Are you [coming] to the party? (vos)", answer: "venís", explanation: "Vos venís = tú vienes." },
+  { type: "multiple-choice", question: "Fix the sentence: «A lo mejor venga mañana.»", options: ["A lo mejor viene mañana.", "A lo mejor vendría mañana.", "A lo mejor venir mañana.", "A lo mejor que venga mañana."], correctIndex: 0, explanation: "A lo mejor always takes the normal form.", optionNotes: ["", "The conditional doesn't fit a guess about tomorrow.", "It needs a conjugated verb.", "A lo mejor never takes que."] },
+  { type: "word-order", prompt: "Put the words in order.", words: ["En", "1492", "Colón", "llega", "a", "América."], translation: "In 1492 Columbus arrives in America.", explanation: "The historical present makes the past vivid." },
+  // On your own: translate, then speak.
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "This cake is absolutely delicious.", answer: "Esta torta está riquísima.", altAnswers: ["Este pastel está riquísimo.", "Esta tarta está riquísima.", "Este pastel está buenísimo.", "Esta torta está buenísima."], explanation: "Rico → riquísimo: c becomes qu." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "Excuse me, is this umbrella yours? (usted)", answer: "Disculpe, ¿es suyo este paraguas?", altAnswers: ["Disculpe, ¿este paraguas es suyo?", "Perdone, ¿es suyo este paraguas?", "Perdón, ¿es suyo este paraguas?", "Disculpe, ¿es de usted este paraguas?"], explanation: "Usted all the way: disculpe, suyo." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "She said that she would come the next day.", answer: "Dijo que vendría al día siguiente.", altAnswers: ["Ella dijo que vendría al día siguiente.", "Dijo que iba a venir al día siguiente.", "Dijo que venía al día siguiente."], explanation: "Reported: iré → iría (vendría), mañana → al día siguiente." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "The law was approved by Congress.", answer: "La ley fue aprobada por el Congreso.", altAnswers: ["La ley fue aprobada por el congreso."], explanation: "Ser + -ado matches ley (aprobada); por names who did it." },
+  say("Say it in Spanish: \"Wow, what a height!\"", "¡Madre mía, qué altura!", ["¡Guau, qué altura!", "¡Hala, qué altura!", "¡Anda, qué altura!"], "Madre mía: surprise. In Spain also ¡Hala!"),
+  say("Say it in Spanish: \"Do you have a moment? (usted)\"", "¿Tiene un momento?", ["¿Tiene usted un momento?", "¿Usted tiene un momento?"], "Usted takes the él form: tiene."),
+  say("Say it in Spanish: \"Me, lend him my car? Not a chance! (with a friend)\"", "¿Prestarle mi carro? ¡Ni loco!", ["¿Prestarle mi carro? ¡Ni loca!", "¿Prestarle mi carro? ¡Ni hablar!", "¿Prestarle mi coche? ¡Ni loco!", "¿Prestarle mi carro? ¡Ni de broma!", "¿Yo prestarle mi carro? ¡Ni loco!"], "Ni loco: a very strong no, for friends."),
+  say("Say it in Spanish: \"The situation got worse during the night.\" (news)", "La situación se agravó durante la noche.", ["La situación empeoró durante la noche."], "Neutral register: se agravó, not se puso fea."),
+];
+
+const C2_U7: Exercise[] = [
+  // Listening and reading: recognise.
+  { type: "listen-choose", audio: "¿Vosotros venís a la cena?", question: "Listen. Who is she asking?", options: ["A group of friends, in Spain.", "One friend, in Argentina.", "An older stranger, as usted.", "Herself."], correctIndex: 0, explanation: "Venís with vosotros: a group of friends in Spain. In Latin America: ¿Ustedes vienen?" },
+  { type: "listen-choose", audio: "Apenas hubo firmado el tratado, el rey partió hacia Toledo.", question: "Listen. When did the king leave?", options: ["Right after signing the treaty.", "Long before the treaty.", "Years after the treaty.", "He never signed it."], correctIndex: 0, explanation: "Apenas hubo firmado: right after. Today: apenas firmó." },
+  { type: "listen-choose", audio: "La novela tiene una trama sólida, pero el final resulta forzado.", question: "Listen. What does the critic think of the ending?", options: ["It feels forced.", "It is the best part.", "It is too short.", "It is believable."], correctIndex: 0, explanation: "Resultar forzado: to feel forced, not natural." },
+  { type: "multiple-choice", question: "«El que fuera ministro de Hacienda presentó ayer su libro.» What does fuera mean here?", options: ["who had been (or who was)", "if he were", "who will be", "who wants to be"], correctIndex: 0, explanation: "In news and history, el que fuera = el que había sido.", optionNotes: ["", "There's no si: it isn't a wish or condition.", "It looks back, not ahead.", "Nothing here means want."] },
+  { type: "multiple-choice", question: "«Los dos socios firmaron sendos contratos.» What does it say?", options: ["Each partner signed one contract.", "They signed one contract together.", "They signed huge contracts.", "Neither partner signed."], correctIndex: 0, explanation: "Sendos: one each.", optionNotes: ["", "That would be un contrato juntos.", "Sendos doesn't mean big.", "Sendos is never negative."] },
+  { type: "multiple-choice", question: "A teacher in Madrid tells her class: «___ los libros en la página diez.»", options: ["Abrid", "Abrís", "Abran", "Abráis"], correctIndex: 0, explanation: "Vosotros command: drop the -r, add -d.", optionNotes: ["", "Abrís is a statement, not a command.", "Abran is ustedes (Latin America, or formal).", "Abráis is only for don't: no abráis."] },
+  // Guided: write what you hear, complete, put in order, correct.
+  { type: "dictation", audio: "Dicho contrato quedará resuelto de pleno derecho.", explanation: "Dicho contrato quedará resuelto de pleno derecho: \"The said contract shall be terminated automatically.\"" },
+  { type: "dictation", audio: "Contra esta resolución cabe recurso de alzada.", explanation: "Contra esta resolución cabe recurso de alzada: \"An appeal may be lodged against this decision.\"" },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Si el comprador no ___ en plazo, el contrato quedará resuelto. (pagar, old contract style)", en: "If the buyer [fails to pay] on time, the contract will be terminated.", answer: "pagare", explanation: "Pagaron → pagare: the future wish form of contracts. Today: si no paga." },
+  { type: "fill-blank", prompt: "How do you say the bold words in Spanish?", sentence: "Niños, no ___ tarde a cenar. (llegar, vosotros)", en: "Kids, [don't be] late for dinner.", answer: "lleguéis", explanation: "Don't, to a group in Spain: the wish form, no lleguéis (g → gu)." },
+  { type: "multiple-choice", question: "Fix the sentence: «Cuando hubo vuelto, el país estaba cambiado.»", options: ["Cuando volvió, el país estaba cambiado.", "Cuando había vuelto, el país está cambiado.", "Cuando hubiera vuelto, el país estaba cambiado.", "Cuando hubo volvido, el país estaba cambiado."], correctIndex: 0, explanation: "Hubo + -ado only fits after apenas, en cuanto, no bien. Here, volvió.", optionNotes: ["", "Está breaks the past.", "Hubiera is a wish form.", "Volver's -ado form is vuelto."] },
+  { type: "word-order", prompt: "Put the words in order.", words: ["Por", "muy", "lenta", "que", "resulte,", "merece", "la", "pena."], translation: "However slow it may feel, it's worth it.", explanation: "Por muy + adjective + que + wish form: grant a point first." },
+  // On your own: translate, then speak.
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "The ending, however surprising it may be, seems inevitable.", answer: "El desenlace, por sorprendente que resulte, parece inevitable.", altAnswers: ["El desenlace, por muy sorprendente que sea, parece inevitable.", "El final, por sorprendente que resulte, parece inevitable.", "El desenlace, por muy sorprendente que resulte, parece inevitable.", "El final, por muy sorprendente que sea, parece inevitable.", "El desenlace, por sorprendente que sea, parece inevitable."], explanation: "Por (muy) + adjective + que + wish form." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "The merger will give the company a dominant position.", answer: "La fusión dará a la empresa una posición dominante.", altAnswers: ["La fusión le dará a la empresa una posición dominante.", "La fusión va a dar a la empresa una posición dominante.", "La fusión le va a dar a la empresa una posición dominante."], explanation: "Posición dominante: so big it can set prices." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "The two witnesses each gave a statement.", answer: "Los dos testigos prestaron sendas declaraciones.", altAnswers: ["Los dos testigos hicieron sendas declaraciones.", "Los dos testigos dieron sendas declaraciones.", "Cada testigo prestó una declaración.", "Cada uno de los testigos prestó una declaración."], explanation: "Sendas matches declaraciones: one each." },
+  { type: "translate", prompt: "Translate to Spanish.", direction: "en-es", source: "Sit down and don't worry. (to a group of friends in Spain)", answer: "Sentaos y no os preocupéis.", altAnswers: ["Sentaos y no os preocupéis por nada.", "¡Sentaos y no os preocupéis!"], explanation: "Sentaos: the -d drops before os. No os preocupéis: the wish form." },
+  say("Say it in Spanish: \"Columbus would never return to Genoa.\" (looking ahead from the past)", "Colón no volvería nunca a Génova.", ["Colón nunca volvería a Génova.", "Colón no habría de volver nunca a Génova.", "Colón nunca más volvería a Génova."], "Volvería: the future seen from the past."),
+  say("Say it in Spanish: \"The plot is solid, but the main character is flat.\"", "La trama es sólida, pero el protagonista es plano.", ["La trama es sólida, pero el personaje principal es plano.", "La trama es sólida, pero la protagonista es plana."], "Plano: a character who doesn't change."),
+  say("Say it in Spanish: \"Come at seven and bring water. (to friends in Spain)\"", "Venid a las siete y traed agua.", ["Venid a las siete y traed agua, por favor."], "Venid, traed: drop the -r, add -d."),
+  say("Say it in Spanish: \"The said article sets a one-month deadline.\"", "El citado artículo establece un plazo de un mes.", ["Dicho artículo establece un plazo de un mes.", "El referido artículo establece un plazo de un mes.", "El citado artículo fija un plazo de un mes."], "El citado, dicho: the one already mentioned."),
+];
+
 export const ES_UNIT_CHECKS: Record<string, Lesson> = {
   "a1/1": check(
     "es-a1-unit-1-unit-review",
@@ -1381,5 +1433,21 @@ export const ES_UNIT_CHECKS: Record<string, Lesson> = {
     "Twenty new questions on the whole unit: putting the object first, se, uno and they for people in general, and verbs whose small word changes the meaning.",
     "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
     C2_U5,
+  ),
+  "c2/6": check(
+    "es-c2-unit-6-unit-review",
+    "C2",
+    "Unit 6 check: Big and rough endings · Tenses in storytelling · Tú, usted and vos",
+    "Twenty new questions on the whole unit: endings like -azo and -ísimo, exclamations, past tenses in a story, and choosing tú, usted or vos.",
+    "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
+    C2_U6,
+  ),
+  "c2/7": check(
+    "es-c2-unit-7-unit-review",
+    "C2",
+    "Unit 7 check: Spain's vosotros (to recognise) · Old and legal forms",
+    "Twenty new questions on the whole unit: Spain's vosotros and its commands, old and legal forms (hubo firmado, el que fuera, si no abonare), and the critic's words.",
+    "Twenty questions on the whole unit, all with new sentences: first you listen and recognise, then you complete and correct, then you write and speak on your own. Play the audio as often as you like; your recordings aren't saved.",
+    C2_U7,
   ),
 };
