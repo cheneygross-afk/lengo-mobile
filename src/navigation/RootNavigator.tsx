@@ -32,6 +32,8 @@ import ExamScreen from "@/screens/ExamScreen";
 import ExamPaperScreen from "@/screens/ExamPaperScreen";
 import ReadingLevelsScreen from "@/screens/ReadingLevelsScreen";
 import ReadingsListScreen from "@/screens/ReadingsListScreen";
+import NewsListScreen from "@/screens/NewsListScreen";
+import NewsReaderScreen from "@/screens/NewsReaderScreen";
 import StoryReaderScreen from "@/screens/StoryReaderScreen";
 import GrammarListScreen from "@/screens/GrammarListScreen";
 import GrammarGuideScreen from "@/screens/GrammarGuideScreen";
@@ -183,6 +185,8 @@ function AppNavigator() {
       />
       <AppStack.Screen name="ExamPaper" component={ExamPaperScreen} options={{ title: "" }} />
       <AppStack.Screen name="ReadingLevels" component={ReadingLevelsScreen} options={{ title: "Readings" }} />
+      <AppStack.Screen name="NewsList" component={NewsListScreen} options={{ title: "News" }} />
+      <AppStack.Screen name="NewsReader" component={NewsReaderScreen} options={{ title: "News" }} />
       <AppStack.Screen
         name="ReadingsList"
         component={ReadingsListScreen}
