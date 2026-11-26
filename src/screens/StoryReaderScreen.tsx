@@ -115,7 +115,9 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
   // other word looked up by the translator (showMeaning).
   const [playing, setPlaying] = useState<number | null>(null);
   const [shownGloss, setShownGloss] = useState<StoryGloss | null>(null);
-  const [showWordList, setShowWordList] = useState(false);
+  // The Key words list starts open when the story has key words (A1/A2).
+  const [showWordList, setShowWordList] = useState<boolean | null>(null);
+  const wordListOpen = showWordList ?? keyWords.length > 0;
   const playingParagraph = playing == null ? null : chunks[playing]?.pi ?? null;
 
   useEffect(() => {
@@ -208,6 +210,44 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
       await saveFlashcards(all);
     }
     setSaveNotice({ es, message: `Saved to flashcards: ${en}` });
+  }
+
+  // The Key words list's stars: which of this story's words are saved, and
+  // adding or removing one. Flashcards need a (free) account.
+  const [starred, setStarred] = useState<Set<string>>(new Set());
+  useEffect(() => {
+    if (!story) return;
+    let cancelled = false;
+    void loadFlashcards().then((all) => {
+      if (cancelled) return;
+      const prefix = `${story.slug}::`;
+      setStarred(new Set(Object.keys(all).filter((id) => id.startsWith(prefix) && all[id].source !== "auto").map((id) => id.slice(prefix.length))));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [story?.slug]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  async function toggleStar(es: string, en: string) {
+    if (!story) return;
+    if (!loggedIn) {
+      setSaveNotice({ es, message: "Sign up free to save flashcards." });
+      return;
+    }
+    const key = es.trim().toLowerCase();
+    if (starred.has(key)) {
+      const all = await loadFlashcards();
+      delete all[makeFlashcardId(story.slug, es)];
+      await saveFlashcards(all);
+      setStarred((prev) => {
+        const next = new Set(prev);
+        next.delete(key);
+        return next;
+      });
+      return;
+    }
+    await saveWord(es, en);
+    setStarred((prev) => new Set(prev).add(key));
   }
 
   // A tapped word's meaning: its gloss when it has one, otherwise the
@@ -364,33 +404,33 @@ export default function StoryReaderScreen({ route, navigation }: Props) {
           </Pressable>
         </View>
 
-        {keyWords.length > 0 && (
-          <View style={s.keyBox}>
-            <Text style={s.wordBoxTitle}>Key words in this story</Text>
-            {keyWords.map((g) => (
-              <Text key={g.es + g.forms.join()} style={s.wordRow}>
-                <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} />
-                <Text> · </Text>
-                <TapText text={g.en} lang="en-US" mode="english" />
-              </Text>
-            ))}
-          </View>
-        )}
-
+        {/* One list of the story's words (user rule, 2026-11-26: Key words,
+            not a second "Words to know" list): the key words first, each with
+            a star that adds it to Flashcards. */}
         {glosses.length > 0 && (
-          <View style={s.wordBox}>
-            <Pressable onPress={() => setShowWordList((v) => !v)} accessibilityRole="button">
+          <View style={keyWords.length > 0 ? s.keyBox : s.wordBox}>
+            <Pressable onPress={() => setShowWordList(!wordListOpen)} accessibilityRole="button">
               <Text style={s.wordBoxTitle}>
-                {showWordList ? "▾" : "▸"} Words to know ({glosses.length})
+                {wordListOpen ? "▾" : "▸"} Key words ({glosses.length})
               </Text>
             </Pressable>
-            {showWordList &&
-              glosses.map((g) => (
-                <Text key={g.es + g.forms.join()} style={s.wordRow}>
-                  <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} /> · {g.en}
-                </Text>
+            {wordListOpen &&
+              [...keyWords, ...glosses.filter((g) => !keyWords.some((k) => k.es === g.es))].map((g) => (
+                <View key={g.es + g.forms.join()} style={s.starRow}>
+                  <Pressable
+                    hitSlop={8}
+                    onPress={() => void toggleStar(g.es, g.en)}
+                    accessibilityRole="button"
+                    accessibilityLabel={starred.has(g.es.toLowerCase()) ? "Remove from flashcards" : "Add to flashcards"}
+                  >
+                    <Text style={[s.star, starred.has(g.es.toLowerCase()) && s.starOn]}>{starred.has(g.es.toLowerCase()) ? "★" : "☆"}</Text>
+                  </Pressable>
+                  <Text style={[s.wordRow, { flex: 1 }]}>
+                    <TapText text={g.es} lang={langForLevelPath(levelPath)} mode="target" style={s.wordEs} /> · {g.en}
+                  </Text>
+                </View>
               ))}
-            {!showWordList && <Text style={s.wordHint}>Tap any word in the story for its meaning (dotted words are the new ones).</Text>}
+            {!wordListOpen && <Text style={s.wordHint}>Tap any word in the story for its meaning (dotted words are the new ones).</Text>}
           </View>
         )}
         <Text style={s.saveHint}>Long-press any word to save it to your flashcards.</Text>
@@ -510,6 +550,9 @@ const s = StyleSheet.create({
   wordBoxTitle: { fontSize: 14, fontWeight: "600", color: "#2A1513" },
   wordHint: { fontSize: 12, color: "#2A151380" },
   wordRow: { fontSize: 13, color: "#2A1513aa" },
+  starRow: { flexDirection: "row", alignItems: "flex-start", gap: 6, marginTop: 2 },
+  star: { fontSize: 16, color: "#2A151355", lineHeight: 18 },
+  starOn: { color: "#F59E0B" },
   wordEs: { fontWeight: "600", color: "#2A1513" },
   glossCard: {
     position: "absolute",

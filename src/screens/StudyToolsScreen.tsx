@@ -150,11 +150,6 @@ const TOOLS: Tool[] = [
   { route: "Grammar", title: "Grammar Guides", body: "Short explanations of the grammar points learners get stuck on, from beginner to advanced." },
   { route: "Conjugation", title: "Verb Conjugation", body: "Full tables for any verb with the irregular forms marked, plus drills by tense." },
   { route: "Exams", title: "DELE Exam Practice", body: "Full-length practice exams for every DELE level, A1 to C2, marked like the real DELE." },
-  {
-    route: "Glossary",
-    title: "Glossary",
-    body: "Look up any word taught in the course, with its meaning and the lessons and stories it comes from.",
-  },
 ];
 
 export default function StudyToolsScreen({ navigation, route }: Props) {
