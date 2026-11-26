@@ -34,9 +34,11 @@ export type AnswerLanguage = "es" | "en" | "zh" | "fr" | "de" | "pt" | "ko" | "i
 
 /** Share of a lesson's questions that must be right the first time for the lesson to count as complete. */
 export const LESSON_PASS_PERCENT = 70;
+/** Unit checks ask a little more (Ricardo's method v2). */
+export const UNIT_CHECK_PASS_PERCENT = 75;
 
-export function lessonPassed(correct: number, total: number): boolean {
-  return total === 0 || correct * 100 >= total * LESSON_PASS_PERCENT;
+export function lessonPassed(correct: number, total: number, percent = LESSON_PASS_PERCENT): boolean {
+  return total === 0 || correct * 100 >= total * percent;
 }
 
 // ---- Text cleanup ----------------------------------------------------
