@@ -19,6 +19,8 @@ import { Dictation, ListenButtons, ListenChoose, Speak, Write } from "@/componen
 import { AnswerCompare } from "@/components/AnswerCompare";
 import { RubyLabel } from "@/components/JaRuby";
 import { plainJa } from "@/lib/japanese";
+import { answerCheckRequest } from "@/lib/answerCheck";
+import { checkAnswerWithClaude } from "@/lib/answerCheckClient";
 
 // Word tiles make a sentence: with spaces, except in Japanese.
 function joinTiles(words: string[], lang: string): string {
@@ -145,6 +147,20 @@ export default function ExerciseBlock({
     onChecked?.(isCorrect, explanation, title, ungraded);
   }
 
+  // A typed answer the grader marked wrong is checked again
+  // (answerCheck.ts): another correct answer counts.
+  const [checking, setChecking] = useState(false);
+  async function reportTyped(isCorrect: boolean, note?: string, typed?: string) {
+    if (checking) return;
+    const req = isCorrect || typed === undefined ? null : answerCheckRequest(exercise, typed, lang, level);
+    if (!req) return report(isCorrect, note);
+    setChecking(true);
+    const second = await checkAnswerWithClaude(req);
+    setChecking(false);
+    if (second?.correct) return report(true, second.note || "Also correct.");
+    report(false, note ?? second?.note);
+  }
+
   return (
     <View style={s.container}>
       {!hideIndexLabel && <Text style={s.index}>Question {index + 1}</Text>}
@@ -179,7 +195,8 @@ export default function ExerciseBlock({
           exercise={exercise}
           checked={checked}
           correct={correct}
-          onSubmit={report}
+          onSubmit={reportTyped}
+          busy={checking}
           lang={lang}
           hidden={hideText}
         />
@@ -189,7 +206,8 @@ export default function ExerciseBlock({
           exercise={exercise}
           checked={checked}
           correct={correct}
-          onSubmit={report}
+          onSubmit={reportTyped}
+          busy={checking}
           lang={lang}
           hidden={hideText}
         />
@@ -221,8 +239,11 @@ type SubProps<E> = {
   exercise: E;
   checked: boolean;
   correct: boolean;
-  onSubmit: (c: boolean, note?: string) => void;
+  // `typed`: what was typed (fill-blank, translate), for the second check.
+  onSubmit: (c: boolean, note?: string, typed?: string) => void;
   lang: SpeechLang;
+  // While a typed answer is being checked again.
+  busy?: boolean;
   // Listen-first mode: the Spanish is hidden (played instead) for now.
   hidden?: boolean;
 };
@@ -364,6 +385,7 @@ function FillBlank({
   onSubmit,
   lang,
   hidden,
+  busy,
 }: SubProps<Extract<Exercise, { type: "fill-blank" }>>) {
   const [value, setValue] = useState("");
   const kb = useScriptKeyboard(lang, value, setValue, !checked);
@@ -420,10 +442,11 @@ function FillBlank({
       {exercise.hint && !checked && <TapText text={`Hint: ${exercise.hint}`} lang={lang} style={s.hint} />}
       {!checked && (
         <SubmitButton
-          disabled={!value.trim()}
+          disabled={!value.trim() || !!busy}
+          label={busy ? "…" : undefined}
           onPress={() => {
             const result = gradeFillBlank(value, exercise, lang);
-            onSubmit(result.correct, result.note);
+            onSubmit(result.correct, result.note, value);
           }}
         />
       )}
@@ -438,6 +461,7 @@ function Translate({
   onSubmit,
   lang,
   hidden,
+  busy,
 }: SubProps<Extract<Exercise, { type: "translate" }>>) {
   const [value, setValue] = useState("");
   const sourceIsTarget = exercise.direction === "es-en";
@@ -513,10 +537,11 @@ function Translate({
       )}
       {!checked && (
         <SubmitButton
-          disabled={!value.trim()}
+          disabled={!value.trim() || !!busy}
+          label={busy ? "…" : undefined}
           onPress={() => {
             const result = gradeTranslate(value, exercise, lang);
-            onSubmit(result.correct, result.note);
+            onSubmit(result.correct, result.note, value);
           }}
         />
       )}
@@ -725,10 +750,10 @@ function matchingAllCorrect(pairs: { left: string; right: string }[], chosen: (s
   return [...groups.values()].every(({ want, got }) => want.sort().join("\u0000") === got.sort().join("\u0000"));
 }
 
-function SubmitButton({ disabled, onPress }: { disabled: boolean; onPress: () => void }) {
+function SubmitButton({ disabled, onPress, label }: { disabled: boolean; onPress: () => void; label?: string }) {
   return (
     <Pressable disabled={disabled} onPress={onPress} style={[s.submit, disabled && s.submitDisabled]}>
-      <Text style={s.submitText}>Check</Text>
+      <Text style={s.submitText}>{label ?? "Check"}</Text>
     </Pressable>
   );
 }

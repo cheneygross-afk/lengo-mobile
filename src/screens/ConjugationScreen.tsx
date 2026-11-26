@@ -4,6 +4,7 @@ import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { AppStackParamList } from "@/navigation/types";
 import TapText, { spokenPieces } from "@/components/TapText";
 import AudioGate from "@/components/AudioGate";
+import FlashcardStarButton from "@/components/FlashcardStarButton";
 import { SPANISH_LANG, speak, type SpeechItem } from "@/lib/speech";
 import { useAudioPreload, useWarmSpeech } from "@/lib/useAudioPreload";
 import { conjugate, specFor } from "@/lib/conjugation/conjugate";
@@ -195,6 +196,9 @@ function VerbTables({ infinitive, onPick }: { infinitive: string; onPick: (inf: 
         <Text style={[s.badge, verb.irregular && s.badgeIrregular]}>{verb.irregular ? "Irregular" : "Regular"}</Text>
       </View>
       {verb.en ? <TapText text={verb.en} lang={SPANISH_LANG} mode="english" style={s.muted} /> : null}
+      {verb.en ? (
+        <FlashcardStarButton key={verb.infinitive} card={{ source: "conjugation", sourceTitle: "Verb conjugation", es: verb.infinitive, en: verb.en, level: "", levelPath: "" }} />
+      ) : null}
       {canToggle && (
         <Pressable onPress={() => onPick(verb.pronominal ? verb.base : `${verb.base}se`)}>
           <Text style={s.link}>{verb.pronominal ? `Show ${verb.base} without se` : `Show ${verb.base}se`}</Text>

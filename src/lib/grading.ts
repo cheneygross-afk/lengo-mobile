@@ -43,13 +43,17 @@ export function lessonPassed(correct: number, total: number): boolean {
 
 const WORD = /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+/g;
 
-/** Lowercase, straight apostrophes, no ¿?¡!.,;: or quotes, single spaces. Accents kept. */
+/** Lowercase, straight apostrophes, no ¿?¡!.,;:, quotes, dashes, brackets or
+ * ellipses, single spaces. Accents kept. Punctuation is never what a typed
+ * answer is marked on (user rule, 2026-11-26). */
 export function cleanAnswer(s: string): string {
   return s
     .normalize("NFC")
     .toLowerCase()
     .replace(/[‘’ʼ`]/g, "'")
-    .replace(/[¿?¡!.,;:"“”«»]/g, " ")
+    .replace(/[¿?¡!.,;:"“”«»…()[\]{}—–*]/g, " ")
+    // A hyphen standing alone ("Hola - ¿qué tal?") is punctuation too.
+    .replace(/(^|\s)-+(?=\s|$)/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -318,6 +322,37 @@ export function normalizeEnglishNumbers(cleaned: string): string {
   return out.join(" ").replace(/\bper cent\b/g, "percent").replace(/(\d) ?%/g, "$1 percent");
 }
 
+// ---- Spanish words that are just as right ----------------------------
+
+// Each group's words count as the same answer (auditor review, 2026-11-27):
+// Latin American and Spain words for one thing, and words a teacher accepts
+// either way at these levels. Applied to both the typed answer and the key.
+const ES_SAME: string[][] = [
+  ["profesor", "maestro"],
+  ["profesora", "maestra"],
+  ["profesores", "maestros"],
+  ["profesoras", "maestras"],
+  ["carro", "coche", "auto"],
+  ["carros", "coches", "autos"],
+  ["unos", "algunos"],
+  ["unas", "algunas"],
+  ["celular", "móvil"],
+  ["computadora", "ordenador", "computador"],
+  ["jugo", "zumo"],
+  ["papa", "patata"],
+  ["papas", "patatas"],
+];
+const ES_CANON = new Map(ES_SAME.flatMap((g) => g.map((w) => [w, g[0]] as const)));
+// "Tengo perros pequeños" says the same as "Tengo unos perros pequeños".
+const PLURAL_SOME = new Set(["unos", "unas"]);
+
+/** A cleaned Spanish answer with same-meaning words made one: "mi maestra"
+ * and "mi profesora", "tengo perros" and "tengo unos perros" compare equal. */
+export function canonSpanish(cleaned: string): string {
+  const words = cleaned.split(" ").map((w) => ES_CANON.get(w) ?? w);
+  return words.filter((w, i) => !(PLURAL_SOME.has(w) && i < words.length - 1 && /s$/.test(words[i + 1]))).join(" ");
+}
+
 // ---- Free-text grading -----------------------------------------------
 
 type Match = { rank: number; note?: string }; // 3 exact, 2 accent slip, 1 typo, 0 wrong
@@ -531,7 +566,9 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
         ? cleanAnswer(s).replace(/-/g, " ").replace(/\s+/g, " ")
         : opts.lang === "de"
           ? cleanAnswer(s).replace(/ß/g, "ss").replace(/„/g, " ").replace(/\s+/g, " ").trim()
-          : cleanAnswer(s);
+          : opts.lang === "es"
+            ? canonSpanish(cleanAnswer(s))
+            : cleanAnswer(s);
   const typed = prep(value);
   if (!typed) return { correct: false };
   let best: Match = { rank: 0 };
@@ -542,7 +579,15 @@ export function gradeFreeText(value: string, answers: string[], opts: GradeOptio
       if (best.rank === 3) return { correct: true };
     }
   }
-  return best.rank > 0 ? { correct: true, note: best.note } : { correct: false };
+  if (best.rank > 0) return { correct: true, note: best.note };
+  // Wrong only because of an accent that makes it another word ("esta" for
+  // "está"): say so, so it doesn't look like a wrong answer.
+  if (opts.lang === "es") {
+    const bare = stripAccents(typed);
+    const near = answers.find((a) => stripAccents(prep(a)) === bare);
+    if (near) return { correct: false, note: `Only the accent mark is off, but here it makes a different word: "${near}".` };
+  }
+  return { correct: false };
 }
 
 /** "es-ES" -> "es", "en-US" (the English for Spanish speakers beta) ->
