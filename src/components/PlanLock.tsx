@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { View, Text, Pressable, StyleSheet } from "react-native";
-import { openPremium } from "@/lib/premium";
+import { openPremium, canLinkToWebPlans } from "@/lib/premium";
 import { courseName } from "@/lib/courses";
 import type { CourseId } from "@/lib/courses";
 import { APP_WEBSITE, IS_LANGUAGES_APP } from "@/lib/appVariant";
@@ -33,6 +33,8 @@ export default function PlanLock({
           ? `This lesson is part of Focused Lessons for ${language} (or All Access, for every language).`
           : `This study tool comes with Focused Lessons for ${language} (or All Access, for every language).`}
       </Text>
+      {canLinkToWebPlans() ? (
+      <>
       <Pressable
         style={[s.btn, opening && s.btnDisabled]}
         disabled={opening}
@@ -45,6 +47,8 @@ export default function PlanLock({
         <Text style={s.btnText}>{opening ? "Opening…" : "See plans"}</Text>
       </Pressable>
       <Text style={s.note}>Opens {APP_WEBSITE.replace("https://", "")} in your browser, already signed in.</Text>
+      </>
+      ) : null}
     </View>
   );
 }
