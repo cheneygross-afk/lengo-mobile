@@ -18,7 +18,7 @@ import { previewVoice, setPreferredVoice, setPronunciationEnabled } from "@/lib/
 import SpanishVarietyPicker from "@/components/SpanishVarietyPicker";
 import { syncPrefs, updatePrefs } from "@/lib/learnerPrefs";
 import { APP_WEBSITE, IS_LANGUAGES_APP } from "@/lib/appVariant";
-import { openPremium as openWebsitePlans } from "@/lib/premium";
+import { openPremium as openWebsitePlans, canLinkToWebPlans } from "@/lib/premium";
 import {
   DAILY_GOAL_LABELS,
   DAILY_GOAL_OPTIONS,
@@ -384,6 +384,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
         )}
       </View>
 
+      {canLinkToWebPlans() ? (
       <Pressable style={s.premiumBtn} onPress={openPremium} disabled={openingPremium}>
         <Text style={s.premiumBtnText}>{openingPremium ? "Opening…" : "Get Premium"}</Text>
         <Text style={s.premiumBtnSub}>
@@ -393,6 +394,7 @@ export default function SettingsScreen({ navigation }: NativeStackScreenProps<Ap
           Opens {APP_WEBSITE.replace("https://", "")} in your browser, already signed in.
         </Text>
       </Pressable>
+      ) : null}
 
       <View style={s.section}>
         <Text style={s.sectionTitle}>Daily goal</Text>
